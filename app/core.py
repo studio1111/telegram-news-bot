@@ -71,7 +71,7 @@ def build_rich_message_html(title, summary, article, source):
     return (
         f"<b>📰 {clean_title}</b>\n\n"
         f"{clean_summary}\n\n"
-        "<details><summary>مشاهده متن کامل خبر</summary>"
+        "<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary>"
         f"<p>{clean_article}</p>"
         "</details>\n\n"
         f"📡 منبع: {clean_source}\n"
