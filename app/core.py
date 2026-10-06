@@ -1,5 +1,6 @@
-import re
+from datetime import datetime, timedelta, timezone
 from html import escape
+import re
 
 _STOP_WORDS = {
     "the", "a", "an", "to", "of", "and", "for", "in", "on", "by", "with",
@@ -47,6 +48,18 @@ def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.48
 
 def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
     return item_id not in seen and url not in seen
+
+
+def is_recent_news(published_at: datetime | None, now: datetime | None = None, window_minutes: int = 5) -> bool:
+    if published_at is None:
+        return False
+    now = now or datetime.now(timezone.utc)
+    if published_at.tzinfo is None:
+        published_at = published_at.replace(tzinfo=timezone.utc)
+    published_at = published_at.astimezone(timezone.utc)
+    now = now.astimezone(timezone.utc)
+    age = now - published_at
+    return timedelta(0) <= age <= timedelta(minutes=window_minutes)
 
 
 def is_technology_news(category: str) -> bool:
