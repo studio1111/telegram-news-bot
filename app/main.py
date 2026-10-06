@@ -5,13 +5,13 @@ from pathlib import Path
 from .ai import process_with_gemini
 from .collector import collect_feed, fetch_article_text
 from .core import (
-    build_expanded_message,
+    build_rich_message_html,
     is_duplicate_story,
     is_new_item,
     is_technology_news,
 )
 from .storage import StateStore
-from .telegram import publish_message, publish_photo
+from .telegram import publish_rich_message
 
 
 def max_new_items(env=None):
@@ -49,19 +49,16 @@ def main():
             if is_duplicate_story(story, published_stories):
                 continue
 
-            message = build_expanded_message(
+            message = build_rich_message_html(
                 processed["title_fa"],
+                processed["summary_fa"],
                 processed.get("article_fa") or processed["summary_fa"],
                 item.source,
             )
 
-            # Telegram can fetch the public hero image directly. If a feed does not
-            # expose one, the article is still published as a clean text post.
-            publish_photo(
-                item.image_url,
-                f"📰 <b>{processed['title_fa']}</b>",
-            )
-            publish_message(message)
+            # One Telegram post contains the headline image, headline, summary,
+            # expandable full report, source name, and channel handle.
+            publish_rich_message(message, item.image_url)
 
             published_stories.append(story)
             published_stories = published_stories[-500:]
