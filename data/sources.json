@@ -1,0 +1,4 @@
+[
+  {"name":"BBC Persian","url":"https://feeds.bbci.co.uk/persian/rss.xml","limit":10},
+  {"name":"DW Persian","url":"https://rss.dw.com/rdf/rss-fa-all","limit":10}
+]
