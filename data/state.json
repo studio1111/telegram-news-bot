@@ -11,8 +11,10 @@
     "5360703ab32aa93df8be509750912cb45d2cf7da6628158f44d178c149077556",
     "59d756c9774bdccc3fc34ba53d77af51c596b63d9c52a540d80d0a706b198092",
     "626d8ebdb1b3043c49baf263cd9e14429d357522c86b7cd0f25bfe5d68cd160f",
+    "631d0940025607f194ebf804512dca540eca9e4ca65d4a7a6c645e2737cb56a1",
     "742406078a521a0fad375c8b0bf2ee6f09bf2376558e425a06afd050fb2708c5",
     "74e7462482578a3258ddca0eff5cd676e9bbf6dcb0de451095353e082944746d",
+    "7a31961935da7da429115cbcf798403c155e431e2647fb3492665951674126cf",
     "7afc1ae44eb15cc5ccfad48dc9ca1f625a08c8f3c88f43c4bb8b217bfcc6d7f2",
     "7cf7a3e962c7bd472320c4450a5397b7dcb80062ed7b2e9395f6733b560875ea",
     "80eb761b3b68931ee2a703937d222aba6baeee4ef6fc06418b6ed5e406363a4c",
@@ -20,6 +22,7 @@
     "94db948bd3d8bd2bf718959d2a2f8cda0857fbebd9f9c8685d6eb9d11a904fe1",
     "97e2520184a2c69931b4261cd1529b777d0e1661695e6dc7967a3e41939ca322",
     "9efecfab5d086b2bdf48135a4048be32c412aba9148130dbbf657d5a382c93f6",
+    "9fc4ff5cd388e73f4b231c852d1ec4804338b1cc395a54a295b2e5475811886d",
     "a1338f3e28996c633178f1a1956f000b78b684010c6ed4e5ac77c7209c50d207",
     "a549e670ec5ede1c6046a7cd68e58ce3d28ca1240690a16c7a74a1039de9228c",
     "b94f42159266745f49363c1cec12ec723e76e67295d493f16a74ab3b8bc432fe",
@@ -61,6 +64,9 @@
     "https://www.bbc.com/persian/articles/c9vgr4pxn3jeo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.com/persian/articles/cwg5j8414294o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.com/persian/articles/cxe8ry45z080o?at_medium=RSS&at_campaign=rss",
+    "https://www.theverge.com/gadgets/1004180/sonos-beam-2-soundbar-prime-day-deal-sale",
+    "https://www.theverge.com/games/1006092/playstation-portal-oled-wi-fi-alliance-certifications",
+    "https://www.theverge.com/tech/1006103/amazon-alexa-aux-voice-commands",
     "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
     "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
@@ -151,6 +157,18 @@
     {
       "title": "Vinod Khosla believes ex-DeepMind engineer’s Wajo will win agent market on trust",
       "summary": "Wajo's Fo agent can hire humans to complete a task."
+    },
+    {
+      "title": "Two mystery PlayStation products have leaked — one might be a PlayStation Portal OLED",
+      "summary": "Is Sony about to announce a new PlayStation Portal game streaming handheld? The Wi-Fi Alliance recently certified two unannounced PlayStation products of some kind, and the certification documents indicate that they could be updates to the PlayStation Portal, which might mean we're getting the OLED screen rumored earlier this year. The two devices, which are [&#8230;]"
+    },
+    {
+      "title": "Alexa can’t control the aux input on Amazon Echo speakers anymore",
+      "summary": "If you've been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working. Ars Technica points to this Reddit poster claiming they received a message from Amazon and says an unnamed spokesperson confirmed the change. When contacted by [&#8230;]"
+    },
+    {
+      "title": "The Sonos Beam 2 soundbar is $140 off",
+      "summary": "The Sonos Beam Gen 2 soundbar is on sale for $359 at Amazon and Best Buy during October Prime Day, a healthy $140 discount from its usual price, and $10 lower than the previous Prime Day price. The biggest draw here may be obvious — its native connectivity to other Sonos products — though it’s [&#8230;]"
     }
   ]
 }
