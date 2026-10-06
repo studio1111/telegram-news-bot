@@ -1,5 +1,6 @@
 import json
 import os
+import time
 
 import requests
 
@@ -50,14 +51,27 @@ def process_with_gemini(title, summary, article_text=""):
         "RSS SUMMARY: " + summary + "\n"
         "ARTICLE TEXT: " + source_text
     )
-    response = requests.post(
-        f"{GEMINI_API_BASE}/{model}:generateContent",
-        params={"key": key},
-        json={"contents": [{"parts": [{"text": prompt}]}]},
-        timeout=60,
-    )
-    if not response.ok:
-        raise RuntimeError(f"Gemini API error {response.status_code}: {response.text[:1000]}")
+    last_error = None
+    for attempt in range(2):
+        try:
+            response = requests.post(
+                f"{GEMINI_API_BASE}/{model}:generateContent",
+                params={"key": key},
+                json={"contents": [{"parts": [{"text": prompt}]}]},
+                timeout=90,
+            )
+            if not response.ok:
+                raise RuntimeError(
+                    f"Gemini API error {response.status_code}: {response.text[:1000]}"
+                )
+            break
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as exc:
+            last_error = exc
+            if attempt == 1:
+                raise RuntimeError("Gemini API request timed out or failed twice") from exc
+            time.sleep(2)
+    else:
+        raise RuntimeError("Gemini API request failed") from last_error
 
     try:
         raw = response.json()["candidates"][0]["content"]["parts"][0]["text"]
