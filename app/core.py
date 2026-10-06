@@ -51,7 +51,7 @@ def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
     return item_id not in seen and url not in seen
 
 
-NEWS_WINDOW_MINUTES = 60
+NEWS_WINDOW_MINUTES = 5
 
 
 def is_recent_news(
