@@ -1,5 +1,6 @@
 {
   "seen": [
+    "0fb89db91a9e9d8a1f3b0679a281cf60b7670d03cc1db5a29345c15912097ea5",
     "1e3d74cd8cd48bb3e2d0f23909cfdbb491a5f594eda6c16f3c9d633ec7b579f9",
     "2fd90060880f96936027d205dc91b5b5d3ba0f849980a3c8ec5483bf3bb76255",
     "4c729d05cfc62aabadf07d8841ac4c61144597e106ac3497e46f68216ba85a6b",
@@ -13,7 +14,9 @@
     "9efecfab5d086b2bdf48135a4048be32c412aba9148130dbbf657d5a382c93f6",
     "b94f42159266745f49363c1cec12ec723e76e67295d493f16a74ab3b8bc432fe",
     "dda8f532eaa12395b031f675107e0ee2589f4049cc768642e1d70149d7f97214",
+    "eebf197980237329a8e18a961f3323ff1a7b6c7b0edf7daab0c2fc4d2d7bf4de",
     "f67eea3fd85e4db91ea7b9e1471d77a041311924e4e2e54b3f2f584d0acf9392",
+    "fb51e9ccad771cb213bb6b357bb23f400bb65815db5a790ac9cbc31cc6192dc2",
     "fd6c57925f97cce642affb5c166d8c0993c520193ed37f04afb25e43c00483fd",
     "fe8415b6a6f7b0066af80eedb050e9af65969c8963313e4cbc2c6d217165bd45",
     "https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/",
@@ -31,7 +34,10 @@
     "https://www.bbc.com/persian/articles/c69wzrg4jryro?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.com/persian/articles/c9vgr4pxn3jeo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.com/persian/articles/cwg5j8414294o?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.com/persian/articles/cxe8ry45z080o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/persian/articles/cxe8ry45z080o?at_medium=RSS&at_campaign=rss",
+    "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+    "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+    "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/"
   ],
   "published_stories": [
     {
@@ -57,6 +63,18 @@
     {
       "title": "Instinct brings its AI agent to group chats, even for friends without an account",
       "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action."
+    },
+    {
+      "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
+      "summary": "With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence."
+    },
+    {
+      "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
+      "summary": "The author of The AGI Chronicles says his book “was written by a very tired, overworked, under-slept human being.”"
+    },
+    {
+      "title": "Rural Data Centers Are in for a Big Federal Tax Break",
+      "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash."
     }
   ]
 }
