@@ -36,7 +36,7 @@ def test_build_rich_message_is_one_post_with_expandable_article():
         "متن بازنویسی‌شده و کامل خبر.",
         "TechCrunch",
     )
-    assert "<details><summary>مشاهده متن کامل خبر</summary>" in msg
+    assert "<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary>" in msg
     assert "متن بازنویسی‌شده و کامل خبر." in msg
     assert "TechCrunch" in msg
     assert "@MyNewsTechnology" in msg
