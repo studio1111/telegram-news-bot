@@ -4,12 +4,12 @@ from app.collector import NewsItem
 import app.main as news_main
 
 
-def test_main_uses_five_minute_window():
+def test_main_uses_thirty_minute_window():
     from datetime import timedelta
 
     now = datetime(2026, 10, 6, 18, 10, tzinfo=timezone.utc)
-    assert news_main.is_recent_news(now - timedelta(minutes=5), now)
-    assert not news_main.is_recent_news(now - timedelta(minutes=5, seconds=1), now)
+    assert news_main.is_recent_news(now - timedelta(minutes=30), now)
+    assert not news_main.is_recent_news(now - timedelta(minutes=30, seconds=1), now)
 
 
 def test_item_without_image_is_not_marked_seen(monkeypatch):
