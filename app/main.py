@@ -1,5 +1,5 @@
 import json
-import os
+from datetime import datetime, timezone
 from pathlib import Path
 
 from .ai import process_with_gemini
@@ -8,19 +8,11 @@ from .core import (
     build_rich_message_html,
     is_duplicate_story,
     is_new_item,
+    is_recent_news,
     is_technology_news,
 )
 from .storage import StateStore
 from .telegram import publish_rich_message
-
-
-def max_new_items(env=None):
-    env = os.environ if env is None else env
-    try:
-        value = int(env.get("MAX_NEW_ITEMS", "3"))
-        return value if value > 0 else 3
-    except (TypeError, ValueError):
-        return 3
 
 
 def main():
@@ -28,14 +20,13 @@ def main():
     store = StateStore()
     seen = store.load()
     published_stories = store.load_records()
-    published = 0
-    limit = max_new_items()
+    now = datetime.now(timezone.utc)
 
     for source in sources:
-        for item in collect_feed(source["url"], source["name"], source.get("limit", 10)):
-            if published >= limit:
-                break
+        for item in collect_feed(source["url"], source["name"], source.get("limit", 100)):
             if not is_new_item(item.item_id, item.url, seen):
+                continue
+            if not is_recent_news(item.published_at, now):
                 continue
 
             article_text = fetch_article_text(item.url)
@@ -68,10 +59,6 @@ def main():
 
             published_stories.append(story)
             published_stories = published_stories[-500:]
-            published += 1
-
-        if published >= limit:
-            break
 
     store.save(seen, published_stories)
 
