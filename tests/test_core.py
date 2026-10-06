@@ -21,10 +21,10 @@ def test_is_new_item_uses_stable_id_and_url():
     assert is_new_item("xyz", "https://example.com/new", seen) is True
 
 
-def test_news_window_accepts_only_items_published_within_sixty_minutes():
+def test_news_window_accepts_only_items_published_within_five_minutes():
     now = datetime(2026, 10, 6, 18, 30, tzinfo=timezone.utc)
-    assert is_recent_news(now - timedelta(minutes=60), now) is True
-    assert is_recent_news(now - timedelta(minutes=60, seconds=1), now) is False
+    assert is_recent_news(now - timedelta(minutes=5), now) is True
+    assert is_recent_news(now - timedelta(minutes=5, seconds=1), now) is False
     assert is_recent_news(now + timedelta(seconds=1), now) is False
 
 
