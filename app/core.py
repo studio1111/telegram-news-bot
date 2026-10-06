@@ -95,7 +95,7 @@ def build_rich_message_html(title, summary, article, source):
         "<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary>"
         f"<p>{clean_article}</p>"
         "</details>\n\n"
-        f"📡 منبع: {clean_source}\n"
+        f"📡 منبع: {clean_source}<br>\n"
         f"{CHANNEL_FOOTER}"
     )
 
