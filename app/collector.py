@@ -104,8 +104,8 @@ def fetch_article_text(url: str, max_chars: int = 18000) -> str:
         return ""
 
     text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\\1>", " ", response.text)
-    text = re.sub(r"(?is)<[^>]+>", " ", response.text)
-    text = re.sub(r"\\s+", " ", text)
+    text = re.sub(r"(?is)<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
     return normalize_text(text)[:max_chars]
 
 
