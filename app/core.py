@@ -10,6 +10,7 @@ _STOP_WORDS = {
 }
 
 CHANNEL_HANDLE = "@MyNewsTechnology"
+CHANNEL_FOOTER = f"آخرین اخبار تکنولوژی | {CHANNEL_HANDLE}"
 
 
 def normalize_text(value: str) -> str:
@@ -88,7 +89,7 @@ def build_rich_message_html(title, summary, article, source):
         f"<p>{clean_article}</p>"
         "</details>\n\n"
         f"📡 منبع: {clean_source}\n"
-        f"{CHANNEL_HANDLE}"
+        f"{CHANNEL_FOOTER}"
     )
 
 
