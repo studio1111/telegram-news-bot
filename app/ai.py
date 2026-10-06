@@ -4,7 +4,7 @@ import os
 import requests
 
 
-DEFAULT_GEMINI_MODEL = "gemini-3.8-flash"
+DEFAULT_GEMINI_MODEL = "gemini-2.5-pro"
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 
 
