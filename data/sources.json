@@ -1,4 +1,8 @@
 [
-  {"name":"BBC Persian","url":"https://feeds.bbci.co.uk/persian/rss.xml","limit":10},
-  {"name":"DW Persian","url":"https://rss.dw.com/rdf/rss-fa-all","limit":10}
+  {"name":"TechCrunch","url":"https://techcrunch.com/feed/","limit":10},
+  {"name":"WIRED AI","url":"https://www.wired.com/feed/tag/ai/latest/rss","limit":10},
+  {"name":"WIRED Security","url":"https://www.wired.com/feed/tag/security/latest/rss","limit":10},
+  {"name":"Ars Technica Technology Lab","url":"https://feeds.arstechnica.com/arstechnica/technology-lab","limit":10},
+  {"name":"The Verge","url":"https://www.theverge.com/rss/index.xml","limit":10},
+  {"name":"Engadget","url":"https://www.engadget.com/rss.xml","limit":10}
 ]
