@@ -48,3 +48,27 @@ def test_process_with_gemini_retries_after_timeout(monkeypatch):
 
     assert calls["count"] == 2
     assert result["category"] == "technology"
+
+
+def test_process_with_gemini_retries_transient_503(monkeypatch):
+    calls = {"count": 0}
+
+    class BusyResponse(FakeResponse):
+        ok = False
+        status_code = 503
+        text = "temporarily unavailable"
+
+    def fake_post(*args, **kwargs):
+        calls["count"] += 1
+        if calls["count"] < 3:
+            return BusyResponse()
+        return FakeResponse()
+
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    monkeypatch.setattr(ai.requests, "post", fake_post)
+    monkeypatch.setattr(ai.time, "sleep", lambda *_: None)
+
+    result = ai.process_with_gemini("Title", "Summary")
+
+    assert calls["count"] == 3
+    assert result["category"] == "technology"
