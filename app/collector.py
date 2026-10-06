@@ -1,6 +1,8 @@
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from hashlib import sha256
 from html.parser import HTMLParser
+import calendar
 import re
 
 import feedparser
@@ -17,6 +19,7 @@ class NewsItem:
     summary: str
     source: str
     image_url: str = ""
+    published_at: datetime | None = None
 
 
 class _ImageParser(HTMLParser):
@@ -35,10 +38,10 @@ class _ImageParser(HTMLParser):
 
 def _article_image_url(html: str) -> str:
     patterns = (
-        r'(?is)<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
-        r'(?is)<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
-        r'(?is)<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)',
-        r'(?is)<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']',
+        r'(?is)<meta[^>]+property=["\\']og:image["\\'][^>]+content=["\\']([^"\\']+)',
+        r'(?is)<meta[^>]+content=["\\']([^"\\']+)["\\'][^>]+property=["\\']og:image["\\']',
+        r'(?is)<meta[^>]+name=["\\']twitter:image["\\'][^>]+content=["\\']([^"\\']+)',
+        r'(?is)<meta[^>]+content=["\\']([^"\\']+)["\\'][^>]+name=["\\']twitter:image["\\']',
     )
     for pattern in patterns:
         match = re.search(pattern, html or "")
@@ -79,6 +82,16 @@ def _image_url(entry) -> str:
     return _article_image_url(entry.get("summary", "") or "")
 
 
+def _entry_published_at(entry):
+    value = entry.get("published_parsed") or entry.get("updated_parsed")
+    if not value:
+        return None
+    try:
+        return datetime.fromtimestamp(calendar.timegm(value), tz=timezone.utc)
+    except (TypeError, ValueError, OverflowError):
+        return None
+
+
 def fetch_article_text(url: str, max_chars: int = 18000) -> str:
     try:
         response = requests.get(
@@ -90,9 +103,9 @@ def fetch_article_text(url: str, max_chars: int = 18000) -> str:
     except requests.RequestException:
         return ""
 
-    text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\1>", " ", response.text)
+    text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\\1>", " ", response.text)
     text = re.sub(r"(?is)<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"\\s+", " ", text)
     return normalize_text(text)[:max_chars]
 
 
@@ -109,7 +122,7 @@ def fetch_article_image_url(url: str) -> str:
     return _article_image_url(response.text)
 
 
-def collect_feed(url: str, source_name: str, limit: int = 10):
+def collect_feed(url: str, source_name: str, limit: int = 100):
     parsed = feedparser.parse(url)
     items = []
     for entry in parsed.entries[:limit]:
@@ -127,6 +140,7 @@ def collect_feed(url: str, source_name: str, limit: int = 10):
                 summary,
                 source_name,
                 _image_url(entry),
+                _entry_published_at(entry),
             )
         )
     return items
