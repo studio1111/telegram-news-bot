@@ -1,8 +1,11 @@
+from datetime import datetime, timedelta, timezone
+
 from app.core import (
     build_expanded_message,
     build_rich_message_html,
     build_telegram_message,
     is_new_item,
+    is_recent_news,
     normalize_text,
 )
 
@@ -16,6 +19,13 @@ def test_is_new_item_uses_stable_id_and_url():
     assert is_new_item("abc", "https://example.com/new", seen) is False
     assert is_new_item("xyz", "https://example.com/old", seen) is False
     assert is_new_item("xyz", "https://example.com/new", seen) is True
+
+
+def test_news_window_accepts_only_items_published_within_five_minutes():
+    now = datetime(2026, 10, 6, 18, 5, tzinfo=timezone.utc)
+    assert is_recent_news(now - timedelta(minutes=5), now) is True
+    assert is_recent_news(now - timedelta(minutes=5, seconds=1), now) is False
+    assert is_recent_news(now + timedelta(seconds=1), now) is False
 
 
 def test_build_telegram_message_uses_expanding_article_without_source_url():
