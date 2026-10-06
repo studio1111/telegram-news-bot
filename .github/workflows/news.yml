@@ -1,3 +1,7 @@
+concurrency:
+  group: news-bot
+  cancel-in-progress: true
+
 name: News Bot
 
 on:
