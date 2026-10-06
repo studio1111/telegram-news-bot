@@ -51,7 +51,14 @@ def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
     return item_id not in seen and url not in seen
 
 
-NEWS_WINDOW_MINUTES = 10\n\n\ndef is_recent_news(published_at: datetime | None, now: datetime | None = None, window_minutes: int = NEWS_WINDOW_MINUTES) -> bool:
+NEWS_WINDOW_MINUTES = 10
+
+
+def is_recent_news(
+    published_at: datetime | None,
+    now: datetime | None = None,
+    window_minutes: int = NEWS_WINDOW_MINUTES,
+) -> bool:
     if published_at is None:
         return False
     now = now or datetime.now(timezone.utc)
