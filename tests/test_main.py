@@ -1,10 +1,8 @@
-from app.main import max_new_items
+from app.core import is_recent_news
+from datetime import datetime, timedelta, timezone
 
-def test_max_new_items_defaults_to_three():
-    assert max_new_items({}) == 3
 
-def test_max_new_items_accepts_positive_environment_value():
-    assert max_new_items({"MAX_NEW_ITEMS": "1"}) == 1
-
-def test_max_new_items_rejects_invalid_environment_value():
-    assert max_new_items({"MAX_NEW_ITEMS": "nope"}) == 3
+def test_main_uses_five_minute_window():
+    now = datetime(2026, 10, 6, 18, 5, tzinfo=timezone.utc)
+    assert is_recent_news(now - timedelta(minutes=5), now)
+    assert not is_recent_news(now - timedelta(minutes=5, seconds=1), now)
