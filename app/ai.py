@@ -4,7 +4,7 @@ import os
 import requests
 
 
-DEFAULT_GEMINI_MODEL = "gemini-2.5-pro"
+DEFAULT_GEMINI_MODEL = "gemini-3.5-flash-lite"
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 
 
@@ -16,8 +16,7 @@ def _extract_json(text):
             lines = lines[1:]
         if lines and lines[-1].strip() == "```":
             lines = lines[:-1]
-        text = "
-".join(lines).strip()
+        text = "\n".join(lines).strip()
     return json.loads(text)
 
 
@@ -32,8 +31,7 @@ def process_with_gemini(title, summary):
         "Do not wrap the JSON in markdown fences. "
         "Translate and summarize this news in natural Persian. "
         "category must be one of political,economy,technology,science,sports,culture,world,general. "
-        "importance is 1-5. title=" + title + "
-summary=" + summary
+        "importance is 1-5. title=" + title + "\nsummary=" + summary
     )
     response = requests.post(
         f"{GEMINI_API_BASE}/{model}:generateContent",
