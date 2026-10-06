@@ -49,3 +49,37 @@ def publish_photo(image_url, caption):
             "parse_mode": "HTML",
         },
     )
+
+
+def publish_rich_message(html, image_url=""):
+    """Publish image + headline + expandable article as one Telegram post.
+
+    Telegram Bot API 10.3 supports Rich Messages with media and <details>
+    blocks, so the article is no longer split into a photo message and a
+    separate text message.
+    """
+    token, chat_id = _credentials()
+
+    payload = {
+        "chat_id": chat_id,
+        "rich_message": {
+            "html": html,
+            "is_rtl": True,
+        },
+    }
+
+    if image_url:
+        payload["rich_message"]["html"] = (
+            f'<img src="tg://photo?id=hero"/>\n\n{html}'
+        )
+        payload["rich_message"]["media"] = [
+            {
+                "id": "hero",
+                "media": {
+                    "type": "photo",
+                    "media": image_url,
+                },
+            }
+        ]
+
+    return _post(token, "sendRichMessage", payload)
