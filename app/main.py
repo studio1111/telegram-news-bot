@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from .ai import process_with_gemini
 from .collector import collect_feed
-from .core import build_telegram_message, is_new_item
+from .core import build_telegram_message, is_new_item, is_technology_news
 from .storage import StateStore
 from .telegram import publish_message
 
@@ -28,12 +28,14 @@ def main():
             if not is_new_item(item.item_id, item.url, seen):
                 continue
             processed = process_with_gemini(item.title, item.summary)
+            seen.update((item.item_id, item.url))
+            if not is_technology_news(processed.get("category", "")):
+                continue
             message = build_telegram_message(
                 processed["title_fa"], processed["summary_fa"],
                 processed["category"], item.source, item.url
             )
             publish_message(message)
-            seen.update((item.item_id, item.url))
             published += 1
         if published >= limit:
             break
