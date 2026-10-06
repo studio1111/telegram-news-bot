@@ -10,8 +10,10 @@ _STOP_WORDS = {
 
 CHANNEL_HANDLE = "@MyNewsTechnology"
 
+
 def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", (value or "")).strip()
+
 
 def _story_tokens(value: str) -> set[str]:
     text = normalize_text(value).lower()
@@ -21,8 +23,10 @@ def _story_tokens(value: str) -> set[str]:
     text = re.sub(r"[^\w\u0600-\u06ff]+", " ", text)
     return {t for t in text.split() if len(t) > 2 and t not in _STOP_WORDS}
 
+
 def _numbers(value: str) -> set[str]:
     return set(re.findall(r"\d+(?:\.\d+)?", normalize_text(value).replace(",", "")))
+
 
 def story_similarity(left: dict, right: dict) -> float:
     left_tokens = _story_tokens(f"{left.get('title', '')} {left.get('summary', '')}")
@@ -36,14 +40,18 @@ def story_similarity(left: dict, right: dict) -> float:
     )
     return min(1.0, jaccard + (0.20 if numbers_match else 0.0))
 
+
 def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.48) -> bool:
     return any(story_similarity(item, story) >= threshold for story in previous)
+
 
 def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
     return item_id not in seen and url not in seen
 
+
 def is_technology_news(category: str) -> bool:
     return normalize_text(category).lower() == "technology"
+
 
 def build_telegram_message(title, summary, category, source, url=None):
     return (
@@ -53,14 +61,25 @@ def build_telegram_message(title, summary, category, source, url=None):
         f"📡 منبع: {escape(normalize_text(source))}"
     )
 
-def build_expanded_message(title, article, source):
-    clean_article = normalize_text(article)
-    visible = f"📰 <b>{escape(normalize_text(title))}</b>\n\n"
-    expandable = (
-        "<blockquote expandable>"
-        "<b>مشاهده متن کامل خبر</b>\n\n"
-        f"{escape(clean_article)}\n\n"
-        f"📡 منبع: {escape(normalize_text(source))}"
-        "</blockquote>"
+
+def build_rich_message_html(title, summary, article, source):
+    clean_title = escape(normalize_text(title))
+    clean_summary = escape(normalize_text(summary))
+    clean_article = escape(normalize_text(article))
+    clean_source = escape(normalize_text(source))
+
+    return (
+        f"<b>📰 {clean_title}</b>\n\n"
+        f"{clean_summary}\n\n"
+        "<details><summary>مشاهده متن کامل خبر</summary>"
+        f"<p>{clean_article}</p>"
+        "</details>\n\n"
+        f"📡 منبع: {clean_source}\n"
+        f"{CHANNEL_HANDLE}"
     )
-    return visible + expandable + f"\n\n{CHANNEL_HANDLE}"
+
+
+def build_expanded_message(title, article, source):
+    return build_rich_message_html(title, "", article, source).replace(
+        "\n\n</details>", "</details>"
+    )
