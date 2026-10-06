@@ -1,6 +1,7 @@
 {
   "seen": [
     "0fb89db91a9e9d8a1f3b0679a281cf60b7670d03cc1db5a29345c15912097ea5",
+    "136af07889a9b4c1447249ed0b7bff13e2f6839c41f6c74db75abe1a625c0913",
     "1bbedfb3ca2f721e30f3af087717b98018c68fab4fcaa2df51735f57ccf659fa",
     "1c37e4a07e9c5bf0332f004edbc5e813e0eb4791fec35ea6be786a9b62e13aa4",
     "1e3d74cd8cd48bb3e2d0f23909cfdbb491a5f594eda6c16f3c9d633ec7b579f9",
@@ -17,8 +18,10 @@
     "80eb761b3b68931ee2a703937d222aba6baeee4ef6fc06418b6ed5e406363a4c",
     "8136163c4abce2e4540200993890dcb9c8e4afc07827360d907b497b6425d33e",
     "94db948bd3d8bd2bf718959d2a2f8cda0857fbebd9f9c8685d6eb9d11a904fe1",
+    "97e2520184a2c69931b4261cd1529b777d0e1661695e6dc7967a3e41939ca322",
     "9efecfab5d086b2bdf48135a4048be32c412aba9148130dbbf657d5a382c93f6",
     "a1338f3e28996c633178f1a1956f000b78b684010c6ed4e5ac77c7209c50d207",
+    "a549e670ec5ede1c6046a7cd68e58ce3d28ca1240690a16c7a74a1039de9228c",
     "b94f42159266745f49363c1cec12ec723e76e67295d493f16a74ab3b8bc432fe",
     "b9846c1e4a72a39bce7489b118838a6597da51bda35dccb5a485f9e7d92c9392",
     "d94793a6caabe09954325941acf08641bee0551be1aecf05230cf73a7af8f1f3",
@@ -44,11 +47,14 @@
     "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
     "https://techcrunch.com/2026/10/06/glimpse-wants-to-give-hardware-companies-an-x-ray-view-of-every-critical-part/",
     "https://techcrunch.com/2026/10/06/learn-all-about-scaling-fundraising-founder-how-tos-and-more-at-techcrunch-founder-summit-november-4/",
+    "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+    "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
     "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
     "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
     "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
     "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/",
     "https://techcrunch.com/2026/10/06/uber-is-spending-2-3b-to-get-into-catering/",
+    "https://techcrunch.com/2026/10/06/vinod-khosla-believes-ex-deepmind-engineers-wajo-will-win-agent-market-on-trust/",
     "https://www.bbc.co.uk/persian/live/cw78pdlg1jlpt?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.com/persian/articles/c3vgxw28wg1eo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.com/persian/articles/c69wzrg4jryro?at_medium=RSS&at_campaign=rss",
@@ -133,6 +139,18 @@
     {
       "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
       "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\""
+    },
+    {
+      "title": "Mirror Particle is building a ‘world model’ of human behavior",
+      "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy."
+    },
+    {
+      "title": "LibreOffice says ‘no AI’ is now a software feature",
+      "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy."
+    },
+    {
+      "title": "Vinod Khosla believes ex-DeepMind engineer’s Wajo will win agent market on trust",
+      "summary": "Wajo's Fo agent can hire humans to complete a task."
     }
   ]
 }
