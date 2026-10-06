@@ -7,6 +7,7 @@ import requests
 
 DEFAULT_GEMINI_MODEL = "gemini-3.5-flash-lite"
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+TRANSIENT_GEMINI_STATUS_CODES = {429, 500, 502, 503, 504}
 
 
 def _extract_json(text):
@@ -52,7 +53,7 @@ def process_with_gemini(title, summary, article_text=""):
         "ARTICLE TEXT: " + source_text
     )
     last_error = None
-    for attempt in range(2):
+    for attempt in range(3):
         try:
             response = requests.post(
                 f"{GEMINI_API_BASE}/{model}:generateContent",
@@ -60,18 +61,22 @@ def process_with_gemini(title, summary, article_text=""):
                 json={"contents": [{"parts": [{"text": prompt}]}]},
                 timeout=90,
             )
-            if not response.ok:
+            if response.ok:
+                break
+            if response.status_code not in TRANSIENT_GEMINI_STATUS_CODES:
                 raise RuntimeError(
                     f"Gemini API error {response.status_code}: {response.text[:1000]}"
                 )
-            break
+            last_error = RuntimeError(
+                f"Gemini API transient error {response.status_code}: {response.text[:1000]}"
+            )
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as exc:
             last_error = exc
-            if attempt == 1:
-                raise RuntimeError("Gemini API request timed out or failed twice") from exc
-            time.sleep(2)
+
+        if attempt < 2:
+            time.sleep(2 * (attempt + 1))
     else:
-        raise RuntimeError("Gemini API request failed") from last_error
+        raise RuntimeError("Gemini API temporarily unavailable after 3 attempts") from last_error
 
     try:
         raw = response.json()["candidates"][0]["content"]["parts"][0]["text"]
