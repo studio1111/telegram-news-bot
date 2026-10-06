@@ -33,6 +33,22 @@ class _ImageParser(HTMLParser):
             self.images.append(src)
 
 
+def _article_image_url(html: str) -> str:
+    patterns = (
+        r'(?is)<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+        r'(?is)<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+        r'(?is)<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)',
+        r'(?is)<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']',
+    )
+    for pattern in patterns:
+        match = re.search(pattern, html or "")
+        if match:
+            url = match.group(1).strip()
+            if url.startswith(("http://", "https://")):
+                return url
+    return ""
+
+
 def _image_url(entry) -> str:
     for key in ("media_content", "media_thumbnail"):
         for media in entry.get(key, []) or []:
@@ -45,9 +61,22 @@ def _image_url(entry) -> str:
         if url.startswith(("http://", "https://")) and str(enclosure.get("type", "")).startswith("image/"):
             return url
 
-    parser = _ImageParser()
-    parser.feed(entry.get("summary", ""))
-    return parser.images[0] if parser.images else ""
+    for key in ("summary", "description"):
+        parser = _ImageParser()
+        parser.feed(entry.get(key, "") or "")
+        if parser.images:
+            return parser.images[0]
+
+    for content in entry.get("content", []) or []:
+        parser = _ImageParser()
+        parser.feed(content.get("value", "") or "")
+        if parser.images:
+            return parser.images[0]
+        image = _article_image_url(content.get("value", "") or "")
+        if image:
+            return image
+
+    return _article_image_url(entry.get("summary", "") or "")
 
 
 def fetch_article_text(url: str, max_chars: int = 18000) -> str:
@@ -61,12 +90,23 @@ def fetch_article_text(url: str, max_chars: int = 18000) -> str:
     except requests.RequestException:
         return ""
 
-    parser = HTMLParser()
-    # Strip script/style tags and collect visible text without adding a parser dependency.
     text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\1>", " ", response.text)
     text = re.sub(r"(?is)<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
     return normalize_text(text)[:max_chars]
+
+
+def fetch_article_image_url(url: str) -> str:
+    try:
+        response = requests.get(
+            url,
+            timeout=20,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)"},
+        )
+        response.raise_for_status()
+    except requests.RequestException:
+        return ""
+    return _article_image_url(response.text)
 
 
 def collect_feed(url: str, source_name: str, limit: int = 10):
