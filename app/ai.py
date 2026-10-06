@@ -20,28 +20,35 @@ def _extract_json(text):
     return json.loads(text)
 
 
-def process_with_gemini(title, summary):
+def process_with_gemini(title, summary, article_text=""):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("GEMINI_API_KEY is not configured")
 
     model = os.environ.get("GEMINI_MODEL", DEFAULT_GEMINI_MODEL)
+    source_text = article_text or summary
     prompt = (
-        "Return valid JSON with keys title_fa, summary_fa, category, importance, tags. "
+        "Return valid JSON with keys title_fa, summary_fa, article_fa, category, importance, tags. "
         "Do not wrap the JSON in markdown fences. "
-        "Translate and summarize this news in natural Persian. "
+        "Translate into natural Persian and write an original, clean, detailed news report. "
+        "Do not copy the source article verbatim and do not invent facts. "
+        "article_fa should be a coherent standalone Persian report with a clear lead, key facts, "
+        "important context, and a short conclusion. Keep it suitable for Telegram and under 3500 Persian words. "
+        "summary_fa should be a concise 2-3 sentence lead. "
         "category must be one of political,economy,technology,science,sports,culture,world,general. "
-        "importance is 1-5. title=" + title + "\nsummary=" + summary
+        "importance is 1-5. "
+        "TITLE: " + title + "\n"
+        "RSS SUMMARY: " + summary + "\n"
+        "ARTICLE TEXT: " + source_text
     )
     response = requests.post(
         f"{GEMINI_API_BASE}/{model}:generateContent",
         params={"key": key},
         json={"contents": [{"parts": [{"text": prompt}]}]},
-        timeout=45,
+        timeout=60,
     )
     if not response.ok:
-        detail = response.text[:1000]
-        raise RuntimeError(f"Gemini API error {response.status_code}: {detail}")
+        raise RuntimeError(f"Gemini API error {response.status_code}: {response.text[:1000]}")
 
     try:
         raw = response.json()["candidates"][0]["content"]["parts"][0]["text"]
