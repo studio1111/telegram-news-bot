@@ -34,7 +34,7 @@ def test_process_with_gemini_uses_current_default_model(monkeypatch):
     result = ai.process_with_gemini("Title", "Summary")
 
     assert result["title_fa"] == "عنوان"
-    assert captured["url"].endswith("/v1beta/models/gemini-3.8-flash:generateContent")
+    assert captured["url"].endswith("/v1beta/models/gemini-2.5-pro:generateContent")
 
 
 def test_process_with_gemini_allows_model_override(monkeypatch):
@@ -53,7 +53,7 @@ def test_process_with_gemini_allows_model_override(monkeypatch):
         })
 
     monkeypatch.setenv("GEMINI_API_KEY", "test-key")
-    monkeypatch.setenv("GEMINI_MODEL", "gemini-3.7-flash")
+    monkeypatch.setenv("GEMINI_MODEL", "gemini-2.5-pro")
     monkeypatch.setattr(ai.requests, "post", fake_post)
 
     ai.process_with_gemini("Title", "Summary")
