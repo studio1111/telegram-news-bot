@@ -15,3 +15,10 @@ def test_build_telegram_message_contains_translated_content_and_source():
     assert "خلاصه خبر" in msg
     assert "فناوری" in msg
     assert "https://example.com/news" in msg
+
+def test_only_technology_category_is_publishable():
+    from app.core import is_technology_news
+    assert is_technology_news("technology") is True
+    assert is_technology_news("political") is False
+    assert is_technology_news("economy") is False
+    assert is_technology_news("general") is False
