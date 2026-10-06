@@ -123,7 +123,17 @@ def fetch_article_image_url(url: str) -> str:
 
 
 def collect_feed(url: str, source_name: str, limit: int = 100):
-    parsed = feedparser.parse(url)
+    try:
+        response = requests.get(
+            url,
+            timeout=20,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)"},
+        )
+        response.raise_for_status()
+    except requests.RequestException:
+        return []
+
+    parsed = feedparser.parse(response.content)
     items = []
     for entry in parsed.entries[:limit]:
         title = normalize_text(entry.get("title", ""))
