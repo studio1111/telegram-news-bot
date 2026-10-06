@@ -5,7 +5,7 @@
 ## معماری
 RSS/Atom → جمع‌آوری → حذف تکراری → Gemini → ترجمه/خلاصه/دسته‌بندی → Telegram
 
-GitHub Actions هر ۱۵ دقیقه اجرا می‌شود و وضعیت خبرهای منتشرشده را در data/state.json نگه می‌دارد.
+GitHub Actions هر ۱۰ دقیقه اجرا می‌شود و وضعیت خبرهای منتشرشده را در data/state.json نگه می‌دارد.
 
 ## Secrets
 در Settings → Secrets and variables → Actions این سه Secret را اضافه کنید:
