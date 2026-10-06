@@ -39,17 +39,17 @@ def test_build_telegram_message_uses_expanding_article_without_source_url():
     assert "https://example.com/news" not in msg
 
 
-def test_build_rich_message_is_one_post_with_expandable_article():
+def test_build_rich_message_has_source_on_penultimate_line_and_channel_footer_last():
     msg = build_rich_message_html(
         "عنوان فارسی",
         "خلاصه خبر درباره فناوری.",
         "متن بازنویسی‌شده و کامل خبر.",
         "TechCrunch",
     )
-    assert "<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary>" in msg
-    assert "متن بازنویسی‌شده و کامل خبر." in msg
-    assert "TechCrunch" in msg
-    assert "@MyNewsTechnology" in msg
+    lines = msg.splitlines()
+    assert "📡 منبع: TechCrunch" == lines[-2]
+    assert "آخرین اخبار تکنولوژی | @MyNewsTechnology" == lines[-1]
+    assert "مشاهده متن کامل خبر" in msg
     assert "https://" not in msg
 
 
@@ -57,8 +57,7 @@ def test_build_expanded_message_contains_channel_at_end():
     msg = build_expanded_message(
         "عنوان فارسی", "متن بازنویسی‌شده و کامل خبر.", "TechCrunch"
     )
-    assert "مشاهده متن کامل خبر" in msg
-    assert msg.endswith("@MyNewsTechnology")
+    assert msg.endswith("آخرین اخبار تکنولوژی | @MyNewsTechnology")
 
 
 def test_only_technology_category_is_publishable():
