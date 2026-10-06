@@ -22,3 +22,32 @@ def test_only_technology_category_is_publishable():
     assert is_technology_news("political") is False
     assert is_technology_news("economy") is False
     assert is_technology_news("general") is False
+
+def test_similar_rewrites_of_same_event_are_duplicates():
+    from app.core import is_duplicate_story
+
+    first = {
+        "title": "Type One Energy raised $200M to build a fusion power plant by 2034",
+        "summary": "Type One Energy raised 200 million dollars to build a fusion power plant.",
+    }
+    rewritten = {
+        "title": "Type One Energy raises $200 million for a fusion power plant",
+        "summary": "The fusion company secured $200 million to bring a power plant to the grid.",
+    }
+
+    assert is_duplicate_story(rewritten, [first]) is True
+
+
+def test_different_technology_events_are_not_duplicates():
+    from app.core import is_duplicate_story
+
+    first = {
+        "title": "Type One Energy raised $200M to build a fusion power plant by 2034",
+        "summary": "Type One Energy raised 200 million dollars to build a fusion power plant.",
+    }
+    different = {
+        "title": "Type One Energy connects its prototype fusion system to the grid",
+        "summary": "The company demonstrated a new prototype milestone at its test facility.",
+    }
+
+    assert is_duplicate_story(different, [first]) is False
