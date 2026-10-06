@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 
 from .ai import process_with_gemini
-from .collector import collect_feed, fetch_article_text
+from .collector import collect_feed, fetch_article_image_url, fetch_article_text
 from .core import (
     build_rich_message_html,
     is_duplicate_story,
@@ -39,8 +39,16 @@ def main():
                 continue
 
             article_text = fetch_article_text(item.url)
-            processed = process_with_gemini(item.title, item.summary, article_text)
+            image_url = item.image_url or fetch_article_image_url(item.url)
             seen.update((item.item_id, item.url))
+
+            # The channel format requires a real source image. Do not publish
+            # a text-only post when the feed omitted the image and the article
+            # page does not expose a recoverable Open Graph/Twitter image.
+            if not image_url:
+                continue
+
+            processed = process_with_gemini(item.title, item.summary, article_text)
 
             if not is_technology_news(processed.get("category", "")):
                 continue
@@ -56,9 +64,7 @@ def main():
                 item.source,
             )
 
-            # One Telegram post contains the headline image, headline, summary,
-            # expandable full report, source name, and channel handle.
-            publish_rich_message(message, item.image_url)
+            publish_rich_message(message, image_url)
 
             published_stories.append(story)
             published_stories = published_stories[-500:]
