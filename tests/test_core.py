@@ -47,7 +47,7 @@ def test_build_rich_message_has_source_on_penultimate_line_and_channel_footer_la
         "TechCrunch",
     )
     lines = msg.splitlines()
-    assert "📡 منبع: TechCrunch" == lines[-2]
+    assert "📡 منبع: TechCrunch<br>" == lines[-2]
     assert "آخرین اخبار تکنولوژی | @MyNewsTechnology" == lines[-1]
     assert "📡 منبع: TechCrunch<br>" in msg
     assert "مشاهده متن کامل خبر" in msg
