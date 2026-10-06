@@ -12,10 +12,8 @@ _STOP_WORDS = {
 CHANNEL_HANDLE = "@MyNewsTechnology"
 CHANNEL_FOOTER = f"آخرین اخبار تکنولوژی | {CHANNEL_HANDLE}"
 
-
 def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", (value or "")).strip()
-
 
 def _story_tokens(value: str) -> set[str]:
     text = normalize_text(value).lower()
@@ -25,10 +23,8 @@ def _story_tokens(value: str) -> set[str]:
     text = re.sub(r"[^\w\u0600-\u06ff]+", " ", text)
     return {t for t in text.split() if len(t) > 2 and t not in _STOP_WORDS}
 
-
 def _numbers(value: str) -> set[str]:
     return set(re.findall(r"\d+(?:\.\d+)?", normalize_text(value).replace(",", "")))
-
 
 def story_similarity(left: dict, right: dict) -> float:
     left_tokens = _story_tokens(f"{left.get('title', '')} {left.get('summary', '')}")
@@ -42,17 +38,13 @@ def story_similarity(left: dict, right: dict) -> float:
     )
     return min(1.0, jaccard + (0.20 if numbers_match else 0.0))
 
-
 def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.48) -> bool:
     return any(story_similarity(item, story) >= threshold for story in previous)
-
 
 def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
     return item_id not in seen and url not in seen
 
-
-NEWS_WINDOW_MINUTES = 5
-
+NEWS_WINDOW_MINUTES = 30
 
 def is_recent_news(
     published_at: datetime | None,
@@ -69,10 +61,8 @@ def is_recent_news(
     age = now - published_at
     return timedelta(0) <= age <= timedelta(minutes=window_minutes)
 
-
 def is_technology_news(category: str) -> bool:
     return normalize_text(category).lower() == "technology"
-
 
 def build_telegram_message(title, summary, category, source, url=None):
     return (
@@ -81,7 +71,6 @@ def build_telegram_message(title, summary, category, source, url=None):
         f"🏷 {escape(normalize_text(category))}\n"
         f"📡 منبع: {escape(normalize_text(source))}"
     )
-
 
 def build_rich_message_html(title, summary, article, source):
     clean_title = escape(normalize_text(title))
@@ -98,7 +87,6 @@ def build_rich_message_html(title, summary, article, source):
         f"📡 منبع: {clean_source}<br>\n"
         f"{CHANNEL_FOOTER}"
     )
-
 
 def build_expanded_message(title, article, source):
     return build_rich_message_html(title, "", article, source).replace(
