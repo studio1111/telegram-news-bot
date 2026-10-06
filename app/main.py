@@ -31,7 +31,9 @@ def main():
 
             article_text = fetch_article_text(item.url)
             image_url = item.image_url or fetch_article_image_url(item.url)
-            seen.update((item.item_id, item.url))
+            # Do not mark an item as seen until Telegram publication succeeds.
+            # Otherwise a missing image, non-technology classification, duplicate
+            # decision, or transient processing failure permanently loses the story.
 
             # The channel format requires a real source image. Do not publish
             # a text-only post when the feed omitted the image and the article
@@ -57,6 +59,7 @@ def main():
 
             publish_rich_message(message, image_url)
 
+            seen.update((item.item_id, item.url))
             published_stories.append(story)
             published_stories = published_stories[-500:]
 
