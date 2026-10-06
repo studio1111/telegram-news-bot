@@ -1,24 +1,30 @@
 {
   "seen": [
     "1e3d74cd8cd48bb3e2d0f23909cfdbb491a5f594eda6c16f3c9d633ec7b579f9",
+    "2fd90060880f96936027d205dc91b5b5d3ba0f849980a3c8ec5483bf3bb76255",
     "4c729d05cfc62aabadf07d8841ac4c61144597e106ac3497e46f68216ba85a6b",
     "59d756c9774bdccc3fc34ba53d77af51c596b63d9c52a540d80d0a706b198092",
     "626d8ebdb1b3043c49baf263cd9e14429d357522c86b7cd0f25bfe5d68cd160f",
     "74e7462482578a3258ddca0eff5cd676e9bbf6dcb0de451095353e082944746d",
+    "7afc1ae44eb15cc5ccfad48dc9ca1f625a08c8f3c88f43c4bb8b217bfcc6d7f2",
     "7cf7a3e962c7bd472320c4450a5397b7dcb80062ed7b2e9395f6733b560875ea",
     "8136163c4abce2e4540200993890dcb9c8e4afc07827360d907b497b6425d33e",
     "94db948bd3d8bd2bf718959d2a2f8cda0857fbebd9f9c8685d6eb9d11a904fe1",
     "9efecfab5d086b2bdf48135a4048be32c412aba9148130dbbf657d5a382c93f6",
     "b94f42159266745f49363c1cec12ec723e76e67295d493f16a74ab3b8bc432fe",
     "dda8f532eaa12395b031f675107e0ee2589f4049cc768642e1d70149d7f97214",
+    "f67eea3fd85e4db91ea7b9e1471d77a041311924e4e2e54b3f2f584d0acf9392",
     "fd6c57925f97cce642affb5c166d8c0993c520193ed37f04afb25e43c00483fd",
     "fe8415b6a6f7b0066af80eedb050e9af65969c8963313e4cbc2c6d217165bd45",
     "https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/",
     "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+    "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
     "https://techcrunch.com/2026/10/05/lucid-motors-ev-output-falls-to-lowest-level-in-almost-two-years/",
     "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+    "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
     "https://techcrunch.com/2026/10/06/facebook-tests-going-reels-first-in-india/",
     "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/",
+    "https://techcrunch.com/2026/10/06/glimpse-wants-to-give-hardware-companies-an-x-ray-view-of-every-critical-part/",
     "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/",
     "https://www.bbc.co.uk/persian/live/cw78pdlg1jlpt?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.com/persian/articles/c3vgxw28wg1eo?at_medium=RSS&at_campaign=rss",
@@ -39,6 +45,18 @@
     {
       "title": "After Factory’s public spat with Khosla, Menlo proudly invests",
       "summary": "Days after Vinod Khosla called Factory a struggling also-ran, Menlo has shown up with a check and a glowing blog post."
+    },
+    {
+      "title": "Glimpse wants to give hardware companies an X-ray view of every critical part",
+      "summary": "Called Explore, Glimpse's new image processing software lets hardware makers speed up quality control checks using CT scanners."
+    },
+    {
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data."
+    },
+    {
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action."
     }
   ]
 }
