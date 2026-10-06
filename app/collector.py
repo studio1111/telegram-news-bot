@@ -38,10 +38,10 @@ class _ImageParser(HTMLParser):
 
 def _article_image_url(html: str) -> str:
     patterns = (
-        r'(?is)<meta[^>]+property=["\\']og:image["\\'][^>]+content=["\\']([^"\\']+)',
-        r'(?is)<meta[^>]+content=["\\']([^"\\']+)["\\'][^>]+property=["\\']og:image["\\']',
-        r'(?is)<meta[^>]+name=["\\']twitter:image["\\'][^>]+content=["\\']([^"\\']+)',
-        r'(?is)<meta[^>]+content=["\\']([^"\\']+)["\\'][^>]+name=["\\']twitter:image["\\']',
+        r'(?is)<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+        r'(?is)<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+        r'(?is)<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)',
+        r'(?is)<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']',
     )
     for pattern in patterns:
         match = re.search(pattern, html or "")
@@ -104,7 +104,7 @@ def fetch_article_text(url: str, max_chars: int = 18000) -> str:
         return ""
 
     text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\\1>", " ", response.text)
-    text = re.sub(r"(?is)<[^>]+>", " ", text)
+    text = re.sub(r"(?is)<[^>]+>", " ", response.text)
     text = re.sub(r"\\s+", " ", text)
     return normalize_text(text)[:max_chars]
 
