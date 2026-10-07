@@ -57,8 +57,8 @@ def _story_variants(record: dict) -> list[tuple[str, str]]:
 
 def _named_entities(value: str) -> set[str]:
     entities = set()
-    for raw in re.findall(r"\\(([^()]{1,100})\\)", value or ""):
-        normalized = re.sub(r"[^\\w]+", " ", raw.lower(), flags=re.UNICODE).strip()
+    for raw in re.findall(r"\(([^()]{1,100})\)", value or ""):
+        normalized = re.sub(r"[^\w]+", " ", raw.lower(), flags=re.UNICODE).strip()
         if not normalized:
             continue
         parts = normalized.split()
