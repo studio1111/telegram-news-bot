@@ -14,6 +14,14 @@ _TOKEN_ALIASES = {
     "reveals": "launch", "revealed": "launch", "reveal": "launch",
     "chips": "chip", "processors": "chip", "processor": "chip",
     "announces": "announce", "announced": "announce", "announcing": "announce",
+    "detects": "detect", "detected": "detect", "detection": "detect", "detector": "detect",
+    "identifies": "detect", "identify": "detect", "identified": "detect",
+    "verification": "detect", "verify": "detect", "verified": "detect",
+    "checks": "check", "checked": "check", "checking": "check",
+    "generated": "generate", "generates": "generate", "generation": "generate",
+    "created": "create", "creating": "create", "creates": "create",
+    "produced": "create", "produces": "create", "producing": "create",
+    "websites": "website", "site": "website", "sites": "website", "portal": "website",
 }
 
 _STOP_WORDS = {
@@ -30,6 +38,7 @@ def normalize_text(value: str) -> str:
 
 def _story_tokens(value: str) -> set[str]:
     text = normalize_text(value).lower().replace("$", " ").replace(",", "")
+    text = re.sub(r"[’']s\b", "", text)
     text = text.replace("۲۰۰", "200")
     text = re.sub(r"\b(million|millions)\b", "million", text)
     text = re.sub(r"[^\w\u0600-\u06ff]+", " ", text)
@@ -82,6 +91,32 @@ def _canonical_story_url(value: str) -> str:
     return urlunsplit((parts.scheme.lower(), netloc, path, urlencode(query), ""))
 
 
+
+_EVENT_GENERIC_TERMS = {
+    "company", "companies", "story", "stories", "news", "report", "reports",
+    "says", "said", "new", "latest", "today", "now", "available", "launch",
+    "announce", "release", "released", "product", "products", "service",
+    "services", "system", "systems", "tool", "tools", "model", "models",
+    "technology", "technologies", "tech", "software", "hardware", "device",
+    "devices", "content", "media", "website", "ai", "artificial", "intelligence",
+    "people", "users", "user", "using", "use", "uses", "can", "lets", "let",
+}
+
+def _event_anchor_tokens(value: str) -> set[str]:
+    tokens = _story_tokens(value)
+    return {
+        token for token in tokens
+        if len(token) >= 5 and token not in _EVENT_GENERIC_TERMS
+    }
+
+def _event_action_tokens(value: str) -> set[str]:
+    tokens = _story_tokens(value)
+    return tokens & {
+        "launch", "announce", "detect", "check", "fund", "secure", "raise",
+        "acquire", "partner", "restrict", "reduce", "increase", "create",
+        "watermark", "expand", "ban", "block", "buy", "sell",
+    }
+
 def _title_overlap(left: set[str], right: set[str]) -> tuple[int, float]:
     if not left or not right:
         return 0, 0.0
@@ -107,10 +142,26 @@ def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.65
         title_similarity = _title_similarity(item_title, story.get("title", ""))
         story_numbers = _numbers(f"{story.get('title', '')} {story.get('summary', '')}")
         shared_numbers = item_numbers & story_numbers
+        item_full_tokens = _story_tokens(item_full_text)
+        story_full_tokens = _story_tokens(f"{story.get('title', '')} {story.get('summary', '')}")
+        shared_anchors = _event_anchor_tokens(item_full_text) & _event_anchor_tokens(
+            f"{story.get('title', '')} {story.get('summary', '')}"
+        )
+        shared_support = (item_full_tokens & story_full_tokens) - shared_anchors
+        shared_actions = _event_action_tokens(item_full_text) & _event_action_tokens(
+            f"{story.get('title', '')} {story.get('summary', '')}"
+        )
 
         if title_jaccard >= threshold and title_similarity >= 0.72:
             return True
         if title_similarity >= 0.82 and combined_similarity >= 0.55:
+            return True
+
+        # Distinctive event anchors catch heavy cross-source paraphrases.
+        # Requiring at least two shared anchors plus supporting context and a
+        # shared event/action signal avoids collapsing unrelated stories from
+        # the same company or product.
+        if len(shared_anchors) >= 2 and len(shared_support) >= 2 and shared_actions:
             return True
 
         # Different publishers often paraphrase the same event. Shared core
