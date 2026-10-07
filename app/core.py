@@ -84,7 +84,7 @@ def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.65
 def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
     return item_id not in seen and url not in seen
 
-NEWS_WINDOW_MINUTES = 30
+NEWS_WINDOW_MINUTES = 90
 
 def is_recent_news(
     published_at: datetime | None,
