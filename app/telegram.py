@@ -11,12 +11,11 @@ FOOTER_MARKER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
 
 
 class TelegramAPIError(RuntimeError):
-    """Telegram received the request and explicitly rejected it.
+    """Telegram request failed; fallback is safe only for explicit client rejection."""
 
-    Only this error triggers the plain-text fallback. Network errors and
-    timeouts are NOT converted, because the rich message may already have been
-    delivered and falling back would post the story twice.
-    """
+    def __init__(self, message, *, fallback_safe=False):
+        super().__init__(message)
+        self.fallback_safe = fallback_safe
 
 
 def _credentials():
