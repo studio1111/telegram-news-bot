@@ -9,7 +9,7 @@ from .core import (
     is_duplicate_story,
     is_new_item,
     is_recent_news,
-    is_technology_story,
+    is_technology_news,
 )
 from .storage import StateStore
 from .telegram import publish_rich_message
@@ -111,12 +111,7 @@ def main():
             print(f"[GEMINI_ERROR] source={item.source} url={item.url}: {exc}")
             continue
 
-        if not is_technology_story(
-            processed.get("category", ""),
-            item.title,
-            item.summary,
-            article_text,
-        ):
+        if not is_technology_news(processed.get("category", "")):
             non_technology += 1
             print(
                 f"[FILTERED] non_technology source={item.source} "
