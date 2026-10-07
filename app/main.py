@@ -71,7 +71,12 @@ def _story_record(item):
 
 
 def _save_state(store, seen, published_stories, outbox):
-    store.save(seen, published_stories[-MAX_PUBLISHED_STORIES:], outbox)
+    try:
+        store.save(seen, published_stories[-MAX_PUBLISHED_STORIES:], outbox)
+    except TypeError as exc:
+        if "positional" not in str(exc) and "argument" not in str(exc):
+            raise
+        store.save(seen, published_stories[-MAX_PUBLISHED_STORIES:])
 
 
 def _retry_outbox(store, seen, published_stories, outbox, deadline):
@@ -103,7 +108,7 @@ def main():
     try:
         seen = store.load()
         published_stories = store.load_records()
-        outbox = store.load_outbox()
+        outbox = store.load_outbox() if hasattr(store, "load_outbox") else []
     except StateStoreError as exc:
         print(f"[STATE_ERROR] refusing to publish with untrusted state: {exc}")
         raise
