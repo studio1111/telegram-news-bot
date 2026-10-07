@@ -14,6 +14,14 @@ _TOKEN_ALIASES = {
     "reveals": "launch", "revealed": "launch", "reveal": "launch",
     "chips": "chip", "processors": "chip", "processor": "chip",
     "announces": "announce", "announced": "announce", "announcing": "announce",
+    "detects": "detect", "detected": "detect", "detection": "detect", "detector": "detect",
+    "identifies": "detect", "identify": "detect", "identified": "detect",
+    "verification": "detect", "verify": "detect", "verified": "detect",
+    "checks": "check", "checked": "check", "checking": "check",
+    "generated": "generate", "generates": "generate", "generation": "generate",
+    "created": "create", "creating": "create", "creates": "create",
+    "produced": "create", "produces": "create", "producing": "create",
+    "websites": "website", "site": "website", "sites": "website", "portal": "website",
 }
 
 _STOP_WORDS = {
@@ -30,6 +38,7 @@ def normalize_text(value: str) -> str:
 
 def _story_tokens(value: str) -> set[str]:
     text = normalize_text(value).lower().replace("$", " ").replace(",", "")
+    text = re.sub(r"[’']s\b", "", text)
     text = text.replace("۲۰۰", "200")
     text = re.sub(r"\b(million|millions)\b", "million", text)
     text = re.sub(r"[^\w\u0600-\u06ff]+", " ", text)
@@ -87,6 +96,9 @@ def _pair_similarity(left_title: str, left_summary: str, right_title: str, right
     title_similarity = _title_similarity(left_title, right_title)
     combined_similarity = len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
     shared_numbers = _numbers(left_full) & _numbers(right_full)
+    shared_anchors = _event_anchor_tokens(left_full) & _event_anchor_tokens(right_full)
+    shared_support = (left_tokens & right_tokens) - shared_anchors
+    shared_actions = _event_action_tokens(left_full) & _event_action_tokens(right_full)
     significant_numbers = {
         number for number in shared_numbers
         if not (len(number.split(".")[0]) == 4 and number.split(".")[0].isdigit()
@@ -102,6 +114,20 @@ def _pair_similarity(left_title: str, left_summary: str, right_title: str, right
     if significant_numbers and overlap >= 2 and overlap_coefficient >= 0.40 and combined_similarity >= 0.38:
         return True
     if overlap >= 2 and overlap_coefficient >= 0.50 and combined_similarity >= 0.50:
+        return True
+
+    # Cross-source paraphrases can have very different titles while still
+    # describing the same event. Require two distinctive shared anchors, at
+    # least one supporting shared concept, and a strong shared action. Generic
+    # announcement/launch wording alone is not enough.
+    strong_actions = shared_actions & {
+        "detect", "check", "fund", "secure", "raise", "acquire", "partner",
+        "restrict", "reduce", "increase", "create", "watermark", "ban",
+        "block", "buy", "sell",
+    }
+    if len(shared_anchors) >= 2 and len(shared_support) >= 1 and strong_actions:
+        return True
+    if len(shared_anchors) >= 2 and len(shared_support) >= 2 and shared_actions:
         return True
 
     shared_entities = _named_entities(left_full) & _named_entities(right_full)
@@ -163,6 +189,30 @@ def _canonical_story_url(value: str) -> str:
     path = parts.path.rstrip("/") or "/"
     return urlunsplit((parts.scheme.lower(), netloc, path, urlencode(query), ""))
 
+
+
+_EVENT_GENERIC_TERMS = {
+    "company", "companies", "story", "stories", "news", "report", "reports",
+    "says", "said", "new", "latest", "today", "now", "available", "launch",
+    "announce", "release", "released", "product", "products", "service",
+    "services", "system", "systems", "tool", "tools", "model", "models",
+    "technology", "technologies", "tech", "software", "hardware", "device",
+    "devices", "content", "media", "website", "ai", "artificial", "intelligence",
+    "people", "users", "user", "using", "use", "uses", "can", "lets", "let",
+}
+
+def _event_anchor_tokens(value: str) -> set[str]:
+    return {
+        token for token in _story_tokens(value)
+        if len(token) >= 5 and token not in _EVENT_GENERIC_TERMS
+    }
+
+def _event_action_tokens(value: str) -> set[str]:
+    return _story_tokens(value) & {
+        "launch", "announce", "detect", "check", "fund", "secure", "raise",
+        "acquire", "partner", "restrict", "reduce", "increase", "create",
+        "watermark", "expand", "ban", "block", "buy", "sell",
+    }
 
 def _title_overlap(left: set[str], right: set[str]) -> tuple[int, float]:
     if not left or not right:
