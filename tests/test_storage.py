@@ -19,7 +19,7 @@ def test_save_caps_published_stories(tmp_path, monkeypatch):
     monkeypatch.setattr(storage, "MAX_PUBLISHED_STORIES", 2)
     path = tmp_path / "state.json"
     store = StateStore(path)
-    store.save(set(), [{"title": str(i)} for i in range(5)])
+    store.save(set(), [{"title": str(i), "summary": "", "url": f"https://example.com/{i}"} for i in range(5)])
     assert [r["title"] for r in store.load_records()] == ["3", "4"]
 
 
