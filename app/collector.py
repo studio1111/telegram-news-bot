@@ -130,7 +130,8 @@ def collect_feed(url: str, source_name: str, limit: int = 100):
             headers={"User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)"},
         )
         response.raise_for_status()
-    except requests.RequestException:
+    except requests.RequestException as exc:
+        print(f"[FEED_ERROR] {source_name} url={url}: {exc}")
         return []
 
     parsed = feedparser.parse(response.content)
@@ -152,5 +153,14 @@ def collect_feed(url: str, source_name: str, limit: int = 100):
                 _image_url(entry),
                 _entry_published_at(entry),
             )
+        )
+    print(
+        f"[FEED_FETCH] {source_name}: status={response.status_code} "
+        f"entries={len(parsed.entries)} parsed_items={len(items)}"
+    )
+    for sample in items[:3]:
+        print(
+            f"[FEED_ITEM] {source_name}: published={sample.published_at} "
+            f"title={sample.title[:100]}"
         )
     return items
