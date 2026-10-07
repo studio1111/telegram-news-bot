@@ -4,6 +4,18 @@ import os
 import re
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
+_TOKEN_ALIASES = {
+    "raises": "raise", "raised": "raise", "raising": "raise",
+    "secures": "secure", "secured": "secure", "securing": "secure",
+    "funding": "fund", "financing": "fund", "investment": "fund", "investments": "fund",
+    "unveils": "launch", "unveiled": "launch", "unveiling": "launch",
+    "introduces": "launch", "introduced": "launch", "introducing": "launch",
+    "launches": "launch", "launched": "launch", "launching": "launch",
+    "reveals": "launch", "revealed": "launch", "reveal": "launch",
+    "chips": "chip", "processors": "chip", "processor": "chip",
+    "announces": "announce", "announced": "announce", "announcing": "announce",
+}
+
 _STOP_WORDS = {
     "the", "a", "an", "to", "of", "and", "for", "in", "on", "by", "with",
     "is", "are", "was", "were", "has", "have", "had", "its", "this", "that",
@@ -21,7 +33,11 @@ def _story_tokens(value: str) -> set[str]:
     text = text.replace("۲۰۰", "200")
     text = re.sub(r"\b(million|millions)\b", "million", text)
     text = re.sub(r"[^\w\u0600-\u06ff]+", " ", text)
-    return {t for t in text.split() if len(t) > 2 and t not in _STOP_WORDS}
+    return {
+        _TOKEN_ALIASES.get(t, t)
+        for t in text.split()
+        if len(t) > 2 and t not in _STOP_WORDS
+    }
 
 def _numbers(value: str) -> set[str]:
     return set(re.findall(r"\d+(?:\.\d+)?", normalize_text(value).replace(",", "")))
