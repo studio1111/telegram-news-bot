@@ -9,6 +9,7 @@ from .core import (
     is_duplicate_story,
     is_new_item,
     is_recent_news,
+    is_technology_news,
     is_technology_story,
 )
 from .storage import StateStore
