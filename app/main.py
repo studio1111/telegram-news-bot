@@ -100,6 +100,7 @@ def main():
     ai_failed = 0
     duplicates = 0
     telegram_failed = 0
+    non_technology = 0
 
     print(
         f"[RUN] now={now.isoformat()} window_minutes=30 candidates={len(candidates)}"
@@ -154,6 +155,13 @@ def main():
             print(f"[DUPLICATE_AFTER_AI] source={item.source} url={item.url}")
             continue
 
+        if processed.get("category", "").strip().lower() != "technology":
+            non_technology += 1
+            print(
+                f"[NON_TECHNOLOGY] source={item.source} category={processed.get('category', '')} url={item.url}"
+            )
+            continue
+
         message = build_rich_message_html(
             processed["title_fa"],
             processed["summary_fa"],
@@ -179,7 +187,7 @@ def main():
     print(
         f"[SUMMARY] candidates={len(candidates)} published={published_count} "
         f"gemini_failed={ai_failed} duplicates={duplicates} "
-        f"telegram_failed={telegram_failed}"
+        f"telegram_failed={telegram_failed} non_technology={non_technology}"
     )
 
 
