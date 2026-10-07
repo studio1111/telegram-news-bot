@@ -67,3 +67,20 @@ def test_fallback_plain_text_never_interprets_html_as_markup(monkeypatch):
     monkeypatch.setattr(telegram.requests,"post",fake_post); monkeypatch.setenv("TELEGRAM_BOT_TOKEN","t"); monkeypatch.setenv("TELEGRAM_CHAT_ID","@c")
     telegram.publish_rich_message("<b>عنوان</b><p>&lt;script&gt;نه&lt;/script&gt;</p>","")
     assert "parse_mode" not in calls[1] and "<script>" in calls[1]["text"]
+
+
+def test_server_error_does_not_trigger_plain_fallback(monkeypatch):
+    calls = []
+    class R:
+        status_code = 500
+        def json(self): return {"ok": False, "error_code": 500, "description": "server error"}
+        def raise_for_status(self): pass
+    def fake_post(url, json, timeout):
+        calls.append(url)
+        return R()
+    monkeypatch.setattr(telegram.requests, "post", fake_post)
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "@c")
+    with pytest.raises(telegram.TelegramAPIError):
+        telegram.publish_rich_message("<b>تیتر</b>", "")
+    assert len(calls) == 1
