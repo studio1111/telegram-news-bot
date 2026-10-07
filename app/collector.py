@@ -36,6 +36,7 @@ class NewsItem:
     source: str
     image_url: str = ""
     published_at: datetime | None = None
+    categories: tuple[str, ...] = ()
 
 
 class _ImageParser(HTMLParser):
@@ -223,12 +224,14 @@ def collect_feed(url: str, source_name: str, limit: int = 100):
         return []
     items=[]
     for entry in parsed.entries[:limit]:
+        raw_categories = entry.get("tags", []) or []
+        categories = tuple(normalize_text(tag.get("term") or tag.get("label") or "") for tag in raw_categories if normalize_text(tag.get("term") or tag.get("label") or ""))
         title=normalize_text(entry.get("title", "")); link=normalize_text(entry.get("link", "")); summary=normalize_text(entry.get("summary", ""))
         if not title or not link: continue
         try: _validate_url(link)
         except ValueError: continue
         stable=entry.get("id") or link
-        items.append(NewsItem(sha256(stable.encode()).hexdigest(),title,link,summary,source_name,_image_url(entry),_entry_published_at(entry)))
+        items.append(NewsItem(sha256(stable.encode()).hexdigest(),title,link,summary,source_name,_image_url(entry),_entry_published_at(entry),categories))
     print(f"[FEED_FETCH] {source_name}: status={response.status_code} entries={len(parsed.entries)} parsed_items={len(items)}")
     for sample in items[:3]: print(f"[FEED_ITEM] {source_name}: published={sample.published_at} title={sample.title[:100]}")
     return items
