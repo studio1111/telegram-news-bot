@@ -47,6 +47,15 @@ def main():
     now = datetime.now(timezone.utc)
 
     candidates = _collect_recent_items(sources, seen, now)
+    published_count = 0
+    ai_failed = 0
+    non_technology = 0
+    duplicates = 0
+    telegram_failed = 0
+
+    print(
+        f"[RUN] now={now.isoformat()} window_minutes=30 candidates={len(candidates)}"
+    )
 
     for item in candidates:
         article_text = fetch_article_text(item.url)
@@ -63,14 +72,22 @@ def main():
         except Exception as exc:
             # One broken article/AI response must not prevent other sources
             # in the same 30-minute window from being published.
-            print(f"Skipping {item.url}: {exc}")
+            ai_failed += 1
+            print(f"[GEMINI_ERROR] source={item.source} url={item.url}: {exc}")
             continue
 
         if not is_technology_news(processed.get("category", "")):
+            non_technology += 1
+            print(
+                f"[FILTERED] non_technology source={item.source} "
+                f"category={processed.get('category', '')} url={item.url}"
+            )
             continue
 
         story = {"title": item.title, "summary": item.summary}
         if is_duplicate_story(story, published_stories):
+            duplicates += 1
+            print(f"[DUPLICATE] source={item.source} url={item.url}")
             continue
 
         message = build_rich_message_html(
@@ -84,14 +101,22 @@ def main():
             publish_rich_message(message, image_url)
         except Exception as exc:
             # Do not mark failed publications as seen.
-            print(f"Failed to publish {item.url}: {exc}")
+            telegram_failed += 1
+            print(f"[TELEGRAM_ERROR] source={item.source} url={item.url}: {exc}")
             continue
 
+        published_count += 1
+        print(f"[PUBLISHED] source={item.source} url={item.url}")
         seen.update((item.item_id, item.url))
         published_stories.append(story)
         published_stories = published_stories[-500:]
 
     store.save(seen, published_stories)
+    print(
+        f"[SUMMARY] candidates={len(candidates)} published={published_count} "
+        f"gemini_failed={ai_failed} non_technology={non_technology} "
+        f"duplicates={duplicates} telegram_failed={telegram_failed}"
+    )
 
 
 if __name__ == "__main__":
