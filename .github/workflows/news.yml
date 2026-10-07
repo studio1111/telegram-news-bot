@@ -74,8 +74,14 @@ jobs:
         with:
           name: news-state-${{ github.run_id }}
           path: state
+        continue-on-error: true
+
+      - name: Skip state persistence when no state artifact exists
+        if: hashFiles('state/state.json') == ''
+        run: echo "No state artifact was produced; leaving bot-state unchanged."
 
       - name: Persist state to bot-state branch
+        if: hashFiles('state/state.json') != ''
         run: |
           set -euo pipefail
           test -s state/state.json
