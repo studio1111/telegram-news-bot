@@ -2,6 +2,7 @@ from datetime import datetime, timedelta, timezone
 from html import escape
 import os
 import re
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 _STOP_WORDS = {
     "the", "a", "an", "to", "of", "and", "for", "in", "on", "by", "with",
@@ -38,23 +39,80 @@ def _title_similarity(left: str, right: str) -> float:
     from difflib import SequenceMatcher
     return SequenceMatcher(None, normalize_text(left).lower(), normalize_text(right).lower()).ratio()
 
+
+_TRACKING_QUERY_KEYS = {
+    "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term",
+    "gclid", "fbclid", "mc_cid", "mc_eid",
+}
+
+
+def _canonical_story_url(value: str) -> str:
+    raw = normalize_text(value)
+    if not raw:
+        return ""
+    try:
+        parts = urlsplit(raw)
+    except ValueError:
+        return raw.rstrip("/")
+    if not parts.scheme or not parts.netloc:
+        return raw.rstrip("/")
+    query = [(key, val) for key, val in parse_qsl(parts.query, keep_blank_values=True)
+             if key.lower() not in _TRACKING_QUERY_KEYS]
+    hostname = (parts.hostname or "").lower()
+    netloc = hostname
+    if parts.port and parts.port not in {80, 443}:
+        netloc = f"{hostname}:{parts.port}"
+    path = parts.path.rstrip("/") or "/"
+    return urlunsplit((parts.scheme.lower(), netloc, path, urlencode(query), ""))
+
+
+def _title_overlap(left: set[str], right: set[str]) -> tuple[int, float]:
+    if not left or not right:
+        return 0, 0.0
+    overlap = len(left & right)
+    return overlap, overlap / min(len(left), len(right))
+
+
 def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.65) -> bool:
-    item_url = normalize_text(item.get("url", ""))
+    item_url = _canonical_story_url(item.get("url", ""))
     item_title = normalize_text(item.get("title", ""))
+    item_tokens = _story_tokens(item_title)
+    item_full_text = f"{item.get('title', '')} {item.get('summary', '')}"
+    item_numbers = _numbers(item_full_text)
     for story in previous:
-        story_url = normalize_text(story.get("url", ""))
+        story_url = _canonical_story_url(story.get("url", ""))
         if item_url and story_url and item_url == story_url:
             return True
-        item_tokens = _story_tokens(item_title)
+
         story_tokens = _story_tokens(story.get("title", ""))
+        overlap, overlap_coefficient = _title_overlap(item_tokens, story_tokens)
         title_jaccard = len(item_tokens & story_tokens) / len(item_tokens | story_tokens) if item_tokens and story_tokens else 0.0
         combined_similarity = story_similarity(item, story)
         title_similarity = _title_similarity(item_title, story.get("title", ""))
+        story_numbers = _numbers(f"{story.get('title', '')} {story.get('summary', '')}")
+        shared_numbers = item_numbers & story_numbers
+
         if title_jaccard >= threshold and title_similarity >= 0.72:
             return True
         if title_similarity >= 0.82 and combined_similarity >= 0.55:
             return True
-        if (_numbers(item.get("title", "") + " " + item.get("summary", "")) & _numbers(story.get("title", "") + " " + story.get("summary", "")) and title_jaccard >= 0.45 and combined_similarity >= 0.55):
+
+        # Different publishers often paraphrase the same event. Shared core
+        # entities plus a meaningful title overlap are stronger evidence than
+        # raw sequence similarity alone.
+        if overlap >= 3 and overlap_coefficient >= 0.60 and combined_similarity >= 0.40:
+            return True
+
+        # Funding, product generations, prices and other numeric facts are
+        # especially useful for matching cross-source rewrites. Ignore a lone
+        # shared year, which is common to unrelated stories.
+        significant_numbers = {number for number in shared_numbers if len(number.split(".")[0]) >= 2}
+        if significant_numbers and overlap >= 2 and overlap_coefficient >= 0.40 and combined_similarity >= 0.38:
+            return True
+
+        # A compact title with two shared core tokens and strong semantic
+        # overlap is enough when there is no numeric clue.
+        if overlap >= 2 and overlap_coefficient >= 0.50 and combined_similarity >= 0.50:
             return True
     return False
 
