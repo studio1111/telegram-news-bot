@@ -61,8 +61,69 @@ def is_recent_news(
     age = now - published_at
     return timedelta(0) <= age <= timedelta(minutes=window_minutes)
 
+_TECHNOLOGY_CATEGORIES = {
+    "technology",
+    "tech",
+    "artificial intelligence",
+    "ai",
+    "cybersecurity",
+    "cyber security",
+    "software",
+    "hardware",
+    "gadgets",
+    "mobile",
+    "cloud",
+    "semiconductors",
+    "consumer technology",
+}
+
+_TECHNOLOGY_SIGNALS = (
+    "technology", "tech", "artificial intelligence", "machine learning",
+    "generative ai", "ai model", "ai system", "chatgpt", "openai",
+    "anthropic", "google gemini", "microsoft copilot", "nvidia",
+    "semiconductor", "chip", "processor", "gpu", "software",
+    "cybersecurity", "cyber security", "malware", "ransomware",
+    "smartphone", "iphone", "android", "robotics", "robot",
+    "quantum computing", "data center", "cloud computing",
+    "operating system", "browser", "app store", "social platform",
+    "tesla", "apple", "meta platforms", "amazon web services",
+)
+
+_NON_TECH_SPORTS_SIGNALS = (
+    "football", "soccer", "basketball", "baseball", "cricket",
+    "tennis", "golf", "rugby", "concacaf", "nations league",
+    "match", "head-to-head", "league standings", "goal", "goals",
+    "player statistics", "sports", "tournament",
+)
+
 def is_technology_news(category: str) -> bool:
-    return normalize_text(category).lower() == "technology"
+    return normalize_text(category).lower() in _TECHNOLOGY_CATEGORIES
+
+def is_technology_story(
+    category: str,
+    title: str = "",
+    summary: str = "",
+    article: str = "",
+) -> bool:
+    """Accept technology stories even when the AI category is slightly wrong.
+
+    The feed source is never treated as proof by itself. Content must contain
+    multiple technology signals, while strong sports evidence blocks fallback.
+    """
+    if is_technology_news(category):
+        return True
+
+    text = normalize_text(f"{title} {summary} {article}").lower()
+    if not text:
+        return False
+
+    sports_hits = sum(signal in text for signal in _NON_TECH_SPORTS_SIGNALS)
+    tech_hits = sum(signal in text for signal in _TECHNOLOGY_SIGNALS)
+
+    if sports_hits >= 2 and tech_hits < 4:
+        return False
+
+    return tech_hits >= 2
 
 def build_telegram_message(title, summary, category, source, url=None):
     return (
