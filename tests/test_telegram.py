@@ -69,6 +69,6 @@ def test_rich_message_falls_back_to_send_message_when_rich_api_rejects(monkeypat
     assert calls[0][0].endswith("/sendRichMessage")
     assert calls[1][0].endswith("/sendMessage")
     assert calls[1][1]["chat_id"] == "@channel"
-    assert calls[1][1]["parse_mode"] == "HTML"
+    assert "parse_mode" not in calls[1][1]
     assert "تیتر خبر" in calls[1][1]["text"]
     assert "<details>" not in calls[1][1]["text"]
