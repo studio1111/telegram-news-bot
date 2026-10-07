@@ -167,11 +167,20 @@ def is_technology_feed_item(categories, source: str = "") -> bool:
         normalized = normalize_text(category).lower()
         if normalized in _TECHNOLOGY_CATEGORIES:
             return True
-        if any(token in normalized for token in (
-            "technology", "tech", "artificial intelligence", "ai", "software",
-            "hardware", "gadgets", "cybersecurity", "semiconductor",
-            "mobile", "cloud",
-        )):
+        if re.search(
+            r"\b(?:technology|tech|ai|software|hardware|gadgets|mobile|cloud)\b",
+            normalized,
+        ) or any(
+            phrase in normalized
+            for phrase in (
+                "artificial intelligence",
+                "cybersecurity",
+                "cyber security",
+                "semiconductor",
+                "semiconductors",
+                "consumer technology",
+            )
+        ):
             return True
     return False
 
