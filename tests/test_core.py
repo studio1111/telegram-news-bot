@@ -112,3 +112,15 @@ def test_different_google_products_are_not_duplicates_without_shared_product_ent
         "summary": "Google announces new smartphone hardware for consumers.",
     }
     assert not is_duplicate_story(different, [first])
+
+
+def test_same_company_different_products_are_not_duplicates_when_only_company_entity_matches():
+    first = {
+        "title": "ابزار جدید هوش مصنوعی گوگل (Google) معرفی شد",
+        "summary": "گوگل (Google) ابزار جدید خود را معرفی کرد و کاربران می‌توانند از این فناوری استفاده کنند.",
+    }
+    different = {
+        "title": "ابزار جدید امنیتی گوگل (Google) معرفی شد",
+        "summary": "گوگل (Google) ابزار جدید خود را معرفی کرد و برای کاربران امنیت بیشتری فراهم می‌کند.",
+    }
+    assert not is_duplicate_story(different, [first])
