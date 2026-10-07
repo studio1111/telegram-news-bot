@@ -73,3 +73,15 @@ def test_published_story_record_keeps_url(monkeypatch):
     now=datetime.now(timezone.utc); item=NewsItem("u","Software story","https://example.com/u","s","S","",now)
     store=_store(); _patch(monkeypatch,[item],lambda t,s,a:_tech(t,s),lambda m,i:None,store); news_main.main()
     assert store.saves[-1][1][-1]["url"] == "https://example.com/u"
+
+
+def test_deadline_stops_before_ai_work(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem("deadline", "AI software story", "https://example.com/deadline", "s", "S", "", now)
+    calls = {"ai": 0}
+    store = _store()
+    _patch(monkeypatch, [item], lambda t,s,a: calls.__setitem__("ai", calls["ai"] + 1) or _tech(t,s), lambda m,i: None, store)
+    monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [item])
+    monkeypatch.setattr(news_main.time, "monotonic", lambda: 10_000)
+    news_main.main()
+    assert calls["ai"] == 0
