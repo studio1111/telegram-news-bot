@@ -148,7 +148,10 @@ def _bounded_response(response) -> bytes:
                 raise ValueError("response too large")
             chunks.append(chunk)
         return b"".join(chunks)
-    data = getattr(response, "content", b"")
+    if hasattr(response, "content"):
+        data = response.content
+    else:
+        data = str(getattr(response, "text", "")).encode("utf-8")
     if len(data) > MAX_RESPONSE_BYTES:
         raise ValueError("response too large")
     return data
@@ -184,7 +187,7 @@ def _fetch_article_html(url: str) -> str:
         data = _bounded_response(response)
         encoding = getattr(response, "encoding", None) or "utf-8"
         html = data.decode(encoding, errors="replace")
-    except (requests.RequestException, ValueError, UnicodeError):
+    except (requests.RequestException, UnicodeError):
         html = ""
     with _ARTICLE_CACHE_LOCK:
         if len(_ARTICLE_CACHE) >= _ARTICLE_CACHE_LIMIT:
