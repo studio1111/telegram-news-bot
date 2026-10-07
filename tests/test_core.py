@@ -112,3 +112,15 @@ def test_different_google_products_are_not_duplicates_without_shared_product_ent
         "summary": "Google announces new smartphone hardware for consumers.",
     }
     assert not is_duplicate_story(different, [first])
+
+
+def test_same_company_different_products_are_not_duplicates_when_product_entities_differ():
+    first = {
+        "title": "مدل جدید هوش مصنوعی جیمینی (Gemini) گوگل (Google) معرفی شد",
+        "summary": "گوگل (Google) مدل جیمینی (Gemini) جدید خود را معرفی کرد.",
+    }
+    different = {
+        "title": "گوشی جدید پیکسل (Pixel) گوگل (Google) معرفی شد",
+        "summary": "گوگل (Google) گوشی پیکسل (Pixel) جدید خود را معرفی کرد.",
+    }
+    assert not is_duplicate_story(different, [first])
