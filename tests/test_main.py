@@ -99,7 +99,7 @@ def test_pending_outbox_is_retried_before_new_candidates(monkeypatch):
     monkeypatch.setattr(news_main.Path, "read_text", lambda *a, **k: "[]")
     news_main.main()
     assert published == [("<b>Pending</b>", "")]
-    assert store.load_outbox()[0]["status"] == "sent"
+    assert pending["status"] == "sent"
 
 
 def test_send_crash_leaves_outbox_pending_for_recovery(monkeypatch):
