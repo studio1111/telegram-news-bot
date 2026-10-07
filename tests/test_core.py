@@ -168,3 +168,12 @@ def test_real_synthid_duplicate_matches_production_state_shape():
         "display_summary": "شرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که با فناوری سینث‌آی‌دی (SynthID) محتوای تولیدشده با هوش مصنوعی را شناسایی می‌کند.",
     }
     assert is_duplicate_story(incoming, [existing])
+
+
+def test_technology_feed_category_uses_word_boundaries():
+    from app.core import is_technology_feed_item
+    assert not is_technology_feed_item(("Techniques",), "Any source")
+    assert not is_technology_feed_item(("Biotechnology",), "Any source")
+    assert is_technology_feed_item(("Tech News",), "Any source")
+    assert is_technology_feed_item(("Technology + Computing",), "Any source")
+    assert is_technology_feed_item(("AI Research",), "Any source")
