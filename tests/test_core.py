@@ -150,3 +150,21 @@ def test_same_google_synthid_context_different_event_is_not_a_duplicate():
         "summary": "The company is adding text watermarking support for developers using new language models.",
     }
     assert not is_duplicate_story(different, [first])
+
+
+def test_real_synthid_duplicate_matches_production_state_shape():
+    existing = {
+        "title": "Google's AI detection website is now available",
+        "summary": "SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+        "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+        "display_title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+        "display_summary": "شرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را عرضه کرده است که می‌تواند محتوای تولید شده توسط ابزارهای هوش مصنوعی مختلف را شناسایی کند.",
+    }
+    incoming = {
+        "title": "Google’s new SynthID website can identify AI-generated media",
+        "summary": "Google on Tuesday launched a new site that lets anyone verify whether media is generated using AI.",
+        "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+        "display_title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی شرکت گوگل (Google)",
+        "display_summary": "شرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که با فناوری سینث‌آی‌دی (SynthID) محتوای تولیدشده با هوش مصنوعی را شناسایی می‌کند.",
+    }
+    assert is_duplicate_story(incoming, [existing])
