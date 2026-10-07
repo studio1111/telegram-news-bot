@@ -17,21 +17,56 @@ from .telegram import publish_rich_message
 
 def _collect_recent_items(sources, seen, now):
     candidates = []
+    stats = {
+        "sources": len(sources),
+        "feed_items": 0,
+        "unseen_items": 0,
+        "recent_items": 0,
+        "missing_dates": 0,
+        "source_errors": 0,
+    }
+
     for source in sources:
-        items = collect_feed(
-            source["url"],
-            source["name"],
-            source.get("limit", 100),
-        )
+        try:
+            items = collect_feed(
+                source["url"],
+                source["name"],
+                source.get("limit", 100),
+            )
+        except Exception as exc:
+            stats["source_errors"] += 1
+            print(f"[SOURCE_ERROR] {source['name']}: {exc}")
+            continue
+
+        stats["feed_items"] += len(items)
+        unseen = 0
+        recent = 0
+        missing_dates = 0
         for item in items:
             if not is_new_item(item.item_id, item.url, seen):
                 continue
-            if not is_recent_news(item.published_at, now):
+            unseen += 1
+            if item.published_at is None:
+                missing_dates += 1
                 continue
-            candidates.append(item)
+            if is_recent_news(item.published_at, now):
+                candidates.append(item)
+                recent += 1
 
-    # Process the complete 30-minute window globally, newest first.
-    # This prevents source order from influencing which stories are handled first.
+        stats["unseen_items"] += unseen
+        stats["recent_items"] += recent
+        stats["missing_dates"] += missing_dates
+        print(
+            f"[SOURCE] {source['name']}: fetched={len(items)} "
+            f"unseen={unseen} recent={recent} missing_date={missing_dates}"
+        )
+
+    print(
+        f"[COLLECT] sources={stats['sources']} feeds={stats['feed_items']} "
+        f"unseen={stats['unseen_items']} recent={stats['recent_items']} "
+        f"missing_dates={stats['missing_dates']} errors={stats['source_errors']}"
+    )
+
     return sorted(
         candidates,
         key=lambda item: item.published_at or datetime.min.replace(tzinfo=timezone.utc),
