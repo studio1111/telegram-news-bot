@@ -3,6 +3,9 @@ name: News Bot
 on:
   schedule:
     - cron: "8,38 * * * *"
+  # TEMPORARY VALIDATION: remove immediately after one successful production-like run.
+  push:
+    branches: [main]
   workflow_dispatch:
 
 concurrency:
