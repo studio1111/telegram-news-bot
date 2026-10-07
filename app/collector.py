@@ -132,8 +132,13 @@ def collect_feed(url: str, source_name: str, limit: int = 100):
     try:
         response = requests.get(
             url,
+            params={"_": str(int(time.time()))},
             timeout=20,
-            headers={"User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)"},
+            headers={
+                "User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)",
+                "Cache-Control": "no-cache, no-store, max-age=0",
+                "Pragma": "no-cache",
+            },
         )
         response.raise_for_status()
     except requests.RequestException as exc:
