@@ -158,10 +158,10 @@ def _bounded_response(response) -> bytes:
     return data
 
 
-def _safe_get(url: str):
+def _safe_get(url: str, timeout: int = 20):
     current = _validate_url(url)
     for _ in range(MAX_REDIRECTS + 1):
-        response = requests.get(current, params={"_": str(int(time.time()))}, timeout=20,
+        response = requests.get(current, params={"_": str(int(time.time()))}, timeout=timeout,
                                 headers=_NO_CACHE_HEADERS, allow_redirects=False, stream=True)
         status_code = getattr(response, "status_code", 200)
         headers = getattr(response, "headers", {}) or {}
@@ -186,7 +186,7 @@ def _fetch_article_html(url: str) -> str:
         if url in _ARTICLE_CACHE:
             return _ARTICLE_CACHE[url]
     try:
-        response = _safe_get(url)
+        response = _safe_get(url, timeout=10)
         data = _bounded_response(response)
         encoding = getattr(response, "encoding", None) or "utf-8"
         html = data.decode(encoding, errors="replace")
