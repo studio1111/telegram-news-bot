@@ -67,7 +67,7 @@ def test_publishes_all_eligible_stories_across_sources(monkeypatch):
     now = datetime.now(timezone.utc)
     items = [
         NewsItem(f"story-{i}", f"Technology story {i}", f"https://example.com/{i}",
-                 "technology", f"Source {i}", f"https://example.com/{i}.jpg", now)
+                 "technology", f"Source {i}", f"https://example.com/{i}.jpg", now, ("Technology",))
         for i in range(5)
     ]
 
