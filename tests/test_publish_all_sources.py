@@ -156,3 +156,58 @@ def test_logs_publish_summary(monkeypatch, capsys):
     output = capsys.readouterr().out
     assert "[PUBLISHED] source=Test Source" in output
     assert "[SUMMARY] candidates=1 published=1" in output
+
+
+def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "recovered-story",
+        "OpenAI announces a new AI model",
+        "https://example.com/recovered",
+        "OpenAI says the new artificial intelligence model improves ChatGPT.",
+        "The Guardian Technology",
+        "",
+        now,
+    )
+
+    monkeypatch.setattr(main_module, "collect_feed", lambda *args: [item])
+    monkeypatch.setattr(main_module, "fetch_article_text", lambda url: (
+        "OpenAI described the new artificial intelligence model and its ChatGPT system."
+    ))
+    monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "")
+    monkeypatch.setattr(
+        main_module,
+        "process_with_gemini",
+        lambda *args: {
+            "title_fa": "مدل هوش مصنوعی جدید اوپن‌ای‌آی",
+            "summary_fa": "اوپن‌ای‌آی از یک مدل هوش مصنوعی جدید خبر داد.",
+            "article_fa": "این مدل برای سیستم چت‌جی‌پی‌تی توسعه یافته است.",
+            "category": "world",
+        },
+    )
+    monkeypatch.setattr(main_module, "is_duplicate_story", lambda *args: False)
+
+    published = []
+    monkeypatch.setattr(
+        main_module,
+        "publish_rich_message",
+        lambda message, image_url: published.append(message),
+    )
+
+    class FakeStore:
+        def load(self): return set()
+        def load_records(self): return []
+        def save(self, seen, records): pass
+
+    monkeypatch.setattr(main_module, "StateStore", FakeStore)
+    monkeypatch.setattr(
+        main_module.Path,
+        "read_text",
+        lambda self, encoding="utf-8": (
+            '[{"name":"The Guardian Technology","url":"feed","limit":100}]'
+        ),
+    )
+
+    main_module.main()
+
+    assert len(published) == 1
