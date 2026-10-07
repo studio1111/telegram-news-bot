@@ -54,8 +54,6 @@ def _collect_recent_items(sources, seen, now):
         stats["recent_items"] += recent
         stats["missing_dates"] += missing_dates
         print(f"[SOURCE] {source['name']}: fetched={len(items)} unseen={unseen} recent={recent} missing_date={missing_dates}")
-        if len(candidates) >= MAX_CANDIDATES:
-            break
     print(f"[COLLECT] sources={stats['sources']} feeds={stats['feed_items']} unseen={stats['unseen_items']} recent={stats['recent_items']} missing_dates={stats['missing_dates']} errors={stats['source_errors']}")
     return sorted(candidates, key=_published_key)[:MAX_CANDIDATES]
 

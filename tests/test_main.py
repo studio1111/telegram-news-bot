@@ -32,6 +32,29 @@ def test_main_uses_90_minute_window():
     assert not news_main.is_recent_news(now-timedelta(minutes=91), now)
 
 
+def test_candidate_collection_checks_later_sources_before_capping(monkeypatch):
+    now = datetime.now(timezone.utc)
+    first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1)) for i in range(news_main.MAX_CANDIDATES)]
+    later = NewsItem("later", "OpenAI AI model software story", "https://example.com/later", "s", "Later", "", now-timedelta(minutes=60))
+    calls = []
+
+    def collect(url, name, limit):
+        calls.append(name)
+        return first_items if name == "First" else [later]
+
+    monkeypatch.setattr(news_main, "collect_feed", collect)
+    sources = [
+        {"url": "https://example.com/first-feed", "name": "First", "limit": 100},
+        {"url": "https://example.com/later-feed", "name": "Later", "limit": 100},
+    ]
+
+    result = news_main._collect_recent_items(sources, set(), now)
+
+    assert calls == ["First", "Later"]
+    assert len(result) == news_main.MAX_CANDIDATES
+    assert any(item.url == later.url for item in result)
+
+
 def test_candidate_collection_is_capped(monkeypatch):
     now = datetime.now(timezone.utc)
     items = [NewsItem(str(i), f"Story {i}", f"https://example.com/{i}", "s", "S", "", now-timedelta(minutes=i)) for i in range(news_main.MAX_CANDIDATES + 5)]
