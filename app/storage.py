@@ -100,7 +100,7 @@ class StateStore:
             for outbox_record in outbox:
                 if outbox_record.get("status") != "sent" or outbox_record.get("url") != url:
                     continue
-                title, summary = self._extract_rendered_fields(outbox_record.get("message", ""))
+                title, summary = StateStore._extract_rendered_fields(outbox_record.get("message", ""))
                 if title or summary:
                     if title and not record.get("display_title"):
                         record["display_title"] = title
