@@ -2,9 +2,6 @@ import json
 import os
 from pathlib import Path
 
-# State schema 2 adds explicit URLs to published records. Legacy records are
-# preserved with an empty URL because the original URL was not stored and
-# cannot be reconstructed safely from a title/summary.
 STATE_SCHEMA_VERSION = 2
 MAX_SEEN = 5000
 MAX_PUBLISHED_STORIES = 500
@@ -16,91 +13,50 @@ class StateStore:
 
     def _read(self):
         if not self.path.exists():
-            return {}
+            return {"schema_version": STATE_SCHEMA_VERSION, "seen": [], "published_stories": []}
         try:
             data = json.loads(self.path.read_text(encoding="utf-8"))
-            return data if isinstance(data, dict) else {}
-        except (OSError, json.JSONDecodeError):
-            return {}
+        except (OSError, json.JSONDecodeError) as exc:
+            raise RuntimeError(f"state file is unreadable: {self.path}") from exc
+        if not isinstance(data, dict):
+            raise RuntimeError("state file must contain a JSON object")
+        return data
 
     @staticmethod
     def _migrate(data):
-        """Normalize old state without inventing missing URLs.
-
-        Before schema 2, published_stories omitted ``url``. Adding an empty
-        value makes the shape stable while avoiding unsafe URL guesses. New
-        records written by main.py retain their real URL and therefore use
-        URL-based deduplication normally.
-        """
-        if not isinstance(data, dict):
-            data = {}
-        changed = data.get("schema_version") != STATE_SCHEMA_VERSION
-        raw_seen = data.get("seen", [])
-        seen = raw_seen if isinstance(raw_seen, list) else []
-        if seen != raw_seen:
-            changed = True
-
-        raw_records = data.get("published_stories", [])
-        records = raw_records if isinstance(raw_records, list) else []
-        if records != raw_records:
-            changed = True
-
-        migrated_records = []
+        seen = data.get("seen", [])
+        records = data.get("published_stories", [])
+        if not isinstance(seen, list) or not all(isinstance(value, str) for value in seen):
+            raise RuntimeError("state.seen must be a list of strings")
+        if not isinstance(records, list):
+            raise RuntimeError("state.published_stories must be a list")
+        normalized=[]
         for record in records:
-            if not isinstance(record, dict):
-                changed = True
-                continue
-            normalized = {
+            if not isinstance(record, dict): raise RuntimeError("published record must be an object")
+            normalized.append({
                 "title": record.get("title", "") if isinstance(record.get("title", ""), str) else "",
                 "summary": record.get("summary", "") if isinstance(record.get("summary", ""), str) else "",
                 "url": record.get("url", "") if isinstance(record.get("url", ""), str) else "",
-            }
-            if normalized != record:
-                changed = True
-            migrated_records.append(normalized)
-
-        migrated = {
-            "schema_version": STATE_SCHEMA_VERSION,
-            "seen": seen,
-            "published_stories": migrated_records,
-        }
-        return migrated, changed
-
-    def _migrated_data(self):
-        data, changed = self._migrate(self._read())
-        if changed and self.path.exists():
-            # Persist the schema upgrade immediately and atomically. This makes
-            # migration independent of whether the publisher has candidates.
-            self._write(data)
-        return data
+            })
+        return {"schema_version": STATE_SCHEMA_VERSION, "seen": seen, "published_stories": normalized}
 
     def _write(self, data):
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        tmp_path = self.path.with_suffix(self.path.suffix + ".tmp")
-        tmp_path.write_text(
-            json.dumps(data, ensure_ascii=False, indent=2),
-            encoding="utf-8",
-        )
-        os.replace(tmp_path, self.path)
+        tmp=self.path.with_suffix(self.path.suffix+".tmp")
+        tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
+        os.replace(tmp,self.path)
+
+    def _data(self):
+        return self._migrate(self._read())
 
     def load(self):
-        return set(self._migrated_data().get("seen", []))
+        return set(self._data()["seen"])
 
     def load_records(self):
-        records = self._migrated_data().get("published_stories", [])
-        return records if isinstance(records, list) else []
+        return self._data()["published_stories"]
 
     def save(self, seen, records=None):
-        """Persist state atomically, preserving insertion order of "seen"."""
-        current, _ = self._migrate(self._read())
-        previous = [value for value in current.get("seen", []) if value in seen]
-        previous_set = set(previous)
-        ordered = previous + sorted(value for value in seen if value not in previous_set)
-        if records is None:
-            records = current.get("published_stories", [])
-        data = {
-            "schema_version": STATE_SCHEMA_VERSION,
-            "seen": ordered[-MAX_SEEN:],
-            "published_stories": list(records)[-MAX_PUBLISHED_STORIES:],
-        }
-        self._write(data)
+        current=self._data(); previous=[v for v in current["seen"] if v in seen]; previous_set=set(previous)
+        ordered=previous+sorted(v for v in seen if v not in previous_set)
+        if records is None: records=current["published_stories"]
+        self._write({"schema_version":STATE_SCHEMA_VERSION,"seen":ordered[-MAX_SEEN:],"published_stories":list(records)[-MAX_PUBLISHED_STORIES:]})
