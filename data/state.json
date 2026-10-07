@@ -27,6 +27,7 @@
     "a549e670ec5ede1c6046a7cd68e58ce3d28ca1240690a16c7a74a1039de9228c",
     "b94f42159266745f49363c1cec12ec723e76e67295d493f16a74ab3b8bc432fe",
     "b9846c1e4a72a39bce7489b118838a6597da51bda35dccb5a485f9e7d92c9392",
+    "c39fedda2b2b12953648b49a0dddcddbbdbc4766a62dbbac246967b0ea4ed1ad",
     "d94793a6caabe09954325941acf08641bee0551be1aecf05230cf73a7af8f1f3",
     "dda8f532eaa12395b031f675107e0ee2589f4049cc768642e1d70149d7f97214",
     "ebbfdfa09c26d754fca116973e635c78a79794c9e5e653bfb8230b2f200da2fe",
@@ -36,6 +37,7 @@
     "fd6c57925f97cce642affb5c166d8c0993c520193ed37f04afb25e43c00483fd",
     "fe8415b6a6f7b0066af80eedb050e9af65969c8963313e4cbc2c6d217165bd45",
     "ffe4575d6b3385fe6bb4a94c7fd9b1de8882aafb8c32c89c1496cbd6d521da53",
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qUVJrRTVSdER4cURoaEItckNhNFJBVDJwb3hyeC0zaG1tOGFpb3pPeUdRcUEtQjhRT054N0NrdUp4S0hUQ0QzcnRTbzd5OV9BMUdXejZCUFlQNGYtUVJxQlA2Mi13Z0pZRjhJ?oc=5",
     "https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/",
     "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
     "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
@@ -169,6 +171,10 @@
     {
       "title": "The Sonos Beam 2 soundbar is $140 off",
       "summary": "The Sonos Beam Gen 2 soundbar is on sale for $359 at Amazon and Best Buy during October Prime Day, a healthy $140 discount from its usual price, and $10 lower than the previous Prime Day price. The biggest draw here may be obvious — its native connectivity to other Sonos products — though it’s [&#8230;]"
+    },
+    {
+      "title": "Technology + Computing - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1qUVJrRTVSdER4cURoaEItckNhNFJBVDJwb3hyeC0zaG1tOGFpb3pPeUdRcUEtQjhRT054N0NrdUp4S0hUQ0QzcnRTbzd5OV9BMUdXejZCUFlQNGYtUVJxQlA2Mi13Z0pZRjhJ?oc=5\" target=\"_blank\">Technology + Computing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
     }
   ]
 }
