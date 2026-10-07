@@ -60,9 +60,10 @@ def _collect_recent_items(sources, seen, now):
 
 
 def _process_candidate(item):
-    article_text = fetch_article_text(item.url)
-    image_url = item.image_url or fetch_article_image_url(item.url)
-    return item, image_url, process_with_gemini(item.title, item.summary, article_text)
+    # Use the feed payload as the primary input. Article-page fetching can hang on
+    # publisher-side DNS/CDN behavior and should never block Telegram publication.
+    article_text = item.summary
+    return item, item.image_url, process_with_gemini(item.title, item.summary, article_text)
 
 
 def _story_record(item):
