@@ -34,8 +34,8 @@ def test_main_uses_90_minute_window():
 
 def test_candidate_collection_checks_later_sources_before_capping(monkeypatch):
     now = datetime.now(timezone.utc)
-    first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1)) for i in range(news_main.MAX_CANDIDATES)]
-    later = NewsItem("later", "OpenAI AI model software story", "https://example.com/later", "s", "Later", "", now-timedelta(minutes=60))
+    first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1), ("Technology",)) for i in range(news_main.MAX_CANDIDATES)]
+    later = NewsItem("later", "OpenAI AI model software story", "https://example.com/later", "s", "Later", "", now-timedelta(minutes=60), ("Technology",))
     calls = []
 
     def collect(url, name, limit):
@@ -57,7 +57,7 @@ def test_candidate_collection_checks_later_sources_before_capping(monkeypatch):
 
 def test_candidate_collection_is_capped(monkeypatch):
     now = datetime.now(timezone.utc)
-    items = [NewsItem(str(i), f"Story {i}", f"https://example.com/{i}", "s", "S", "", now-timedelta(minutes=i)) for i in range(news_main.MAX_CANDIDATES + 5)]
+    items = [NewsItem(str(i), f"Story {i}", f"https://example.com/{i}", "s", "S", "", now-timedelta(minutes=i), ("Technology",)) for i in range(news_main.MAX_CANDIDATES + 5)]
     monkeypatch.setattr(news_main, "collect_feed", lambda *a, **k: items)
     result = news_main._collect_recent_items([{"url":"https://example.com/feed", "name":"S", "limit":100}], set(), now)
     assert len(result) == news_main.MAX_CANDIDATES
@@ -65,8 +65,8 @@ def test_candidate_collection_is_capped(monkeypatch):
 
 def test_incomplete_gemini_result_does_not_crash_run(monkeypatch):
     now=datetime.now(timezone.utc)
-    bad=NewsItem("b","OpenAI AI model","https://example.com/b","s","S","",now-timedelta(minutes=2))
-    good=NewsItem("g","Nvidia GPU software","https://example.com/g","s","S","",now-timedelta(minutes=1))
+    bad=NewsItem("b","OpenAI AI model","https://example.com/b","s","S","",now-timedelta(minutes=2), ("Technology",))
+    good=NewsItem("g","Nvidia GPU software","https://example.com/g","s","S","",now-timedelta(minutes=1), ("Technology",))
     def process(title, summary, article): return {"category":"technology","summary_fa":"x"} if title.startswith("OpenAI") else _tech("خبر","خلاصه")
     published=[]; store=_store(); _patch(monkeypatch,[bad,good],process,lambda m,i:published.append(m),store)
     news_main.main()
@@ -74,7 +74,7 @@ def test_incomplete_gemini_result_does_not_crash_run(monkeypatch):
 
 
 def test_state_is_saved_after_each_publication(monkeypatch):
-    now=datetime.now(timezone.utc); first=NewsItem("1","Software story","https://example.com/1","s","S","",now-timedelta(minutes=3)); second=NewsItem("2","Nvidia chip software story","https://example.com/2","s","S","",now-timedelta(minutes=2))
+    now=datetime.now(timezone.utc); first=NewsItem("1","Software story","https://example.com/1","s","S","",now-timedelta(minutes=3), ("Technology",)); second=NewsItem("2","Nvidia chip software story","https://example.com/2","s","S","",now-timedelta(minutes=2))
     calls={"n":0}
     def publish(m,i):
         calls["n"]+=1
@@ -86,21 +86,21 @@ def test_state_is_saved_after_each_publication(monkeypatch):
 
 
 def test_stories_are_published_oldest_first(monkeypatch):
-    now=datetime.now(timezone.utc); newer=NewsItem("n","Newer software story","https://example.com/n","s","S","",now-timedelta(minutes=1)); older=NewsItem("o","Older software story","https://example.com/o","s","S","",now-timedelta(minutes=50))
+    now=datetime.now(timezone.utc); newer=NewsItem("n","Newer software story","https://example.com/n","s","S","",now-timedelta(minutes=1)); older=NewsItem("o","Older software story","https://example.com/o","s","S","",now-timedelta(minutes=50), ("Technology",))
     order=[]; store=_store(); _patch(monkeypatch,[newer,older],lambda t,s,a:_tech(t,s),lambda m,i:order.append(m),store); monkeypatch.setattr(news_main,"is_duplicate_story",lambda *a,**k:False)
     news_main.main()
     assert "Older" in order[0] and "Newer" in order[1]
 
 
 def test_published_story_record_keeps_url(monkeypatch):
-    now=datetime.now(timezone.utc); item=NewsItem("u","Software story","https://example.com/u","s","S","",now)
+    now=datetime.now(timezone.utc); item=NewsItem("u","Software story","https://example.com/u","s","S","",now, ("Technology",))
     store=_store(); _patch(monkeypatch,[item],lambda t,s,a:_tech(t,s),lambda m,i:None,store); news_main.main()
     assert store.saves[-1][1][-1]["url"] == "https://example.com/u"
 
 
 def test_deadline_stops_before_ai_work(monkeypatch):
     now = datetime.now(timezone.utc)
-    item = NewsItem("deadline", "AI software story", "https://example.com/deadline", "s", "S", "", now)
+    item = NewsItem("deadline", "AI software story", "https://example.com/deadline", "s", "S", "", now, ("Technology",))
     calls = {"ai": 0}
     store = _store()
     _patch(monkeypatch, [item], lambda t,s,a: calls.__setitem__("ai", calls["ai"] + 1) or _tech(t,s), lambda m,i: None, store)

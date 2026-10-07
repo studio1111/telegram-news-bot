@@ -32,3 +32,11 @@ def test_same_url_is_always_a_duplicate():
 def test_technology_filter_does_not_trust_category_alone_for_non_technology_content():
     from app.core import is_technology_story
     assert not is_technology_story("technology", "Diplomatic talks continue", "Officials discuss tariffs", "Foreign policy negotiations continue")
+
+
+def test_feed_category_or_tag_is_the_technology_gate():
+    from app.core import is_technology_feed_item
+    assert is_technology_feed_item(("Technology",), "Any source")
+    assert is_technology_feed_item(("Artificial Intelligence",), "Any source")
+    assert not is_technology_feed_item(("Politics", "World"), "Any source")
+    assert is_technology_feed_item((), "TechCrunch")

@@ -65,3 +65,33 @@ def test_rejects_oversized_article_response(monkeypatch):
     monkeypatch.setattr(collector.requests, "get", lambda *a, **k: Response())
     with pytest.raises(ValueError, match="response too large"):
         collector.fetch_article_text("https://example.com/large")
+
+
+def test_collect_feed_preserves_entry_category_and_label_tags(monkeypatch):
+    import app.collector as collector
+
+    class Response:
+        status_code = 200
+        headers = {}
+        content = b"feed"
+
+        def raise_for_status(self):
+            pass
+
+    class Parsed:
+        entries = [{
+            "id": "story-1",
+            "title": "AI story",
+            "link": "https://example.com/story",
+            "summary": "Technology news",
+            "published_parsed": None,
+            "tags": [
+                {"term": "Technology"},
+                {"label": "Artificial Intelligence"},
+            ],
+        }]
+
+    monkeypatch.setattr(collector, "_safe_get", lambda url: Response())
+    monkeypatch.setattr(collector.feedparser, "parse", lambda data: Parsed())
+    items = collector.collect_feed("https://example.com/feed", "Example")
+    assert items[0].categories == ("Technology", "Artificial Intelligence")
