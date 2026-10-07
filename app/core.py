@@ -254,6 +254,8 @@ _TECHNOLOGY_CATEGORIES = {"technology", "technologies", "tech", "artificial inte
 def is_technology_news(category: str) -> bool:
     """Return True only for an explicit technology category/tag."""
     normalized = normalize_text(category).lower()
+    if normalized in {"فناوری", "تکنولوژی", "علم و فناوری", "هوش مصنوعی", "امنیت سایبری", "گجت"}:
+        return True
     if not normalized:
         return False
     if normalized in _TECHNOLOGY_CATEGORIES:

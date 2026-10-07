@@ -287,3 +287,54 @@ def test_outbox_recovery_preserves_story_fields_for_dedup(monkeypatch):
     recovered = store.saves[-1][1][-1]
     assert recovered["title"] == pending["title"]
     assert recovered["display_title"] == pending["display_title"]
+
+
+def test_duplicate_candidate_with_image_wins_over_newer_text_only_story():
+    from datetime import datetime, timezone
+    with_image = NewsItem(
+        "img", "Google launches SynthID Detector", "https://example.com/img",
+        "Google launches a tool to identify AI-generated media.", "TechCrunch",
+        "https://example.com/hero.jpg", datetime(2026, 10, 7, 18, 0, tzinfo=timezone.utc),
+        ("Technology",),
+    )
+    without_image = NewsItem(
+        "noimg", "Google launches SynthID Detector", "https://example.com/noimg",
+        "Google launches a tool to identify AI-generated media.", "WIRED",
+        "", datetime(2026, 10, 7, 18, 5, tzinfo=timezone.utc),
+        ("Technology",),
+    )
+    result = news_main._prioritize_duplicate_candidates([without_image, with_image])
+    assert len(result) == 1
+    assert result[0].source == "TechCrunch"
+    assert result[0].image_url == "https://example.com/hero.jpg"
+
+
+def test_missing_rss_image_is_recovered_from_article_page(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "img-recovery", "Technology story", "https://example.com/story",
+        "Technology summary", "TechCrunch", "", now, ("Technology",)
+    )
+    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda url: "https://example.com/recovered.jpg")
+    monkeypatch.setattr(news_main.time, "monotonic", lambda: 100)
+    recovered = news_main._hydrate_missing_images([item], 200)
+    assert recovered[0].image_url == "https://example.com/recovered.jpg"
+
+
+def test_persian_sources_are_fallback_only_when_image_priority_ties():
+    from datetime import datetime, timezone
+    english = NewsItem(
+        "en", "Google launches SynthID Detector", "https://example.com/en",
+        "Google launches a tool to identify AI-generated media.", "TechCrunch",
+        "https://example.com/en.jpg", datetime(2026, 10, 7, 18, 0, tzinfo=timezone.utc),
+        ("Technology",),
+    )
+    persian = NewsItem(
+        "fa", "Google launches SynthID Detector", "https://example.com/fa",
+        "Google launches a tool to identify AI-generated media.", "Digiato",
+        "https://example.com/fa.jpg", datetime(2026, 10, 7, 18, 5, tzinfo=timezone.utc),
+        ("فناوری",),
+    )
+    result = news_main._prioritize_duplicate_candidates([english, persian])
+    assert len(result) == 1
+    assert result[0].source == "TechCrunch"
