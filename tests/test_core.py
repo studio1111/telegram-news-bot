@@ -96,3 +96,44 @@ def test_different_technology_events_are_not_duplicates():
         "summary": "The company demonstrated a new prototype milestone at its test facility.",
     }
     assert is_duplicate_story(different, [first]) is False
+
+
+def test_technology_story_accepts_ai_story_even_if_gemini_says_world():
+    from app.core import is_technology_story
+
+    assert is_technology_story(
+        "world",
+        "OpenAI came to Australia to apologise",
+        "OpenAI faces questions about artificial intelligence and ChatGPT.",
+        "The company discussed AI systems, model safety and ChatGPT.",
+    ) is True
+
+
+def test_technology_story_accepts_common_technology_categories():
+    from app.core import is_technology_story
+
+    assert is_technology_story("AI", "New AI model", "", "") is True
+    assert is_technology_story("cybersecurity", "Security flaw", "", "") is True
+    assert is_technology_story("software", "New software release", "", "") is True
+
+
+def test_technology_story_rejects_sports_even_when_source_is_technology_feed():
+    from app.core import is_technology_story
+
+    assert is_technology_story(
+        "sports",
+        "Antigua and Barbuda vs Aruba",
+        "Concacaf Nations League stats and head-to-head.",
+        "Football match statistics and league results.",
+    ) is False
+
+
+def test_technology_story_rejects_generic_world_story_without_technology_evidence():
+    from app.core import is_technology_story
+
+    assert is_technology_story(
+        "world",
+        "Diplomatic talks continue",
+        "Officials met to discuss regional relations.",
+        "The meeting focused on diplomacy and foreign policy.",
+    ) is False
