@@ -158,9 +158,16 @@ def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.65
             return True
 
         # Distinctive event anchors catch heavy cross-source paraphrases.
-        # Requiring at least two shared anchors plus supporting context and a
-        # shared event/action signal avoids collapsing unrelated stories from
-        # the same company or product.
+        # Strong actions such as detecting, funding, acquiring, partnering,
+        # blocking or verifying are much more discriminative than generic
+        # announcement/launch wording.
+        strong_actions = shared_actions & {
+            "detect", "check", "fund", "secure", "raise", "acquire", "partner",
+            "restrict", "reduce", "increase", "create", "watermark", "ban",
+            "block", "buy", "sell",
+        }
+        if len(shared_anchors) >= 2 and len(shared_support) >= 1 and strong_actions:
+            return True
         if len(shared_anchors) >= 2 and len(shared_support) >= 2 and shared_actions:
             return True
 
