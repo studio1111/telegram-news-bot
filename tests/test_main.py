@@ -177,3 +177,39 @@ def test_retried_outbox_marks_real_url_as_seen(monkeypatch):
     news_main.main()
     assert "https://example.com/pending" in store.saves[-1][0]
     assert "url:hash" not in store.saves[-1][0]
+
+
+def test_main_skips_cross_source_paraphrase_of_same_event(monkeypatch):
+    now = datetime.now(timezone.utc)
+    first = NewsItem(
+        "synthid-1",
+        "Google's AI detection website is now available",
+        "https://www.engadget.com/google-synth-id-detector-ai-detection-website-is-now-available/",
+        "SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+        "Engadget",
+        "",
+        now - timedelta(minutes=10),
+        ("Technology",),
+    )
+    rewritten = NewsItem(
+        "synthid-2",
+        "Google’s new SynthID website can identify AI-generated media",
+        "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+        "Google launched a new site that lets anyone verify whether an image, video, or audio clip is generated using AI.",
+        "TechCrunch",
+        "",
+        now - timedelta(minutes=5),
+        ("Technology",),
+    )
+    store = _store()
+    published = []
+    _patch(
+        monkeypatch,
+        [first, rewritten],
+        lambda title, summary, article: _tech(title, summary),
+        lambda message, image_url: published.append(message),
+        store,
+    )
+    monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [first, rewritten])
+    news_main.main()
+    assert len(published) == 1
