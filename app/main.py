@@ -110,7 +110,7 @@ def main():
     # allowing every genuinely new story through.
     ai_candidates = []
     for item in candidates:
-        story = {"title": item.title, "summary": item.summary}
+        story = {"title": item.title, "summary": item.summary, "url": item.url}
         if is_duplicate_story(story, published_stories):
             duplicates += 1
             print(f"[DUPLICATE] source={item.source} url={item.url}")
