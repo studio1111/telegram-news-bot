@@ -124,3 +124,29 @@ def test_same_company_different_products_are_not_duplicates_when_product_entitie
         "summary": "گوگل (Google) گوشی پیکسل (Pixel) جدید خود را معرفی کرد.",
     }
     assert not is_duplicate_story(different, [first])
+
+
+def test_english_synthid_cross_source_rewrites_are_duplicates():
+    first = {
+        "title": "Google's AI detection website is now available",
+        "summary": "SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+        "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+    }
+    rewritten = {
+        "title": "Google’s new SynthID website can identify AI-generated media",
+        "summary": "Google launched a new site that lets anyone verify whether an image, video, or audio clip is generated using AI.",
+        "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+    }
+    assert is_duplicate_story(rewritten, [first])
+
+
+def test_same_google_synthid_context_different_event_is_not_a_duplicate():
+    first = {
+        "title": "Google launches SynthID Detector website for AI-generated media",
+        "summary": "The new detector checks images, video, and audio for SynthID watermarks.",
+    }
+    different = {
+        "title": "Google expands SynthID text watermarking to more AI models",
+        "summary": "The company is adding text watermarking support for developers using new language models.",
+    }
+    assert not is_duplicate_story(different, [first])
