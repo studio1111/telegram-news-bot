@@ -42,14 +42,96 @@ def _story_tokens(value: str) -> set[str]:
 def _numbers(value: str) -> set[str]:
     return set(re.findall(r"\d+(?:\.\d+)?", normalize_text(value).replace(",", "")))
 
+def _story_variants(record: dict) -> list[tuple[str, str]]:
+    variants = [(record.get("title", ""), record.get("summary", ""))]
+    display_title = record.get("display_title", "")
+    display_summary = record.get("display_summary", "")
+    if display_title or display_summary:
+        variants.append((display_title, display_summary))
+    return [
+        (normalize_text(title), normalize_text(summary))
+        for title, summary in variants
+        if normalize_text(title) or normalize_text(summary)
+    ]
+
+
+def _named_entities(value: str) -> set[str]:
+    entities = set()
+    for raw in re.findall(r"\\(([^()]{1,100})\\)", value or ""):
+        normalized = re.sub(r"[^\\w]+", " ", raw.lower(), flags=re.UNICODE).strip()
+        if not normalized:
+            continue
+        parts = normalized.split()
+        if parts:
+            entities.add(parts[0])
+        if len(parts) <= 4:
+            entities.add(normalized.replace(" ", ""))
+    return entities
+
+
+def _pair_similarity(left_title: str, left_summary: str, right_title: str, right_summary: str) -> bool:
+    left_full = f"{left_title} {left_summary}"
+    right_full = f"{right_title} {right_summary}"
+    left_tokens = _story_tokens(left_full)
+    right_tokens = _story_tokens(right_full)
+    if not left_tokens or not right_tokens:
+        return False
+
+    title_tokens_left = _story_tokens(left_title)
+    title_tokens_right = _story_tokens(right_title)
+    overlap, overlap_coefficient = _title_overlap(title_tokens_left, title_tokens_right)
+    title_jaccard = (
+        len(title_tokens_left & title_tokens_right) / len(title_tokens_left | title_tokens_right)
+        if title_tokens_left and title_tokens_right else 0.0
+    )
+    title_similarity = _title_similarity(left_title, right_title)
+    combined_similarity = len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
+    shared_numbers = _numbers(left_full) & _numbers(right_full)
+    significant_numbers = {
+        number for number in shared_numbers
+        if not (len(number.split(".")[0]) == 4 and number.split(".")[0].isdigit()
+                and 1900 <= int(number.split(".")[0]) <= 2100)
+    }
+
+    if title_jaccard >= 0.65 and title_similarity >= 0.72:
+        return True
+    if title_similarity >= 0.82 and combined_similarity >= 0.55:
+        return True
+    if overlap >= 3 and overlap_coefficient >= 0.60 and combined_similarity >= 0.40:
+        return True
+    if significant_numbers and overlap >= 2 and overlap_coefficient >= 0.40 and combined_similarity >= 0.38:
+        return True
+    if overlap >= 2 and overlap_coefficient >= 0.50 and combined_similarity >= 0.50:
+        return True
+
+    shared_entities = _named_entities(left_full) & _named_entities(right_full)
+    if len(shared_entities) >= 2:
+        return True
+
+    if len(shared_entities) == 1:
+        entity = next(iter(shared_entities))
+        if len(entity) >= 6 and len(left_tokens & right_tokens) >= 4 and combined_similarity >= 0.18:
+            return True
+
+    return False
+
+
 def story_similarity(left: dict, right: dict) -> float:
-    left_tokens = _story_tokens(f"{left.get('title', '')} {left.get('summary', '')}")
-    right_tokens = _story_tokens(f"{right.get('title', '')} {right.get('summary', '')}")
+    left_tokens = _story_tokens(" ".join(
+        f"{title} {summary}" for title, summary in _story_variants(left)
+    ))
+    right_tokens = _story_tokens(" ".join(
+        f"{title} {summary}" for title, summary in _story_variants(right)
+    ))
     if not left_tokens or not right_tokens:
         return 0.0
     jaccard = len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
-    numbers_match = bool(_numbers(left.get("title", "") + " " + left.get("summary", "")) & _numbers(right.get("title", "") + " " + right.get("summary", "")))
+    numbers_match = bool(
+        _numbers(" ".join(f"{title} {summary}" for title, summary in _story_variants(left)))
+        & _numbers(" ".join(f"{title} {summary}" for title, summary in _story_variants(right)))
+    )
     return min(1.0, jaccard + (0.20 if numbers_match else 0.0))
+
 
 def _title_similarity(left: str, right: str) -> float:
     from difflib import SequenceMatcher
@@ -91,49 +173,14 @@ def _title_overlap(left: set[str], right: set[str]) -> tuple[int, float]:
 
 def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.65) -> bool:
     item_url = _canonical_story_url(item.get("url", ""))
-    item_title = normalize_text(item.get("title", ""))
-    item_tokens = _story_tokens(item_title)
-    item_full_text = f"{item.get('title', '')} {item.get('summary', '')}"
-    item_numbers = _numbers(item_full_text)
     for story in previous:
         story_url = _canonical_story_url(story.get("url", ""))
         if item_url and story_url and item_url == story_url:
             return True
-
-        story_tokens = _story_tokens(story.get("title", ""))
-        overlap, overlap_coefficient = _title_overlap(item_tokens, story_tokens)
-        title_jaccard = len(item_tokens & story_tokens) / len(item_tokens | story_tokens) if item_tokens and story_tokens else 0.0
-        combined_similarity = story_similarity(item, story)
-        title_similarity = _title_similarity(item_title, story.get("title", ""))
-        story_numbers = _numbers(f"{story.get('title', '')} {story.get('summary', '')}")
-        shared_numbers = item_numbers & story_numbers
-
-        if title_jaccard >= threshold and title_similarity >= 0.72:
-            return True
-        if title_similarity >= 0.82 and combined_similarity >= 0.55:
-            return True
-
-        # Different publishers often paraphrase the same event. Shared core
-        # entities plus a meaningful title overlap are stronger evidence than
-        # raw sequence similarity alone.
-        if overlap >= 3 and overlap_coefficient >= 0.60 and combined_similarity >= 0.40:
-            return True
-
-        # Funding, product generations, prices and other numeric facts are
-        # especially useful for matching cross-source rewrites. Ignore a lone
-        # shared year, which is common to unrelated stories.
-        significant_numbers = {
-            number for number in shared_numbers
-            if not (len(number.split(".")[0]) == 4 and number.split(".")[0].isdigit()
-                    and 1900 <= int(number.split(".")[0]) <= 2100)
-        }
-        if significant_numbers and overlap >= 2 and overlap_coefficient >= 0.40 and combined_similarity >= 0.38:
-            return True
-
-        # A compact title with two shared core tokens and strong semantic
-        # overlap is enough when there is no numeric clue.
-        if overlap >= 2 and overlap_coefficient >= 0.50 and combined_similarity >= 0.50:
-            return True
+        for item_title, item_summary in _story_variants(item):
+            for story_title, story_summary in _story_variants(story):
+                if _pair_similarity(item_title, item_summary, story_title, story_summary):
+                    return True
     return False
 
 def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
