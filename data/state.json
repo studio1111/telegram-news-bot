@@ -126,7 +126,25 @@
     "a7aad5854ea5ca2a4ecf00308492f1f5e9e511ac1299d8b4e726332e8c0a0fb4",
     "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
     "1db226ff32ad5a30f9a1ed0b1dcf3fc7c9127f6eebd0b6dba9dac5cae9a437d5",
-    "https://www.theguardian.com/society/2026/oct/07/stuart-hall-british-culture-online-project"
+    "https://www.theguardian.com/society/2026/oct/07/stuart-hall-british-culture-online-project",
+    "51991db5d00afd60b36caeab796f25b7cc063aac5f80726b5c498ba0772d16b4",
+    "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
+    "998d1582950d4931336cd3346f12892bb8930ef5bcf6130a0e59adf4d13d428c",
+    "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/",
+    "1422d09d5528c336c5b33119e203e60e83494a923fd39c0e7ea68233b597050f",
+    "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+    "caf75065df3a00f87a7682395962b05268decebe061520b831143c744ab35f2b",
+    "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/",
+    "85fcbeea514714c5263027fa74bbc2e7aaa66bda1a96e233d9e917981b7abb3a",
+    "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+    "6c9c9fe09c6cd028216556d52ab511481a2dff0c75b68fe1cf4d00ad9fb99d4a",
+    "https://www.engadget.com/2278872/cisco-is-bringing-a-new-agentic-framework-to-its-webex-enterprise-platform/",
+    "138990789d1bd2aeee47fc17c762597967f241d5593d1c96e5a1f155afff393c",
+    "https://techcrunch.com/2026/10/07/rings-first-smart-lock-can-be-hand-cranked-when-its-battery-dies/",
+    "4360f5aeac6abe103ec19c8ccb22db29fb7b3360a6458826359b53a617e172fb",
+    "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
+    "b92285e187a8d758dd26b8f7e3b77c133249e5816dbc3538770277521bec601a",
+    "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/"
   ],
   "published_stories": [
     {
@@ -153,6 +171,46 @@
       "title": "Google's experimental Playground platform uses AI to create games for you",
       "summary": "Google launches an AI-powered game creation platform called Playground.",
       "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
+    },
+    {
+      "title": "OpenAI just posted hundreds more results on major math problems",
+      "summary": "The company said that most results were produced in a response to a single prompt given to a single AI agent.",
+      "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/"
+    },
+    {
+      "title": "Another personal AI assistant has launched — Meet Tab, which emerged from stealth with a $300M valuation",
+      "summary": "A new personal AI assistant has arrived. Meet Tab, which announced Tuesday that it had officially emerged from stealth.",
+      "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/"
+    },
+    {
+      "title": "Google's AI detection website is now available",
+      "summary": "SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+      "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
+    },
+    {
+      "title": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open",
+      "summary": "In 6 days, 10,000+ people from across the global startup and tech ecosystem will come together at San Francisco’s Moscone West for TechCrunch Disrupt 2026. If you’re planning to be one of them, don’t wait to register your ticket before prices increase at the door. Save up to $100 on your pass, plus 50% on a second of the same type.",
+      "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/"
+    },
+    {
+      "title": "Google’s new SynthID website can identify AI-generated media",
+      "summary": "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
+      "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/"
+    },
+    {
+      "title": "Cisco is bringing a new agentic framework to its Webex enterprise platform",
+      "summary": "Cisco's Dialog feature promises to turn \"fragmented interactions into continuous customer relationships.\"",
+      "url": "https://www.engadget.com/2278872/cisco-is-bringing-a-new-agentic-framework-to-its-webex-enterprise-platform/"
+    },
+    {
+      "title": "Ring’s first smart lock can be hand-cranked when its battery dies",
+      "summary": "Amazon-owned Ring is entering the smart lock market with a device designed to tackle a common concern: getting locked out when the battery dies.",
+      "url": "https://techcrunch.com/2026/10/07/rings-first-smart-lock-can-be-hand-cranked-when-its-battery-dies/"
+    },
+    {
+      "title": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2026",
+      "summary": "From Nvidia and Chime to Obvious Ventures and Anthropic, explore the entire roundtable agenda at TechCrunch Disrupt 2026. Register now to save up to $100 on your pass and get a second pass at 50% off.",
+      "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/"
     }
   ],
   "outbox": [
@@ -189,6 +247,62 @@
       "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
       "message": "<b>📰 معرفی پلتفرم بازی‌سازی پلی‌گراند (Playground) توسط شرکت گوگل (Google) با بهره‌گیری از هوش مصنوعی</b>\n\nشرکت گوگل (Google) از یک پلتفرم تجربی جدید به نام پلی‌گراند (Playground) رونمایی کرد که به کاربران اجازه می‌دهد با استفاده از فناوری هوش مصنوعی (AI) به ساخت بازی‌های رایانه‌ای بپردازند. این ابزار جدید گامی تازه در جهت ساده‌سازی فرایند توسعه بازی و دسترس‌پذیر کردن آن برای عموم مردم به شمار می‌رود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) در ادامه توسعه ابزارهای مبتنی بر هوش مصنوعی (AI)، از پلتفرم جدید و تجربی خود به نام پلی‌گراند (Playground) رونمایی کرد. این پلتفرم نوآورانه به کاربران امکان می‌دهد بدون داشتن دانش فنی پیشرفته یا مهارت‌های برنامه‌نویسی پیچیده، فقط با استفاده از فرامین متنی و قابلیت‌های هوش مصنوعی، بازی‌های ویدیویی دلخواه خود را خلق کنند. بر اساس اطلاعات منتشر شده، پلتفرم پلی‌گراند (Playground) با هدف دگرگونی شیوه طراحی و تولید بازی‌های رایانه‌ای توسعه یافته است. کاربران می‌توانند ایده‌های خلاقانه خود را به زبان ساده وارد سیستم کنند و هوش مصنوعی (AI) با پردازش این درخواست‌ها، عناصر گرافیکی، مکانیک‌های گیم‌پلی و محیط بازی را به صورت خودکار تولید کند. این رویکرد شباهت زیادی به ابزارهای تولید تصویر و متن دارد، اما این بار در حوزه تعاملی و صنعت بازی‌سازی به کار گرفته شده است. کارشناسان حوزه فناوری (Technology) بر این باورند که عرضه چنین پلتفرم‌هایی می‌تواند موانع سنتی موجود در مسیر بازی‌سازی را به شدت کاهش دهد. در حالی که ساخت بازی‌های استاندارد معمولاً نیازمند تیم‌های بزرگ، ماه‌ها تلاش و بودجه‌های کلان است، ابزارهایی مانند پلی‌گراند (Playground) این فرایند را به امری سریع و شخصی‌سازی شده تبدیل می‌کنند. این تحول می‌تواند الهام‌بخش نسل جدیدی از طراحان و سازندگان مستقل بازی در سراسر جهان باشد. در پایان، پلتفرم پلی‌گراند (Playground) شرکت گوگل (Google) نشان‌دهنده روند رو به رشد ادغام هوش مصنوعی (AI) در صنایع خلاق است. اگرچه این پروژه در حال حاضر به صورت تجربی دنبال می‌شود، اما چشم‌انداز آینده تولید محتوای دیجیتال و سرگرمی را به سمت تعامل هرچه بیشتر میان انسان و ماشین هدایت می‌کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/l-intro-1791372099.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:51991db5d00afd60b36caeab796f25b7cc063aac5f80726b5c498ba0772d16b4",
+      "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
+      "message": "<b>📰 دستاورد جدید اوپن‌ای‌آی در حل مسائل پیچیده ریاضی با کمک هوش مصنوعی</b>\n\nشرکت اوپن‌ای‌آی (OpenAI) اعلام کرد که نتایج جدیدی در زمینه حل مسائل پیشرفته ریاضی به دست آورده است. بخش عمده‌ای از این دستاوردها تنها در پاسخ به یک دستور واحد توسط یک عامل هوش مصنوعی (AI agent) تولید شده‌اند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اوپن‌ای‌آی (OpenAI) در جدیدترین اطلاعیه خود اعلام کرد که موفق به ثبت صدها نتیجه تازه در حل مسائل مهم و پیچیده ریاضی شده است. این پیشرفت چشمگیر نشان‌دهنده توانمندی‌های رو به رشد مدل‌های هوش مصنوعی در حوزه‌های تخصصی و استدلال منطقی است. بر اساس گزارش این شرکت پیشرو در حوزه فناوری، جالب‌ترین نکته درباره نتایج اخیر این است که اکثر آن‌ها تنها با ارسال یک دستور یا پرامپت (Prompt) منفرد به یک عامل هوش مصنوعی (AI agent) منفرد تولید شده‌اند. این موضوع حاکی از آن است که سیستم‌های هوش مصنوعی توانسته‌اند فراتر از پردازش زبان طبیعی ساده، گام بلندی در جهت حل مسائل دقیق علمی و ریاضی بردارند. در ماه‌های اخیر، توسعه‌دهندگان هوش مصنوعی تمرکز ویژه‌ای بر بهبود توانایی استدلال ریاضی و منطقی مدل‌ها داشته‌اند. مسائل ریاضی به دلیل نیاز به دقت بالا، اثبات‌های زنجیره‌ای و دوری از توهمات اطلاعاتی، همواره یکی از چالش‌برانگیزترین حوزه‌ها برای سیستم‌های هوش مصنوعی بوده‌اند. موفقیت اخیر اوپن‌ای‌آی (OpenAI) می‌تواند نویدبخش کاربردهای عملی بیشتر در پژوهش‌های علمی، مهندسی و تحلیل‌های پیچیده باشد. در نتیجه، این دستاورد نه تنها گامی به جلو برای محصولات شرکت اوپن‌ای‌آی (OpenAI) محسوب می‌شود، بلکه استاندارد جدیدی را در صنعت هوش مصنوعی (AI) برای حل مسائل انتزاعی و تخصصی تعریف می‌کند که می‌تواند آینده research و توسعه فناوری را تحت تأثیر قرار دهد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/openai-just-posted-hundreds-more-results-on-major-math-problems/l-intro-1791378283.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:a9b6b524feb1f9025a437cbc6efe36f28e801e0c9e3687fdb599f63bd1336fe3",
+      "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/",
+      "message": "<b>📰 معرفی تب (Tab)؛ دستیار هوش مصنوعی شخصی جدید با ارزش ۳۰۰ میلیون دلار</b>\n\nدستیار هوش مصنوعی شخصی جدیدی به نام تب (Tab) پس از مدتی فعالیت در سکوت خبری، رسماً از حالت محرمانه خارج شد. این استارتاپ توانسته است به ارزش‌گذاری قابل توجه ۳۰۰ میلیون دلار دست پیدا کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار دستیارهای هوش مصنوعی شخصی روزبه‌روز داغ‌تر می‌شود و اکنون بازیگر جدیدی پا به عرصه گذاشته است. شرکت تب (Tab) در روز سه‌شنبه اعلام کرد که به طور رسمی از حالت محرمانه (Stealth) خارج شده و فعالیت علنی خود را آغاز کرده است. این پروژه جدید که در حوزه هوش مصنوعی شخصی فعالیت می‌کند، توجه سرمایه‌گذاران را به خود جلب کرده و در حال حاضر ارزش‌گذاری ۳۰۰ میلیون دلاری را به ثبت رسانده است. جزئیات دقیق مربوط به قابلیت‌های فنی و ویژگی‌های انحصاری این دستیار هوش مصنوعی هنوز به طور کامل منتشر نشده است، اما کارشناسان معتقدند که تمرکز این پلتفرم بر شخصی‌سازی عمیق و تعاملات روزمره کاربران خواهد بود. بازار ابزارهای هوش مصنوعی شخصی طی ماه‌های اخیر شاهد رقابت فشرده‌ای میان شرکت‌های مختلف بوده است و معرفی تب (Tab) نشان‌دهنده تداوم سرمایه‌گذاری کلان در این حوزه است. در ماه‌های آینده، این استارتاپ باید توانایی خود را در رقابت با غول‌های فناوری و سایر محصولات مشابه در بازار اثبات کند. با توجه به ارزش‌گذاری بالای این شرکت در همان گام‌های نخست، انتظارات از عملکرد و نوآوری‌های تب (Tab) بسیار بالا است و ناظران بازار فناوری تحولات آن را به دقت زیر نظر خواهند داشت.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "",
+      "status": "sent"
+    },
+    {
+      "key": "url:1422d09d5528c336c5b33119e203e60e83494a923fd39c0e7ea68233b597050f",
+      "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+      "message": "<b>📰 ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد</b>\n\nشرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را عرضه کرده است که می‌تواند محتوای تولید شده توسط ابزارهای هوش مصنوعی مختلف را شناسایی کند. این سامانه قابلیت تشخیص محتواهای ساخته شده توسط شرکت‌های بزرگی مانند اوپن‌ای‌آی (OpenAI)، گوگل (Google) و اپل (Apple) را دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) دسترسی عمومی به ابزار جدید خود برای شناسایی محتوای تولید شده توسط هوش مصنوعی را فراهم کرد. این سامانه که «سینت‌اید دکتور» (SynthID Detector) نام دارد، طراحی شده است تا به کاربران و پژوهشگران در تشخیص تصاویر، متون و سایر محتواهای دیجیتالی ساخته‌شده توسط فناوری‌های هوش مصنوعی کمک کند. بر اساس اطلاعات منتشر شده، این ابزار قادر است محتوای تولید شده توسط مدل‌ها و ابزارهای هوش مصنوعی متعلق به شرکت‌های مختلف از جمله اوپن‌ای‌آی (OpenAI)، گوگل (Google)، اپل (Apple) و دیگر شرکت‌های پیشرو در این حوزه را ردیابی و نشانه‌گذاری کند. هدف اصلی از عرضه این فناوری، افزایش شفافیت در فضای وب و مقابله با انتشار محتوای جعلی یا گمراه‌کننده عنوان شده است که با استفاده از ابزارهای مولد تولید می‌شوند. کارشناسان حوزه فناوری بر این باورند که با گسترش روزافزون ابزارهای تولید محتوا و افزایش نگرانی‌ها پیرامون اطلاعات نادرست، ابزارهای تشخیص مانند «سینت‌اید دکتور» (SynthID Detector) نقش بسیار مهمی در حفظ اعتبار اطلاعات دیجیتال ایفا خواهند کرد. این فناوری با بررسی الگوهای پنهان در داده‌ها کار می‌کند. در نتیجه، عرضه این سامانه گامی رو به جلو در راستای ایجاد استانداردهای جدید برای اعتبارسنجی محتوا در فضای مجازی به شمار می‌رود و انتظار می‌رود شرکت‌های بیشتری به استفاده از راهکارهای مشابه ترغیب شوند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/googles-ai-detection-website-is-now-available/l-intro-1791328862.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:c00f0a4f2120e71a1edd2025d46062c9029d4f578da4f7a45c2b2752b0bb4a36",
+      "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/",
+      "message": "<b>📰 شمارش معکوس تا رویداد تک‌کراچ دیزپت ۲۰۲۶ (TechCrunch Disrupt 2026): فرصت پایانی برای تخفیف بلیط‌ها</b>\n\nتنها ۶ روز تا آغاز رویداد بزرگ تک‌کراچ دیزپت ۲۰۲۶ (TechCrunch Disrupt 2026) در شهر سانفرانسیسکو (San Francisco) باقی مانده است. بیش از ۱۰ هزار فعال اکوسیستم استارتاپی در مرکز ماسکون وست (Moscone West) گردهم می‌آیند و علاقه‌مندان هنوز فرصت دارند تا از تخفیف‌های ثبت‌نام پیش از افزایش قیمت در محل برگزاری بهره‌مند شوند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>رویداد فناوری و استارتاپی تک‌کراچ دیزپت ۲۰۲۶ (TechCrunch Disrupt 2026) تنها ۶ روز دیگر با حضور بیش از ۱۰ هزار نفر از فعالان، سرمایه‌گذاران و کارآفرینان سراسر جهان در مرکز همایش‌های ماسکون وست (Moscone West) واقع در شهر سانفرانسیسکو (San Francisco) آغاز به کار می‌کند. این رویداد یکی از مهم‌ترین پلتفرم‌ها برای تبادل ایده، معرفی فناوری‌های نوین و شکل‌گیری شراکت‌های استراتژیک در دنیای فناوری به شمار می‌رود. برگزارکنندگان این رویداد به شرکت‌کنندگانی که هنوز موفق به تهیه بلیت نشده‌اند یادآوری کرده‌اند که پیش از افزایش قیمت‌ها در محل برگزاری، اقدامات لازم را برای ثبت‌نام انجام دهند. در حال حاضر، تخفیف‌های ویژه‌ای شامل کاهش تا ۱۰۰ دلار روی بلیت‌های اصلی و همچنین تخفیف ۵۰ درصدی برای خرید بلیت دوم از همان نوع در نظر گرفته شده است که فرصتی مناسب برای تیم‌های استارتاپی و علاقه‌مندان به شمار می‌رود تا با هزینه‌ای کمتر در این گردهمایی بزرگ حضور یابند. انتظار می‌ رود نسخه امسال دیزپت میزبان سخنرانی‌های کلیدی، کارگاه‌های تخصصی و رقابت‌های استارتاپی جذابی باشد که چشم‌انداز آینده فناوری را ترسیم می‌کنند. با توجه به نزدیک شدن به تاریخ برگزاری و محدودیت ظرفیت، علاقه‌مندان برای استفاده از مزایای قیمتی فعلی باید به وب‌سایت رسمی رویداد مراجعه کرده و مراحل ثبت‌نام خود را تکمیل نمایند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "",
+      "status": "sent"
+    },
+    {
+      "key": "url:24157dcdb45d26aebab22c4e6097b6577be464db2c061c052d19d1259fea6573",
+      "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+      "message": "<b>📰 راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی</b>\n\nشرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که به کاربران امکان می‌دهد اصالت فایل‌های چندرسانه‌ای مانند تصاویر، ویدیوها و صوت را بررسی کنند. این ابزار با استفاده از فناوری سینث‌آی‌دی (SynthID) به شناسایی محتوای تولیدشده توسط هوش مصنوعی کمک می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) روز سه‌شنبه از راه‌اندازی یک وب‌سایت جدید خبر داد که به عموم کاربران امکان می‌دهد به سادگی اصالت محتوای چندرسانه‌ای را بررسی کنند. این ابزار جدید طراحی شده است تا مشخص کند آیا یک تصویر، ویدیو یا فایل صوتی با استفاده از فناوری‌های هوش مصنوعی تولید شده است یا خیر. این سامانه جدید بر پایه فناوری سینث‌آی‌دی (SynthID) کار می‌کند که پیش‌تر توسط بخش دیپ‌مایند (DeepMind) گوگل توسعه یافته بود. هدف اصلی از عرضه این ابزار، مقابله با گسترش محتوای جعلی، اطلاعات نادرست و دیپ‌فیک‌ها در فضاهای دیجیتال است که با پیشرفت سریع مدل‌های هوش مصنوعی به یک چالش جدی تبدیل شده‌اند. با استفاده از این وب‌سایت، کاربران می‌توانند فایل‌های مشکوک خود را بارگذاری کرده و نتایج تحلیل مربوط به نشانگرهای دیجیتال پنهان در آن‌ها را مشاهده کنند. فناوری سینث‌آی‌دی (SynthID) واترمارک‌های نامرئی را به طور مستقیم در پیکسل‌های تصاویر یا امواج صوتی و ویدیویی درج می‌کند که حتی پس از اعمال تغییراتی مانند فشرده‌سازی یا برش نیز قابل شناسایی باقی می‌مانند. کارشناسان حوزه فناوری معتقد1ند که ارائه ابزارهای عمومی برای راستی‌آزمایی محتوا گامی مهم در جهت افزایش شفافیت و اعتماد عمومی در فضای مجازی است. در سال‌های اخیر، رشد ابزارهای تولید محتوا نگرانی‌های زیادی را درباره انتشار اخبار دروغین ایجاد کرده است. در نتیجه، ابتکار جدید گوگل (Google) می‌تواند به عنوان یک استاندارد صنعتی برای تشخیص محتوای اصیل از جعلی عمل کند و به کاربران در تشخیص واقعیت از سراب‌های دیجیتالی کمک شایانی نماید.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "",
+      "status": "sent"
+    },
+    {
+      "key": "url:6c9c9fe09c6cd028216556d52ab511481a2dff0c75b68fe1cf4d00ad9fb99d4a",
+      "url": "https://www.engadget.com/2278872/cisco-is-bringing-a-new-agentic-framework-to-its-webex-enterprise-platform/",
+      "message": "<b>📰 معرفی قابلیت جدید و مبتنی بر هوش مصنوعی Dialog توسط شرکت سیسکو برای پلتفرم وبکس</b>\n\nشرکت سیسکو (Cisco) از قابلیت جدیدی به نام دیالوگ (Dialog) در پلتفرم سازمانی وبکس (Webex) رونمایی کرد. این ابزار جدید با بهره‌گیری از چارچوب عاملی، تعاملات پراکنده مشتریان را به روابطی مستمر و پیوسته تبدیل می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت سیسکو (Cisco) از ارائه یک چارچوب عاملی جدید و پیشرفته برای پلتفرم ارتباطی سازمانی خود یعنی وبکس (Webex) خبر داد. این قابلیت جدید که دیالوگ (Dialog) نام دارد، با هدف دگرگونی در نحوه ارتباط کسب‌وکارها با مخاطبانشان طراحی شده است و وعده می‌دهد که تعاملات پراکنده و مقطعی مشتریان را به روابطی مستمر و پایدار تبدیل کند. در دنیای مدرن کسب‌وکار، یکی از بزرگ‌ترین چالش‌ها برای سازمان‌ها حفظ ارتباط مداوم و اثربخش با مشتریان در بستر کانال‌های گوناگون دیجیتال است. قابلیت جدید دیالوگ (Dialog) در پلتفرم وبکس (Webex) تلاش می‌کند با استفاده از قابلیت‌های هوش مصنوعی و ساختار مبتنی بر عامل، این خلاء را پر کند. این سیستم قادر است به جای پاسخگویی‌های مقطعی، روند گفت‌وگوها را ردیابی کرده و تجربه‌ای یکپارچه را برای کاربران رقم بزند. کارشناسان حوزه فناوری بر این باورند که ورود ابزارهای عاملی به پلتفرم‌های ارتباطی سازمانی، گامی مهم در جهت اتوماسیون هوشمند خدمات مشتریان به شمار می‌رود. شرکت سیسکو (Cisco) با توسعه این ویژگی، به دنبال تقویت جایگاه خود در بازار رقابتی ابزارهای دورکاری و ارتباطات سازمانی است تا شرکت‌ها بتوانند مدیریت بهینه‌تری بر تعاملات خود داشته باشند. در نتیجه، قابلیت دیالوگ (Dialog) در پلتفرم وبکس (Webex) ابزاری کارآمد برای سازمان‌هایی است که به دنبال ارتقای سطح کیفی ارتباط با مشتریان و تبدیل تعاملات ساده به روابط تجاری بلندمدت از طریق فناوری‌های نوین هستند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/cisco-is-bringing-a-new-agentic-framework-to-its-webex-enterprise-platform/l-intro-1791302123.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:55f1f2e5b24ab941313aab8cbae88dfb22b903320cd810a11bbf5d75a4b97c66",
+      "url": "https://techcrunch.com/2026/10/07/rings-first-smart-lock-can-be-hand-cranked-when-its-battery-dies/",
+      "message": "<b>📰 ورود شرکت رینگ (Ring) به بازار قفل‌های هوشمند با قابلیت شارژ دستی در صورت اتمام باتری</b>\n\nشرکت رینگ (Ring)، از زیرمجموعه‌های آمازون (Amazon)، با معرفی نخستین قفل هوشمند خود قصد دارد یکی از دغدغه‌های اصلی کاربران یعنی مسدود ماندن در در اثر اتمام باتری را برطرف کند. این محصول جدید به مکانیزمی مجهز شده است که به کاربر اجازه می‌دهد در مواقع اضطراری قفل را به صورت دستی و با دسته‌چرخان شارژ یا باز کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت رینگ (Ring)، از زیرمجموعه‌های شناخته‌شده آمازون (Amazon)، به‌طور رسمی ورود خود را به بازار رقابتی قفل‌های هوشمند اعلام کرد. این شرکت با معرفی نخستین محصول خود در این حوزه، تلاش کرده است یکی از رایج‌ترین و آزاردهنده‌ترین مشکلات کاربران قفل‌های هوشمند، یعنی ماند پشت در در زمان تمام شدن شارژ باتری دستگاه، را حل کند. قفل هوشمند جدید رینگ (Ring) با طراحی منحصربه‌فردی روانه بازار می‌شود که نگرانی‌های امنیتی و فنی مربوط به قطع برق یا تخلیه کامل باتری را کاهش می‌دهد. ویژگی برجسته این دستگاه، تعبیه یک مکانیزم دستی یا دسته‌چرخان (Hand-crank) است که به کاربران امکان می‌دهد حتی در صورت خاموش شدن کامل سیستم به دلیل نبود باتری، بتوانند قفل را به کار بیندازند یا درب را باز کنند. این نوآوری پاسخ مستقیمی به سال‌ها انتقاد کاربران از وابستگی مطلق ابزارهای امنیتی منزل به منابع انرژی الکترونیکی است. بازار قفل‌های هوشمند در سال‌های اخیر شاهد رشد چشمگیری بوده است و شرکت‌هایی مانند آگست (August)، شلج (Schlage) و ییل (Yale) محصولات متنوعی را عرضه کرده‌اند. ورود رینگ (Ring) با پشتوانه اکوسیستم خانه هوشمند آمازون (Amazon) و ابزارهای نظارتی این شرکت، می‌تواند پویایی تازه‌ای به این بازار ببخشد. ادغام این قفل با سایر تجهیزات امنیتی مانند دوربین‌های مداربسته و زنگ‌های در تصویری رینگ (Ring Video Doorbell)، تجربه‌ای یکپارچه را برای کاربران فراهم می‌آورد. در نتیجه، معرفی این قفل هوشمند گامی رو به جلو در جهت رفع نقاط ضعف فنی محصولات نسل پیشین به شمار می‌رود. با تلفیق فناوری‌های مدرن کنترل از راه دور و راهکارهای مکانیکی سنتی برای مواقع اضطراری، شرکت رینگ (Ring) توانسته محصولی کارآمدتر را به بازار معرفی کند که احتمالاً توجه بسیاری از طرفداران خانه‌های هوشمند را به خود جلب خواهد کرد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "",
+      "status": "sent"
+    },
+    {
+      "key": "url:c153ead68f31a7bb8087e1751e0041fd5f5c9f8da05509fed251eccf4c98c76e",
+      "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
+      "message": "<b>📰 معرفی کامل برنامه‌های میزگرد تعاملی در رویداد تک‌کرانچ دیراپت ۲۰۲۶</b>\n\nرویداد فناوری تک‌کرانچ دیراپت ۲۰۲۶ (TechCrunch Disrupt 2026) برنامه‌ای جامع از میزگردهای تعاملی با حضور شرکت‌های بزرگی مانند انویدیا (Nvidia) و انتروپیک (Anthropic) ارائه می‌دهد. علاقه‌مندان می‌توانند با ثبت‌نام زودهنگام از تخفیف‌های ویژه برخوردار شوند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>رویداد سالانه تک‌کرانچ دیراپت ۲۰۲۶ (TechCrunch Disrupt 2026) امسال نیز با مجموعه‌ای از میزگردهای تعاملی و تخصصی بازگشته است تا فرصتی بی‌نظیر برای تبادل نظر میان فعالان حوزه فناوری فراهم کند. در این دوره، طیف گسترده‌ای از شرکت‌های پیشرو و سرمایه‌گذاران سرشناس حضور خواهند داشت. بر اساس اعلام برگزارکنندگان، فهرست میزگردها شامل نمایندگانی از شرکت‌های معروفی همچون انویدیا (Nvidia)، چایم (Chime)، آبویوس ونچرز (Obvious Ventures) و انتروپیک (Anthropic) است. این نشست‌ها به حاضران اجازه می‌دهد تا به بحث و تبادل نظر پیرامون آخرین روندهای صنعت فناوری، چالش‌های پیش‌رو و آینده هوش مصنوعی و کسب‌وکار بپردازند. علاقه‌مندان به شرکت در این رویداد می‌توانند هم‌اکنون با ثبت‌نام زودهنگام، تا ۱۰۰ دلار تخفیف روی بلیت اصلی خود دریافت کنند و همچنین بلیت دوم را با تخفیف ۵۰ درصدی تهیه نمایند. این طرح تشویقی با هدف تسهیل حضور استارت‌آپ‌ها، پژوهشگران و علاقه‌مندان به اکوسیستم نوآوری در نظر گرفته شده است. در نتیجه، تک‌کرانچ دیراپت ۲۰۲۶ با ارائه این میزگردهای تخصصی بار دیگر جایگاه خود را به عنوان یکی از مهم‌ترین پلتفرم‌ها برای اتصال بنیان‌گذاران استارت‌آپ، سرمایه‌گذاران و رهبران صنعت فناوری به یکدیگر تثبیت می‌کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "",
       "status": "sent"
     }
   ]
