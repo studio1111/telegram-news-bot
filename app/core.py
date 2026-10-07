@@ -106,7 +106,11 @@ def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.65
         # Funding, product generations, prices and other numeric facts are
         # especially useful for matching cross-source rewrites. Ignore a lone
         # shared year, which is common to unrelated stories.
-        significant_numbers = {number for number in shared_numbers if len(number.split(".")[0]) >= 2}
+        significant_numbers = {
+            number for number in shared_numbers
+            if not (len(number.split(".")[0]) == 4 and number.split(".")[0].isdigit()
+                    and 1900 <= int(number.split(".")[0]) <= 2100)
+        }
         if significant_numbers and overlap >= 2 and overlap_coefficient >= 0.40 and combined_similarity >= 0.38:
             return True
 
