@@ -19,12 +19,12 @@ class StateStore:
     def _extract_rendered_fields(message):
         if not isinstance(message, str) or not message:
             return "", ""
-        title_match = re.search(r"<b>📰\\s*(.*?)</b>", message, flags=re.DOTALL)
-        summary_match = re.search(r"</b>\\s*\\n+\\s*(.*?)\\s*\\n+\\s*<details\\b", message, flags=re.DOTALL)
+        title_match = re.search(r"<b>📰\s*(.*?)</b>", message, flags=re.DOTALL)
+        summary_match = re.search(r"</b>\s*\n+\s*(.*?)\s*\n+\s*<details\b", message, flags=re.DOTALL)
         def clean(value):
             value = html.unescape(value or "")
             value = re.sub(r"<[^>]+>", " ", value)
-            return re.sub(r"\\s+", " ", value).strip()
+            return re.sub(r"\s+", " ", value).strip()
         return clean(title_match.group(1) if title_match else ""), clean(summary_match.group(1) if summary_match else "")
 
     def __init__(self, path="data/state.json"):
