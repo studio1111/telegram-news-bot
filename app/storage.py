@@ -41,13 +41,18 @@ class StateStore:
         if not isinstance(raw_outbox, list):
             raise StateStoreError("state outbox list is invalid")
         migrated_records = []
+        dropped_empty_url_records = False
         for record in raw_records:
             if not isinstance(record, dict):
                 raise StateStoreError("state contains an invalid published story")
+            url = record.get("url", "") if isinstance(record.get("url", ""), str) else ""
+            if not url.strip():
+                dropped_empty_url_records = True
+                continue
             migrated_records.append({
                 "title": record.get("title", "") if isinstance(record.get("title", ""), str) else "",
                 "summary": record.get("summary", "") if isinstance(record.get("summary", ""), str) else "",
-                "url": record.get("url", "") if isinstance(record.get("url", ""), str) else "",
+                "url": url.strip(),
             })
         outbox = []
         for record in raw_outbox:
@@ -70,7 +75,7 @@ class StateStore:
             "seen": raw_seen,
             "published_stories": migrated_records,
             "outbox": outbox,
-        }, data.get("schema_version") != STATE_SCHEMA_VERSION
+        }, data.get("schema_version") != STATE_SCHEMA_VERSION or dropped_empty_url_records
 
     def _migrated_data(self):
         data, changed = self._migrate(self._read())
@@ -102,6 +107,8 @@ class StateStore:
             records = current.get("published_stories", [])
         if not isinstance(records, list):
             raise StateStoreError("records must be a list")
+        records = [record for record in records
+                   if isinstance(record, dict) and isinstance(record.get("url"), str) and record["url"].strip()]
         if outbox is None:
             outbox = current.get("outbox", [])
         if not isinstance(outbox, list):
