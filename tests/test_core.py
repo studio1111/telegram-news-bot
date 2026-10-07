@@ -79,3 +79,12 @@ def test_tracking_url_variants_are_duplicates():
     first = {"title": "Example launches new device", "summary": "The company announced a new device.", "url": "https://example.com/news/device?utm_source=rss&utm_medium=feed"}
     rewritten = {"title": "Example launches new device", "summary": "The company announced a new device.", "url": "https://example.com/news/device?utm_source=telegram"}
     assert is_duplicate_story(rewritten, [first])
+
+
+def test_technology_tag_matching_does_not_accept_source_names_as_tags():
+    from app.core import is_technology_feed_item
+    assert not is_technology_feed_item(("TechCrunch",), "Any source")
+    assert not is_technology_feed_item(("TechCrunch Disrupt 2026",), "Any source")
+    assert is_technology_feed_item(("Technology",), "Any source")
+    assert is_technology_feed_item(("Tech Policy",), "Any source")
+    assert is_technology_feed_item(("Artificial Intelligence",), "Any source")
