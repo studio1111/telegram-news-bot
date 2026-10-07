@@ -9,6 +9,7 @@ DEFAULT_GEMINI_MODEL = "gemini-3.5-flash-lite"
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 TRANSIENT_GEMINI_STATUS_CODES = {429, 500, 502, 503, 504}
 REQUIRED_KEYS = ("title_fa", "summary_fa", "category")
+ALLOWED_CATEGORIES = {"political", "economy", "technology", "science", "sports", "culture", "world", "general"}
 
 
 def _extract_json(text):
@@ -37,6 +38,10 @@ def _validate(result):
     ]
     if missing:
         raise RuntimeError(f"Gemini response is missing required keys: {', '.join(missing)}")
+    category = result["category"].strip().lower()
+    if category not in ALLOWED_CATEGORIES:
+        raise RuntimeError(f"Gemini response has invalid category: {category}")
+    result["category"] = category
     if not isinstance(result.get("article_fa"), str) or not result["article_fa"].strip():
         result["article_fa"] = result["summary_fa"]
     return result
