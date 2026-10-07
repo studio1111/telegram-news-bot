@@ -92,8 +92,6 @@ def test_pending_outbox_is_retried_before_new_candidates(monkeypatch):
     store = _store()
     pending = {"key": "url:https://example.com/pending", "url": "https://example.com/pending", "message": "<b>Pending</b>", "image_url": "", "status": "pending"}
     store.load_outbox = lambda: [pending]
-    completed = []
-    store.complete_outbox = lambda key: completed.append(key)
     published = []
     monkeypatch.setattr(news_main, "StateStore", store)
     monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [])
@@ -101,7 +99,7 @@ def test_pending_outbox_is_retried_before_new_candidates(monkeypatch):
     monkeypatch.setattr(news_main.Path, "read_text", lambda *a, **k: "[]")
     news_main.main()
     assert published == [("<b>Pending</b>", "")]
-    assert completed == ["url:https://example.com/pending"]
+    assert store.load_outbox()[0]["status"] == "sent"
 
 
 def test_send_crash_leaves_outbox_pending_for_recovery(monkeypatch):
