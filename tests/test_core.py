@@ -114,13 +114,13 @@ def test_different_google_products_are_not_duplicates_without_shared_product_ent
     assert not is_duplicate_story(different, [first])
 
 
-def test_same_company_different_products_are_not_duplicates_when_only_company_entity_matches():
+def test_same_company_different_products_are_not_duplicates_when_product_entities_differ():
     first = {
-        "title": "ابزار جدید هوش مصنوعی گوگل (Google) معرفی شد",
-        "summary": "گوگل (Google) ابزار جدید خود را معرفی کرد و کاربران می‌توانند از این فناوری استفاده کنند.",
+        "title": "مدل جدید هوش مصنوعی جیمینی (Gemini) گوگل (Google) معرفی شد",
+        "summary": "گوگل (Google) مدل جیمینی (Gemini) جدید خود را معرفی کرد.",
     }
     different = {
-        "title": "ابزار جدید امنیتی گوگل (Google) معرفی شد",
-        "summary": "گوگل (Google) ابزار جدید خود را معرفی کرد و برای کاربران امنیت بیشتری فراهم می‌کند.",
+        "title": "گوشی جدید پیکسل (Pixel) گوگل (Google) معرفی شد",
+        "summary": "گوگل (Google) گوشی پیکسل (Pixel) جدید خود را معرفی کرد.",
     }
     assert not is_duplicate_story(different, [first])
