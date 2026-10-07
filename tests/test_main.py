@@ -35,7 +35,7 @@ def test_main_uses_90_minute_window():
 def test_candidate_collection_checks_later_sources_before_capping(monkeypatch):
     now = datetime.now(timezone.utc)
     first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1)) for i in range(news_main.MAX_CANDIDATES)]
-    later = NewsItem("later", "OpenAI AI model software story", "https://example.com/later", "s", "Later", "", now-timedelta(minutes=1))
+    later = NewsItem("later", "OpenAI AI model software story", "https://example.com/later", "s", "Later", "", now-timedelta(minutes=60))
     calls = []
 
     def collect(url, name, limit):
