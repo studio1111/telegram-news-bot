@@ -108,7 +108,7 @@ def test_send_crash_leaves_outbox_pending_for_recovery(monkeypatch):
     store = _store()
     outbox = []
     store.load_outbox = lambda self: outbox
-    def save(seen, records=None, pending=None):
+    def save(self, seen, records=None, pending=None):
         outbox[:] = list(pending or [])
     store.save = save
     monkeypatch.setattr(news_main, "StateStore", store)
