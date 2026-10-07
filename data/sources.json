@@ -1,6 +1,6 @@
 [
   {"name":"TechCrunch","url":"https://techcrunch.com/feed/","limit":100},
-  {"name":"WIRED Security","url":"https://www.wired.com/feed/category/security/latest/rss","limit":100},
+  {"name":"WIRED Security","url":"https://www.wired.com/feed/tag/security/latest/rss","limit":100},
   {"name":"Ars Technica Technology Lab","url":"https://feeds.arstechnica.com/arstechnica/technology-lab","limit":100},
   {"name":"The Verge","url":"https://www.theverge.com/rss/index.xml","limit":100},
   {"name":"Engadget","url":"https://www.engadget.com/rss.xml","limit":100}
