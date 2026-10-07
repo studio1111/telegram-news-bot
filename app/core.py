@@ -157,21 +157,11 @@ def is_recent_news(published_at: datetime | None, now: datetime | None = None, w
     age = now - published_at
     return -_FUTURE_TOLERANCE <= age <= timedelta(minutes=window_minutes)
 
-_TECHNOLOGY_FEED_SOURCES = {
-    "techcrunch",
-    "wired",
-    "ars technica",
-    "the verge",
-    "engadget",
-    "bbc technology",
-    "the guardian technology",
-}
-
 def is_technology_feed_item(categories, source: str = "") -> bool:
     """
-    Accept a story when the feed itself identifies it as technology via a
-    category/tag, or when it comes from one of the configured technology-only
-    feeds. Do not inspect article wording or trust Gemini for this gate.
+    Accept a story only when this RSS item itself identifies as technology
+    through a category/tag. The source name is never an exception, and neither
+    article wording nor Gemini can override this gate.
     """
     for category in categories or ():
         normalized = normalize_text(category).lower()
@@ -183,7 +173,7 @@ def is_technology_feed_item(categories, source: str = "") -> bool:
             "mobile", "cloud",
         )):
             return True
-    return normalize_text(source).lower() in _TECHNOLOGY_FEED_SOURCES
+    return False
 
 _TECHNOLOGY_CATEGORIES = {"technology", "tech", "artificial intelligence", "ai", "cybersecurity", "cyber security", "software", "hardware", "gadgets", "mobile", "cloud", "semiconductors", "consumer technology"}
 _TECHNOLOGY_SIGNALS = ("technology", "technologies", "tech", "artificial intelligence", "machine learning", "generative ai", "ai", "ai model", "ai models", "chatbot", "chatgpt", "openai", "anthropic", "gemini", "copilot", "nvidia", "semiconductor", "semiconductors", "microchip", "microchips", "processor", "processors", "gpu", "gpus", "software", "cybersecurity", "cyber security", "malware", "ransomware", "hacker", "hackers", "smartphone", "smartphones", "iphone", "android", "robotics", "robot", "robots", "quantum computing", "data center", "data centers", "cloud computing", "operating system", "browser", "app store", "startup", "algorithm", "algorithms", "silicon valley", "هوش مصنوعی", "فناوری", "تکنولوژی", "نرم‌افزار", "سخت‌افزار", "تراشه", "پردازنده", "امنیت سایبری", "گوشی هوشمند", "ربات")
