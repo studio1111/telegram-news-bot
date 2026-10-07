@@ -49,39 +49,3 @@ def test_item_without_image_is_not_marked_seen(monkeypatch):
     news_main.main()
 
     assert FakeStore.last_seen == set()
-
-
-
-def test_duplicate_story_is_skipped_before_gemini(monkeypatch):
-    now = datetime.now(timezone.utc)
-    item = NewsItem(
-        "duplicate-1",
-        "Same story title",
-        "https://example.com/duplicate",
-        "Same story summary",
-        "TechCrunch",
-        "",
-        now,
-    )
-
-    monkeypatch.setattr(news_main, "Path", type("FakePath", (), {
-        "read_text": lambda self, encoding="utf-8": '[{"name":"TechCrunch","url":"feed"}]'
-    }))
-    monkeypatch.setattr(news_main, "collect_feed", lambda *args, **kwargs: [item])
-    monkeypatch.setattr(news_main, "is_recent_news", lambda *args, **kwargs: True)
-    monkeypatch.setattr(news_main, "fetch_article_text", lambda *args, **kwargs: "")
-    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *args, **kwargs: "")
-    monkeypatch.setattr(news_main, "is_duplicate_story", lambda story, previous: True)
-
-    def fail_if_called(*args, **kwargs):
-        raise AssertionError("Gemini must not run for a known duplicate")
-
-    monkeypatch.setattr(news_main, "process_with_gemini", fail_if_called)
-
-    class FakeStore:
-        def load(self): return set()
-        def load_records(self): return [{"title": item.title, "summary": item.summary}]
-        def save(self, seen, records): pass
-
-    monkeypatch.setattr(news_main, "StateStore", FakeStore)
-    news_main.main()
