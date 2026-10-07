@@ -1,37 +1,37 @@
 [
   {
     "name": "TechCrunch",
-    "url": "https://techcrunch.com/feed/?utm_source=telegram-news-bot",
+    "url": "https://news.google.com/rss/search?q=site%3Atechcrunch.com%20technology%20when%3A30m&hl=en-US&gl=US&ceid=US%3Aen",
     "limit": 100
   },
   {
     "name": "WIRED Security",
-    "url": "https://www.wired.com/feed/category/security/latest/rss",
+    "url": "https://news.google.com/rss/search?q=site%3Awired.com%20security%20technology%20when%3A30m&hl=en-US&gl=US&ceid=US%3Aen",
     "limit": 100
   },
   {
-    "name": "Ars Technica Technology Lab",
-    "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "name": "Ars Technica",
+    "url": "https://news.google.com/rss/search?q=site%3Aarstechnica.com%20technology%20when%3A30m&hl=en-US&gl=US&ceid=US%3Aen",
     "limit": 100
   },
   {
     "name": "The Verge",
-    "url": "https://www.theverge.com/rss/partner/subscriber-only-tech/rss.xml",
+    "url": "https://news.google.com/rss/search?q=site%3Atheverge.com%20technology%20when%3A30m&hl=en-US&gl=US&ceid=US%3Aen",
     "limit": 100
   },
   {
     "name": "Engadget",
-    "url": "https://www.engadget.com/rss.xml",
+    "url": "https://news.google.com/rss/search?q=site%3Aengadget.com%20technology%20when%3A30m&hl=en-US&gl=US&ceid=US%3Aen",
     "limit": 100
   },
   {
     "name": "BBC Technology",
-    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "url": "https://news.google.com/rss/search?q=site%3Abbc.com%20technology%20when%3A30m&hl=en-US&gl=US&ceid=US%3Aen",
     "limit": 100
   },
   {
     "name": "The Guardian Technology",
-    "url": "https://www.theguardian.com/technology/rss",
+    "url": "https://news.google.com/rss/search?q=site%3Atheguardian.com%20technology%20when%3A30m&hl=en-US&gl=US&ceid=US%3Aen",
     "limit": 100
   }
 ]
