@@ -91,7 +91,7 @@ def test_deadline_stops_before_ai_work(monkeypatch):
 def test_pending_outbox_is_retried_before_new_candidates(monkeypatch):
     store = _store()
     pending = {"key": "url:https://example.com/pending", "url": "https://example.com/pending", "message": "<b>Pending</b>", "image_url": "", "status": "pending"}
-    store.load_outbox = lambda: [pending]
+    store.load_outbox = lambda self: [pending]
     published = []
     monkeypatch.setattr(news_main, "StateStore", store)
     monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [])
@@ -107,7 +107,7 @@ def test_send_crash_leaves_outbox_pending_for_recovery(monkeypatch):
     item = NewsItem("crash", "Nvidia software story", "https://example.com/crash", "s", "S", "", now)
     store = _store()
     outbox = []
-    store.load_outbox = lambda: outbox
+    store.load_outbox = lambda self: outbox
     def save(seen, records=None, pending=None):
         outbox[:] = list(pending or [])
     store.save = save
