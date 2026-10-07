@@ -27,7 +27,7 @@ GitHub Actions هر ۳۰ دقیقه (دقیقه‌های ۷ و ۳۷) اجرا م
 - جلوگیری از SSRF و دسترسی به IPهای private/local/link-local.
 - محدودیت حجم پاسخ‌های RSS و مقاله.
 - محدودیت redirect.
-- حداکثر ۲۰ candidate در هر اجرا.
+- حداکثر **۳۰ candidate** در هر اجرا.
 - deadline داخلی ۱۲ دقیقه، کمتر از timeout پانزده‌دقیقه‌ای workflow.
 - اعتبارسنجی خروجی Gemini و category به‌صورت enum.
 - فیلتر تکنولوژی علاوه بر category مدل، از شواهد مستقل متن استفاده می‌کند.
