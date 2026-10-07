@@ -51,7 +51,7 @@ def test_incomplete_gemini_result_does_not_crash_run(monkeypatch):
 
 
 def test_state_is_saved_after_each_publication(monkeypatch):
-    now=datetime.now(timezone.utc); first=NewsItem("1","Software story","https://example.com/1","s","S","",now-timedelta(minutes=3)); second=NewsItem("2","Chip story","https://example.com/2","s","S","",now-timedelta(minutes=2))
+    now=datetime.now(timezone.utc); first=NewsItem("1","Software story","https://example.com/1","s","S","",now-timedelta(minutes=3)); second=NewsItem("2","Nvidia chip software story","https://example.com/2","s","S","",now-timedelta(minutes=2))
     calls={"n":0}
     def publish(m,i):
         calls["n"]+=1
@@ -63,7 +63,7 @@ def test_state_is_saved_after_each_publication(monkeypatch):
 
 
 def test_stories_are_published_oldest_first(monkeypatch):
-    now=datetime.now(timezone.utc); newer=NewsItem("n","Newer","https://example.com/n","s","S","",now-timedelta(minutes=1)); older=NewsItem("o","Older","https://example.com/o","s","S","",now-timedelta(minutes=50))
+    now=datetime.now(timezone.utc); newer=NewsItem("n","Newer software story","https://example.com/n","s","S","",now-timedelta(minutes=1)); older=NewsItem("o","Older software story","https://example.com/o","s","S","",now-timedelta(minutes=50))
     order=[]; store=_store(); _patch(monkeypatch,[newer,older],lambda t,s,a:_tech(t,s),lambda m,i:order.append(m),store); monkeypatch.setattr(news_main,"is_duplicate_story",lambda *a,**k:False)
     news_main.main()
     assert "Older" in order[0] and "Newer" in order[1]
