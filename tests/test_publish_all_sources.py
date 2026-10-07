@@ -123,3 +123,36 @@ def test_publishes_all_eligible_stories_across_sources(monkeypatch):
     main_module.main()
 
     assert len(published) == 5
+
+def test_logs_publish_summary(monkeypatch, capsys):
+    from datetime import datetime, timezone
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "summary-story", "Technology story", "https://example.com/summary",
+        "summary", "Test Source", "", now
+    )
+    monkeypatch.setattr(main_module, "collect_feed", lambda *args: [item])
+    monkeypatch.setattr(main_module, "fetch_article_text", lambda url: "article")
+    monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "")
+    monkeypatch.setattr(main_module, "process_with_gemini", lambda *args: {
+        "title_fa": "خبر", "summary_fa": "خلاصه", "article_fa": "متن",
+        "category": "technology"
+    })
+    monkeypatch.setattr(main_module, "is_duplicate_story", lambda *args: False)
+    monkeypatch.setattr(main_module, "publish_rich_message", lambda *args: None)
+
+    class FakeStore:
+        def load(self): return set()
+        def load_records(self): return []
+        def save(self, seen, records): pass
+
+    monkeypatch.setattr(main_module, "StateStore", FakeStore)
+    monkeypatch.setattr(
+        main_module.Path, "read_text",
+        lambda self, encoding="utf-8": '[{"name":"Test Source","url":"feed","limit":100}]'
+    )
+
+    main_module.main()
+    output = capsys.readouterr().out
+    assert "[PUBLISHED] source=Test Source" in output
+    assert "[SUMMARY] candidates=1 published=1" in output
