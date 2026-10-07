@@ -157,3 +157,25 @@ def test_candidate_processing_does_not_fetch_article_pages(monkeypatch):
     monkeypatch.setattr(news_main, "process_with_gemini", lambda title, summary, article: _tech(title, summary))
     result = news_main._process_candidate(item)
     assert result[0] is item and result[1] == ""
+
+
+def test_retried_outbox_marks_real_url_as_seen(monkeypatch):
+    store = _store()
+    pending = {
+        "key": "url:hash",
+        "url": "https://example.com/pending",
+        "message": "<b>Pending</b>",
+        "image_url": "",
+        "status": "pending",
+    }
+    store.load_outbox = lambda self: [pending]
+    published = []
+    monkeypatch.setattr(news_main, "StateStore", store)
+    monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [])
+    monkeypatch.setattr(news_main, "publish_rich_message", lambda m, i: published.append((m, i)))
+    monkeypatch.setattr(news_main.Path, "read_text", lambda *a, **k: "[]")
+
+    news_main.main()
+
+    assert "https://example.com/pending" in store.saves[-1][0]
+    assert "url:hash" not in store.saves[-1][0]
