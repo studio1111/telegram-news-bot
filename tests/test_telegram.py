@@ -61,6 +61,7 @@ def test_rich_message_falls_back_to_send_message_when_rich_api_rejects(monkeypat
         return Response({"ok": True, "result": {"message_id": 123}})
 
     monkeypatch.setattr(telegram.requests, "post", fake_post)
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "test-token")
     monkeypatch.setenv("TELEGRAM_CHAT_ID", "@channel")
 
     result = telegram.publish_rich_message("<b>تیتر خبر</b><details><p>متن کامل</p></details>", "")
