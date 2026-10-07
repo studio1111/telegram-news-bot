@@ -137,3 +137,30 @@ def test_technology_story_rejects_generic_world_story_without_technology_evidenc
         "Officials met to discuss regional relations.",
         "The meeting focused on diplomacy and foreign policy.",
     ) is False
+
+
+
+def test_different_stories_with_generic_shared_words_are_not_duplicates():
+    first = {
+        "title": "Apple launches new iPhone with faster chip",
+        "summary": "The company says the new phone improves performance and battery life.",
+    }
+    different = {
+        "title": "Google launches new Pixel with faster chip",
+        "summary": "The company says the new phone improves camera software and battery life.",
+    }
+    assert is_duplicate_story(different, [first]) is False
+
+
+def test_same_url_is_always_a_duplicate():
+    first = {
+        "title": "Original headline",
+        "summary": "Original summary",
+        "url": "https://example.com/story",
+    }
+    rewritten = {
+        "title": "Completely rewritten headline",
+        "summary": "Different wording for the same article",
+        "url": "https://example.com/story",
+    }
+    assert is_duplicate_story(rewritten, [first]) is True
