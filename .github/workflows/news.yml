@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "8,38 * * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 concurrency:
   group: news-bot
