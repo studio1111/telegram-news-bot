@@ -162,8 +162,10 @@ def _safe_get(url: str):
     for _ in range(MAX_REDIRECTS + 1):
         response = requests.get(current, params={"_": str(int(time.time()))}, timeout=20,
                                 headers=_NO_CACHE_HEADERS, allow_redirects=False, stream=True)
-        if 300 <= response.status_code < 400:
-            location = response.headers.get("Location")
+        status_code = getattr(response, "status_code", 200)
+        headers = getattr(response, "headers", {}) or {}
+        if 300 <= status_code < 400:
+            location = headers.get("Location")
             if not location:
                 raise ValueError("redirect without location")
             current = _validate_url(urljoin(current, location))
