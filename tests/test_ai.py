@@ -64,7 +64,7 @@ def test_missing_article_falls_back_to_summary(monkeypatch):
 
 def test_gemini_rejects_unknown_or_non_technology_category_for_tech_news(monkeypatch):
     monkeypatch.setenv("GEMINI_API_KEY","test-key")
-    payload={"title_fa":"عنوان","summary_fa":"خلاصه","article_fa":"AI model","category":"political"}
+    payload={"title_fa":"عنوان","summary_fa":"خلاصه","article_fa":"AI model","category":"unknown"}
     monkeypatch.setattr(ai.requests,"post",lambda *a,**k:_response_with(json.dumps(payload)))
     with pytest.raises(RuntimeError,match="category"):
         ai.process_with_gemini("OpenAI launches AI model","AI model released")
