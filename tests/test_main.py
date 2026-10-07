@@ -49,3 +49,43 @@ def test_item_without_image_is_not_marked_seen(monkeypatch):
     news_main.main()
 
     assert FakeStore.last_seen == set()
+
+
+def test_non_technology_gemini_result_is_not_published(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "world-1",
+        "World event",
+        "https://example.com/world",
+        "A non technology event",
+        "BBC Technology",
+        "",
+        now,
+    )
+
+    monkeypatch.setattr(
+        news_main,
+        "_collect_recent_items",
+        lambda *args, **kwargs: [item],
+    )
+    monkeypatch.setattr(news_main, "fetch_article_text", lambda *args, **kwargs: "article")
+    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *args, **kwargs: "")
+    monkeypatch.setattr(
+        news_main,
+        "process_with_gemini",
+        lambda *args, **kwargs: {
+            "title_fa": "رویداد جهانی",
+            "summary_fa": "خلاصه",
+            "article_fa": "متن",
+            "category": "world",
+        },
+    )
+    monkeypatch.setattr(news_main, "publish_rich_message", lambda *args, **kwargs: (_ for _ in ()).throw(AssertionError("must not publish")))
+
+    class FakeStore:
+        def load(self): return set()
+        def load_records(self): return []
+        def save(self, seen, records): pass
+
+    monkeypatch.setattr(news_main, "StateStore", FakeStore)
+    news_main.main()
