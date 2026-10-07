@@ -40,3 +40,27 @@ def test_feed_category_or_tag_is_the_technology_gate():
     assert is_technology_feed_item(("Artificial Intelligence",), "Any source")
     assert not is_technology_feed_item(("Politics", "World"), "Any source")
     assert is_technology_feed_item((), "TechCrunch")
+
+
+def test_cross_source_rewrites_with_shared_entities_and_amount_are_duplicates():
+    first = {"title": "OpenAI secures $8 billion funding as valuation climbs", "summary": "The company raised eight billion dollars in a major financing round."}
+    rewritten = {"title": "OpenAI raises $8B in fresh financing at soaring valuation", "summary": "The AI company completed an eight-billion-dollar funding round."}
+    assert is_duplicate_story(rewritten, [first])
+
+
+def test_same_event_with_different_wording_and_no_shared_amount_is_duplicate_when_core_title_overlaps():
+    first = {"title": "Nvidia unveils next generation AI chips for data centers", "summary": "Nvidia introduced a new generation of processors for cloud workloads."}
+    rewritten = {"title": "Nvidia introduces new AI processors aimed at data centers", "summary": "The chipmaker announced its latest hardware for cloud computing."}
+    assert is_duplicate_story(rewritten, [first])
+
+
+def test_different_events_from_same_company_are_not_duplicates():
+    first = {"title": "OpenAI launches a new coding agent", "summary": "The company introduced an agent designed for software development."}
+    different = {"title": "OpenAI raises $8 billion in fresh financing", "summary": "The AI company completed a major funding round."}
+    assert not is_duplicate_story(different, [first])
+
+
+def test_tracking_url_variants_are_duplicates():
+    first = {"title": "Example launches new device", "summary": "The company announced a new device.", "url": "https://example.com/news/device?utm_source=rss&utm_medium=feed"}
+    rewritten = {"title": "Example launches new device", "summary": "The company announced a new device.", "url": "https://example.com/news/device?utm_source=telegram"}
+    assert is_duplicate_story(rewritten, [first])
