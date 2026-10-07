@@ -57,8 +57,6 @@ def test_publishes_technology_story_without_image(monkeypatch):
         "read_text",
         lambda self, encoding="utf-8": '[{"name":"The Verge","url":"feed","limit":100}]',
     )
-    monkeypatch.setattr(main_module.datetime, "now", lambda tz=None: now)
-
     main_module.main()
 
     assert len(published) == 1
