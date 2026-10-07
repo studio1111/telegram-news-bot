@@ -88,3 +88,27 @@ def test_technology_tag_matching_does_not_accept_source_names_as_tags():
     assert is_technology_feed_item(("Technology",), "Any source")
     assert is_technology_feed_item(("Tech Policy",), "Any source")
     assert is_technology_feed_item(("Artificial Intelligence",), "Any source")
+
+
+def test_real_google_synthid_rewrites_are_duplicates():
+    first = {
+        "title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی شرکت گوگل (Google)",
+        "summary": "شرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که به کاربران امکان می‌دهد اصالت فایل‌های چندرسانه‌ای مانند تصاویر، ویدیوها و صوت را بررسی کنند. این ابزار با استفاده از فناوری سینث‌آی‌دی (SynthID) به شناسایی محتوای تولیدشده توسط هوش مصنوعی کمک می‌کند",
+    }
+    rewritten = {
+        "title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+        "summary": "شرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را عرضه کرده است که می‌تواند محتوای تولید شده توسط ابزارهای هوش مصنوعی مختلف را شناسایی کند.",
+    }
+    assert is_duplicate_story(rewritten, [first])
+
+
+def test_different_google_products_are_not_duplicates_without_shared_product_entity():
+    first = {
+        "title": "Google launches SynthID Detector",
+        "summary": "Google introduces a new tool for detecting AI-generated media.",
+    }
+    different = {
+        "title": "Google unveils a new Pixel phone",
+        "summary": "Google announces new smartphone hardware for consumers.",
+    }
+    assert not is_duplicate_story(different, [first])

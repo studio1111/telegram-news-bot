@@ -2,7 +2,7 @@ import json
 import os
 from pathlib import Path
 
-STATE_SCHEMA_VERSION = 3
+STATE_SCHEMA_VERSION = 4
 MAX_SEEN = 5000
 MAX_PUBLISHED_STORIES = 500
 MAX_OUTBOX = 100
@@ -49,11 +49,15 @@ class StateStore:
             if not url.strip():
                 dropped_empty_url_records = True
                 continue
-            migrated_records.append({
+            migrated = {
                 "title": record.get("title", "") if isinstance(record.get("title", ""), str) else "",
                 "summary": record.get("summary", "") if isinstance(record.get("summary", ""), str) else "",
                 "url": url.strip(),
-            })
+            }
+            for field in ("display_title", "display_summary"):
+                if isinstance(record.get(field, ""), str) and record.get(field, "").strip():
+                    migrated[field] = record[field].strip()
+            migrated_records.append(migrated)
         outbox = []
         for record in raw_outbox:
             if not isinstance(record, dict):
@@ -63,13 +67,17 @@ class StateStore:
             status = record.get("status", "pending")
             if status not in {"pending", "sent"}:
                 raise StateStoreError("state outbox status is invalid")
-            outbox.append({
+            migrated_outbox = {
                 "key": record["key"],
                 "url": record.get("url", "") if isinstance(record.get("url", ""), str) else "",
                 "message": record["message"],
                 "image_url": record.get("image_url", "") if isinstance(record.get("image_url", ""), str) else "",
                 "status": status,
-            })
+            }
+            for field in ("title", "summary", "display_title", "display_summary"):
+                if isinstance(record.get(field, ""), str) and record.get(field, "").strip():
+                    migrated_outbox[field] = record[field].strip()
+            outbox.append(migrated_outbox)
         return {
             "schema_version": STATE_SCHEMA_VERSION,
             "seen": raw_seen,

@@ -58,7 +58,7 @@ def test_legacy_state_migrates_without_outbox(tmp_path):
     path.write_text(json.dumps({"schema_version": 2, "seen": ["x"], "published_stories": []}), encoding="utf-8")
     store = StateStore(path)
     assert store.load_outbox() == []
-    assert json.loads(path.read_text(encoding="utf-8"))["schema_version"] == 3
+    assert json.loads(path.read_text(encoding="utf-8"))["schema_version"] == storage.STATE_SCHEMA_VERSION
 
 
 def test_empty_url_published_records_are_dropped_and_state_is_rewritten(tmp_path):
@@ -86,3 +86,34 @@ def test_save_does_not_persist_empty_url_published_records(tmp_path):
         {"title": "invalid", "summary": "s", "url": ""},
     ])
     assert store.load_records() == [{"title": "valid", "summary": "s", "url": "https://example.com/story"}]
+
+
+def test_published_story_keeps_rendered_dedup_fields(tmp_path):
+    store = StateStore(tmp_path / "state.json")
+    record = {
+        "title": "Google releases a new tool",
+        "summary": "RSS summary",
+        "url": "https://example.com/google",
+        "display_title": "ابزار جدید گوگل (Google)",
+        "display_summary": "گوگل (Google) ابزار جدیدی را عرضه کرد.",
+    }
+    store.save(set(), [record])
+    assert store.load_records()[0]["display_title"] == record["display_title"]
+    assert store.load_records()[0]["display_summary"] == record["display_summary"]
+
+
+def test_outbox_keeps_rendered_dedup_fields(tmp_path):
+    store = StateStore(tmp_path / "state.json")
+    pending = {
+        "key": "url:https://example.com/1",
+        "url": "https://example.com/1",
+        "title": "Google releases SynthID Detector",
+        "summary": "RSS summary",
+        "display_title": "ابزار تشخیص هوش مصنوعی گوگل (Google)",
+        "display_summary": "گوگل (Google) ابزار SynthID Detector را عرضه کرد.",
+        "message": "خبر",
+        "image_url": "",
+        "status": "pending",
+    }
+    store.save(set(), [], [pending])
+    assert store.load_outbox()[0]["display_title"] == pending["display_title"]

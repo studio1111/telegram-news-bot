@@ -66,8 +66,12 @@ def _process_candidate(item):
     return item, item.image_url, process_with_gemini(item.title, item.summary, article_text)
 
 
-def _story_record(item):
-    return {"title": item.title, "summary": item.summary, "url": item.url}
+def _story_record(item, processed=None):
+    record = {"title": item.title, "summary": item.summary, "url": item.url}
+    if processed:
+        record["display_title"] = processed.get("title_fa", "")
+        record["display_summary"] = processed.get("summary_fa", "")
+    return record
 
 
 def _save_state(store, seen, published_stories, outbox):
@@ -172,6 +176,11 @@ def main():
                 duplicates += 1
                 seen.update((item.item_id, item.url))
                 continue
+            rendered_story = _story_record(item, processed)
+            if is_duplicate_story(rendered_story, published_stories):
+                duplicates += 1
+                seen.update((item.item_id, item.url))
+                continue
             try:
                 message = build_rich_message_html(
                     processed["title_fa"],
@@ -186,7 +195,17 @@ def main():
 
             key = _outbox_key(item)
             if not any(record.get("key") == key and record.get("status") == "pending" for record in outbox):
-                outbox.append({"key": key, "url": item.url, "message": message, "image_url": image_url or "", "status": "pending"})
+                outbox.append({
+                    "key": key,
+                    "url": item.url,
+                    "title": item.title,
+                    "summary": item.summary,
+                    "display_title": processed.get("title_fa", ""),
+                    "display_summary": processed.get("summary_fa", ""),
+                    "message": message,
+                    "image_url": image_url or "",
+                    "status": "pending",
+                })
                 persist()
 
             try:
@@ -201,7 +220,7 @@ def main():
                     record["status"] = "sent"
             published_count += 1
             seen.update((item.item_id, item.url))
-            published_stories.append(story)
+            published_stories.append(rendered_story)
             del published_stories[:-MAX_PUBLISHED_STORIES:]
             persist()
             print(f"[PUBLISHED] source={item.source} url={item.url}")

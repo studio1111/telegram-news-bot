@@ -177,3 +177,54 @@ def test_retried_outbox_marks_real_url_as_seen(monkeypatch):
     news_main.main()
     assert "https://example.com/pending" in store.saves[-1][0]
     assert "url:hash" not in store.saves[-1][0]
+
+
+def test_main_deduplicates_two_different_source_rewrites_of_same_rendered_story(monkeypatch):
+    now = datetime.now(timezone.utc)
+    first = NewsItem(
+        "google-1",
+        "Google launches a new website for identifying AI-generated media",
+        "https://source-a.example/google-ai-media",
+        "Google launches a website using SynthID to identify AI-generated media.",
+        "Source A",
+        "",
+        now - timedelta(minutes=5),
+        ("Technology",),
+    )
+    second = NewsItem(
+        "google-2",
+        "Google releases SynthID Detector for AI content",
+        "https://source-b.example/synthid-detector",
+        "Google releases SynthID Detector to identify AI-generated images, video and audio.",
+        "Source B",
+        "",
+        now - timedelta(minutes=4),
+        ("Technology",),
+    )
+    rendered = [
+        {
+            "title_fa": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی شرکت گوگل (Google)",
+            "summary_fa": "شرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که با فناوری سینث‌آی‌دی (SynthID) محتوای تولیدشده با هوش مصنوعی را شناسایی می‌کند.",
+            "article_fa": "متن کامل خبر اول",
+            "category": "technology",
+        },
+        {
+            "title_fa": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+            "summary_fa": "شرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را برای شناسایی محتوای تولیدشده با هوش مصنوعی عرضه کرده است.",
+            "article_fa": "متن کامل خبر دوم",
+            "category": "technology",
+        },
+    ]
+    store = _store()
+    published = []
+    calls = {"n": 0}
+
+    def process(title, summary, article):
+        result = rendered[calls["n"]]
+        calls["n"] += 1
+        return result
+
+    _patch(monkeypatch, [first, second], process, lambda m, i: published.append(m), store)
+    news_main.main()
+
+    assert len(published) == 1
