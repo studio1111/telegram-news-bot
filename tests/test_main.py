@@ -34,8 +34,8 @@ def test_main_uses_90_minute_window():
 
 def test_candidate_collection_checks_later_sources_before_capping(monkeypatch):
     now = datetime.now(timezone.utc)
-    first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1)) for i in range(news_main.MAX_CANDIDATES)]
-    later = NewsItem("later", "OpenAI AI model software story", "https://example.com/later", "s", "Later", "", now-timedelta(minutes=60))
+    first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1), ("Technology",)) for i in range(news_main.MAX_CANDIDATES)]
+    later = NewsItem("later", "OpenAI AI model software story", "https://example.com/later", "s", "Later", "", now-timedelta(minutes=60), ("Technology",))
     calls = []
 
     def collect(url, name, limit):
@@ -57,7 +57,7 @@ def test_candidate_collection_checks_later_sources_before_capping(monkeypatch):
 
 def test_candidate_collection_is_capped(monkeypatch):
     now = datetime.now(timezone.utc)
-    items = [NewsItem(str(i), f"Story {i}", f"https://example.com/{i}", "s", "S", "", now-timedelta(minutes=i)) for i in range(news_main.MAX_CANDIDATES + 5)]
+    items = [NewsItem(str(i), f"Story {i}", f"https://example.com/{i}", "s", "S", "", now-timedelta(minutes=i), ("Technology",)) for i in range(news_main.MAX_CANDIDATES + 5)]
     monkeypatch.setattr(news_main, "collect_feed", lambda *a, **k: items)
     result = news_main._collect_recent_items([{"url":"https://example.com/feed", "name":"S", "limit":100}], set(), now)
     assert len(result) == news_main.MAX_CANDIDATES
