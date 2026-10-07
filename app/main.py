@@ -93,8 +93,8 @@ def _retry_outbox(store, seen, published_stories, outbox, deadline):
             print(f"[OUTBOX_ERROR] key={record['key']}: {exc}")
             continue
         record["status"] = "sent"
-        seen.add(record["key"])
         if record.get("url"):
+            seen.add(record["url"])
             published_stories.append({"title": "", "summary": "", "url": record["url"]})
         _save_state(store, seen, published_stories, outbox)
         recovered += 1
