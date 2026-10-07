@@ -3,7 +3,7 @@ import json
 from app.storage import STATE_SCHEMA_VERSION, StateStore
 
 
-def test_legacy_records_get_schema_version_and_empty_url(tmp_path):
+def test_legacy_records_drop_empty_url_and_keep_valid_url(tmp_path):
     path = tmp_path / "state.json"
     path.write_text(
         json.dumps({
@@ -20,13 +20,12 @@ def test_legacy_records_get_schema_version_and_empty_url(tmp_path):
     records = store.load_records()
     data = json.loads(path.read_text(encoding="utf-8"))
 
-    assert records[0]["url"] == ""
-    assert records[1]["url"] == "https://example.com/new"
+    assert records == [{"title": "New story", "summary": "New summary", "url": "https://example.com/new"}]
     assert data["schema_version"] == STATE_SCHEMA_VERSION
-    assert all(set(record) == {"title", "summary", "url"} for record in data["published_stories"])
+    assert data["published_stories"] == [{"title": "New story", "summary": "New summary", "url": "https://example.com/new"}]
 
 
-def test_migration_does_not_guess_legacy_urls(tmp_path):
+def test_migration_drops_legacy_records_without_urls(tmp_path):
     path = tmp_path / "state.json"
     path.write_text(
         json.dumps({
@@ -37,4 +36,4 @@ def test_migration_does_not_guess_legacy_urls(tmp_path):
     )
 
     store = StateStore(path)
-    assert store.load_records() == [{"title": "Old story", "summary": "Old summary", "url": ""}]
+    assert store.load_records() == []
