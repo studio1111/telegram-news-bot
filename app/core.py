@@ -38,8 +38,48 @@ def story_similarity(left: dict, right: dict) -> float:
     )
     return min(1.0, jaccard + (0.20 if numbers_match else 0.0))
 
-def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.48) -> bool:
-    return any(story_similarity(item, story) >= threshold for story in previous)
+def _title_similarity(left: str, right: str) -> float:
+    from difflib import SequenceMatcher
+
+    return SequenceMatcher(
+        None,
+        normalize_text(left).lower(),
+        normalize_text(right).lower(),
+    ).ratio()
+
+
+def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.65) -> bool:
+    item_url = normalize_text(item.get("url", ""))
+    item_title = normalize_text(item.get("title", ""))
+    for story in previous:
+        story_url = normalize_text(story.get("url", ""))
+        if item_url and story_url and item_url == story_url:
+            return True
+
+        title_jaccard = 0.0
+        item_tokens = _story_tokens(item_title)
+        story_tokens = _story_tokens(story.get("title", ""))
+        if item_tokens and story_tokens:
+            title_jaccard = len(item_tokens & story_tokens) / len(item_tokens | story_tokens)
+
+        combined_similarity = story_similarity(item, story)
+        title_similarity = _title_similarity(item_title, story.get("title", ""))
+
+        # Duplicate detection must be conservative. Generic words such as
+        # "company", "new", "technology", and "launches" are not enough.
+        if title_jaccard >= threshold and title_similarity >= 0.72:
+            return True
+        if title_similarity >= 0.82 and combined_similarity >= 0.55:
+            return True
+        if (
+            _numbers(item.get("title", "") + " " + item.get("summary", ""))
+            & _numbers(story.get("title", "") + " " + story.get("summary", ""))
+            and title_jaccard >= 0.45
+            and combined_similarity >= 0.55
+        ):
+            return True
+
+    return False
 
 def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
     return item_id not in seen and url not in seen
