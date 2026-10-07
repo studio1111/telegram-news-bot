@@ -86,3 +86,43 @@ def test_deadline_stops_before_ai_work(monkeypatch):
     monkeypatch.setattr(news_main, "RUN_DEADLINE_SECONDS", 0)
     news_main.main()
     assert calls["ai"] == 0
+
+
+def test_pending_outbox_is_retried_before_new_candidates(monkeypatch):
+    store = _store()
+    pending = {"key": "url:https://example.com/pending", "url": "https://example.com/pending", "message": "<b>Pending</b>", "image_url": "", "status": "pending"}
+    store.load_outbox = lambda: [pending]
+    completed = []
+    store.complete_outbox = lambda key: completed.append(key)
+    published = []
+    monkeypatch.setattr(news_main, "StateStore", store)
+    monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [])
+    monkeypatch.setattr(news_main, "publish_rich_message", lambda m, i: published.append((m, i)))
+    monkeypatch.setattr(news_main.Path, "read_text", lambda *a, **k: "[]")
+    news_main.main()
+    assert published == [("<b>Pending</b>", "")]
+    assert completed == ["url:https://example.com/pending"]
+
+
+def test_send_crash_leaves_outbox_pending_for_recovery(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem("crash", "Nvidia software story", "https://example.com/crash", "s", "S", "", now)
+    store = _store()
+    outbox = []
+    store.load_outbox = lambda: outbox
+    def save(seen, records=None, pending=None):
+        outbox[:] = list(pending or [])
+    store.save = save
+    monkeypatch.setattr(news_main, "StateStore", store)
+    monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [item])
+    monkeypatch.setattr(news_main, "fetch_article_text", lambda *a, **k: "article")
+    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *a, **k: "")
+    monkeypatch.setattr(news_main, "process_with_gemini", lambda *a, **k: _tech("خبر", "خلاصه"))
+    def crash_publish(message, image):
+        raise KeyboardInterrupt
+    monkeypatch.setattr(news_main, "publish_rich_message", crash_publish)
+    try:
+        news_main.main()
+    except KeyboardInterrupt:
+        pass
+    assert outbox and outbox[0]["status"] == "pending"
