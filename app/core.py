@@ -168,7 +168,7 @@ def is_technology_feed_item(categories, source: str = "") -> bool:
         if normalized in _TECHNOLOGY_CATEGORIES:
             return True
         if re.search(
-            r"\\b(?:technology|tech|ai|software|hardware|gadgets|mobile|cloud)\\b",
+            r"\b(?:technology|tech|ai|software|hardware|gadgets|mobile|cloud)\b",
             normalized,
         ) or any(
             phrase in normalized
