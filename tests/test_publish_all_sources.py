@@ -129,7 +129,7 @@ def test_logs_publish_summary(monkeypatch, capsys):
     now = datetime.now(timezone.utc)
     item = NewsItem(
         "summary-story", "Technology story", "https://example.com/summary",
-        "summary", "Test Source", "", now
+        "summary", "Test Source", "", now, ("Technology",)
     )
     monkeypatch.setattr(main_module, "collect_feed", lambda *args: [item])
     monkeypatch.setattr(main_module, "fetch_article_text", lambda url: "article")
