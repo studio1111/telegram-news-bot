@@ -132,7 +132,7 @@ def test_migration_recovers_rendered_title_and_summary_from_sent_outbox(tmp_path
         "outbox": [{
             "key": "url:google",
             "url": "https://example.com/google-synthid",
-            "message": "<b>📰 ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد</b>\\n\\nگوگل (Google) ابزار SynthID Detector را عرضه کرد.\\n\\n<details><summary>متن کامل</summary><p>متن کامل</p></details>",
+            "message": "<b>📰 ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد</b>\n\nگوگل (Google) ابزار SynthID Detector را عرضه کرد.\n\n<details><summary>متن کامل</summary><p>متن کامل</p></details>",
             "image_url": "",
             "status": "sent",
         }],
