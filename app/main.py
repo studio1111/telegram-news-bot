@@ -54,9 +54,12 @@ def _collect_recent_items(sources, seen, now):
         stats["recent_items"] += recent
         stats["missing_dates"] += missing_dates
         print(f"[SOURCE] {source['name']}: fetched={len(items)} unseen={unseen} recent={recent} missing_date={missing_dates}")
-        if len(candidates) >= MAX_CANDIDATES:
-            break
+        # Deliberately do not stop here when MAX_CANDIDATES is reached. Every
+        # configured source must be fetched on every run; cap only after the
+        # full source sweep so later feeds cannot be starved.
     print(f"[COLLECT] sources={stats['sources']} feeds={stats['feed_items']} unseen={stats['unseen_items']} recent={stats['recent_items']} missing_dates={stats['missing_dates']} errors={stats['source_errors']}")
+    if len(candidates) > MAX_CANDIDATES:
+        print(f"[CAP] candidates={len(candidates)} limit={MAX_CANDIDATES}; deferring newest items")
     return sorted(candidates, key=_published_key)[:MAX_CANDIDATES]
 
 
@@ -179,12 +182,7 @@ def main():
                     seen.update((item.item_id, item.url))
                     print(f"[NON_TECHNOLOGY] source={item.source} category={category} url={item.url}")
                     continue
-                message = build_rich_message_html(
-                    processed["title_fa"],
-                    processed["summary_fa"],
-                    processed.get("article_fa") or processed["summary_fa"],
-                    item.source,
-                )
+                message = build_rich_message_html(processed["title_fa"], processed["summary_fa"], processed.get("article_fa") or processed["summary_fa"], item.source)
             except Exception as exc:
                 publish_failed += 1
                 print(f"[PROCESS_ERROR] source={item.source} url={item.url}: {exc}")
@@ -208,7 +206,7 @@ def main():
             published_count += 1
             seen.update((item.item_id, item.url))
             published_stories.append(story)
-            del published_stories[:-MAX_PUBLISHED_STORIES:]
+            del published_stories[:-MAX_PUBLISHED_STORIES]
             persist()
             print(f"[PUBLISHED] source={item.source} url={item.url}")
     finally:
