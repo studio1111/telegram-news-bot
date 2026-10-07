@@ -1,6 +1,9 @@
 name: News Bot
 
 on:
+  # temporary-validation-trigger
+  push:
+    branches: [main]
   schedule:
     - cron: "8,38 * * * *"
   workflow_dispatch:
