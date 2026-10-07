@@ -88,3 +88,29 @@ def test_technology_tag_matching_does_not_accept_source_names_as_tags():
     assert is_technology_feed_item(("Technology",), "Any source")
     assert is_technology_feed_item(("Tech Policy",), "Any source")
     assert is_technology_feed_item(("Artificial Intelligence",), "Any source")
+
+
+def test_synthid_detector_cross_source_rewrites_are_duplicates():
+    first = {
+        "title": "Google's AI detection website is now available",
+        "summary": "SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+        "url": "https://www.engadget.com/google-synth-id-detector-ai-detection-website-is-now-available/",
+    }
+    rewritten = {
+        "title": "Google’s new SynthID website can identify AI-generated media",
+        "summary": "Google launched a new site that lets anyone verify whether an image, video, or audio clip is generated using AI.",
+        "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+    }
+    assert is_duplicate_story(rewritten, [first])
+
+
+def test_same_google_product_different_event_is_not_a_duplicate():
+    first = {
+        "title": "Google launches SynthID Detector website for AI-generated media",
+        "summary": "The new detector checks images, video, and audio for SynthID watermarks.",
+    }
+    different = {
+        "title": "Google expands SynthID text watermarking to more AI models",
+        "summary": "The company is adding text watermarking support for developers using new language models.",
+    }
+    assert not is_duplicate_story(different, [first])
