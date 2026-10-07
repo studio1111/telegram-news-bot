@@ -39,7 +39,10 @@ def test_fallback_runs_when_rich_api_returns_http_400(monkeypatch):
 
 def test_network_timeout_does_not_trigger_fallback(monkeypatch):
     calls=[]
-    monkeypatch.setattr(telegram.requests,"post",lambda *a,**k:(calls.append(a[1]), (_ for _ in ()).throw(telegram.requests.exceptions.ReadTimeout("slow")))[1])
+    def fail_post(url, **kwargs):
+        calls.append(url)
+        raise telegram.requests.exceptions.ReadTimeout("slow")
+    monkeypatch.setattr(telegram.requests,"post",fail_post)
     monkeypatch.setenv("TELEGRAM_BOT_TOKEN","t"); monkeypatch.setenv("TELEGRAM_CHAT_ID","@c")
     with pytest.raises(telegram.requests.exceptions.ReadTimeout): telegram.publish_rich_message("<b>تیتر</b>","")
     assert len(calls)==1
