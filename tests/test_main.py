@@ -399,3 +399,29 @@ def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
     )
     news_main.main()
     assert published == ["https://example.com/recovered.jpg"]
+
+
+def test_english_duplicate_outranks_persian_fallback_even_when_persian_has_image():
+    english = NewsItem(
+        "en-no-image",
+        "Google launches SynthID Detector",
+        "https://example.com/en",
+        "Google launches a tool to identify AI-generated media.",
+        "TechCrunch",
+        "",
+        datetime(2026, 10, 7, 18, 0, tzinfo=timezone.utc),
+        (),
+    )
+    persian = NewsItem(
+        "fa-with-image",
+        "Google launches SynthID Detector",
+        "https://example.com/fa",
+        "Google launches a tool to identify AI-generated media.",
+        "Digiato",
+        "https://example.com/fa.jpg",
+        datetime(2026, 10, 7, 18, 5, tzinfo=timezone.utc),
+        (),
+    )
+    result = news_main._prioritize_duplicate_candidates([english, persian])
+    assert len(result) == 1
+    assert result[0].source == "TechCrunch"
