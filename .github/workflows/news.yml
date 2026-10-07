@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "8,38 * * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 concurrency:
   group: news-bot
@@ -99,7 +96,8 @@ jobs:
           fi
 
           git commit -m "chore: persist news state"
-          git push "https://x-access-token:${{ github.token }}@${{ github.server_url }}/${{ github.repository }}.git" HEAD:bot-state
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git push origin HEAD:bot-state
 
   cleanup:
     if: always()
