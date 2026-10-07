@@ -122,3 +122,18 @@ def test_article_fetch_uses_short_timeout(monkeypatch):
     collector.fetch_article_text("https://example.com/timeout-check")
     assert captured["timeout"] == 10
     collector._ARTICLE_CACHE.clear()
+
+
+def test_public_host_resolution_has_a_timeout(monkeypatch):
+    import app.collector as collector
+
+    captured = {}
+
+    def fake_getaddrinfo(*args, **kwargs):
+        captured["timeout"] = collector.socket.getdefaulttimeout()
+        raise collector.socket.timeout("dns timeout")
+
+    monkeypatch.setattr(collector.socket, "getaddrinfo", fake_getaddrinfo)
+    with __import__("pytest").raises(ValueError, match="unable to resolve"):
+        collector._is_public_host("example.com")
+    assert captured["timeout"] == 3

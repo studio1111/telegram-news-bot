@@ -106,10 +106,14 @@ def _entry_published_at(entry):
 def _is_public_host(hostname: str) -> bool:
     if not hostname:
         return False
+    previous_timeout = socket.getdefaulttimeout()
     try:
+        socket.setdefaulttimeout(3)
         addresses = socket.getaddrinfo(hostname, None, type=socket.SOCK_STREAM)
-    except socket.gaierror as exc:
+    except (socket.gaierror, socket.timeout, TimeoutError) as exc:
         raise ValueError(f"unable to resolve URL host: {hostname}") from exc
+    finally:
+        socket.setdefaulttimeout(previous_timeout)
     for entry in addresses:
         address = ipaddress.ip_address(entry[4][0])
         if not address.is_global:
