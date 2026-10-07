@@ -11,12 +11,11 @@ FOOTER_MARKER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
 
 
 class TelegramAPIError(RuntimeError):
-    """Telegram received the request and explicitly rejected it.
+    """Telegram request failed; fallback is safe only for explicit client rejection."""
 
-    Only this error triggers the plain-text fallback. Network errors and
-    timeouts are NOT converted, because the rich message may already have been
-    delivered and falling back would post the story twice.
-    """
+    def __init__(self, message, *, fallback_safe=False):
+        super().__init__(message)
+        self.fallback_safe = fallback_safe
 
 
 def _credentials():
@@ -46,8 +45,8 @@ def _post(token, method, payload, max_rate_limit_retries=2):
             try:
                 response.raise_for_status()
             except requests.HTTPError as exc:
-                raise TelegramAPIError(f"Telegram HTTP error in {method}: {exc}") from exc
-            raise TelegramAPIError(f"Telegram returned a non-JSON response in {method}")
+                raise TelegramAPIError(f"Telegram HTTP error in {method}: {exc}", fallback_safe=False) from exc
+            raise TelegramAPIError(f"Telegram returned a non-JSON response in {method}", fallback_safe=False)
 
         if data.get("ok"):
             return data
@@ -57,9 +56,11 @@ def _post(token, method, payload, max_rate_limit_retries=2):
             time.sleep(min(int(retry_after), 60) + 1)
             continue
 
-        raise TelegramAPIError(data.get("description") or f"Telegram API error in {method}")
+        error_code = data.get("error_code")
+        fallback_safe = method == "sendRichMessage" and isinstance(error_code, int) and 400 <= error_code < 500 and error_code != 429
+        raise TelegramAPIError(data.get("description") or f"Telegram API error in {method}", fallback_safe=fallback_safe)
 
-    raise TelegramAPIError(f"Telegram rate limit persisted in {method}")
+    raise TelegramAPIError(f"Telegram rate limit persisted in {method}", fallback_safe=False)
 
 
 def _rich_html_to_plain_text(value: str) -> str:
@@ -155,6 +156,8 @@ def publish_rich_message(html, image_url=""):
     try:
         return _post(token, "sendRichMessage", payload)
     except TelegramAPIError as rich_error:
+        if not rich_error.fallback_safe:
+            raise
         plain = _rich_html_to_plain_text(html)
         if not plain:
             raise

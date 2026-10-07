@@ -1,7 +1,8 @@
 import json
 
+import pytest
 import app.storage as storage
-from app.storage import StateStore
+from app.storage import StateStore, StateStoreError
 
 
 def test_save_caps_seen_and_keeps_newest(tmp_path, monkeypatch):
@@ -10,7 +11,6 @@ def test_save_caps_seen_and_keeps_newest(tmp_path, monkeypatch):
     store = StateStore(path)
     store.save({"a", "b"}, [])
     store.save({"a", "b", "c", "d"}, [])
-
     data = json.loads(path.read_text(encoding="utf-8"))
     assert data["seen"] == ["b", "c", "d"]
 
@@ -28,3 +28,34 @@ def test_save_roundtrip(tmp_path):
     store.save({"x"}, [{"title": "t", "summary": "s", "url": "u"}])
     assert store.load() == {"x"}
     assert store.load_records()[0]["url"] == "u"
+
+
+def test_corrupt_state_fails_closed_instead_of_becoming_empty(tmp_path):
+    path = tmp_path / "state.json"
+    path.write_text("{not-json", encoding="utf-8")
+    with pytest.raises(StateStoreError):
+        StateStore(path).load()
+
+
+def test_invalid_state_shape_fails_closed(tmp_path):
+    path = tmp_path / "state.json"
+    path.write_text(json.dumps({"seen": "not-a-list"}), encoding="utf-8")
+    with pytest.raises(StateStoreError):
+        StateStore(path).load()
+
+
+def test_outbox_roundtrip_and_update(tmp_path):
+    store = StateStore(tmp_path / "state.json")
+    pending = {"key": "url:https://example.com/1", "url": "https://example.com/1", "message": "خبر", "image_url": "", "status": "pending"}
+    store.save(set(), [], [pending])
+    assert store.load_outbox() == [pending]
+    store.complete_outbox(pending["key"])
+    assert store.load_outbox()[0]["status"] == "sent"
+
+
+def test_legacy_state_migrates_without_outbox(tmp_path):
+    path = tmp_path / "state.json"
+    path.write_text(json.dumps({"schema_version": 2, "seen": ["x"], "published_stories": []}), encoding="utf-8")
+    store = StateStore(path)
+    assert store.load_outbox() == []
+    assert json.loads(path.read_text(encoding="utf-8"))["schema_version"] == 3

@@ -95,15 +95,19 @@ def is_technology_news(category: str) -> bool:
     return normalize_text(category).lower() in _TECHNOLOGY_CATEGORIES
 
 def is_technology_story(category: str, title: str = "", summary: str = "", article: str = "") -> bool:
-    if is_technology_news(category):
-        return True
     text = normalize_text(f"{title} {summary} {article}").lower()
     if not text:
         return False
     sports_hits = len(set(_SPORTS_RE.findall(text)))
-    tech_hits = len(set(_TECH_RE.findall(text))) + 0.5 * len(set(_WEAK_TECH_RE.findall(text)))
+    strong_hits = len(set(_TECH_RE.findall(text)))
+    weak_hits = len(set(_WEAK_TECH_RE.findall(text)))
+    tech_hits = strong_hits + 0.5 * weak_hits
     if sports_hits >= 2 and tech_hits < 4:
         return False
+    if is_technology_news(category):
+        # Gemini's label is only a hint. Independent source-text evidence is
+        # required so a prompt-injected or hallucinated category cannot publish.
+        return strong_hits >= 1 or weak_hits >= 2
     return tech_hits >= 2
 
 def build_telegram_message(title, summary, category, source, url=None):
