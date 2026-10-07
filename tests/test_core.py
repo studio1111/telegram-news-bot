@@ -5,6 +5,7 @@ from app.core import (
     build_rich_message_html,
     build_telegram_message,
     is_new_item,
+    is_duplicate_story,
     is_recent_news,
     normalize_text,
 )
