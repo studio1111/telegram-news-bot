@@ -4,10 +4,6 @@ on:
   schedule:
     - cron: "8,38 * * * *"
   workflow_dispatch:
-  # temporary-validation-trigger
-  push:
-    branches:
-      - main
 
 concurrency:
   group: news-bot
