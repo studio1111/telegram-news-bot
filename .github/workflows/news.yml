@@ -11,7 +11,7 @@ on:
 
 concurrency:
   group: news-bot
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write
