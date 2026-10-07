@@ -2,10 +2,10 @@
 name = "telegram-news-bot"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["feedparser>=6.0.11,<7", "requests>=2.32,<3"]
+dependencies = ["feedparser==6.0.14", "requests==2.34.2"]
 
 [project.optional-dependencies]
-test = ["pytest>=8,<9"]
+test = ["pytest==9.1.1"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

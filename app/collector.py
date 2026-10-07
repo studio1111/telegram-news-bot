@@ -4,12 +4,21 @@ from hashlib import sha256
 from html.parser import HTMLParser
 import calendar
 import re
+import threading
 import time
 
 import feedparser
 import requests
 
 from .core import normalize_text
+
+
+_USER_AGENT = "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)"
+_NO_CACHE_HEADERS = {
+    "User-Agent": _USER_AGENT,
+    "Cache-Control": "no-cache, no-store, max-age=0",
+    "Pragma": "no-cache",
+}
 
 
 @dataclass(frozen=True)
@@ -93,39 +102,48 @@ def _entry_published_at(entry):
         return None
 
 
-def fetch_article_text(url: str, max_chars: int = 18000) -> str:
+# Article pages are needed for both the text and the og:image. Cache the HTML
+# per run so each article is downloaded once instead of twice. Failures are
+# cached too, so a dead page is not retried by the second caller.
+_ARTICLE_CACHE: dict[str, str] = {}
+_ARTICLE_CACHE_LOCK = threading.Lock()
+_ARTICLE_CACHE_LIMIT = 512
+
+
+def _fetch_article_html(url: str) -> str:
+    with _ARTICLE_CACHE_LOCK:
+        if url in _ARTICLE_CACHE:
+            return _ARTICLE_CACHE[url]
     try:
         response = requests.get(
             url,
             params={"_": str(int(time.time()))},
             timeout=20,
-            headers={
-                "User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)",
-                "Cache-Control": "no-cache, no-store, max-age=0",
-                "Pragma": "no-cache",
-            },
+            headers=_NO_CACHE_HEADERS,
         )
         response.raise_for_status()
+        html = response.text
     except requests.RequestException:
-        return ""
+        html = ""
+    with _ARTICLE_CACHE_LOCK:
+        if len(_ARTICLE_CACHE) >= _ARTICLE_CACHE_LIMIT:
+            _ARTICLE_CACHE.clear()
+        _ARTICLE_CACHE[url] = html
+    return html
 
-    text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\1>", " ", response.text)
+
+def fetch_article_text(url: str, max_chars: int = 18000) -> str:
+    html = _fetch_article_html(url)
+    if not html:
+        return ""
+    text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\1>", " ", html)
     text = re.sub(r"(?is)<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
     return normalize_text(text)[:max_chars]
 
 
 def fetch_article_image_url(url: str) -> str:
-    try:
-        response = requests.get(
-            url,
-            timeout=20,
-            headers={"User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)"},
-        )
-        response.raise_for_status()
-    except requests.RequestException:
-        return ""
-    return _article_image_url(response.text)
+    return _article_image_url(_fetch_article_html(url))
 
 
 def collect_feed(url: str, source_name: str, limit: int = 100):
@@ -134,11 +152,7 @@ def collect_feed(url: str, source_name: str, limit: int = 100):
             url,
             params={"_": str(int(time.time()))},
             timeout=20,
-            headers={
-                "User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)",
-                "Cache-Control": "no-cache, no-store, max-age=0",
-                "Pragma": "no-cache",
-            },
+            headers=_NO_CACHE_HEADERS,
         )
         response.raise_for_status()
     except requests.RequestException as exc:

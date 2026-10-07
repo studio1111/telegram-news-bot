@@ -1,8 +1,22 @@
 import html as html_lib
 import os
 import re
+import time
 
 import requests
+
+
+TELEGRAM_MESSAGE_LIMIT = 4096
+FOOTER_MARKER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
+
+
+class TelegramAPIError(RuntimeError):
+    """Telegram received the request and explicitly rejected it.
+
+    Only this error triggers the plain-text fallback. Network errors and
+    timeouts are NOT converted, because the rich message may already have been
+    delivered and falling back would post the story twice.
+    """
 
 
 def _credentials():
@@ -13,17 +27,39 @@ def _credentials():
     return token, chat_id
 
 
-def _post(token, method, payload):
-    response = requests.post(
-        f"https://api.telegram.org/bot{token}/{method}",
-        json=payload,
-        timeout=30,
-    )
-    response.raise_for_status()
-    data = response.json()
-    if not data.get("ok"):
-        raise RuntimeError(data.get("description") or f"Telegram API error in {method}")
-    return data
+def _post(token, method, payload, max_rate_limit_retries=2):
+    for attempt in range(max_rate_limit_retries + 1):
+        response = requests.post(
+            f"https://api.telegram.org/bot{token}/{method}",
+            json=payload,
+            timeout=30,
+        )
+        # Telegram answers 4xx with a JSON body ({"ok": false, ...}). Read the
+        # body first; calling raise_for_status() first turned every rejection
+        # into requests.HTTPError, which bypassed the fallback entirely.
+        try:
+            data = response.json()
+        except ValueError:
+            data = None
+
+        if not isinstance(data, dict):
+            try:
+                response.raise_for_status()
+            except requests.HTTPError as exc:
+                raise TelegramAPIError(f"Telegram HTTP error in {method}: {exc}") from exc
+            raise TelegramAPIError(f"Telegram returned a non-JSON response in {method}")
+
+        if data.get("ok"):
+            return data
+
+        retry_after = (data.get("parameters") or {}).get("retry_after")
+        if data.get("error_code") == 429 and retry_after and attempt < max_rate_limit_retries:
+            time.sleep(min(int(retry_after), 60) + 1)
+            continue
+
+        raise TelegramAPIError(data.get("description") or f"Telegram API error in {method}")
+
+    raise TelegramAPIError(f"Telegram rate limit persisted in {method}")
 
 
 def _rich_html_to_plain_text(value: str) -> str:
@@ -34,6 +70,26 @@ def _rich_html_to_plain_text(value: str) -> str:
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n[ \t]*\n[ \t]*\n+", "\n\n", text)
     return text.strip()
+
+
+def _truncate_plain(plain: str) -> str:
+    # sendMessage has a 4096-character limit. Preserve the end of the post so
+    # the source and channel footer remain visible after truncation.
+    if len(plain) <= TELEGRAM_MESSAGE_LIMIT:
+        return plain
+    if FOOTER_MARKER in plain:
+        body, _tail = plain.split(FOOTER_MARKER, 1)
+        body = body.rstrip()
+        # Keep the "source" line that sits just above the footer.
+        source_line = ""
+        if "\n" in body:
+            head, last_line = body.rsplit("\n", 1)
+            if last_line.startswith("📡"):
+                body, source_line = head.rstrip(), last_line
+        suffix = "\n…\n" + (source_line + "\n" if source_line else "") + FOOTER_MARKER
+        available = max(0, TELEGRAM_MESSAGE_LIMIT - len(suffix))
+        return body[:available].rstrip() + suffix
+    return plain[: TELEGRAM_MESSAGE_LIMIT - 1].rstrip() + "…"
 
 
 def publish_message(text):
@@ -98,27 +154,18 @@ def publish_rich_message(html, image_url=""):
     payload = build_rich_message_payload(html, image_url)
     try:
         return _post(token, "sendRichMessage", payload)
-    except RuntimeError as rich_error:
+    except TelegramAPIError as rich_error:
         plain = _rich_html_to_plain_text(html)
         if not plain:
-            raise rich_error
-        # sendMessage has a 4096-character limit. Preserve the end of the
-        # post so the source and channel footer remain visible after truncation.
-        if len(plain) > 4096:
-            footer_marker = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
-            if footer_marker in plain:
-                body = plain.split(footer_marker, 1)[0].rstrip()
-                available = max(0, 4096 - len(footer_marker) - 5)
-                plain = body[:available].rstrip() + "\n…\n" + footer_marker
-            else:
-                plain = plain[:4093].rstrip() + "…"
+            raise
+        print(f"[TELEGRAM_FALLBACK] sendRichMessage rejected: {rich_error}")
         try:
             return _post(
                 token,
                 "sendMessage",
                 {
                     "chat_id": chat_id,
-                    "text": plain,
+                    "text": _truncate_plain(plain),
                     "disable_web_page_preview": True,
                 },
             )
