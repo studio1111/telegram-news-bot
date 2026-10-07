@@ -9,8 +9,6 @@ from .core import (
     is_duplicate_story,
     is_new_item,
     is_recent_news,
-    is_technology_news,
-    is_technology_story,
 )
 from .storage import StateStore
 from .telegram import publish_rich_message
@@ -85,8 +83,6 @@ def main():
     candidates = _collect_recent_items(sources, seen, now)
     published_count = 0
     ai_failed = 0
-    non_technology = 0
-    recovered_technology = 0
     duplicates = 0
     telegram_failed = 0
 
@@ -112,28 +108,6 @@ def main():
             ai_failed += 1
             print(f"[GEMINI_ERROR] source={item.source} url={item.url}: {exc}")
             continue
-
-        category = processed.get("category", "")
-        technology_by_category = is_technology_news(category)
-        technology_by_content = is_technology_story(
-            category,
-            item.title,
-            item.summary,
-            article_text,
-        )
-        if not technology_by_content:
-            non_technology += 1
-            print(
-                f"[FILTERED] non_technology source={item.source} "
-                f"category={category} url={item.url}"
-            )
-            continue
-        if not technology_by_category:
-            recovered_technology += 1
-            print(
-                f"[RECOVERED_TECH] source={item.source} "
-                f"category={category} url={item.url}"
-            )
 
         story = {"title": item.title, "summary": item.summary}
         if is_duplicate_story(story, published_stories):
@@ -165,8 +139,7 @@ def main():
     store.save(seen, published_stories)
     print(
         f"[SUMMARY] candidates={len(candidates)} published={published_count} "
-        f"gemini_failed={ai_failed} non_technology={non_technology} "
-        f"recovered_technology={recovered_technology} duplicates={duplicates} "
+        f"gemini_failed={ai_failed} duplicates={duplicates} "
         f"telegram_failed={telegram_failed}"
     )
 
