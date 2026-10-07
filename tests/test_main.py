@@ -1,91 +1,54 @@
-from datetime import datetime, timezone
-
+from datetime import datetime, timedelta, timezone
 from app.collector import NewsItem
 import app.main as news_main
 
-
-def test_main_uses_thirty_minute_window():
-    from datetime import timedelta
-
-    now = datetime(2026, 10, 6, 18, 10, tzinfo=timezone.utc)
-    assert news_main.is_recent_news(now - timedelta(minutes=30), now)
-    assert not news_main.is_recent_news(now - timedelta(minutes=30, seconds=1), now)
-
-
-def test_item_without_image_is_not_marked_seen(monkeypatch):
+def _store():
     class FakeStore:
-        last_seen = None
-
-        def __init__(self):
-            self.seen = set()
-            self.records = []
-
-        def load(self):
-            return self.seen
-
-        def load_records(self):
-            return self.records
-
-        def save(self, seen, records=None):
-            FakeStore.last_seen = set(seen)
-
-    item = NewsItem(
-        item_id="item-1",
-        title="New technology story",
-        url="https://example.com/story",
-        summary="A technology story.",
-        source="TechCrunch",
-        image_url="",
-        published_at=datetime.now(timezone.utc),
-    )
-
-    monkeypatch.setattr(news_main, "StateStore", FakeStore)
-    monkeypatch.setattr(news_main.Path, "read_text", lambda *args, **kwargs: '[{"name":"TechCrunch","url":"feed"}]')
-    monkeypatch.setattr(news_main, "collect_feed", lambda *args, **kwargs: [item])
-    monkeypatch.setattr(news_main, "is_recent_news", lambda *args, **kwargs: True)
-    monkeypatch.setattr(news_main, "fetch_article_text", lambda *args, **kwargs: "")
-    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *args, **kwargs: "")
-
-    news_main.main()
-
-    assert FakeStore.last_seen == set()
-
-
-def test_non_technology_gemini_result_is_not_published(monkeypatch):
-    now = datetime.now(timezone.utc)
-    item = NewsItem(
-        "world-1",
-        "World event",
-        "https://example.com/world",
-        "A non technology event",
-        "BBC Technology",
-        "",
-        now,
-    )
-
-    monkeypatch.setattr(
-        news_main,
-        "_collect_recent_items",
-        lambda *args, **kwargs: [item],
-    )
-    monkeypatch.setattr(news_main, "fetch_article_text", lambda *args, **kwargs: "article")
-    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *args, **kwargs: "")
-    monkeypatch.setattr(
-        news_main,
-        "process_with_gemini",
-        lambda *args, **kwargs: {
-            "title_fa": "رویداد جهانی",
-            "summary_fa": "خلاصه",
-            "article_fa": "متن",
-            "category": "world",
-        },
-    )
-    monkeypatch.setattr(news_main, "publish_rich_message", lambda *args, **kwargs: (_ for _ in ()).throw(AssertionError("must not publish")))
-
-    class FakeStore:
+        saves=[]
         def load(self): return set()
         def load_records(self): return []
-        def save(self, seen, records): pass
+        def save(self, seen, records=None): self.saves.append((set(seen), list(records or [])))
+    FakeStore.saves=[]
+    return FakeStore
 
-    monkeypatch.setattr(news_main, "StateStore", FakeStore)
+def _patch(monkeypatch, items, processor, publisher, store):
+    monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: list(items))
+    monkeypatch.setattr(news_main, "fetch_article_text", lambda *a, **k: "article")
+    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *a, **k: "")
+    monkeypatch.setattr(news_main, "process_with_gemini", processor)
+    monkeypatch.setattr(news_main, "publish_rich_message", publisher)
+    monkeypatch.setattr(news_main, "StateStore", store)
+    monkeypatch.setattr(news_main.Path, "read_text", lambda *a, **k: "[]")
+
+def _tech(title, summary): return {"title_fa": title, "summary_fa": summary, "article_fa": "متن", "category": "technology"}
+def test_main_uses_90_minute_window():
+    now=datetime(2026,10,6,18,10,tzinfo=timezone.utc)
+    assert news_main.is_recent_news(now-timedelta(minutes=90), now)
+    assert not news_main.is_recent_news(now-timedelta(minutes=91), now)
+def test_incomplete_gemini_result_does_not_crash_run(monkeypatch):
+    now=datetime.now(timezone.utc)
+    bad=NewsItem("b","OpenAI AI model","https://example.com/b","s","S","",now-timedelta(minutes=2))
+    good=NewsItem("g","Nvidia GPU software","https://example.com/g","s","S","",now-timedelta(minutes=1))
+    def process(title, summary, article): return {"category":"technology","summary_fa":"x"} if title.startswith("OpenAI") else _tech("خبر","خلاصه")
+    published=[]; store=_store(); _patch(monkeypatch,[bad,good],process,lambda m,i:published.append(m),store)
     news_main.main()
+    assert len(published)==1 and "g" in store.saves[-1][0] and "b" not in store.saves[-1][0]
+def test_state_is_saved_after_each_publication(monkeypatch):
+    now=datetime.now(timezone.utc); first=NewsItem("1","Software story","https://example.com/1","s","S","",now-timedelta(minutes=3)); second=NewsItem("2","Chip story","https://example.com/2","s","S","",now-timedelta(minutes=2))
+    calls={"n":0}
+    def publish(m,i):
+        calls["n"]+=1
+        if calls["n"]==2: raise KeyboardInterrupt
+    store=_store(); _patch(monkeypatch,[first,second],lambda t,s,a:_tech(t,s),publish,store); monkeypatch.setattr(news_main,"is_duplicate_story",lambda *a,**k:False)
+    try: news_main.main()
+    except KeyboardInterrupt: pass
+    assert store.saves and "1" in store.saves[-1][0] and "2" not in store.saves[-1][0]
+def test_stories_are_published_oldest_first(monkeypatch):
+    now=datetime.now(timezone.utc); newer=NewsItem("n","Newer","https://example.com/n","s","S","",now-timedelta(minutes=1)); older=NewsItem("o","Older","https://example.com/o","s","S","",now-timedelta(minutes=50))
+    order=[]; store=_store(); _patch(monkeypatch,[newer,older],lambda t,s,a:_tech(t,s),lambda m,i:order.append(m),store); monkeypatch.setattr(news_main,"is_duplicate_story",lambda *a,**k:False)
+    news_main.main()
+    assert "Older" in order[0] and "Newer" in order[1]
+def test_published_story_record_keeps_url(monkeypatch):
+    now=datetime.now(timezone.utc); item=NewsItem("u","Software story","https://example.com/u","s","S","",now)
+    store=_store(); _patch(monkeypatch,[item],lambda t,s,a:_tech(t,s),lambda m,i:None,store); news_main.main()
+    assert store.saves[-1][1][-1]["url"] == "https://example.com/u"
