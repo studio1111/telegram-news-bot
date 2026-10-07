@@ -1,6 +1,7 @@
 import hashlib
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError as FuturesTimeout
+from dataclasses import replace
 from datetime import datetime, timezone
 from pathlib import Path
 import time
@@ -13,6 +14,7 @@ from .telegram import publish_rich_message
 
 
 GEMINI_WORKERS = 8
+IMAGE_WORKERS = 8
 MAX_CANDIDATES = 30
 RUN_DEADLINE_SECONDS = 600
 _OLDEST = datetime.min.replace(tzinfo=timezone.utc)
@@ -24,6 +26,77 @@ def _published_key(item):
 
 def _outbox_key(item):
     return "url:" + hashlib.sha256(item.url.encode("utf-8")).hexdigest()
+
+
+PERSIAN_FALLBACK_SOURCES = {"Digiato", "Vigiato"}
+
+
+def _story_record(item, processed=None):
+    record = {"title": item.title, "summary": item.summary, "url": item.url}
+    if processed:
+        record["display_title"] = processed.get("title_fa", "")
+        record["display_summary"] = processed.get("summary_fa", "")
+    return record
+
+
+def _image_candidate_score(item):
+    return (
+        bool(item.image_url),
+        item.source not in PERSIAN_FALLBACK_SOURCES,
+        _published_key(item),
+    )
+
+
+def _prioritize_duplicate_candidates(candidates):
+    selected = []
+    for item in candidates:
+        duplicate_indexes = [
+            index for index, existing in enumerate(selected)
+            if is_duplicate_story(_story_record(item), [_story_record(existing)])
+        ]
+        if not duplicate_indexes:
+            selected.append(item)
+            continue
+        group = [selected[index] for index in duplicate_indexes] + [item]
+        winner = max(group, key=_image_candidate_score)
+        for index in reversed(duplicate_indexes):
+            selected.pop(index)
+        selected.append(winner)
+        if winner is item:
+            print(f"[DUPLICATE_PRIORITY] selected={item.source} image={'yes' if item.image_url else 'no'}")
+    return sorted(selected, key=_published_key)
+
+
+def _hydrate_missing_images(candidates, deadline):
+    missing = [item for item in candidates if not item.image_url]
+    if not missing:
+        return candidates
+    hydrated = {item.url: item for item in candidates}
+    executor = ThreadPoolExecutor(max_workers=min(IMAGE_WORKERS, len(missing)))
+    future_map = {executor.submit(fetch_article_image_url, item.url): item for item in missing}
+    try:
+        while future_map and time.monotonic() < deadline:
+            remaining = max(0.01, deadline - time.monotonic())
+            try:
+                for future in as_completed(list(future_map), timeout=remaining):
+                    item = future_map.pop(future)
+                    try:
+                        image_url = future.result()
+                    except Exception as exc:
+                        print(f"[IMAGE_ERROR] source={item.source} url={item.url}: {exc}")
+                        image_url = ""
+                    if image_url:
+                        hydrated[item.url] = replace(item, image_url=image_url)
+                        print(f"[IMAGE_FOUND] source={item.source} url={item.url}")
+                    if time.monotonic() >= deadline:
+                        break
+            except FuturesTimeout:
+                print("[DEADLINE] image recovery deadline reached")
+    finally:
+        for future in future_map:
+            future.cancel()
+        executor.shutdown(wait=False, cancel_futures=True)
+    return [hydrated[item.url] for item in candidates]
 
 
 def _collect_recent_items(sources, seen, now):
@@ -60,8 +133,7 @@ def _collect_recent_items(sources, seen, now):
 
 
 def _process_candidate(item):
-    # Use the feed payload as the primary input. Article-page fetching can hang on
-    # publisher-side DNS/CDN behavior and should never block Telegram publication.
+    # Image recovery happens before AI processing. Gemini receives only feed text.
     article_text = item.summary
     return item, item.image_url, process_with_gemini(item.title, item.summary, article_text)
 
@@ -244,7 +316,7 @@ def main():
             published_stories.append(rendered_story)
             del published_stories[:-MAX_PUBLISHED_STORIES:]
             persist()
-            print(f"[PUBLISHED] source={item.source} url={item.url}")
+            print(f"[PUBLISHED] source={item.source} image={'yes' if image_url else 'no'} url={item.url}")
     finally:
         persist()
         print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed}")
