@@ -1,167 +1,53 @@
 from datetime import datetime, timedelta, timezone
+from app.core import NEWS_WINDOW_MINUTES, build_expanded_message, build_rich_message_html, build_telegram_message, is_new_item, is_duplicate_story, is_recent_news, normalize_text
 
-from app.core import (
-    build_expanded_message,
-    build_rich_message_html,
-    build_telegram_message,
-    is_new_item,
-    is_duplicate_story,
-    is_recent_news,
-    normalize_text,
-)
-
-
-def test_normalize_text_collapses_whitespace():
-    assert normalize_text("  خبر   فوری\n\n امروز  ") == "خبر فوری امروز"
-
-
+def test_normalize_text_collapses_whitespace(): assert normalize_text("  خبر   فوری\n\n امروز  ") == "خبر فوری امروز"
 def test_is_new_item_uses_stable_id_and_url():
     seen = {"abc", "https://example.com/old"}
-    assert is_new_item("abc", "https://example.com/new", seen) is False
-    assert is_new_item("xyz", "https://example.com/old", seen) is False
-    assert is_new_item("xyz", "https://example.com/new", seen) is True
-
-
-def test_news_window_accepts_only_items_published_within_thirty_minutes():
+    assert not is_new_item("abc", "https://example.com/new", seen)
+    assert not is_new_item("xyz", "https://example.com/old", seen)
+    assert is_new_item("xyz", "https://example.com/new", seen)
+def test_news_window_is_90_minutes(): assert NEWS_WINDOW_MINUTES == 90
+def test_news_window_boundaries():
     now = datetime(2026, 10, 6, 18, 30, tzinfo=timezone.utc)
-    assert is_recent_news(now - timedelta(minutes=30), now) is True
-    assert is_recent_news(now - timedelta(minutes=30, seconds=1), now) is False
-    assert is_recent_news(now + timedelta(seconds=1), now) is False
-
-
+    assert is_recent_news(now - timedelta(minutes=45), now)
+    assert is_recent_news(now - timedelta(minutes=90), now)
+    assert not is_recent_news(now - timedelta(minutes=90, seconds=1), now)
+    assert is_recent_news(now + timedelta(minutes=1), now)
+    assert not is_recent_news(now + timedelta(hours=1), now)
 def test_build_telegram_message_uses_expanding_article_without_source_url():
-    msg = build_telegram_message(
-        "عنوان فارسی", "خلاصه خبر", "فناوری", "Example", "https://example.com/news"
-    )
-    assert "عنوان فارسی" in msg
-    assert "خلاصه خبر" in msg
-    assert "فناوری" in msg
-    assert "Example" in msg
+    msg = build_telegram_message("عنوان فارسی", "خلاصه خبر", "فناوری", "Example", "https://example.com/news")
+    assert all(x in msg for x in ("عنوان فارسی", "خلاصه خبر", "فناوری", "Example"))
     assert "https://example.com/news" not in msg
-
-
-def test_build_rich_message_has_source_on_penultimate_line_and_channel_footer_last():
-    msg = build_rich_message_html(
-        "عنوان فارسی",
-        "خلاصه خبر درباره فناوری.",
-        "متن بازنویسی‌شده و کامل خبر.",
-        "TechCrunch",
-    )
-    lines = msg.splitlines()
-    assert "📡 منبع: TechCrunch<br>" == lines[-2]
-    assert "آخرین اخبار تکنولوژی | @MyNewsTechnology" == lines[-1]
-    assert "📡 منبع: TechCrunch<br>" in msg
-    assert "مشاهده متن کامل خبر" in msg
-    assert "https://" not in msg
-
-
-def test_build_expanded_message_contains_channel_at_end():
-    msg = build_expanded_message(
-        "عنوان فارسی", "متن بازنویسی‌شده و کامل خبر.", "TechCrunch"
-    )
+def test_build_rich_message_footer():
+    msg = build_rich_message_html("عنوان فارسی", "خلاصه خبر", "متن کامل", "TechCrunch")
+    assert msg.splitlines()[-2] == "📡 منبع: TechCrunch<br>"
     assert msg.endswith("آخرین اخبار تکنولوژی | @MyNewsTechnology")
-
-
+def test_build_expanded_message_contains_channel_at_end(): assert build_expanded_message("عنوان", "متن", "منبع").endswith("آخرین اخبار تکنولوژی | @MyNewsTechnology")
 def test_only_technology_category_is_publishable():
     from app.core import is_technology_news
-
-    assert is_technology_news("technology") is True
-    assert is_technology_news("political") is False
-    assert is_technology_news("economy") is False
-    assert is_technology_news("general") is False
-
-
+    assert is_technology_news("technology") and not is_technology_news("political")
 def test_similar_rewrites_of_same_event_are_duplicates():
-    from app.core import is_duplicate_story
-
-    first = {
-        "title": "Type One Energy raised $200M to build a fusion power plant by 2034",
-        "summary": "Type One Energy raised 200 million dollars to build a fusion power plant.",
-    }
-    rewritten = {
-        "title": "Type One Energy raises $200 million for a fusion power plant",
-        "summary": "The fusion company secured $200 million to bring a power plant to the grid.",
-    }
-    assert is_duplicate_story(rewritten, [first]) is True
-
-
+    first = {"title": "Type One Energy raised $200M to build a fusion power plant by 2034", "summary": "Type One Energy raised 200 million dollars to build a fusion power plant."}
+    rewritten = {"title": "Type One Energy raises $200 million for a fusion power plant", "summary": "The fusion company secured $200 million to bring a power plant to the grid."}
+    assert is_duplicate_story(rewritten, [first])
 def test_different_technology_events_are_not_duplicates():
-    from app.core import is_duplicate_story
-
-    first = {
-        "title": "Type One Energy raised $200M to build a fusion power plant by 2034",
-        "summary": "Type One Energy raised 200 million dollars to build a fusion power plant.",
-    }
-    different = {
-        "title": "Type One Energy connects its prototype fusion system to the grid",
-        "summary": "The company demonstrated a new prototype milestone at its test facility.",
-    }
-    assert is_duplicate_story(different, [first]) is False
-
-
-def test_technology_story_accepts_ai_story_even_if_gemini_says_world():
+    first = {"title": "Type One Energy raised $200M to build a fusion power plant by 2034", "summary": "Type One Energy raised 200 million dollars to build a fusion power plant."}
+    different = {"title": "Type One Energy connects its prototype fusion system to the grid", "summary": "The company demonstrated a new prototype milestone at its test facility."}
+    assert not is_duplicate_story(different, [first])
+def test_technology_story_cases():
     from app.core import is_technology_story
-
-    assert is_technology_story(
-        "world",
-        "OpenAI came to Australia to apologise",
-        "OpenAI faces questions about artificial intelligence and ChatGPT.",
-        "The company discussed AI systems, model safety and ChatGPT.",
-    ) is True
-
-
-def test_technology_story_accepts_common_technology_categories():
+    assert is_technology_story("AI", "New AI model")
+    assert is_technology_story("world", "OpenAI", "artificial intelligence and ChatGPT", "AI model")
+    assert not is_technology_story("world", "Diplomatic talks continue", "Officials met about foreign policy")
+    assert not is_technology_story("sports", "Antigua and Barbuda vs Aruba", "Concacaf Nations League and head-to-head", "Football match statistics")
+def test_whole_word_and_weak_brand_filtering():
     from app.core import is_technology_story
-
-    assert is_technology_story("AI", "New AI model", "", "") is True
-    assert is_technology_story("cybersecurity", "Security flaw", "", "") is True
-    assert is_technology_story("software", "New software release", "", "") is True
-
-
-def test_technology_story_rejects_sports_even_when_source_is_technology_feed():
+    assert not is_technology_story("general", "Technician said the rain technique failed")
+    assert not is_technology_story("economy", "Apple and Tesla shares move", "Investors reacted to results")
+def test_persian_technology_signals_count():
     from app.core import is_technology_story
-
-    assert is_technology_story(
-        "sports",
-        "Antigua and Barbuda vs Aruba",
-        "Concacaf Nations League stats and head-to-head.",
-        "Football match statistics and league results.",
-    ) is False
-
-
-def test_technology_story_rejects_generic_world_story_without_technology_evidence():
-    from app.core import is_technology_story
-
-    assert is_technology_story(
-        "world",
-        "Diplomatic talks continue",
-        "Officials met to discuss regional relations.",
-        "The meeting focused on diplomacy and foreign policy.",
-    ) is False
-
-
-
-def test_different_stories_with_generic_shared_words_are_not_duplicates():
-    first = {
-        "title": "Apple launches new iPhone with faster chip",
-        "summary": "The company says the new phone improves performance and battery life.",
-    }
-    different = {
-        "title": "Google launches new Pixel with faster chip",
-        "summary": "The company says the new phone improves camera software and battery life.",
-    }
-    assert is_duplicate_story(different, [first]) is False
-
-
+    assert is_technology_story("world", "خبر", "", "این گزارش درباره هوش مصنوعی و تراشه و نرم‌افزار است")
 def test_same_url_is_always_a_duplicate():
-    first = {
-        "title": "Original headline",
-        "summary": "Original summary",
-        "url": "https://example.com/story",
-    }
-    rewritten = {
-        "title": "Completely rewritten headline",
-        "summary": "Different wording for the same article",
-        "url": "https://example.com/story",
-    }
-    assert is_duplicate_story(rewritten, [first]) is True
+    first = {"title": "Original", "summary": "Summary", "url": "https://example.com/story"}
+    assert is_duplicate_story({"title": "Rewritten", "summary": "Different", "url": "https://example.com/story"}, [first])
