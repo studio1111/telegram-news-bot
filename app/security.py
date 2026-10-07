@@ -4,13 +4,10 @@ import os
 import socket
 from urllib.parse import urlparse
 
-
 MAX_ARTICLE_BYTES = int(os.environ.get("MAX_ARTICLE_BYTES", "2000000"))
 DEFAULT_ALLOWED_HOSTS = {
-    "techcrunch.com", "www.techcrunch.com", "wired.com", "www.wired.com",
-    "arstechnica.com", "feeds.arstechnica.com", "theverge.com", "www.theverge.com",
-    "engadget.com", "www.engadget.com", "bbc.co.uk", "www.bbc.co.uk", "bbc.com",
-    "www.bbc.com", "theguardian.com", "www.theguardian.com",
+    "techcrunch.com", "wired.com", "arstechnica.com", "theverge.com", "engadget.com",
+    "bbc.co.uk", "bbc.com", "theguardian.com",
 }
 
 
@@ -31,11 +28,10 @@ def validate_public_url(url: str, *, allowlist=True) -> str:
     if allowlist and not _host_matches(host, _allowed_hosts()):
         raise ValueError(f"host is not allowlisted: {host}")
     try:
-        addresses = {info[4][0] for info in socket.getaddrinfo(host, parsed.port or (443 if parsed.scheme == "https" else 80, type=socket.SOCK_STREAM)}
-    except (OSError, ValueError):
-        raise ValueError("host cannot be resolved")
-    for address in addresses:
-        ip = ipaddress.ip_address(address)
-        if not ip.is_global:
+        infos = socket.getaddrinfo(host, parsed.port or (443 if parsed.scheme == "https" else 80), type=socket.SOCK_STREAM)
+    except (OSError, ValueError) as exc:
+        raise ValueError("host cannot be resolved") from exc
+    for address in {info[4][0] for info in infos}:
+        if not ipaddress.ip_address(address).is_global:
             raise ValueError("private or non-global destination blocked")
     return url
