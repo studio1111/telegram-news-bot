@@ -7,7 +7,7 @@ import time
 
 from .ai import process_with_gemini
 from .collector import collect_feed, fetch_article_image_url, fetch_article_text
-from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_duplicate_story, is_new_item, is_recent_news, is_technology_story
+from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_duplicate_story, is_new_item, is_recent_news, is_technology_feed_item
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
 
@@ -28,7 +28,7 @@ def _outbox_key(item):
 
 def _collect_recent_items(sources, seen, now):
     candidates = []
-    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0}
+    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "technology_items": 0}
     batch_keys = set()
     for source in sources:
         try:
@@ -46,8 +46,9 @@ def _collect_recent_items(sources, seen, now):
             if item.published_at is None:
                 missing_dates += 1
                 continue
-            if is_recent_news(item.published_at, now):
+            if is_recent_news(item.published_at, now) and is_technology_feed_item(item.categories, item.source):
                 candidates.append(item)
+                stats["technology_items"] += 1
                 batch_keys.update((item.item_id, item.url))
                 recent += 1
         stats["unseen_items"] += unseen
@@ -113,7 +114,7 @@ def main():
 
     now = datetime.now(timezone.utc)
     deadline = time.monotonic() + RUN_DEADLINE_SECONDS
-    published_count = ai_failed = duplicates = telegram_failed = non_technology = publish_failed = 0
+    published_count = ai_failed = duplicates = telegram_failed = publish_failed = 0
     candidates = []
 
     def persist():
@@ -171,12 +172,6 @@ def main():
                 seen.update((item.item_id, item.url))
                 continue
             try:
-                category = str(processed.get("category", "")).strip().lower()
-                if not is_technology_story(category, item.title, item.summary, processed.get("article_fa", "") or ""):
-                    non_technology += 1
-                    seen.update((item.item_id, item.url))
-                    print(f"[NON_TECHNOLOGY] source={item.source} category={category} url={item.url}")
-                    continue
                 message = build_rich_message_html(
                     processed["title_fa"],
                     processed["summary_fa"],
@@ -211,7 +206,7 @@ def main():
             print(f"[PUBLISHED] source={item.source} url={item.url}")
     finally:
         persist()
-        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} non_technology={non_technology} process_failed={publish_failed}")
+        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed}")
 
 
 if __name__ == "__main__":
