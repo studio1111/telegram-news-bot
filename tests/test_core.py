@@ -52,9 +52,9 @@ def test_feed_category_or_tag_is_the_technology_gate():
     assert is_technology_feed_item(("Technology",), "Any source")
     assert is_technology_feed_item(("Artificial Intelligence",), "Any source")
     assert not is_technology_feed_item(("Politics", "World"), "Any source")
-    assert not is_technology_feed_item((), "TechCrunch")
-    assert not is_technology_feed_item((), "The Guardian Technology")
-    assert not is_technology_feed_item(("Politics",), "TechCrunch")
+    assert is_technology_feed_item((), "TechCrunch")
+    assert is_technology_feed_item((), "The Guardian Technology")
+    assert is_technology_feed_item(("Politics",), "TechCrunch")
 
 
 def test_cross_source_rewrites_with_shared_entities_and_amount_are_duplicates():
@@ -184,3 +184,12 @@ def test_persian_technology_categories_are_accepted():
     assert is_technology_news("فناوری")
     assert is_technology_news("تکنولوژی")
     assert is_technology_news("هوش مصنوعی")
+
+
+def test_dedicated_technology_sources_do_not_require_rss_category_tags():
+    from app.core import is_technology_feed_item
+    for source in (
+        "TechCrunch", "WIRED", "Ars Technica", "The Verge", "Engadget",
+        "BBC Technology", "The Guardian Technology", "Digiato", "Vigiato",
+    ):
+        assert is_technology_feed_item((), source)

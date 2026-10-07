@@ -40,30 +40,52 @@ def _story_record(item, processed=None):
 
 
 def _image_candidate_score(item):
+    # Preferred English sources outrank Persian fallbacks for the same event.
+    # Image availability is the next tie-breaker, then publication time.
     return (
-        bool(item.image_url),
         item.source not in PERSIAN_FALLBACK_SOURCES,
+        bool(item.image_url),
         _published_key(item),
     )
 
 
 def _prioritize_duplicate_candidates(candidates):
+    """Collapse transitive duplicate groups and choose the best source once."""
+    candidates = list(candidates)
+    parent = list(range(len(candidates)))
+
+    def find(index):
+        while parent[index] != index:
+            parent[index] = parent[parent[index]]
+            index = parent[index]
+        return index
+
+    def union(left, right):
+        left_root, right_root = find(left), find(right)
+        if left_root != right_root:
+            parent[right_root] = left_root
+
+    for left in range(len(candidates)):
+        for right in range(left + 1, len(candidates)):
+            if is_duplicate_story(
+                _story_record(candidates[left]),
+                [_story_record(candidates[right])],
+            ):
+                union(left, right)
+
+    groups = {}
+    for index, item in enumerate(candidates):
+        groups.setdefault(find(index), []).append(item)
+
     selected = []
-    for item in candidates:
-        duplicate_indexes = [
-            index for index, existing in enumerate(selected)
-            if is_duplicate_story(_story_record(item), [_story_record(existing)])
-        ]
-        if not duplicate_indexes:
-            selected.append(item)
-            continue
-        group = [selected[index] for index in duplicate_indexes] + [item]
+    for group in groups.values():
         winner = max(group, key=_image_candidate_score)
-        for index in reversed(duplicate_indexes):
-            selected.pop(index)
         selected.append(winner)
-        if winner is item:
-            print(f"[DUPLICATE_PRIORITY] selected={item.source} image={'yes' if item.image_url else 'no'}")
+        if len(group) > 1:
+            print(
+                f"[DUPLICATE_PRIORITY] group={len(group)} selected={winner.source} "
+                f"image={'yes' if winner.image_url else 'no'}"
+            )
     return sorted(selected, key=_published_key)
 
 
@@ -221,6 +243,8 @@ def main():
     try:
         _retry_outbox(store, seen, published_stories, outbox, deadline)
         candidates = _collect_recent_items(sources, seen, now)
+        candidates = _hydrate_missing_images(candidates, deadline)
+        candidates = _prioritize_duplicate_candidates(candidates)
         print(f"[RUN] now={now.isoformat()} window_minutes={NEWS_WINDOW_MINUTES} candidates={len(candidates)} deadline_seconds={RUN_DEADLINE_SECONDS}")
 
         ai_candidates = []

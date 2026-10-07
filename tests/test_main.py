@@ -338,3 +338,90 @@ def test_persian_sources_are_fallback_only_when_image_priority_ties():
     result = news_main._prioritize_duplicate_candidates([english, persian])
     assert len(result) == 1
     assert result[0].source == "TechCrunch"
+
+
+def test_candidate_collection_accepts_dedicated_technology_sources_without_category_tags(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "dedicated-source",
+        "New technology product launches",
+        "https://example.com/dedicated-source",
+        "A new product was announced.",
+        "TechCrunch",
+        "",
+        now - timedelta(minutes=5),
+        (),
+    )
+    monkeypatch.setattr(news_main, "collect_feed", lambda *args: [item])
+    result = news_main._collect_recent_items(
+        [{"url": "https://example.com/feed", "name": "TechCrunch", "limit": 100}],
+        set(),
+        now,
+    )
+    assert result == [item]
+
+
+def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
+    now = datetime.now(timezone.utc)
+    older = NewsItem(
+        "older",
+        "Google launches SynthID Detector",
+        "https://example.com/older",
+        "Google launches a tool to identify AI-generated media.",
+        "TechCrunch",
+        "",
+        now - timedelta(minutes=5),
+        (),
+    )
+    newer_duplicate = NewsItem(
+        "newer",
+        "Google launches SynthID Detector",
+        "https://example.com/newer",
+        "Google launches a tool to identify AI-generated media.",
+        "WIRED",
+        "",
+        now - timedelta(minutes=1),
+        (),
+    )
+    store = _store()
+    published = []
+    _patch(
+        monkeypatch,
+        [older, newer_duplicate],
+        lambda title, summary, article: _tech(title, summary),
+        lambda message, image: published.append(image),
+        store,
+    )
+    monkeypatch.setattr(
+        news_main,
+        "fetch_article_image_url",
+        lambda url: "https://example.com/recovered.jpg" if url == older.url else "",
+    )
+    news_main.main()
+    assert published == ["https://example.com/recovered.jpg"]
+
+
+def test_english_duplicate_outranks_persian_fallback_even_when_persian_has_image():
+    english = NewsItem(
+        "en-no-image",
+        "Google launches SynthID Detector",
+        "https://example.com/en",
+        "Google launches a tool to identify AI-generated media.",
+        "TechCrunch",
+        "",
+        datetime(2026, 10, 7, 18, 0, tzinfo=timezone.utc),
+        (),
+    )
+    persian = NewsItem(
+        "fa-with-image",
+        "Google launches SynthID Detector",
+        "https://example.com/fa",
+        "Google launches a tool to identify AI-generated media.",
+        "Digiato",
+        "https://example.com/fa.jpg",
+        datetime(2026, 10, 7, 18, 5, tzinfo=timezone.utc),
+        (),
+    )
+    result = news_main._prioritize_duplicate_candidates([english, persian])
+    assert len(result) == 1
+    assert result[0].source == "TechCrunch"

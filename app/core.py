@@ -266,8 +266,24 @@ def is_technology_news(category: str) -> bool:
     ))
 
 
+_DEDICATED_TECHNOLOGY_SOURCES = {
+    "TechCrunch",
+    "WIRED",
+    "Ars Technica",
+    "The Verge",
+    "Engadget",
+    "BBC Technology",
+    "The Guardian Technology",
+    "Digiato",
+    "Vigiato",
+}
+
+
 def is_technology_feed_item(categories, source: str = "") -> bool:
-    """Return True only when this RSS item has an explicit technology tag."""
+    """Accept all items from dedicated technology feeds; otherwise require a tech tag."""
+    normalized_source = normalize_text(source)
+    if normalized_source in _DEDICATED_TECHNOLOGY_SOURCES:
+        return True
     return any(is_technology_news(category) for category in (categories or ()))
 
 
