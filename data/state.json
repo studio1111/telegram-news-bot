@@ -1,5 +1,5 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "seen": [
     "0dcada2f1d1f3818737c1a7fd5a5f12b8c356d4c05d5b931708351ad7f18fc9b",
     "0e267ce8e318972a6019f5f173aa97326440b7dedcc3b8fe51db1a459975add1",
@@ -150,62 +150,86 @@
     {
       "title": "Save Up to 44% With the 18 Best Prime Day Toy Deals (2026)",
       "summary": "Snag some gifts for your kiddos or unleash your inner child with the best Prime Day toy deals, including Lego, STEM toys, and board games.",
-      "url": "https://www.wired.com/story/amazon-prime-day-lego-deals-10-07-2026/"
+      "url": "https://www.wired.com/story/amazon-prime-day-lego-deals-10-07-2026/",
+      "display_title": "صرفه جویی تا ۴۴ درصد در بهترین تخفیف های اسباب بازی روز پرایم (Prime Day 2026)",
+      "display_summary": "مراسم تخفیف های روز پرایم (Prime Day) بهترین فرصت را برای خرید انواع اسباب بازی از جمله محصولات لگو (Lego)، اسباب بازی های علمی و آموزشی (STEM) و بازی های فکری با تخفیف های چشمگیر تا ۴۴ درصد فراهم کرده است. این تخفیف ها شامل گزینه های متنوعی برای کودکان و علاقه مندان به بازی های کلکسیونی می شود."
     },
     {
       "title": "Xreal's Aura Android XR smartglasses will cost you at least $1,279",
       "summary": "Xreal's Aura smartglasses are powered by Qualcomm's Snapdragon Reality Elite chip.",
-      "url": "https://www.engadget.com/2279737/xreals-aura-android-xr-smartglasses-will-cost-you-at-least-1279/"
+      "url": "https://www.engadget.com/2279737/xreals-aura-android-xr-smartglasses-will-cost-you-at-least-1279/",
+      "display_title": "عینک هوشمند اورا (Aura) از شرکت ایکس‌ریل (Xreal) با قیمت پایه ۱۲۷۹ دلار عرضه می‌شود",
+      "display_summary": "شرکت ایکس‌ریل (Xreal) عینک هوشمند جدید خود به نام اورا (Aura) را که از تراشه اسنپدراگون ریالیتی الیت (Snapdragon Reality Elite) شرکت کوالکام (Qualcomm) قدرت می‌گیرد، معرفی کرد. این عینک هوشمند اندروید ایکس‌ار (Android XR) با قیمت پایه ۱۲۷۹ دلار به بازار عرضه خواهد شد."
     },
     {
       "title": "Microsoft Windows and Surface event 2026: Live updates as Satya Nadella and Jensen Huang take the stage",
       "summary": "More details on the Surface Laptop Ultra and NVIDIA RTX Spark are coming, but what else?",
-      "url": "https://www.engadget.com/2279642/microsoft-windows-surface-event-2026-live-blog-nvidia-rtx-spark-laptop-ultra/"
+      "url": "https://www.engadget.com/2279642/microsoft-windows-surface-event-2026-live-blog-nvidia-rtx-spark-laptop-ultra/",
+      "display_title": "رویداد مایکروسافت ویندوز و سرفیس ۲۰۲۶ با حضور ساتیا نادلا و جنسن هوانگ",
+      "display_summary": "شرکت مایکروسافت (Microsoft) و شرکت انویدیا (NVIDIA) رویداد مشترک بزرگی را برای معرفی محصولات جدید خود برگزار کردند. در این رویداد، جزئیات تازه‌ای درباره سرفیس لپ‌تاپ اولترا (Surface Laptop Ultra) و پردازنده گرافیکی ان‌وی‌دییا آرتی‌ایکس اسپارک (NVIDIA RTX Spark) ارائه شد."
     },
     {
       "title": "I Put on Meta and Xreal’s XR Glasses. Face Computers Are Finally Getting Good",
       "summary": "Xreal’s long-hyped Aura glasses arrive soon for $1,279. Here’s how they fare against Meta’s recently announced VR Glasses.",
-      "url": "https://www.wired.com/story/weve-tried-meta-and-xreals-xr-glasses-is-there-a-winner/"
+      "url": "https://www.wired.com/story/weve-tried-meta-and-xreals-xr-glasses-is-there-a-winner/",
+      "display_title": "بررسی عینک‌های واقعیت ترکیبی شرکت اکس‌ریل و متا؛ نسل جدید رایانه‌های چهره در راه است",
+      "display_summary": "عینک‌های واقعیت ترکیبی جدید شرکت اکس‌ریل (Xreal) با قیمت ۱۲۷۹ دلار به بازار عرضه می‌شوند. این گزارش به مقایسه عملکرد این محصول با عینک‌های واقعیت مجازی معرفی‌شده توسط شرکت متا (Meta) می‌پردازد و پیشرفت چشمگیر رایانه‌های چهره را بررسی می‌کند."
     },
     {
       "title": "Google's experimental Playground platform uses AI to create games for you",
       "summary": "Google launches an AI-powered game creation platform called Playground.",
-      "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
+      "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
+      "display_title": "معرفی پلتفرم بازی‌سازی پلی‌گراند (Playground) توسط شرکت گوگل (Google) با بهره‌گیری از هوش مصنوعی",
+      "display_summary": "شرکت گوگل (Google) از یک پلتفرم تجربی جدید به نام پلی‌گراند (Playground) رونمایی کرد که به کاربران اجازه می‌دهد با استفاده از فناوری هوش مصنوعی (AI) به ساخت بازی‌های رایانه‌ای بپردازند. این ابزار جدید گامی تازه در جهت ساده‌سازی فرایند توسعه بازی و دسترس‌پذیر کردن آن برای عموم مردم به شمار می‌رود."
     },
     {
       "title": "OpenAI just posted hundreds more results on major math problems",
       "summary": "The company said that most results were produced in a response to a single prompt given to a single AI agent.",
-      "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/"
+      "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
+      "display_title": "دستاورد جدید اوپن‌ای‌آی در حل مسائل پیچیده ریاضی با کمک هوش مصنوعی",
+      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) اعلام کرد که نتایج جدیدی در زمینه حل مسائل پیشرفته ریاضی به دست آورده است. بخش عمده‌ای از این دستاوردها تنها در پاسخ به یک دستور واحد توسط یک عامل هوش مصنوعی (AI agent) تولید شده‌اند."
     },
     {
       "title": "Another personal AI assistant has launched — Meet Tab, which emerged from stealth with a $300M valuation",
       "summary": "A new personal AI assistant has arrived. Meet Tab, which announced Tuesday that it had officially emerged from stealth.",
-      "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/"
+      "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/",
+      "display_title": "معرفی تب (Tab)؛ دستیار هوش مصنوعی شخصی جدید با ارزش ۳۰۰ میلیون دلار",
+      "display_summary": "دستیار هوش مصنوعی شخصی جدیدی به نام تب (Tab) پس از مدتی فعالیت در سکوت خبری، رسماً از حالت محرمانه خارج شد. این استارتاپ توانسته است به ارزش‌گذاری قابل توجه ۳۰۰ میلیون دلار دست پیدا کند."
     },
     {
       "title": "Google's AI detection website is now available",
       "summary": "SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
-      "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
+      "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+      "display_title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+      "display_summary": "شرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را عرضه کرده است که می‌تواند محتوای تولید شده توسط ابزارهای هوش مصنوعی مختلف را شناسایی کند. این سامانه قابلیت تشخیص محتواهای ساخته شده توسط شرکت‌های بزرگی مانند اوپن‌ای‌آی (OpenAI)، گوگل (Google) و اپل (Apple) را دارد."
     },
     {
       "title": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open",
       "summary": "In 6 days, 10,000+ people from across the global startup and tech ecosystem will come together at San Francisco’s Moscone West for TechCrunch Disrupt 2026. If you’re planning to be one of them, don’t wait to register your ticket before prices increase at the door. Save up to $100 on your pass, plus 50% on a second of the same type.",
-      "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/"
+      "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/",
+      "display_title": "شمارش معکوس تا رویداد تک‌کراچ دیزپت ۲۰۲۶ (TechCrunch Disrupt 2026): فرصت پایانی برای تخفیف بلیط‌ها",
+      "display_summary": "تنها ۶ روز تا آغاز رویداد بزرگ تک‌کراچ دیزپت ۲۰۲۶ (TechCrunch Disrupt 2026) در شهر سانفرانسیسکو (San Francisco) باقی مانده است. بیش از ۱۰ هزار فعال اکوسیستم استارتاپی در مرکز ماسکون وست (Moscone West) گردهم می‌آیند و علاقه‌مندان هنوز فرصت دارند تا از تخفیف‌های ثبت‌نام پیش از افزایش قیمت در محل برگزاری بهره‌مند شوند."
     },
     {
       "title": "Cisco is bringing a new agentic framework to its Webex enterprise platform",
       "summary": "Cisco's Dialog feature promises to turn \"fragmented interactions into continuous customer relationships.\"",
-      "url": "https://www.engadget.com/2278872/cisco-is-bringing-a-new-agentic-framework-to-its-webex-enterprise-platform/"
+      "url": "https://www.engadget.com/2278872/cisco-is-bringing-a-new-agentic-framework-to-its-webex-enterprise-platform/",
+      "display_title": "معرفی قابلیت جدید و مبتنی بر هوش مصنوعی Dialog توسط شرکت سیسکو برای پلتفرم وبکس",
+      "display_summary": "شرکت سیسکو (Cisco) از قابلیت جدیدی به نام دیالوگ (Dialog) در پلتفرم سازمانی وبکس (Webex) رونمایی کرد. این ابزار جدید با بهره‌گیری از چارچوب عاملی، تعاملات پراکنده مشتریان را به روابطی مستمر و پیوسته تبدیل می‌کند."
     },
     {
       "title": "Ring’s first smart lock can be hand-cranked when its battery dies",
       "summary": "Amazon-owned Ring is entering the smart lock market with a device designed to tackle a common concern: getting locked out when the battery dies.",
-      "url": "https://techcrunch.com/2026/10/07/rings-first-smart-lock-can-be-hand-cranked-when-its-battery-dies/"
+      "url": "https://techcrunch.com/2026/10/07/rings-first-smart-lock-can-be-hand-cranked-when-its-battery-dies/",
+      "display_title": "ورود شرکت رینگ (Ring) به بازار قفل‌های هوشمند با قابلیت شارژ دستی در صورت اتمام باتری",
+      "display_summary": "شرکت رینگ (Ring)، از زیرمجموعه‌های آمازون (Amazon)، با معرفی نخستین قفل هوشمند خود قصد دارد یکی از دغدغه‌های اصلی کاربران یعنی مسدود ماندن در در اثر اتمام باتری را برطرف کند. این محصول جدید به مکانیزمی مجهز شده است که به کاربر اجازه می‌دهد در مواقع اضطراری قفل را به صورت دستی و با دسته‌چرخان شارژ یا باز کند."
     },
     {
       "title": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2026",
       "summary": "From Nvidia and Chime to Obvious Ventures and Anthropic, explore the entire roundtable agenda at TechCrunch Disrupt 2026. Register now to save up to $100 on your pass and get a second pass at 50% off.",
-      "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/"
+      "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
+      "display_title": "معرفی کامل برنامه‌های میزگرد تعاملی در رویداد تک‌کرانچ دیراپت ۲۰۲۶",
+      "display_summary": "رویداد فناوری تک‌کرانچ دیراپت ۲۰۲۶ (TechCrunch Disrupt 2026) برنامه‌ای جامع از میزگردهای تعاملی با حضور شرکت‌های بزرگی مانند انویدیا (Nvidia) و انتروپیک (Anthropic) ارائه می‌دهد. علاقه‌مندان می‌توانند با ثبت‌نام زودهنگام از تخفیف‌های ویژه برخوردار شوند."
     }
   ],
   "outbox": [
