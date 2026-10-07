@@ -117,3 +117,29 @@ def test_outbox_keeps_rendered_dedup_fields(tmp_path):
     }
     store.save(set(), [], [pending])
     assert store.load_outbox()[0]["display_title"] == pending["display_title"]
+
+
+def test_migration_recovers_rendered_title_and_summary_from_sent_outbox(tmp_path):
+    path = tmp_path / "state.json"
+    path.write_text(json.dumps({
+        "schema_version": 4,
+        "seen": [],
+        "published_stories": [{
+            "title": "Google's AI detection website is now available",
+            "summary": "SynthID Detector will flag AI-generated content.",
+            "url": "https://example.com/google-synthid",
+        }],
+        "outbox": [{
+            "key": "url:google",
+            "url": "https://example.com/google-synthid",
+            "message": "<b>📰 ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد</b>\n\nگوگل (Google) ابزار SynthID Detector را عرضه کرد.\n\n<details><summary>متن کامل</summary><p>متن کامل</p></details>",
+            "image_url": "",
+            "status": "sent",
+        }],
+    }), encoding="utf-8")
+
+    store = StateStore(path)
+    record = store.load_records()[0]
+
+    assert record["display_title"] == "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد"
+    assert record["display_summary"] == "گوگل (Google) ابزار SynthID Detector را عرضه کرد."

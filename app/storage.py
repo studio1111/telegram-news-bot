@@ -1,8 +1,10 @@
+import html
 import json
 import os
+import re
 from pathlib import Path
 
-STATE_SCHEMA_VERSION = 4
+STATE_SCHEMA_VERSION = 5
 MAX_SEEN = 5000
 MAX_PUBLISHED_STORIES = 500
 MAX_OUTBOX = 100
@@ -13,6 +15,18 @@ class StateStoreError(RuntimeError):
 
 
 class StateStore:
+    @staticmethod
+    def _extract_rendered_fields(message):
+        if not isinstance(message, str) or not message:
+            return "", ""
+        title_match = re.search(r"<b>📰\s*(.*?)</b>", message, flags=re.DOTALL)
+        summary_match = re.search(r"</b>\s*\n+\s*(.*?)\s*\n+\s*<details\b", message, flags=re.DOTALL)
+        def clean(value):
+            value = html.unescape(value or "")
+            value = re.sub(r"<[^>]+>", " ", value)
+            return re.sub(r"\s+", " ", value).strip()
+        return clean(title_match.group(1) if title_match else ""), clean(summary_match.group(1) if summary_match else "")
+
     def __init__(self, path="data/state.json"):
         self.path = Path(path)
 
@@ -78,12 +92,29 @@ class StateStore:
                 if isinstance(record.get(field, ""), str) and record.get(field, "").strip():
                     migrated_outbox[field] = record[field].strip()
             outbox.append(migrated_outbox)
+        rendered_enriched = False
+        for record in migrated_records:
+            if record.get("display_title") and record.get("display_summary"):
+                continue
+            url = record.get("url", "")
+            for outbox_record in outbox:
+                if outbox_record.get("status") != "sent" or outbox_record.get("url") != url:
+                    continue
+                title, summary = StateStore._extract_rendered_fields(outbox_record.get("message", ""))
+                if title or summary:
+                    if title and not record.get("display_title"):
+                        record["display_title"] = title
+                    if summary and not record.get("display_summary"):
+                        record["display_summary"] = summary
+                    rendered_enriched = True
+                break
+
         return {
             "schema_version": STATE_SCHEMA_VERSION,
             "seen": raw_seen,
             "published_stories": migrated_records,
             "outbox": outbox,
-        }, data.get("schema_version") != STATE_SCHEMA_VERSION or dropped_empty_url_records
+        }, data.get("schema_version") != STATE_SCHEMA_VERSION or dropped_empty_url_records or rendered_enriched
 
     def _migrated_data(self):
         data, changed = self._migrate(self._read())
