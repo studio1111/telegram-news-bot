@@ -13,6 +13,7 @@ def test_publishes_technology_story_without_image(monkeypatch):
         source="The Verge",
         image_url="",
         published_at=now,
+        categories=("Technology",),
     )
 
     monkeypatch.setattr(
@@ -168,6 +169,7 @@ def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatc
         "The Guardian Technology",
         "",
         now,
+        ("Technology",),
     )
 
     monkeypatch.setattr(main_module, "collect_feed", lambda *args: [item])

@@ -39,7 +39,9 @@ def test_feed_category_or_tag_is_the_technology_gate():
     assert is_technology_feed_item(("Technology",), "Any source")
     assert is_technology_feed_item(("Artificial Intelligence",), "Any source")
     assert not is_technology_feed_item(("Politics", "World"), "Any source")
-    assert is_technology_feed_item((), "TechCrunch")
+    assert not is_technology_feed_item((), "TechCrunch")
+    assert not is_technology_feed_item((), "The Guardian Technology")
+    assert not is_technology_feed_item(("Politics",), "TechCrunch")
 
 
 def test_cross_source_rewrites_with_shared_entities_and_amount_are_duplicates():

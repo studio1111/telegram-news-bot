@@ -19,7 +19,7 @@ def test_save_caps_published_stories(tmp_path, monkeypatch):
     monkeypatch.setattr(storage, "MAX_PUBLISHED_STORIES", 2)
     path = tmp_path / "state.json"
     store = StateStore(path)
-    store.save(set(), [{"title": str(i)} for i in range(5)])
+    store.save(set(), [{"title": str(i), "summary": "", "url": f"https://example.com/{i}"} for i in range(5)])
     assert [r["title"] for r in store.load_records()] == ["3", "4"]
 
 
@@ -59,3 +59,30 @@ def test_legacy_state_migrates_without_outbox(tmp_path):
     store = StateStore(path)
     assert store.load_outbox() == []
     assert json.loads(path.read_text(encoding="utf-8"))["schema_version"] == 3
+
+
+def test_empty_url_published_records_are_dropped_and_state_is_rewritten(tmp_path):
+    path = tmp_path / "state.json"
+    path.write_text(json.dumps({
+        "schema_version": 3,
+        "seen": ["x"],
+        "published_stories": [
+            {"title": "valid", "summary": "s", "url": " https://example.com/story "},
+            {"title": "invalid", "summary": "s", "url": ""},
+            {"title": "invalid2", "summary": "s", "url": "   "},
+        ],
+        "outbox": [],
+    }), encoding="utf-8")
+    store = StateStore(path)
+    assert store.load_records() == [{"title": "valid", "summary": "s", "url": "https://example.com/story"}]
+    saved = json.loads(path.read_text(encoding="utf-8"))
+    assert saved["published_stories"] == [{"title": "valid", "summary": "s", "url": "https://example.com/story"}]
+
+
+def test_save_does_not_persist_empty_url_published_records(tmp_path):
+    store = StateStore(tmp_path / "state.json")
+    store.save(set(), [
+        {"title": "valid", "summary": "s", "url": "https://example.com/story"},
+        {"title": "invalid", "summary": "s", "url": ""},
+    ])
+    assert store.load_records() == [{"title": "valid", "summary": "s", "url": "https://example.com/story"}]
