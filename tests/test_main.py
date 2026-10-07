@@ -228,3 +228,62 @@ def test_main_deduplicates_two_different_source_rewrites_of_same_rendered_story(
     news_main.main()
 
     assert len(published) == 1
+
+
+def test_sent_outbox_history_is_used_for_cross_source_dedup(monkeypatch):
+    store = _store()
+    sent = {
+        "key": "url:old",
+        "url": "https://source-a.example/synthid",
+        "title": "Google's AI detection website is now available",
+        "summary": "SynthID Detector will flag content created with AI tools.",
+        "display_title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی",
+        "display_summary": "گوگل (Google) از وب‌سایت SynthID برای شناسایی محتوای هوش مصنوعی خبر داد.",
+        "message": "خبر قبلی",
+        "image_url": "",
+        "status": "sent",
+    }
+    store.load_outbox = lambda self: [sent]
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "synthid-new",
+        "Google’s new SynthID website can identify AI-generated media",
+        "https://source-b.example/synthid",
+        "Google launched a new site that lets anyone verify AI-generated media.",
+        "Source B",
+        "",
+        now,
+        ("Technology",),
+    )
+    published = []
+    monkeypatch.setattr(news_main, "StateStore", store)
+    monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [item])
+    monkeypatch.setattr(news_main, "process_with_gemini", lambda *a, **k: _tech("عنوان", "خلاصه"))
+    monkeypatch.setattr(news_main, "publish_rich_message", lambda *a: published.append(a))
+    monkeypatch.setattr(news_main.Path, "read_text", lambda *a, **k: "[]")
+    news_main.main()
+    assert published == []
+
+
+def test_outbox_recovery_preserves_story_fields_for_dedup(monkeypatch):
+    store = _store()
+    pending = {
+        "key": "url:pending",
+        "url": "https://example.com/pending",
+        "title": "Google launches SynthID Detector",
+        "summary": "A detector for AI-generated media.",
+        "display_title": "ابزار تشخیص هوش مصنوعی گوگل (Google)",
+        "display_summary": "گوگل (Google) ابزار SynthID Detector را عرضه کرد.",
+        "message": "خبر",
+        "image_url": "",
+        "status": "pending",
+    }
+    store.load_outbox = lambda self: [pending]
+    monkeypatch.setattr(news_main, "StateStore", store)
+    monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [])
+    monkeypatch.setattr(news_main, "publish_rich_message", lambda *a: None)
+    monkeypatch.setattr(news_main.Path, "read_text", lambda *a, **k: "[]")
+    news_main.main()
+    recovered = store.saves[-1][1][-1]
+    assert recovered["title"] == pending["title"]
+    assert recovered["display_title"] == pending["display_title"]

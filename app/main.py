@@ -74,6 +74,21 @@ def _story_record(item, processed=None):
     return record
 
 
+def _dedup_history(published_stories, outbox):
+    history = list(published_stories)
+    for record in outbox:
+        if record.get("status") != "sent" or not record.get("url"):
+            continue
+        history.append({
+            "title": record.get("title", ""),
+            "summary": record.get("summary", ""),
+            "url": record.get("url", ""),
+            "display_title": record.get("display_title", ""),
+            "display_summary": record.get("display_summary", ""),
+        })
+    return history
+
+
 def _save_state(store, seen, published_stories, outbox):
     try:
         store.save(seen, published_stories[-MAX_PUBLISHED_STORIES:], outbox)
@@ -99,7 +114,13 @@ def _retry_outbox(store, seen, published_stories, outbox, deadline):
         record["status"] = "sent"
         if record.get("url"):
             seen.add(record["url"])
-            published_stories.append({"title": "", "summary": "", "url": record["url"]})
+            published_stories.append({
+                "title": record.get("title", ""),
+                "summary": record.get("summary", ""),
+                "url": record["url"],
+                "display_title": record.get("display_title", ""),
+                "display_summary": record.get("display_summary", ""),
+            })
         _save_state(store, seen, published_stories, outbox)
         recovered += 1
         print(f"[OUTBOX_SENT] key={record['key']}")
@@ -135,7 +156,7 @@ def main():
             if time.monotonic() >= deadline:
                 print("[DEADLINE] reached before AI processing")
                 break
-            if is_duplicate_story(_story_record(item), published_stories):
+            if is_duplicate_story(_story_record(item), _dedup_history(published_stories, outbox)):
                 duplicates += 1
                 seen.update((item.item_id, item.url))
                 continue
@@ -172,12 +193,12 @@ def main():
                 print("[DEADLINE] reached before Telegram publishing")
                 break
             story = _story_record(item)
-            if is_duplicate_story(story, published_stories):
+            if is_duplicate_story(story, _dedup_history(published_stories, outbox)):
                 duplicates += 1
                 seen.update((item.item_id, item.url))
                 continue
             rendered_story = _story_record(item, processed)
-            if is_duplicate_story(rendered_story, published_stories):
+            if is_duplicate_story(rendered_story, _dedup_history(published_stories, outbox)):
                 duplicates += 1
                 seen.update((item.item_id, item.url))
                 continue
