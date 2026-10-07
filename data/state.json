@@ -1,4 +1,5 @@
 {
+  "schema_version": 3,
   "seen": [
     "0dcada2f1d1f3818737c1a7fd5a5f12b8c356d4c05d5b931708351ad7f18fc9b",
     "0e267ce8e318972a6019f5f173aa97326440b7dedcc3b8fe51db1a459975add1",
@@ -113,188 +114,319 @@
     "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
     "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
-    "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/"
+    "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
+    "7ec53ed433b91d533d8d7e771707801f49618d96dbb117ea32e679ba93832977",
+    "https://www.wired.com/story/amazon-prime-day-lego-deals-10-07-2026/",
+    "a50747205cc57d4e0d11a4cb73b536f81d512cf370ff6536e27328ceb51b1ced",
+    "https://www.engadget.com/2279737/xreals-aura-android-xr-smartglasses-will-cost-you-at-least-1279/",
+    "12a4e2d2b03fcf43549b0d8a9850871bcb92000dacff637dbdc4899b10171c54",
+    "https://www.engadget.com/2279642/microsoft-windows-surface-event-2026-live-blog-nvidia-rtx-spark-laptop-ultra/",
+    "cc9d920f9aaa366861ea0504e656c86964da1a7820ada6acdb3e699d50d53eb4",
+    "https://www.wired.com/story/weve-tried-meta-and-xreals-xr-glasses-is-there-a-winner/",
+    "a7aad5854ea5ca2a4ecf00308492f1f5e9e511ac1299d8b4e726332e8c0a0fb4",
+    "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
+    "1db226ff32ad5a30f9a1ed0b1dcf3fc7c9127f6eebd0b6dba9dac5cae9a437d5",
+    "https://www.theguardian.com/society/2026/oct/07/stuart-hall-british-culture-online-project"
   ],
   "published_stories": [
     {
       "title": "Flai’s AI dealership software is booking 50,000 appointments per month",
-      "summary": "Flai's revenue has grown 20x in a year, and the company just closed a $27 million Series A funding round."
+      "summary": "Flai's revenue has grown 20x in a year, and the company just closed a $27 million Series A funding round.",
+      "url": ""
     },
     {
       "title": "Etched fields funding offers at $40B+ valuation, sources say",
-      "summary": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch."
+      "summary": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch.",
+      "url": ""
     },
     {
       "title": "After Factory’s public spat with Khosla, Menlo proudly invests",
-      "summary": "Days after Vinod Khosla called Factory a struggling also-ran, Menlo has shown up with a check and a glowing blog post."
+      "summary": "Days after Vinod Khosla called Factory a struggling also-ran, Menlo has shown up with a check and a glowing blog post.",
+      "url": ""
     },
     {
       "title": "Glimpse wants to give hardware companies an X-ray view of every critical part",
-      "summary": "Called Explore, Glimpse's new image processing software lets hardware makers speed up quality control checks using CT scanners."
+      "summary": "Called Explore, Glimpse's new image processing software lets hardware makers speed up quality control checks using CT scanners.",
+      "url": ""
     },
     {
       "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data."
+      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+      "url": ""
     },
     {
       "title": "Instinct brings its AI agent to group chats, even for friends without an account",
-      "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action."
+      "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+      "url": ""
     },
     {
       "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
-      "summary": "With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence."
+      "summary": "With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
+      "url": ""
     },
     {
       "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
-      "summary": "The author of The AGI Chronicles says his book “was written by a very tired, overworked, under-slept human being.”"
+      "summary": "The author of The AGI Chronicles says his book “was written by a very tired, overworked, under-slept human being.”",
+      "url": ""
     },
     {
       "title": "Rural Data Centers Are in for a Big Federal Tax Break",
-      "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash."
+      "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash.",
+      "url": ""
     },
     {
       "title": "Pinterest’s AI now turns beauty Pins into action plans",
-      "summary": "Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times and maintenance needs."
+      "summary": "Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times and maintenance needs.",
+      "url": ""
     },
     {
       "title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
-      "summary": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off."
+      "summary": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off.",
+      "url": ""
     },
     {
       "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
-      "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception."
+      "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+      "url": ""
     },
     {
       "title": "Emmys will move from broadcast TV to Prime Video in 2027",
-      "summary": "Non-Amazon Prime subscribers will be able to watch the awards show on the platform."
+      "summary": "Non-Amazon Prime subscribers will be able to watch the awards show on the platform.",
+      "url": ""
     },
     {
       "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals."
+      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+      "url": ""
     },
     {
       "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
-      "summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs."
+      "summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
+      "url": ""
     },
     {
       "title": "Furientis lands $25M from Benchmark to mass-produce low-cost missile interceptors",
-      "summary": "The storied Silicon Valley firm makes its first pure defense investment."
+      "summary": "The storied Silicon Valley firm makes its first pure defense investment.",
+      "url": ""
     },
     {
       "title": "Learn all about scaling, fundraising, founder how-tos, and more at TechCrunch Founder Summit, November 4",
-      "summary": "There isn’t a single manual to read or prompt to give an LLM that can equip you with the skills and knowledge to build a company. But on November 4, TechCrunch Founder Summit gives founders the next-best thing: A packed day at Boston's SoWa Power Station, where investors and operators share how they've navigated crucial decisions."
+      "summary": "There isn’t a single manual to read or prompt to give an LLM that can equip you with the skills and knowledge to build a company. But on November 4, TechCrunch Founder Summit gives founders the next-best thing: A packed day at Boston's SoWa Power Station, where investors and operators share how they've navigated crucial decisions.",
+      "url": ""
     },
     {
       "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
-      "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\""
+      "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+      "url": ""
     },
     {
       "title": "Mirror Particle is building a ‘world model’ of human behavior",
-      "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy."
+      "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.",
+      "url": ""
     },
     {
       "title": "LibreOffice says ‘no AI’ is now a software feature",
-      "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy."
+      "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+      "url": ""
     },
     {
       "title": "Vinod Khosla believes ex-DeepMind engineer’s Wajo will win agent market on trust",
-      "summary": "Wajo's Fo agent can hire humans to complete a task."
+      "summary": "Wajo's Fo agent can hire humans to complete a task.",
+      "url": ""
     },
     {
       "title": "Two mystery PlayStation products have leaked — one might be a PlayStation Portal OLED",
-      "summary": "Is Sony about to announce a new PlayStation Portal game streaming handheld? The Wi-Fi Alliance recently certified two unannounced PlayStation products of some kind, and the certification documents indicate that they could be updates to the PlayStation Portal, which might mean we're getting the OLED screen rumored earlier this year. The two devices, which are [&#8230;]"
+      "summary": "Is Sony about to announce a new PlayStation Portal game streaming handheld? The Wi-Fi Alliance recently certified two unannounced PlayStation products of some kind, and the certification documents indicate that they could be updates to the PlayStation Portal, which might mean we're getting the OLED screen rumored earlier this year. The two devices, which are [&#8230;]",
+      "url": ""
     },
     {
       "title": "Alexa can’t control the aux input on Amazon Echo speakers anymore",
-      "summary": "If you've been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working. Ars Technica points to this Reddit poster claiming they received a message from Amazon and says an unnamed spokesperson confirmed the change. When contacted by [&#8230;]"
+      "summary": "If you've been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working. Ars Technica points to this Reddit poster claiming they received a message from Amazon and says an unnamed spokesperson confirmed the change. When contacted by [&#8230;]",
+      "url": ""
     },
     {
       "title": "The Sonos Beam 2 soundbar is $140 off",
-      "summary": "The Sonos Beam Gen 2 soundbar is on sale for $359 at Amazon and Best Buy during October Prime Day, a healthy $140 discount from its usual price, and $10 lower than the previous Prime Day price. The biggest draw here may be obvious — its native connectivity to other Sonos products — though it’s [&#8230;]"
+      "summary": "The Sonos Beam Gen 2 soundbar is on sale for $359 at Amazon and Best Buy during October Prime Day, a healthy $140 discount from its usual price, and $10 lower than the previous Prime Day price. The biggest draw here may be obvious — its native connectivity to other Sonos products — though it’s [&#8230;]",
+      "url": ""
     },
     {
       "title": "Technology + Computing - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1qUVJrRTVSdER4cURoaEItckNhNFJBVDJwb3hyeC0zaG1tOGFpb3pPeUdRcUEtQjhRT054N0NrdUp4S0hUQ0QzcnRTbzd5OV9BMUdXejZCUFlQNGYtUVJxQlA2Mi13Z0pZRjhJ?oc=5\" target=\"_blank\">Technology + Computing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1qUVJrRTVSdER4cURoaEItckNhNFJBVDJwb3hyeC0zaG1tOGFpb3pPeUdRcUEtQjhRT054N0NrdUp4S0hUQ0QzcnRTbzd5OV9BMUdXejZCUFlQNGYtUVJxQlA2Mi13Z0pZRjhJ?oc=5\" target=\"_blank\">Technology + Computing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Green party - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oQWR5bm9QVThBWHJSNmN2VjFZdHlSSWg5em1nOEdOdUN0dWVSelFLb045R1M3ek1XamFGbjdjeGdWVG1mYkFjRng1N004dkJDQjNLZE1nMGx3QVNl?oc=5\" target=\"_blank\">Green party</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oQWR5bm9QVThBWHJSNmN2VjFZdHlSSWg5em1nOEdOdUN0dWVSelFLb045R1M3ek1XamFGbjdjeGdWVG1mYkFjRng1N004dkJDQjNLZE1nMGx3QVNl?oc=5\" target=\"_blank\">Green party</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Opinion + AI (artificial intelligence) - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQQUgyRWFKaGFVOE1RYU1DVFljbDJ6WXlUeEJSX0ZUYWVtU3JjZkxRUmc4N2EwV1pfcHl2QUo2Zmx0VWNrSzluQkxFRVg1cE9mTTlXcUQ5VVpqX2dwbnZacGx1THBadlNhVnJCNFdMMjdGbEEwTGtBbk9DT3Q1MDFJbzcxemFGUHQtMFdEdFdrdmJzTXNEZHc?oc=5\" target=\"_blank\">Opinion + AI (artificial intelligence)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQQUgyRWFKaGFVOE1RYU1DVFljbDJ6WXlUeEJSX0ZUYWVtU3JjZkxRUmc4N2EwV1pfcHl2QUo2Zmx0VWNrSzluQkxFRVg1cE9mTTlXcUQ5VVpqX2dwbnZacGx1THBadlNhVnJCNFdMMjdGbEEwTGtBbk9DT3Q1MDFJbzcxemFGUHQtMFdEdFdrdmJzTXNEZHc?oc=5\" target=\"_blank\">Opinion + AI (artificial intelligence)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Science + News - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE13S0h2dzlXeDZneE1SMi1yX0xNS2FkbFh3RTFZSGc3aWVQQkMwUDZ6cHIyOEJtWk5TMXROeW5IQ2VLWEJRY3ZiampoUE5hdW1vT2NPREF3ek0?oc=5\" target=\"_blank\">Science + News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE13S0h2dzlXeDZneE1SMi1yX0xNS2FkbFh3RTFZSGc3aWVQQkMwUDZ6cHIyOEJtWk5TMXROeW5IQ2VLWEJRY3ZiampoUE5hdW1vT2NPREF3ek0?oc=5\" target=\"_blank\">Science + News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Climate crisis + Environment - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFA1REx1NGstZUdidElhYTJhNjZXVGlIbFVFVU9SYTl0YjdKa2I2LTV4MzJkYmM3MkxqdFcydVNTWS1LRnFSQTNZWEhVY2l3OE9FdlFDcGNzOFdsUjdmNWt4RXZNelZuWjc0RmFfU2hoeE1EWjhR?oc=5\" target=\"_blank\">Climate crisis + Environment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFA1REx1NGstZUdidElhYTJhNjZXVGlIbFVFVU9SYTl0YjdKa2I2LTV4MzJkYmM3MkxqdFcydVNTWS1LRnFSQTNZWEhVY2l3OE9FdlFDcGNzOFdsUjdmNWt4RXZNelZuWjc0RmFfU2hoeE1EWjhR?oc=5\" target=\"_blank\">Climate crisis + Environment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Religion - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FSkZxNklJZURtb2liQl8tVng1bk9wNWZDeHlHS1lqc0tWODRTdHRkamtJTHZoU0NDY21yanlwTTlQbzZwcm54R0E0Qm9HU01mbmd3Mg?oc=5\" target=\"_blank\">Religion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FSkZxNklJZURtb2liQl8tVng1bk9wNWZDeHlHS1lqc0tWODRTdHRkamtJTHZoU0NDY21yanlwTTlQbzZwcm54R0E0Qm9HU01mbmd3Mg?oc=5\" target=\"_blank\">Religion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Photography - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5scS0yRi1zOFFrLWl4YXJwWmJraWFGUTVoQkNZQWhKa0UzcVRaUHQ3V3ZRN0ZXeDFzY2x6YmpUazdzN0dub09wT2xCU2ptUEJoMTRNNmFNOHRBWEh6Vmt4bnRR?oc=5\" target=\"_blank\">Photography</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5scS0yRi1zOFFrLWl4YXJwWmJraWFGUTVoQkNZQWhKa0UzcVRaUHQ3V3ZRN0ZXeDFzY2x6YmpUazdzN0dub09wT2xCU2ptUEJoMTRNNmFNOHRBWEh6Vmt4bnRR?oc=5\" target=\"_blank\">Photography</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "More than the Score | Manchester City: What does the Premier League do now? - BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CR1Z1OF96aGxyRG5mQnVRUkl3NXVDOEozdzZYRmpmZzExUUpGTGJ5MVZJd2ZYb0ZRYUoyM1FfUWNORW9XSUE1VGVJb3JSaENU?oc=5\" target=\"_blank\">More than the Score | Manchester City: What does the Premier League do now?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CR1Z1OF96aGxyRG5mQnVRUkl3NXVDOEozdzZYRmpmZzExUUpGTGJ5MVZJd2ZYb0ZRYUoyM1FfUWNORW9XSUE1VGVJb3JSaENU?oc=5\" target=\"_blank\">More than the Score | Manchester City: What does the Premier League do now?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "url": ""
     },
     {
       "title": "Test Match Special | TMS Top 10: Cricket scandals - BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OY2M5MV9jOXpkaVkyQXBYejNPZk5rNXJUaWtFdlNuaWpQVnBYTEN3d1YzaTNPWUMzMDBnLTlFam50aXBrSjJtRnVEVVNXWGE1?oc=5\" target=\"_blank\">Test Match Special | TMS Top 10: Cricket scandals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OY2M5MV9jOXpkaVkyQXBYejNPZk5rNXJUaWtFdlNuaWpQVnBYTEN3d1YzaTNPWUMzMDBnLTlFam50aXBrSjJtRnVEVVNXWGE1?oc=5\" target=\"_blank\">Test Match Special | TMS Top 10: Cricket scandals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "url": ""
     },
     {
       "title": "Analysis - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YWU51RDZTY1c5UVg1VEhZcDBMbG4xOVQwbkJwcGpmZFdkemVmbjhydlJ4YnlIWS13N21OZTBMUmQxaUJhY0oyZU5feGl0bUotcVVj?oc=5\" target=\"_blank\">Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YWU51RDZTY1c5UVg1VEhZcDBMbG4xOVQwbkJwcGpmZFdkemVmbjhydlJ4YnlIWS13N21OZTBMUmQxaUJhY0oyZU5feGl0bUotcVVj?oc=5\" target=\"_blank\">Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Antisemitism - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWMXhBWENMaUlTNUptZ3l4N3pKdnBzTUVZb1ZfV3c5U3hmbENZZXhkUG81WUtTSEFfdThQMGswRUJSZEtWaUp0ZWR1TEpXVkFPS1BucGVRNVE?oc=5\" target=\"_blank\">Antisemitism</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWMXhBWENMaUlTNUptZ3l4N3pKdnBzTUVZb1ZfV3c5U3hmbENZZXhkUG81WUtTSEFfdThQMGswRUJSZEtWaUp0ZWR1TEpXVkFPS1BucGVRNVE?oc=5\" target=\"_blank\">Antisemitism</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Israel - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE45dFhSNnBDM1RCMmVuSjdFOHVyb1RVQ05FUDJOcGVWUDMzeFBwMS1DVG8wOHBvREozX3NVSC1FakJGSTNySlB2S1MzUGV6V1BsalE?oc=5\" target=\"_blank\">Israel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE45dFhSNnBDM1RCMmVuSjdFOHVyb1RVQ05FUDJOcGVWUDMzeFBwMS1DVG8wOHBvREozX3NVSC1FakJGSTNySlB2S1MzUGV6V1BsalE?oc=5\" target=\"_blank\">Israel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Dead seabird tests carried out after Port of Tyne nurdle spill - BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LU25KZmNmRUJCR2NFampneVlFZVM5cTdhdTl5VU9HSXQydnNoRnc5U2xKeTg0cDZoQmw4TXhPUkJGZWdCenYtUlRLSTBtRlFwWmg4bFNEVWY3bGc?oc=5\" target=\"_blank\">Dead seabird tests carried out after Port of Tyne nurdle spill</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LU25KZmNmRUJCR2NFampneVlFZVM5cTdhdTl5VU9HSXQydnNoRnc5U2xKeTg0cDZoQmw4TXhPUkJGZWdCenYtUlRLSTBtRlFwWmg4bFNEVWY3bGc?oc=5\" target=\"_blank\">Dead seabird tests carried out after Port of Tyne nurdle spill</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "url": ""
     },
     {
       "title": "Where has £450m of investment for the Border region gone? - BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTUGlraHN4ZGhXRlQ3aWRVN2xPTkxUMnQ1U0VGblNQeGFOYXoyYjFzQmNXZm9BNkdpSnh2ZnlhVnV1TnM2ZDk5QlYtZ3V5MjJ6RnZXRXZDcExZRHc?oc=5\" target=\"_blank\">Where has £450m of investment for the Border region gone?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTUGlraHN4ZGhXRlQ3aWRVN2xPTkxUMnQ1U0VGblNQeGFOYXoyYjFzQmNXZm9BNkdpSnh2ZnlhVnV1TnM2ZDk5QlYtZ3V5MjJ6RnZXRXZDcExZRHc?oc=5\" target=\"_blank\">Where has £450m of investment for the Border region gone?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "url": ""
     },
     {
       "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild - BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vWVl2cXBKLXJzOXVKdjFqMksyQTUzLTd2cDE4c09RZWFtMV96SHRsMTNWcG0xaTc3YnV1YmNMbW83azFQSjJqS2xub3hnTC1iazZPZWp4TXNZQ00?oc=5\" target=\"_blank\">Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vWVl2cXBKLXJzOXVKdjFqMksyQTUzLTd2cDE4c09RZWFtMV96SHRsMTNWcG0xaTc3YnV1YmNMbW83azFQSjJqS2xub3hnTC1iazZPZWp4TXNZQ00?oc=5\" target=\"_blank\">Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "url": ""
     },
     {
       "title": "Hull and Lincolnshire events to mark Baby Loss Awareness week - BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPLVJ5aGRNZkJVV1NRTW5OR1kyYXplY014eWxMLUFLMEFnZVVteFlNRTdaN3J2WV85S0R1aENQRXp5Vy1WMjVBb3Flb3FBVGUtSlhWdlNVU3JPTzg?oc=5\" target=\"_blank\">Hull and Lincolnshire events to mark Baby Loss Awareness week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPLVJ5aGRNZkJVV1NRTW5OR1kyYXplY014eWxMLUFLMEFnZVVteFlNRTdaN3J2WV85S0R1aENQRXp5Vy1WMjVBb3Flb3FBVGUtSlhWdlNVU3JPTzg?oc=5\" target=\"_blank\">Hull and Lincolnshire events to mark Baby Loss Awareness week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "url": ""
     },
     {
       "title": "UK news + World news - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yU3pEUmxoMDlocklNUFAtcjMya2FhX3FMZjdtX1ZMWlBQOGtiTDAzTjJGNG43cWNQNjFwc0FZeUxRYkFEQlJVOVBhZ0l0MjlBMWdOMUphSUhrdzZSblFB?oc=5\" target=\"_blank\">UK news + World news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yU3pEUmxoMDlocklNUFAtcjMya2FhX3FMZjdtX1ZMWlBQOGtiTDAzTjJGNG43cWNQNjFwc0FZeUxRYkFEQlJVOVBhZ0l0MjlBMWdOMUphSUhrdzZSblFB?oc=5\" target=\"_blank\">UK news + World news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Consumer affairs - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hOXpCVlMwWElHbXNhVmc3Y2lma09KbUptczZRU3V0SWxNTnVPamdIM19abndHQll2YW5KRlFXSjZnTHNFNnlDM2ZFS0ZVQmdtMEFmNC1PaVpBX2t4aWZB?oc=5\" target=\"_blank\">Consumer affairs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hOXpCVlMwWElHbXNhVmc3Y2lma09KbUptczZRU3V0SWxNTnVPamdIM19abndHQll2YW5KRlFXSjZnTHNFNnlDM2ZFS0ZVQmdtMEFmNC1PaVpBX2t4aWZB?oc=5\" target=\"_blank\">Consumer affairs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Explainers - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wcXdmaVpCOEgtZHd1cG1YLWdBZVR4LTNpb2FHa3FXT0o0VDZnWHhGMmlKMG9EWE54UkRrbjJtbmtRWkhhNXZtMEdXeEwzTFpZa0NROUZB?oc=5\" target=\"_blank\">Explainers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wcXdmaVpCOEgtZHd1cG1YLWdBZVR4LTNpb2FHa3FXT0o0VDZnWHhGMmlKMG9EWE54UkRrbjJtbmtRWkhhNXZtMEdXeEwzTFpZa0NROUZB?oc=5\" target=\"_blank\">Explainers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Business - The Guardian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1iNWZlZlJzbU8tcmNWOXhzWkgyaGhKbGQ0UEMzZmdJcXJ0NndGdE40WnlIb1M1ZHN3YnM5b3R6LUd0WDYyNzFqdXloYjZUZXZIY3pZZ05WbnNjTlY3ZEx1QnQzT3BuQ3pOYjNGOUxYVQ?oc=5\" target=\"_blank\">Business</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1iNWZlZlJzbU8tcmNWOXhzWkgyaGhKbGQ0UEMzZmdJcXJ0NndGdE40WnlIb1M1ZHN3YnM5b3R6LUd0WDYyNzFqdXloYjZUZXZIY3pZZ05WbnNjTlY3ZEx1QnQzT3BuQ3pOYjNGOUxYVQ?oc=5\" target=\"_blank\">Business</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "url": ""
     },
     {
       "title": "Global News Podcast | French government holds crisis talks after school protests - BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9abFBWSS1CTEcxeHBkdTN0dTR0MzZGeGVXbl9NdUhOTXREZkVlYXFzaWhMM3ZQSU8wUDdrSk1CMFQ5UWdxWnNqdjZlZE1rU3c5?oc=5\" target=\"_blank\">Global News Podcast | French government holds crisis talks after school protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9abFBWSS1CTEcxeHBkdTN0dTR0MzZGeGVXbl9NdUhOTXREZkVlYXFzaWhMM3ZQSU8wUDdrSk1CMFQ5UWdxWnNqdjZlZE1rU3c5?oc=5\" target=\"_blank\">Global News Podcast | French government holds crisis talks after school protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "url": ""
+    },
+    {
+      "title": "Save Up to 44% With the 18 Best Prime Day Toy Deals (2026)",
+      "summary": "Snag some gifts for your kiddos or unleash your inner child with the best Prime Day toy deals, including Lego, STEM toys, and board games.",
+      "url": "https://www.wired.com/story/amazon-prime-day-lego-deals-10-07-2026/"
+    },
+    {
+      "title": "Xreal's Aura Android XR smartglasses will cost you at least $1,279",
+      "summary": "Xreal's Aura smartglasses are powered by Qualcomm's Snapdragon Reality Elite chip.",
+      "url": "https://www.engadget.com/2279737/xreals-aura-android-xr-smartglasses-will-cost-you-at-least-1279/"
+    },
+    {
+      "title": "Microsoft Windows and Surface event 2026: Live updates as Satya Nadella and Jensen Huang take the stage",
+      "summary": "More details on the Surface Laptop Ultra and NVIDIA RTX Spark are coming, but what else?",
+      "url": "https://www.engadget.com/2279642/microsoft-windows-surface-event-2026-live-blog-nvidia-rtx-spark-laptop-ultra/"
+    },
+    {
+      "title": "I Put on Meta and Xreal’s XR Glasses. Face Computers Are Finally Getting Good",
+      "summary": "Xreal’s long-hyped Aura glasses arrive soon for $1,279. Here’s how they fare against Meta’s recently announced VR Glasses.",
+      "url": "https://www.wired.com/story/weve-tried-meta-and-xreals-xr-glasses-is-there-a-winner/"
+    },
+    {
+      "title": "Google's experimental Playground platform uses AI to create games for you",
+      "summary": "Google launches an AI-powered game creation platform called Playground.",
+      "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
+    },
+    {
+      "title": "Thatcherism via the Walkman: Stuart Hall’s British cultural studies preserved online",
+      "summary": "<p>Project lead says it celebrates ‘incredible contributions’ Jamaica-born sociologist made to Britain’s culture</p><p>Whether it was Thatcherism, populism or the story of the Sony Walkman, Stuart Hall was a public intellectual famed for defining the times. Now a major <a href=\"https://stuarthalldigital.bham.ac.uk/archival_material/\">digital archive</a> of his previously unpublished papers, notebooks, recordings and videos has been launched.</p><p>When the Jamaica-born sociologist and seminal figure in postwar Black British history died in 2014 aged 82, his <a href=\"https://www.theguardian.com/politics/2014/feb/10/stuart-hall\">obituary</a> in the Guardian said he had been “among the first to identify key questions of the age”. Hall coined the term Thatcherism and in 1985 warned of the dangers of “authoritarian populism”.</p> <a href=\"https://www.theguardian.com/society/2026/oct/07/stuart-hall-british-culture-online-project\">Continue reading...</a>",
+      "url": "https://www.theguardian.com/society/2026/oct/07/stuart-hall-british-culture-online-project"
+    }
+  ],
+  "outbox": [
+    {
+      "key": "url:dfa85014a2461070ce3caa1fc31228e6223c4e6a49d771d89b1abbb6b4500790",
+      "url": "https://www.wired.com/story/amazon-prime-day-lego-deals-10-07-2026/",
+      "message": "<b>📰 صرفه جویی تا ۴۴ درصد در بهترین تخفیف های اسباب بازی روز پرایم (Prime Day 2026)</b>\n\nمراسم تخفیف های روز پرایم (Prime Day) بهترین فرصت را برای خرید انواع اسباب بازی از جمله محصولات لگو (Lego)، اسباب بازی های علمی و آموزشی (STEM) و بازی های فکری با تخفیف های چشمگیر تا ۴۴ درصد فراهم کرده است. این تخفیف ها شامل گزینه های متنوعی برای کودکان و علاقه مندان به بازی های کلکسیونی می شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>مراسم حراجی و تخفیف های سالانه روز پرایم (Prime Day) امسال نیز با تخفیف های گسترده ای در حوزه اسباب بازی و سرگرمی بازگشته است. خریداران می توانند با بهرهمندی از تخفیف های تا ۴۴ درصدی، انواع اسباب بازی های محبوب کودکان و بزرگسالان را با قیمت های مناسب تری تهیه کنند. در میان محصولات تخفیف خورده، برندهای سرشناسی همچون لگو (Lego) حضور پررنگی دارند که شامل مجموعه های ساختنی پیچیده و محبوب برای رده های سنی مختلف می شود. علاوه بر این، اسباب بازی های آموزشی موسوم به اسباب بازی های استم (STEM) که با هدف تقویت مهارت های علم، فناوری، مهندسی و ریاضیات در کودکان طراحی شده اند، مورد توجه ویژه خریداران قرار گرفته اند. همچنین علاقه مندان به دورهمی ها و بازی های گروهی می توانند انواع بازی های فکری و تخته ای (Board Games) را با قیمت های اقتصادی تری خریداری کنند. این حراجی فرصتی مناسب برای تهیه هدایای مناسبتی یا ارتقای مجموعه های سرگرمی خانگی به شمار می رود. در نتیجه، رویداد روز پرایم (Prime Day) بار دیگر ثابت کرد که یکی از بهترین مواقع سال برای خریدهای به صرفه در بازار اسباب بازی است. والدین و علاقه مندان می توانند با بررسی دقیق پیشنهادات موجود، از تخفیف های قابل توجه این دوره نهایت استفاده را ببرند.</p></details>\n\n📡 منبع: WIRED<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://media.wired.com/photos/6abed4649d691e39ae3063db/master/pass/Amazon%20Prime%20Day%20Top%20Art%20102026%20Prime%20Day%20Toy%20Deals%20ILLUSTRATION%20Isadora-Ayesa%20Lima%20SOURCE%20Amazon.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:a50747205cc57d4e0d11a4cb73b536f81d512cf370ff6536e27328ceb51b1ced",
+      "url": "https://www.engadget.com/2279737/xreals-aura-android-xr-smartglasses-will-cost-you-at-least-1279/",
+      "message": "<b>📰 عینک هوشمند اورا (Aura) از شرکت ایکس‌ریل (Xreal) با قیمت پایه ۱۲۷۹ دلار عرضه می‌شود</b>\n\nشرکت ایکس‌ریل (Xreal) عینک هوشمند جدید خود به نام اورا (Aura) را که از تراشه اسنپدراگون ریالیتی الیت (Snapdragon Reality Elite) شرکت کوالکام (Qualcomm) قدرت می‌گیرد، معرفی کرد. این عینک هوشمند اندروید ایکس‌ار (Android XR) با قیمت پایه ۱۲۷۹ دلار به بازار عرضه خواهد شد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار تجهیزات پوشیدنی و فناوری‌های واقعیت توسعه‌یافته شاهد معرفی محصول جدیدی است. شرکت ایکس‌ریل (Xreal) از عینک هوشمند جدید خود با نام اورا (Aura) رونمایی کرد که مجهز به سیستم‌عامل اندروید ایکس‌ار (Android XR) است. این دستگاه پیشرفته با بهره‌گیری از سخت‌افزار قدرتمند، تلاش دارد تجربه نوینی را در حوزه رایانش فضایی برای کاربران فراهم کند. در قلب تپنده عینک هوشمند اورا (Aura)، تراشه پیشرفته اسنپدراگون ریالیتی الیت (Snapdragon Reality Elite) ساخت شرکت کوالکام (Qualcomm) قرار دارد. استفاده از این پردازنده تخصصی تضمین می‌کند که دستگاه توانایی پردازش‌های سنگین گرافیکی و هوش مصنوعی را با مصرف بهینه انرژی داشته باشد. این عینک هوشمند با قیمت پایه ۱۲۷۹ دلار روانه بازار خواهد شد که نشان‌دهنده رده قیمتی رده‌بالا و هدف قرار دادن کاربران حرفه‌ای و توسعه‌دهندگان فناوری است. عرضه عینک‌های هوشمند مجهز به پلتفرم‌های اختصاصی ایکس‌ار (XR) گام مهمی در جهت فراگیر شدن فناوری‌های تعاملی به شمار می‌رود. با توجه به مشخصات سخت‌افزاری اعلام‌شده و حضور پردازنده قدرتمند کوالکام (Qualcomm)، انتظار می‌رود این محصول رقابت جدی را در بازار نوظهور عینک‌های واقعیت ترکیبی و هوشمند آغاز کند. کارشناسان صنعت فناوری با دقت تحولات مربوط به عرضه و بازخورد کاربران نسبت به این گجت جدید را زیر نظر دارند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/xreals-next-gen-aura-android-xr-smartglasses-will-cost-you-at-least-1279/l-intro-1791367954.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:12a4e2d2b03fcf43549b0d8a9850871bcb92000dacff637dbdc4899b10171c54",
+      "url": "https://www.engadget.com/2279642/microsoft-windows-surface-event-2026-live-blog-nvidia-rtx-spark-laptop-ultra/",
+      "message": "<b>📰 رویداد مایکروسافت ویندوز و سرفیس ۲۰۲۶ با حضور ساتیا نادلا و جنسن هوانگ</b>\n\nشرکت مایکروسافت (Microsoft) و شرکت انویدیا (NVIDIA) رویداد مشترک بزرگی را برای معرفی محصولات جدید خود برگزار کردند. در این رویداد، جزئیات تازه‌ای درباره سرفیس لپ‌تاپ اولترا (Surface Laptop Ultra) و پردازنده گرافیکی ان‌وی‌دییا آرتی‌ایکس اسپارک (NVIDIA RTX Spark) ارائه شد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>رویداد بزرگ مایکروسافت (Microsoft) ویندوز و سرفیس (Surface) در سال ۲۰۲۶ با حضور چهره‌های برجسته صنعت فناوری از جمله ساتیا نادلا (Satya Nadella) مدیرعامل مایکروسافت (Microsoft) و جنسن هوانگ (Jensen Huang) مدیرعامل انویدیا (NVIDIA) برگزار شد. این رویداد توجه بسیاری از کارشناسان و علاقه‌مندان به حوزه فناوری را به خود جلب کرد. در جریان این مراسم، شرکت مایکروسافت (Microsoft) اطلاعات تکمیلی و جزئیات دقیق تری را درباره سرفیس لپ‌تاپ اولترا (Surface Laptop Ultra) به عنوان نسل جدید رایانه‌های شخصی خود منتشر نمود. این دستگاه با بهره‌گیری از توان پردازشی بالا و قابلیت‌های هوش مصنوعی پیشرفته، استانداردهای جدیدی را در بازار سخت‌افزار معرفی می‌کند. همچنین شرکت انویدیا (NVIDIA) از دستاوردهای جدید خود رونمایی کرد و توضیحات بیشتری پیرامون ان‌وی‌دییا آرتی‌ایکس اسپارک (NVIDIA RTX Spark) ارائه داد که نویدبخش تحولی تازه در زمینه گرافیک و پردازش ابری است. همکاری نزدیک میان مایکروسافت (Microsoft) و انویدیا (NVIDIA) نشان‌دهنده اهمیت روزافزون یکپارچه‌سازی سخت‌افزار و نرم‌افزار در اکوسیستم فناوری است. مدیران ارشد دو شرکت بر لزوم توسعه زیرساخت‌های نوین برای پشتیبانی از نسل آینده برنامه‌های کاربردی و محاسبات سنگین تأکید کردند. در مجموع، این رویداد چشم‌اندازی روشن از آینده رایانش شخصی و ابزارهای هوشمند را ترسیم کرد و نشان داد که رقابت و همکاری در بازار فناوری همچنان به خلق محصولات نوآورانه و قدرتمند منجر خواهد شد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/microsoft-windows-and-surface-event-2026-live-updates-as-satya-nadella-and-jensen-huang-take-the-stage/l-intro-1791344480.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:d2f48b05bb1ffd3b52d0be29c0700cd2f4fe56111ace1e6d2b77f7a1903553f2",
+      "url": "https://www.wired.com/story/weve-tried-meta-and-xreals-xr-glasses-is-there-a-winner/",
+      "message": "<b>📰 بررسی عینک‌های واقعیت ترکیبی شرکت اکس‌ریل و متا؛ نسل جدید رایانه‌های چهره در راه است</b>\n\nعینک‌های واقعیت ترکیبی جدید شرکت اکس‌ریل (Xreal) با قیمت ۱۲۷۹ دلار به بازار عرضه می‌شوند. این گزارش به مقایسه عملکرد این محصول با عینک‌های واقعیت مجازی معرفی‌شده توسط شرکت متا (Meta) می‌پردازد و پیشرفت چشمگیر رایانه‌های چهره را بررسی می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>فناوری واقعیت ترکیبی و رایانه‌های چهره گامی بزرگ رو به جلو برداشته‌اند. شرکت اکس‌ریل (Xreal) اعلام کرده است که عینک‌های مورد انتظار «اورا» (Aura) با برچسب قیمتی ۱۲۷۹ دلار به زودی در اختیار کاربران قرار خواهد گرفت. این محصول جدید قرار است رقابت جذابی را با عینک‌های واقعیت مجازی شرکت متا (Meta) که اخیراً معرفی شده‌اند، آغاز کند. بازار عینک‌های هوشمند و رایانه‌های چهره طی ماه‌های اخیر شاهد تحولات چشمگیری بوده است. شرکت‌های بزرگ فناوری تلاش می‌کنند تا دستگاه‌هایی سبک‌تر، کارآمدتر و با قابلیت‌های نمایشی پیشرفته‌تر به بازار عرضه کنند. عینک اورا (Aura) از شرکت اکس‌ریل (Xreal) نیز با همین هدف طراحی شده و تلاش می‌کند تجربه‌ای فراگیر از واقعیت ترکیبی را بدون نیاز به تجهیزات سنگین و حجیم ارائه دهد. از سوی دیگر، شرکت متا (Meta) با سابقه طولانی‌تر در حوزه واقعیت مجازی و افزوده، محصولات تازه‌ای را به میدان آورده است که توجه کارشناسان حوزه فناوری را به خود جلب کرده‌اند. مقایسه این دو محصول نشان می‌دهد که چالش اصلی سازندگان، تعادل میان قیمت، کیفیت تصویر، دوام باتری و راحتی کاربر در استفاده طولانی‌مدت است. در نتیجه، با ورود عینک‌های جدید اکس‌ریل (Xreal) و رقابت فشرده آن با محصولات متا (Meta)، بازار رایانه‌های چهره وارد فاز تازه‌ای از رقابت شده است. این پیشرفت‌ها نویدبخش آینده‌ای است که در آن ابزارهای پوشیدنی نقش پررنگ‌تری در تعامل انسان با فناوری ایفا خواهند کرد.</p></details>\n\n📡 منبع: WIRED<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://media.wired.com/photos/6ac61c28239592efa511f0ba/master/pass/100726-XR%20VR%20Glasses.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:a7aad5854ea5ca2a4ecf00308492f1f5e9e511ac1299d8b4e726332e8c0a0fb4",
+      "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
+      "message": "<b>📰 معرفی پلتفرم بازی‌سازی پلی‌گراند (Playground) توسط شرکت گوگل (Google) با بهره‌گیری از هوش مصنوعی</b>\n\nشرکت گوگل (Google) از یک پلتفرم تجربی جدید به نام پلی‌گراند (Playground) رونمایی کرد که به کاربران اجازه می‌دهد با استفاده از فناوری هوش مصنوعی (AI) به ساخت بازی‌های رایانه‌ای بپردازند. این ابزار جدید گامی تازه در جهت ساده‌سازی فرایند توسعه بازی و دسترس‌پذیر کردن آن برای عموم مردم به شمار می‌رود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) در ادامه توسعه ابزارهای مبتنی بر هوش مصنوعی (AI)، از پلتفرم جدید و تجربی خود به نام پلی‌گراند (Playground) رونمایی کرد. این پلتفرم نوآورانه به کاربران امکان می‌دهد بدون داشتن دانش فنی پیشرفته یا مهارت‌های برنامه‌نویسی پیچیده، فقط با استفاده از فرامین متنی و قابلیت‌های هوش مصنوعی، بازی‌های ویدیویی دلخواه خود را خلق کنند. بر اساس اطلاعات منتشر شده، پلتفرم پلی‌گراند (Playground) با هدف دگرگونی شیوه طراحی و تولید بازی‌های رایانه‌ای توسعه یافته است. کاربران می‌توانند ایده‌های خلاقانه خود را به زبان ساده وارد سیستم کنند و هوش مصنوعی (AI) با پردازش این درخواست‌ها، عناصر گرافیکی، مکانیک‌های گیم‌پلی و محیط بازی را به صورت خودکار تولید کند. این رویکرد شباهت زیادی به ابزارهای تولید تصویر و متن دارد، اما این بار در حوزه تعاملی و صنعت بازی‌سازی به کار گرفته شده است. کارشناسان حوزه فناوری (Technology) بر این باورند که عرضه چنین پلتفرم‌هایی می‌تواند موانع سنتی موجود در مسیر بازی‌سازی را به شدت کاهش دهد. در حالی که ساخت بازی‌های استاندارد معمولاً نیازمند تیم‌های بزرگ، ماه‌ها تلاش و بودجه‌های کلان است، ابزارهایی مانند پلی‌گراند (Playground) این فرایند را به امری سریع و شخصی‌سازی شده تبدیل می‌کنند. این تحول می‌تواند الهام‌بخش نسل جدیدی از طراحان و سازندگان مستقل بازی در سراسر جهان باشد. در پایان، پلتفرم پلی‌گراند (Playground) شرکت گوگل (Google) نشان‌دهنده روند رو به رشد ادغام هوش مصنوعی (AI) در صنایع خلاق است. اگرچه این پروژه در حال حاضر به صورت تجربی دنبال می‌شود، اما چشم‌انداز آینده تولید محتوای دیجیتال و سرگرمی را به سمت تعامل هرچه بیشتر میان انسان و ماشین هدایت می‌کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/l-intro-1791372099.jpg",
+      "status": "sent"
+    },
+    {
+      "key": "url:1db226ff32ad5a30f9a1ed0b1dcf3fc7c9127f6eebd0b6dba9dac5cae9a437d5",
+      "url": "https://www.theguardian.com/society/2026/oct/07/stuart-hall-british-culture-online-project",
+      "message": "<b>📰 راه‌اندازی آرشیو دیجیتال استوارت هال؛ حفظ میراث فرهنگی و فکری جامعه‌شناس برجسته در بریتانیا</b>\n\nیک آرشیو دیجیتال جدید شامل مقالات منتشرنشده، یادداشت‌ها، ضبط‌ها و ویدیوهای استوارت هال (Stuart Hall)، جامعه‌شناس برجسته جامائیکایی‌تبار، راه‌اندازی شد. این پروژه به پاسداشت نقش کلیدی او در تحلیل فرهنگ بریتانیا، ظهور تچرگرایی (Thatcherism) و پوپولیسم اختصاص دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>یک آرشیو دیجیتال جامع و جدید از آثار، یادداشت‌ها، مقالات منتشرنشده، فایل‌های صوتی و ویدیوهای استوارت هال (Stuart Hall)، متفکر و جامعه‌شناس برجسته، در دسترس عموم قرار گرفت. این پروژه با هدف بزرگداشت نقش بی‌نظیر این اندیشمند جامائیکایی‌تبار در شکل‌دهی به مطالعات فرهنگی و تحلیل تحولات اجتماعی بریتانیا راه‌اندازی شده است. استوارت هال (Stuart Hall) که در سال ۲۰۱۴ در سن ۸۲ سالگی درگذشت، یکی از چهره‌های محوری در تاریخ سیاه‌پوستان بریتانیا در دوران پس از جنگ جهانی دوم به شمار می‌رود. او به عنوان یک روشنفکر عمومی شناخته می‌شد که توانایی فوق‌العاده‌ای در درک و تعریف جریان‌های فرهنگی و سیاسی زمان خود داشت. روزنامه گاردین (The Guardian) در زمان درگذشت او، این متفکر را در زمرهنخستین کسانی توصیف کرد که توانستند پرسش‌های کلیدی دوران خود را شناسایی کنند. از جمله برجسته‌ترین دستاوردهای فکری استوارت هال (Stuart Hall) می‌توان به ابداع اصطلاح تچرگرایی (Thatcherism) و هشدار جدی او در سال ۱۹۸۵ درباره خطرات «پوپولیسم اقتدارگرا» اشاره کرد. آثار او تنها به سیاست کلان محدود نمی‌شد، بلکه طیف وسیعی از موضوعات فرهنگی، از پدیده‌های اجتماعی گرفته تا تحلیل دستگاه‌هایی مانند واکمن سونی (Sony Walkman) را در بر می‌گرفت. پروژه جدید دیجیتال به پژوهشگران و علاقه‌مندان اجازه می‌دهد تا به اسناد کمتردیده‌شده از این متفکر دسترسی پیدا کنند. مسئولان این پروژه بر این باورند که انتشار این اسناد، ادای احترامی شایسته به مشارکت‌های عمیق استوارت هال (Stuart Hall) در فرهنگ و تفکر معاصر بریتانیا است و می‌تواند راهنمای ارزشمندی برای درک چالش‌های اجتماعی امروز باشد.</p></details>\n\n📡 منبع: The Guardian Technology<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://i.guim.co.uk/img/media/b94f811c778df1d26facdd7ca23b8709eeb40e5c/614_678_2793_2234/master/2793.jpg?width=140&quality=85&auto=format&fit=max&s=155bdd3555d8ea290108c9f5686aa141",
+      "status": "sent"
     }
   ]
 }
