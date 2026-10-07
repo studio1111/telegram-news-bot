@@ -83,5 +83,6 @@ def test_deadline_stops_before_ai_work(monkeypatch):
     _patch(monkeypatch, [item], lambda t,s,a: calls.__setitem__("ai", calls["ai"] + 1) or _tech(t,s), lambda m,i: None, store)
     monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [item])
     monkeypatch.setattr(news_main.time, "monotonic", lambda: 10_000)
+    monkeypatch.setattr(news_main, "RUN_DEADLINE_SECONDS", 0)
     news_main.main()
     assert calls["ai"] == 0
