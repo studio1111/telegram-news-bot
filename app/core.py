@@ -249,33 +249,6 @@ def is_recent_news(published_at: datetime | None, now: datetime | None = None, w
     age = now - published_at
     return -_FUTURE_TOLERANCE <= age <= timedelta(minutes=window_minutes)
 
-def is_technology_feed_item(categories, source: str = "") -> bool:
-    """
-    Accept a story only when this RSS item itself identifies as technology
-    through a category/tag. The source name is never an exception, and neither
-    article wording nor Gemini can override this gate.
-    """
-    for category in categories or ():
-        normalized = normalize_text(category).lower()
-        if normalized in _TECHNOLOGY_CATEGORIES:
-            return True
-        if re.search(
-            r"\b(?:technology|tech|ai|software|hardware|gadgets|mobile|cloud)\b",
-            normalized,
-        ) or any(
-            phrase in normalized
-            for phrase in (
-                "artificial intelligence",
-                "cybersecurity",
-                "cyber security",
-                "semiconductor",
-                "semiconductors",
-                "consumer technology",
-            )
-        ):
-            return True
-    return False
-
 _TECHNOLOGY_CATEGORIES = {"technology", "technologies", "tech", "artificial intelligence", "ai", "cybersecurity", "cyber security", "software", "hardware", "gadgets", "mobile", "cloud", "semiconductors", "consumer technology"}
 
 def is_technology_news(category: str) -> bool:
