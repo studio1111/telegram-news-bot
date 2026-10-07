@@ -119,7 +119,6 @@ def test_publishes_all_eligible_stories_across_sources(monkeypatch):
             '{"name":"Source 4","url":"feed4","limit":100}]'
         ),
     )
-    monkeypatch.setattr(main_module.datetime, "now", lambda tz=None: now)
 
     main_module.main()
 
