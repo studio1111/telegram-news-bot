@@ -8,7 +8,7 @@ def _store():
         saves=[]
         def load(self): return set()
         def load_records(self): return []
-        def save(self, seen, records=None): self.saves.append((set(seen), list(records or [])))
+        def save(self, seen, records=None, outbox=None): self.saves.append((set(seen), list(records or []), list(outbox or [])))
     FakeStore.saves=[]
     return FakeStore
 
