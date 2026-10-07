@@ -10,6 +10,7 @@ from .core import (
     is_duplicate_story,
     is_new_item,
     is_recent_news,
+    is_technology_story,
 )
 from .storage import StateStore
 from .telegram import publish_rich_message
@@ -155,7 +156,14 @@ def main():
             print(f"[DUPLICATE_AFTER_AI] source={item.source} url={item.url}")
             continue
 
-        if processed.get("category", "").strip().lower() != "technology":
+        category = processed.get("category", "").strip().lower()
+        tech_story = is_technology_story(
+            category,
+            item.title,
+            item.summary,
+            processed.get("article_fa", ""),
+        )
+        if not tech_story:
             non_technology += 1
             print(
                 f"[NON_TECHNOLOGY] source={item.source} category={processed.get('category', '')} url={item.url}"
