@@ -2,7 +2,7 @@ name: News Bot
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -11,7 +11,7 @@ on:
 
 concurrency:
   group: news-bot
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -30,7 +30,10 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt pytest
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
 
       - name: Run tests
         run: pytest -q
@@ -44,16 +47,49 @@ jobs:
         run: python -m app.main
 
       - name: Persist deduplication state
+        if: always()
+        env:
+          STATE_FILE: data/state.json
         run: |
+          if [ ! -f "$STATE_FILE" ]; then
+            echo "State file does not exist; nothing to persist."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git reset --soft origin/main
-          git add data/state.json
-          git diff --cached --quiet || git commit -m "chore: persist news state"
-          git push --force-with-lease origin HEAD:main
+
+          git add "$STATE_FILE"
+          if git diff --cached --quiet; then
+            echo "No state changes to persist."
+            exit 0
+          fi
+
+          git commit -m "chore: persist news state"
+
+          for attempt in 1 2 3 4 5; do
+            echo "Persist attempt $attempt/5"
+            git fetch origin main
+
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "State persisted successfully."
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+
+            if [ "$attempt" -lt 5 ]; then
+              sleep $((attempt * 2))
+            fi
+          done
+
+          echo "Failed to persist state after 5 attempts." >&2
+          exit 1
 
       - name: Keep only the latest 15 workflow runs
+        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
