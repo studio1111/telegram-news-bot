@@ -21,7 +21,7 @@ def test_rich_message_falls_back_to_send_message_when_rich_api_rejects(monkeypat
         def raise_for_status(self): pass
         def json(self): return self.payload
     def fake_post(url,json,timeout):
-        calls.append((url,json)); return Response({"ok":False,"description":"rich messages are unavailable"}) if url.endswith("/sendRichMessage") else Response({"ok":True,"result":{"message_id":123}})
+        calls.append((url,json)); return Response({"ok":False,"error_code":400,"description":"rich messages are unavailable"}) if url.endswith("/sendRichMessage") else Response({"ok":True,"result":{"message_id":123}})
     monkeypatch.setattr(telegram.requests,"post",fake_post); monkeypatch.setenv("TELEGRAM_BOT_TOKEN","test-token"); monkeypatch.setenv("TELEGRAM_CHAT_ID","@channel")
     result=telegram.publish_rich_message("<b>تیتر خبر</b><details><p>متن کامل</p></details>",""); assert result["ok"] is True; assert calls[1][1]["chat_id"]=="@channel"; assert "parse_mode" not in calls[1][1]; assert "<details>" not in calls[1][1]["text"]
 
@@ -63,7 +63,7 @@ def test_fallback_plain_text_never_interprets_html_as_markup(monkeypatch):
         def raise_for_status(self): pass
     def fake_post(url,json,timeout):
         calls.append(json)
-        return R({"ok":False,"description":"unsupported"}) if url.endswith("/sendRichMessage") else R({"ok":True,"result":{}})
+        return R({"ok":False,"error_code":400,"description":"unsupported"}) if url.endswith("/sendRichMessage") else R({"ok":True,"result":{}})
     monkeypatch.setattr(telegram.requests,"post",fake_post); monkeypatch.setenv("TELEGRAM_BOT_TOKEN","t"); monkeypatch.setenv("TELEGRAM_CHAT_ID","@c")
     telegram.publish_rich_message("<b>عنوان</b><p>&lt;script&gt;نه&lt;/script&gt;</p>","")
     assert "parse_mode" not in calls[1] and "<script>" in calls[1]["text"]
