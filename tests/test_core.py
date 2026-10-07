@@ -20,18 +20,31 @@ def test_similar_rewrites_of_same_event_are_duplicates():
 def test_different_technology_events_are_not_duplicates():
     first={"title":"Type One Energy raised $200M to build a fusion power plant by 2034","summary":"Type One Energy raised 200 million dollars to build a fusion power plant."}; different={"title":"Type One Energy connects its prototype fusion system to the grid","summary":"The company demonstrated a new prototype milestone at its test facility."}; assert not is_duplicate_story(different,[first])
 def test_technology_story_cases():
-    from app.core import is_technology_story; assert is_technology_story("AI","New AI model"); assert is_technology_story("world","OpenAI","artificial intelligence and ChatGPT","AI model"); assert not is_technology_story("world","Diplomatic talks continue","Officials met about foreign policy"); assert not is_technology_story("sports","Antigua and Barbuda vs Aruba","Concacaf Nations League and head-to-head","Football match statistics")
-def test_whole_word_and_weak_brand_filtering():
-    from app.core import is_technology_story; assert not is_technology_story("general","Technician said the rain technique failed"); assert not is_technology_story("economy","Apple and Tesla shares move","Investors reacted to results")
-def test_persian_technology_signals_count():
-    from app.core import is_technology_story; assert is_technology_story("world","خبر","","این گزارش درباره هوش مصنوعی و تراشه و نرم‌افزار است")
+    from app.core import is_technology_story
+    assert is_technology_story("AI", "Diplomatic talks continue")
+    assert is_technology_story("Technology", "Any subject")
+    assert not is_technology_story("world", "OpenAI", "artificial intelligence and ChatGPT")
+    assert not is_technology_story("sports", "Football match statistics")
+
+
+def test_technology_category_matching_does_not_use_substrings():
+    from app.core import is_technology_news
+    assert not is_technology_news("Daily")
+    assert not is_technology_news("Paid")
+    assert not is_technology_news("Techniques")
+    assert is_technology_news("Technology News")
+    assert is_technology_news("Tech & Gadgets")
+    assert is_technology_news("AI")
+
+
 def test_same_url_is_always_a_duplicate():
     first={"title":"Original","summary":"Summary","url":"https://example.com/story"}; assert is_duplicate_story({"title":"Rewritten","summary":"Different","url":"https://example.com/story"},[first])
 
 
-def test_technology_filter_does_not_trust_category_alone_for_non_technology_content():
+def test_technology_category_is_the_only_classification_gate():
     from app.core import is_technology_story
-    assert not is_technology_story("technology", "Diplomatic talks continue", "Officials discuss tariffs", "Foreign policy negotiations continue")
+    assert is_technology_story("technology", "Diplomatic talks continue", "Officials discuss tariffs", "Foreign policy negotiations continue")
+    assert not is_technology_story("world", "AI model", "technology", "OpenAI")
 
 
 def test_feed_category_or_tag_is_the_technology_gate():
