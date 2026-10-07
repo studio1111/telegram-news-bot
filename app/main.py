@@ -13,7 +13,7 @@ from .telegram import publish_rich_message
 
 
 GEMINI_WORKERS = 4
-MAX_CANDIDATES = 20
+MAX_CANDIDATES = 30
 RUN_DEADLINE_SECONDS = 720
 _OLDEST = datetime.min.replace(tzinfo=timezone.utc)
 
