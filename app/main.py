@@ -85,6 +85,7 @@ def main():
     published_count = 0
     ai_failed = 0
     non_technology = 0
+    recovered_technology = 0
     duplicates = 0
     telegram_failed = 0
 
@@ -111,18 +112,27 @@ def main():
             print(f"[GEMINI_ERROR] source={item.source} url={item.url}: {exc}")
             continue
 
-        if not is_technology_story(
-            processed.get("category", ""),
+        category = processed.get("category", "")
+        technology_by_category = is_technology_news(category)
+        technology_by_content = is_technology_story(
+            category,
             item.title,
             item.summary,
             article_text,
-        ):
+        )
+        if not technology_by_content:
             non_technology += 1
             print(
                 f"[FILTERED] non_technology source={item.source} "
-                f"category={processed.get('category', '')} url={item.url}"
+                f"category={category} url={item.url}"
             )
             continue
+        if not technology_by_category:
+            recovered_technology += 1
+            print(
+                f"[RECOVERED_TECH] source={item.source} "
+                f"category={category} url={item.url}"
+            )
 
         story = {"title": item.title, "summary": item.summary}
         if is_duplicate_story(story, published_stories):
@@ -155,7 +165,8 @@ def main():
     print(
         f"[SUMMARY] candidates={len(candidates)} published={published_count} "
         f"gemini_failed={ai_failed} non_technology={non_technology} "
-        f"duplicates={duplicates} telegram_failed={telegram_failed}"
+        f"recovered_technology={recovered_technology} duplicates={duplicates} "
+        f"telegram_failed={telegram_failed}"
     )
 
 
