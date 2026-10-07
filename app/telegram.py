@@ -119,7 +119,6 @@ def publish_rich_message(html, image_url=""):
                 {
                     "chat_id": chat_id,
                     "text": plain,
-                    "parse_mode": "HTML",
                     "disable_web_page_preview": True,
                 },
             )
