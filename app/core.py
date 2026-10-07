@@ -276,7 +276,7 @@ def is_technology_feed_item(categories, source: str = "") -> bool:
             return True
     return False
 
-_TECHNOLOGY_CATEGORIES = {"technology", "tech", "artificial intelligence", "ai", "cybersecurity", "cyber security", "software", "hardware", "gadgets", "mobile", "cloud", "semiconductors", "consumer technology"}
+_TECHNOLOGY_CATEGORIES = {"technology", "technologies", "tech", "artificial intelligence", "ai", "cybersecurity", "cyber security", "software", "hardware", "gadgets", "mobile", "cloud", "semiconductors", "consumer technology"}
 
 def is_technology_news(category: str) -> bool:
     """Return True only for an explicit technology category/tag."""
