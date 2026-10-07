@@ -79,16 +79,6 @@ def is_recent_news(published_at: datetime | None, now: datetime | None = None, w
     age = now - published_at
     return -_FUTURE_TOLERANCE <= age <= timedelta(minutes=window_minutes)
 
-_TECHNOLOGY_FEED_SOURCES = {
-    "techcrunch",
-    "wired",
-    "ars technica",
-    "the verge",
-    "engadget",
-    "bbc technology",
-    "the guardian technology",
-}
-
 def is_technology_feed_item(categories, source: str = "") -> bool:
     """
     Accept a story when the feed itself identifies it as technology via a
