@@ -42,3 +42,20 @@ def test_invalid_state_shape_fails_closed(tmp_path):
     path.write_text(json.dumps({"seen": "not-a-list"}), encoding="utf-8")
     with pytest.raises(StateStoreError):
         StateStore(path).load()
+
+
+def test_outbox_roundtrip_and_update(tmp_path):
+    store = StateStore(tmp_path / "state.json")
+    pending = {"key": "url:https://example.com/1", "url": "https://example.com/1", "message": "خبر", "image_url": "", "status": "pending"}
+    store.save(set(), [], [pending])
+    assert store.load_outbox() == [pending]
+    store.complete_outbox(pending["key"])
+    assert store.load_outbox()[0]["status"] == "sent"
+
+
+def test_legacy_state_migrates_without_outbox(tmp_path):
+    path = tmp_path / "state.json"
+    path.write_text(json.dumps({"schema_version": 2, "seen": ["x"], "published_stories": []}), encoding="utf-8")
+    store = StateStore(path)
+    assert store.load_outbox() == []
+    assert json.loads(path.read_text(encoding="utf-8"))["schema_version"] == 3
