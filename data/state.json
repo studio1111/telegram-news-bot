@@ -1,43 +1,83 @@
 {
   "seen": [
+    "0dcada2f1d1f3818737c1a7fd5a5f12b8c356d4c05d5b931708351ad7f18fc9b",
+    "0e267ce8e318972a6019f5f173aa97326440b7dedcc3b8fe51db1a459975add1",
     "0fb89db91a9e9d8a1f3b0679a281cf60b7670d03cc1db5a29345c15912097ea5",
     "136af07889a9b4c1447249ed0b7bff13e2f6839c41f6c74db75abe1a625c0913",
     "1bbedfb3ca2f721e30f3af087717b98018c68fab4fcaa2df51735f57ccf659fa",
     "1c37e4a07e9c5bf0332f004edbc5e813e0eb4791fec35ea6be786a9b62e13aa4",
     "1e3d74cd8cd48bb3e2d0f23909cfdbb491a5f594eda6c16f3c9d633ec7b579f9",
+    "20b15f3ce7eb6bd56e52dcdb8836b5da9b6814947149b5be98c285eee5d9cdde",
     "2fd90060880f96936027d205dc91b5b5d3ba0f849980a3c8ec5483bf3bb76255",
+    "34e93f5255cdf3d4d0930cb7ecea4ab36179ba481a7aa11b53244146d8cad700",
     "462652c4777aafccdd6a96d7f09605953b9491e2e14df49768315aa3ee505b5b",
     "4c729d05cfc62aabadf07d8841ac4c61144597e106ac3497e46f68216ba85a6b",
     "5360703ab32aa93df8be509750912cb45d2cf7da6628158f44d178c149077556",
     "59d756c9774bdccc3fc34ba53d77af51c596b63d9c52a540d80d0a706b198092",
+    "5a91e93516adfb157ab68b8c437c00dca16109c48419fcca805a8e9523722bd7",
+    "6097ea3242101fce8f59c58c28f47df1fa4fe0ebd288557e97185b8b811550ee",
     "626d8ebdb1b3043c49baf263cd9e14429d357522c86b7cd0f25bfe5d68cd160f",
     "631d0940025607f194ebf804512dca540eca9e4ca65d4a7a6c645e2737cb56a1",
+    "638526c703ca17e0531f4fa6dc79bf7ef80f86ecc0d13216f589ecdd5497fdf4",
+    "67201d1248930640e0dbc2d3994d8dfcee070bf3e6c42b9535bba5e8c46f5933",
     "742406078a521a0fad375c8b0bf2ee6f09bf2376558e425a06afd050fb2708c5",
     "74e7462482578a3258ddca0eff5cd676e9bbf6dcb0de451095353e082944746d",
     "7a31961935da7da429115cbcf798403c155e431e2647fb3492665951674126cf",
     "7afc1ae44eb15cc5ccfad48dc9ca1f625a08c8f3c88f43c4bb8b217bfcc6d7f2",
     "7cf7a3e962c7bd472320c4450a5397b7dcb80062ed7b2e9395f6733b560875ea",
+    "7d55fdf7482142906aad57c37a8276181b4a10ad4fdc95ff13d4e95af99c8bd6",
     "80eb761b3b68931ee2a703937d222aba6baeee4ef6fc06418b6ed5e406363a4c",
     "8136163c4abce2e4540200993890dcb9c8e4afc07827360d907b497b6425d33e",
+    "82a733acb8eb2971906bc75a891f5dec5b9e3637ed71cbd2c9164df7d4c01c42",
     "94db948bd3d8bd2bf718959d2a2f8cda0857fbebd9f9c8685d6eb9d11a904fe1",
     "97e2520184a2c69931b4261cd1529b777d0e1661695e6dc7967a3e41939ca322",
+    "9ccdcc81cfaaabb8af2789edef05632f3b64c32c2ca1f3c1ae312ab54a6274dc",
+    "9ee079c13099027a846d8e71cffa4ec64c85fc0c02c77c056f2470ee23c2ab5e",
     "9efecfab5d086b2bdf48135a4048be32c412aba9148130dbbf657d5a382c93f6",
     "9fc4ff5cd388e73f4b231c852d1ec4804338b1cc395a54a295b2e5475811886d",
     "a1338f3e28996c633178f1a1956f000b78b684010c6ed4e5ac77c7209c50d207",
     "a549e670ec5ede1c6046a7cd68e58ce3d28ca1240690a16c7a74a1039de9228c",
+    "b6ded6893420f5659388fda83ecaa89e7ccd2c782b436050495009f615fc71b1",
     "b94f42159266745f49363c1cec12ec723e76e67295d493f16a74ab3b8bc432fe",
     "b9846c1e4a72a39bce7489b118838a6597da51bda35dccb5a485f9e7d92c9392",
     "c39fedda2b2b12953648b49a0dddcddbbdbc4766a62dbbac246967b0ea4ed1ad",
+    "d07f9cb3ed5de022ac20f69f65830283420ef7626543395c31b0a8a67b236bb7",
     "d94793a6caabe09954325941acf08641bee0551be1aecf05230cf73a7af8f1f3",
+    "dad2e8d6111effa8385c998962ed92f92d489e96d43050b0675459e4072cc69a",
+    "dda3fc8197635583dd0f257796b5669be5a59a25e84d4b4f3af92702cdc4fce7",
     "dda8f532eaa12395b031f675107e0ee2589f4049cc768642e1d70149d7f97214",
+    "e525d4a2fdca54f18bc0588201ee4896a7783de38f80c556e32a2d80d034748c",
+    "e89609e6a7945aba1d3a49d9b54257037cd367b25bbfe243a18894a5e0fa244c",
     "ebbfdfa09c26d754fca116973e635c78a79794c9e5e653bfb8230b2f200da2fe",
     "eebf197980237329a8e18a961f3323ff1a7b6c7b0edf7daab0c2fc4d2d7bf4de",
+    "f22ca790b12c6d08ee7c8dfc810d18096c67b7e9a17c83bafdd37e7eaaa3c6e0",
     "f67eea3fd85e4db91ea7b9e1471d77a041311924e4e2e54b3f2f584d0acf9392",
+    "f71e149ea7bb5a933ae333b8cba46a7e00e54089c0ec0c641ade4aa6831a8a1a",
     "fb51e9ccad771cb213bb6b357bb23f400bb65815db5a790ac9cbc31cc6192dc2",
     "fd6c57925f97cce642affb5c166d8c0993c520193ed37f04afb25e43c00483fd",
     "fe8415b6a6f7b0066af80eedb050e9af65969c8963313e4cbc2c6d217165bd45",
     "ffe4575d6b3385fe6bb4a94c7fd9b1de8882aafb8c32c89c1496cbd6d521da53",
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YWU51RDZTY1c5UVg1VEhZcDBMbG4xOVQwbkJwcGpmZFdkemVmbjhydlJ4YnlIWS13N21OZTBMUmQxaUJhY0oyZU5feGl0bUotcVVj?oc=5",
+    "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CR1Z1OF96aGxyRG5mQnVRUkl3NXVDOEozdzZYRmpmZzExUUpGTGJ5MVZJd2ZYb0ZRYUoyM1FfUWNORW9XSUE1VGVJb3JSaENU?oc=5",
+    "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OY2M5MV9jOXpkaVkyQXBYejNPZk5rNXJUaWtFdlNuaWpQVnBYTEN3d1YzaTNPWUMzMDBnLTlFam50aXBrSjJtRnVEVVNXWGE1?oc=5",
+    "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9abFBWSS1CTEcxeHBkdTN0dTR0MzZGeGVXbl9NdUhOTXREZkVlYXFzaWhMM3ZQSU8wUDdrSk1CMFQ5UWdxWnNqdjZlZE1rU3c5?oc=5",
+    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45dFhSNnBDM1RCMmVuSjdFOHVyb1RVQ05FUDJOcGVWUDMzeFBwMS1DVG8wOHBvREozX3NVSC1FakJGSTNySlB2S1MzUGV6V1BsalE?oc=5",
+    "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FSkZxNklJZURtb2liQl8tVng1bk9wNWZDeHlHS1lqc0tWODRTdHRkamtJTHZoU0NDY21yanlwTTlQbzZwcm54R0E0Qm9HU01mbmd3Mg?oc=5",
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wcXdmaVpCOEgtZHd1cG1YLWdBZVR4LTNpb2FHa3FXT0o0VDZnWHhGMmlKMG9EWE54UkRrbjJtbmtRWkhhNXZtMEdXeEwzTFpZa0NROUZB?oc=5",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LU25KZmNmRUJCR2NFampneVlFZVM5cTdhdTl5VU9HSXQydnNoRnc5U2xKeTg0cDZoQmw4TXhPUkJGZWdCenYtUlRLSTBtRlFwWmg4bFNEVWY3bGc?oc=5",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vWVl2cXBKLXJzOXVKdjFqMksyQTUzLTd2cDE4c09RZWFtMV96SHRsMTNWcG0xaTc3YnV1YmNMbW83azFQSjJqS2xub3hnTC1iazZPZWp4TXNZQ00?oc=5",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPLVJ5aGRNZkJVV1NRTW5OR1kyYXplY014eWxMLUFLMEFnZVVteFlNRTdaN3J2WV85S0R1aENQRXp5Vy1WMjVBb3Flb3FBVGUtSlhWdlNVU3JPTzg?oc=5",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTUGlraHN4ZGhXRlQ3aWRVN2xPTkxUMnQ1U0VGblNQeGFOYXoyYjFzQmNXZm9BNkdpSnh2ZnlhVnV1TnM2ZDk5QlYtZ3V5MjJ6RnZXRXZDcExZRHc?oc=5",
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13S0h2dzlXeDZneE1SMi1yX0xNS2FkbFh3RTFZSGc3aWVQQkMwUDZ6cHIyOEJtWk5TMXROeW5IQ2VLWEJRY3ZiampoUE5hdW1vT2NPREF3ek0?oc=5",
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWMXhBWENMaUlTNUptZ3l4N3pKdnBzTUVZb1ZfV3c5U3hmbENZZXhkUG81WUtTSEFfdThQMGswRUJSZEtWaUp0ZWR1TEpXVkFPS1BucGVRNVE?oc=5",
+    "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yU3pEUmxoMDlocklNUFAtcjMya2FhX3FMZjdtX1ZMWlBQOGtiTDAzTjJGNG43cWNQNjFwc0FZeUxRYkFEQlJVOVBhZ0l0MjlBMWdOMUphSUhrdzZSblFB?oc=5",
+    "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hOXpCVlMwWElHbXNhVmc3Y2lma09KbUptczZRU3V0SWxNTnVPamdIM19abndHQll2YW5KRlFXSjZnTHNFNnlDM2ZFS0ZVQmdtMEFmNC1PaVpBX2t4aWZB?oc=5",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oQWR5bm9QVThBWHJSNmN2VjFZdHlSSWg5em1nOEdOdUN0dWVSelFLb045R1M3ek1XamFGbjdjeGdWVG1mYkFjRng1N004dkJDQjNLZE1nMGx3QVNl?oc=5",
+    "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5scS0yRi1zOFFrLWl4YXJwWmJraWFGUTVoQkNZQWhKa0UzcVRaUHQ3V3ZRN0ZXeDFzY2x6YmpUazdzN0dub09wT2xCU2ptUEJoMTRNNmFNOHRBWEh6Vmt4bnRR?oc=5",
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qUVJrRTVSdER4cURoaEItckNhNFJBVDJwb3hyeC0zaG1tOGFpb3pPeUdRcUEtQjhRT054N0NrdUp4S0hUQ0QzcnRTbzd5OV9BMUdXejZCUFlQNGYtUVJxQlA2Mi13Z0pZRjhJ?oc=5",
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iNWZlZlJzbU8tcmNWOXhzWkgyaGhKbGQ0UEMzZmdJcXJ0NndGdE40WnlIb1M1ZHN3YnM5b3R6LUd0WDYyNzFqdXloYjZUZXZIY3pZZ05WbnNjTlY3ZEx1QnQzT3BuQ3pOYjNGOUxYVQ?oc=5",
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1REx1NGstZUdidElhYTJhNjZXVGlIbFVFVU9SYTl0YjdKa2I2LTV4MzJkYmM3MkxqdFcydVNTWS1LRnFSQTNZWEhVY2l3OE9FdlFDcGNzOFdsUjdmNWt4RXZNelZuWjc0RmFfU2hoeE1EWjhR?oc=5",
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQUgyRWFKaGFVOE1RYU1DVFljbDJ6WXlUeEJSX0ZUYWVtU3JjZkxRUmc4N2EwV1pfcHl2QUo2Zmx0VWNrSzluQkxFRVg1cE9mTTlXcUQ5VVpqX2dwbnZacGx1THBadlNhVnJCNFdMMjdGbEEwTGtBbk9DT3Q1MDFJbzcxemFGUHQtMFdEdFdrdmJzTXNEZHc?oc=5",
     "https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/",
     "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
     "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
@@ -175,6 +215,86 @@
     {
       "title": "Technology + Computing - The Guardian",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1qUVJrRTVSdER4cURoaEItckNhNFJBVDJwb3hyeC0zaG1tOGFpb3pPeUdRcUEtQjhRT054N0NrdUp4S0hUQ0QzcnRTbzd5OV9BMUdXejZCUFlQNGYtUVJxQlA2Mi13Z0pZRjhJ?oc=5\" target=\"_blank\">Technology + Computing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Green party - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oQWR5bm9QVThBWHJSNmN2VjFZdHlSSWg5em1nOEdOdUN0dWVSelFLb045R1M3ek1XamFGbjdjeGdWVG1mYkFjRng1N004dkJDQjNLZE1nMGx3QVNl?oc=5\" target=\"_blank\">Green party</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Opinion + AI (artificial intelligence) - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQQUgyRWFKaGFVOE1RYU1DVFljbDJ6WXlUeEJSX0ZUYWVtU3JjZkxRUmc4N2EwV1pfcHl2QUo2Zmx0VWNrSzluQkxFRVg1cE9mTTlXcUQ5VVpqX2dwbnZacGx1THBadlNhVnJCNFdMMjdGbEEwTGtBbk9DT3Q1MDFJbzcxemFGUHQtMFdEdFdrdmJzTXNEZHc?oc=5\" target=\"_blank\">Opinion + AI (artificial intelligence)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Science + News - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE13S0h2dzlXeDZneE1SMi1yX0xNS2FkbFh3RTFZSGc3aWVQQkMwUDZ6cHIyOEJtWk5TMXROeW5IQ2VLWEJRY3ZiampoUE5hdW1vT2NPREF3ek0?oc=5\" target=\"_blank\">Science + News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Climate crisis + Environment - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFA1REx1NGstZUdidElhYTJhNjZXVGlIbFVFVU9SYTl0YjdKa2I2LTV4MzJkYmM3MkxqdFcydVNTWS1LRnFSQTNZWEhVY2l3OE9FdlFDcGNzOFdsUjdmNWt4RXZNelZuWjc0RmFfU2hoeE1EWjhR?oc=5\" target=\"_blank\">Climate crisis + Environment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Religion - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FSkZxNklJZURtb2liQl8tVng1bk9wNWZDeHlHS1lqc0tWODRTdHRkamtJTHZoU0NDY21yanlwTTlQbzZwcm54R0E0Qm9HU01mbmd3Mg?oc=5\" target=\"_blank\">Religion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Photography - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5scS0yRi1zOFFrLWl4YXJwWmJraWFGUTVoQkNZQWhKa0UzcVRaUHQ3V3ZRN0ZXeDFzY2x6YmpUazdzN0dub09wT2xCU2ptUEJoMTRNNmFNOHRBWEh6Vmt4bnRR?oc=5\" target=\"_blank\">Photography</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "More than the Score | Manchester City: What does the Premier League do now? - BBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CR1Z1OF96aGxyRG5mQnVRUkl3NXVDOEozdzZYRmpmZzExUUpGTGJ5MVZJd2ZYb0ZRYUoyM1FfUWNORW9XSUE1VGVJb3JSaENU?oc=5\" target=\"_blank\">More than the Score | Manchester City: What does the Premier League do now?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+    },
+    {
+      "title": "Test Match Special | TMS Top 10: Cricket scandals - BBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OY2M5MV9jOXpkaVkyQXBYejNPZk5rNXJUaWtFdlNuaWpQVnBYTEN3d1YzaTNPWUMzMDBnLTlFam50aXBrSjJtRnVEVVNXWGE1?oc=5\" target=\"_blank\">Test Match Special | TMS Top 10: Cricket scandals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+    },
+    {
+      "title": "Analysis - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YWU51RDZTY1c5UVg1VEhZcDBMbG4xOVQwbkJwcGpmZFdkemVmbjhydlJ4YnlIWS13N21OZTBMUmQxaUJhY0oyZU5feGl0bUotcVVj?oc=5\" target=\"_blank\">Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Antisemitism - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWMXhBWENMaUlTNUptZ3l4N3pKdnBzTUVZb1ZfV3c5U3hmbENZZXhkUG81WUtTSEFfdThQMGswRUJSZEtWaUp0ZWR1TEpXVkFPS1BucGVRNVE?oc=5\" target=\"_blank\">Antisemitism</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Israel - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE45dFhSNnBDM1RCMmVuSjdFOHVyb1RVQ05FUDJOcGVWUDMzeFBwMS1DVG8wOHBvREozX3NVSC1FakJGSTNySlB2S1MzUGV6V1BsalE?oc=5\" target=\"_blank\">Israel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Dead seabird tests carried out after Port of Tyne nurdle spill - BBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LU25KZmNmRUJCR2NFampneVlFZVM5cTdhdTl5VU9HSXQydnNoRnc5U2xKeTg0cDZoQmw4TXhPUkJGZWdCenYtUlRLSTBtRlFwWmg4bFNEVWY3bGc?oc=5\" target=\"_blank\">Dead seabird tests carried out after Port of Tyne nurdle spill</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+    },
+    {
+      "title": "Where has £450m of investment for the Border region gone? - BBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTUGlraHN4ZGhXRlQ3aWRVN2xPTkxUMnQ1U0VGblNQeGFOYXoyYjFzQmNXZm9BNkdpSnh2ZnlhVnV1TnM2ZDk5QlYtZ3V5MjJ6RnZXRXZDcExZRHc?oc=5\" target=\"_blank\">Where has £450m of investment for the Border region gone?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+    },
+    {
+      "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild - BBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vWVl2cXBKLXJzOXVKdjFqMksyQTUzLTd2cDE4c09RZWFtMV96SHRsMTNWcG0xaTc3YnV1YmNMbW83azFQSjJqS2xub3hnTC1iazZPZWp4TXNZQ00?oc=5\" target=\"_blank\">Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+    },
+    {
+      "title": "Hull and Lincolnshire events to mark Baby Loss Awareness week - BBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPLVJ5aGRNZkJVV1NRTW5OR1kyYXplY014eWxMLUFLMEFnZVVteFlNRTdaN3J2WV85S0R1aENQRXp5Vy1WMjVBb3Flb3FBVGUtSlhWdlNVU3JPTzg?oc=5\" target=\"_blank\">Hull and Lincolnshire events to mark Baby Loss Awareness week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+    },
+    {
+      "title": "UK news + World news - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yU3pEUmxoMDlocklNUFAtcjMya2FhX3FMZjdtX1ZMWlBQOGtiTDAzTjJGNG43cWNQNjFwc0FZeUxRYkFEQlJVOVBhZ0l0MjlBMWdOMUphSUhrdzZSblFB?oc=5\" target=\"_blank\">UK news + World news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Consumer affairs - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hOXpCVlMwWElHbXNhVmc3Y2lma09KbUptczZRU3V0SWxNTnVPamdIM19abndHQll2YW5KRlFXSjZnTHNFNnlDM2ZFS0ZVQmdtMEFmNC1PaVpBX2t4aWZB?oc=5\" target=\"_blank\">Consumer affairs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Explainers - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wcXdmaVpCOEgtZHd1cG1YLWdBZVR4LTNpb2FHa3FXT0o0VDZnWHhGMmlKMG9EWE54UkRrbjJtbmtRWkhhNXZtMEdXeEwzTFpZa0NROUZB?oc=5\" target=\"_blank\">Explainers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Business - The Guardian",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1iNWZlZlJzbU8tcmNWOXhzWkgyaGhKbGQ0UEMzZmdJcXJ0NndGdE40WnlIb1M1ZHN3YnM5b3R6LUd0WDYyNzFqdXloYjZUZXZIY3pZZ05WbnNjTlY3ZEx1QnQzT3BuQ3pOYjNGOUxYVQ?oc=5\" target=\"_blank\">Business</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+    },
+    {
+      "title": "Global News Podcast | French government holds crisis talks after school protests - BBC",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9abFBWSS1CTEcxeHBkdTN0dTR0MzZGeGVXbl9NdUhOTXREZkVlYXFzaWhMM3ZQSU8wUDdrSk1CMFQ5UWdxWnNqdjZlZE1rU3c5?oc=5\" target=\"_blank\">Global News Podcast | French government holds crisis talks after school protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
     }
   ]
 }
