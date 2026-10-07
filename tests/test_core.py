@@ -177,3 +177,10 @@ def test_technology_feed_category_uses_word_boundaries():
     assert is_technology_feed_item(("Tech News",), "Any source")
     assert is_technology_feed_item(("Technology + Computing",), "Any source")
     assert is_technology_feed_item(("AI Research",), "Any source")
+
+
+def test_persian_technology_categories_are_accepted():
+    from app.core import is_technology_news
+    assert is_technology_news("فناوری")
+    assert is_technology_news("تکنولوژی")
+    assert is_technology_news("هوش مصنوعی")
