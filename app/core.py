@@ -108,11 +108,6 @@ def _pair_similarity(left_title: str, left_summary: str, right_title: str, right
     if len(shared_entities) >= 2:
         return True
 
-    if len(shared_entities) == 1:
-        entity = next(iter(shared_entities))
-        if len(entity) >= 6 and len(left_tokens & right_tokens) >= 4 and combined_similarity >= 0.18:
-            return True
-
     return False
 
 
