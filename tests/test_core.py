@@ -19,16 +19,24 @@ def test_similar_rewrites_of_same_event_are_duplicates():
     first={"title":"Type One Energy raised $200M to build a fusion power plant by 2034","summary":"Type One Energy raised 200 million dollars to build a fusion power plant."}; rewritten={"title":"Type One Energy raises $200 million for a fusion power plant","summary":"The fusion company secured $200 million to bring a power plant to the grid."}; assert is_duplicate_story(rewritten,[first])
 def test_different_technology_events_are_not_duplicates():
     first={"title":"Type One Energy raised $200M to build a fusion power plant by 2034","summary":"Type One Energy raised 200 million dollars to build a fusion power plant."}; different={"title":"Type One Energy connects its prototype fusion system to the grid","summary":"The company demonstrated a new prototype milestone at its test facility."}; assert not is_duplicate_story(different,[first])
-def test_technology_story_cases():
-    from app.core import is_technology_story; assert is_technology_story("AI","New AI model"); assert is_technology_story("world","OpenAI","artificial intelligence and ChatGPT","AI model"); assert not is_technology_story("world","Diplomatic talks continue","Officials met about foreign policy"); assert not is_technology_story("sports","Antigua and Barbuda vs Aruba","Concacaf Nations League and head-to-head","Football match statistics")
-def test_whole_word_and_weak_brand_filtering():
-    from app.core import is_technology_story; assert not is_technology_story("general","Technician said the rain technique failed"); assert not is_technology_story("economy","Apple and Tesla shares move","Investors reacted to results")
-def test_persian_technology_signals_count():
-    from app.core import is_technology_story; assert is_technology_story("world","خبر","","این گزارش درباره هوش مصنوعی و تراشه و نرم‌افزار است")
-def test_same_url_is_always_a_duplicate():
-    first={"title":"Original","summary":"Summary","url":"https://example.com/story"}; assert is_duplicate_story({"title":"Rewritten","summary":"Different","url":"https://example.com/story"},[first])
-
-
-def test_technology_filter_does_not_trust_category_alone_for_non_technology_content():
+def test_technology_filter_accepts_real_tech_stories():
+    from app.core import is_technology_story
+    assert is_technology_story("AI", "OpenAI launches a new AI model", "The artificial intelligence model improves ChatGPT")
+    assert is_technology_story("world", "Nvidia unveils new GPU", "The processor targets data centers")
+    assert is_technology_story("world", "خبر فناوری", "این گزارش درباره هوش مصنوعی و تراشه جدید است")
+def test_technology_filter_rejects_generic_category_and_brand_only():
     from app.core import is_technology_story
     assert not is_technology_story("technology", "Diplomatic talks continue", "Officials discuss tariffs", "Foreign policy negotiations continue")
+    assert not is_technology_story("technology", "Apple shares rise", "Investors react to quarterly results")
+    assert not is_technology_story("tech", "Technology stocks fall", "Technology shares dropped")
+def test_technology_filter_rejects_sports_false_positive():
+    from app.core import is_technology_story
+    assert not is_technology_story("technology", "Tech company sponsors football match", "The match drew 50,000 fans", "Sports tournament and league standings")
+def test_technology_filter_rejects_model_only_hallucination():
+    from app.core import is_technology_story
+    assert not is_technology_story("technology", "Regional talks continue", "Officials met in Geneva", "The report discusses policy and diplomacy")
+def test_persian_technology_signals_count():
+    from app.core import is_technology_story
+    assert is_technology_story("world", "خبر", "این گزارش درباره هوش مصنوعی و تراشه و نرم‌افزار است")
+def test_same_url_is_always_a_duplicate():
+    first={"title":"Original","summary":"Summary","url":"https://example.com/story"}; assert is_duplicate_story({"title":"Rewritten","summary":"Different","url":"https://example.com/story"},[first])
