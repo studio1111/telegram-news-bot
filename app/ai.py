@@ -96,7 +96,7 @@ def process_with_gemini(title, summary, article_text=""):
                 # Header instead of ?key= so the key never appears in URLs/logs.
                 headers={"x-goog-api-key": key},
                 json=payload,
-                timeout=90,
+                timeout=45,
             )
             if response.ok:
                 break

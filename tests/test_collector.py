@@ -95,3 +95,30 @@ def test_collect_feed_preserves_entry_category_and_label_tags(monkeypatch):
     monkeypatch.setattr(collector.feedparser, "parse", lambda data: Parsed())
     items = collector.collect_feed("https://example.com/feed", "Example")
     assert items[0].categories == ("Technology", "Artificial Intelligence")
+
+
+def test_article_fetch_uses_short_timeout(monkeypatch):
+    import app.collector as collector
+
+    captured = {}
+
+    class Response:
+        headers = {}
+        content = b"<html><body>Article</body></html>"
+        encoding = "utf-8"
+
+        def raise_for_status(self):
+            pass
+
+        def iter_content(self, chunk_size=65536):
+            yield self.content
+
+    def fake_get(url, **kwargs):
+        captured.update(kwargs)
+        return Response()
+
+    monkeypatch.setattr(collector.requests, "get", fake_get)
+    collector._ARTICLE_CACHE.clear()
+    collector.fetch_article_text("https://example.com/timeout-check")
+    assert captured["timeout"] == 10
+    collector._ARTICLE_CACHE.clear()

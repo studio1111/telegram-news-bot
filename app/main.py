@@ -12,9 +12,9 @@ from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
 
 
-GEMINI_WORKERS = 4
+GEMINI_WORKERS = 8
 MAX_CANDIDATES = 30
-RUN_DEADLINE_SECONDS = 720
+RUN_DEADLINE_SECONDS = 600
 _OLDEST = datetime.min.replace(tzinfo=timezone.utc)
 
 
