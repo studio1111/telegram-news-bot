@@ -18,10 +18,8 @@ def test_article_page_is_downloaded_once_for_text_and_image(monkeypatch):
     calls = []
 
     class Response:
-        text = (
-            '<html><head><meta property="og:image" content="https://example.com/a.jpg">'
-            "</head><body><p>Article body</p></body></html>"
-        )
+        text = ('<html><head><meta property="og:image" content="https://example.com/a.jpg">'
+                "</head><body><p>Article body</p></body></html>")
 
         def raise_for_status(self):
             pass
@@ -38,3 +36,32 @@ def test_article_page_is_downloaded_once_for_text_and_image(monkeypatch):
     assert collector.fetch_article_image_url(url) == "https://example.com/a.jpg"
     assert calls == [url]
     collector._ARTICLE_CACHE.clear()
+
+
+def test_rejects_private_or_local_article_urls(monkeypatch):
+    import pytest
+    import app.collector as collector
+
+    with pytest.raises(ValueError):
+        collector.fetch_article_text("http://127.0.0.1/admin")
+    with pytest.raises(ValueError):
+        collector.fetch_article_text("http://localhost/admin")
+    with pytest.raises(ValueError):
+        collector.fetch_article_text("file:///etc/passwd")
+
+
+def test_rejects_oversized_article_response(monkeypatch):
+    import pytest
+    import app.collector as collector
+
+    class Response:
+        headers = {"Content-Length": str(collector.MAX_RESPONSE_BYTES + 1)}
+        content = b""
+        text = ""
+
+        def raise_for_status(self):
+            pass
+
+    monkeypatch.setattr(collector.requests, "get", lambda *a, **k: Response())
+    with pytest.raises(ValueError, match="response too large"):
+        collector.fetch_article_text("https://example.com/large")
