@@ -193,3 +193,17 @@ def test_dedicated_technology_sources_do_not_require_rss_category_tags():
         "BBC Technology", "The Guardian Technology", "Digiato", "Vigiato",
     ):
         assert is_technology_feed_item((), source)
+
+
+def test_same_google_synthid_event_is_duplicate_despite_different_titles():
+    first = {
+        "title": "Google launches a new website for identifying AI-generated media",
+        "summary": "Google launches a website using SynthID to identify AI-generated media.",
+        "url": "https://source-a.example/google-ai-media",
+    }
+    second = {
+        "title": "Google releases SynthID Detector for AI content",
+        "summary": "Google releases SynthID Detector to identify AI-generated images, video and audio.",
+        "url": "https://source-b.example/synthid-detector",
+    }
+    assert is_duplicate_story(second, [first])
