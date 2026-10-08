@@ -9,7 +9,7 @@ import time
 import requests
 
 from .ai import process_with_gemini
-from .collector import collect_feed, fetch_article_image_url
+from .collector import collect_feed, fetch_article_image_url, fetch_article_text  # noqa: F401
 from .core import build_rich_message_html, is_duplicate_story, is_new_item
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
