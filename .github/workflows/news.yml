@@ -47,7 +47,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          NEWS_WINDOW_MINUTES: "45"
+          NEWS_WINDOW_MINUTES: "360"
           GEMINI_MODEL: "gemini-3.5-flash-lite"
         run: python -m app.main
 
