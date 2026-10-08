@@ -159,6 +159,12 @@ def _pair_similarity(left_title: str, left_summary: str, right_title: str, right
     if len(shared_anchors) >= 2 and len(shared_support) >= 2 and shared_actions:
         return True
 
+    # High-confidence product/event anchors handle major cross-source rewrites
+    # where the titles share little surface wording. SynthID has several Persian
+    # spellings, all canonicalized above to the same event key.
+    if "synthid" in shared_anchors and "google" in shared_anchors and "detect" in shared_actions:
+        return True
+
     shared_entities = _named_entities(left_full) & _named_entities(right_full)
     if len(shared_entities) >= 2:
         return True
