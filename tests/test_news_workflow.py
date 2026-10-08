@@ -22,3 +22,11 @@ def test_state_persistence_skips_cleanly_when_publish_has_no_state_artifact():
     workflow = Path(__file__).parents[1].joinpath(".github", "workflows", "news.yml").read_text()
     assert "continue-on-error: true" in workflow
     assert "if: hashFiles('state/state.json') == ''" in workflow
+
+
+def test_news_workflow_uses_75_minute_gate_and_three_source_cadence():
+    workflow = Path(__file__).parents[1].joinpath(".github", "workflows", "news.yml").read_text()
+    assert 'cron: "8,23,38,53 * * * *"' in workflow
+    assert "timedelta(minutes=75)" in workflow
+    assert 'NEWS_WINDOW_MINUTES: "90"' in workflow
+    assert 'if: github.event_name == \'workflow_dispatch\' || steps.interval.outputs.run == \'true\'' in workflow
