@@ -401,3 +401,19 @@ def test_non_technology_allowed_source_is_publishable():
     now = datetime.now(timezone.utc)
     item = NewsItem("non-tech", "A movie story", "https://example.com/non-tech", "Film news", "The Verge", "", now, ())
     assert news_main._item_is_publishable(item)
+
+
+def test_duplicate_history_is_cleaned_before_it_is_used_for_future_runs():
+    first = {
+        "title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی",
+        "summary": "شرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که با فناوری سینث‌آی‌دی (SynthID) محتوای تولیدشده با هوش مصنوعی را شناسایی می‌کند.",
+        "url": "https://techcrunch.com/one",
+    }
+    second = {
+        "title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+        "summary": "شرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را برای شناسایی محتوای تولیدشده با هوش مصنوعی عرضه کرده است.",
+        "url": "https://www.engadget.com/two",
+    }
+    cleaned, removed = news_main._deduplicate_history_records([first, second])
+    assert removed == 1
+    assert len(cleaned) == 1
