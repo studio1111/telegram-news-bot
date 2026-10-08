@@ -306,7 +306,6 @@ def main():
     def persist():
         _save_state(store, seen, published_stories, outbox)
 
-    run_completed = False
     try:
         _retry_outbox(store, seen, published_stories, outbox, deadline)
         candidates = _collect_recent_items(sources, seen, now)
@@ -421,10 +420,7 @@ def main():
             del published_stories[:-MAX_PUBLISHED_STORIES:]
             persist()
             print(f"[PUBLISHED] source={item.source} image={'yes' if image_url else 'no'} url={item.url}")
-        run_completed = True
     finally:
-        if run_completed and hasattr(store, "set_last_run_at"):
-            store.set_last_run_at(now.isoformat())
         persist()
         print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed} ")
 
