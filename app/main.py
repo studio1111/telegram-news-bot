@@ -311,7 +311,8 @@ def main():
 
     now = datetime.now(timezone.utc)
     deadline = time.monotonic() + RUN_DEADLINE_SECONDS
-    published_count = ai_failed = duplicates = telegram_failed = publish_failed = historical_duplicates
+    published_count = ai_failed = duplicates = telegram_failed = publish_failed = 0
+    duplicates = historical_duplicates
     candidates = []
 
     def persist():
