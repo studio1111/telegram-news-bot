@@ -2,7 +2,7 @@ name: News Bot
 
 on:
   schedule:
-    - cron: "8,23,38,53 * * * *"
+    - cron: "8,38 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -15,7 +15,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 75
     permissions:
       contents: read
     steps:
@@ -42,38 +42,12 @@ jobs:
           git fetch --no-tags origin bot-state
           git show origin/bot-state:data/state.json > data/state.json
 
-      - name: Enforce 75-minute schedule interval
-        id: interval
-        if: github.event_name == 'schedule'
-        run: |
-          python - <<'PY'
-          import json
-          from datetime import datetime, timedelta, timezone
-
-          with open("data/state.json", encoding="utf-8") as fh:
-              state = json.load(fh)
-          last = state.get("last_run_at", "")
-          if not last:
-              print("No previous completed run; publishing.")
-              open(__import__("os").environ["GITHUB_OUTPUT"], "a", encoding="utf-8").write("run=true\n")
-          else:
-              previous = datetime.fromisoformat(last.replace("Z", "+00:00"))
-              elapsed = datetime.now(timezone.utc) - previous
-              if elapsed >= timedelta(minutes=75):
-                  print(f"Last completed run was {elapsed} ago; publishing.")
-                  print("run=true" >> __import__("os").environ["GITHUB_OUTPUT"])
-              else:
-                  print(f"Only {elapsed} since the last completed run; skipping.")
-                  open(__import__("os").environ["GITHUB_OUTPUT"], "a", encoding="utf-8").write("run=false\n")
-          PY
-
       - name: Publish news
-        if: github.event_name == 'workflow_dispatch' || steps.interval.outputs.run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          NEWS_WINDOW_MINUTES: "360"
+          NEWS_WINDOW_MINUTES: "90"
           GEMINI_MODEL: "gemini-3.5-flash-lite"
         run: python -m app.main
 
