@@ -55,7 +55,7 @@ jobs:
           last = state.get("last_run_at", "")
           if not last:
               print("No previous completed run; publishing.")
-              print("run=true" >> __import__("os").environ["GITHUB_OUTPUT"])
+              open(__import__("os").environ["GITHUB_OUTPUT"], "a", encoding="utf-8").write("run=true\n")
           else:
               previous = datetime.fromisoformat(last.replace("Z", "+00:00"))
               elapsed = datetime.now(timezone.utc) - previous
@@ -64,7 +64,7 @@ jobs:
                   print("run=true" >> __import__("os").environ["GITHUB_OUTPUT"])
               else:
                   print(f"Only {elapsed} since the last completed run; skipping.")
-                  print("run=false" >> __import__("os").environ["GITHUB_OUTPUT"])
+                  open(__import__("os").environ["GITHUB_OUTPUT"], "a", encoding="utf-8").write("run=false\n")
           PY
 
       - name: Publish news
