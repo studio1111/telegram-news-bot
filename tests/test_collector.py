@@ -18,6 +18,7 @@ def test_article_page_is_downloaded_once_for_text_and_image(monkeypatch):
     calls = []
 
     class Response:
+        headers = {"Content-Type": "image/jpeg"}
         text = ('<html><head><meta property="og:image" content="https://example.com/a.jpg">'
                 "</head><body><p>Article body</p></body></html>")
 
