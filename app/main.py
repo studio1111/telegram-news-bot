@@ -31,6 +31,15 @@ def _published_key(item):
     return item.published_at or _OLDEST
 
 
+def _sort_newest_first(items):
+    """Prioritize dated stories from newest to oldest; undated stories stay last."""
+    return sorted(
+        items,
+        key=lambda item: (item.published_at is not None, _published_key(item)),
+        reverse=True,
+    )
+
+
 def _outbox_key(item):
     return "url:" + hashlib.sha256(item.url.encode("utf-8")).hexdigest()
 
@@ -98,7 +107,7 @@ def _prioritize_duplicate_candidates(candidates):
                 f"[DUPLICATE_PRIORITY] group={len(group)} selected={winner.source} "
                 f"image={'yes' if winner.image_url else 'no'}"
             )
-    return sorted(selected, key=_published_key)
+    return _sort_newest_first(selected)
 
 
 def _semantic_dedup(candidates, history, seen, deadline):
@@ -236,7 +245,7 @@ def _collect_recent_items(sources, seen, now):
         stats["missing_dates"] += missing_dates
         print(f"[SOURCE] {source['name']}: fetched={len(items)} unseen={unseen} recent={recent} missing_date={missing_dates}")
     print(f"[COLLECT] sources={stats['sources']} feeds={stats['feed_items']} unseen={stats['unseen_items']} recent={stats['recent_items']} missing_dates={stats['missing_dates']} errors={stats['source_errors']}")
-    return sorted(candidates, key=_published_key)
+    return _sort_newest_first(candidates)
 
 
 def _process_candidate(item):
@@ -388,7 +397,9 @@ def main():
                     future.cancel()
                 executor.shutdown(wait=False, cancel_futures=True)
 
-        processed_results.sort(key=lambda result: _published_key(result[0]))
+        processed_results = _sort_newest_first([result[0] for result in processed_results])
+        processed_by_item = {item.url: result for result in processed_results}
+        processed_results = [processed_by_item[item.url] for item in processed_results]
         for item, image_url, processed in processed_results:
             if time.monotonic() >= deadline:
                 print("[DEADLINE] reached before Telegram publishing")
