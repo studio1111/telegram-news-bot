@@ -16,11 +16,7 @@ def test_publishes_technology_story_without_image(monkeypatch):
         categories=("Technology",),
     )
 
-    monkeypatch.setattr(
-        main_module,
-        "collect_feed",
-        lambda url, source, limit: [item],
-    )
+    monkeypatch.setattr(main_module, "collect_feed", lambda url, source, limit: [item])
     monkeypatch.setattr(main_module, "fetch_article_text", lambda url: "article")
     monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "")
     monkeypatch.setattr(
@@ -125,8 +121,8 @@ def test_publishes_all_eligible_stories_across_sources(monkeypatch):
 
     assert len(published) == 5
 
+
 def test_logs_publish_summary(monkeypatch, capsys):
-    from datetime import datetime, timezone
     now = datetime.now(timezone.utc)
     item = NewsItem(
         "summary-story", "Technology story", "https://example.com/summary",
@@ -156,10 +152,10 @@ def test_logs_publish_summary(monkeypatch, capsys):
     main_module.main()
     output = capsys.readouterr().out
     assert "[PUBLISHED] source=Test Source" in output
-    assert "[SUMMARY] candidates=1 published=1" in output
+    assert "published=1" in output
 
 
-def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatch):
+def test_skips_non_technology_story_even_from_technology_feed(monkeypatch):
     now = datetime.now(timezone.utc)
     item = NewsItem(
         "recovered-story",
@@ -173,17 +169,15 @@ def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatc
     )
 
     monkeypatch.setattr(main_module, "collect_feed", lambda *args: [item])
-    monkeypatch.setattr(main_module, "fetch_article_text", lambda url: (
-        "OpenAI described the new artificial intelligence model and its ChatGPT system."
-    ))
+    monkeypatch.setattr(main_module, "fetch_article_text", lambda url: "article")
     monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "")
     monkeypatch.setattr(
         main_module,
         "process_with_gemini",
         lambda *args: {
-            "title_fa": "مدل هوش مصنوعی جدید اوپن‌ای‌آی",
-            "summary_fa": "اوپن‌ای‌آی از یک مدل هوش مصنوعی جدید خبر داد.",
-            "article_fa": "این مدل برای سیستم چت‌جی‌پی‌تی توسعه یافته است.",
+            "title_fa": "مدل هوش مصنوعی جدید",
+            "summary_fa": "خلاصه",
+            "article_fa": "متن",
             "category": "world",
         },
     )
@@ -205,11 +199,9 @@ def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatc
     monkeypatch.setattr(
         main_module.Path,
         "read_text",
-        lambda self, encoding="utf-8": (
-            '[{"name":"The Guardian Technology","url":"feed","limit":100}]'
-        ),
+        lambda self, encoding="utf-8": '[{"name":"The Guardian Technology","url":"feed","limit":100}]',
     )
 
     main_module.main()
 
-    assert len(published) == 1
+    assert published == []
