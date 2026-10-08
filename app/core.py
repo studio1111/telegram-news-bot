@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta, timezone
+from functools import lru_cache
 from html import escape
 import os
 import re
@@ -15,14 +16,35 @@ _TOKEN_ALIASES = {
     "chips": "chip", "processors": "chip", "processor": "chip",
     "announces": "announce", "announced": "announce", "announcing": "announce",
     "detects": "detect", "detected": "detect", "detection": "detect", "detector": "detect",
-    "identifies": "detect", "identify": "detect", "identified": "detect",
+    "identifies": "detect", "identify": "detect", "identified": "detect", "identifying": "detect",
     "verification": "detect", "verify": "detect", "verified": "detect",
     "checks": "check", "checked": "check", "checking": "check",
     "generated": "generate", "generates": "generate", "generation": "generate",
     "created": "create", "creating": "create", "creates": "create",
     "produced": "create", "produces": "create", "producing": "create",
+    "detecting": "detect", "identify": "detect", "identified": "detect",
     "websites": "website", "site": "website", "sites": "website", "portal": "website",
 }
+
+_EVENT_TEXT_ALIASES = {
+    "synth id": "synthid",
+    "synth-id": "synthid",
+    "synthid detector": "synthid",
+    "synthid-detector": "synthid",
+    "سینث آی دی": "synthid",
+    "سینث‌آی‌دی": "synthid",
+    "سینت اید": "synthid",
+    "سینت‌اید": "synthid",
+    "سینث آی‌دی": "synthid",
+    "سینث‌آی دی": "synthid",
+}
+
+
+def _canonicalize_event_text(value: str) -> str:
+    text = normalize_text(value).lower()
+    for source, target in sorted(_EVENT_TEXT_ALIASES.items(), key=lambda pair: len(pair[0]), reverse=True):
+        text = text.replace(source, target)
+    return text
 
 _STOP_WORDS = {
     "the", "a", "an", "to", "of", "and", "for", "in", "on", "by", "with",
@@ -36,20 +58,25 @@ CHANNEL_FOOTER = f"آخرین اخبار تکنولوژی | {CHANNEL_HANDLE}"
 def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", (value or "")).strip()
 
-def _story_tokens(value: str) -> set[str]:
-    text = normalize_text(value).lower().replace("$", " ").replace(",", "")
+# The token helpers are cached: every candidate is compared with hundreds of
+# history stories, so the same texts were being re-tokenized thousands of times
+# per run. Results are frozensets so cached values can never be mutated.
+@lru_cache(maxsize=16384)
+def _story_tokens(value: str) -> frozenset[str]:
+    text = _canonicalize_event_text(value).replace("$", " ").replace(",", "")
     text = re.sub(r"[’']s\b", "", text)
     text = text.replace("۲۰۰", "200")
     text = re.sub(r"\b(million|millions)\b", "million", text)
     text = re.sub(r"[^\w\u0600-\u06ff]+", " ", text)
-    return {
+    return frozenset({
         _TOKEN_ALIASES.get(t, t)
         for t in text.split()
         if len(t) > 2 and t not in _STOP_WORDS
-    }
+    })
 
-def _numbers(value: str) -> set[str]:
-    return set(re.findall(r"\d+(?:\.\d+)?", normalize_text(value).replace(",", "")))
+@lru_cache(maxsize=16384)
+def _numbers(value: str) -> frozenset[str]:
+    return frozenset(re.findall(r"\d+(?:\.\d+)?", normalize_text(value).replace(",", "")))
 
 def _story_variants(record: dict) -> list[tuple[str, str]]:
     variants = [(record.get("title", ""), record.get("summary", ""))]
@@ -64,7 +91,8 @@ def _story_variants(record: dict) -> list[tuple[str, str]]:
     ]
 
 
-def _named_entities(value: str) -> set[str]:
+@lru_cache(maxsize=16384)
+def _named_entities(value: str) -> frozenset[str]:
     entities = set()
     for raw in re.findall(r"\(([^()]{1,100})\)", value or ""):
         normalized = re.sub(r"[^\w]+", " ", raw.lower(), flags=re.UNICODE).strip()
@@ -75,7 +103,7 @@ def _named_entities(value: str) -> set[str]:
             entities.add(parts[0])
         if len(parts) <= 4:
             entities.add(normalized.replace(" ", ""))
-    return entities
+    return frozenset(entities)
 
 
 def _pair_similarity(left_title: str, left_summary: str, right_title: str, right_summary: str) -> bool:
@@ -93,7 +121,6 @@ def _pair_similarity(left_title: str, left_summary: str, right_title: str, right
         len(title_tokens_left & title_tokens_right) / len(title_tokens_left | title_tokens_right)
         if title_tokens_left and title_tokens_right else 0.0
     )
-    title_similarity = _title_similarity(left_title, right_title)
     combined_similarity = len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
     shared_numbers = _numbers(left_full) & _numbers(right_full)
     shared_anchors = _event_anchor_tokens(left_full) & _event_anchor_tokens(right_full)
@@ -105,9 +132,11 @@ def _pair_similarity(left_title: str, left_summary: str, right_title: str, right
                 and 1900 <= int(number.split(".")[0]) <= 2100)
     }
 
-    if title_jaccard >= 0.65 and title_similarity >= 0.72:
+    # SequenceMatcher is the slowest check, so it only runs when the cheap
+    # token conditions already hold (same result as computing it up front).
+    if title_jaccard >= 0.65 and _title_similarity(left_title, right_title) >= 0.72:
         return True
-    if title_similarity >= 0.82 and combined_similarity >= 0.55:
+    if combined_similarity >= 0.55 and _title_similarity(left_title, right_title) >= 0.82:
         return True
     if overlap >= 3 and overlap_coefficient >= 0.60 and combined_similarity >= 0.40:
         return True
@@ -125,9 +154,15 @@ def _pair_similarity(left_title: str, left_summary: str, right_title: str, right
         "restrict", "reduce", "increase", "create", "watermark", "ban",
         "block", "buy", "sell",
     }
-    if len(shared_anchors) >= 2 and len(shared_support) >= 1 and strong_actions:
+    if len(shared_anchors) >= 2 and strong_actions:
         return True
     if len(shared_anchors) >= 2 and len(shared_support) >= 2 and shared_actions:
+        return True
+
+    # High-confidence product/event anchors handle major cross-source rewrites
+    # where the titles share little surface wording. SynthID has several Persian
+    # spellings, all canonicalized above to the same event key.
+    if "synthid" in shared_anchors and "google" in shared_anchors and "detect" in shared_actions:
         return True
 
     shared_entities = _named_entities(left_full) & _named_entities(right_full)
@@ -194,6 +229,7 @@ _EVENT_GENERIC_TERMS = {
     "technology", "technologies", "tech", "software", "hardware", "device",
     "devices", "content", "media", "website", "ai", "artificial", "intelligence",
     "people", "users", "user", "using", "use", "uses", "can", "lets", "let",
+    "هوش", "مصنوعی", "رسانه", "محتوا", "ابزار", "جدید", "شرکت", "وبسایت", "وب‌سایت",
 }
 
 def _event_anchor_tokens(value: str) -> set[str]:
@@ -231,8 +267,9 @@ def is_duplicate_story(item: dict, previous: list[dict], threshold: float = 0.65
 def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
     return item_id not in seen and url not in seen
 
-# GitHub Actions can delay a scheduled run; 90 minutes gives two cron slots
-# of coverage while keeping catch-up batches small. "seen" prevents repeats.
+# GitHub Actions can delay a scheduled run, so the workflow sets a wide window
+# (NEWS_WINDOW_MINUTES). "seen" and the duplicate filter prevent repeats; the
+# window only stops a fresh/empty state from replaying days of old news.
 NEWS_WINDOW_MINUTES = int(os.environ.get("NEWS_WINDOW_MINUTES", "90"))
 _FUTURE_TOLERANCE = timedelta(minutes=5)
 
@@ -266,24 +303,8 @@ def is_technology_news(category: str) -> bool:
     ))
 
 
-_DEDICATED_TECHNOLOGY_SOURCES = {
-    "TechCrunch",
-    "WIRED",
-    "Ars Technica",
-    "The Verge",
-    "Engadget",
-    "BBC Technology",
-    "The Guardian Technology",
-    "Digiato",
-    "Vigiato",
-}
-
-
 def is_technology_feed_item(categories, source: str = "") -> bool:
-    """Accept all items from dedicated technology feeds; otherwise require a tech tag."""
-    normalized_source = normalize_text(source)
-    if normalized_source in _DEDICATED_TECHNOLOGY_SOURCES:
-        return True
+    """Require an explicit technology category/tag on the RSS item itself."""
     return any(is_technology_news(category) for category in (categories or ()))
 
 

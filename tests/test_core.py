@@ -5,7 +5,7 @@ from app.core import NEWS_WINDOW_MINUTES, build_expanded_message, build_rich_mes
 def test_normalize_text_collapses_whitespace(): assert normalize_text("  خبر   فوری\n\n امروز  ") == "خبر فوری امروز"
 def test_is_new_item_uses_stable_id_and_url():
     seen={"abc","https://example.com/old"}; assert not is_new_item("abc","https://example.com/new",seen); assert not is_new_item("xyz","https://example.com/old",seen); assert is_new_item("xyz","https://example.com/new",seen)
-def test_news_window_is_90_minutes(): assert NEWS_WINDOW_MINUTES == 90
+def test_news_window_default_is_90_minutes(): assert NEWS_WINDOW_MINUTES == 90
 def test_news_window_boundaries():
     now=datetime(2026,10,6,18,30,tzinfo=timezone.utc); assert is_recent_news(now-timedelta(minutes=45),now); assert is_recent_news(now-timedelta(minutes=90),now); assert not is_recent_news(now-timedelta(minutes=90,seconds=1),now); assert is_recent_news(now+timedelta(minutes=1),now); assert not is_recent_news(now+timedelta(hours=1),now)
 def test_build_telegram_message_uses_expanding_article_without_source_url():
@@ -52,9 +52,9 @@ def test_feed_category_or_tag_is_the_technology_gate():
     assert is_technology_feed_item(("Technology",), "Any source")
     assert is_technology_feed_item(("Artificial Intelligence",), "Any source")
     assert not is_technology_feed_item(("Politics", "World"), "Any source")
-    assert is_technology_feed_item((), "TechCrunch")
-    assert is_technology_feed_item((), "The Guardian Technology")
-    assert is_technology_feed_item(("Politics",), "TechCrunch")
+    assert not is_technology_feed_item((), "TechCrunch")
+    assert not is_technology_feed_item((), "The Guardian Technology")
+    assert not is_technology_feed_item(("Politics",), "TechCrunch")
 
 
 def test_cross_source_rewrites_with_shared_entities_and_amount_are_duplicates():
@@ -186,10 +186,51 @@ def test_persian_technology_categories_are_accepted():
     assert is_technology_news("هوش مصنوعی")
 
 
-def test_dedicated_technology_sources_do_not_require_rss_category_tags():
+def test_dedicated_technology_sources_require_rss_category_tags():
     from app.core import is_technology_feed_item
     for source in (
         "TechCrunch", "WIRED", "Ars Technica", "The Verge", "Engadget",
         "BBC Technology", "The Guardian Technology", "Digiato", "Vigiato",
     ):
-        assert is_technology_feed_item((), source)
+        assert not is_technology_feed_item((), source)
+        assert is_technology_feed_item(("Technology",), source)
+
+
+def test_same_google_synthid_event_is_duplicate_despite_different_titles():
+    first = {
+        "title": "Google launches a new website for identifying AI-generated media",
+        "summary": "Google launches a website using SynthID to identify AI-generated media.",
+        "url": "https://source-a.example/google-ai-media",
+    }
+    second = {
+        "title": "Google releases SynthID Detector for AI content",
+        "summary": "Google releases SynthID Detector to identify AI-generated images, video and audio.",
+        "url": "https://source-b.example/synthid-detector",
+    }
+    assert is_duplicate_story(second, [first])
+
+
+def test_synthid_persian_rewrites_are_duplicates_even_with_different_wording():
+    first = {
+        "title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی",
+        "summary": "گوگل (Google) وب‌سایت جدیدی با فناوری سینث‌آی‌دی (SynthID) برای شناسایی محتوای تولیدشده با هوش مصنوعی راه‌اندازی کرد.",
+    }
+    rewritten = {
+        "title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+        "summary": "گوگل (Google) ابزار سینت‌اید دکتور (SynthID Detector) را برای شناسایی محتوای تولیدشده توسط ابزارهای هوش مصنوعی عرضه کرد.",
+    }
+    assert is_duplicate_story(rewritten, [first])
+
+
+def test_source_name_never_overrides_missing_technology_tag():
+    from app.core import is_technology_feed_item
+    for source in ("TechCrunch", "WIRED", "Ars Technica", "The Verge", "Engadget", "BBC Technology", "The Guardian Technology", "Digiato", "Vigiato"):
+        assert not is_technology_feed_item((), source)
+        assert not is_technology_feed_item(("Politics",), source)
+
+
+def test_technology_tag_is_required_for_mixed_and_dedicated_sources():
+    from app.filtering import is_publishable_technology
+    assert is_publishable_technology(("Technology",), "TechCrunch", "world")
+    assert not is_publishable_technology((), "TechCrunch", "technology")
+    assert not is_publishable_technology(("Politics",), "The Guardian Technology", "technology")
