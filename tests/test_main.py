@@ -74,7 +74,7 @@ def test_incomplete_gemini_result_does_not_crash_run(monkeypatch):
 
 
 def test_state_is_saved_after_each_publication(monkeypatch):
-    now=datetime.now(timezone.utc); first=NewsItem("1","Software story","https://example.com/1","s","S","",now-timedelta(minutes=3), ("Technology",)); second=NewsItem("2","Nvidia chip software story","https://example.com/2","s","S","",now-timedelta(minutes=2))
+    now=datetime.now(timezone.utc); first=NewsItem("1","Software story","https://example.com/1","s","S","",now-timedelta(minutes=3), ("Technology",)); second=NewsItem("2","Nvidia chip software story","https://example.com/2","s","S","",now-timedelta(minutes=2), ("Technology",))
     calls={"n":0}
     def publish(m,i):
         calls["n"]+=1
@@ -86,7 +86,7 @@ def test_state_is_saved_after_each_publication(monkeypatch):
 
 
 def test_stories_are_published_oldest_first(monkeypatch):
-    now=datetime.now(timezone.utc); newer=NewsItem("n","Newer software story","https://example.com/n","s","S","",now-timedelta(minutes=1)); older=NewsItem("o","Older software story","https://example.com/o","s","S","",now-timedelta(minutes=50), ("Technology",))
+    now=datetime.now(timezone.utc); newer=NewsItem("n","Newer software story","https://example.com/n","s","S","",now-timedelta(minutes=1), ("Technology",)); older=NewsItem("o","Older software story","https://example.com/o","s","S","",now-timedelta(minutes=50), ("Technology",))
     order=[]; store=_store(); _patch(monkeypatch,[newer,older],lambda t,s,a:_tech(t,s),lambda m,i:order.append(m),store); monkeypatch.setattr(news_main,"is_duplicate_story",lambda *a,**k:False)
     news_main.main()
     assert "Older" in order[0] and "Newer" in order[1]
@@ -127,7 +127,7 @@ def test_pending_outbox_is_retried_before_new_candidates(monkeypatch):
 
 def test_send_crash_leaves_outbox_pending_for_recovery(monkeypatch):
     now = datetime.now(timezone.utc)
-    item = NewsItem("crash", "Nvidia software story", "https://example.com/crash", "s", "S", "", now)
+    item = NewsItem("crash", "Nvidia software story", "https://example.com/crash", "s", "S", "", now, ("Technology",))
     store = _store()
     outbox = []
     store.load_outbox = lambda self: outbox
@@ -371,7 +371,7 @@ def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
         "TechCrunch",
         "",
         now - timedelta(minutes=5),
-        (),
+        ("Technology",),
     )
     newer_duplicate = NewsItem(
         "newer",
@@ -381,7 +381,7 @@ def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
         "WIRED",
         "",
         now - timedelta(minutes=1),
-        (),
+        ("Technology",),
     )
     store = _store()
     published = []
