@@ -7,6 +7,7 @@ import requests
 
 
 TELEGRAM_MESSAGE_LIMIT = 4096
+TELEGRAM_CAPTION_LIMIT = 1024
 FOOTER_MARKER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
 
 
@@ -33,9 +34,7 @@ def _post(token, method, payload, max_rate_limit_retries=2):
             json=payload,
             timeout=30,
         )
-        # Telegram answers 4xx with a JSON body ({"ok": false, ...}). Read the
-        # body first; calling raise_for_status() first turned every rejection
-        # into requests.HTTPError, which bypassed the fallback entirely.
+        # Read the JSON body first; Telegram answers 4xx with {"ok": false, ...}.
         try:
             data = response.json()
         except ValueError:
@@ -73,24 +72,22 @@ def _rich_html_to_plain_text(value: str) -> str:
     return text.strip()
 
 
-def _truncate_plain(plain: str) -> str:
-    # sendMessage has a 4096-character limit. Preserve the end of the post so
-    # the source and channel footer remain visible after truncation.
-    if len(plain) <= TELEGRAM_MESSAGE_LIMIT:
+def _truncate_plain(plain: str, limit: int = TELEGRAM_MESSAGE_LIMIT) -> str:
+    # Preserve the end of the post so the source and channel footer stay visible.
+    if len(plain) <= limit:
         return plain
     if FOOTER_MARKER in plain:
         body, _tail = plain.split(FOOTER_MARKER, 1)
         body = body.rstrip()
-        # Keep the "source" line that sits just above the footer.
         source_line = ""
         if "\n" in body:
             head, last_line = body.rsplit("\n", 1)
             if last_line.startswith("📡"):
                 body, source_line = head.rstrip(), last_line
         suffix = "\n…\n" + (source_line + "\n" if source_line else "") + FOOTER_MARKER
-        available = max(0, TELEGRAM_MESSAGE_LIMIT - len(suffix))
+        available = max(0, limit - len(suffix))
         return body[:available].rstrip() + suffix
-    return plain[: TELEGRAM_MESSAGE_LIMIT - 1].rstrip() + "…"
+    return plain[: limit - 1].rstrip() + "…"
 
 
 def publish_message(text):
@@ -150,7 +147,11 @@ def build_rich_message_payload(html, image_url=""):
 
 
 def publish_rich_message(html, image_url=""):
-    """Publish a rich news post, with a plain Telegram fallback if needed."""
+    """Publish a rich news post, with a plain Telegram fallback if needed.
+
+    The fallback keeps the image: if Telegram rejects the rich message (for
+    example because of the image itself), the text is sent as a photo caption.
+    """
     token, chat_id = _credentials()
     payload = build_rich_message_payload(html, image_url)
     try:
@@ -162,13 +163,24 @@ def publish_rich_message(html, image_url=""):
         if not plain:
             raise
         print(f"[TELEGRAM_FALLBACK] sendRichMessage rejected: {rich_error}")
+        if image_url:
+            caption = html_lib.escape(_truncate_plain(plain, TELEGRAM_CAPTION_LIMIT - 40))
+            try:
+                return _post(
+                    token,
+                    "sendPhoto",
+                    {"chat_id": chat_id, "photo": image_url, "caption": caption, "parse_mode": "HTML"},
+                )
+            except Exception as photo_error:
+                print(f"[TELEGRAM_PHOTO_FALLBACK] image rejected, sending text only: {photo_error}")
         try:
             return _post(
                 token,
                 "sendMessage",
                 {
                     "chat_id": chat_id,
-                    "text": _truncate_plain(plain),
+                    "text": html_lib.escape(_truncate_plain(plain)),
+                    "parse_mode": "HTML",
                     "disable_web_page_preview": True,
                 },
             )
