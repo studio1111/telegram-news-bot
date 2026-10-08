@@ -10,22 +10,20 @@ import requests
 
 from .ai import find_duplicate_groups, process_with_gemini
 from .collector import collect_feed, fetch_article_image_url, fetch_article_text
-from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_duplicate_story, is_new_item, is_recent_news, is_technology_feed_item
-from .filtering import is_publishable_technology
+from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
 
 
 GEMINI_WORKERS = 8
 IMAGE_WORKERS = 8
-# Safety net only: the job must finish and persist its state before the 30 minute
-# workflow timeout. Stories not reached are NOT marked as seen, so the next run
+# Safety net only: the job must finish and persist its state before the workflow timeout. Stories not reached are NOT marked as seen, so the next run
 # picks them up (they stay inside the news window).
 RUN_DEADLINE_SECONDS = 1200
-# The workflow passes NEWS_WINDOW_MINUTES (currently 45). A delayed or failed run
+# The workflow passes NEWS_WINDOW_MINUTES (currently 90). A delayed or failed run
 # must never lose stories, so the effective window is never shorter than this.
 # "seen" and the duplicate filters prevent repeats inside the wider window.
-MIN_NEWS_WINDOW_MINUTES = 360
+MIN_NEWS_WINDOW_MINUTES = 90
 NEWS_WINDOW = max(NEWS_WINDOW_MINUTES, MIN_NEWS_WINDOW_MINUTES)
 # Gemini duplicate grouping: new stories per request and published stories shown as context.
 SEMANTIC_CHUNK = 80
@@ -41,8 +39,6 @@ def _outbox_key(item):
     return "url:" + hashlib.sha256(item.url.encode("utf-8")).hexdigest()
 
 
-PERSIAN_FALLBACK_SOURCES = {"Digiato", "Vigiato"}
-
 
 def _story_record(item, processed=None):
     record = {"title": item.title, "summary": item.summary, "url": item.url}
@@ -55,11 +51,7 @@ def _story_record(item, processed=None):
 def _image_candidate_score(item):
     # Preferred English sources outrank Persian fallbacks for the same event.
     # Image availability is the next tie-breaker, then publication time.
-    return (
-        item.source not in PERSIAN_FALLBACK_SOURCES,
-        bool(item.image_url),
-        _published_key(item),
-    )
+    return (bool(item.image_url), _published_key(item))
 
 
 def _delivery_unknown(exc):
@@ -194,7 +186,7 @@ def _hydrate_missing_images(candidates, deadline):
 def _collect_recent_items(sources, seen, now):
     """Collect every unseen, recent item from every feed. There is no candidate cap."""
     candidates = []
-    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "technology_items": 0}
+    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "accepted_items": 0, "advertisements": 0}
     batch_keys = set()
     for source in sources:
         try:
@@ -212,11 +204,15 @@ def _collect_recent_items(sources, seen, now):
             if item.published_at is None:
                 missing_dates += 1
                 continue
-            if is_recent_news(item.published_at, now, NEWS_WINDOW) and is_technology_feed_item(item.categories, item.source):
-                candidates.append(item)
-                stats["technology_items"] += 1
-                batch_keys.update((item.item_id, item.url))
-                recent += 1
+            if not is_recent_news(item.published_at, now, NEWS_WINDOW):
+                continue
+            if is_advertisement(item.title, item.summary, item.categories):
+                stats["advertisements"] += 1
+                continue
+            candidates.append(item)
+            stats["accepted_items"] += 1
+            batch_keys.update((item.item_id, item.url))
+            recent += 1
         stats["unseen_items"] += unseen
         stats["recent_items"] += recent
         stats["missing_dates"] += missing_dates
@@ -300,7 +296,7 @@ def main():
 
     now = datetime.now(timezone.utc)
     deadline = time.monotonic() + RUN_DEADLINE_SECONDS
-    published_count = ai_failed = duplicates = telegram_failed = publish_failed = skipped_non_tech = 0
+    published_count = ai_failed = duplicates = telegram_failed = publish_failed = 0
     candidates = []
 
     def persist():
@@ -362,13 +358,6 @@ def main():
                 print("[DEADLINE] reached before Telegram publishing")
                 break
 
-            # Technology-only gate: never publish (or re-process) other topics.
-            if not is_publishable_technology(item.categories, item.source, processed.get("category", "")):
-                skipped_non_tech += 1
-                seen.update((item.item_id, item.url))
-                print(f"[SKIPPED_NON_TECH] source={item.source} category={processed.get('category', '')} url={item.url}")
-                continue
-
             # Layer 3: re-check against history, including stories sent earlier in this run,
             # using both the source text and the Persian text that will actually be posted.
             story = _story_record(item)
@@ -429,7 +418,7 @@ def main():
             print(f"[PUBLISHED] source={item.source} image={'yes' if image_url else 'no'} url={item.url}")
     finally:
         persist()
-        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed} non_tech={skipped_non_tech}")
+        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed}")
 
 
 if __name__ == "__main__":

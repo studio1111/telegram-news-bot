@@ -234,3 +234,44 @@ def test_technology_tag_is_required_for_mixed_and_dedicated_sources():
     assert is_publishable_technology(("Technology",), "TechCrunch", "world")
     assert not is_publishable_technology((), "TechCrunch", "technology")
     assert not is_publishable_technology(("Politics",), "The Guardian Technology", "technology")
+
+
+def test_advertisement_filter_rejects_explicit_sponsored_items():
+    from app.core import is_advertisement
+    assert is_advertisement("Sponsored: best laptops", "Paid post from a partner") is True
+    assert is_advertisement("Google launches a new AI tool", "The company announced the product") is False
+
+
+def test_persian_rewrites_of_same_synthid_event_are_duplicates():
+    from app.core import is_duplicate_story
+    first = {
+        "title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی",
+        "summary": "شرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که با فناوری سینث‌آی‌دی (SynthID) محتوای تولیدشده با هوش مصنوعی را شناسایی می‌کند.",
+        "url": "https://example.com/first",
+    }
+    second = {
+        "title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+        "summary": "شرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را برای شناسایی محتوای تولیدشده با هوش مصنوعی عرضه کرده است.",
+        "url": "https://example.com/second",
+    }
+    assert is_duplicate_story(second, [first])
+
+
+def test_non_identical_google_events_are_not_collapsed():
+    from app.core import is_duplicate_story
+    first = {
+        "title": "Google launches SynthID Detector",
+        "summary": "Google launches a website for detecting AI-generated media.",
+        "url": "https://example.com/first",
+    }
+    second = {
+        "title": "Google opens a new data center",
+        "summary": "Google opens a new data center to expand cloud capacity.",
+        "url": "https://example.com/second",
+    }
+    assert not is_duplicate_story(second, [first])
+
+
+def test_news_window_default_is_ninety_minutes():
+    from app.core import NEWS_WINDOW_MINUTES
+    assert NEWS_WINDOW_MINUTES == 90

@@ -6,18 +6,6 @@
     "priority": 10
   },
   {
-    "name": "WIRED",
-    "url": "https://www.wired.com/feed/rss",
-    "limit": 100,
-    "priority": 10
-  },
-  {
-    "name": "Ars Technica",
-    "url": "https://feeds.arstechnica.com/arstechnica/index",
-    "limit": 100,
-    "priority": 10
-  },
-  {
     "name": "The Verge",
     "url": "https://www.theverge.com/rss/index.xml",
     "limit": 100,
@@ -28,31 +16,5 @@
     "url": "https://www.engadget.com/rss.xml",
     "limit": 100,
     "priority": 10
-  },
-  {
-    "name": "BBC Technology",
-    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-    "limit": 100,
-    "priority": 10
-  },
-  {
-    "name": "The Guardian Technology",
-    "url": "https://www.theguardian.com/technology/rss",
-    "limit": 100,
-    "priority": 10
-  },
-  {
-    "name": "Digiato",
-    "url": "https://digiato.com/feed",
-    "limit": 100,
-    "priority": 100,
-    "fallback_only": true
-  },
-  {
-    "name": "Vigiato",
-    "url": "https://vigiato.net/feed",
-    "limit": 100,
-    "priority": 100,
-    "fallback_only": true
   }
 ]

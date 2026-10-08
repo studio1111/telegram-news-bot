@@ -321,7 +321,7 @@ def test_missing_rss_image_is_recovered_from_article_page(monkeypatch):
     assert recovered[0].image_url == "https://example.com/recovered.jpg"
 
 
-def test_persian_sources_are_fallback_only_when_image_priority_ties():
+def test_duplicate_priority_prefers_image_over_source_name():
     from datetime import datetime, timezone
     english = NewsItem(
         "en", "Google launches SynthID Detector", "https://example.com/en",
@@ -337,10 +337,10 @@ def test_persian_sources_are_fallback_only_when_image_priority_ties():
     )
     result = news_main._prioritize_duplicate_candidates([english, persian])
     assert len(result) == 1
-    assert result[0].source == "TechCrunch"
+    assert result[0].source == "Digiato"
 
 
-def test_candidate_collection_rejects_source_without_technology_tag(monkeypatch):
+def test_candidate_collection_accepts_source_without_technology_tag(monkeypatch):
     now = datetime.now(timezone.utc)
     item = NewsItem(
         "dedicated-source",
@@ -358,7 +358,7 @@ def test_candidate_collection_rejects_source_without_technology_tag(monkeypatch)
         set(),
         now,
     )
-    assert result == []
+    assert result == [item]
 
 
 def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
@@ -401,7 +401,7 @@ def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
     assert published == ["https://example.com/recovered.jpg"]
 
 
-def test_english_duplicate_outranks_persian_fallback_even_when_persian_has_image():
+def test_duplicate_priority_prefers_image_even_when_source_is_different():
     english = NewsItem(
         "en-no-image",
         "Google launches SynthID Detector",
@@ -424,7 +424,7 @@ def test_english_duplicate_outranks_persian_fallback_even_when_persian_has_image
     )
     result = news_main._prioritize_duplicate_candidates([english, persian])
     assert len(result) == 1
-    assert result[0].source == "TechCrunch"
+    assert result[0].source == "Digiato"
 
 
 def test_final_technology_gate_never_accepts_gemini_or_source_alone():
@@ -432,3 +432,19 @@ def test_final_technology_gate_never_accepts_gemini_or_source_alone():
     assert is_publishable_technology((), "TechCrunch", "technology") is False
     assert is_publishable_technology(("Politics",), "The Guardian Technology", "technology") is False
     assert is_publishable_technology(("Technology",), "Any Source", "world") is True
+
+
+def test_candidate_collection_accepts_untagged_news_from_allowed_source(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem("news", "Google launches a new phone", "https://example.com/news", "Product announcement", "TechCrunch", "", now - timedelta(minutes=5), ())
+    monkeypatch.setattr(news_main, "collect_feed", lambda *args: [item])
+    result = news_main._collect_recent_items([{"url": "https://example.com/feed", "name": "TechCrunch", "limit": 100}], set(), now)
+    assert result == [item]
+
+
+def test_candidate_collection_rejects_explicit_advertisement(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem("ad", "Sponsored: best phones", "https://example.com/ad", "Paid post from partner", "The Verge", "", now - timedelta(minutes=5), ())
+    monkeypatch.setattr(news_main, "collect_feed", lambda *args: [item])
+    result = news_main._collect_recent_items([{"url": "https://example.com/feed", "name": "The Verge", "limit": 100}], set(), now)
+    assert result == []
