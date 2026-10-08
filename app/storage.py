@@ -4,9 +4,19 @@ import os
 import re
 from pathlib import Path
 
+
+def _env_int(name, default):
+    try:
+        return int(os.environ.get(name, default))
+    except (TypeError, ValueError):
+        return default
+
+
 STATE_SCHEMA_VERSION = 5
-MAX_SEEN = 5000
-MAX_PUBLISHED_STORIES = 500
+# Retention caps only bound the size of state.json; they are configurable from
+# the workflow environment so they can be raised without code changes.
+MAX_SEEN = _env_int("MAX_SEEN", 5000)
+MAX_PUBLISHED_STORIES = _env_int("MAX_PUBLISHED_STORIES", 500)
 MAX_OUTBOX = 100
 
 

@@ -7,6 +7,8 @@ import requests
 
 
 TELEGRAM_MESSAGE_LIMIT = 4096
+CAPTION_LIMIT = 1024
+MAX_IMAGE_BYTES = 10 * 1024 * 1024
 FOOTER_MARKER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
 
 
@@ -26,7 +28,7 @@ def _credentials():
     return token, chat_id
 
 
-def _post(token, method, payload, max_rate_limit_retries=2):
+def _post(token, method, payload, max_rate_limit_retries=5):
     for attempt in range(max_rate_limit_retries + 1):
         response = requests.post(
             f"https://api.telegram.org/bot{token}/{method}",
@@ -63,6 +65,24 @@ def _post(token, method, payload, max_rate_limit_retries=2):
     raise TelegramAPIError(f"Telegram rate limit persisted in {method}", fallback_safe=False)
 
 
+def _post_multipart(token, method, data, files):
+    """Upload bytes (used when Telegram cannot fetch an image URL itself)."""
+    response = requests.post(
+        f"https://api.telegram.org/bot{token}/{method}",
+        data=data,
+        files=files,
+        timeout=60,
+    )
+    try:
+        body = response.json()
+    except ValueError:
+        body = None
+    if not isinstance(body, dict) or not body.get("ok"):
+        description = body.get("description") if isinstance(body, dict) else "non-JSON response"
+        raise TelegramAPIError(f"Telegram upload failed in {method}: {description}")
+    return body
+
+
 def _rich_html_to_plain_text(value: str) -> str:
     text = re.sub(r"<img[^>]*>", "", value or "", flags=re.IGNORECASE)
     text = re.sub(r"</?(?:details|summary|p|br|div|section|article)[^>]*>", "\n", text, flags=re.IGNORECASE)
@@ -73,10 +93,10 @@ def _rich_html_to_plain_text(value: str) -> str:
     return text.strip()
 
 
-def _truncate_plain(plain: str) -> str:
-    # sendMessage has a 4096-character limit. Preserve the end of the post so
-    # the source and channel footer remain visible after truncation.
-    if len(plain) <= TELEGRAM_MESSAGE_LIMIT:
+def _truncate_plain(plain: str, limit: int = TELEGRAM_MESSAGE_LIMIT) -> str:
+    # sendMessage has a 4096-character limit (captions 1024). Preserve the end
+    # of the post so the source and channel footer remain visible after truncation.
+    if len(plain) <= limit:
         return plain
     if FOOTER_MARKER in plain:
         body, _tail = plain.split(FOOTER_MARKER, 1)
@@ -88,9 +108,9 @@ def _truncate_plain(plain: str) -> str:
             if last_line.startswith("📡"):
                 body, source_line = head.rstrip(), last_line
         suffix = "\n…\n" + (source_line + "\n" if source_line else "") + FOOTER_MARKER
-        available = max(0, TELEGRAM_MESSAGE_LIMIT - len(suffix))
+        available = max(0, limit - len(suffix))
         return body[:available].rstrip() + suffix
-    return plain[: TELEGRAM_MESSAGE_LIMIT - 1].rstrip() + "…"
+    return plain[: limit - 1].rstrip() + "…"
 
 
 def publish_message(text):
@@ -120,6 +140,45 @@ def publish_photo(image_url, caption):
             "caption": caption,
             "parse_mode": "HTML",
         },
+    )
+
+
+def _download_image(image_url):
+    """Fetch an image ourselves; some CDNs block Telegram's servers (hotlink protection)."""
+    response = requests.get(
+        image_url,
+        timeout=20,
+        stream=True,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; MyNewsTechnology/1.0)"},
+    )
+    response.raise_for_status()
+    content_type = str(response.headers.get("Content-Type", "")).split(";")[0].strip().lower()
+    if not content_type.startswith("image/"):
+        raise ValueError(f"not an image: {content_type or 'unknown content type'}")
+    chunks, total = [], 0
+    for chunk in response.iter_content(chunk_size=65536):
+        if not chunk:
+            continue
+        total += len(chunk)
+        if total > MAX_IMAGE_BYTES:
+            raise ValueError("image too large")
+        chunks.append(chunk)
+    return b"".join(chunks), content_type
+
+
+def _send_photo_plain(token, chat_id, image_url, caption):
+    """Send a photo with a plain-text caption: by URL first, then by uploading the bytes."""
+    try:
+        return _post(token, "sendPhoto", {"chat_id": chat_id, "photo": image_url, "caption": caption})
+    except TelegramAPIError as url_error:
+        print(f"[TELEGRAM_PHOTO_URL_REJECTED] {url_error}")
+    data, content_type = _download_image(image_url)
+    extension = content_type.split("/", 1)[-1].replace("jpeg", "jpg") or "jpg"
+    return _post_multipart(
+        token,
+        "sendPhoto",
+        {"chat_id": chat_id, "caption": caption},
+        {"photo": (f"image.{extension}", data, content_type)},
     )
 
 
@@ -162,6 +221,17 @@ def publish_rich_message(html, image_url=""):
         if not plain:
             raise
         print(f"[TELEGRAM_FALLBACK] sendRichMessage rejected: {rich_error}")
+        photo_result = None
+        if image_url:
+            # Keep the picture: the old fallback silently dropped it.
+            first_line = plain.split("\n", 1)[0]
+            caption = _truncate_plain(plain, CAPTION_LIMIT) if len(plain) <= CAPTION_LIMIT else _truncate_plain(first_line, CAPTION_LIMIT)
+            try:
+                photo_result = _send_photo_plain(token, chat_id, image_url, caption)
+            except Exception as photo_error:
+                print(f"[TELEGRAM_PHOTO_ERROR] image dropped, sending text only: {photo_error}")
+            if photo_result is not None and len(plain) <= CAPTION_LIMIT:
+                return photo_result
         try:
             return _post(
                 token,
@@ -173,6 +243,11 @@ def publish_rich_message(html, image_url=""):
                 },
             )
         except Exception as fallback_error:
+            if photo_result is not None:
+                # The photo (with the headline) is already in the channel; do not
+                # fail the story, or the retry would post the photo a second time.
+                print(f"[TELEGRAM_TEXT_AFTER_PHOTO_ERROR] {fallback_error}")
+                return photo_result
             raise RuntimeError(
                 f"Telegram rich message failed: {rich_error}; "
                 f"plain message fallback failed: {fallback_error}"
