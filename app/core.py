@@ -294,18 +294,25 @@ _TECHNOLOGY_CATEGORIES = {"technology", "technologies", "tech", "artificial inte
 
 
 
-_AD_MARKERS = (
-    "sponsored", "advertorial", "advertisement", "advertising", "paid post",
+_AD_CATEGORY_MARKERS = {
+    "sponsored", "advertorial", "advertisement", "paid post",
     "partner content", "promoted content", "sponsor content", "sponsored content",
     "تبلیغ", "تبلیغاتی", "محتوای تبلیغاتی", "محتوای اسپانسری", "اسپانسر",
+}
+_AD_TITLE_PREFIX = re.compile(
+    r"^(?:sponsored|advertorial|advertisement|paid\\s+post|partner\\s+content|"
+    r"promoted\\s+content|sponsor(?:ed)?\\s+content|"
+    r"تبلیغ|محتوای\\s+تبلیغاتی|محتوای\\s+اسپانسری|اسپانسر)\\b\\s*[:|\\-]",
+    re.IGNORECASE,
 )
 
 
 def is_advertisement(title: str = "", summary: str = "", categories=()) -> bool:
-    """Reject only explicit advertising/sponsored feed items, not ordinary news."""
-    values = [title or "", summary or ""] + list(categories or ())
-    text = normalize_text(" ".join(values)).lower()
-    return any(marker in text for marker in _AD_MARKERS)
+    """Reject explicit sponsored/promotional items without filtering ordinary ad news."""
+    category_values = {normalize_text(value).lower() for value in (categories or ())}
+    if category_values & _AD_CATEGORY_MARKERS:
+        return True
+    return bool(_AD_TITLE_PREFIX.search(normalize_text(title)))
 
 
 def is_technology_news(category: str) -> bool:
