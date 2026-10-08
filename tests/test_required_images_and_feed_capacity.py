@@ -11,7 +11,7 @@ def test_hydrate_missing_images_drops_stories_without_a_recoverable_image(monkey
     def fake_fetch(url):
         return "https://cdn.example.com/story.jpg" if url.endswith("/1") else ""
 
-    monkeypatch.setattr(main, "fetch_article_image_url", fake_fetch)
+    monkeypatch.setattr(main, "resolve_article_image_url", lambda url, preferred="": fake_fetch(url))
     result = main._hydrate_missing_images([item_with_image, item_without_image], main.time.monotonic() + 5)
 
     assert [item.url for item in result] == ["https://example.com/1"]
