@@ -45,7 +45,6 @@ def _canonicalize_event_text(value: str) -> str:
     for source, target in sorted(_EVENT_TEXT_ALIASES.items(), key=lambda pair: len(pair[0]), reverse=True):
         text = text.replace(source, target)
     return text
-}
 
 _STOP_WORDS = {
     "the", "a", "an", "to", "of", "and", "for", "in", "on", "by", "with",
