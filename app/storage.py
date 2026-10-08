@@ -4,7 +4,7 @@ import os
 import re
 from pathlib import Path
 
-STATE_SCHEMA_VERSION = 5
+STATE_SCHEMA_VERSION = 6
 MAX_SEEN = 5000
 MAX_PUBLISHED_STORIES = 500
 MAX_OUTBOX = 100
@@ -109,11 +109,15 @@ class StateStore:
                     rendered_enriched = True
                 break
 
+        last_run_at = data.get("last_run_at", "")
+        if not isinstance(last_run_at, str):
+            last_run_at = ""
         return {
             "schema_version": STATE_SCHEMA_VERSION,
             "seen": raw_seen,
             "published_stories": migrated_records,
             "outbox": outbox,
+            "last_run_at": last_run_at,
         }, data.get("schema_version") != STATE_SCHEMA_VERSION or dropped_empty_url_records or rendered_enriched
 
     def _migrated_data(self):
@@ -157,6 +161,7 @@ class StateStore:
             "seen": ordered[-MAX_SEEN:],
             "published_stories": list(records)[-MAX_PUBLISHED_STORIES:],
             "outbox": list(outbox)[-MAX_OUTBOX:],
+            "last_run_at": current.get("last_run_at", ""),
         }
         self._write(data)
 
@@ -169,3 +174,12 @@ class StateStore:
                 changed = True
         if changed:
             self._write(data)
+
+
+    def load_last_run_at(self):
+        return self._migrated_data().get("last_run_at", "")
+
+    def set_last_run_at(self, value):
+        data = self._migrated_data()
+        data["last_run_at"] = value
+        self._write(data)
