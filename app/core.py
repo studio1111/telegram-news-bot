@@ -299,12 +299,7 @@ _AD_CATEGORY_MARKERS = {
     "partner content", "promoted content", "sponsor content", "sponsored content",
     "تبلیغ", "تبلیغاتی", "محتوای تبلیغاتی", "محتوای اسپانسری", "اسپانسر",
 }
-_AD_TITLE_PREFIX = re.compile(
-    r"^(?:sponsored|advertorial|advertisement|paid\\s+post|partner\\s+content|"
-    r"promoted\\s+content|sponsor(?:ed)?\\s+content|"
-    r"تبلیغ|محتوای\\s+تبلیغاتی|محتوای\\s+اسپانسری|اسپانسر)\\b\\s*[:|\\-]",
-    re.IGNORECASE,
-)
+_AD_TITLE_PREFIXES = tuple(sorted(_AD_CATEGORY_MARKERS, key=len, reverse=True))
 
 
 def is_advertisement(title: str = "", summary: str = "", categories=()) -> bool:
@@ -312,7 +307,14 @@ def is_advertisement(title: str = "", summary: str = "", categories=()) -> bool:
     category_values = {normalize_text(value).lower() for value in (categories or ())}
     if category_values & _AD_CATEGORY_MARKERS:
         return True
-    return bool(_AD_TITLE_PREFIX.search(normalize_text(title)))
+    normalized_title = normalize_text(title).lower()
+    return any(
+        normalized_title == marker
+        or normalized_title.startswith(marker + ":")
+        or normalized_title.startswith(marker + " |")
+        or normalized_title.startswith(marker + " -")
+        for marker in _AD_TITLE_PREFIXES
+    )
 
 
 def is_technology_news(category: str) -> bool:
