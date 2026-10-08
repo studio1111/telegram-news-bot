@@ -1,10 +1,10 @@
 from pathlib import Path
 
 
-def test_news_workflow_uses_30_minute_schedule_and_safe_state_push():
+def test_news_workflow_uses_60_minute_schedule_and_safe_state_push():
     workflow = Path(__file__).parents[1].joinpath(".github", "workflows", "news.yml").read_text()
 
-    assert 'cron: "8,38 * * * *"' in workflow
+    assert 'cron: "8 * * * *"' in workflow
     temporary_trigger = "# temporary-validation-trigger" in workflow
     if not temporary_trigger:
         assert "\n  push:" not in workflow
@@ -25,7 +25,7 @@ def test_state_persistence_skips_cleanly_when_publish_has_no_state_artifact():
 
 
 
-def test_news_workflow_uses_30_minute_schedule_and_75_minute_timeout():
+def test_news_workflow_uses_60_minute_schedule_and_75_minute_timeout():
     workflow = Path(__file__).parents[1].joinpath(".github", "workflows", "news.yml").read_text()
     assert 'cron: "8,38 * * * *"' in workflow
     assert "timeout-minutes: 75" in workflow
