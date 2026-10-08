@@ -32,9 +32,9 @@ def test_main_uses_90_minute_window():
     assert not news_main.is_recent_news(now-timedelta(minutes=91), now)
 
 
-def test_candidate_collection_checks_later_sources_before_capping(monkeypatch):
+def test_candidate_collection_checks_later_sources_without_cap(monkeypatch):
     now = datetime.now(timezone.utc)
-    first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1), ("Technology",)) for i in range(news_main.MAX_CANDIDATES)]
+    first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1), ("Technology",)) for i in range(30)]
     later = NewsItem("later", "OpenAI AI model software story", "https://example.com/later", "s", "Later", "", now-timedelta(minutes=60), ("Technology",))
     calls = []
 
@@ -51,16 +51,16 @@ def test_candidate_collection_checks_later_sources_before_capping(monkeypatch):
     result = news_main._collect_recent_items(sources, set(), now)
 
     assert calls == ["First", "Later"]
-    assert len(result) == news_main.MAX_CANDIDATES
+    assert len(result) == 31
     assert any(item.url == later.url for item in result)
 
 
-def test_candidate_collection_is_capped(monkeypatch):
+def test_candidate_collection_is_not_capped(monkeypatch):
     now = datetime.now(timezone.utc)
-    items = [NewsItem(str(i), f"Story {i}", f"https://example.com/{i}", "s", "S", "", now-timedelta(minutes=i), ("Technology",)) for i in range(news_main.MAX_CANDIDATES + 5)]
+    items = [NewsItem(str(i), f"Story {i}", f"https://example.com/{i}", "s", "S", "", now-timedelta(minutes=i), ("Technology",)) for i in range(35)]
     monkeypatch.setattr(news_main, "collect_feed", lambda *a, **k: items)
     result = news_main._collect_recent_items([{"url":"https://example.com/feed", "name":"S", "limit":100}], set(), now)
-    assert len(result) == news_main.MAX_CANDIDATES
+    assert len(result) == 35
 
 
 def test_incomplete_gemini_result_does_not_crash_run(monkeypatch):
