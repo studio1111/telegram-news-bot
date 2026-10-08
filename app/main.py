@@ -397,9 +397,10 @@ def main():
                     future.cancel()
                 executor.shutdown(wait=False, cancel_futures=True)
 
-        processed_results = _sort_newest_first([result[0] for result in processed_results])
-        processed_by_item = {item.url: result for result in processed_results}
-        processed_results = [processed_by_item[item.url] for item in processed_results]
+        processed_results.sort(
+            key=lambda result: (result[0].published_at is not None, _published_key(result[0])),
+            reverse=True,
+        )
         for item, image_url, processed in processed_results:
             if time.monotonic() >= deadline:
                 print("[DEADLINE] reached before Telegram publishing")
