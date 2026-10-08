@@ -9,6 +9,7 @@ import time
 import requests
 
 from .ai import find_duplicate_groups, process_with_gemini
+from .semantic_dedup import find_semantic_relations
 from .collector import collect_feed, fetch_article_image_url, fetch_article_text
 from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
@@ -101,51 +102,67 @@ def _prioritize_duplicate_candidates(candidates):
 
 
 def _semantic_dedup(candidates, history, seen, deadline):
-    """Drop candidates that report the same event as a published story or as a better candidate.
-
-    The word-overlap filter cannot match paraphrases or Persian vs English
-    rewrites of the same event, so Gemini groups them. If Gemini fails the
-    candidates are kept (the word-overlap filters still apply).
-    """
-    if not candidates or (len(candidates) < 2 and not history):
-        return candidates, 0
-    if time.monotonic() >= deadline:
+    """Use embeddings first and keep the previous Gemini grouping as a safe fallback."""
+    if not candidates or time.monotonic() >= deadline:
         return candidates, 0
     recent = list(history)[-SEMANTIC_HISTORY:]
-    kept = []
-    removed = 0
-    for start in range(0, len(candidates), SEMANTIC_CHUNK):
-        chunk = candidates[start:start + SEMANTIC_CHUNK]
-        if time.monotonic() >= deadline:
-            kept.extend(candidates[start:])
-            break
-        context = recent + [_story_record(item) for item in kept][-SEMANTIC_CHUNK:]
-        records = [dict(_story_record(item), source=item.source) for item in chunk]
+    records = [_story_record(item) for item in candidates]
+    try:
+        relations = find_semantic_relations(records, recent)
+    except Exception as exc:
+        print(f"[SEMANTIC_DEDUP_ERROR] {exc}; falling back to legacy Gemini grouping")
         try:
-            groups = find_duplicate_groups(records, context)
-        except Exception as exc:
-            print(f"[SEMANTIC_DEDUP_ERROR] {exc}")
-            kept.extend(chunk)
-            continue
+            groups = find_duplicate_groups(records, recent)
+        except Exception as fallback_exc:
+            print(f"[LEGACY_SEMANTIC_DEDUP_ERROR] {fallback_exc}")
+            return candidates, 0
         drop = set()
         for group in groups:
-            members = [int(ident[1:]) - 1 for ident in group if ident[0] == "C"]
-            if not members:
-                continue
-            if any(ident[0] == "H" for ident in group):
+            members = [int(value[1:]) - 1 for value in group if isinstance(value, str) and value.startswith("C")]
+            if any(isinstance(value, str) and value.startswith("H") for value in group):
                 drop.update(members)
-            else:
-                winner = max(members, key=lambda index: _image_candidate_score(chunk[index]))
+            elif members:
+                winner = max(members, key=lambda index: _image_candidate_score(candidates[index]))
                 drop.update(index for index in members if index != winner)
-        for index, item in enumerate(chunk):
+        kept = []
+        for index, item in enumerate(candidates):
             if index in drop:
-                removed += 1
                 seen.update((item.item_id, item.url))
                 print(f"[SEMANTIC_DUPLICATE] source={item.source} url={item.url}")
             else:
                 kept.append(item)
-    return kept, removed
+        return kept, len(candidates) - len(kept)
 
+    drop = set()
+    for relation in relations:
+        candidate_indexes = relation.get("candidate_indexes", [])
+        relation_type = relation.get("relation_type", "DISTINCT")
+        confidence = float(relation.get("confidence", 0.0) or 0.0)
+        if relation_type == "DUPLICATE" and confidence >= 0.70:
+            if relation.get("history_match"):
+                drop.update(candidate_indexes)
+            elif candidate_indexes:
+                winner = max(
+                    candidate_indexes,
+                    key=lambda index: _image_candidate_score(candidates[index]),
+                )
+                drop.update(index for index in candidate_indexes if index != winner)
+        elif relation_type == "UPDATE" and confidence >= 0.70:
+            print(
+                f"[SEMANTIC_UPDATE] candidates={candidate_indexes} "
+                f"confidence={confidence:.2f}"
+            )
+
+    kept = []
+    removed = 0
+    for index, item in enumerate(candidates):
+        if index in drop:
+            removed += 1
+            seen.update((item.item_id, item.url))
+            print(f"[SEMANTIC_DUPLICATE] source={item.source} url={item.url}")
+        else:
+            kept.append(item)
+    return kept, removed
 
 def _hydrate_missing_images(candidates, deadline):
     missing = [item for item in candidates if not item.image_url]
@@ -337,7 +354,8 @@ def main():
                 continue
             ai_candidates.append(item)
 
-        # Layer 2: Gemini groups paraphrases and Persian/English rewrites of one event.
+        # Layer 2: Gemini Embedding 2 retrieves likely matches, then Gemini verifies
+        # the real-world event and separates DUPLICATE from UPDATE.
         ai_candidates, semantic_duplicates = _semantic_dedup(
             ai_candidates, _dedup_history(published_stories, outbox), seen, deadline
         )
