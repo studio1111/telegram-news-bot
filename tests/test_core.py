@@ -5,7 +5,7 @@ from app.core import NEWS_WINDOW_MINUTES, build_expanded_message, build_rich_mes
 def test_normalize_text_collapses_whitespace(): assert normalize_text("  خبر   فوری\n\n امروز  ") == "خبر فوری امروز"
 def test_is_new_item_uses_stable_id_and_url():
     seen={"abc","https://example.com/old"}; assert not is_new_item("abc","https://example.com/new",seen); assert not is_new_item("xyz","https://example.com/old",seen); assert is_new_item("xyz","https://example.com/new",seen)
-def test_news_window_is_90_minutes(): assert NEWS_WINDOW_MINUTES == 90
+def test_news_window_default_is_90_minutes(): assert NEWS_WINDOW_MINUTES == 90
 def test_news_window_boundaries():
     now=datetime(2026,10,6,18,30,tzinfo=timezone.utc); assert is_recent_news(now-timedelta(minutes=45),now); assert is_recent_news(now-timedelta(minutes=90),now); assert not is_recent_news(now-timedelta(minutes=90,seconds=1),now); assert is_recent_news(now+timedelta(minutes=1),now); assert not is_recent_news(now+timedelta(hours=1),now)
 def test_build_telegram_message_uses_expanding_article_without_source_url():
@@ -114,13 +114,134 @@ def test_different_google_products_are_not_duplicates_without_shared_product_ent
     assert not is_duplicate_story(different, [first])
 
 
-def test_same_company_different_products_are_not_duplicates_when_only_company_entity_matches():
+def test_same_company_different_products_are_not_duplicates_when_product_entities_differ():
     first = {
-        "title": "ابزار جدید هوش مصنوعی گوگل (Google) معرفی شد",
-        "summary": "گوگل (Google) ابزار جدید خود را معرفی کرد و کاربران می‌توانند از این فناوری استفاده کنند.",
+        "title": "مدل جدید هوش مصنوعی جیمینی (Gemini) گوگل (Google) معرفی شد",
+        "summary": "گوگل (Google) مدل جیمینی (Gemini) جدید خود را معرفی کرد.",
     }
     different = {
-        "title": "ابزار جدید امنیتی گوگل (Google) معرفی شد",
-        "summary": "گوگل (Google) ابزار جدید خود را معرفی کرد و برای کاربران امنیت بیشتری فراهم می‌کند.",
+        "title": "گوشی جدید پیکسل (Pixel) گوگل (Google) معرفی شد",
+        "summary": "گوگل (Google) گوشی پیکسل (Pixel) جدید خود را معرفی کرد.",
     }
     assert not is_duplicate_story(different, [first])
+
+
+def test_english_synthid_cross_source_rewrites_are_duplicates():
+    first = {
+        "title": "Google's AI detection website is now available",
+        "summary": "SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+        "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+    }
+    rewritten = {
+        "title": "Google’s new SynthID website can identify AI-generated media",
+        "summary": "Google launched a new site that lets anyone verify whether an image, video, or audio clip is generated using AI.",
+        "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+    }
+    assert is_duplicate_story(rewritten, [first])
+
+
+def test_same_google_synthid_context_different_event_is_not_a_duplicate():
+    first = {
+        "title": "Google launches SynthID Detector website for AI-generated media",
+        "summary": "The new detector checks images, video, and audio for SynthID watermarks.",
+    }
+    different = {
+        "title": "Google expands SynthID text watermarking to more AI models",
+        "summary": "The company is adding text watermarking support for developers using new language models.",
+    }
+    assert not is_duplicate_story(different, [first])
+
+
+def test_real_synthid_duplicate_matches_production_state_shape():
+    existing = {
+        "title": "Google's AI detection website is now available",
+        "summary": "SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+        "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+        "display_title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+        "display_summary": "شرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را عرضه کرده است که می‌تواند محتوای تولید شده توسط ابزارهای هوش مصنوعی مختلف را شناسایی کند.",
+    }
+    incoming = {
+        "title": "Google’s new SynthID website can identify AI-generated media",
+        "summary": "Google on Tuesday launched a new site that lets anyone verify whether media is generated using AI.",
+        "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+        "display_title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی شرکت گوگل (Google)",
+        "display_summary": "شرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که با فناوری سینث‌آی‌دی (SynthID) محتوای تولیدشده با هوش مصنوعی را شناسایی می‌کند.",
+    }
+    assert is_duplicate_story(incoming, [existing])
+
+
+def test_technology_feed_category_uses_word_boundaries():
+    from app.core import is_technology_feed_item
+    assert not is_technology_feed_item(("Techniques",), "Any source")
+    assert not is_technology_feed_item(("Biotechnology",), "Any source")
+    assert is_technology_feed_item(("Tech News",), "Any source")
+    assert is_technology_feed_item(("Technology + Computing",), "Any source")
+    assert is_technology_feed_item(("AI Research",), "Any source")
+
+
+def test_persian_technology_categories_are_accepted():
+    from app.core import is_technology_news
+    assert is_technology_news("فناوری")
+    assert is_technology_news("تکنولوژی")
+    assert is_technology_news("هوش مصنوعی")
+
+
+def test_dedicated_technology_sources_require_rss_category_tags():
+    from app.core import is_technology_feed_item
+    for source in (
+        "TechCrunch", "WIRED", "Ars Technica", "The Verge", "Engadget",
+        "BBC Technology", "The Guardian Technology", "Digiato", "Vigiato",
+    ):
+        assert not is_technology_feed_item((), source)
+        assert is_technology_feed_item(("Technology",), source)
+
+
+def test_same_google_synthid_event_is_duplicate_despite_different_titles():
+    first = {
+        "title": "Google launches a new website for identifying AI-generated media",
+        "summary": "Google launches a website using SynthID to identify AI-generated media.",
+        "url": "https://source-a.example/google-ai-media",
+    }
+    second = {
+        "title": "Google releases SynthID Detector for AI content",
+        "summary": "Google releases SynthID Detector to identify AI-generated images, video and audio.",
+        "url": "https://source-b.example/synthid-detector",
+    }
+    assert is_duplicate_story(second, [first])
+
+
+def test_synthid_persian_rewrites_are_duplicates_even_with_different_wording():
+    first = {
+        "title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی",
+        "summary": "گوگل (Google) وب‌سایت جدیدی با فناوری سینث‌آی‌دی (SynthID) برای شناسایی محتوای تولیدشده با هوش مصنوعی راه‌اندازی کرد.",
+    }
+    rewritten = {
+        "title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+        "summary": "گوگل (Google) ابزار سینت‌اید دکتور (SynthID Detector) را برای شناسایی محتوای تولیدشده توسط ابزارهای هوش مصنوعی عرضه کرد.",
+    }
+    assert is_duplicate_story(rewritten, [first])
+
+
+def test_source_name_never_overrides_missing_technology_tag():
+    from app.core import is_technology_feed_item
+    for source in ("TechCrunch", "WIRED", "Ars Technica", "The Verge", "Engadget", "BBC Technology", "The Guardian Technology", "Digiato", "Vigiato"):
+        assert not is_technology_feed_item((), source)
+        assert not is_technology_feed_item(("Politics",), source)
+
+
+def test_technology_tag_is_required_for_mixed_and_dedicated_sources():
+    from app.filtering import is_publishable_technology
+    assert is_publishable_technology(("Technology",), "TechCrunch", "world")
+    assert not is_publishable_technology((), "TechCrunch", "technology")
+    assert not is_publishable_technology(("Politics",), "The Guardian Technology", "technology")
+
+
+def test_allowed_source_and_advertisement_rules():
+    from app.core import is_advertisement, is_allowed_news_source
+    assert is_allowed_news_source("TechCrunch")
+    assert is_allowed_news_source("The Verge")
+    assert is_allowed_news_source("Engadget")
+    assert not is_allowed_news_source("WIRED")
+    assert is_advertisement("Sponsored: Best laptop deals", "Paid promotion", ())
+    assert is_advertisement("Weekly deals", "Advertisement", ("shopping",))
+    assert not is_advertisement("Google launches a new AI tool", "The company announced the product today.", ("technology",))
