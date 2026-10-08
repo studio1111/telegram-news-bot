@@ -137,7 +137,7 @@ def test_send_crash_leaves_outbox_pending_for_recovery(monkeypatch):
     monkeypatch.setattr(news_main, "StateStore", store)
     monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: [item])
     monkeypatch.setattr(news_main, "fetch_article_text", lambda *a, **k: "article")
-    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *a, **k: "")
+    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *a, **k: "https://example.com/crash.jpg")
     monkeypatch.setattr(news_main, "process_with_gemini", lambda *a, **k: _tech("خبر", "خلاصه"))
     def crash_publish(message, image):
         raise KeyboardInterrupt
