@@ -113,11 +113,11 @@ jobs:
       actions: write
       contents: read
     steps:
-      - name: Keep only the latest 15 workflow runs
+      - name: Keep only the latest 30 workflow runs
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh run list --workflow news.yml --limit 100 --json databaseId,createdAt --jq 'sort_by(.createdAt) | reverse | .[15:] | .[].databaseId' |
+          gh run list --workflow news.yml --limit 100 --json databaseId,createdAt --jq 'sort_by(.createdAt) | reverse | .[30:] | .[].databaseId' |
           while read -r run_id; do
             [ -z "$run_id" ] || gh run delete "$run_id" || true
           done
