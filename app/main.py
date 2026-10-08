@@ -1,5 +1,6 @@
 import hashlib
 import json
+import os
 from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError as FuturesTimeout
 from dataclasses import replace
 from datetime import datetime, timezone
@@ -8,16 +9,34 @@ import time
 
 from .ai import process_with_gemini
 from .collector import collect_feed, fetch_article_image_url, fetch_article_text
-from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_duplicate_story, is_new_item, is_recent_news, is_technology_feed_item
+from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_duplicate_story, is_new_item, is_recent_news, is_technology_feed_item, is_technology_news
+from .dedup_ai import find_duplicate_by_ai
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
 
 
+def _env_int(name, default):
+    try:
+        return int(os.environ.get(name, default))
+    except (TypeError, ValueError):
+        return default
+
+
 GEMINI_WORKERS = 8
 IMAGE_WORKERS = 8
-MAX_CANDIDATES = 30
-RUN_DEADLINE_SECONDS = 600
+# MAX_CANDIDATES <= 0 means "no cap". The workflow sets it to 0.
+MAX_CANDIDATES = _env_int("MAX_CANDIDATES", 30)
+# Safety net so a slow run still saves its state before the job timeout.
+RUN_DEADLINE_SECONDS = _env_int("RUN_DEADLINE_SECONDS", 600)
+# Only the most recent stories are compared with the (slow) token heuristics.
+# Exact URL/id repeats are still caught by `seen`, which covers a much longer period.
+SIMILARITY_HISTORY_SIZE = _env_int("SIMILARITY_HISTORY_SIZE", 600)
+AI_DEDUP_HISTORY_SIZE = 60
 _OLDEST = datetime.min.replace(tzinfo=timezone.utc)
+
+# When Gemini is unsure it answers world/general; an explicit technology tag in the
+# feed then decides. Any other category (sports, culture, politics...) is final.
+_AMBIGUOUS_AI_CATEGORIES = {"world", "general"}
 
 
 def _published_key(item):
@@ -37,6 +56,16 @@ def _story_record(item, processed=None):
         record["display_title"] = processed.get("title_fa", "")
         record["display_summary"] = processed.get("summary_fa", "")
     return record
+
+
+def _is_publishable_technology(item, processed):
+    """Final technology gate, applied to Gemini's reading of the actual story."""
+    category = str(processed.get("category") or "").strip().lower()
+    if category == "technology":
+        return True
+    if category in _AMBIGUOUS_AI_CATEGORIES:
+        return any(is_technology_news(tag) for tag in (item.categories or ()))
+    return False
 
 
 def _image_candidate_score(item):
@@ -151,7 +180,8 @@ def _collect_recent_items(sources, seen, now):
         stats["missing_dates"] += missing_dates
         print(f"[SOURCE] {source['name']}: fetched={len(items)} unseen={unseen} recent={recent} missing_date={missing_dates}")
     print(f"[COLLECT] sources={stats['sources']} feeds={stats['feed_items']} unseen={stats['unseen_items']} recent={stats['recent_items']} missing_dates={stats['missing_dates']} errors={stats['source_errors']}")
-    return sorted(candidates, key=_published_key)[:MAX_CANDIDATES]
+    ordered = sorted(candidates, key=_published_key)
+    return ordered[:MAX_CANDIDATES] if MAX_CANDIDATES > 0 else ordered
 
 
 def _process_candidate(item):
@@ -160,19 +190,17 @@ def _process_candidate(item):
     return item, item.image_url, process_with_gemini(item.title, item.summary, article_text)
 
 
-def _story_record(item, processed=None):
-    record = {"title": item.title, "summary": item.summary, "url": item.url}
-    if processed:
-        record["display_title"] = processed.get("title_fa", "")
-        record["display_summary"] = processed.get("summary_fa", "")
-    return record
-
-
 def _dedup_history(published_stories, outbox):
     history = list(published_stories)
+    if SIMILARITY_HISTORY_SIZE > 0:
+        history = history[-SIMILARITY_HISTORY_SIZE:]
+    known_urls = {record.get("url") for record in history}
     for record in outbox:
         if record.get("status") != "sent" or not record.get("url"):
             continue
+        if record["url"] in known_urls:
+            continue  # already in published_stories; do not list it twice
+        known_urls.add(record["url"])
         history.append({
             "title": record.get("title", ""),
             "summary": record.get("summary", ""),
@@ -181,6 +209,25 @@ def _dedup_history(published_stories, outbox):
             "display_summary": record.get("display_summary", ""),
         })
     return history
+
+
+def _ai_duplicate(item, processed, history):
+    """Semantic duplicate check. Fails open: an API problem must not block news."""
+    candidate = {
+        "title": item.title,
+        "summary": item.summary,
+        "display_title": processed.get("title_fa", ""),
+        "display_summary": processed.get("summary_fa", ""),
+    }
+    try:
+        match = find_duplicate_by_ai(candidate, history[-AI_DEDUP_HISTORY_SIZE:], AI_DEDUP_HISTORY_SIZE)
+    except Exception as exc:
+        print(f"[DEDUP_AI_ERROR] source={item.source} url={item.url}: {exc}")
+        return False
+    if match:
+        print(f"[DEDUP_AI] source={item.source} url={item.url} duplicate_of={match.get('url', '')}")
+        return True
+    return False
 
 
 def _save_state(store, seen, published_stories, outbox):
@@ -234,7 +281,7 @@ def main():
 
     now = datetime.now(timezone.utc)
     deadline = time.monotonic() + RUN_DEADLINE_SECONDS
-    published_count = ai_failed = duplicates = telegram_failed = publish_failed = 0
+    published_count = ai_failed = duplicates = telegram_failed = publish_failed = non_tech = 0
     candidates = []
 
     def persist():
@@ -274,6 +321,11 @@ def main():
                             except Exception as exc:
                                 ai_failed += 1
                                 print(f"[GEMINI_ERROR] source={item.source} url={item.url}: {exc}")
+                                if "invalid category" in str(exc):
+                                    # Gemini answered with a non-news category: not a
+                                    # technology story, so stop re-processing it every run.
+                                    non_tech += 1
+                                    seen.update((item.item_id, item.url))
                             if time.monotonic() >= deadline:
                                 break
                     except FuturesTimeout:
@@ -288,13 +340,19 @@ def main():
             if time.monotonic() >= deadline:
                 print("[DEADLINE] reached before Telegram publishing")
                 break
+            if not _is_publishable_technology(item, processed):
+                non_tech += 1
+                seen.update((item.item_id, item.url))
+                print(f"[NON_TECH] source={item.source} category={processed.get('category')} url={item.url}")
+                continue
             story = _story_record(item)
             if is_duplicate_story(story, _dedup_history(published_stories, outbox)):
                 duplicates += 1
                 seen.update((item.item_id, item.url))
                 continue
             rendered_story = _story_record(item, processed)
-            if is_duplicate_story(rendered_story, _dedup_history(published_stories, outbox)):
+            history = _dedup_history(published_stories, outbox)
+            if is_duplicate_story(rendered_story, history) or _ai_duplicate(item, processed, history):
                 duplicates += 1
                 seen.update((item.item_id, item.url))
                 continue
@@ -343,7 +401,7 @@ def main():
             print(f"[PUBLISHED] source={item.source} image={'yes' if image_url else 'no'} url={item.url}")
     finally:
         persist()
-        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed}")
+        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed} non_tech={non_tech}")
 
 
 if __name__ == "__main__":
