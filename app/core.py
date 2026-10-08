@@ -24,10 +24,6 @@ _TOKEN_ALIASES = {
     "produced": "create", "produces": "create", "producing": "create",
     "detecting": "detect", "identify": "detect", "identified": "detect",
     "websites": "website", "site": "website", "sites": "website", "portal": "website",
-    "شناسایی": "detect", "تشخیص": "detect", "شناسایی‌کردن": "detect", "تشخیص‌دادن": "detect",
-    "عرضه": "launch", "عرضه‌شده": "launch", "منتشر": "launch", "منتشرشد": "launch",
-    "انتشار": "launch", "راه‌اندازی": "launch", "راهاندازی": "launch", "معرفی": "launch",
-    "ارائه": "launch", "ارائه‌شده": "launch", "خبر": "announce",
 }
 
 _EVENT_TEXT_ALIASES = {
@@ -292,31 +288,6 @@ def is_recent_news(published_at: datetime | None, now: datetime | None = None, w
 
 _TECHNOLOGY_CATEGORIES = {"technology", "technologies", "tech", "artificial intelligence", "ai", "cybersecurity", "cyber security", "software", "hardware", "gadgets", "mobile", "cloud", "semiconductors", "consumer technology"}
 
-
-
-_AD_CATEGORY_MARKERS = {
-    "sponsored", "advertorial", "advertisement", "paid post",
-    "partner content", "promoted content", "sponsor content", "sponsored content",
-    "تبلیغ", "تبلیغاتی", "محتوای تبلیغاتی", "محتوای اسپانسری", "اسپانسر",
-}
-_AD_TITLE_PREFIXES = tuple(sorted(_AD_CATEGORY_MARKERS, key=len, reverse=True))
-
-
-def is_advertisement(title: str = "", summary: str = "", categories=()) -> bool:
-    """Reject explicit sponsored/promotional items without filtering ordinary ad news."""
-    category_values = {normalize_text(value).lower() for value in (categories or ())}
-    if category_values & _AD_CATEGORY_MARKERS:
-        return True
-    normalized_title = normalize_text(title).lower()
-    return any(
-        normalized_title == marker
-        or normalized_title.startswith(marker + ":")
-        or normalized_title.startswith(marker + " |")
-        or normalized_title.startswith(marker + " -")
-        for marker in _AD_TITLE_PREFIXES
-    )
-
-
 def is_technology_news(category: str) -> bool:
     """Return True only for an explicit technology category/tag."""
     normalized = normalize_text(category).lower()
@@ -340,6 +311,30 @@ def is_technology_feed_item(categories, source: str = "") -> bool:
 def is_technology_story(category: str, title: str = "", summary: str = "", article: str = "") -> bool:
     """Compatibility helper: technology classification comes only from the tag/category."""
     return is_technology_news(category)
+
+
+
+_ALLOWED_NEWS_SOURCES = frozenset({"TechCrunch", "The Verge", "Engadget"})
+
+_ADVERTISEMENT_PATTERNS = (
+    r"\bsponsored\b",
+    r"\bsponsor(?:ed)? content\b",
+    r"\badvert(?:isement|orial)?\b",
+    r"\bpaid content\b",
+    r"\bpromoted content\b",
+    r"\bpartner content\b",
+    r"\bpromo(?:tion|code)\b",
+    r"\bcoupon code\b",
+)
+
+def is_allowed_news_source(source: str) -> bool:
+    return normalize_text(source) in _ALLOWED_NEWS_SOURCES
+
+def is_advertisement(title: str = "", summary: str = "", categories=()) -> bool:
+    text = " ".join([normalize_text(title), normalize_text(summary)] + [
+        normalize_text(value) for value in (categories or ())
+    ]).lower()
+    return any(re.search(pattern, text, flags=re.IGNORECASE) for pattern in _ADVERTISEMENT_PATTERNS)
 
 def build_telegram_message(title, summary, category, source, url=None):
     return f"📰 <b>{escape(normalize_text(title))}</b>\n\n{escape(normalize_text(summary))}\n\n🏷 {escape(normalize_text(category))}\n📡 منبع: {escape(normalize_text(source))}"
