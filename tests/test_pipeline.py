@@ -103,6 +103,7 @@ def test_duplicate_candidates_keep_only_the_one_with_an_image(monkeypatch):
     store = _store()
     _patch(monkeypatch, [without_image, with_image], lambda t, s, a: _tech(t, s), lambda m, i: images.append(i), store)
     monkeypatch.setattr(news_main, "is_duplicate_story", lambda *a, **k: False)
+    monkeypatch.setattr(news_main, "validate_image_url", lambda url: url == "https://example.com/b.jpg")
     monkeypatch.setattr(news_main, "find_duplicate_groups", lambda candidates, hist: [["C1", "C2"]])
     news_main.main()
     assert images == ["https://example.com/b.jpg"]

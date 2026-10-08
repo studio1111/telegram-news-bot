@@ -10,7 +10,7 @@ import requests
 
 from .ai import find_duplicate_groups, process_with_gemini
 from .semantic_dedup import find_semantic_relations
-from .collector import collect_feed, fetch_article_image_url, fetch_article_text
+from .collector import collect_feed, fetch_article_image_url, fetch_article_text, validate_image_url
 from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
@@ -174,12 +174,18 @@ def _semantic_dedup(candidates, history, seen, deadline):
     return kept, removed
 
 def _hydrate_missing_images(candidates, deadline):
-    missing = [item for item in candidates if not item.image_url]
-    if not missing:
+    """Verify every image and recover missing/invalid images from the article page."""
+    if not candidates:
         return candidates
-    hydrated = {item.url: item for item in candidates}
-    executor = ThreadPoolExecutor(max_workers=min(IMAGE_WORKERS, len(missing)))
-    future_map = {executor.submit(fetch_article_image_url, item.url): item for item in missing}
+    hydrated = {}
+    executor = ThreadPoolExecutor(max_workers=min(IMAGE_WORKERS, len(candidates)))
+
+    def resolve(item):
+        if item.image_url and validate_image_url(item.image_url):
+            return item
+        return replace(item, image_url=fetch_article_image_url(item.url))
+
+    future_map = {executor.submit(resolve, item): item for item in candidates}
     try:
         while future_map and time.monotonic() < deadline:
             remaining = max(0.01, deadline - time.monotonic())
@@ -187,13 +193,16 @@ def _hydrate_missing_images(candidates, deadline):
                 for future in as_completed(list(future_map), timeout=remaining):
                     item = future_map.pop(future)
                     try:
-                        image_url = future.result()
+                        resolved = future.result()
                     except Exception as exc:
                         print(f"[IMAGE_ERROR] source={item.source} url={item.url}: {exc}")
-                        image_url = ""
-                    if image_url:
-                        hydrated[item.url] = replace(item, image_url=image_url)
-                        print(f"[IMAGE_FOUND] source={item.source} url={item.url}")
+                        resolved = replace(item, image_url="")
+                    if resolved.image_url:
+                        hydrated[item.url] = resolved
+                        if resolved.image_url != item.image_url:
+                            print(f"[IMAGE_FOUND] source={item.source} url={item.url}")
+                    else:
+                        hydrated[item.url] = resolved
                     if time.monotonic() >= deadline:
                         break
             except FuturesTimeout:
@@ -202,7 +211,12 @@ def _hydrate_missing_images(candidates, deadline):
         for future in future_map:
             future.cancel()
         executor.shutdown(wait=False, cancel_futures=True)
-    return [hydrated[item.url] for item in candidates if hydrated[item.url].image_url]
+
+    return [
+        hydrated[item.url]
+        for item in candidates
+        if item.url in hydrated and hydrated[item.url].image_url
+    ]
 
 
 def _source_allowed(source):
@@ -249,8 +263,9 @@ def _collect_recent_items(sources, seen, now):
 
 
 def _process_candidate(item):
-    # Image recovery happens before AI processing. Gemini receives only feed text.
-    article_text = item.summary
+    # Image recovery happens before AI processing. Gemini should receive the cleaned
+    # article body when available, not only the short RSS summary.
+    article_text = fetch_article_text(item.url) or item.summary
     return item, item.image_url, process_with_gemini(item.title, item.summary, article_text)
 
 

@@ -149,14 +149,20 @@ def test_send_crash_leaves_outbox_pending_for_recovery(monkeypatch):
     assert outbox and outbox[0]["status"] == "pending"
 
 
-def test_candidate_processing_does_not_fetch_article_pages(monkeypatch):
+def test_candidate_processing_uses_full_article_when_available(monkeypatch):
     now = datetime.now(timezone.utc)
     item = NewsItem("rss-first", "Technology story", "https://example.com/story", "RSS summary", "S", "", now, ("Technology",))
-    monkeypatch.setattr(news_main, "fetch_article_text", lambda *a, **k: (_ for _ in ()).throw(AssertionError("article fetch must not run")))
+    monkeypatch.setattr(news_main, "fetch_article_text", lambda *a, **k: "Full article text")
     monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *a, **k: (_ for _ in ()).throw(AssertionError("image fetch must not run")))
-    monkeypatch.setattr(news_main, "process_with_gemini", lambda title, summary, article: _tech(title, summary))
+    captured = {}
+    monkeypatch.setattr(
+        news_main,
+        "process_with_gemini",
+        lambda title, summary, article: captured.setdefault("article", article) or _tech(title, summary),
+    )
     result = news_main._process_candidate(item)
     assert result[0] is item and result[1] == ""
+    assert captured["article"] == "Full article text"
 
 
 def test_retried_outbox_marks_real_url_as_seen(monkeypatch):

@@ -265,9 +265,9 @@ def fetch_article_text(url: str, max_chars: int = 18000) -> str:
     html = _fetch_article_html(url)
     if not html:
         return ""
-    text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\\1>", " ", html)
+    text = re.sub(r"(?is)<(script|style|noscript|svg).*?>.*?</\1>", " ", html)
     text = re.sub(r"(?is)<[^>]+>", " ", text)
-    text = re.sub(r"\\s+", " ", text)
+    text = re.sub(r"\s+", " ", text)
     return normalize_text(text)[:max_chars]
 
 

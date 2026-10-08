@@ -156,7 +156,10 @@ def publish_rich_message(html, image_url=""):
     try:
         return _post(token, "sendRichMessage", payload)
     except TelegramAPIError as rich_error:
-        if not rich_error.fallback_safe:
+        # A news post is required to contain its verified image. Never degrade
+        # an image-bearing post into a text-only message, otherwise the channel
+        # would violate the publication contract while marking the story sent.
+        if image_url or not rich_error.fallback_safe:
             raise
         plain = _rich_html_to_plain_text(html)
         if not plain:
