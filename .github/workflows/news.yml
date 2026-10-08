@@ -2,7 +2,7 @@ name: News Bot
 
 on:
   schedule:
-    - cron: "8,38 * * * *"
+    - cron: "8,23,38,53 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -42,7 +42,33 @@ jobs:
           git fetch --no-tags origin bot-state
           git show origin/bot-state:data/state.json > data/state.json
 
+      - name: Enforce 75-minute schedule interval
+        id: interval
+        if: github.event_name == 'schedule'
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timedelta, timezone
+
+          with open("data/state.json", encoding="utf-8") as fh:
+              state = json.load(fh)
+          last = state.get("last_run_at", "")
+          if not last:
+              print("No previous completed run; publishing.")
+              print("run=true" >> __import__("os").environ["GITHUB_OUTPUT"])
+          else:
+              previous = datetime.fromisoformat(last.replace("Z", "+00:00"))
+              elapsed = datetime.now(timezone.utc) - previous
+              if elapsed >= timedelta(minutes=75):
+                  print(f"Last completed run was {elapsed} ago; publishing.")
+                  print("run=true" >> __import__("os").environ["GITHUB_OUTPUT"])
+              else:
+                  print(f"Only {elapsed} since the last completed run; skipping.")
+                  print("run=false" >> __import__("os").environ["GITHUB_OUTPUT"])
+          PY
+
       - name: Publish news
+        if: github.event_name == 'workflow_dispatch' || steps.interval.outputs.run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
