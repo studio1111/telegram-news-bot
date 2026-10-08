@@ -234,3 +234,14 @@ def test_technology_tag_is_required_for_mixed_and_dedicated_sources():
     assert is_publishable_technology(("Technology",), "TechCrunch", "world")
     assert not is_publishable_technology((), "TechCrunch", "technology")
     assert not is_publishable_technology(("Politics",), "The Guardian Technology", "technology")
+
+
+def test_allowed_source_and_advertisement_rules():
+    from app.core import is_advertisement, is_allowed_news_source
+    assert is_allowed_news_source("TechCrunch")
+    assert is_allowed_news_source("The Verge")
+    assert is_allowed_news_source("Engadget")
+    assert not is_allowed_news_source("WIRED")
+    assert is_advertisement("Sponsored: Best laptop deals", "Paid promotion", ())
+    assert is_advertisement("Weekly deals", "Advertisement", ("shopping",))
+    assert not is_advertisement("Google launches a new AI tool", "The company announced the product today.", ("technology",))
