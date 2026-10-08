@@ -10,7 +10,7 @@ import requests
 
 from .ai import find_duplicate_groups, process_with_gemini
 from .semantic_dedup import find_semantic_relations
-from .collector import collect_feed, fetch_article_image_url, fetch_article_text
+from .collector import collect_feed, fetch_article_image_url, fetch_article_text, resolve_article_image_url
 from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
