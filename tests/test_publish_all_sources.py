@@ -152,8 +152,8 @@ def test_logs_publish_summary(monkeypatch, capsys):
 
     main_module.main()
     output = capsys.readouterr().out
-    assert "[PUBLISHED] source=Test Source" in output
     assert "[SUMMARY] candidates=1 published=1" in output
+    assert "url=https://example.com/summary" in output
 
 
 def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatch):
