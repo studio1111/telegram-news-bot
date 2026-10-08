@@ -22,6 +22,11 @@ IMAGE_WORKERS = 8
 # workflow timeout. Stories not reached are NOT marked as seen, so the next run
 # picks them up (they stay inside the news window).
 RUN_DEADLINE_SECONDS = 1200
+# The workflow passes NEWS_WINDOW_MINUTES (currently 45). A delayed or failed run
+# must never lose stories, so the effective window is never shorter than this.
+# "seen" and the duplicate filters prevent repeats inside the wider window.
+MIN_NEWS_WINDOW_MINUTES = 360
+NEWS_WINDOW = max(NEWS_WINDOW_MINUTES, MIN_NEWS_WINDOW_MINUTES)
 # Gemini duplicate grouping: new stories per request and published stories shown as context.
 SEMANTIC_CHUNK = 80
 SEMANTIC_HISTORY = 150
@@ -207,7 +212,7 @@ def _collect_recent_items(sources, seen, now):
             if item.published_at is None:
                 missing_dates += 1
                 continue
-            if is_recent_news(item.published_at, now) and is_technology_feed_item(item.categories, item.source):
+            if is_recent_news(item.published_at, now, NEWS_WINDOW) and is_technology_feed_item(item.categories, item.source):
                 candidates.append(item)
                 stats["technology_items"] += 1
                 batch_keys.update((item.item_id, item.url))
@@ -306,7 +311,7 @@ def main():
         candidates = _collect_recent_items(sources, seen, now)
         candidates = _hydrate_missing_images(candidates, deadline)
         candidates = _prioritize_duplicate_candidates(candidates)
-        print(f"[RUN] now={now.isoformat()} window_minutes={NEWS_WINDOW_MINUTES} candidates={len(candidates)} deadline_seconds={RUN_DEADLINE_SECONDS}")
+        print(f"[RUN] now={now.isoformat()} window_minutes={NEWS_WINDOW} candidates={len(candidates)} deadline_seconds={RUN_DEADLINE_SECONDS}")
 
         # Layer 1: same URL / word-overlap match against everything already published.
         ai_candidates = []
