@@ -19,7 +19,7 @@ from .telegram import publish_rich_message
 GEMINI_WORKERS = 8
 IMAGE_WORKERS = 8
 # Safety net: leave enough time for feed collection, image recovery, Gemini and Telegram.
-RUN_DEADLINE_SECONDS = 1200
+RUN_DEADLINE_SECONDS = 3300
 NEWS_WINDOW = max(NEWS_WINDOW_MINUTES, 90)
 # Gemini duplicate grouping: new stories per request and published stories shown as context.
 SEMANTIC_CHUNK = 80
