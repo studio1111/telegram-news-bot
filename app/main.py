@@ -187,7 +187,7 @@ def _hydrate_missing_images(candidates, deadline):
 def _collect_recent_items(sources, seen, now):
     """Collect every unseen, recent item from every feed. There is no candidate cap."""
     candidates = []
-    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "technology_items": 0}
+    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "accepted_items": 0, "advertisements": 0}
     batch_keys = set()
     for source in sources:
         try:
@@ -211,6 +211,7 @@ def _collect_recent_items(sources, seen, now):
                 stats["advertisements"] += 1
                 continue
             candidates.append(item)
+            stats["accepted_items"] += 1
             batch_keys.update((item.item_id, item.url))
             recent += 1
         stats["unseen_items"] += unseen
