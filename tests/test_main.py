@@ -432,3 +432,19 @@ def test_final_technology_gate_never_accepts_gemini_or_source_alone():
     assert is_publishable_technology((), "TechCrunch", "technology") is False
     assert is_publishable_technology(("Politics",), "The Guardian Technology", "technology") is False
     assert is_publishable_technology(("Technology",), "Any Source", "world") is True
+
+
+def test_candidate_collection_accepts_untagged_news_from_allowed_source(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem("news", "Google launches a new phone", "https://example.com/news", "Product announcement", "TechCrunch", "", now - timedelta(minutes=5), ())
+    monkeypatch.setattr(news_main, "collect_feed", lambda *args: [item])
+    result = news_main._collect_recent_items([{"url": "https://example.com/feed", "name": "TechCrunch", "limit": 100}], set(), now)
+    assert result == [item]
+
+
+def test_candidate_collection_rejects_explicit_advertisement(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem("ad", "Sponsored: best phones", "https://example.com/ad", "Paid post from partner", "The Verge", "", now - timedelta(minutes=5), ())
+    monkeypatch.setattr(news_main, "collect_feed", lambda *args: [item])
+    result = news_main._collect_recent_items([{"url": "https://example.com/feed", "name": "The Verge", "limit": 100}], set(), now)
+    assert result == []
