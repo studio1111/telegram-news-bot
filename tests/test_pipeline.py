@@ -52,17 +52,17 @@ def _item(item_id, title, source="Source", image="", minutes=1, categories=("Tec
 
 # ---- technology-only gate -------------------------------------------------
 
-def test_gemini_technology_category_passes_without_feed_tag():
-    assert is_publishable_technology((), "WIRED", "technology")
+def test_gemini_category_does_not_override_missing_feed_tag():
+    assert not is_publishable_technology((), "WIRED", "technology")
 
 
 def test_feed_technology_tag_passes_even_when_gemini_mislabels_it():
     assert is_publishable_technology(("Technology",), "The Verge", "world")
 
 
-def test_technology_only_feeds_pass_without_tags():
+def test_technology_only_feeds_still_require_item_tags():
     for source in ("TechCrunch", "BBC Technology", "The Guardian Technology", "Digiato", "Vigiato"):
-        assert is_publishable_technology((), source, "general")
+        assert not is_publishable_technology((), source, "general")
 
 
 def test_mixed_feeds_need_a_tag_or_technology_classification():
@@ -72,8 +72,8 @@ def test_mixed_feeds_need_a_tag_or_technology_classification():
 
 
 def test_non_technology_story_is_skipped_and_marked_seen(monkeypatch):
-    sports = _item("sports", "Football final result", source="Mixed Feed", categories=(), minutes=3)
-    tech = _item("tech", "New chip announced", source="Mixed Feed", categories=(), minutes=2)
+    sports = _item("sports", "Football final result", source="Mixed Feed", categories=("Sports",), minutes=3)
+    tech = _item("tech", "New chip announced", source="Mixed Feed", categories=("Technology",), minutes=2)
 
     def process(title, summary, article):
         if title.startswith("Football"):
