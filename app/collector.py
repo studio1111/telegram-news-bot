@@ -272,7 +272,7 @@ def fetch_article_text(url: str, max_chars: int = 18000) -> str:
 
 def fetch_article_image_url(url: str) -> str:
     _validate_url(url)
-    return _article_image_url(_fetch_article_html(url))
+    return resolve_article_image_url(url)
 
 
 def validate_image_url(url: str, timeout: int = 8) -> bool:
@@ -321,7 +321,7 @@ def collect_feed(url: str, source_name: str, limit: int | None = None):
         try: _validate_url(link)
         except ValueError: continue
         stable=entry.get("id") or link
-        items.append(NewsItem(sha256(stable.encode()).hexdigest(),title,link,summary,source_name,_image_url(entry),_entry_published_at(entry),categories))
+        items.append(NewsItem(sha256(stable.encode()).hexdigest(),title,link,summary,source_name,"",_entry_published_at(entry),categories))
     print(f"[FEED_FETCH] {source_name}: status={response.status_code} entries={len(parsed.entries)} parsed_items={len(items)} limit={limit or "unlimited"}")
     for sample in items[:3]: print(f"[FEED_ITEM] {source_name}: published={sample.published_at} title={sample.title[:100]}")
     return items
