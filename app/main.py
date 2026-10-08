@@ -6,17 +6,22 @@ from datetime import datetime, timezone
 from pathlib import Path
 import time
 
+import requests
+
 from .ai import process_with_gemini
-from .collector import collect_feed, fetch_article_image_url, fetch_article_text
-from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_duplicate_story, is_new_item, is_recent_news, is_technology_feed_item
+from .collector import collect_feed, fetch_article_image_url
+from .core import build_rich_message_html, is_duplicate_story, is_new_item
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
 
 
 GEMINI_WORKERS = 8
 IMAGE_WORKERS = 8
-MAX_CANDIDATES = 30
-RUN_DEADLINE_SECONDS = 600
+# Safety deadline only (workflow timeout is 30 min). State is saved after every
+# published item, so reaching the deadline never loses sent stories.
+RUN_DEADLINE_SECONDS = 1500
+TECHNOLOGY_CATEGORY = "technology"
+PERSIAN_FALLBACK_SOURCES = {"Digiato", "Vigiato"}
 _OLDEST = datetime.min.replace(tzinfo=timezone.utc)
 
 
@@ -28,9 +33,6 @@ def _outbox_key(item):
     return "url:" + hashlib.sha256(item.url.encode("utf-8")).hexdigest()
 
 
-PERSIAN_FALLBACK_SOURCES = {"Digiato", "Vigiato"}
-
-
 def _story_record(item, processed=None):
     record = {"title": item.title, "summary": item.summary, "url": item.url}
     if processed:
@@ -40,17 +42,17 @@ def _story_record(item, processed=None):
 
 
 def _image_candidate_score(item):
-    # Preferred English sources outrank Persian fallbacks for the same event.
-    # Image availability is the next tie-breaker, then publication time.
+    # Image availability first: a duplicate with a picture beats one without.
+    # Then English sources beat Persian fallbacks, then the newest story wins.
     return (
-        item.source not in PERSIAN_FALLBACK_SOURCES,
         bool(item.image_url),
+        item.source not in PERSIAN_FALLBACK_SOURCES,
         _published_key(item),
     )
 
 
-def _prioritize_duplicate_candidates(candidates):
-    """Collapse transitive duplicate groups and choose the best source once."""
+def _group_duplicate_candidates(candidates):
+    """Collapse duplicate stories inside this batch and keep the best copy of each."""
     candidates = list(candidates)
     parent = list(range(len(candidates)))
 
@@ -67,26 +69,21 @@ def _prioritize_duplicate_candidates(candidates):
 
     for left in range(len(candidates)):
         for right in range(left + 1, len(candidates)):
-            if is_duplicate_story(
-                _story_record(candidates[left]),
-                [_story_record(candidates[right])],
-            ):
+            if is_duplicate_story(_story_record(candidates[left]), [_story_record(candidates[right])]):
                 union(left, right)
 
     groups = {}
     for index, item in enumerate(candidates):
         groups.setdefault(find(index), []).append(item)
 
-    selected = []
+    selected, dropped = [], []
     for group in groups.values():
         winner = max(group, key=_image_candidate_score)
         selected.append(winner)
+        dropped.extend(item for item in group if item is not winner)
         if len(group) > 1:
-            print(
-                f"[DUPLICATE_PRIORITY] group={len(group)} selected={winner.source} "
-                f"image={'yes' if winner.image_url else 'no'}"
-            )
-    return sorted(selected, key=_published_key)
+            print(f"[DUPLICATE_GROUP] size={len(group)} selected={winner.source} image={'yes' if winner.image_url else 'no'}")
+    return sorted(selected, key=_published_key), dropped
 
 
 def _hydrate_missing_images(candidates, deadline):
@@ -121,51 +118,65 @@ def _hydrate_missing_images(candidates, deadline):
     return [hydrated[item.url] for item in candidates]
 
 
-def _collect_recent_items(sources, seen, now):
+def _collect_new_items(sources, seen):
+    """Return every unseen item from every enabled feed. No age or count limit."""
     candidates = []
-    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "technology_items": 0}
     batch_keys = set()
     for source in sources:
+        if source.get("fallback_only"):
+            # Persian fallback feeds mostly repeat English stories; they are skipped.
+            print(f"[SKIP_FALLBACK] {source['name']}")
+            continue
         try:
             items = collect_feed(source["url"], source["name"], source.get("limit", 100))
         except Exception as exc:
-            stats["source_errors"] += 1
             print(f"[SOURCE_ERROR] {source['name']}: {exc}")
             continue
-        stats["feed_items"] += len(items)
-        unseen = recent = missing_dates = 0
+        new_count = 0
         for item in items:
             if not is_new_item(item.item_id, item.url, seen) or item.item_id in batch_keys or item.url in batch_keys:
                 continue
-            unseen += 1
-            if item.published_at is None:
-                missing_dates += 1
-                continue
-            if is_recent_news(item.published_at, now) and is_technology_feed_item(item.categories, item.source):
-                candidates.append(item)
-                stats["technology_items"] += 1
-                batch_keys.update((item.item_id, item.url))
-                recent += 1
-        stats["unseen_items"] += unseen
-        stats["recent_items"] += recent
-        stats["missing_dates"] += missing_dates
-        print(f"[SOURCE] {source['name']}: fetched={len(items)} unseen={unseen} recent={recent} missing_date={missing_dates}")
-    print(f"[COLLECT] sources={stats['sources']} feeds={stats['feed_items']} unseen={stats['unseen_items']} recent={stats['recent_items']} missing_dates={stats['missing_dates']} errors={stats['source_errors']}")
-    return sorted(candidates, key=_published_key)[:MAX_CANDIDATES]
+            candidates.append(item)
+            batch_keys.update((item.item_id, item.url))
+            new_count += 1
+        print(f"[SOURCE] {source['name']}: fetched={len(items)} new={new_count}")
+    print(f"[COLLECT] new_total={len(candidates)}")
+    return sorted(candidates, key=_published_key)
 
 
 def _process_candidate(item):
-    # Image recovery happens before AI processing. Gemini receives only feed text.
-    article_text = item.summary
-    return item, item.image_url, process_with_gemini(item.title, item.summary, article_text)
+    # Gemini receives only feed text; it classifies the story and translates it.
+    return item, item.image_url, process_with_gemini(item.title, item.summary, item.summary)
 
 
-def _story_record(item, processed=None):
-    record = {"title": item.title, "summary": item.summary, "url": item.url}
-    if processed:
-        record["display_title"] = processed.get("title_fa", "")
-        record["display_summary"] = processed.get("summary_fa", "")
-    return record
+def _process_all(candidates, deadline):
+    """Run Gemini on every candidate. Returns (results, failed_count)."""
+    results = []
+    if not candidates or time.monotonic() >= deadline:
+        return results, 0
+    failed = 0
+    executor = ThreadPoolExecutor(max_workers=min(GEMINI_WORKERS, len(candidates)))
+    future_map = {executor.submit(_process_candidate, item): item for item in candidates}
+    try:
+        while future_map and time.monotonic() < deadline:
+            remaining = max(0.01, deadline - time.monotonic())
+            try:
+                for future in as_completed(list(future_map), timeout=remaining):
+                    item = future_map.pop(future)
+                    try:
+                        results.append(future.result())
+                    except Exception as exc:
+                        failed += 1
+                        print(f"[GEMINI_ERROR] source={item.source} url={item.url}: {exc}")
+                    if time.monotonic() >= deadline:
+                        break
+            except FuturesTimeout:
+                print("[DEADLINE] AI processing deadline reached")
+    finally:
+        for future in future_map:
+            future.cancel()
+        executor.shutdown(wait=False, cancel_futures=True)
+    return results, failed
 
 
 def _dedup_history(published_stories, outbox):
@@ -192,6 +203,19 @@ def _save_state(store, seen, published_stories, outbox):
         store.save(seen, published_stories[-MAX_PUBLISHED_STORIES:])
 
 
+def _mark_sent(record, seen, published_stories):
+    record["status"] = "sent"
+    if record.get("url"):
+        seen.add(record["url"])
+        published_stories.append({
+            "title": record.get("title", ""),
+            "summary": record.get("summary", ""),
+            "url": record["url"],
+            "display_title": record.get("display_title", ""),
+            "display_summary": record.get("display_summary", ""),
+        })
+
+
 def _retry_outbox(store, seen, published_stories, outbox, deadline):
     recovered = 0
     for record in list(outbox):
@@ -202,19 +226,16 @@ def _retry_outbox(store, seen, published_stories, outbox, deadline):
             continue
         try:
             publish_rich_message(record["message"], record.get("image_url", ""))
+        except requests.Timeout as exc:
+            # Telegram may already have accepted the post; retrying could duplicate it.
+            print(f"[OUTBOX_TIMEOUT_ASSUMED_SENT] key={record['key']}: {exc}")
+            _mark_sent(record, seen, published_stories)
+            _save_state(store, seen, published_stories, outbox)
+            continue
         except Exception as exc:
             print(f"[OUTBOX_ERROR] key={record['key']}: {exc}")
             continue
-        record["status"] = "sent"
-        if record.get("url"):
-            seen.add(record["url"])
-            published_stories.append({
-                "title": record.get("title", ""),
-                "summary": record.get("summary", ""),
-                "url": record["url"],
-                "display_title": record.get("display_title", ""),
-                "display_summary": record.get("display_summary", ""),
-            })
+        _mark_sent(record, seen, published_stories)
         _save_state(store, seen, published_stories, outbox)
         recovered += 1
         print(f"[OUTBOX_SENT] key={record['key']}")
@@ -232,9 +253,8 @@ def main():
         print(f"[STATE_ERROR] refusing to publish with untrusted state: {exc}")
         raise
 
-    now = datetime.now(timezone.utc)
     deadline = time.monotonic() + RUN_DEADLINE_SECONDS
-    published_count = ai_failed = duplicates = telegram_failed = publish_failed = 0
+    published_count = ai_failed = duplicates = telegram_failed = publish_failed = not_technology = 0
     candidates = []
 
     def persist():
@@ -242,10 +262,12 @@ def main():
 
     try:
         _retry_outbox(store, seen, published_stories, outbox, deadline)
-        candidates = _collect_recent_items(sources, seen, now)
+        candidates = _collect_new_items(sources, seen)
         candidates = _hydrate_missing_images(candidates, deadline)
-        candidates = _prioritize_duplicate_candidates(candidates)
-        print(f"[RUN] now={now.isoformat()} window_minutes={NEWS_WINDOW_MINUTES} candidates={len(candidates)} deadline_seconds={RUN_DEADLINE_SECONDS}")
+        candidates, grouped_out = _group_duplicate_candidates(candidates)
+        for item in grouped_out:
+            seen.update((item.item_id, item.url))
+        print(f"[RUN] candidates={len(candidates)} deadline_seconds={RUN_DEADLINE_SECONDS}")
 
         ai_candidates = []
         for item in candidates:
@@ -258,40 +280,17 @@ def main():
                 continue
             ai_candidates.append(item)
 
-        processed_results = []
-        if ai_candidates and time.monotonic() < deadline:
-            workers = min(GEMINI_WORKERS, len(ai_candidates))
-            executor = ThreadPoolExecutor(max_workers=workers)
-            future_map = {executor.submit(_process_candidate, item): item for item in ai_candidates}
-            try:
-                while future_map and time.monotonic() < deadline:
-                    remaining = max(0.01, deadline - time.monotonic())
-                    try:
-                        for future in as_completed(list(future_map), timeout=remaining):
-                            item = future_map.pop(future)
-                            try:
-                                processed_results.append(future.result())
-                            except Exception as exc:
-                                ai_failed += 1
-                                print(f"[GEMINI_ERROR] source={item.source} url={item.url}: {exc}")
-                            if time.monotonic() >= deadline:
-                                break
-                    except FuturesTimeout:
-                        print("[DEADLINE] AI processing deadline reached")
-            finally:
-                for future in future_map:
-                    future.cancel()
-                executor.shutdown(wait=False, cancel_futures=True)
-
+        processed_results, ai_failed = _process_all(ai_candidates, deadline)
         processed_results.sort(key=lambda result: _published_key(result[0]))
         for item, image_url, processed in processed_results:
             if time.monotonic() >= deadline:
                 print("[DEADLINE] reached before Telegram publishing")
                 break
-            story = _story_record(item)
-            if is_duplicate_story(story, _dedup_history(published_stories, outbox)):
-                duplicates += 1
+            # Only technology stories are published; the rest are marked seen.
+            if processed.get("category") != TECHNOLOGY_CATEGORY:
+                not_technology += 1
                 seen.update((item.item_id, item.url))
+                print(f"[SKIP_NOT_TECH] category={processed.get('category')} source={item.source} url={item.url}")
                 continue
             rendered_story = _story_record(item, processed)
             if is_duplicate_story(rendered_story, _dedup_history(published_stories, outbox)):
@@ -327,6 +326,9 @@ def main():
 
             try:
                 publish_rich_message(message, image_url)
+            except requests.Timeout as exc:
+                # Ambiguous: Telegram may have posted it. Treat as sent to avoid duplicates.
+                print(f"[TELEGRAM_TIMEOUT_ASSUMED_SENT] source={item.source} url={item.url}: {exc}")
             except Exception as exc:
                 telegram_failed += 1
                 print(f"[TELEGRAM_ERROR] source={item.source} url={item.url}: {exc}")
@@ -334,16 +336,19 @@ def main():
 
             for record in outbox:
                 if record.get("key") == key:
-                    record["status"] = "sent"
-            published_count += 1
+                    _mark_sent(record, seen, published_stories)
             seen.update((item.item_id, item.url))
             published_stories.append(rendered_story)
-            del published_stories[:-MAX_PUBLISHED_STORIES:]
+            published_count += 1
             persist()
             print(f"[PUBLISHED] source={item.source} image={'yes' if image_url else 'no'} url={item.url}")
     finally:
         persist()
-        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed}")
+        print(
+            f"[SUMMARY] candidates={len(candidates)} published={published_count} "
+            f"not_technology={not_technology} gemini_failed={ai_failed} "
+            f"duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed}"
+        )
 
 
 if __name__ == "__main__":
