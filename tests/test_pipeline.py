@@ -132,16 +132,20 @@ def test_duplicate_candidates_keep_only_the_one_with_an_image(monkeypatch):
 
 def test_semantic_check_failure_does_not_block_publishing(monkeypatch):
     item = _item("only", "Technology story")
+    history = [{"title": "Old story", "summary": "s", "url": "https://old.example/x"}]
     published = []
-    store = _store()
+    calls = []
+    store = _store(history=history)
     _patch(monkeypatch, [item], lambda t, s, a: _tech(t, s), lambda m, i: published.append(m), store)
+    monkeypatch.setattr(news_main, "is_duplicate_story", lambda *a, **k: False)
 
     def broken(candidates, hist):
+        calls.append(1)
         raise RuntimeError("Gemini unavailable")
 
     monkeypatch.setattr(news_main, "find_duplicate_groups", broken)
     news_main.main()
-    assert len(published) == 1
+    assert calls and len(published) == 1
 
 
 # ---- Telegram timeouts must not cause double posts -------------------------
