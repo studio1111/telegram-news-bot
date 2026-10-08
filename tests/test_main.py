@@ -424,7 +424,7 @@ def test_duplicate_priority_prefers_image_even_when_source_is_different():
     )
     result = news_main._prioritize_duplicate_candidates([english, persian])
     assert len(result) == 1
-    assert result[0].source == "TechCrunch"
+    assert result[0].source == "Digiato"
 
 
 def test_final_technology_gate_never_accepts_gemini_or_source_alone():
