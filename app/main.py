@@ -102,15 +102,36 @@ def _prioritize_duplicate_candidates(candidates):
 
 
 def _semantic_dedup(candidates, history, seen, deadline):
-    """Use Gemini Embedding 2 for fast retrieval, then Gemini claim analysis for final decisions."""
+    """Use embeddings first and keep the previous Gemini grouping as a safe fallback."""
     if not candidates or time.monotonic() >= deadline:
         return candidates, 0
     recent = list(history)[-SEMANTIC_HISTORY:]
+    records = [_story_record(item) for item in candidates]
     try:
-        relations = find_semantic_relations(candidates, recent)
+        relations = find_semantic_relations(records, recent)
     except Exception as exc:
-        print(f"[SEMANTIC_DEDUP_ERROR] {exc}")
-        return candidates, 0
+        print(f"[SEMANTIC_DEDUP_ERROR] {exc}; falling back to legacy Gemini grouping")
+        try:
+            groups = find_duplicate_groups(records, recent)
+        except Exception as fallback_exc:
+            print(f"[LEGACY_SEMANTIC_DEDUP_ERROR] {fallback_exc}")
+            return candidates, 0
+        drop = set()
+        for group in groups:
+            members = [int(value[1:]) - 1 for value in group if isinstance(value, str) and value.startswith("C")]
+            if any(isinstance(value, str) and value.startswith("H") for value in group):
+                drop.update(members)
+            elif members:
+                winner = max(members, key=lambda index: _image_candidate_score(candidates[index]))
+                drop.update(index for index in members if index != winner)
+        kept = []
+        for index, item in enumerate(candidates):
+            if index in drop:
+                seen.update((item.item_id, item.url))
+                print(f"[SEMANTIC_DUPLICATE] source={item.source} url={item.url}")
+            else:
+                kept.append(item)
+        return kept, len(candidates) - len(kept)
 
     drop = set()
     for relation in relations:
@@ -127,7 +148,6 @@ def _semantic_dedup(candidates, history, seen, deadline):
                 )
                 drop.update(index for index in candidate_indexes if index != winner)
         elif relation_type == "UPDATE" and confidence >= 0.70:
-            # Same event but materially new claims: keep the update for publication.
             print(
                 f"[SEMANTIC_UPDATE] candidates={candidate_indexes} "
                 f"confidence={confidence:.2f}"
