@@ -18,11 +18,11 @@ def test_process_candidate_fetches_full_article_before_gemini(monkeypatch):
     )
     seen = {}
 
-    monkeypatch.setattr(news_main, "fetch_article_text", lambda url: seen.setdefault("url", url) or "Full article")
+    monkeypatch.setattr(news_main, "fetch_article_text", lambda url: (seen.__setitem__("url", url) or "Full article"))
     monkeypatch.setattr(
         news_main,
         "process_with_gemini",
-        lambda title, summary, article: seen.setdefault("article", article) or {"title_fa": "x"},
+        lambda title, summary, article: (seen.__setitem__("article", article) or {"title_fa": "x"}),
     )
 
     news_main._process_candidate(item)
