@@ -24,6 +24,10 @@ _TOKEN_ALIASES = {
     "produced": "create", "produces": "create", "producing": "create",
     "detecting": "detect", "identify": "detect", "identified": "detect",
     "websites": "website", "site": "website", "sites": "website", "portal": "website",
+    "شناسایی": "detect", "تشخیص": "detect", "شناسایی‌کردن": "detect", "تشخیص‌دادن": "detect",
+    "عرضه": "launch", "عرضه‌شده": "launch", "منتشر": "launch", "منتشرشد": "launch",
+    "انتشار": "launch", "راه‌اندازی": "launch", "راهاندازی": "launch", "معرفی": "launch",
+    "ارائه": "launch", "ارائه‌شده": "launch", "خبر": "announce",
 }
 
 _EVENT_TEXT_ALIASES = {
@@ -287,6 +291,22 @@ def is_recent_news(published_at: datetime | None, now: datetime | None = None, w
     return -_FUTURE_TOLERANCE <= age <= timedelta(minutes=window_minutes)
 
 _TECHNOLOGY_CATEGORIES = {"technology", "technologies", "tech", "artificial intelligence", "ai", "cybersecurity", "cyber security", "software", "hardware", "gadgets", "mobile", "cloud", "semiconductors", "consumer technology"}
+
+
+
+_AD_MARKERS = (
+    "sponsored", "advertorial", "advertisement", "advertising", "paid post",
+    "partner content", "promoted content", "sponsor content", "sponsored content",
+    "تبلیغ", "تبلیغاتی", "محتوای تبلیغاتی", "محتوای اسپانسری", "اسپانسر",
+)
+
+
+def is_advertisement(title: str = "", summary: str = "", categories=()) -> bool:
+    """Reject only explicit advertising/sponsored feed items, not ordinary news."""
+    values = [title or "", summary or ""] + list(categories or ())
+    text = normalize_text(" ".join(values)).lower()
+    return any(marker in text for marker in _AD_MARKERS)
+
 
 def is_technology_news(category: str) -> bool:
     """Return True only for an explicit technology category/tag."""
