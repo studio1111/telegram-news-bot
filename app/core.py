@@ -22,7 +22,29 @@ _TOKEN_ALIASES = {
     "generated": "generate", "generates": "generate", "generation": "generate",
     "created": "create", "creating": "create", "creates": "create",
     "produced": "create", "produces": "create", "producing": "create",
+    "detecting": "detect", "identify": "detect", "identified": "detect",
     "websites": "website", "site": "website", "sites": "website", "portal": "website",
+}
+
+_EVENT_TEXT_ALIASES = {
+    "synth id": "synthid",
+    "synth-id": "synthid",
+    "synthid detector": "synthid",
+    "synthid-detector": "synthid",
+    "سینث آی دی": "synthid",
+    "سینث‌آی‌دی": "synthid",
+    "سینت اید": "synthid",
+    "سینت‌اید": "synthid",
+    "سینث آی‌دی": "synthid",
+    "سینث‌آی دی": "synthid",
+}
+
+
+def _canonicalize_event_text(value: str) -> str:
+    text = normalize_text(value).lower()
+    for source, target in sorted(_EVENT_TEXT_ALIASES.items(), key=lambda pair: len(pair[0]), reverse=True):
+        text = text.replace(source, target)
+    return text
 }
 
 _STOP_WORDS = {
@@ -42,7 +64,7 @@ def normalize_text(value: str) -> str:
 # per run. Results are frozensets so cached values can never be mutated.
 @lru_cache(maxsize=16384)
 def _story_tokens(value: str) -> frozenset[str]:
-    text = normalize_text(value).lower().replace("$", " ").replace(",", "")
+    text = _canonicalize_event_text(value).replace("$", " ").replace(",", "")
     text = re.sub(r"[’']s\b", "", text)
     text = text.replace("۲۰۰", "200")
     text = re.sub(r"\b(million|millions)\b", "million", text)
@@ -202,6 +224,7 @@ _EVENT_GENERIC_TERMS = {
     "technology", "technologies", "tech", "software", "hardware", "device",
     "devices", "content", "media", "website", "ai", "artificial", "intelligence",
     "people", "users", "user", "using", "use", "uses", "can", "lets", "let",
+    "هوش", "مصنوعی", "رسانه", "محتوا", "ابزار", "جدید", "شرکت", "وبسایت", "وب‌سایت",
 }
 
 def _event_anchor_tokens(value: str) -> set[str]:
