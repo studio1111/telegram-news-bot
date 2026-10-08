@@ -154,7 +154,7 @@ def _pair_similarity(left_title: str, left_summary: str, right_title: str, right
         "restrict", "reduce", "increase", "create", "watermark", "ban",
         "block", "buy", "sell",
     }
-    if len(shared_anchors) >= 2 and len(shared_support) >= 1 and strong_actions:
+    if len(shared_anchors) >= 2 and strong_actions:
         return True
     if len(shared_anchors) >= 2 and len(shared_support) >= 2 and shared_actions:
         return True
