@@ -340,7 +340,7 @@ def test_persian_sources_are_fallback_only_when_image_priority_ties():
     assert result[0].source == "TechCrunch"
 
 
-def test_candidate_collection_accepts_dedicated_technology_sources_without_category_tags(monkeypatch):
+def test_candidate_collection_rejects_source_without_technology_tag(monkeypatch):
     now = datetime.now(timezone.utc)
     item = NewsItem(
         "dedicated-source",
@@ -358,7 +358,7 @@ def test_candidate_collection_accepts_dedicated_technology_sources_without_categ
         set(),
         now,
     )
-    assert result == [item]
+    assert result == []
 
 
 def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
@@ -425,3 +425,10 @@ def test_english_duplicate_outranks_persian_fallback_even_when_persian_has_image
     result = news_main._prioritize_duplicate_candidates([english, persian])
     assert len(result) == 1
     assert result[0].source == "TechCrunch"
+
+
+def test_final_technology_gate_never_accepts_gemini_or_source_alone():
+    from app.filtering import is_publishable_technology
+    assert is_publishable_technology((), "TechCrunch", "technology") is False
+    assert is_publishable_technology(("Politics",), "The Guardian Technology", "technology") is False
+    assert is_publishable_technology(("Technology",), "Any Source", "world") is True
