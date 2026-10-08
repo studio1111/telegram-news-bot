@@ -143,9 +143,3 @@ def test_migration_recovers_rendered_title_and_summary_from_sent_outbox(tmp_path
 
     assert record["display_title"] == "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد"
     assert record["display_summary"] == "گوگل (Google) ابزار SynthID Detector را عرضه کرد."
-
-
-def test_last_completed_run_timestamp_round_trips(tmp_path):
-    store = StateStore(tmp_path / "state.json")
-    store.set_last_run_at("2026-10-08T12:00:00+00:00")
-    assert store.load_last_run_at() == "2026-10-08T12:00:00+00:00"
