@@ -4,6 +4,7 @@ from hashlib import sha256
 from html.parser import HTMLParser
 import calendar
 import ipaddress
+import json
 import re
 import socket
 import threading
@@ -45,28 +46,83 @@ class _ImageParser(HTMLParser):
         self.images = []
 
     def handle_starttag(self, tag, attrs):
-        if tag.lower() != "img":
-            return
         attrs = dict(attrs)
-        src = attrs.get("src") or attrs.get("data-src") or ""
-        if src.startswith(("http://", "https://")):
-            self.images.append(src)
+        tag = tag.lower()
+        if tag == "img":
+            values = [
+                attrs.get("src", ""),
+                attrs.get("data-src", ""),
+                attrs.get("data-lazy-src", ""),
+                attrs.get("data-original", ""),
+            ]
+            srcset = attrs.get("srcset") or attrs.get("data-srcset") or ""
+            values.extend(part.strip().split()[0] for part in srcset.split(",") if part.strip())
+            for value in values:
+                if value.startswith(("http://", "https://")):
+                    self.images.append(value)
+        elif tag == "link" and "image" in (attrs.get("rel", "") or "").lower():
+            href = attrs.get("href", "")
+            if href.startswith(("http://", "https://")):
+                self.images.append(href)
+
+
+def _article_image_urls(html: str) -> list[str]:
+    found = []
+
+    def add(value):
+        if isinstance(value, str) and value.startswith(("http://", "https://")) and value not in found:
+            found.append(value)
+
+    patterns = (
+        r'(?is)<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+        r'(?is)<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+        r'(?is)<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)',
+        r'(?is)<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']',
+    )
+    for pattern in patterns:
+        for match in re.finditer(pattern, html or ""):
+            add(match.group(1).strip())
+
+    scripts = re.findall(r'(?is)<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', html or "")
+    for script in scripts:
+        try:
+            data = json.loads(script)
+        except (TypeError, ValueError, json.JSONDecodeError):
+            continue
+        stack = data if isinstance(data, list) else [data]
+        while stack:
+            value = stack.pop()
+            if isinstance(value, dict):
+                for key in ("image", "thumbnailUrl", "contentUrl"):
+                    image = value.get(key)
+                    if isinstance(image, str):
+                        add(image)
+                    elif isinstance(image, list):
+                        for entry in image:
+                            if isinstance(entry, str):
+                                add(entry)
+                            elif isinstance(entry, dict):
+                                add(entry.get("url") or entry.get("contentUrl"))
+                    elif isinstance(image, dict):
+                        add(image.get("url") or image.get("contentUrl"))
+                stack.extend(v for v in value.values() if isinstance(v, (dict, list)))
+            elif isinstance(value, list):
+                stack.extend(value)
+
+    parser = _ImageParser()
+    try:
+        parser.feed(html or "")
+    except Exception:
+        pass
+    for image in parser.images:
+        add(image)
+
+    return found
 
 
 def _article_image_url(html: str) -> str:
-    patterns = (
-        r'(?is)<meta[^>]+property=["\\\']og:image["\\\'][^>]+content=["\\\']([^"\\\']+)',
-        r'(?is)<meta[^>]+content=["\\\']([^"\\\']+)["\\\'][^>]+property=["\\\']og:image["\\\']',
-        r'(?is)<meta[^>]+name=["\\\']twitter:image["\\\'][^>]+content=["\\\']([^"\\\']+)',
-        r'(?is)<meta[^>]+content=["\\\']([^"\\\']+)["\\\'][^>]+name=["\\\']twitter:image["\\\']',
-    )
-    for pattern in patterns:
-        match = re.search(pattern, html or "")
-        if match:
-            url = match.group(1).strip()
-            if url.startswith(("http://", "https://")):
-                return url
-    return ""
+    urls = _article_image_urls(html)
+    return urls[0] if urls else ""
 
 
 def _image_url(entry) -> str:
@@ -141,7 +197,8 @@ def _validate_url(url: str) -> str:
 
 
 def _bounded_response(response) -> bytes:
-    length = response.headers.get("Content-Length") if hasattr(response, "headers") else None
+    headers = getattr(response, "headers", {}) or {}
+    length = headers.get("Content-Length")
     if length and int(length) > MAX_RESPONSE_BYTES:
         raise ValueError("response too large")
     if hasattr(response, "iter_content"):
@@ -216,10 +273,39 @@ def fetch_article_text(url: str, max_chars: int = 18000) -> str:
 
 def fetch_article_image_url(url: str) -> str:
     _validate_url(url)
-    return _article_image_url(_fetch_article_html(url))
+    return resolve_article_image_url(url)
 
 
-def collect_feed(url: str, source_name: str, limit: int = 100):
+def validate_image_url(url: str, timeout: int = 8) -> bool:
+    if not url:
+        return False
+    try:
+        _validate_url(url)
+        response = requests.get(
+            url,
+            timeout=timeout,
+            headers=_NO_CACHE_HEADERS,
+            allow_redirects=True,
+            stream=True,
+        )
+        response.raise_for_status()
+        return (response.headers.get("Content-Type") or "").lower().startswith("image/")
+    except (requests.RequestException, ValueError):
+        return False
+
+
+def resolve_article_image_url(article_url: str, preferred_image_url: str = "") -> str:
+    _validate_url(article_url)
+    if preferred_image_url and validate_image_url(preferred_image_url):
+        return preferred_image_url
+    html = _fetch_article_html(article_url)
+    for candidate in _article_image_urls(html):
+        if validate_image_url(candidate):
+            return candidate
+    return ""
+
+
+def collect_feed(url: str, source_name: str, limit: int | None = None):
     try:
         response = _safe_get(url)
         parsed = feedparser.parse(_bounded_response(response))
@@ -227,7 +313,8 @@ def collect_feed(url: str, source_name: str, limit: int = 100):
         print(f"[FEED_ERROR] {source_name} url={url}: {exc}")
         return []
     items=[]
-    for entry in parsed.entries[:limit]:
+    entries = parsed.entries if limit is None or limit <= 0 else parsed.entries[:limit]
+    for entry in entries:
         raw_categories = entry.get("tags", []) or []
         categories = tuple(normalize_text(tag.get("term") or tag.get("label") or "") for tag in raw_categories if normalize_text(tag.get("term") or tag.get("label") or ""))
         title=normalize_text(entry.get("title", "")); link=normalize_text(entry.get("link", "")); summary=normalize_text(entry.get("summary", ""))
@@ -236,6 +323,6 @@ def collect_feed(url: str, source_name: str, limit: int = 100):
         except ValueError: continue
         stable=entry.get("id") or link
         items.append(NewsItem(sha256(stable.encode()).hexdigest(),title,link,summary,source_name,_image_url(entry),_entry_published_at(entry),categories))
-    print(f"[FEED_FETCH] {source_name}: status={response.status_code} entries={len(parsed.entries)} parsed_items={len(items)}")
+    print(f"[FEED_FETCH] {source_name}: status={response.status_code} entries={len(parsed.entries)} parsed_items={len(items)} limit={limit}")
     for sample in items[:3]: print(f"[FEED_ITEM] {source_name}: published={sample.published_at} title={sample.title[:100]}")
     return items

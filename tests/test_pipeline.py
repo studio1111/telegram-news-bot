@@ -32,7 +32,7 @@ def _store(history=None, outbox=None):
 def _patch(monkeypatch, items, processor, publisher, store):
     monkeypatch.setattr(news_main, "_collect_recent_items", lambda *a, **k: list(items))
     monkeypatch.setattr(news_main, "fetch_article_text", lambda *a, **k: "article")
-    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *a, **k: "")
+    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda *a, **k: "https://example.com/test.jpg")
     monkeypatch.setattr(news_main, "process_with_gemini", processor)
     monkeypatch.setattr(news_main, "publish_rich_message", publisher)
     monkeypatch.setattr(news_main, "StateStore", store)

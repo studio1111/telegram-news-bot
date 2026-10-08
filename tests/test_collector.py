@@ -18,6 +18,7 @@ def test_article_page_is_downloaded_once_for_text_and_image(monkeypatch):
     calls = []
 
     class Response:
+        headers = {"Content-Type": "image/jpeg"}
         text = ('<html><head><meta property="og:image" content="https://example.com/a.jpg">'
                 "</head><body><p>Article body</p></body></html>")
 
@@ -34,7 +35,7 @@ def test_article_page_is_downloaded_once_for_text_and_image(monkeypatch):
     url = "https://example.com/once"
     assert "Article body" in collector.fetch_article_text(url)
     assert collector.fetch_article_image_url(url) == "https://example.com/a.jpg"
-    assert calls == [url]
+    assert calls == [url, "https://example.com/a.jpg"]
     collector._ARTICLE_CACHE.clear()
 
 

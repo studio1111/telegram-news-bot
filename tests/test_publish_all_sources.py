@@ -3,7 +3,7 @@ import app.main as main_module
 from app.collector import NewsItem
 
 
-def test_publishes_technology_story_without_image(monkeypatch):
+def test_skips_technology_story_without_recoverable_image(monkeypatch):
     now = datetime.now(timezone.utc)
     item = NewsItem(
         item_id="story-1",
@@ -60,8 +60,7 @@ def test_publishes_technology_story_without_image(monkeypatch):
     )
     main_module.main()
 
-    assert len(published) == 1
-    assert published[0][1] == ""
+    assert published == []
 
 
 def test_publishes_all_eligible_stories_across_sources(monkeypatch):
@@ -77,7 +76,7 @@ def test_publishes_all_eligible_stories_across_sources(monkeypatch):
 
     monkeypatch.setattr(main_module, "collect_feed", feed)
     monkeypatch.setattr(main_module, "fetch_article_text", lambda url: "article")
-    monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "")
+    monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "https://example.com/recovered.jpg")
     monkeypatch.setattr(
         main_module,
         "process_with_gemini",
@@ -131,7 +130,7 @@ def test_logs_publish_summary(monkeypatch, capsys):
     )
     monkeypatch.setattr(main_module, "collect_feed", lambda *args: [item])
     monkeypatch.setattr(main_module, "fetch_article_text", lambda url: "article")
-    monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "")
+    monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "https://example.com/summary.jpg")
     monkeypatch.setattr(main_module, "process_with_gemini", lambda *args: {
         "title_fa": "خبر", "summary_fa": "خلاصه", "article_fa": "متن",
         "category": "technology"
@@ -173,7 +172,7 @@ def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatc
     monkeypatch.setattr(main_module, "fetch_article_text", lambda url: (
         "OpenAI described the new artificial intelligence model and its ChatGPT system."
     ))
-    monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "")
+    monkeypatch.setattr(main_module, "fetch_article_image_url", lambda url: "https://example.com/recovered.jpg")
     monkeypatch.setattr(
         main_module,
         "process_with_gemini",

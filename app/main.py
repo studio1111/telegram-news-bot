@@ -193,7 +193,7 @@ def _hydrate_missing_images(candidates, deadline):
         for future in future_map:
             future.cancel()
         executor.shutdown(wait=False, cancel_futures=True)
-    return [hydrated[item.url] for item in candidates]
+    return [hydrated[item.url] for item in candidates if hydrated[item.url].image_url]
 
 
 def _source_allowed(source):
@@ -316,6 +316,8 @@ def _retry_outbox(store, seen, published_stories, outbox, deadline):
 
 def main():
     sources = json.loads(Path("data/sources.json").read_text(encoding="utf-8"))
+    for source in sources:
+        source["limit"] = 0
     store = StateStore()
     try:
         seen = store.load()
