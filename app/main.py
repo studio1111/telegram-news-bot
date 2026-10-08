@@ -228,6 +228,19 @@ def _process_candidate(item):
     return item, item.image_url, process_with_gemini(item.title, item.summary, article_text)
 
 
+def _deduplicate_history_records(records):
+    """Clean duplicate historical stories before they become dedup context."""
+    cleaned = []
+    removed = 0
+    for record in records:
+        if any(is_duplicate_story(record, [existing]) for existing in cleaned):
+            removed += 1
+            print(f"[HISTORY_DUPLICATE] url={record.get('url', '')}")
+            continue
+        cleaned.append(record)
+    return cleaned, removed
+
+
 def _dedup_history(published_stories, outbox):
     history = list(published_stories)
     for record in outbox:
@@ -290,6 +303,7 @@ def main():
     try:
         seen = store.load()
         published_stories = store.load_records()
+        published_stories, historical_duplicates = _deduplicate_history_records(published_stories)
         outbox = store.load_outbox() if hasattr(store, "load_outbox") else []
     except StateStoreError as exc:
         print(f"[STATE_ERROR] refusing to publish with untrusted state: {exc}")
@@ -297,7 +311,7 @@ def main():
 
     now = datetime.now(timezone.utc)
     deadline = time.monotonic() + RUN_DEADLINE_SECONDS
-    published_count = ai_failed = duplicates = telegram_failed = publish_failed = 0
+    published_count = ai_failed = duplicates = telegram_failed = publish_failed = historical_duplicates
     candidates = []
 
     def persist():
