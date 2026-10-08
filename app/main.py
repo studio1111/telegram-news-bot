@@ -10,21 +10,16 @@ import requests
 
 from .ai import find_duplicate_groups, process_with_gemini
 from .collector import collect_feed, fetch_article_image_url, fetch_article_text
-from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_duplicate_story, is_new_item, is_recent_news
+from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
 
 
 GEMINI_WORKERS = 8
 IMAGE_WORKERS = 8
-# Safety net only: the job must finish and persist its state before the workflow timeout. Stories not reached are NOT marked as seen, so the next run
-# picks them up (they stay inside the news window).
+# Safety net: leave enough time for feed collection, image recovery, Gemini and Telegram.
 RUN_DEADLINE_SECONDS = 1200
-# The workflow passes NEWS_WINDOW_MINUTES (currently 90). A delayed or failed run
-# must never lose stories, so the effective window is never shorter than this.
-# "seen" and the duplicate filters prevent repeats inside the wider window.
-MIN_NEWS_WINDOW_MINUTES = 90
-NEWS_WINDOW = max(NEWS_WINDOW_MINUTES, MIN_NEWS_WINDOW_MINUTES)
+NEWS_WINDOW = max(NEWS_WINDOW_MINUTES, 90)
 # Gemini duplicate grouping: new stories per request and published stories shown as context.
 SEMANTIC_CHUNK = 80
 SEMANTIC_HISTORY = 150
@@ -49,9 +44,10 @@ def _story_record(item, processed=None):
 
 
 def _image_candidate_score(item):
-    # Preferred English sources outrank Persian fallbacks for the same event.
-    # Image availability is the next tie-breaker, then publication time.
+    # All three configured sources have equal source priority.
+    # Prefer an available image, then the earliest publication.
     return (bool(item.image_url), _published_key(item))
+
 
 
 def _delivery_unknown(exc):
@@ -183,10 +179,16 @@ def _hydrate_missing_images(candidates, deadline):
     return [hydrated[item.url] for item in candidates]
 
 
+def _source_allowed(source):
+    return is_allowed_news_source(source)
+
+def _item_is_publishable(item):
+    return not is_advertisement(item.title, item.summary, item.categories)
+
 def _collect_recent_items(sources, seen, now):
-    """Collect every unseen, recent item from every feed. There is no candidate cap."""
+    """Collect every unseen, recent story from the three allowed sources, excluding advertisements."""
     candidates = []
-    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "accepted_items": 0, "advertisements": 0}
+    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "advertisements": 0, "source_filtered": 0}
     batch_keys = set()
     for source in sources:
         try:
@@ -204,15 +206,14 @@ def _collect_recent_items(sources, seen, now):
             if item.published_at is None:
                 missing_dates += 1
                 continue
-            if not is_recent_news(item.published_at, now, NEWS_WINDOW):
-                continue
             if is_advertisement(item.title, item.summary, item.categories):
                 stats["advertisements"] += 1
+                seen.update((item.item_id, item.url))
                 continue
-            candidates.append(item)
-            stats["accepted_items"] += 1
-            batch_keys.update((item.item_id, item.url))
-            recent += 1
+            if is_recent_news(item.published_at, now, NEWS_WINDOW):
+                candidates.append(item)
+                batch_keys.update((item.item_id, item.url))
+                recent += 1
         stats["unseen_items"] += unseen
         stats["recent_items"] += recent
         stats["missing_dates"] += missing_dates
@@ -225,6 +226,19 @@ def _process_candidate(item):
     # Image recovery happens before AI processing. Gemini receives only feed text.
     article_text = item.summary
     return item, item.image_url, process_with_gemini(item.title, item.summary, article_text)
+
+
+def _deduplicate_history_records(records):
+    """Clean duplicate historical stories before they become dedup context."""
+    cleaned = []
+    removed = 0
+    for record in records:
+        if any(is_duplicate_story(record, [existing]) for existing in cleaned):
+            removed += 1
+            print(f"[HISTORY_DUPLICATE] url={record.get('url', '')}")
+            continue
+        cleaned.append(record)
+    return cleaned, removed
 
 
 def _dedup_history(published_stories, outbox):
@@ -289,6 +303,7 @@ def main():
     try:
         seen = store.load()
         published_stories = store.load_records()
+        published_stories, historical_duplicates = _deduplicate_history_records(published_stories)
         outbox = store.load_outbox() if hasattr(store, "load_outbox") else []
     except StateStoreError as exc:
         print(f"[STATE_ERROR] refusing to publish with untrusted state: {exc}")
@@ -297,6 +312,7 @@ def main():
     now = datetime.now(timezone.utc)
     deadline = time.monotonic() + RUN_DEADLINE_SECONDS
     published_count = ai_failed = duplicates = telegram_failed = publish_failed = 0
+    duplicates = historical_duplicates
     candidates = []
 
     def persist():
@@ -418,7 +434,7 @@ def main():
             print(f"[PUBLISHED] source={item.source} image={'yes' if image_url else 'no'} url={item.url}")
     finally:
         persist()
-        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed}")
+        print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed} ")
 
 
 if __name__ == "__main__":

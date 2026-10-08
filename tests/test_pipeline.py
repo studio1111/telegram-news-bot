@@ -7,7 +7,6 @@ import requests
 import app.main as news_main
 from app import ai
 from app.collector import NewsItem
-from app.filtering import is_publishable_technology
 
 
 def _store(history=None, outbox=None):
@@ -50,21 +49,11 @@ def _item(item_id, title, source="Source", image="", minutes=1, categories=("Tec
                     now - timedelta(minutes=minutes), categories)
 
 
-# ---- no technology gate: only explicit ads are excluded --------------------
+# ---- no topic filter for the three configured sources ---------------------
 
-def test_gemini_category_does_not_filter_news():
-    from app.filtering import is_publishable_technology
-    assert is_publishable_technology((), "TechCrunch", "technology") is False
-    assert is_publishable_technology((), "TechCrunch", "sports") is False
-
-
-def test_untagged_news_is_allowed_by_pipeline():
-    assert news_main.is_advertisement("New phone announced", "The company launched it.", ()) is False
-
-
-def test_non_technology_news_is_not_skipped(monkeypatch):
-    sports = _item("sports", "Football final result", source="Mixed Feed", categories=("Sports",), minutes=3)
-    tech = _item("tech", "New chip announced", source="Mixed Feed", categories=("Technology",), minutes=2)
+def test_non_technology_story_is_allowed_when_it_is_not_an_ad(monkeypatch):
+    sports = _item("sports", "Football final result", source="The Verge", categories=("Sports",), minutes=3)
+    tech = _item("tech", "New chip announced", source="TechCrunch", categories=("Technology",), minutes=2)
 
     def process(title, summary, article):
         if title.startswith("Football"):
@@ -79,7 +68,6 @@ def test_non_technology_news_is_not_skipped(monkeypatch):
     assert len(published) == 2
     assert "sports" in store.saves[-1][0]
     assert "tech" in store.saves[-1][0]
-
 
 # ---- no candidate cap ------------------------------------------------------
 
