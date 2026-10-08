@@ -82,7 +82,7 @@ def test_state_is_saved_after_each_publication(monkeypatch):
     store=_store(); _patch(monkeypatch,[first,second],lambda t,s,a:_tech(t,s),publish,store); monkeypatch.setattr(news_main,"is_duplicate_story",lambda *a,**k:False)
     try: news_main.main()
     except KeyboardInterrupt: pass
-    assert store.saves and "1" in store.saves[-1][0] and "2" not in store.saves[-1][0]
+    assert store.saves and "https://example.com/1" in store.saves[-1][0] and "https://example.com/2" not in store.saves[-1][0]
 
 
 def test_stories_are_published_oldest_first(monkeypatch):
