@@ -16,7 +16,7 @@ _TOKEN_ALIASES = {
     "chips": "chip", "processors": "chip", "processor": "chip",
     "announces": "announce", "announced": "announce", "announcing": "announce",
     "detects": "detect", "detected": "detect", "detection": "detect", "detector": "detect",
-    "identifies": "detect", "identify": "detect", "identified": "detect",
+    "identifies": "detect", "identify": "detect", "identified": "detect", "identifying": "detect",
     "verification": "detect", "verify": "detect", "verified": "detect",
     "checks": "check", "checked": "check", "checking": "check",
     "generated": "generate", "generates": "generate", "generation": "generate",
@@ -275,24 +275,8 @@ def is_technology_news(category: str) -> bool:
     ))
 
 
-_DEDICATED_TECHNOLOGY_SOURCES = {
-    "TechCrunch",
-    "WIRED",
-    "Ars Technica",
-    "The Verge",
-    "Engadget",
-    "BBC Technology",
-    "The Guardian Technology",
-    "Digiato",
-    "Vigiato",
-}
-
-
 def is_technology_feed_item(categories, source: str = "") -> bool:
-    """Accept all items from dedicated technology feeds; otherwise require a tech tag."""
-    normalized_source = normalize_text(source)
-    if normalized_source in _DEDICATED_TECHNOLOGY_SOURCES:
-        return True
+    """Require an explicit technology category/tag on the RSS item itself."""
     return any(is_technology_news(category) for category in (categories or ()))
 
 
