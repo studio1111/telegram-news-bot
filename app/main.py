@@ -183,7 +183,7 @@ def _source_allowed(source):
     return is_allowed_news_source(source)
 
 def _item_is_publishable(item):
-    return _source_allowed(item.source) and not is_advertisement(item.title, item.summary, item.categories)
+    return not is_advertisement(item.title, item.summary, item.categories)
 
 def _collect_recent_items(sources, seen, now):
     """Collect every unseen, recent story from the three allowed sources, excluding advertisements."""
@@ -205,9 +205,6 @@ def _collect_recent_items(sources, seen, now):
             unseen += 1
             if item.published_at is None:
                 missing_dates += 1
-                continue
-            if not _source_allowed(item.source):
-                stats["source_filtered"] += 1
                 continue
             if is_advertisement(item.title, item.summary, item.categories):
                 stats["advertisements"] += 1
