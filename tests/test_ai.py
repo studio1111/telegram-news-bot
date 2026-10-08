@@ -26,7 +26,7 @@ def test_process_with_gemini_retries_after_timeout(monkeypatch):
         return FakeResponse()
     monkeypatch.setenv("GEMINI_API_KEY","test-key"); monkeypatch.setattr(ai.requests,"post",fake_post); monkeypatch.setattr(ai.time,"sleep",lambda *_:None)
     assert ai.process_with_gemini("Title","Summary")["category"]=="technology"
-    assert captured["timeout"] == 45
+    assert captured["timeout"] == 90
 
 
 def test_process_with_gemini_retries_transient_503(monkeypatch):
