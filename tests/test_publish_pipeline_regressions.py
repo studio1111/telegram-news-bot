@@ -85,3 +85,15 @@ def test_invalid_existing_rss_image_is_replaced_or_removed(monkeypatch):
     result = news_main._hydrate_missing_images([item], 10**9)
 
     assert result[0].image_url == "https://example.com/recovered.jpg"
+
+
+def test_fetch_article_text_removes_non_content_tags_and_collapses_whitespace(monkeypatch):
+    from app import collector
+
+    monkeypatch.setattr(
+        collector,
+        "_fetch_article_html",
+        lambda url: "<html><script>ignore()</script><style>.x{}</style><article>  خبر   مهم  </article></html>",
+    )
+
+    assert collector.fetch_article_text("https://example.com/story") == "خبر مهم"
