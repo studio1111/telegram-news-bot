@@ -82,14 +82,14 @@ def test_state_is_saved_after_each_publication(monkeypatch):
     store=_store(); _patch(monkeypatch,[first,second],lambda t,s,a:_tech(t,s),publish,store); monkeypatch.setattr(news_main,"is_duplicate_story",lambda *a,**k:False)
     try: news_main.main()
     except KeyboardInterrupt: pass
-    assert store.saves and "https://example.com/1" in store.saves[-1][0] and "https://example.com/2" not in store.saves[-1][0]
+    assert store.saves and "https://example.com/2" in store.saves[-1][0] and "https://example.com/1" not in store.saves[-1][0]
 
 
-def test_stories_are_published_oldest_first(monkeypatch):
+def test_stories_are_published_newest_first(monkeypatch):
     now=datetime.now(timezone.utc); newer=NewsItem("n","Newer software story","https://example.com/n","s","S","",now-timedelta(minutes=1), ("Technology",)); older=NewsItem("o","Older software story","https://example.com/o","s","S","",now-timedelta(minutes=50), ("Technology",))
     order=[]; store=_store(); _patch(monkeypatch,[newer,older],lambda t,s,a:_tech(t,s),lambda m,i:order.append(m),store); monkeypatch.setattr(news_main,"is_duplicate_story",lambda *a,**k:False)
     news_main.main()
-    assert "Older" in order[0] and "Newer" in order[1]
+    assert "Newer" in order[0] and "Older" in order[1]
 
 
 def test_published_story_record_keeps_url(monkeypatch):
