@@ -17,11 +17,10 @@ from .telegram import publish_rich_message
 
 GEMINI_WORKERS = 8
 IMAGE_WORKERS = 8
-# Safety net only: the job must finish and persist its state before the 30 minute
-# workflow timeout. Stories not reached are NOT marked as seen, so the next run
+# Safety net only: the job must finish and persist its state before the workflow timeout. Stories not reached are NOT marked as seen, so the next run
 # picks them up (they stay inside the news window).
 RUN_DEADLINE_SECONDS = 1200
-# The workflow passes NEWS_WINDOW_MINUTES (currently 45). A delayed or failed run
+# The workflow passes NEWS_WINDOW_MINUTES (currently 90). A delayed or failed run
 # must never lose stories, so the effective window is never shorter than this.
 # "seen" and the duplicate filters prevent repeats inside the wider window.
 MIN_NEWS_WINDOW_MINUTES = 90
