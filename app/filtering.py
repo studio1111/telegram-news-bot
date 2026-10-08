@@ -1,20 +1,11 @@
-"""Final technology gate, applied after Gemini has classified a story.
+"""Final technology gate: the RSS item itself must carry a technology tag/category."""
+from .core import is_technology_feed_item
 
-Only stories about technology / IT / AI / software / hardware are published.
-"""
-from .core import is_technology_news, normalize_text
 
-# Feeds that are technology-only by construction. Mixed feeds (WIRED, The Verge,
-# Engadget, Ars Technica) also carry politics, culture and shopping deals, so an
-# item from them must carry a technology tag or be classified as technology.
 def has_technology_tag(categories) -> bool:
-    return any(is_technology_news(category) for category in (categories or ()))
+    return is_technology_feed_item(categories)
 
 
-def is_publishable_technology(categories, source: str, ai_category) -> bool:
-    """True when the story is technology news.
-
-    A story passes when Gemini classified it as technology, when the feed itself
-    tagged it as technology, or when it comes from a technology-only feed.
-    """
-    return has_technology_tag(categories)
+def is_publishable_technology(categories, source: str = "", ai_category: str = "") -> bool:
+    """Never use source name or Gemini classification as a technology exception."""
+    return is_technology_feed_item(categories, source)
