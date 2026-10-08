@@ -7,7 +7,6 @@ import requests
 import app.main as news_main
 from app import ai
 from app.collector import NewsItem
-from app.filtering import is_publishable_technology
 
 
 def _store(history=None, outbox=None):
@@ -50,30 +49,11 @@ def _item(item_id, title, source="Source", image="", minutes=1, categories=("Tec
                     now - timedelta(minutes=minutes), categories)
 
 
-# ---- technology-only gate -------------------------------------------------
+# ---- no topic filter for the three configured sources ---------------------
 
-def test_gemini_category_does_not_override_missing_feed_tag():
-    assert not is_publishable_technology((), "WIRED", "technology")
-
-
-def test_feed_technology_tag_passes_even_when_gemini_mislabels_it():
-    assert is_publishable_technology(("Technology",), "The Verge", "world")
-
-
-def test_technology_only_feeds_still_require_item_tags():
-    for source in ("TechCrunch", "BBC Technology", "The Guardian Technology", "Digiato", "Vigiato"):
-        assert not is_publishable_technology((), source, "general")
-
-
-def test_mixed_feeds_need_a_tag_or_technology_classification():
-    for source in ("WIRED", "The Verge", "Engadget", "Ars Technica", "Unknown"):
-        assert not is_publishable_technology(("Politics",), source, "political")
-        assert not is_publishable_technology((), source, "sports")
-
-
-def test_non_technology_story_is_skipped_and_marked_seen(monkeypatch):
-    sports = _item("sports", "Football final result", source="Mixed Feed", categories=("Sports",), minutes=3)
-    tech = _item("tech", "New chip announced", source="Mixed Feed", categories=("Technology",), minutes=2)
+def test_non_technology_story_is_allowed_when_it_is_not_an_ad(monkeypatch):
+    sports = _item("sports", "Football final result", source="The Verge", categories=("Sports",), minutes=3)
+    tech = _item("tech", "New chip announced", source="TechCrunch", categories=("Technology",), minutes=2)
 
     def process(title, summary, article):
         if title.startswith("Football"):
@@ -85,10 +65,9 @@ def test_non_technology_story_is_skipped_and_marked_seen(monkeypatch):
     _patch(monkeypatch, [sports, tech], process, lambda m, i: published.append(m), store)
     monkeypatch.setattr(news_main, "is_duplicate_story", lambda *a, **k: False)
     news_main.main()
-    assert len(published) == 1 and "چیپ" in published[0]
+    assert len(published) == 2
     assert "sports" in store.saves[-1][0]
     assert "tech" in store.saves[-1][0]
-
 
 # ---- no candidate cap ------------------------------------------------------
 

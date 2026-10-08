@@ -67,14 +67,13 @@ def test_publishes_technology_story_without_image(monkeypatch):
 def test_publishes_all_eligible_stories_across_sources(monkeypatch):
     now = datetime.now(timezone.utc)
     items = [
-        NewsItem(f"story-{i}", f"Technology story {i}", f"https://example.com/{i}",
-                 "technology", f"Source {i}", f"https://example.com/{i}.jpg", now, ("Technology",))
-        for i in range(5)
+        NewsItem("story-0", "Technology story 0", "https://example.com/0", "technology", "TechCrunch", "https://example.com/0.jpg", now, ("Technology",)),
+        NewsItem("story-1", "Technology story 1", "https://example.com/1", "technology", "The Verge", "https://example.com/1.jpg", now, ("Technology",)),
+        NewsItem("story-2", "Technology story 2", "https://example.com/2", "technology", "Engadget", "https://example.com/2.jpg", now, ("Technology",)),
     ]
 
     def feed(url, source, limit):
-        index = int(source.rsplit(" ", 1)[-1])
-        return [items[index]]
+        return [next(item for item in items if item.source == source)]
 
     monkeypatch.setattr(main_module, "collect_feed", feed)
     monkeypatch.setattr(main_module, "fetch_article_text", lambda url: "article")
@@ -113,24 +112,22 @@ def test_publishes_all_eligible_stories_across_sources(monkeypatch):
         main_module.Path,
         "read_text",
         lambda self, encoding="utf-8": (
-            '[{"name":"Source 0","url":"feed0","limit":100},'
-            '{"name":"Source 1","url":"feed1","limit":100},'
-            '{"name":"Source 2","url":"feed2","limit":100},'
-            '{"name":"Source 3","url":"feed3","limit":100},'
-            '{"name":"Source 4","url":"feed4","limit":100}]'
+            '[{"name":"TechCrunch","url":"feed0","limit":100},'
+            '{"name":"The Verge","url":"feed1","limit":100},'
+            '{"name":"Engadget","url":"feed2","limit":100}]'
         ),
     )
 
     main_module.main()
 
-    assert len(published) == 5
+    assert len(published) == 3
 
 def test_logs_publish_summary(monkeypatch, capsys):
     from datetime import datetime, timezone
     now = datetime.now(timezone.utc)
     item = NewsItem(
         "summary-story", "Technology story", "https://example.com/summary",
-        "summary", "Test Source", "", now, ("Technology",)
+        "summary", "TechCrunch", "", now, ("Technology",)
     )
     monkeypatch.setattr(main_module, "collect_feed", lambda *args: [item])
     monkeypatch.setattr(main_module, "fetch_article_text", lambda url: "article")
@@ -166,7 +163,7 @@ def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatc
         "OpenAI announces a new AI model",
         "https://example.com/recovered",
         "OpenAI says the new artificial intelligence model improves ChatGPT.",
-        "The Guardian Technology",
+        "The Verge",
         "",
         now,
         ("Technology",),
@@ -206,7 +203,7 @@ def test_publishes_technology_story_when_gemini_mislabels_it_as_world(monkeypatc
         main_module.Path,
         "read_text",
         lambda self, encoding="utf-8": (
-            '[{"name":"The Guardian Technology","url":"feed","limit":100}]'
+            '[{"name":"The Verge","url":"feed","limit":100}]'
         ),
     )
 

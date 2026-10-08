@@ -321,46 +321,6 @@ def test_missing_rss_image_is_recovered_from_article_page(monkeypatch):
     assert recovered[0].image_url == "https://example.com/recovered.jpg"
 
 
-def test_persian_sources_are_fallback_only_when_image_priority_ties():
-    from datetime import datetime, timezone
-    english = NewsItem(
-        "en", "Google launches SynthID Detector", "https://example.com/en",
-        "Google launches a tool to identify AI-generated media.", "TechCrunch",
-        "https://example.com/en.jpg", datetime(2026, 10, 7, 18, 0, tzinfo=timezone.utc),
-        ("Technology",),
-    )
-    persian = NewsItem(
-        "fa", "Google launches SynthID Detector", "https://example.com/fa",
-        "Google launches a tool to identify AI-generated media.", "Digiato",
-        "https://example.com/fa.jpg", datetime(2026, 10, 7, 18, 5, tzinfo=timezone.utc),
-        ("فناوری",),
-    )
-    result = news_main._prioritize_duplicate_candidates([english, persian])
-    assert len(result) == 1
-    assert result[0].source == "TechCrunch"
-
-
-def test_candidate_collection_rejects_source_without_technology_tag(monkeypatch):
-    now = datetime.now(timezone.utc)
-    item = NewsItem(
-        "dedicated-source",
-        "New technology product launches",
-        "https://example.com/dedicated-source",
-        "A new product was announced.",
-        "TechCrunch",
-        "",
-        now - timedelta(minutes=5),
-        (),
-    )
-    monkeypatch.setattr(news_main, "collect_feed", lambda *args: [item])
-    result = news_main._collect_recent_items(
-        [{"url": "https://example.com/feed", "name": "TechCrunch", "limit": 100}],
-        set(),
-        now,
-    )
-    assert result == []
-
-
 def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
     now = datetime.now(timezone.utc)
     older = NewsItem(
@@ -401,34 +361,43 @@ def test_main_recovers_images_and_prioritizes_duplicate_candidates(monkeypatch):
     assert published == ["https://example.com/recovered.jpg"]
 
 
-def test_english_duplicate_outranks_persian_fallback_even_when_persian_has_image():
-    english = NewsItem(
-        "en-no-image",
-        "Google launches SynthID Detector",
-        "https://example.com/en",
-        "Google launches a tool to identify AI-generated media.",
-        "TechCrunch",
-        "",
-        datetime(2026, 10, 7, 18, 0, tzinfo=timezone.utc),
-        (),
-    )
-    persian = NewsItem(
-        "fa-with-image",
-        "Google launches SynthID Detector",
-        "https://example.com/fa",
-        "Google launches a tool to identify AI-generated media.",
-        "Digiato",
-        "https://example.com/fa.jpg",
-        datetime(2026, 10, 7, 18, 5, tzinfo=timezone.utc),
-        (),
-    )
-    result = news_main._prioritize_duplicate_candidates([english, persian])
-    assert len(result) == 1
-    assert result[0].source == "TechCrunch"
+def test_user_reported_synthid_rewrites_are_duplicates():
+    from app.core import is_duplicate_story
+    first = {
+        "title": "راه‌اندازی وب‌سایت جدید گوگل (Google) برای شناسایی رسانه‌های تولیدشده با هوش مصنوعی",
+        "summary": "شرکت گوگل (Google) از راه‌اندازی وب‌سایت جدیدی خبر داد که با فناوری سینث‌آی‌دی (SynthID) محتوای تولیدشده با هوش مصنوعی را شناسایی می‌کند.",
+        "url": "https://techcrunch.com/one",
+    }
+    second = {
+        "title": "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد",
+        "summary": "شرکت گوگل (Google) ابزار جدیدی به نام «سینت‌اید دکتور» (SynthID Detector) را برای شناسایی محتوای تولیدشده با هوش مصنوعی عرضه کرده است.",
+        "url": "https://www.theverge.com/two",
+    }
+    assert is_duplicate_story(second, [first])
 
 
-def test_final_technology_gate_never_accepts_gemini_or_source_alone():
-    from app.filtering import is_publishable_technology
-    assert is_publishable_technology((), "TechCrunch", "technology") is False
-    assert is_publishable_technology(("Politics",), "The Guardian Technology", "technology") is False
-    assert is_publishable_technology(("Technology",), "Any Source", "world") is True
+def test_three_source_allowlist_accepts_only_requested_sources():
+    assert news_main._source_allowed("TechCrunch")
+    assert news_main._source_allowed("The Verge")
+    assert news_main._source_allowed("Engadget")
+    assert not news_main._source_allowed("WIRED")
+    assert not news_main._source_allowed("BBC Technology")
+
+
+def test_non_technology_item_from_allowed_source_is_not_filtered():
+    now = datetime.now(timezone.utc)
+    item = NewsItem("non-tech", "A movie story", "https://example.com/non-tech", "Film news", "The Verge", "", now, ())
+    monkeypatch = None
+    assert news_main._item_is_publishable(item)
+
+
+def test_advertisement_is_filtered_from_allowed_sources():
+    now = datetime.now(timezone.utc)
+    item = NewsItem("ad", "Sponsored: Best laptop deals", "https://example.com/ad", "Paid promotion", "Engadget", "", now, ())
+    assert not news_main._item_is_publishable(item)
+
+
+def test_non_technology_allowed_source_is_publishable():
+    now = datetime.now(timezone.utc)
+    item = NewsItem("non-tech", "A movie story", "https://example.com/non-tech", "Film news", "The Verge", "", now, ())
+    assert news_main._item_is_publishable(item)

@@ -312,6 +312,30 @@ def is_technology_story(category: str, title: str = "", summary: str = "", artic
     """Compatibility helper: technology classification comes only from the tag/category."""
     return is_technology_news(category)
 
+
+
+_ALLOWED_NEWS_SOURCES = frozenset({"TechCrunch", "The Verge", "Engadget"})
+
+_ADVERTISEMENT_PATTERNS = (
+    r"\bsponsored\b",
+    r"\bsponsor(?:ed)? content\b",
+    r"\badvert(?:isement|orial)?\b",
+    r"\bpaid content\b",
+    r"\bpromoted content\b",
+    r"\bpartner content\b",
+    r"\bpromo(?:tion|code)\b",
+    r"\bcoupon code\b",
+)
+
+def is_allowed_news_source(source: str) -> bool:
+    return normalize_text(source) in _ALLOWED_NEWS_SOURCES
+
+def is_advertisement(title: str = "", summary: str = "", categories=()) -> bool:
+    text = " ".join([normalize_text(title), normalize_text(summary)] + [
+        normalize_text(value) for value in (categories or ())
+    ]).lower()
+    return any(re.search(pattern, text, flags=re.IGNORECASE) for pattern in _ADVERTISEMENT_PATTERNS)
+
 def build_telegram_message(title, summary, category, source, url=None):
     return f"📰 <b>{escape(normalize_text(title))}</b>\n\n{escape(normalize_text(summary))}\n\n🏷 {escape(normalize_text(category))}\n📡 منبع: {escape(normalize_text(source))}"
 
