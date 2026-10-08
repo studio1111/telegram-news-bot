@@ -2,19 +2,16 @@
   {
     "name": "TechCrunch",
     "url": "https://techcrunch.com/feed/",
-    "limit": 100,
     "priority": 10
   },
   {
     "name": "The Verge",
     "url": "https://www.theverge.com/rss/index.xml",
-    "limit": 100,
     "priority": 10
   },
   {
     "name": "Engadget",
     "url": "https://www.engadget.com/rss.xml",
-    "limit": 100,
     "priority": 10
   }
 ]
