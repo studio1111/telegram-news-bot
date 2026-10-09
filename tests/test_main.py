@@ -32,6 +32,22 @@ def test_main_uses_90_minute_window():
     assert not news_main.is_recent_news(now-timedelta(minutes=91), now)
 
 
+def test_backlog_keeps_unpublished_news_for_later_runs():
+    now = datetime(2026, 10, 9, 12, 0, tzinfo=timezone.utc)
+    assert news_main.is_backlog_eligible_news(now - timedelta(hours=13), now)
+    assert news_main.is_backlog_eligible_news(now - timedelta(minutes=91), now)
+    assert not news_main.is_backlog_eligible_news(now - timedelta(hours=25), now)
+    assert not news_main.is_backlog_eligible_news(None, now)
+
+
+def test_collection_includes_news_older_than_fresh_window(monkeypatch):
+    now = datetime(2026, 10, 9, 12, 0, tzinfo=timezone.utc)
+    older = NewsItem("old-but-unpublished", "Older software report", "https://example.com/older", "summary", "TechCrunch", "", now - timedelta(hours=13), ("Technology",))
+    monkeypatch.setattr(news_main, "collect_feed", lambda *a, **k: [older])
+    result = news_main._collect_recent_items([{"url": "https://example.com/feed", "name": "TechCrunch", "limit": 0}], set(), now)
+    assert [item.url for item in result] == [older.url]
+
+
 def test_candidate_collection_checks_later_sources_without_cap(monkeypatch):
     now = datetime.now(timezone.utc)
     first_items = [NewsItem(f"first-{i}", f"Nvidia software story {i}", f"https://example.com/first/{i}", "s", "First", "", now-timedelta(minutes=i+1), ("Technology",)) for i in range(30)]
