@@ -10,8 +10,8 @@ import requests
 
 from .ai import find_duplicate_groups, process_with_gemini
 from .semantic_dedup import find_semantic_relations
-from .collector import collect_feed, fetch_article_image_url, fetch_article_published_at, fetch_article_text, validate_image_url
-from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_duplicate_story, is_new_item, is_recent_news
+from .collector import NewsItem, collect_feed, fetch_article_image_url, fetch_article_published_at, fetch_article_text, validate_image_url
+from .core import MAX_BACKLOG_AGE_HOURS, NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_backlog_eligible_news, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
 
@@ -43,6 +43,65 @@ def _sort_newest_first(items):
 def _outbox_key(item):
     return "url:" + hashlib.sha256(item.url.encode("utf-8")).hexdigest()
 
+
+def _pending_news_key(item):
+    return item.url.strip() or ("id:" + item.item_id)
+
+
+def _pending_news_record(item):
+    return {
+        "item_id": item.item_id,
+        "title": item.title,
+        "url": item.url,
+        "summary": item.summary,
+        "source": item.source,
+        "image_url": item.image_url or "",
+        "published_at": item.published_at.isoformat() if item.published_at else None,
+        "categories": list(item.categories or ()),
+    }
+
+
+def _pending_news_item(record):
+    url = record.get("url", "") if isinstance(record.get("url", ""), str) else ""
+    if not url.strip():
+        raise StateStoreError("pending news record has an invalid URL")
+    published_at = record.get("published_at")
+    parsed_date = None
+    if isinstance(published_at, str) and published_at.strip():
+        try:
+            parsed_date = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
+            if parsed_date.tzinfo is None:
+                parsed_date = parsed_date.replace(tzinfo=timezone.utc)
+            parsed_date = parsed_date.astimezone(timezone.utc)
+        except ValueError:
+            parsed_date = None
+    categories = record.get("categories", [])
+    if not isinstance(categories, (tuple, list)):
+        categories = ()
+    return NewsItem(
+        item_id=record.get("item_id") if isinstance(record.get("item_id"), str) and record.get("item_id") else url.strip(),
+        title=record.get("title") if isinstance(record.get("title"), str) else "",
+        url=url.strip(),
+        summary=record.get("summary") if isinstance(record.get("summary"), str) else "",
+        source=record.get("source") if isinstance(record.get("source"), str) else "",
+        image_url=record.get("image_url") if isinstance(record.get("image_url"), str) else "",
+        published_at=parsed_date,
+        categories=tuple(value for value in categories if isinstance(value, str)),
+    )
+
+
+def _merge_pending_news_item(existing, incoming):
+    """Refresh queued metadata without losing an already recovered image or date."""
+    return replace(
+        existing,
+        item_id=existing.item_id or incoming.item_id,
+        title=incoming.title or existing.title,
+        summary=incoming.summary or existing.summary,
+        source=incoming.source or existing.source,
+        image_url=incoming.image_url or existing.image_url,
+        published_at=existing.published_at or incoming.published_at,
+        categories=incoming.categories or existing.categories,
+    )
 
 
 def _story_record(item, processed=None):
@@ -226,9 +285,9 @@ def _item_is_publishable(item):
     return not is_advertisement(item.title, item.summary, item.categories)
 
 def _collect_recent_items(sources, seen, now):
-    """Collect every unseen, recent story from the three allowed sources, excluding advertisements."""
+    """Collect unseen items within the backlog horizon; main defers stale discoveries one run."""
     candidates = []
-    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "recent_items": 0, "missing_dates": 0, "source_errors": 0, "advertisements": 0, "source_filtered": 0}
+    stats = {"sources": len(sources), "feed_items": 0, "unseen_items": 0, "eligible_items": 0, "missing_dates": 0, "source_errors": 0, "advertisements": 0, "source_filtered": 0}
     batch_keys = set()
     for source in sources:
         try:
@@ -238,7 +297,7 @@ def _collect_recent_items(sources, seen, now):
             print(f"[SOURCE_ERROR] {source['name']}: {exc}")
             continue
         stats["feed_items"] += len(items)
-        unseen = recent = missing_dates = 0
+        unseen = eligible = missing_dates = 0
         for item in items:
             if not is_new_item(item.item_id, item.url, seen) or item.item_id in batch_keys or item.url in batch_keys:
                 continue
@@ -259,15 +318,15 @@ def _collect_recent_items(sources, seen, now):
                 stats["advertisements"] += 1
                 seen.update((item.item_id, item.url))
                 continue
-            if is_recent_news(item.published_at, now, NEWS_WINDOW):
+            if is_backlog_eligible_news(item.published_at, now, MAX_BACKLOG_AGE_HOURS):
                 candidates.append(item)
                 batch_keys.update((item.item_id, item.url))
-                recent += 1
+                eligible += 1
         stats["unseen_items"] += unseen
-        stats["recent_items"] += recent
+        stats["eligible_items"] += eligible
         stats["missing_dates"] += missing_dates
-        print(f"[SOURCE] {source['name']}: fetched={len(items)} unseen={unseen} recent={recent} missing_date={missing_dates}")
-    print(f"[COLLECT] sources={stats['sources']} feeds={stats['feed_items']} unseen={stats['unseen_items']} recent={stats['recent_items']} missing_dates={stats['missing_dates']} errors={stats['source_errors']}")
+        print(f"[SOURCE] {source['name']}: fetched={len(items)} unseen={unseen} eligible={eligible} missing_date={missing_dates}")
+    print(f"[COLLECT] sources={stats['sources']} feeds={stats['feed_items']} unseen={stats['unseen_items']} eligible={stats['eligible_items']} missing_dates={stats['missing_dates']} errors={stats['source_errors']}")
     return _sort_newest_first(candidates)
 
 
@@ -306,13 +365,19 @@ def _dedup_history(published_stories, outbox):
     return history
 
 
-def _save_state(store, seen, published_stories, outbox):
+def _save_state(store, seen, published_stories, outbox, pending_news=None):
+    records = published_stories[-MAX_PUBLISHED_STORIES:]
     try:
-        store.save(seen, published_stories[-MAX_PUBLISHED_STORIES:], outbox)
+        store.save(seen, records, outbox, pending_news)
     except TypeError as exc:
         if "positional" not in str(exc) and "argument" not in str(exc):
             raise
-        store.save(seen, published_stories[-MAX_PUBLISHED_STORIES:])
+        try:
+            store.save(seen, records, outbox)
+        except TypeError as nested_exc:
+            if "positional" not in str(nested_exc) and "argument" not in str(nested_exc):
+                raise
+            store.save(seen, records)
 
 
 def _retry_outbox(store, seen, published_stories, outbox, deadline):
@@ -357,6 +422,12 @@ def main():
         published_stories = store.load_records()
         published_stories, historical_duplicates = _deduplicate_history_records(published_stories)
         outbox = store.load_outbox() if hasattr(store, "load_outbox") else []
+        pending_records = store.load_pending_news() if hasattr(store, "load_pending_news") else []
+        pending_news = {}
+        for record in pending_records:
+            item = _pending_news_item(record)
+            if is_new_item(item.item_id, item.url, seen):
+                pending_news[_pending_news_key(item)] = item
     except StateStoreError as exc:
         print(f"[STATE_ERROR] refusing to publish with untrusted state: {exc}")
         raise
@@ -368,14 +439,79 @@ def main():
     candidates = []
 
     def persist():
-        _save_state(store, seen, published_stories, outbox)
+        # Once a story is published or confidently classified as a duplicate, it no
+        # longer belongs in the retry queue. Unresolved items stay durable across runs.
+        for key, item in list(pending_news.items()):
+            if not is_new_item(item.item_id, item.url, seen):
+                del pending_news[key]
+        _save_state(
+            store,
+            seen,
+            published_stories,
+            outbox,
+            [_pending_news_record(item) for item in pending_news.values()],
+        )
 
     try:
         _retry_outbox(store, seen, published_stories, outbox, deadline)
-        candidates = _collect_recent_items(sources, seen, now)
-        candidates = _hydrate_missing_images(candidates, deadline)
-        candidates = _prioritize_duplicate_candidates(candidates)
-        print(f"[RUN] now={now.isoformat()} window_minutes={NEWS_WINDOW} candidates={len(candidates)} deadline_seconds={RUN_DEADLINE_SECONDS}")
+
+        # A delivered outbox item may have become seen during retry. Remove it before
+        # identifying which items were already queued at the beginning of this cycle.
+        for key, item in list(pending_news.items()):
+            if not is_new_item(item.item_id, item.url, seen):
+                del pending_news[key]
+        queued_before_fetch = set(pending_news)
+
+        collected_items = _collect_recent_items(sources, seen, now)
+        fresh_discovered_keys = set()
+        deferred_new_items = 0
+        for item in collected_items:
+            key = _pending_news_key(item)
+            if key in pending_news:
+                pending_news[key] = _merge_pending_news_item(pending_news[key], item)
+                continue
+
+            pending_news[key] = item
+            if is_recent_news(item.published_at, now, NEWS_WINDOW):
+                fresh_discovered_keys.add(key)
+            else:
+                # First discovery outside the fresh window is persisted now and
+                # becomes eligible on the next workflow run, even if it ages further.
+                deferred_new_items += 1
+
+        eligible_keys = queued_before_fetch | fresh_discovered_keys
+        candidates = _sort_newest_first([
+            pending_news[key]
+            for key in eligible_keys
+            if key in pending_news
+            and is_new_item(pending_news[key].item_id, pending_news[key].url, seen)
+        ])
+
+        # Persist freshly discovered stale items before any image or AI work so a
+        # timeout, API failure, or process interruption cannot make them disappear.
+        persist()
+        print(
+            f"[QUEUE] existing={len(queued_before_fetch)} deferred_new={deferred_new_items} "
+            f"pending={len(pending_news)} eligible_now={len(candidates)}"
+        )
+
+        hydrated_candidates = _hydrate_missing_images(candidates, deadline)
+        for item in hydrated_candidates:
+            pending_news[_pending_news_key(item)] = item
+
+        candidates = _prioritize_duplicate_candidates(hydrated_candidates)
+        selected_keys = {_pending_news_key(item) for item in candidates}
+        # A duplicate loser with a verified image is terminal; a no-image item is
+        # not returned by hydration and deliberately remains queued for recovery.
+        for item in hydrated_candidates:
+            if _pending_news_key(item) not in selected_keys:
+                seen.update((item.item_id, item.url))
+
+        print(
+            f"[RUN] now={now.isoformat()} fresh_window_minutes={NEWS_WINDOW} "
+            f"backlog_window_hours={MAX_BACKLOG_AGE_HOURS} candidates={len(candidates)} "
+            f"deadline_seconds={RUN_DEADLINE_SECONDS}"
+        )
 
         # Layer 1: same URL / word-overlap match against everything already published.
         ai_candidates = []

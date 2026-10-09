@@ -4,7 +4,7 @@ import os
 import re
 from pathlib import Path
 
-STATE_SCHEMA_VERSION = 5
+STATE_SCHEMA_VERSION = 6
 MAX_SEEN = 5000
 MAX_PUBLISHED_STORIES = 500
 MAX_OUTBOX = 100
@@ -48,12 +48,15 @@ class StateStore:
         raw_seen = data.get("seen", [])
         raw_records = data.get("published_stories", [])
         raw_outbox = data.get("outbox", [])
+        raw_pending_news = data.get("pending_news", [])
         if not isinstance(raw_seen, list) or not all(isinstance(value, str) for value in raw_seen):
             raise StateStoreError("state seen list is invalid")
         if not isinstance(raw_records, list):
             raise StateStoreError("state published_stories list is invalid")
         if not isinstance(raw_outbox, list):
             raise StateStoreError("state outbox list is invalid")
+        if not isinstance(raw_pending_news, list):
+            raise StateStoreError("state pending_news list is invalid")
         migrated_records = []
         dropped_empty_url_records = False
         for record in raw_records:
@@ -92,6 +95,46 @@ class StateStore:
                 if isinstance(record.get(field, ""), str) and record.get(field, "").strip():
                     migrated_outbox[field] = record[field].strip()
             outbox.append(migrated_outbox)
+
+        migrated_pending_news = []
+        for record in raw_pending_news:
+            if not isinstance(record, dict):
+                raise StateStoreError("state contains an invalid pending news record")
+            url = record.get("url", "")
+            if not isinstance(url, str) or not url.strip():
+                raise StateStoreError("state pending news record has an invalid URL")
+            item_id = record.get("item_id", "")
+            if not isinstance(item_id, str) or not item_id.strip():
+                item_id = url.strip()
+            title = record.get("title", "")
+            summary = record.get("summary", "")
+            source = record.get("source", "")
+            image_url = record.get("image_url", "")
+            for field_name, value in (
+                ("title", title),
+                ("summary", summary),
+                ("source", source),
+                ("image_url", image_url),
+            ):
+                if not isinstance(value, str):
+                    raise StateStoreError(f"state pending news {field_name} is invalid")
+            published_at = record.get("published_at")
+            if published_at is not None and not isinstance(published_at, str):
+                raise StateStoreError("state pending news published_at is invalid")
+            categories = record.get("categories", [])
+            if not isinstance(categories, list) or not all(isinstance(value, str) for value in categories):
+                raise StateStoreError("state pending news categories are invalid")
+            migrated_pending_news.append({
+                "item_id": item_id,
+                "title": title,
+                "url": url.strip(),
+                "summary": summary,
+                "source": source,
+                "image_url": image_url,
+                "published_at": published_at,
+                "categories": categories,
+            })
+
         rendered_enriched = False
         for record in migrated_records:
             if record.get("display_title") and record.get("display_summary"):
@@ -109,12 +152,19 @@ class StateStore:
                     rendered_enriched = True
                 break
 
+        changed = (
+            data.get("schema_version") != STATE_SCHEMA_VERSION
+            or dropped_empty_url_records
+            or rendered_enriched
+            or raw_pending_news != migrated_pending_news
+        )
         return {
             "schema_version": STATE_SCHEMA_VERSION,
             "seen": raw_seen,
             "published_stories": migrated_records,
             "outbox": outbox,
-        }, data.get("schema_version") != STATE_SCHEMA_VERSION or dropped_empty_url_records or rendered_enriched
+            "pending_news": migrated_pending_news,
+        }, changed
 
     def _migrated_data(self):
         data, changed = self._migrate(self._read())
@@ -137,7 +187,10 @@ class StateStore:
     def load_outbox(self):
         return self._migrated_data().get("outbox", [])
 
-    def save(self, seen, records=None, outbox=None):
+    def load_pending_news(self):
+        return self._migrated_data().get("pending_news", [])
+
+    def save(self, seen, records=None, outbox=None, pending_news=None):
         current, _ = self._migrate(self._read())
         previous = [value for value in current.get("seen", []) if value in seen]
         previous_set = set(previous)
@@ -152,11 +205,23 @@ class StateStore:
             outbox = current.get("outbox", [])
         if not isinstance(outbox, list):
             raise StateStoreError("outbox must be a list")
+        if pending_news is None:
+            pending_news = current.get("pending_news", [])
+        if not isinstance(pending_news, list):
+            raise StateStoreError("pending_news must be a list")
+        for record in pending_news:
+            if (
+                not isinstance(record, dict)
+                or not isinstance(record.get("url"), str)
+                or not record["url"].strip()
+            ):
+                raise StateStoreError("pending_news contains an invalid record")
         data = {
             "schema_version": STATE_SCHEMA_VERSION,
             "seen": ordered[-MAX_SEEN:],
             "published_stories": list(records)[-MAX_PUBLISHED_STORIES:],
             "outbox": list(outbox)[-MAX_OUTBOX:],
+            "pending_news": list(pending_news),
         }
         self._write(data)
 

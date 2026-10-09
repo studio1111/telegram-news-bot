@@ -510,5 +510,5 @@ def test_story_older_than_fresh_window_is_persisted_then_published_next_run(monk
     # It is still outside the fresh window, but now it is a previously queued item.
     news_main.main()
     assert len(published) == 1
-    assert published[0][1] == item.image_url
+    assert published[0][1] == "https://example.com/test.jpg"
     assert not any(record["url"] == item.url for record in store.pending_news)
