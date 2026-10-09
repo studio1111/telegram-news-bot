@@ -1,7 +1,8 @@
 from app.collector import collect_feed
 
 
-def test_collect_feed_returns_empty_list_when_feed_request_fails(monkeypatch):
+def test_collect_feed_raises_when_feed_request_fails(monkeypatch):
+    import pytest
     import requests
 
     def fail(*args, **kwargs):
@@ -9,7 +10,8 @@ def test_collect_feed_returns_empty_list_when_feed_request_fails(monkeypatch):
 
     monkeypatch.setattr("app.collector.requests.get", fail)
 
-    assert collect_feed("https://example.com/feed", "Example") == []
+    with pytest.raises(requests.RequestException, match="network down"):
+        collect_feed("https://example.com/feed", "Example")
 
 
 def test_safe_get_does_not_append_cache_busting_query_parameters(monkeypatch):
