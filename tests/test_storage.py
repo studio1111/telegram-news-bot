@@ -143,3 +143,40 @@ def test_migration_recovers_rendered_title_and_summary_from_sent_outbox(tmp_path
 
     assert record["display_title"] == "ابزار تشخیص هوش مصنوعی گوگل (Google) منتشر شد"
     assert record["display_summary"] == "گوگل (Google) ابزار SynthID Detector را عرضه کرد."
+
+
+
+def test_pending_news_roundtrip_and_is_preserved_by_legacy_save_calls(tmp_path):
+    store = StateStore(tmp_path / "state.json")
+    pending = [{
+        "item_id": "engadget-1",
+        "title": "A delayed technology story",
+        "url": "https://example.com/delayed",
+        "summary": "Summary",
+        "source": "Engadget",
+        "image_url": "https://example.com/image.jpg",
+        "published_at": "2026-10-09T10:00:00+00:00",
+        "categories": ["Technology"],
+    }]
+
+    store.save(set(), [], [], pending_news=pending)
+    assert store.load_pending_news() == pending
+
+    # Existing call sites that do not pass queue state must not erase it.
+    store.save({"already-seen"})
+    assert store.load_pending_news() == pending
+
+
+def test_legacy_state_migrates_with_empty_pending_news_queue(tmp_path):
+    path = tmp_path / "state.json"
+    path.write_text(json.dumps({
+        "schema_version": 5,
+        "seen": ["old"],
+        "published_stories": [],
+        "outbox": [],
+    }), encoding="utf-8")
+
+    store = StateStore(path)
+    assert store.load_pending_news() == []
+    saved = json.loads(path.read_text(encoding="utf-8"))
+    assert saved["pending_news"] == []

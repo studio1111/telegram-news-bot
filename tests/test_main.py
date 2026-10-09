@@ -6,10 +6,16 @@ import app.main as news_main
 def _store():
     class FakeStore:
         saves=[]
+        pending_news=[]
         def load(self): return set()
         def load_records(self): return []
-        def save(self, seen, records=None, outbox=None): self.saves.append((set(seen), list(records or []), list(outbox or [])))
+        def load_pending_news(self): return list(type(self).pending_news)
+        def save(self, seen, records=None, outbox=None, pending_news=None):
+            self.saves.append((set(seen), list(records or []), list(outbox or [])))
+            if pending_news is not None:
+                type(self).pending_news = list(pending_news)
     FakeStore.saves=[]
+    FakeStore.pending_news=[]
     return FakeStore
 
 
@@ -30,6 +36,22 @@ def test_main_uses_90_minute_window():
     now=datetime(2026,10,6,18,10,tzinfo=timezone.utc)
     assert news_main.is_recent_news(now-timedelta(minutes=90), now)
     assert not news_main.is_recent_news(now-timedelta(minutes=91), now)
+
+
+def test_backlog_keeps_unpublished_news_for_later_runs():
+    now = datetime(2026, 10, 9, 12, 0, tzinfo=timezone.utc)
+    assert news_main.is_backlog_eligible_news(now - timedelta(hours=13), now)
+    assert news_main.is_backlog_eligible_news(now - timedelta(minutes=91), now)
+    assert not news_main.is_backlog_eligible_news(now - timedelta(hours=25), now)
+    assert not news_main.is_backlog_eligible_news(None, now)
+
+
+def test_collection_includes_news_older_than_fresh_window(monkeypatch):
+    now = datetime(2026, 10, 9, 12, 0, tzinfo=timezone.utc)
+    older = NewsItem("old-but-unpublished", "Older software report", "https://example.com/older", "summary", "TechCrunch", "", now - timedelta(hours=13), ("Technology",))
+    monkeypatch.setattr(news_main, "collect_feed", lambda *a, **k: [older])
+    result = news_main._collect_recent_items([{"url": "https://example.com/feed", "name": "TechCrunch", "limit": 0}], set(), now)
+    assert [item.url for item in result] == [older.url]
 
 
 def test_candidate_collection_checks_later_sources_without_cap(monkeypatch):
@@ -454,3 +476,95 @@ def test_missing_rss_date_is_recovered_from_article_page(monkeypatch):
 
     assert len(result) == 1
     assert result[0].published_at == now - timedelta(minutes=10)
+
+
+
+def test_story_older_than_fresh_window_is_persisted_then_published_next_run(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "delayed-story",
+        "A delayed technology announcement",
+        "https://example.com/delayed-story",
+        "The announcement was published two hours ago.",
+        "Engadget",
+        "https://example.com/delayed-story.jpg",
+        now - timedelta(hours=2),
+        ("Technology",),
+    )
+    store = _store()
+    published = []
+    _patch(
+        monkeypatch,
+        [item],
+        lambda title, summary, article: _tech(title, summary),
+        lambda message, image: published.append((message, image)),
+        store,
+    )
+    monkeypatch.setattr(news_main, "is_duplicate_story", lambda *args, **kwargs: False)
+
+    # The item is outside the 90-minute fresh window. It must be queued, not lost.
+    news_main.main()
+    assert published == []
+    assert any(record["url"] == item.url for record in store.pending_news)
+
+    # It is still outside the fresh window, but now it is a previously queued item.
+    news_main.main()
+    assert len(published) == 1
+    assert published[0][1] == "https://example.com/test.jpg"
+    assert not any(record["url"] == item.url for record in store.pending_news)
+
+
+
+def test_duplicate_loser_stays_queued_until_published_story_confirms_duplicate(monkeypatch):
+    now = datetime.now(timezone.utc)
+    older = NewsItem(
+        "older-duplicate", "A major product launch", "https://example.com/older",
+        "The company announced a new product with several specifications.",
+        "TechCrunch", "", now - timedelta(minutes=20), ("Technology",),
+    )
+    newer = NewsItem(
+        "newer-duplicate", "A major product launch", "https://example.com/newer",
+        "The company announced a new product with several specifications.",
+        "Engadget", "", now - timedelta(minutes=10), ("Technology",),
+    )
+    store = _store()
+    published = []
+    _patch(
+        monkeypatch, [older, newer],
+        lambda title, summary, article: _tech(title, summary),
+        lambda message, image: published.append(message),
+        store,
+    )
+
+    news_main.main()
+
+    assert len(published) == 1
+    assert [record["url"] for record in store.pending_news] == [older.url]
+    assert older.url not in store.saves[-1][0]
+    assert older.item_id not in store.saves[-1][0]
+
+
+def test_story_without_verified_image_stays_in_queue(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "no-image", "A technology product announcement",
+        "https://example.com/no-image", "Summary", "Engadget", "",
+        now - timedelta(minutes=5), ("Technology",),
+    )
+    store = _store()
+    ai_calls = []
+    published = []
+    _patch(
+        monkeypatch, [item],
+        lambda *args: ai_calls.append(args) or _tech("خبر", "خلاصه"),
+        lambda message, image: published.append((message, image)),
+        store,
+    )
+    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda url: "")
+    monkeypatch.setattr(news_main, "is_duplicate_story", lambda *args, **kwargs: False)
+
+    news_main.main()
+
+    assert ai_calls == []
+    assert published == []
+    assert [record["url"] for record in store.pending_news] == [item.url]

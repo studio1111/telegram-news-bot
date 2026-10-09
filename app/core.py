@@ -271,6 +271,9 @@ def is_new_item(item_id: str, url: str, seen: set[str]) -> bool:
 # (NEWS_WINDOW_MINUTES). "seen" and the duplicate filter prevent repeats; the
 # window only stops a fresh/empty state from replaying days of old news.
 NEWS_WINDOW_MINUTES = int(os.environ.get("NEWS_WINDOW_MINUTES", "90"))
+# Keep missed/unpublished RSS stories eligible for a later run instead of losing
+# them just because a scheduled run started outside the fresh-news window.
+MAX_BACKLOG_AGE_HOURS = int(os.environ.get("MAX_BACKLOG_AGE_HOURS", "24"))
 _FUTURE_TOLERANCE = timedelta(minutes=5)
 
 def is_recent_news(published_at: datetime | None, now: datetime | None = None, window_minutes: int | None = None) -> bool:
@@ -285,6 +288,22 @@ def is_recent_news(published_at: datetime | None, now: datetime | None = None, w
     now = now.astimezone(timezone.utc)
     age = now - published_at
     return -_FUTURE_TOLERANCE <= age <= timedelta(minutes=window_minutes)
+
+
+def is_backlog_eligible_news(published_at: datetime | None, now: datetime | None = None, max_age_hours: int | None = None) -> bool:
+    """Allow unpublished RSS stories to be picked up for up to 24 hours."""
+    if published_at is None:
+        return False
+    if max_age_hours is None:
+        max_age_hours = MAX_BACKLOG_AGE_HOURS
+    now = now or datetime.now(timezone.utc)
+    if published_at.tzinfo is None:
+        published_at = published_at.replace(tzinfo=timezone.utc)
+    published_at = published_at.astimezone(timezone.utc)
+    now = now.astimezone(timezone.utc)
+    age = now - published_at
+    return -_FUTURE_TOLERANCE <= age <= timedelta(hours=max_age_hours)
+
 
 _TECHNOLOGY_CATEGORIES = {"technology", "technologies", "tech", "artificial intelligence", "ai", "cybersecurity", "cyber security", "software", "hardware", "gadgets", "mobile", "cloud", "semiconductors", "consumer technology"}
 
