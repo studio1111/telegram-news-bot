@@ -276,10 +276,10 @@ def fetch_article_published_at(url: str) -> datetime | None:
         return None
 
     patterns = (
-        r'(?is)<meta[^>]+(?:property|name|itemprop)=["\\\'](?:article:published_time|datepublished|date|pubdate|publish-date)["\\\'][^>]+content=["\\\']([^"\\\']+)',
-        r'(?is)<meta[^>]+content=["\\\']([^"\\\']+)["\\\'][^>]+(?:property|name|itemprop)=["\\\'](?:article:published_time|datepublished|date|pubdate|publish-date)["\\\']',
-        r'(?is)["\\\']datePublished["\\\']\\s*:\\s*["\\\']([^"\\\']+)',
-        r'(?is)<time[^>]+datetime=["\\\']([^"\\\']+)',
+        r"""(?is)<meta[^>]+(?:property|name|itemprop)=["'](?:article:published_time|datepublished|date|pubdate|publish-date)["'][^>]+content=["']([^"']+)""",
+        r"""(?is)<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name|itemprop)=["'](?:article:published_time|datepublished|date|pubdate|publish-date)["']""",
+        r"""(?is)["']datePublished["']\s*:\s*["']([^"']+)""",
+        r"""(?is)<time[^>]+datetime=["']([^"']+)""",
     )
     for pattern in patterns:
         for match in re.finditer(pattern, html):
