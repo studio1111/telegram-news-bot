@@ -168,3 +168,35 @@ def test_public_host_resolution_has_a_timeout(monkeypatch):
     with __import__("pytest").raises(ValueError, match="unable to resolve"):
         collector._is_public_host("example.com")
     assert captured["timeout"] == 3
+
+
+def test_fetch_article_published_at_reads_open_graph_metadata(monkeypatch):
+    import app.collector as collector
+    from datetime import datetime, timezone
+
+    monkeypatch.setattr(collector, "_validate_url", lambda url: url)
+    monkeypatch.setattr(
+        collector,
+        "_fetch_article_html",
+        lambda url: '<meta property="article:published_time" content="2026-10-09T10:30:00Z">',
+    )
+
+    assert collector.fetch_article_published_at("https://example.com/story") == datetime(
+        2026, 10, 9, 10, 30, tzinfo=timezone.utc
+    )
+
+
+def test_fetch_article_published_at_reads_json_ld_metadata(monkeypatch):
+    import app.collector as collector
+    from datetime import datetime, timezone
+
+    monkeypatch.setattr(collector, "_validate_url", lambda url: url)
+    monkeypatch.setattr(
+        collector,
+        "_fetch_article_html",
+        lambda url: '<script type="application/ld+json">{"datePublished":"2026-10-09T10:30:00+00:00"}</script>',
+    )
+
+    assert collector.fetch_article_published_at("https://example.com/story") == datetime(
+        2026, 10, 9, 10, 30, tzinfo=timezone.utc
+    )

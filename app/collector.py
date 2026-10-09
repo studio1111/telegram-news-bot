@@ -268,6 +268,36 @@ def _fetch_article_html(url: str) -> str:
     return html
 
 
+def fetch_article_published_at(url: str) -> datetime | None:
+    """Recover a missing RSS publication timestamp from trusted article metadata."""
+    _validate_url(url)
+    html = _fetch_article_html(url)
+    if not html:
+        return None
+
+    patterns = (
+        r"""(?is)<meta[^>]+(?:property|name|itemprop)=["'](?:article:published_time|datepublished|date|pubdate|publish-date)["'][^>]+content=["']([^"']+)""",
+        r"""(?is)<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name|itemprop)=["'](?:article:published_time|datepublished|date|pubdate|publish-date)["']""",
+        r"""(?is)["']datePublished["']\s*:\s*["']([^"']+)""",
+        r"""(?is)<time[^>]+datetime=["']([^"']+)""",
+    )
+    for pattern in patterns:
+        for match in re.finditer(pattern, html):
+            value = match.group(1).strip()
+            try:
+                parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+            except ValueError:
+                try:
+                    from email.utils import parsedate_to_datetime
+                    parsed = parsedate_to_datetime(value)
+                except (TypeError, ValueError, OverflowError):
+                    continue
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=timezone.utc)
+            return parsed.astimezone(timezone.utc)
+    return None
+
+
 def fetch_article_text(url: str, max_chars: int = 18000) -> str:
     _validate_url(url)
     html = _fetch_article_html(url)

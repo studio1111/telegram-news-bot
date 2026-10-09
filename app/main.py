@@ -10,7 +10,7 @@ import requests
 
 from .ai import find_duplicate_groups, process_with_gemini
 from .semantic_dedup import find_semantic_relations
-from .collector import collect_feed, fetch_article_image_url, fetch_article_text, validate_image_url
+from .collector import collect_feed, fetch_article_image_url, fetch_article_published_at, fetch_article_text, validate_image_url
 from .core import NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
@@ -244,8 +244,17 @@ def _collect_recent_items(sources, seen, now):
                 continue
             unseen += 1
             if item.published_at is None:
-                missing_dates += 1
-                continue
+                try:
+                    recovered_date = fetch_article_published_at(item.url)
+                except Exception as exc:
+                    print(f"[DATE_RECOVERY_ERROR] source={item.source} url={item.url}: {exc}")
+                    recovered_date = None
+                if recovered_date is not None:
+                    item = replace(item, published_at=recovered_date)
+                    print(f"[DATE_RECOVERED] source={item.source} published={recovered_date.isoformat()} url={item.url}")
+                else:
+                    missing_dates += 1
+                    continue
             if is_advertisement(item.title, item.summary, item.categories):
                 stats["advertisements"] += 1
                 seen.update((item.item_id, item.url))
