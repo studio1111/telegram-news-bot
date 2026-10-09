@@ -423,3 +423,20 @@ def test_duplicate_history_is_cleaned_before_it_is_used_for_future_runs():
     cleaned, removed = news_main._deduplicate_history_records([first, second])
     assert removed == 1
     assert len(cleaned) == 1
+
+
+def test_feed_failure_is_counted_in_collection_summary(monkeypatch, capsys):
+    def fail(*args, **kwargs):
+        raise RuntimeError("feed unavailable")
+
+    monkeypatch.setattr(news_main, "collect_feed", fail)
+    result = news_main._collect_recent_items(
+        [{"url": "https://example.com/feed", "name": "Example", "limit": 0}],
+        set(),
+        datetime.now(timezone.utc),
+    )
+
+    assert result == []
+    output = capsys.readouterr().out
+    assert "[SOURCE_ERROR] Example: feed unavailable" in output
+    assert "errors=1" in output
