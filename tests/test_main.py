@@ -440,3 +440,17 @@ def test_feed_failure_is_counted_in_collection_summary(monkeypatch, capsys):
     output = capsys.readouterr().out
     assert "[SOURCE_ERROR] Example: feed unavailable" in output
     assert "errors=1" in output
+
+
+def test_missing_rss_date_is_recovered_from_article_page(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem("undated", "Recent technology story", "https://example.com/undated", "summary", "Example", "", None, ("Technology",))
+    monkeypatch.setattr(news_main, "collect_feed", lambda *a, **k: [item])
+    monkeypatch.setattr(news_main, "fetch_article_published_at", lambda url: now - timedelta(minutes=10))
+
+    result = news_main._collect_recent_items(
+        [{"url": "https://example.com/feed", "name": "Example", "limit": 0}], set(), now
+    )
+
+    assert len(result) == 1
+    assert result[0].published_at == now - timedelta(minutes=10)
