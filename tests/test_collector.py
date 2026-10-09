@@ -12,6 +12,34 @@ def test_collect_feed_returns_empty_list_when_feed_request_fails(monkeypatch):
     assert collect_feed("https://example.com/feed", "Example") == []
 
 
+def test_safe_get_does_not_append_cache_busting_query_parameters(monkeypatch):
+    import app.collector as collector
+
+    captured = {}
+
+    class Response:
+        status_code = 200
+        headers = {}
+
+        def raise_for_status(self):
+            pass
+
+    monkeypatch.setattr(collector, "_validate_url", lambda url: url)
+
+    def fake_get(url, **kwargs):
+        captured["url"] = url
+        captured.update(kwargs)
+        return Response()
+
+    monkeypatch.setattr(collector.requests, "get", fake_get)
+
+    collector._safe_get("https://www.theverge.com/rss/index.xml")
+
+    assert captured["url"] == "https://www.theverge.com/rss/index.xml"
+    assert "params" not in captured
+    assert captured["headers"]["Cache-Control"] == "no-cache, no-store, max-age=0"
+
+
 def test_article_page_is_downloaded_once_for_text_and_image(monkeypatch):
     import app.collector as collector
 
