@@ -512,3 +512,59 @@ def test_story_older_than_fresh_window_is_persisted_then_published_next_run(monk
     assert len(published) == 1
     assert published[0][1] == "https://example.com/test.jpg"
     assert not any(record["url"] == item.url for record in store.pending_news)
+
+
+
+def test_duplicate_loser_stays_queued_until_published_story_confirms_duplicate(monkeypatch):
+    now = datetime.now(timezone.utc)
+    older = NewsItem(
+        "older-duplicate", "A major product launch", "https://example.com/older",
+        "The company announced a new product with several specifications.",
+        "TechCrunch", "", now - timedelta(minutes=20), ("Technology",),
+    )
+    newer = NewsItem(
+        "newer-duplicate", "A major product launch", "https://example.com/newer",
+        "The company announced a new product with several specifications.",
+        "Engadget", "", now - timedelta(minutes=10), ("Technology",),
+    )
+    store = _store()
+    published = []
+    _patch(
+        monkeypatch, [older, newer],
+        lambda title, summary, article: _tech(title, summary),
+        lambda message, image: published.append(message),
+        store,
+    )
+
+    news_main.main()
+
+    assert len(published) == 1
+    assert [record["url"] for record in store.pending_news] == [older.url]
+    assert older.url not in store.saves[-1][0]
+    assert older.item_id not in store.saves[-1][0]
+
+
+def test_story_without_verified_image_stays_in_queue(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "no-image", "A technology product announcement",
+        "https://example.com/no-image", "Summary", "Engadget", "",
+        now - timedelta(minutes=5), ("Technology",),
+    )
+    store = _store()
+    ai_calls = []
+    published = []
+    _patch(
+        monkeypatch, [item],
+        lambda *args: ai_calls.append(args) or _tech("خبر", "خلاصه"),
+        lambda message, image: published.append((message, image)),
+        store,
+    )
+    monkeypatch.setattr(news_main, "fetch_article_image_url", lambda url: "")
+    monkeypatch.setattr(news_main, "is_duplicate_story", lambda *args, **kwargs: False)
+
+    news_main.main()
+
+    assert ai_calls == []
+    assert published == []
+    assert [record["url"] for record in store.pending_news] == [item.url]

@@ -500,13 +500,9 @@ def main():
             pending_news[_pending_news_key(item)] = item
 
         candidates = _prioritize_duplicate_candidates(hydrated_candidates)
-        selected_keys = {_pending_news_key(item) for item in candidates}
-        # A duplicate loser with a verified image is terminal; a no-image item is
-        # not returned by hydration and deliberately remains queued for recovery.
-        for item in hydrated_candidates:
-            if _pending_news_key(item) not in selected_keys:
-                seen.update((item.item_id, item.url))
-
+        # Keep duplicate-group losers queued until a published story or semantic
+        # dedup confirms they are terminal. This avoids permanently discarding a
+        # story that only looked similar before the update/duplicate check.
         print(
             f"[RUN] now={now.isoformat()} fresh_window_minutes={NEWS_WINDOW} "
             f"backlog_window_hours={MAX_BACKLOG_AGE_HOURS} candidates={len(candidates)} "
