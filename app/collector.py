@@ -8,7 +8,6 @@ import json
 import re
 import socket
 import threading
-import time
 from urllib.parse import urljoin, urlparse
 
 import feedparser
@@ -222,8 +221,17 @@ def _bounded_response(response) -> bytes:
 def _safe_get(url: str, timeout: int = 20):
     current = _validate_url(url)
     for _ in range(MAX_REDIRECTS + 1):
-        response = requests.get(current, params={"_": str(int(time.time()))}, timeout=timeout,
-                                headers=_NO_CACHE_HEADERS, allow_redirects=False, stream=True)
+        # Do not append cache-busting query parameters to publisher URLs.
+        # Some RSS endpoints return 404 for otherwise valid feed URLs when an
+        # unknown query parameter is present. No-cache headers already request
+        # a fresh response.
+        response = requests.get(
+            current,
+            timeout=timeout,
+            headers=_NO_CACHE_HEADERS,
+            allow_redirects=False,
+            stream=True,
+        )
         status_code = getattr(response, "status_code", 200)
         headers = getattr(response, "headers", {}) or {}
         if 300 <= status_code < 400:
