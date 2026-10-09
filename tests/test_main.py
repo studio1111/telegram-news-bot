@@ -6,10 +6,16 @@ import app.main as news_main
 def _store():
     class FakeStore:
         saves=[]
+        pending_news=[]
         def load(self): return set()
         def load_records(self): return []
-        def save(self, seen, records=None, outbox=None): self.saves.append((set(seen), list(records or []), list(outbox or [])))
+        def load_pending_news(self): return list(type(self).pending_news)
+        def save(self, seen, records=None, outbox=None, pending_news=None):
+            self.saves.append((set(seen), list(records or []), list(outbox or [])))
+            if pending_news is not None:
+                type(self).pending_news = list(pending_news)
     FakeStore.saves=[]
+    FakeStore.pending_news=[]
     return FakeStore
 
 
@@ -470,3 +476,39 @@ def test_missing_rss_date_is_recovered_from_article_page(monkeypatch):
 
     assert len(result) == 1
     assert result[0].published_at == now - timedelta(minutes=10)
+
+
+
+def test_story_older_than_fresh_window_is_persisted_then_published_next_run(monkeypatch):
+    now = datetime.now(timezone.utc)
+    item = NewsItem(
+        "delayed-story",
+        "A delayed technology announcement",
+        "https://example.com/delayed-story",
+        "The announcement was published two hours ago.",
+        "Engadget",
+        "https://example.com/delayed-story.jpg",
+        now - timedelta(hours=2),
+        ("Technology",),
+    )
+    store = _store()
+    published = []
+    _patch(
+        monkeypatch,
+        [item],
+        lambda title, summary, article: _tech(title, summary),
+        lambda message, image: published.append((message, image)),
+        store,
+    )
+    monkeypatch.setattr(news_main, "is_duplicate_story", lambda *args, **kwargs: False)
+
+    # The item is outside the 90-minute fresh window. It must be queued, not lost.
+    news_main.main()
+    assert published == []
+    assert any(record["url"] == item.url for record in store.pending_news)
+
+    # It is still outside the fresh window, but now it is a previously queued item.
+    news_main.main()
+    assert len(published) == 1
+    assert published[0][1] == item.image_url
+    assert not any(record["url"] == item.url for record in store.pending_news)
