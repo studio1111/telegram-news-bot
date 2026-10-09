@@ -4,6 +4,14 @@ on:
   schedule:
     - cron: "8 * * * *"
   workflow_dispatch:
+  # temporary-validation-trigger
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "data/sources.json"
+      - "requirements*.txt"
+      - ".github/workflows/news.yml"
 
 concurrency:
   group: news-bot
