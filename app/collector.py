@@ -319,7 +319,7 @@ def collect_feed(url: str, source_name: str, limit: int | None = None):
         parsed = feedparser.parse(_bounded_response(response))
     except (requests.RequestException, ValueError) as exc:
         print(f"[FEED_ERROR] {source_name} url={url}: {exc}")
-        return []
+        raise
     items=[]
     entries = parsed.entries if limit is None or limit <= 0 else parsed.entries[:limit]
     for entry in entries:
