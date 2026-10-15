@@ -34,12 +34,22 @@ def _plain_text(message):
 
 
 def _api(token, method, payload=None):
-    response = requests.post(
-        f"{API_BASE}/{token}/{method}",
-        json=payload or {},
-        timeout=REQUEST_TIMEOUT,
-    )
-    response.raise_for_status()
+    # The token is part of the API URL. Never allow requests' exceptions to
+    # print that URL into GitHub Actions logs.
+    try:
+        response = requests.post(
+            f"{API_BASE}/{token}/{method}",
+            json=payload or {},
+            timeout=REQUEST_TIMEOUT,
+        )
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        status_code = getattr(getattr(exc, "response", None), "status_code", None)
+        status = f" (HTTP {status_code})" if status_code else ""
+        raise RuntimeError(
+            f"Rubika {method} request failed{status} ({type(exc).__name__})"
+        ) from None
+
     try:
         body = response.json()
     except ValueError as exc:
@@ -48,11 +58,10 @@ def _api(token, method, payload=None):
         raise RuntimeError(f"Rubika {method} returned an invalid response")
     status = str(body.get("status", "")).upper()
     if status and status not in {"OK", "SUCCESS"}:
-        raise RuntimeError(f"Rubika {method} failed: {body.get('status')}")
+        raise RuntimeError(f"Rubika {method} failed: {status}")
     if body.get("ok") is False:
         raise RuntimeError(f"Rubika {method} failed: {body.get('description', 'unknown error')}")
     return body
-
 
 def _data(body):
     value = body.get("data", body)
