@@ -14,6 +14,7 @@ from .collector import NewsItem, collect_feed, fetch_article_image_url, fetch_ar
 from .core import MAX_BACKLOG_AGE_HOURS, NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_backlog_eligible_news, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
 from .telegram import publish_rich_message
+from .rubika import publish_rubika_message, rubika_enabled
 
 
 GEMINI_WORKERS = 8
@@ -386,31 +387,47 @@ def _retry_outbox(store, seen, published_stories, outbox, deadline):
         if time.monotonic() >= deadline:
             print("[DEADLINE] reached while retrying outbox")
             break
-        if record.get("status") != "pending":
-            continue
-        try:
-            publish_rich_message(record["message"], record.get("image_url", ""))
-        except Exception as exc:
-            if _delivery_unknown(exc):
-                print(f"[OUTBOX_AMBIGUOUS] key={record['key']}: {exc}; treating as delivered to avoid a duplicate")
-            else:
-                print(f"[OUTBOX_ERROR] key={record['key']}: {exc}")
-                continue
-        record["status"] = "sent"
-        if record.get("url"):
-            seen.add(record["url"])
-            published_stories.append({
-                "title": record.get("title", ""),
-                "summary": record.get("summary", ""),
-                "url": record["url"],
-                "display_title": record.get("display_title", ""),
-                "display_summary": record.get("display_summary", ""),
-            })
-        _save_state(store, seen, published_stories, outbox)
-        recovered += 1
-        print(f"[OUTBOX_SENT] key={record['key']}")
-    return recovered
 
+        # Telegram is always attempted first. A sent Telegram item is never
+        # sent to Telegram again just because its Rubika delivery is pending.
+        if record.get("status") == "pending":
+            try:
+                publish_rich_message(record["message"], record.get("image_url", ""))
+            except Exception as exc:
+                if _delivery_unknown(exc):
+                    print(f"[OUTBOX_AMBIGUOUS] key={record['key']}: {exc}; treating Telegram as delivered to avoid a duplicate")
+                else:
+                    print(f"[OUTBOX_ERROR] key={record['key']}: {exc}")
+                    continue
+            record["status"] = "sent"
+            if record.get("url"):
+                seen.add(record["url"])
+                published_stories.append({
+                    "title": record.get("title", ""),
+                    "summary": record.get("summary", ""),
+                    "url": record["url"],
+                    "display_title": record.get("display_title", ""),
+                    "display_summary": record.get("display_summary", ""),
+                })
+            _save_state(store, seen, published_stories, outbox)
+            recovered += 1
+            print(f"[OUTBOX_TELEGRAM_SENT] key={record['key']}")
+
+        # Only new outbox records carry rubika_status. Historical Telegram-only
+        # records are intentionally not backfilled into Rubika.
+        if record.get("status") == "sent" and record.get("rubika_status") == "pending":
+            if not rubika_enabled():
+                print(f"[RUBIKA_PENDING] key={record.get('key')}: credentials unavailable")
+                continue
+            try:
+                publish_rubika_message(record.get("message", ""), record.get("image_url", ""))
+            except Exception as exc:
+                print(f"[RUBIKA_ERROR] key={record.get('key')}: {exc}")
+            else:
+                record["rubika_status"] = "sent"
+                _save_state(store, seen, published_stories, outbox)
+                print(f"[OUTBOX_RUBIKA_SENT] key={record['key']}")
+    return recovered
 
 def main():
     sources = json.loads(Path("data/sources.json").read_text(encoding="utf-8"))
@@ -598,6 +615,9 @@ def main():
                     "message": message,
                     "image_url": image_url or "",
                     "status": "pending",
+                    # Telegram is primary. Rubika delivery is attempted only
+                    # after Telegram succeeds and has its own retry status.
+                    "rubika_status": "pending" if rubika_enabled() else "disabled",
                 })
                 persist()
 
@@ -618,8 +638,22 @@ def main():
             seen.update((item.item_id, item.url))
             published_stories.append(rendered_story)
             del published_stories[:-MAX_PUBLISHED_STORIES:]
+            # Persist the Telegram success before touching Rubika. If Rubika is
+            # unavailable, the next run retries only Rubika, never Telegram.
             persist()
-            print(f"[PUBLISHED] source={item.source} image={'yes' if image_url else 'no'} url={item.url}")
+            print(f"[PUBLISHED] platform=telegram source={item.source} image={'yes' if image_url else 'no'} url={item.url}")
+
+            if rubika_enabled():
+                try:
+                    publish_rubika_message(message, image_url)
+                except Exception as exc:
+                    print(f"[RUBIKA_ERROR] source={item.source} url={item.url}: {exc}; queued for retry")
+                else:
+                    for record in outbox:
+                        if record.get("key") == key:
+                            record["rubika_status"] = "sent"
+                    persist()
+                    print(f"[PUBLISHED] platform=rubika source={item.source} url={item.url}")
     finally:
         persist()
         print(f"[SUMMARY] candidates={len(candidates)} published={published_count} gemini_failed={ai_failed} duplicates={duplicates} telegram_failed={telegram_failed} process_failed={publish_failed} ")
