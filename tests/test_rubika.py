@@ -1,4 +1,5 @@
 import html
+import requests
 
 from app import rubika
 
@@ -35,8 +36,6 @@ def test_rubika_requires_image(monkeypatch):
 
 
 def test_api_http_errors_never_expose_bot_token(monkeypatch):
-    import requests
-
     token = "private-rubika-token"
     monkeypatch.setattr(
         rubika.requests,
