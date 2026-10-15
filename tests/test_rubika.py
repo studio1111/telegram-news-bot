@@ -31,3 +31,33 @@ def test_rubika_requires_image(monkeypatch):
         assert "requires an image" in str(exc)
     else:
         raise AssertionError("text-only Rubika publication should be rejected")
+
+
+
+def test_api_http_errors_never_expose_bot_token(monkeypatch):
+    import requests
+
+    token = "private-rubika-token"
+    monkeypatch.setattr(
+        rubika.requests,
+        "post",
+        lambda *args, **kwargs: _HttpErrorResponse(token),
+    )
+
+    try:
+        rubika._api(token, "sendFile", {"chat_id": "channel", "file_id": "image"})
+    except RuntimeError as exc:
+        assert token not in str(exc)
+        assert "HTTP" in str(exc)
+    else:
+        raise AssertionError("Rubika HTTP failures must be surfaced safely")
+
+
+class _HttpErrorResponse:
+    def __init__(self, token):
+        self.token = token
+
+    def raise_for_status(self):
+        raise requests.HTTPError(
+            f"403 Client Error: Forbidden for url: https://botapi.rubika.ir/v3/{self.token}/sendFile"
+        )
