@@ -1082,7 +1082,23 @@
     "1acf74561da840f7e725e045df58464330296a2923cabab9351f4441cf8a1291",
     "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
     "ae187bb47c5336b2089d490c4211805ba79b78bcdcb2635449ddbac2ec9baddb",
-    "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+    "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+    "795013955d91c3fe24fbd7b22daf08beb740018f96db2e1811f992e7649044ce",
+    "880b8f1721cf44ff5fdc1c1c75493e5137242bded2da445afbcdc5fc701eda48",
+    "https://www.theverge.com/gadgets/988582/apple-iphone-duo-preorder-buy-foldable",
+    "https://www.theverge.com/tech/1012628/microsoft-surface-laptop-ultra-review",
+    "276e67540334a43160630e83713be32e28f15640521fcc9c8e8d88d7f5dbd9ff",
+    "https://www.engadget.com/2288624/steam-achievement-sets-protect-100-percent-record-from-dlcs/",
+    "03fc74d1d18ed929755b7ba21f1ab890c3bfe147a2dfd607320af3ae92d86d16",
+    "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
+    "5173c742493c18f593e1f74000fe78bb18148d6397fbc2eeb195b2700a9f13ba",
+    "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/",
+    "46a3d52cf5c71beebc8f1e6f09e3aaf0391f772bb7053f868c15dc9543af2ced",
+    "6942eaedd05c97d34cbd56707c83639ad4259126d421dcff5b97d4b488daf984",
+    "c8a03eea07a373858863d8e52e7830aef7a8c31041b1f3c9f3cc41fbe0e1355b",
+    "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+    "https://www.engadget.com/2288437/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/",
+    "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
   ],
   "published_stories": [
     {
@@ -3114,31 +3130,23 @@
       "url": "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
       "display_title": "شرکت ویدینگز (Withings) دریافت هزینه سالانه ۱۰۰ دلاری برای همگام‌سازی با اپل هلث (Apple Health) را برای کاربران جدید الزامی کرد",
       "display_summary": "شرکت تجهیزات سلامت هوشمند ویدینگز (Withings) در اقدامی جنجالی اعلام کرد که کاربران جدید برای همگام‌سازی خودکار داده‌های خود با اپل هلث (Apple Health) باید اشتراک سالانه ۱۰۰ دلاری خریداری کنند. کاربران فعلی تحت تأثیر این تغییر قرار نمی‌گیرند، اما حساب‌های کاربری ایجادشده پس از تاریخ ۱۳ اکتبر ملزم به تهیه اشتراک ویدینگز پلاس (Withings+) خواهند بود."
+    },
+    {
+      "title": "Steam Achievement Sets will stop DLCs from ruining your 100 percent record",
+      "summary": "Steam has launched Achievement Sets in beta.",
+      "url": "https://www.engadget.com/2288624/steam-achievement-sets-protect-100-percent-record-from-dlcs/",
+      "display_title": "قابلیت «مجموعه‌های دستاورد» در استیم (Steam) از تأثیر دی‌ال‌سی‌ها بر پرونده صددرصدی بازی‌ها جلوگیری می‌کند",
+      "display_summary": "پلتفرم استیم (Steam) با معرفی قابلیت جدید «مجموعه‌های دستاورد» در نسخه آزمایشی، دستاوردهای بازی پایه و دی‌ال‌سی‌ها را از یکدیگر تفکیک می‌کند. این ویژگی به بازیکنان اجازه می‌دهد بدون نگرانی از افت درصد تکمیل بازی با انتشار محتواهای الحاقی جدید، پیشرفت خود را پیگیری کنند."
+    },
+    {
+      "title": "Relive Tesla's ridiculous(ly fun) Roadster stunt show",
+      "summary": "Tesla's Roadster event was pretty exciting, to say the least.",
+      "url": "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/",
+      "display_title": "مروری بر نمایش خیره‌کننده و جذاب خودروی رودستر تسلا",
+      "display_summary": "شرکت تسلا (Tesla) در مراسم رونمایی از خودروی نسل جدید رودستر (Roadster)، با اجرای حرکات نمایشی و پرش‌های هیجان‌انگیز، توجه علاقه‌مندان را به خود جلب کرد. این خودرو از فناوری‌های پیشرفته‌ای مانند پیشرانه‌های گاز سرد (Cold-gas thrusters) برگرفته از شرکت اسپیس‌اکس (SpaceX) بهره می‌برد."
     }
   ],
   "outbox": [
-    {
-      "key": "url:b5a0bcffb5b3a77b578c10811803206c906096deaa832dfa0a30be7b5bdac066",
-      "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
-      "message": "<b>📰 ایکس‌باکس (Xbox) رسماً از پورت‌های بازی مبتنی بر هوش مصنوعی و بازسازی کدها استقبال کرد</b>\n\nشرکت مایکروسافت (Microsoft) با ایجاد گروه جدیدی به نام ایکس‌باکس لبز (Xbox Labs) قصد دارد به بررسی و آزمایش روند رو به رشد مهندسی معکوس و بازسازی کدهای بازی‌ها بپردازد. این اقدام به بازیکنان و توسعه‌دهندگان اجازه می‌دهد تا با کمک مدل‌های هوش مصنوعی، عناوین کلاسیک را روی سخت‌افزارهای جدید اجرا کرده یا آن‌ها را با یکدیگر ترکیب کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت مایکروسافت (Microsoft) با راه‌اندازی یک واحد پژوهشی جدید تحت عنوان ایکس‌باکس لبز (Xbox Labs)، رسماً به دنیای پر از تغییر و تحول پورت‌های بازی و مهندسی معکوس مبتنی بر هوش مصنوعی ورود کرد. این تصمیم پس از آن اتخاذ شد که موجی از خلاقیت‌های کاربران در فضای مجازی، از جمله اجرای بازی‌های مختلف روی مرورگرهای وب و پلتفرم‌های گوناگون، توجه صنعت بازی‌سازی را به خود جلب کرد. بر اساس اعلامیه منتشر شده از سوی آشا شارما (Asha Sharma)، مدیرعامل ایکس‌باکس (Xbox)، گروه جدید ایکس‌باکس لبز (Xbox Labs) متشکل از گروه کوچکی از بازیسازان، مهندسان و دانشمندان علوم کامپیوتر خواهد بود. وظیفه اصلی این تیم، تبدیل ایده‌های نوظهور به تجربیاتی ملموس برای بازیکنان و توسعه‌دهندگان عنوان شده است. این گروه فعالیت‌های خود را به صورت شفاف و در معرض دید عموم پیش خواهد برد تا از بازخوردها درس بگیرد. پدیده‌های اخیر در صنعت بازی، مانند ترجمه کدهای پلتفرم ویندوز پی‌سی (Windows PC) برای اجرا روی تراشه‌های اپل سیلیکون (Apple Silicon) یا اجرای مستقیم بازی‌ها درون مرورگرهای وب با استفاده از فناوری‌های وب‌آسمبلی (WebAssembly) و وب‌جی‌پی‌یو (WebGPU)، فرضیات قدیمی صنعت بازی‌سازی را به چالش کشیده است. این تحولات مرز میان نرم‌افزار و سخت‌افزار، و همچنین خط کشی میان تولیدکننده و مصرف‌کننده را کم‌رنگ‌تر کرده است. آشا شارما (Asha Sharma) در این خصوص خاطرنشان کرد که اگرچه پیش‌بینی آینده صنعت بازی دشوار است، اما دسترسی آسان‌تر به بازی‌های بزرگ، جان بخشیدن دوباره به عناوین قدیمی و تبدیل بازیکنان به خالقان آثار، از پیامدهای مثبت این فناوری‌ها به شمار می‌روند؛ حتی اگر این روندها مدل‌های تجاری سنتی را با چالش مواجه کنند. او همچنین به نقش کلیدی هوش مصنوعی و ایجنت‌های هوش مصنوعی (AI Agents) در این عرصه اشاره کرد و افزود که بازی‌ها ویژگی‌های مشابهی با کدهای برنامه‌نویسی دارند و با توجه به میزان ساعت بالای بازی کاربران، ایکس‌باکس (Xbox) می‌تواند نقش مهمی در شکل‌دهی به فناوری‌های آینده ایفا کند. با این حال، چالش اصلی همچنان موضوع مدیریت حقوق مالکیت فکری (IP) و احتمال سوءاستفاده از نسخه‌های مهندسی معکوس شده بازی‌هاست. اگرچه مایکروسافت (Microsoft) هنوز به صورت رسمی درباره ابعاد حقوقی استفاده غیرمجاز از دارایی‌های فکری اظهارنظر نቅدی نکرده است، اما ایکس‌باکس لبز (Xbox Labs) قصد دارد ضمن پایبندی به تعهدات خود در قبال توسعه بازی‌های باکیفیت و حفاظت از جوامع کاربری، ابزارها و یافته‌های پژوهشی خود را با سایر توسعه‌دهندگان صنعت بازی به اشتراک بگذارد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/xboxlabshed.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "status": "sent",
-      "title": "Xbox is officially embracing the chaos of AI-powered game ports",
-      "summary": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded into Call of Duty and Halo being played in a web [&#8230;]",
-      "display_title": "ایکس‌باکس (Xbox) رسماً از پورت‌های بازی مبتنی بر هوش مصنوعی و بازسازی کدها استقبال کرد",
-      "display_summary": "شرکت مایکروسافت (Microsoft) با ایجاد گروه جدیدی به نام ایکس‌باکس لبز (Xbox Labs) قصد دارد به بررسی و آزمایش روند رو به رشد مهندسی معکوس و بازسازی کدهای بازی‌ها بپردازد. این اقدام به بازیکنان و توسعه‌دهندگان اجازه می‌دهد تا با کمک مدل‌های هوش مصنوعی، عناوین کلاسیک را روی سخت‌افزارهای جدید اجرا کرده یا آن‌ها را با یکدیگر ترکیب کنند."
-    },
-    {
-      "key": "url:4146c1b09744c1a624b99f2ebef0245e0706caef07de3af5d8c413405450d125",
-      "url": "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes/",
-      "message": "<b>📰 استارتاپ نوبییا (Niobia) با هوش مصنوعی خطاهای پرهزینه تولید تراشه و باتری را کاهش می‌دهد</b>\n\nاستارتاپ نوبییا (Niobia) مستقر در سانفرانسیسکو، ابزاری مبتنی بر هوش مصنوعی توسعه داده است تا به تولیدکنندگان باتری و نیمه‌هادی‌ها در شناسایی نقص‌های خطوط تولید کمک کند. این فناوری با استفاده از مدل‌های متن‌باز و پردازش محلی، خطاهای ریز را شناسایی کرده و زمان توقف خطوط تولید را به شدت کاهش می‌دهد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>صنعت تولید تراشه و باتری همواره با چالش‌های پیچیده و پرهزینه‌ای روبه‌رو است که کوچک‌ترین خطا در آن‌ها می‌تواند میلیون‌ها دلار خسارت به همراه داشته باشد. در همین راستا، استارتاپ نوپای نوبییا (Niobia) در شهر سانفرانسیسکو (San Francisco) تلاش می‌کند تا با بهره‌گیری از هوش مصنوعی (Artificial Intelligence)، فرآیند عیب‌یابی در خطوط تولید این محصولات حیاتی را دگرگون کند. این شرکت با ارائه راهکارهای مبتنی بر سخت‌افزار و نرم‌افزار، به مهندسان کمک می‌کند تا دلایل خرابی‌ها را به‌جای چند روز، در عرض چند دقیقه کشف کنند. بر اساس جزئیات منتشرشده، سیستم نوبییا (Niobia) شامل عوامل هوش مصنوعی (AI Agents) است که بر روی پردازنده‌های گرافیکی (GPUs) متصل به تجهیزات تولیدی نصب می‌شوند. این عوامل به طور مداوم خطوط تولید را پایش کرده و نقص‌های بسیار ریز، مانند خراش‌های در حد منافذ سوزنی را شناسایی می‌کنند. علاوه بر این، سیستم تمام داده‌ها را در یک بستر واحد جمع‌آوری می‌کند تا مهندسان بتوانند با استفاده از یک ربات گفت‌وگو (Chatbot)، دلایل ریشه‌ای بروز مشکلات را جست‌وجو کرده و راه حل مناسب را پیدا کنند. گوراو جها (Gaurav Jha) و هاروین کور (Harveen Kaur)، هم بنیان‌گذاران نوبییا (Niobia)، هر دو دارای مدرک دکترای شیمی هستند و سابقه کار در شرکت‌های بزرگ تولیدکننده باتری و تراشه را در کارنامه دارند. گوراو جha (Gaurav Jha) در مصاحبه‌ای پیش از رویداد تک‌کرانچ دیترپت ۲۰۲۶ (TechCrunch Disrupt 2026) اشاره کرد که بازار هدف آن‌ها اگرچه بسیار تخصصی است، اما بخش بزرگی از زیرساخت‌های حیاتی جهان را پشتیبانی می‌کند. به گفته او، فرآیندهایی که این استارتاپ روی آن‌ها تمرکز دارد، شامل پوشش‌دهی لایه نازک (Film Coating)، آبکاری الکتریکی (Electroplating) و واکنش بستر سیال (Fluidized Bed Reaction) است. یکی از ویژگی‌های کلیدی فناوری نوبییا (Niobia)، اتکای آن به مدل‌های متن‌باز (Open Source Models) است. این استارتاپ مدل‌ها را با داده‌های تخصصی صنعت باتری و نیمه‌هادی آموزش می‌دهد. دلیل اصلی استفاده از مدل‌های متن‌باز، حساسیت بالای مشتریان نسبت به داده‌های محرمانه خود است؛ به طوری که شرکت‌ها تمایلی ندارند اطلاعات اختصاصی خود را به ابرهای عمومی (Public Clouds) ارسال کنند. همچنین، نوبییا (Niobia) با ارائه کلیدهای رمزنگاری اختصاصی به مشتریان، امنیت داده‌ها را تضمین می‌کند به‌طوری‌که حتی خود شرکت نیز نمی‌تواند به داده‌های رمزگذاری‌شده دسترسی داشته باشد. چشم‌انداز نهایی این استارتاپ، هوشمندسازی کامل و حرکت به سمت ساخت کارخانه‌های کاملاً خودران (Self-Driving Factory) برای صنعتگران است. این شرکت به عنوان یکی از فینالیست‌های بخش مسابقه استارتاپی (Startup Battlefield) در رویداد تک‌کرانچ دیترپت ۲۰۲۶ (TechCrunch Disrupt 2026) حضور یافته و دستاوردهای خود را به نمایش گذاشته است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1425330574.jpg?resize=1200,800",
-      "status": "sent",
-      "title": "Niobia takes the guesswork out of some of tech’s most expensive mistakes",
-      "summary": "The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes.",
-      "display_title": "استارتاپ نوبییا (Niobia) با هوش مصنوعی خطاهای پرهزینه تولید تراشه و باتری را کاهش می‌دهد",
-      "display_summary": "استارتاپ نوبییا (Niobia) مستقر در سانفرانسیسکو، ابزاری مبتنی بر هوش مصنوعی توسعه داده است تا به تولیدکنندگان باتری و نیمه‌هادی‌ها در شناسایی نقص‌های خطوط تولید کمک کند. این فناوری با استفاده از مدل‌های متن‌باز و پردازش محلی، خطاهای ریز را شناسایی کرده و زمان توقف خطوط تولید را به شدت کاهش می‌دهد."
-    },
     {
       "key": "url:d0f16e0ea79248c9f82aa60b6a5f84e10f3df7d912cd7c0e3db61e0377a1e288",
       "url": "https://www.theverge.com/gadgets/1010384/nothing-headphone-a-charli-xcx-deal-sale",
@@ -4209,12 +4217,35 @@
     {
       "key": "url:1acf74561da840f7e725e045df58464330296a2923cabab9351f4441cf8a1291",
       "url": "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
+      "message": "<b>📰 شرکت ویدینگز (Withings) دریافت هزینه سالانه ۱۰۰ دلاری برای همگام‌سازی با اپل هلث (Apple Health) را برای کاربران جدید الزامی کرد</b>\n\nشرکت تجهیزات سلامت هوشمند ویدینگز (Withings) در اقدامی جنجالی اعلام کرد که کاربران جدید برای همگام‌سازی خودکار داده‌های خود با اپل هلث (Apple Health) باید اشتراک سالانه ۱۰۰ دلاری خریداری کنند. کاربران فعلی تحت تأثیر این تغییر قرار نمی‌گیرند، اما حساب‌های کاربری ایجادشده پس از تاریخ ۱۳ اکتبر ملزم به تهیه اشتراک ویدینگز پلاس (Withings+) خواهند بود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت تجهیزات سلامت هوشمند ویدینگز (Withings) با اتخاذ یک سیاست جدید و پرهزینه، موجی از نارضایتی را در میان کاربران خود ایجاد کرده است. بر اساس اطلاعات منتشرشده در انجمن پشتیبانی این شرکت، ویدینگز قابلیت همگام‌سازی خودکار داده‌های سلامت کاربران با پلتفرم اپل هلث (Apple Health) را به اشتراک پولی خود محدود کرده است. طبق قوانین جدید، این تغییر شامل حال کاربران فعلی نمی‌شود، اما تمامی حساب‌های کاربری جدیدی که از تاریخ ۱۳ اکتبر به بعد ایجاد شده‌اند، برای اتصال خودکار اطلاعات خود به اپل هلث (Apple Health) یا سایر برنامه‌های شخص ثالث مشابه، باید به عضویت سرویس ویدینگز پلاس (Withings+) درآیند. هزینه این اشتراک سالانه معادل ۱۰۰ دلار تعیین شده است. این تصمیم با انتقادات شدید کاربران در فروم‌های رسمی روبه‌رو شده است، چرا که بسیاری از افراد دریافت هزینه اضافی برای یک ویژگی نسبتاً ساده در انتقال داده‌ها را غیرمنصفانه می‌دانند. پاسخ رسمی منتسب به شرکت ویدینگز (Withings) نیز این تغییر را تأیید کرده و توضیح داده است که پس از تاریخ مذکور، همگام‌سازی خودکار با برنامه‌های شخص ثالث بخشی از امکانات اشتراک ویدینگز پلاس (Withings+) خواهد بود. در غیاب همگام‌سازی خودکار، کاربران رایگان جدید ناچار خواهند بود هر بار برای انتقال داده‌های خود به پلتفرم‌های دیگر، به صورت دستی اقدام به استخراج و بارگذاری اطلاعات کنند. شرکت ویدینگز (Withings) که بیشتر به خاطر تولید گجت‌های سلامت رده‌بالا مانند ترازوهای پیشرفته شناخته می‌شود، پیش‌تر نیز محصولاتی نظیر ترازوی بادی اسکن ۲ (Body Scan 2) را با قیمت ۶۰۰ دلار به بازار عرضه کرده بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/l-intro-1792105014.jpg",
+      "status": "sent",
       "title": "Withings wants new users to pay $100 a year to sync with Apple Health",
       "summary": "The smart health company is gating third-party app syncing to its own subscription plan for new users.",
       "display_title": "شرکت ویدینگز (Withings) دریافت هزینه سالانه ۱۰۰ دلاری برای همگام‌سازی با اپل هلث (Apple Health) را برای کاربران جدید الزامی کرد",
-      "display_summary": "شرکت تجهیزات سلامت هوشمند ویدینگز (Withings) در اقدامی جنجالی اعلام کرد که کاربران جدید برای همگام‌سازی خودکار داده‌های خود با اپل هلث (Apple Health) باید اشتراک سالانه ۱۰۰ دلاری خریداری کنند. کاربران فعلی تحت تأثیر این تغییر قرار نمی‌گیرند، اما حساب‌های کاربری ایجادشده پس از تاریخ ۱۳ اکتبر ملزم به تهیه اشتراک ویدینگز پلاس (Withings+) خواهند بود.",
-      "message": "<b>📰 شرکت ویدینگز (Withings) دریافت هزینه سالانه ۱۰۰ دلاری برای همگام‌سازی با اپل هلث (Apple Health) را برای کاربران جدید الزامی کرد</b>\n\nشرکت تجهیزات سلامت هوشمند ویدینگز (Withings) در اقدامی جنجالی اعلام کرد که کاربران جدید برای همگام‌سازی خودکار داده‌های خود با اپل هلث (Apple Health) باید اشتراک سالانه ۱۰۰ دلاری خریداری کنند. کاربران فعلی تحت تأثیر این تغییر قرار نمی‌گیرند، اما حساب‌های کاربری ایجادشده پس از تاریخ ۱۳ اکتبر ملزم به تهیه اشتراک ویدینگز پلاس (Withings+) خواهند بود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت تجهیزات سلامت هوشمند ویدینگز (Withings) با اتخاذ یک سیاست جدید و پرهزینه، موجی از نارضایتی را در میان کاربران خود ایجاد کرده است. بر اساس اطلاعات منتشرشده در انجمن پشتیبانی این شرکت، ویدینگز قابلیت همگام‌سازی خودکار داده‌های سلامت کاربران با پلتفرم اپل هلث (Apple Health) را به اشتراک پولی خود محدود کرده است. طبق قوانین جدید، این تغییر شامل حال کاربران فعلی نمی‌شود، اما تمامی حساب‌های کاربری جدیدی که از تاریخ ۱۳ اکتبر به بعد ایجاد شده‌اند، برای اتصال خودکار اطلاعات خود به اپل هلث (Apple Health) یا سایر برنامه‌های شخص ثالث مشابه، باید به عضویت سرویس ویدینگز پلاس (Withings+) درآیند. هزینه این اشتراک سالانه معادل ۱۰۰ دلار تعیین شده است. این تصمیم با انتقادات شدید کاربران در فروم‌های رسمی روبه‌رو شده است، چرا که بسیاری از افراد دریافت هزینه اضافی برای یک ویژگی نسبتاً ساده در انتقال داده‌ها را غیرمنصفانه می‌دانند. پاسخ رسمی منتسب به شرکت ویدینگز (Withings) نیز این تغییر را تأیید کرده و توضیح داده است که پس از تاریخ مذکور، همگام‌سازی خودکار با برنامه‌های شخص ثالث بخشی از امکانات اشتراک ویدینگز پلاس (Withings+) خواهد بود. در غیاب همگام‌سازی خودکار، کاربران رایگان جدید ناچار خواهند بود هر بار برای انتقال داده‌های خود به پلتفرم‌های دیگر، به صورت دستی اقدام به استخراج و بارگذاری اطلاعات کنند. شرکت ویدینگز (Withings) که بیشتر به خاطر تولید گجت‌های سلامت رده‌بالا مانند ترازوهای پیشرفته شناخته می‌شود، پیش‌تر نیز محصولاتی نظیر ترازوی بادی اسکن ۲ (Body Scan 2) را با قیمت ۶۰۰ دلار به بازار عرضه کرده بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/l-intro-1792105014.jpg",
+      "display_summary": "شرکت تجهیزات سلامت هوشمند ویدینگز (Withings) در اقدامی جنجالی اعلام کرد که کاربران جدید برای همگام‌سازی خودکار داده‌های خود با اپل هلث (Apple Health) باید اشتراک سالانه ۱۰۰ دلاری خریداری کنند. کاربران فعلی تحت تأثیر این تغییر قرار نمی‌گیرند، اما حساب‌های کاربری ایجادشده پس از تاریخ ۱۳ اکتبر ملزم به تهیه اشتراک ویدینگز پلاس (Withings+) خواهند بود."
+    },
+    {
+      "key": "url:276e67540334a43160630e83713be32e28f15640521fcc9c8e8d88d7f5dbd9ff",
+      "url": "https://www.engadget.com/2288624/steam-achievement-sets-protect-100-percent-record-from-dlcs/",
+      "title": "Steam Achievement Sets will stop DLCs from ruining your 100 percent record",
+      "summary": "Steam has launched Achievement Sets in beta.",
+      "display_title": "قابلیت «مجموعه‌های دستاورد» در استیم (Steam) از تأثیر دی‌ال‌سی‌ها بر پرونده صددرصدی بازی‌ها جلوگیری می‌کند",
+      "display_summary": "پلتفرم استیم (Steam) با معرفی قابلیت جدید «مجموعه‌های دستاورد» در نسخه آزمایشی، دستاوردهای بازی پایه و دی‌ال‌سی‌ها را از یکدیگر تفکیک می‌کند. این ویژگی به بازیکنان اجازه می‌دهد بدون نگرانی از افت درصد تکمیل بازی با انتشار محتواهای الحاقی جدید، پیشرفت خود را پیگیری کنند.",
+      "message": "<b>📰 قابلیت «مجموعه‌های دستاورد» در استیم (Steam) از تأثیر دی‌ال‌سی‌ها بر پرونده صددرصدی بازی‌ها جلوگیری می‌کند</b>\n\nپلتفرم استیم (Steam) با معرفی قابلیت جدید «مجموعه‌های دستاورد» در نسخه آزمایشی، دستاوردهای بازی پایه و دی‌ال‌سی‌ها را از یکدیگر تفکیک می‌کند. این ویژگی به بازیکنان اجازه می‌دهد بدون نگرانی از افت درصد تکمیل بازی با انتشار محتواهای الحاقی جدید، پیشرفت خود را پیگیری کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پلتفرم محبوب بازی‌های ویدئویی یعنی استیم (Steam)، قابلیت جدید و کاربردی تحت عنوان «مجموعه‌های دستاورد» (Achievement Sets) را در نسخه آزمایشی (Beta) خود عرضه کرده است که به یکی از دغدغه‌های دیرینه بازیکنان کمال‌گرا پایان می‌دهد. با این ویژگی جدید، دستاوردهای مربوط به بازی پایه و محتواهای قابل دانلود یا همان دی‌ال‌سی‌ها (DLCs) از یکدیگر جدا می‌شوند تا انتشار محتواهای جدید توسط سازندگان، رکورد صددرصد تکمیل بازی‌ها را خراب نکند. بر اساس جزئیات منتشر شده، این قابلیت به توسعه‌دهندگان بازی‌ها اجازه می‌دهد تا دستاوردهای مختلف را در دسته‌بندی‌های مشخص و با اهداف معین گروه‌بندی کنند. برای نمونه، سازندگان می‌توانند دستاوردهای بخش تک‌نفره و چندنفره را تفکیک کرده یا مجموعه‌های فصلی مانند رویدادهای هالووین ایجاد کنند. شرکت ولو (Valve) اعلام کرده است که شمار رو به رشدی از بازی‌ها هم‌اکنون از این ویژگی پشتیبانی می‌کنند، اما توسعه‌دهندگان باید عنوان‌های خود را برای استفاده کامل از این ساختار به‌روزرسانی کنند. هنگامی که بازیکنان به پروفایل خود مراجعه می‌کنند، این مجموعه‌ها را به صورت گروه‌بندی شده همراه با یک نوار پیشرفت مجزا مشاهده خواهند کرد. استیم برای تفکیک بهتر، دستاوردهای بازی پایه و نوارهای پیشرفت آن را به رنگ آبی و دستاوردهای دی‌ال‌سی‌ها را به رنگ بنفش نمایش می‌دهد. نکته حائز اهمیت این است که مجموعه‌های دی‌ال‌سی تا زمانی که کاربر به محتوای الحاقی مربوطه دسترسی پیدا نکند، در پیشرفت کلی بازی تأثیری نخواهند گذاشت. همچنین اگر توسعه‌دهنده‌ای بعداً دستاوردهای جدیدی به یک مجموعه اضافه کند، درصد پیشرفت قبلی بازیکن روی عدد صددرصد باقی خواهد ماند. به دنبال این تغییرات، صفحه دستاوردها در استیم نیز به کلی بازطراحی شده است تا نمایش مجموعه‌ها و روند پیشرفت کاربران به شکل مطلوب‌تری انجام شود. این صفحه جدید قابلیت مقایسه پیشرفت کاربران با حداکثر سه تن از دوستان را فراهم کرده و مواردی چون دستاوردهای کمیاب و مجموعه‌های تکمیل‌شده را به نمایش می‌گذارد. معرفی این ویژگی بازخوردهای بسیار مثبتی را از سوی جامعه گیمرها در پی داشته است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/steam-achievement-sets-will-stop-dlcs-from-ruining-your-100-percent-record/l-intro-1792151622.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:5173c742493c18f593e1f74000fe78bb18148d6397fbc2eeb195b2700a9f13ba",
+      "url": "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/",
+      "title": "Relive Tesla's ridiculous(ly fun) Roadster stunt show",
+      "summary": "Tesla's Roadster event was pretty exciting, to say the least.",
+      "display_title": "مروری بر نمایش خیره‌کننده و جذاب خودروی رودستر تسلا",
+      "display_summary": "شرکت تسلا (Tesla) در مراسم رونمایی از خودروی نسل جدید رودستر (Roadster)، با اجرای حرکات نمایشی و پرش‌های هیجان‌انگیز، توجه علاقه‌مندان را به خود جلب کرد. این خودرو از فناوری‌های پیشرفته‌ای مانند پیشرانه‌های گاز سرد (Cold-gas thrusters) برگرفته از شرکت اسپیس‌اکس (SpaceX) بهره می‌برد.",
+      "message": "<b>📰 مروری بر نمایش خیره‌کننده و جذاب خودروی رودستر تسلا</b>\n\nشرکت تسلا (Tesla) در مراسم رونمایی از خودروی نسل جدید رودستر (Roadster)، با اجرای حرکات نمایشی و پرش‌های هیجان‌انگیز، توجه علاقه‌مندان را به خود جلب کرد. این خودرو از فناوری‌های پیشرفته‌ای مانند پیشرانه‌های گاز سرد (Cold-gas thrusters) برگرفته از شرکت اسپیس‌اکس (SpaceX) بهره می‌برد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>مراسم رونمایی از خودروی رودستر (Roadster) نسل جدید شرکت تسلا (Tesla) با اجرای حرکات نمایشی خیره‌کننده و هیجان‌انگیز توجه بسیاری را به خود جلب کرد. این رویداد شامل نمایش‌های متعددی از قابلیت‌های حرکتی و پرش‌های این خودروی اسپرت بود که تصاویر و ویدیوهای آن بازتاب گسترده‌ای در فضای مجازی داشت. در جریان این مراسم، خودروی رودستر (Roadster) ابتدا در پایین یک رمپ به شکل حرف C قرار گرفت و توانست دو بار به بالای رمپ حرکت کند و به صورت عمودی و وارونه در بالاترین نقطه متوقف بماند. پس از دومین تلاش، خودرو از روی رمپ به پرواز درآمد، یک دور کامل در هوا چرخید و به لطف استفاده از پیشرانه‌های گاز سرد (Cold-gas thrusters) که فناوری آن از شرکت اسپیس‌اکس (SpaceX) وام گرفته شده است، به آرامی و به صورت شناور روی زمین فرود آمد. علاوه بر این، خودروساز معروف تسلا (Tesla) توانست رودستر (Roadster) را از روی چندین خودروی دیگر این شرکت که در کنار یکدیگر پارک شده بودند، عبور دهد. در بخش پایانی این مراسم نیز، این خودروی پیشرفته با انجام یک پرش از حالت سکون و اجرای یک پشتک کامل در هوا، بار دیگر توانست با استفاده از قابلیت شناور ماندن روی زمین فرود بیاید. در حال حاضر، نسل جدید خودروی رودستر (Roadster) برای رزرو عموم در دسترس است. مشتریان برای ثبت نام اولیه باید مبلغ ۵۰۰۰ دلار پرداخت کنند و طی ۱۰ روز آینده نیز مبلغ ۴۵ هزار دلار دیگر برای مدل پایه بپردازند. با این حال، نسخه‌ای از این خودرو که مجهز به سیستم مکش برای قرارگیری وارونه روی رمپ و پیشرانه‌های شتاب‌دهنده است، هزینه رزرو بسیار بالاتری معادل ۲۵۰ هزار دلار دارد. همچنین، نسخه‌ای که توانایی پرش و معلق ماندن در هوا را دارد، بسیار محدود بوده و رزرو آن صرفاً به صورت دعوت‌نامه انجام می‌شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/relive-teslas-ridiculously-fun-roadster-stunt-show/l-intro-1792117283.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -4236,73 +4267,53 @@
       ]
     },
     {
-      "item_id": "03fc74d1d18ed929755b7ba21f1ab890c3bfe147a2dfd607320af3ae92d86d16",
-      "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
-      "url": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
-      "summary": "Benchmark says the Valley’s rule against backing rivals is getting harder to keep.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-16T05:16:46+00:00",
-      "categories": [
-        "TC",
-        "Venture"
-      ]
-    },
-    {
-      "item_id": "5173c742493c18f593e1f74000fe78bb18148d6397fbc2eeb195b2700a9f13ba",
-      "title": "Relive Tesla's ridiculous(ly fun) Roadster stunt show",
-      "url": "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/",
-      "summary": "Tesla's Roadster event was pretty exciting, to say the least.",
+      "item_id": "0e4cab16f490bc2e9b388c2878903d762e79698e5a77d18c88df3f5cfc24354c",
+      "title": "ChatGPT can now look at your Chrome tabs to do tasks for you",
+      "url": "https://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome/",
+      "summary": "The ChatGPT browser extension lets you compare information from your open tabs.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/relive-teslas-ridiculously-fun-roadster-stunt-show/l-intro-1792117283.jpg",
-      "published_at": "2026-10-16T02:24:52+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/chatgpt-can-now-look-at-your-chrome-tabs-to-do-tasks-for-you/l-intro-1792145069.jpg",
+      "published_at": "2026-10-16T10:06:15+00:00",
       "categories": [
-        "EVs and Transportation"
+        "News"
       ]
     },
     {
-      "item_id": "46a3d52cf5c71beebc8f1e6f09e3aaf0391f772bb7053f868c15dc9543af2ced",
-      "title": "Tesla's redesigned Roadster has a cold-gas thruster option, but you'll need $250,000 just to reserve it",
-      "url": "https://www.engadget.com/2288437/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/",
-      "summary": "Tesla has finally unveiled the next-generation Roadster.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/l-intro-1792115458.jpg",
-      "published_at": "2026-10-16T01:48:05+00:00",
-      "categories": [
-        "EVs and Transportation"
-      ]
-    },
-    {
-      "item_id": "6942eaedd05c97d34cbd56707c83639ad4259126d421dcff5b97d4b488daf984",
-      "title": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
-      "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
-      "summary": "Elon Musk promised a flying car. And the Tesla Roadster did exactly that. Tesla demonstrated its next-generation Roadster at an event in Waco, Texas, where the electric supercar drove upside down, briefly flew, and accelerated to 60mph in under a second. It was an impressive demonstration of a car that likely will come with some [&#8230;]",
+      "item_id": "bfa9889f883372ce3f2d5a5fb5ad8e5b2036a88d05fcab0ccbf1378aca99c2e9",
+      "title": "Time is a-changin’: say goodbye to the leap second",
+      "url": "https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change",
+      "summary": "An important change will soon be made to global timekeeping that aims to prevent potential infrastructure failures akin to the Y2K bug scare. On Thursday, the International Bureau of Weights and Measures (BIPM) voted to scrap the leap second, an ad hoc time adjustment that's occasionally added so tracked time standards mirror the Earth's real [&#8230;]",
       "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Roadster_94.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-16T01:28:27+00:00",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS534_AI_DOOMSDAY_B.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-16T10:00:25+00:00",
       "categories": [
-        "Electric Cars",
         "News",
         "Science",
-        "Space",
-        "SpaceX",
-        "Tesla",
-        "Transportation"
+        "Tech"
       ]
     },
     {
-      "item_id": "c8a03eea07a373858863d8e52e7830aef7a8c31041b1f3c9f3cc41fbe0e1355b",
-      "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
-      "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
-      "summary": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-16T01:17:43+00:00",
+      "item_id": "0775a7193d28769fe4e109653f3243c399c3661bb44098d8ba542784d17ff2f9",
+      "title": "Apple's $2,000 iPhone Duo goes on pre-order today at 8AM ET",
+      "url": "https://www.engadget.com/2288565/apple-iphone-duo-pre-orders-open-today/",
+      "summary": "The Apple Store is down ahead of pre-orders for the first folding iPhone.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apples-2000-iphone-duo-goes-on-pre-order-today-at-8am-et/l-intro-1792143306.jpg",
+      "published_at": "2026-10-16T09:36:05+00:00",
       "categories": [
-        "Transportation",
-        "Elon Musk",
-        "Tesla",
-        "Tesla Roadster"
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "66852a27bb67602d3792b9708e16e5cd6d5ca8a62b26dd3a2883e7be68c4e178",
+      "title": "Gmail's Live AI search feature arrives for Google AI subscribers",
+      "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
+      "summary": "Gmail's search can be frustrating and basic, but Google is finally smartening it up for AI plan subscribers.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/gmails-live-ai-search-feature-arrives-for-google-ai-subscribers/l-intro-1792139377.jpg",
+      "published_at": "2026-10-16T08:31:48+00:00",
+      "categories": [
+        "Apps"
       ]
     }
   ]
