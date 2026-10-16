@@ -1072,7 +1072,17 @@
     "544196d3339ee3487c9ed9774f8c68a89d6127975749464a735590e31e14ed8e",
     "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
     "4453cbcbf47e0ff72eee07a96c2e133fd2db4c33c0036355daa72f31419ad036",
-    "https://www.engadget.com/2287985/riot-will-sunset-league-of-legends-classic-in-january-2027/"
+    "https://www.engadget.com/2287985/riot-will-sunset-league-of-legends-classic-in-january-2027/",
+    "6f25a15d9964e4695ccac1f6b52919b188056ac3176abc01db7f343ae19a6e0f",
+    "e0c6500473dda85072b6a5b9f03e2a795e880255372d45f7b53da5f2a527c2ff",
+    "e367dce0a9eb2e74c4c2f626340fb6277db7dbd8018423b0d481db7f357aa98c",
+    "https://techcrunch.com/2026/10/15/and-the-winner-of-startup-battlefield-at-disrupt-2026-is-intero-biosystems/",
+    "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
+    "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
+    "1acf74561da840f7e725e045df58464330296a2923cabab9351f4441cf8a1291",
+    "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
+    "ae187bb47c5336b2089d490c4211805ba79b78bcdcb2635449ddbac2ec9baddb",
+    "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
   ],
   "published_stories": [
     {
@@ -3097,20 +3107,16 @@
       "url": "https://www.engadget.com/2287985/riot-will-sunset-league-of-legends-classic-in-january-2027/",
       "display_title": "شرکت رایوت گیمز (Riot Games) حالت کلاسیک بازی لیگ آو لجندز (League of Legends Classic) را در ژانویه ۲۰۲۷ تعطیل می‌کند",
       "display_summary": "شرکت رایوت گیمز (Riot Games) اعلام کرد که حالت بازسازی‌شده و خاطره‌انگیز لیگ آو لجندز کلاسیک (League of Legends Classic) در ژانویه ۲۰۲۷ و با پایان فصل سوم به کار خود پایان خواهد داد. با وجود افت اولیه استقبال بازیکنان، این شرکت بررسی بازگرداندن این حالت را در آینده به صورت رویدادی محدود مد نظر دارد."
+    },
+    {
+      "title": "Withings wants new users to pay $100 a year to sync with Apple Health",
+      "summary": "The smart health company is gating third-party app syncing to its own subscription plan for new users.",
+      "url": "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
+      "display_title": "شرکت ویدینگز (Withings) دریافت هزینه سالانه ۱۰۰ دلاری برای همگام‌سازی با اپل هلث (Apple Health) را برای کاربران جدید الزامی کرد",
+      "display_summary": "شرکت تجهیزات سلامت هوشمند ویدینگز (Withings) در اقدامی جنجالی اعلام کرد که کاربران جدید برای همگام‌سازی خودکار داده‌های خود با اپل هلث (Apple Health) باید اشتراک سالانه ۱۰۰ دلاری خریداری کنند. کاربران فعلی تحت تأثیر این تغییر قرار نمی‌گیرند، اما حساب‌های کاربری ایجادشده پس از تاریخ ۱۳ اکتبر ملزم به تهیه اشتراک ویدینگز پلاس (Withings+) خواهند بود."
     }
   ],
   "outbox": [
-    {
-      "key": "url:a2627e5d3aa74c9544ffa39009cbdd8a65be0762ca7547507048587947c909fb",
-      "url": "https://www.engadget.com/2282502/smart-tv-brands-offer-longest-software-support/",
-      "message": "<b>📰 بررسی مدت‌زمان پشتیبانی نرم‌افزاری برندهای مختلف تلویزیون‌های هوشمند</b>\n\nبا افزایش اهمیت سیستم‌عامل‌ها و اپلیکیشن‌ها در تلویزیون‌های هوشمند، مدت‌زمان پشتیبانی نرم‌افزاری و دریافت به‌روزرسانی‌ها به یکی از دغدغه‌های اصلی خریداران تبدیل شده است. شرکت‌های سازنده مانند سامسونگ (Samsung) و ال‌جی (LG) سیاست‌های مشخصی را برای ارائه آپدیت‌های طولانی‌مدت تدوین کرده‌اند، در حالی که سایر برندها رویکردهای متفاوتی دارند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>خرید یک تلویزیون هوشمند امروزه فراتر از یک انتخاب ساده برای تماشای فیلم است و کاربران آن را به عنوان یک سرمایه‌گذاری بلندمدت در نظر می‌گیرند. در گذشته نگرانی اصلی تنها خراب شدن سخت‌افزاری دستگاه بود، اما امروزه با حضور سیستم‌عامل‌های اختصاصی و اپلیکیشن‌ها، نرم‌افزار و امنیت تلویزیون‌ها نیز اهمیت ویژه‌ای یافته است. با این حال، هیچ استاندارد جهانی واحدی برای مدت‌زمان پشتیبانی نرم‌افزاری تلویزیون‌ها وجود ندارد و این بازه زمانی بسته به شرکت سازنده به شدت متغیر است. شرکت سامسونگ (Samsung) یکی از پیشگامان ارائه پشتیبانی بلندمدت است. این شرکت اعلام کرده که تلویزیون‌های هوشمند تولید شده از سال ۲۰۲۴ به بعد (و برخی مدل‌های منتخب سال ۲۰۲۳) مجهز به سیستم‌عامل تایزن (Tizen OS) مبتنی بر لینوکس (Linux)، به مدت هفت سال آپدیت‌های نرم‌افزاری دریافت خواهند کرد. این بدان معناست که خریداران مدل‌های سال ۲۰۲۴ می‌توانند تا حداقل سال ۲۰۳۱ منتظر به‌روزرسانی‌های سیستم‌عامل و پایداری اپلیکیشن‌ها باشند. البته مدل‌های قدیمی‌تر نسخه‌های جدید اصلی تایزن (Tizen) را دریافت نمی‌کنند، اما به‌روزرسانی‌های امنیتی و نگهداری برای آن‌ها عرضه می‌شود. در اوایل سال ۲۰۲۴، شرکت ال‌جی (LG) نیز برنامه وب‌اواس ری‌نیو (webOS Re:New) را معرفی کرد که چهار سال به‌روزرسانی پلتفرم وب‌اواس (webOS) را برای مدل‌های تولید شده از سال ۲۰۲۲ به بعد تضمین می‌کند. البته این به‌روزرسانی‌ها معمولاً با یک سال تاخیر نسبت به آخرین نسخه وب‌اواس روی جدیدترین تلویزیون‌ها عرضه می‌شوند. در مقابل، شرکت سونی (Sony) دوره پشتیبانی ثابتی برای محصولات خود تعیین نکرده و تاریخ پایان پشتیبانی هر مدل متفاوت است. برای مثال، صفحه پشتیبانی سونی (Sony) برای برخی مدل‌های اولد (OLED) سری براویا (Bravia) تاریخ‌های متفاوتی را به عنوان پایان عمر مفید ذکر کرده است. شایان ذکر است که محصولات جدیدتر سونی (Sony) از پلتفرم گوگل تی‌وی (Google TV) بهره می‌برند. برندهایی مانند هایسنس (Hisense) در بازار اروپا برای تلویزیون‌های مجهز به سیستم‌عامل ویدا (VIDAA OS) تا هشت سال پشتیبانی وعده داده‌اند، اما در ایالات متحده محصولات این شرکت با سیستم‌عامل‌های متفاوتی عرضه می‌شوند. شرکت‌هایی نظیر تی‌سی‌ال (TCL)، روکو (Roku)، وایزیو (Vizio) و اینسگنیا (Insignia) نیز یا سیاست‌های نامشخصی دارند یا به سیستم‌عامل‌های شرکت‌های ثالث مانند آمازون فایر اواس (Amazon Fire OS) و گوگل تی‌وی (Google TV) وابسته‌اند. در صورتی که پشتیبانی نرم‌افزاری تلویزیون به پایان برسد، کاربران می‌توانند با خرید ارزان‌قیمت یک دستگاه استریم باکس (Streaming Box) عمر مفید دستگاه خود را افزایش دهند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/which-smart-tv-brands-offer-the-longest-software-support/l-intro-1791567894.jpg",
-      "status": "sent",
-      "title": "Which smart TV brands offer the longest software support?",
-      "summary": "When you spend a lot on on a TV, you expect it to last a while. But that support period varies wildly by manufacturer.",
-      "display_title": "بررسی مدت‌زمان پشتیبانی نرم‌افزاری برندهای مختلف تلویزیون‌های هوشمند",
-      "display_summary": "با افزایش اهمیت سیستم‌عامل‌ها و اپلیکیشن‌ها در تلویزیون‌های هوشمند، مدت‌زمان پشتیبانی نرم‌افزاری و دریافت به‌روزرسانی‌ها به یکی از دغدغه‌های اصلی خریداران تبدیل شده است. شرکت‌های سازنده مانند سامسونگ (Samsung) و ال‌جی (LG) سیاست‌های مشخصی را برای ارائه آپدیت‌های طولانی‌مدت تدوین کرده‌اند، در حالی که سایر برندها رویکردهای متفاوتی دارند."
-    },
     {
       "key": "url:b5a0bcffb5b3a77b578c10811803206c906096deaa832dfa0a30be7b5bdac066",
       "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
@@ -4159,48 +4165,56 @@
     {
       "key": "url:eb0ac7f68c40eb75daf8838ba6e105680bb059baa069fca3a28749130e948416",
       "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
-      "display_title": "نقش کلیدی اینفلوئنسرها در موفقیت ویروسی اپلیکیشن کال ای‌آی (Cal AI)",
-      "display_summary": "اپلیکیشن کال ای‌آی (Cal AI) با مدیریت زک یادگاری (Zach Yadegari)، جوان ۱۹ ساله، توانեց طی دو سال بیش از ۳۰ میلیون دلار درآمد کسب کند و در ماه مارس توسط مای‌فیتنس‌پال (MyFitnessPal) خریداری شود. این موفقیت چشمگیر تا حد زیادی مدیون استراتژی استخدام و همکاری با ارتش کوچکی از اینفلوئنسرها برای تبلیغات هدفمند بوده است.",
       "message": "<b>📰 نقش کلیدی اینفلوئنسرها در موفقیت ویروسی اپلیکیشن کال ای‌آی (Cal AI)</b>\n\nاپلیکیشن کال ای‌آی (Cal AI) با مدیریت زک یادگاری (Zach Yadegari)، جوان ۱۹ ساله، توانեց طی دو سال بیش از ۳۰ میلیون دلار درآمد کسب کند و در ماه مارس توسط مای‌فیتنس‌پال (MyFitnessPal) خریداری شود. این موفقیت چشمگیر تا حد زیادی مدیون استراتژی استخدام و همکاری با ارتش کوچکی از اینفلوئنسرها برای تبلیغات هدفمند بوده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اپلیکیشن کال ای‌آی (Cal AI) که در حوزه شمارش کالری با استفاده از هوش مصنوعی فعالیت می‌کند، طی دو سال گذشته به لطف استراتژی هوشمندانه بازاریابی به محبوبیت چشمگیری دست یافت. بنیان‌گذار این شرکت، زک یادگاری (Zach Yadegari) که تنها ۱۹ سال دارد، در رویداد تک‌کرانچ دیترپت (TechCrunch Disrupt) جزئیاتی از این مسیر رشد شگفت‌انگیز را روایت کرد. این شرکت که در سال ۲۰۲۴ پایه‌گذاری شد، با بهره‌گیری از شبکه بزرگی از اینفلوئنسرها توانեց به سرعت در اینترنت فراگیر شود. کال ای‌آی (Cal AI) موفق شد در مدت دو سال بیش از ۳۰ میلیون دلار درآمد کسب کند و در ماه مارس توسط شرکت مای‌فیتنس‌پال (MyFitnessPal) با مبلغی نامشخص خریداری شود. زک یادگاری (Zach Yadegari) درباره استراتژی اجتماعی خود توضیح داد که نقطه عطف موفقیت زمانی آشکار شد که انتشار یک پست توسط یکی از اینفلوئنسرها توانեց طی دو روز حدود هزار کاربر جدید جذب کند. او در این باره گفت: «از آنجا متوجه شدیم که این روش واقعاً برای ما کارساز است و به همین دلیل به سرعت شروع به جذب اینفلوئنسرها کردیم و به افراد زیادی پول دادیم تا برای ما محتوا منتشر کنند.» این کارآفرین جوان همچنین توضیح داد که استراتژی آن‌ها توافق روی نرخ‌ها با اینفلوئنسرها و پرداخت دستمزد بر اساس مقیاس دسترسی و بازخورد بوده است. بسیاری از این افراد دانشجویان جوانی هستند که به پول نقد نیاز دارند و حاضرند تا رسیدن به هدف تعیین‌شده به انتشار پست ادامه دهند. علاوه بر این موفقیت، زک یادگاری (Zach Yadegari) اخیراً استارتاپ هوش مصنوعی جدیدی به نام پرسونا (Persona) را راه‌اندازی کرده که توانسته ۱۰ میلیون دلار سرم جذب کند. هدف اصلی پرسونا یکپارچه‌سازی محاسبات با زندگی انسان‌ها و ارائه یک دستیار هوش مصنوعی شخصی در بسترهای مختلف مانند پیام‌رسان‌ها و تماس‌های تلفنی است. در پایان، داستان رشد کال ای‌آی (Cal AI) نشان می‌دهد که چگونه ترکیب فناوری هوش مصنوعی با بازاریابی نوین و همکاری با اینفلوئنسرها می‌تواند یک کسب‌وکار نوپا را در کوتاه‌ترین زمان ممکن به موفقیت‌های مالی کلان برساند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_4996.jpeg?resize=1200,900",
       "status": "sent",
-      "rubika_status": "pending"
+      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "display_title": "نقش کلیدی اینفلوئنسرها در موفقیت ویروسی اپلیکیشن کال ای‌آی (Cal AI)",
+      "display_summary": "اپلیکیشن کال ای‌آی (Cal AI) با مدیریت زک یادگاری (Zach Yadegari)، جوان ۱۹ ساله، توانեց طی دو سال بیش از ۳۰ میلیون دلار درآمد کسب کند و در ماه مارس توسط مای‌فیتنس‌پال (MyFitnessPal) خریداری شود. این موفقیت چشمگیر تا حد زیادی مدیون استراتژی استخدام و همکاری با ارتش کوچکی از اینفلوئنسرها برای تبلیغات هدفمند بوده است."
     },
     {
       "key": "url:9f9668ca4be1e19af0b361f5f4b16b60245ba01e22af9738db526ed75b6e4cc1",
       "url": "https://www.engadget.com/2288193/ny-congressman-to-introduce-bill-protecting-video-game-ownership/",
-      "title": "NY congressman to introduce bill protecting video game ownership",
-      "summary": "Representative Ritchie Torres wants the FTC to establish regulations ensuring you can play the games you've purchased.",
-      "display_title": "نماینده کنگره آمریکا به دنبال طرح قانونی برای حفاظت از مالکیت بازی‌های ویدئویی",
-      "display_summary": "ریچی تورس (Ritchie Torres)، نماینده کنگره ایالات متحده آمریکا، قصد دارد لایحه‌ای را معرفی کند که کمیسیون تجارت فدرال (FTC) را ملزم به حمایت از حقوق بازیکنان در مالکیت و دسترسی پایدار به بازی‌های خریداری‌شده می‌کند. این طرح با الهام از کارزار توقف کشتن بازی‌ها (Stop Killing Games) تدوین شده و شرکت‌ها را وادار می‌سازد تا در صورت تعطیلی سرورها، حالت آفلاین را برای بازی‌ها فراهم کنند.",
       "message": "<b>📰 نماینده کنگره آمریکا به دنبال طرح قانونی برای حفاظت از مالکیت بازی‌های ویدئویی</b>\n\nریچی تورس (Ritchie Torres)، نماینده کنگره ایالات متحده آمریکا، قصد دارد لایحه‌ای را معرفی کند که کمیسیون تجارت فدرال (FTC) را ملزم به حمایت از حقوق بازیکنان در مالکیت و دسترسی پایدار به بازی‌های خریداری‌شده می‌کند. این طرح با الهام از کارزار توقف کشتن بازی‌ها (Stop Killing Games) تدوین شده و شرکت‌ها را وادار می‌سازد تا در صورت تعطیلی سرورها، حالت آفلاین را برای بازی‌ها فراهم کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>صنعت بازی‌های ویدئویی در سال‌های اخیر با چالش‌های جدی پیرامون مفهوم مالکیت دیجیتال مواجه شده است. در همین راستا، ریچی تورس (Ritchie Torres)، نماینده دموکرات نیویورک در کنگره ایالات متحده آمریکا، از تصمیم خود برای ارائه لایحه‌ای جدید با عنوان قانون قدرت به بازیکنان (Power to the Players Act) خبر داده است. این طرح با هدف حمایت از حقوق مصرف‌کنندگان در حفظ و دسترسی مداوم به بازی‌های ویدئویی خریداری‌شده شکل گرفته است. بر اساس جزئیات منتشرشده، این لایحه کمیسیون تجارت فدرال (Federal Trade Commission) را موظف می‌کند تا قوانینی را وضع کند که از تبدیل شدن کامل بازی‌ها به مجوزهای دیجیتال موقتی جلوگیری کند. یکی از محرک‌های اصلی این تصمیم، اقدام اخیر شرکت‌های بازی‌سازی، از جمله حذف بازی پرطرفدار ان‌بی‌ای توکی ۲۵ (NBA 2K25) از فروشگاه‌های دیجیتال و قطع سرورهای آنلاین آن تنها دو سال پس از عرضه بوده است. این پدیده باعث می‌شود خریدارانی که مبلغ زیادی برای بازی پرداخت کرده‌اند، دسترسی خود را به محتوای خریداری‌شده از دست بدهند. طرح قانون قدرت به بازیکنان (Power to the Players Act) شرکت‌های سازنده را ملزم می‌کند تا پیش از خاموش کردن سرورهای آنلاین، یک حالت آفلاین (Offline Mode) برای بازی‌ها ارائه دهند تا کاربران همچنان بتوانند به تجربه‌های آفلاین خود ادامه دهند. ریچی تورس (Ritchie Torres) در مصاحبه‌ای با وب‌سایت کوتاکو (Kotaku) تأکید کرد که این مقررات در واقع بازگشتی به هنجارهای تاریخی پیش از فراگیر شدن فروش دیجیتالی نرم‌افزارها محسوب می‌شود و حتی می‌تواند زمینه‌ساز حمایت از حقوق مصرف‌کنندگان در حوزه‌های دیگر نظیر کتاب‌ها، فیلم‌ها و موسیقی‌های دیجیتال شود. با این حال، مسیر تصویب و اجرای این لایحه با موانع حقوقی و سیاسی متعددی روبراست. لایحه مشابهی پیش‌تر در سطح ایالتی در کالیفرنیا مطرح شده بود که به سرانجام نرسید. علاوه بر این، تصمیم دیوان عالی ایالات متحده آمریکا (US Supreme Court) در سال ۲۰۲۴ مبنی بر لغو دکترین استناد به نظرات سازمان‌های فدرال، قدرت نهادهایی مانند کمیسیون تجارت فدرال (Federal Trade Commission) را در اجرای قوانین سخت‌گیرانه کاهش داده است و این امر ممکن است اجرای چنین مصوباتی را با چالش مواجه کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/ny-congressman-to-introduce-bill-protecting-video-game-ownership/l-intro-1792095244.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "title": "NY congressman to introduce bill protecting video game ownership",
+      "summary": "Representative Ritchie Torres wants the FTC to establish regulations ensuring you can play the games you've purchased.",
+      "display_title": "نماینده کنگره آمریکا به دنبال طرح قانونی برای حفاظت از مالکیت بازی‌های ویدئویی",
+      "display_summary": "ریچی تورس (Ritchie Torres)، نماینده کنگره ایالات متحده آمریکا، قصد دارد لایحه‌ای را معرفی کند که کمیسیون تجارت فدرال (FTC) را ملزم به حمایت از حقوق بازیکنان در مالکیت و دسترسی پایدار به بازی‌های خریداری‌شده می‌کند. این طرح با الهام از کارزار توقف کشتن بازی‌ها (Stop Killing Games) تدوین شده و شرکت‌ها را وادار می‌سازد تا در صورت تعطیلی سرورها، حالت آفلاین را برای بازی‌ها فراهم کنند."
     },
     {
       "key": "url:20dfecfa26f1e2fc7aa5844a0e4e07dbd0bcc6a6a9bcd1df9fe5ffc4a4d93763",
       "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "summary": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
-      "display_title": "شرکت آنتروپیک دسترسی در سطح کارمندان را به پژوهشگران موسسه متر اعطا کرد",
-      "display_summary": "شرکت هوش مصنوعی آنتروپیک (Anthropic) به پژوهشگران موسسه متر (METR) دسترسی داخلی و در سطح کارمندان اعطا کرده است تا مدل‌ها و پروتکل‌های امنیتی این شرکت را ارزیابی کنند. بر اساس این توافق، موسسه متر (METR) می‌تواند ارزیابی‌های خود را بدون نیاز به تایید نهایی آنتروپیک منتشر کند.",
       "message": "<b>📰 شرکت آنتروپیک دسترسی در سطح کارمندان را به پژوهشگران موسسه متر اعطا کرد</b>\n\nشرکت هوش مصنوعی آنتروپیک (Anthropic) به پژوهشگران موسسه متر (METR) دسترسی داخلی و در سطح کارمندان اعطا کرده است تا مدل‌ها و پروتکل‌های امنیتی این شرکت را ارزیابی کنند. بر اساس این توافق، موسسه متر (METR) می‌تواند ارزیابی‌های خود را بدون نیاز به تایید نهایی آنتروپیک منتشر کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت هوش مصنوعی آنتروپیک (Anthropic) در اقدامی تازه به شش پژوهشگر از موسسه متر (METR)، که یک سازمان غیرانتفاعی فعال در زمینه ارزیابی مدل‌های پیشرفته هوش مصنوعی است، دسترسی در سطح کارمندان اعطا کرد. هدف از این تصمیم، امکان ارزیابی مستقل مدل‌ها، شیوه‌های ایمنی و مدیریت ریسک در شرکت آنتروپیک (Anthropic) عنوان شده است. این توافق در شرایطی شکل می‌گیرد که گزارش‌های متعددی درباره عملکردهای خارج از کنترل عوامل هوش مصنوعی منتشر شده و ضرورت نظارت مستقل بر شرکت‌های فعال در حوزه فناوری را افزایش داده است. شرکت آنتروپیک (Anthropic) در وبلاگ خود اعلام کرد که قصد دارد شفافیت بیشتری داشته باشد و فاصله میان درک ارزیابان بیرونی و سیستم‌های داخلی شرکت را کاهش دهد. بر اساس این توافق، پژوهشگران موسسه متر (METR) لپ‌تاپ‌های سازمانی، فضای کاری و ابزارهای داخلی مشابه تیم‌های ارزیابی ریسک آنتروپیک (Anthropic) را دریافت کرده‌اند. این مدل همکاری به حضور بازرسان مقیم در بانک‌های بزرگ تشبیه شده است. موسسه متر (METR) این اختیار را دارد که گزارش‌های ارزیابی خود را درباره خطرات و حوادث منتشر کند و شرکت آنتروپیک (Anthropic) حق وتوی انتشار این گزارش‌ها را ندارد. با این حال، شرکت می‌تواند درخواست حذف برخی اطلاعات محرمانه مانند داده‌های مشتریان یا معماری مدل‌ها را مطرح کند. این تصمیم در راستای تعهدات قبلی «داریو آمودی (Dario Amodei)»، مدیرعامل آنتروپیک (Anthropic)، اتخاذ شده است که پیش‌تر پیشنهاد حضور ارزیابان مستقل در آزمایشگاه‌های هوش مصنوعی را مطرح کرده بود. شرکت‌های بزرگ دیگری مانند اوپن‌ای‌آی (OpenAI) نیز به این روند پیوسته‌اند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
       "status": "sent",
-      "rubika_status": "pending"
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "summary": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+      "display_title": "شرکت آنتروپیک دسترسی در سطح کارمندان را به پژوهشگران موسسه متر اعطا کرد",
+      "display_summary": "شرکت هوش مصنوعی آنتروپیک (Anthropic) به پژوهشگران موسسه متر (METR) دسترسی داخلی و در سطح کارمندان اعطا کرده است تا مدل‌ها و پروتکل‌های امنیتی این شرکت را ارزیابی کنند. بر اساس این توافق، موسسه متر (METR) می‌تواند ارزیابی‌های خود را بدون نیاز به تایید نهایی آنتروپیک منتشر کند."
     },
     {
       "key": "url:4453cbcbf47e0ff72eee07a96c2e133fd2db4c33c0036355daa72f31419ad036",
       "url": "https://www.engadget.com/2287985/riot-will-sunset-league-of-legends-classic-in-january-2027/",
+      "message": "<b>📰 شرکت رایوت گیمز (Riot Games) حالت کلاسیک بازی لیگ آو لجندز (League of Legends Classic) را در ژانویه ۲۰۲۷ تعطیل می‌کند</b>\n\nشرکت رایوت گیمز (Riot Games) اعلام کرد که حالت بازسازی‌شده و خاطره‌انگیز لیگ آو لجندز کلاسیک (League of Legends Classic) در ژانویه ۲۰۲۷ و با پایان فصل سوم به کار خود پایان خواهد داد. با وجود افت اولیه استقبال بازیکنان، این شرکت بررسی بازگرداندن این حالت را در آینده به صورت رویدادی محدود مد نظر دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت رایوت گیمز (Riot Games) تصمیم گرفته است تا حالت محبوب و نوستالژیک لیگ آو لجندز کلاسیک (League of Legends Classic) را در اوایل ژانویه ۲۰۲۷ و همزمان با پایان فصل سوم متوقف کند. این حالت که در ماه جولای برای بازگرداندن حس و حال نسخه‌های قدیمی بازی معروف سبک میدان جنگ آنلاین چندنفره یا همان موبا (MOBA) معرفی شده بود، نتوانست توجه بلندمدت کاربران را حفظ کند و روند استقبال از آن با افت مواجه شد. بر اساس اعلام تیم توسعه‌دهنده در یک پست وبلاگی، پس از گذشت مدتی کوتاه از انتشار این نسخه، میزان اشتیاق بازیکنان کاهش یافت و بسیاری از آن‌ها ترجیح دادند به سایر بخش‌های بازی اصلی بازگردند. با این حال، رایوت گیمز (Riot Games) قصد دارد پیش از تعطیلی نهایی این حالت، در مناطق با کمبود بازیکن صف‌های زمانی محدودی (windowed queues) ایجاد کند و در آپدیت‌های باقی‌مانده سال ۲۰۲۶ قهرمانان بیشتری را به این بخش اضافه نماید. رایوت گیمز (Riot Games) پیش‌تر تبلیغات گسترده‌ای برای این حالت انجام داده بود؛ از جمله برگزاری یک مسابقه نمایشی زنده با حضور ده بازیکن حرفه‌ای بازنشسته در مسابقات بین‌فصلی امسال (Mid-Season Invitational). اگرچه شرکت‌های بازی‌سازی دیگر مانند بلیزارد انترتینمنت (Blizzard Entertainment) توانسته‌اند با ارائه نسخه‌های کلاسیک موفقی مانند ورلد آو وارکرافت کلاسیک (World of Warcraft Classic) کاربران قدیمی و جدید را جذب کنند، اما به نظر می‌رسد رایوت (Riot) هنوز نتوانسته تعادل پایداری را برای حفظ بلندمدت مخاطبان در این بخش ایجاد کند. در نهایت، استودیوی سازنده اعلام کرده است که زحمات صرف‌شده برای بازسازی دوران گذشته بازی هدر نخواهد رفت و آن‌ها تلاش می‌کنند تا با اعمال تغییرات و بر اساس بازخورد بازیکنان، حالت کلاسیک (Classic) را در آینده به عنوان یک رویداد محدود و موقتی دوباره به بازی بازگردانند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/riot-will-sunset-league-of-legends-classic-in-january-2027/l-intro-1792088892.jpg",
+      "status": "sent",
       "title": "Riot will sunset League of Legends Classic in January 2027",
       "summary": "The throwback League of Legends Classic mode may reappear as a limited-time event in the future.",
       "display_title": "شرکت رایوت گیمز (Riot Games) حالت کلاسیک بازی لیگ آو لجندز (League of Legends Classic) را در ژانویه ۲۰۲۷ تعطیل می‌کند",
-      "display_summary": "شرکت رایوت گیمز (Riot Games) اعلام کرد که حالت بازسازی‌شده و خاطره‌انگیز لیگ آو لجندز کلاسیک (League of Legends Classic) در ژانویه ۲۰۲۷ و با پایان فصل سوم به کار خود پایان خواهد داد. با وجود افت اولیه استقبال بازیکنان، این شرکت بررسی بازگرداندن این حالت را در آینده به صورت رویدادی محدود مد نظر دارد.",
-      "message": "<b>📰 شرکت رایوت گیمز (Riot Games) حالت کلاسیک بازی لیگ آو لجندز (League of Legends Classic) را در ژانویه ۲۰۲۷ تعطیل می‌کند</b>\n\nشرکت رایوت گیمز (Riot Games) اعلام کرد که حالت بازسازی‌شده و خاطره‌انگیز لیگ آو لجندز کلاسیک (League of Legends Classic) در ژانویه ۲۰۲۷ و با پایان فصل سوم به کار خود پایان خواهد داد. با وجود افت اولیه استقبال بازیکنان، این شرکت بررسی بازگرداندن این حالت را در آینده به صورت رویدادی محدود مد نظر دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت رایوت گیمز (Riot Games) تصمیم گرفته است تا حالت محبوب و نوستالژیک لیگ آو لجندز کلاسیک (League of Legends Classic) را در اوایل ژانویه ۲۰۲۷ و همزمان با پایان فصل سوم متوقف کند. این حالت که در ماه جولای برای بازگرداندن حس و حال نسخه‌های قدیمی بازی معروف سبک میدان جنگ آنلاین چندنفره یا همان موبا (MOBA) معرفی شده بود، نتوانست توجه بلندمدت کاربران را حفظ کند و روند استقبال از آن با افت مواجه شد. بر اساس اعلام تیم توسعه‌دهنده در یک پست وبلاگی، پس از گذشت مدتی کوتاه از انتشار این نسخه، میزان اشتیاق بازیکنان کاهش یافت و بسیاری از آن‌ها ترجیح دادند به سایر بخش‌های بازی اصلی بازگردند. با این حال، رایوت گیمز (Riot Games) قصد دارد پیش از تعطیلی نهایی این حالت، در مناطق با کمبود بازیکن صف‌های زمانی محدودی (windowed queues) ایجاد کند و در آپدیت‌های باقی‌مانده سال ۲۰۲۶ قهرمانان بیشتری را به این بخش اضافه نماید. رایوت گیمز (Riot Games) پیش‌تر تبلیغات گسترده‌ای برای این حالت انجام داده بود؛ از جمله برگزاری یک مسابقه نمایشی زنده با حضور ده بازیکن حرفه‌ای بازنشسته در مسابقات بین‌فصلی امسال (Mid-Season Invitational). اگرچه شرکت‌های بازی‌سازی دیگر مانند بلیزارد انترتینمنت (Blizzard Entertainment) توانسته‌اند با ارائه نسخه‌های کلاسیک موفقی مانند ورلد آو وارکرافت کلاسیک (World of Warcraft Classic) کاربران قدیمی و جدید را جذب کنند، اما به نظر می‌رسد رایوت (Riot) هنوز نتوانسته تعادل پایداری را برای حفظ بلندمدت مخاطبان در این بخش ایجاد کند. در نهایت، استودیوی سازنده اعلام کرده است که زحمات صرف‌شده برای بازسازی دوران گذشته بازی هدر نخواهد رفت و آن‌ها تلاش می‌کنند تا با اعمال تغییرات و بر اساس بازخورد بازیکنان، حالت کلاسیک (Classic) را در آینده به عنوان یک رویداد محدود و موقتی دوباره به بازی بازگردانند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/riot-will-sunset-league-of-legends-classic-in-january-2027/l-intro-1792088892.jpg",
+      "display_summary": "شرکت رایوت گیمز (Riot Games) اعلام کرد که حالت بازسازی‌شده و خاطره‌انگیز لیگ آو لجندز کلاسیک (League of Legends Classic) در ژانویه ۲۰۲۷ و با پایان فصل سوم به کار خود پایان خواهد داد. با وجود افت اولیه استقبال بازیکنان، این شرکت بررسی بازگرداندن این حالت را در آینده به صورت رویدادی محدود مد نظر دارد."
+    },
+    {
+      "key": "url:1acf74561da840f7e725e045df58464330296a2923cabab9351f4441cf8a1291",
+      "url": "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
+      "title": "Withings wants new users to pay $100 a year to sync with Apple Health",
+      "summary": "The smart health company is gating third-party app syncing to its own subscription plan for new users.",
+      "display_title": "شرکت ویدینگز (Withings) دریافت هزینه سالانه ۱۰۰ دلاری برای همگام‌سازی با اپل هلث (Apple Health) را برای کاربران جدید الزامی کرد",
+      "display_summary": "شرکت تجهیزات سلامت هوشمند ویدینگز (Withings) در اقدامی جنجالی اعلام کرد که کاربران جدید برای همگام‌سازی خودکار داده‌های خود با اپل هلث (Apple Health) باید اشتراک سالانه ۱۰۰ دلاری خریداری کنند. کاربران فعلی تحت تأثیر این تغییر قرار نمی‌گیرند، اما حساب‌های کاربری ایجادشده پس از تاریخ ۱۳ اکتبر ملزم به تهیه اشتراک ویدینگز پلاس (Withings+) خواهند بود.",
+      "message": "<b>📰 شرکت ویدینگز (Withings) دریافت هزینه سالانه ۱۰۰ دلاری برای همگام‌سازی با اپل هلث (Apple Health) را برای کاربران جدید الزامی کرد</b>\n\nشرکت تجهیزات سلامت هوشمند ویدینگز (Withings) در اقدامی جنجالی اعلام کرد که کاربران جدید برای همگام‌سازی خودکار داده‌های خود با اپل هلث (Apple Health) باید اشتراک سالانه ۱۰۰ دلاری خریداری کنند. کاربران فعلی تحت تأثیر این تغییر قرار نمی‌گیرند، اما حساب‌های کاربری ایجادشده پس از تاریخ ۱۳ اکتبر ملزم به تهیه اشتراک ویدینگز پلاس (Withings+) خواهند بود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت تجهیزات سلامت هوشمند ویدینگز (Withings) با اتخاذ یک سیاست جدید و پرهزینه، موجی از نارضایتی را در میان کاربران خود ایجاد کرده است. بر اساس اطلاعات منتشرشده در انجمن پشتیبانی این شرکت، ویدینگز قابلیت همگام‌سازی خودکار داده‌های سلامت کاربران با پلتفرم اپل هلث (Apple Health) را به اشتراک پولی خود محدود کرده است. طبق قوانین جدید، این تغییر شامل حال کاربران فعلی نمی‌شود، اما تمامی حساب‌های کاربری جدیدی که از تاریخ ۱۳ اکتبر به بعد ایجاد شده‌اند، برای اتصال خودکار اطلاعات خود به اپل هلث (Apple Health) یا سایر برنامه‌های شخص ثالث مشابه، باید به عضویت سرویس ویدینگز پلاس (Withings+) درآیند. هزینه این اشتراک سالانه معادل ۱۰۰ دلار تعیین شده است. این تصمیم با انتقادات شدید کاربران در فروم‌های رسمی روبه‌رو شده است، چرا که بسیاری از افراد دریافت هزینه اضافی برای یک ویژگی نسبتاً ساده در انتقال داده‌ها را غیرمنصفانه می‌دانند. پاسخ رسمی منتسب به شرکت ویدینگز (Withings) نیز این تغییر را تأیید کرده و توضیح داده است که پس از تاریخ مذکور، همگام‌سازی خودکار با برنامه‌های شخص ثالث بخشی از امکانات اشتراک ویدینگز پلاس (Withings+) خواهد بود. در غیاب همگام‌سازی خودکار، کاربران رایگان جدید ناچار خواهند بود هر بار برای انتقال داده‌های خود به پلتفرم‌های دیگر، به صورت دستی اقدام به استخراج و بارگذاری اطلاعات کنند. شرکت ویدینگز (Withings) که بیشتر به خاطر تولید گجت‌های سلامت رده‌بالا مانند ترازوهای پیشرفته شناخته می‌شود، پیش‌تر نیز محصولاتی نظیر ترازوی بادی اسکن ۲ (Body Scan 2) را با قیمت ۶۰۰ دلار به بازار عرضه کرده بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/l-intro-1792105014.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -4222,76 +4236,73 @@
       ]
     },
     {
-      "item_id": "6f25a15d9964e4695ccac1f6b52919b188056ac3176abc01db7f343ae19a6e0f",
-      "title": "And the winner of Startup Battlefield at Disrupt 2026 is: Intero Biosystems",
-      "url": "https://techcrunch.com/2026/10/15/and-the-winner-of-startup-battlefield-at-disrupt-2026-is-intero-biosystems/",
-      "summary": "Intero Biosystems beat out 199 other Startup Battlefield companies to take home the $100,000 grand prize at TechCrunch Disrupt 2026.",
+      "item_id": "03fc74d1d18ed929755b7ba21f1ab890c3bfe147a2dfd607320af3ae92d86d16",
+      "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
+      "url": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
+      "summary": "Benchmark says the Valley’s rule against backing rivals is getting harder to keep.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-10-15T23:33:45+00:00",
+      "published_at": "2026-10-16T05:16:46+00:00",
       "categories": [
-        "Biotech & Health",
-        "Startups",
-        "Startup Battlefield 200",
-        "TechCrunch Disrupt"
+        "TC",
+        "Venture"
       ]
     },
     {
-      "item_id": "e0c6500473dda85072b6a5b9f03e2a795e880255372d45f7b53da5f2a527c2ff",
-      "title": "Steam can now show game achievements in separate ‘sets’",
-      "url": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
-      "summary": "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs. \"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says. \"But when you browse what you have unlocked afterward, Steam will [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK138_Stream_Kradtke_01.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-15T23:18:28+00:00",
-      "categories": [
-        "Entertainment",
-        "Gaming",
-        "News",
-        "PC Gaming"
-      ]
-    },
-    {
-      "item_id": "1acf74561da840f7e725e045df58464330296a2923cabab9351f4441cf8a1291",
-      "title": "Withings wants new users to pay $100 a year to sync with Apple Health",
-      "url": "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
-      "summary": "The smart health company is gating third-party app syncing to its own subscription plan for new users.",
+      "item_id": "5173c742493c18f593e1f74000fe78bb18148d6397fbc2eeb195b2700a9f13ba",
+      "title": "Relive Tesla's ridiculous(ly fun) Roadster stunt show",
+      "url": "https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show/",
+      "summary": "Tesla's Roadster event was pretty exciting, to say the least.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/l-intro-1792105014.jpg",
-      "published_at": "2026-10-15T23:02:04+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/relive-teslas-ridiculously-fun-roadster-stunt-show/l-intro-1792117283.jpg",
+      "published_at": "2026-10-16T02:24:52+00:00",
       "categories": [
-        "Wearables"
+        "EVs and Transportation"
       ]
     },
     {
-      "item_id": "ae187bb47c5336b2089d490c4211805ba79b78bcdcb2635449ddbac2ec9baddb",
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-6.35.44-PM.png?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-15T22:43:23+00:00",
+      "item_id": "46a3d52cf5c71beebc8f1e6f09e3aaf0391f772bb7053f868c15dc9543af2ced",
+      "title": "Tesla's redesigned Roadster has a cold-gas thruster option, but you'll need $250,000 just to reserve it",
+      "url": "https://www.engadget.com/2288437/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/",
+      "summary": "Tesla has finally unveiled the next-generation Roadster.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/l-intro-1792115458.jpg",
+      "published_at": "2026-10-16T01:48:05+00:00",
       "categories": [
-        "AI",
-        "Chrome",
-        "Google",
+        "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "6942eaedd05c97d34cbd56707c83639ad4259126d421dcff5b97d4b488daf984",
+      "title": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
+      "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
+      "summary": "Elon Musk promised a flying car. And the Tesla Roadster did exactly that. Tesla demonstrated its next-generation Roadster at an event in Waco, Texas, where the electric supercar drove upside down, briefly flew, and accelerated to 60mph in under a second. It was an impressive demonstration of a car that likely will come with some [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Roadster_94.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-16T01:28:27+00:00",
+      "categories": [
+        "Electric Cars",
         "News",
-        "OpenAI",
-        "Tech"
+        "Science",
+        "Space",
+        "SpaceX",
+        "Tesla",
+        "Transportation"
       ]
     },
     {
-      "item_id": "e367dce0a9eb2e74c4c2f626340fb6277db7dbd8018423b0d481db7f357aa98c",
-      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-      "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
-      "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday, and it bundled the main game and all of its [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/ca.com_news_thumbnailshogun2complete.png.webp?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-15T22:35:55+00:00",
+      "item_id": "c8a03eea07a373858863d8e52e7830aef7a8c31041b1f3c9f3cc41fbe0e1355b",
+      "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
+      "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+      "summary": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-16T01:17:43+00:00",
       "categories": [
-        "AI",
-        "Gaming",
-        "News"
+        "Transportation",
+        "Elon Musk",
+        "Tesla",
+        "Tesla Roadster"
       ]
     }
   ]
