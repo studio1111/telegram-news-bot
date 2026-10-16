@@ -58,9 +58,12 @@ def _api(token, method, payload=None):
         raise RuntimeError(f"Rubika {method} returned an invalid response")
     status = str(body.get("status", "")).upper()
     if status and status not in {"OK", "SUCCESS"}:
-        raise RuntimeError(f"Rubika {method} failed: {status}")
+        detail = body.get("description") or body.get("error_message") or body.get("error")
+        suffix = f": {str(detail)[:240]}" if isinstance(detail, (str, int, float)) and detail else ""
+        raise RuntimeError(f"Rubika {method} failed: {status}{suffix}")
     if body.get("ok") is False:
-        raise RuntimeError(f"Rubika {method} failed: {body.get('description', 'unknown error')}")
+        detail = body.get("description", "unknown error")
+        raise RuntimeError(f"Rubika {method} failed: {str(detail)[:240]}")
     return body
 
 def _data(body):
@@ -113,12 +116,32 @@ def _upload_image(token, image_url):
 
 
 def publish_rubika_message(message, image_url=""):
-    """Publish one news item with its image; fail rather than silently send text-only."""
+    """Publish a news item to Rubika, preserving delivery if its media endpoint rejects it.
+
+    Telegram is handled separately by the caller. A definite INVALID_INPUT rejection
+    from Rubika's media endpoint falls back to a normal text message, so the story can
+    still reach Rubika while image delivery is diagnosed. Other errors remain visible
+    and retryable rather than being mistaken for success.
+    """
     token, chat_id = _credentials()
     text = _plain_text(message)
     if not text:
         raise RuntimeError("Cannot publish an empty Rubika news post")
     if not image_url:
         raise RuntimeError("Rubika news publication requires an image")
+
     file_id = _upload_image(token, image_url)
-    return _api(token, "sendFile", {"chat_id": chat_id, "file_id": file_id, "text": text})
+    try:
+        return _api(token, "sendFile", {"chat_id": chat_id, "file_id": file_id, "text": text})
+    except RuntimeError as exc:
+        # INVALID_INPUT is a definite API rejection, not an ambiguous timeout.
+        # Try text-only delivery so Rubika is not completely silent. Telegram
+        # has already been sent and is never called from this fallback.
+        if "INVALID_INPUT" not in str(exc).upper():
+            raise
+        print("[RUBIKA_MEDIA_REJECTED] sendFile returned INVALID_INPUT; trying sendMessage text fallback")
+        result = _api(token, "sendMessage", {"chat_id": chat_id, "text": text})
+        if isinstance(result, dict):
+            result = dict(result)
+            result["_delivery_mode"] = "text_fallback"
+        return result
