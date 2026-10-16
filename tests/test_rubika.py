@@ -104,3 +104,49 @@ def test_rubika_publishes_image_with_converted_news_text(monkeypatch):
             "text": "📰 خبر\n✨ مشاهده متن کامل خبر ✨\nمتن کامل\n📡 منبع: Engadget",
         },
     )]
+
+
+def test_rubika_falls_back_to_text_only_when_media_is_rejected(monkeypatch):
+    monkeypatch.setenv("RUBIKA_BOT_TOKEN", "fake-token")
+    monkeypatch.setenv("RUBIKA_CHANNEL_ID", "channel-id")
+    monkeypatch.setattr(rubika, "_upload_image", lambda token, url: "uploaded-image-id")
+    calls = []
+
+    def fake_api(token, method, payload):
+        calls.append((method, payload))
+        if method == "sendFile":
+            raise RuntimeError("Rubika sendFile failed: INVALID_INPUT")
+        return {"status": "OK", "data": {"message_id": "123"}}
+
+    monkeypatch.setattr(rubika, "_api", fake_api)
+    result = rubika.publish_rubika_message(
+        "<b>خبر</b><br>متن کامل",
+        "https://example.com/news.jpg",
+    )
+
+    assert result["status"] == "OK"
+    assert result["_delivery_mode"] == "text_fallback"
+    assert calls == [
+        ("sendFile", {"chat_id": "channel-id", "file_id": "uploaded-image-id", "text": "خبر\nمتن کامل"}),
+        ("sendMessage", {"chat_id": "channel-id", "text": "خبر\nمتن کامل"}),
+    ]
+
+
+def test_rubika_does_not_fallback_for_ambiguous_or_other_errors(monkeypatch):
+    monkeypatch.setenv("RUBIKA_BOT_TOKEN", "fake-token")
+    monkeypatch.setenv("RUBIKA_CHANNEL_ID", "channel-id")
+    monkeypatch.setattr(rubika, "_upload_image", lambda token, url: "uploaded-image-id")
+    calls = []
+
+    def fake_api(token, method, payload):
+        calls.append(method)
+        raise RuntimeError("Rubika sendFile failed: TIMEOUT")
+
+    monkeypatch.setattr(rubika, "_api", fake_api)
+    try:
+        rubika.publish_rubika_message("خبر", "https://example.com/news.jpg")
+    except RuntimeError as exc:
+        assert "TIMEOUT" in str(exc)
+    else:
+        raise AssertionError("non-INVALID_INPUT failures must remain retryable")
+    assert calls == ["sendFile"]
