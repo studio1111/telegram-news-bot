@@ -127,8 +127,8 @@ def test_rubika_falls_back_to_text_only_when_media_is_rejected(monkeypatch):
     assert result["status"] == "OK"
     assert result["_delivery_mode"] == "text_fallback"
     assert calls == [
-        ("sendFile", {"chat_id": "channel-id", "file_id": "uploaded-image-id", "text": "خبر\\nمتن کامل"}),
-        ("sendMessage", {"chat_id": "channel-id", "text": "خبر\\nمتن کامل"}),
+        ("sendFile", {"chat_id": "channel-id", "file_id": "uploaded-image-id", "text": "خبر\nمتن کامل"}),
+        ("sendMessage", {"chat_id": "channel-id", "text": "خبر\nمتن کامل"}),
     ]
 
 
