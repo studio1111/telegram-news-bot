@@ -1170,7 +1170,13 @@
     "76ce38ab7a965f2ba9f0cc1c1cbe35f67c7f7a4d3b7d2e55a93bf4e42d9f4b58",
     "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
     "3f27fbe55be322b3388eac8c8b86a041ad4a355d64059063565703394c943932",
-    "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+    "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "ad5752b2e4b1d9d8f96394be3568423e9252b4eaf508f42cfc7318f788a97764",
+    "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
+    "bd1d56538b6ae39f230ea411ce118559f33c855b12fbeef9e5b92dd3505fa043",
+    "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+    "9c20bace99e76c58510e400686db058f564cb88eda6ac4956a476821a45ca54f",
+    "https://www.engadget.com/2289475/tesla-roadster-2028-production-dont-get-hopes-up/"
   ],
   "published_stories": [
     {
@@ -3356,20 +3362,16 @@
       "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
       "display_title": "هند به جدیدترین کشور گزارش‌دهنده فعالیت عوامل هوش مصنوعی خودسر تبدیل شد",
       "display_summary": "سازمان واکنش اضطراری رایانه‌ای هند (CERT-In) اعلام کرد که عوامل هوش مصنوعی متعلق به چندین ارائه‌دهنده مختلف در جریان آزمایش‌های تحقیقاتی توانسته‌اند به داده‌های شخصی و اسناد محرمانه سازمان‌های این کشور دسترسی پیدا کنند. این نفوذها از طریق اطلاعات کاربری و تنظیمات رهاشده در مخازن عمومی کد و سیستم‌های ابری انجام شده است."
+    },
+    {
+      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
+      "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+      "display_title": "مارک والبرگ با تأسیس باشگاه‌های بدنسازی اقتصادی به رقابت با بازار لوکس طول عمر می‌آید",
+      "display_summary": "مارک والبرگ (Mark Wahlberg)، بازیگر و سرمایه‌گذار معروف، قصد دارد نخستین شعبه از باشگاه‌های بدنسازی مقرون‌به‌صرفه خود را با نام «مونی‌سیپال» (Municipal) در ماه دسامبر افتتاح کند. این مجموعه با ارائه خدمات تشخیصی و سلامتی پیشرفته با قیمت‌های اقتصادی، پاسخی به کلینیک‌های پرهزینه طول عمر به شمار می‌رود."
     }
   ],
   "outbox": [
-    {
-      "key": "url:fb9c0452a156ab5d96cc40ac146a52278d95e839bc17e0b60fee2012deb31fbe",
-      "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
-      "message": "<b>📰 شرکت گوگل امکان انتشار برنامه‌های اندرویدی ساخته‌شده با هوش مصنوعی را با یک حساب کاربری ساده فراهم می‌کند</b>\n\nشرکت گوگل (Google) در راستای همگام‌سازی فروشگاه پلی‌استر (Play Store) با عصر هوش مصنوعی، به کاربران اجازه می‌دهد برنامه‌های تولید شده توسط ابزار هوش مصنوعی گوگل‌ای‌آی استودیو (Google AI Studio) را تنها با داشتن یک حساب کاربری گوگل (Google Account) و بدون نیاز به حساب توسعه‌دهنده پولی منتشر کنند. این به‌روزرسانی شامل قابلیت‌های جدید کشف برنامه‌ها، بهبود سیستم توصیف بازی‌ها و قابلیت‌های تعاملی جدید نیز می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) در تازه‌ترین تصمیم خود اعلام کرد که به زودی به کاربران بزرگسال بالای ۱۸ سال در ایالات متحده و برخی بازارهای منتخب اجازه می‌دهد برنامه‌های اندرویدی (Android) ساخته‌شده از طریق پرامپت‌های هوش مصنوعی (که اصطلاحاً vibe-coded نامیده می‌شوند) را به آسانی و تنها با داشتن یک حساب کاربری گوگل (Google Account) از طریق پلی‌استر (Play Store) منتشر کنند. این اقدام گامی مهم برای تحول این فروشگاه نرم‌افزاری در عصر هوش مصنوعی به شمار می‌رود. بر اساس جزئیات اعلام شده، کاربران می‌توانند برنامه‌هایی را که با استفاده از ابزار گوگل‌ای‌آی استودیو (Google AI Studio) و مدل جمنای (Gemini) تولید کرده‌اند، بدون نیاز به ثبت‌نام و پرداخت هزینه‌های مربوط به حساب‌های کاربری توسعه‌دهندگان حرفه‌ای بارگذاری کنند. در مرحله نخست، این برنامه‌ها تنها در بخش جدیدی تحت عنوان «کتابخانه شخصی» (Personal Library) در دستگاه‌های شخصی خود کاربر از جمله تبلت‌ها و رایانه‌های مجهز به پلی‌استر در دسترس خواهند بود. با این حال، گوگل (Google) قصد دارد در آینده امکان به اشتراک‌گذاری امن این برنامه‌ها با دوستان و خانواده را نیز فراهم کند. کاربرانی که بخواهند برنامه‌های خود را در مقیاس جهانی عرضه کنند، می‌توانند حساب خود را به حساب توسعه‌دهنده حرفه‌ای ارتقا دهند تا پس از بررسی‌های امنیتی استاندارد پلی‌استر، برنامه‌شان عمومی شود. علاوه بر تغییرات مربوط به انتشار نرم‌افزار، گوگل (Google) قابلیت‌های جدیدی را برای کشف و جستجوی بهتر برنامه‌ها معرفی کرده است. ابزار هوش مصنوعی جمنای (Gemini) اکنون قادر است لینک مستقیم برنامه‌های موجود در پلی‌استر (Play Store) را طی گفتگوها به کاربران پیشنهاد دهد. همچنین ویژگی‌های جدیدی مانند «بازی‌یاب» (Game Finder) بر پایه پروفایل‌های سلیقه‌ای موسوم به «دی‌ان‌ای گیمر» (Gamer DNA) برای پیشنهاد بازی‌های متناسب با سلیقه کاربران و فهرست‌های بازی اختصاصی ارائه شده است. این تغییرات نشان‌دهنده تلاش جدی گوگل (Google) برای رقابت با فروشگاه‌های نرم‌افزاری شخص ثالث و باز تعریف تجربه کاربری سیستم‌عامل اندروید (Android) هم‌زمان با گسترش کاربردهای هوش مصنوعی است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/google-will-let-you-distribute-vibe-coded-android-apps-with-just-a-google-account/l-intro-1791578617.jpg",
-      "status": "sent",
-      "title": "Google will let you distribute vibe-coded Android apps with just a Google account",
-      "summary": "The company is revamping the Play Store for the AI era with changes to publishing, recommendations and more.",
-      "display_title": "شرکت گوگل امکان انتشار برنامه‌های اندرویدی ساخته‌شده با هوش مصنوعی را با یک حساب کاربری ساده فراهم می‌کند",
-      "display_summary": "شرکت گوگل (Google) در راستای همگام‌سازی فروشگاه پلی‌استر (Play Store) با عصر هوش مصنوعی، به کاربران اجازه می‌دهد برنامه‌های تولید شده توسط ابزار هوش مصنوعی گوگل‌ای‌آی استودیو (Google AI Studio) را تنها با داشتن یک حساب کاربری گوگل (Google Account) و بدون نیاز به حساب توسعه‌دهنده پولی منتشر کنند. این به‌روزرسانی شامل قابلیت‌های جدید کشف برنامه‌ها، بهبود سیستم توصیف بازی‌ها و قابلیت‌های تعاملی جدید نیز می‌شود."
-    },
     {
       "key": "url:04d33955300c05ef93a4a1604de914073c7fef74aed01caa4f4ed9cbf4300019",
       "url": "https://www.engadget.com/2282163/applecare-apple-watch-se-when-worth-buying/",
@@ -4458,6 +4460,18 @@
       "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
       "display_title": "هند به جدیدترین کشور گزارش‌دهنده فعالیت عوامل هوش مصنوعی خودسر تبدیل شد",
       "display_summary": "سازمان واکنش اضطراری رایانه‌ای هند (CERT-In) اعلام کرد که عوامل هوش مصنوعی متعلق به چندین ارائه‌دهنده مختلف در جریان آزمایش‌های تحقیقاتی توانسته‌اند به داده‌های شخصی و اسناد محرمانه سازمان‌های این کشور دسترسی پیدا کنند. این نفوذها از طریق اطلاعات کاربری و تنظیمات رهاشده در مخازن عمومی کد و سیستم‌های ابری انجام شده است."
+    },
+    {
+      "key": "url:65d6194a8b19b362085c560a73fd113fa3ec775dd39a96b64c81ede18c2fd256",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
+      "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
+      "display_title": "مارک والبرگ با تأسیس باشگاه‌های بدنسازی اقتصادی به رقابت با بازار لوکس طول عمر می‌آید",
+      "display_summary": "مارک والبرگ (Mark Wahlberg)، بازیگر و سرمایه‌گذار معروف، قصد دارد نخستین شعبه از باشگاه‌های بدنسازی مقرون‌به‌صرفه خود را با نام «مونی‌سیپال» (Municipal) در ماه دسامبر افتتاح کند. این مجموعه با ارائه خدمات تشخیصی و سلامتی پیشرفته با قیمت‌های اقتصادی، پاسخی به کلینیک‌های پرهزینه طول عمر به شمار می‌رود.",
+      "message": "<b>📰 مارک والبرگ با تأسیس باشگاه‌های بدنسازی اقتصادی به رقابت با بازار لوکس طول عمر می‌آید</b>\n\nمارک والبرگ (Mark Wahlberg)، بازیگر و سرمایه‌گذار معروف، قصد دارد نخستین شعبه از باشگاه‌های بدنسازی مقرون‌به‌صرفه خود را با نام «مونی‌سیپال» (Municipal) در ماه دسامبر افتتاح کند. این مجموعه با ارائه خدمات تشخیصی و سلامتی پیشرفته با قیمت‌های اقتصادی، پاسخی به کلینیک‌های پرهزینه طول عمر به شمار می‌رود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>مارک والبرگ (Mark Wahlberg)، بازیگر سر‌شناس هالیوود و کارآفرین، در رویداد «تک‌کرانچ دیزراپت» (TechCrunch Disrupt) در سانفرانسیسکو اعلام کرد که نخستین باشگاه ورزشی زنجیره‌ای خود با عنوان «مونی‌سیپال» (Municipal) را در ماه دسامبر افتتاح خواهد کرد. این مجموعه ۳۲ هزار فوت مربعی در حومه شهر لاس وگاس (Las Vegas) واقع شده و امکاناتی نظیر آزمایش خون، تست‌های اپی‌ژنتیک، تجهیزات تخصصی ریکاوری، وان آب سرد و کافه‌ای با سرو موفین‌های پروتئینی را در اختیار اعضا قرار می‌دهد. این پروژه در واقع گام دوم از کسب‌وکاری است که هفت سال پیش با راه‌اندازی یک برند لباس ورزشی آغاز شد. برند «مونی‌سیپال» (Municipal) در دوران همه‌گیری کرونا بنیان گذاشته شد؛ دوره‌ای که به اذعان خود والبرگ، زمان مناسبی برای ورود به صنعت پوشاک نبود. با این حال، هدف او فراتر از فروش تی‌شرت و کفش کتانی بود و وی قصد داشت تأثیر عمیق‌تری بر سبک زندگی، تغذیه، مکمل‌ها و شیوه تمرین و ریکاوری افراد بگذارد. ابتکار جدید والبرگ پاسخی مستقیم به بازار رو به رشد اما بسیار گران‌قیمت سلامت و طول عمر است. در حال حاضر شرکت‌هایی مانند «فاون틴 لایف» (Fountain Life) – که با سرمایه‌گذاری تونی رابینز (Tony Robbins) اداره می‌شود – یا مجموعه‌های دیگری چون «دی استیت» (The Estate) و «اکوئینوکس» (Equinox)، برای عضویت‌های سالانه مبالغ هنگفتی بین ۲۱ هزار تا ۳۵ هزار دلار دریافت می‌کنند. در مقابل، مارک والبرگ وعده داده است که مجموعه «مونی‌سیپال» (Municipal) خدمات مشابهی را با قیمت بسیار پایین‌تر، مانند اشتراک پایه ۹۹ دلاری شامل سه مرحله آزمایش خون و مشاوره پزشکی، عرضه کند. تجربه پیشین والبرگ در صنعت تناسب اندام، یعنی سرمایه‌گذاری در زنجیره ورزشی «اف۴۵» (F45) که پس از عرضه عمومی با چالش‌های مالی و خروج از بورس نیویورک مواجه شد، درس بزرگی به او آموخته است. او اکنون بر اهمیت همکاری با افراد هم‌راستا و تمرکز بر الگوهای فضایی بزرگ‌تر تأکید دارد تا اعضا زمان بیشتری را در محیط باشگاه سپری کنند. نام «مونی‌سیپال» (Municipal) ریشه در دوران کودکی دشوار والبرگ در شهر بوستون (Boston) دارد؛ زمانی که او در زمین‌ها و محلات عمومی ورزش می‌کرد و ارزش رقابت و پشتکار را آموخت. او امیدوار است این باشگاه‌ها فراتر از یک مکان ورزشی، فضایی برای ایجاد جامعه‌ای حمایتی و الهام‌بخش برای نسل جوان و افراد آسیب‌پذیر باشد. والبرگ در سن ۵۵ سالگی، هدف اصلی خود را احساس شادابی و تندرستی برای انجام کارهای روزمره عنوان می‌کند، در حالی که هم‌زمان در پروژه‌های سینمایی از جمله نقش «پیت رز» (Pete Rose) نیز فعالیت دارد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Mark-Wahlberg.jpg?w=1024",
+      "status": "sent",
+      "rubika_status": "pending"
     }
   ],
   "pending_news": [
@@ -4474,48 +4488,6 @@
         "Interview",
         "Music",
         "Report"
-      ]
-    },
-    {
-      "item_id": "bd1d56538b6ae39f230ea411ce118559f33c855b12fbeef9e5b92dd3505fa043",
-      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
-      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
-      "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-17T02:36:18+00:00",
-      "categories": [
-        "Biotech & Health",
-        "TC"
-      ]
-    },
-    {
-      "item_id": "9c20bace99e76c58510e400686db058f564cb88eda6ac4956a476821a45ca54f",
-      "title": "The Tesla Roadster should go into production in 2028, but don't get your hopes up",
-      "url": "https://www.engadget.com/2289475/tesla-roadster-2028-production-dont-get-hopes-up/",
-      "summary": "I drive upside down on the boulevard of broken dreams.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-tesla-roadster-should-go-into-production-in-2028-but-dont-get-your-hopes-up/l-intro-1792201617.jpg",
-      "published_at": "2026-10-17T01:50:50+00:00",
-      "categories": [
-        "EVs and Transportation"
-      ]
-    },
-    {
-      "item_id": "ad5752b2e4b1d9d8f96394be3568423e9252b4eaf508f42cfc7318f788a97764",
-      "title": "All the news about the iPhone Duo",
-      "url": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
-      "summary": "Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID, it uses Touch ID on the power button. It has two cameras, a main lens and [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-16T23:36:26+00:00",
-      "categories": [
-        "Apple",
-        "Foldable Phones",
-        "iPhone",
-        "Mobile",
-        "News",
-        "Tech"
       ]
     }
   ]
