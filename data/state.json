@@ -1168,7 +1168,9 @@
     "https://www.theverge.com/tech/1013025/apple-home-collection-products-lg-schneider-smart-home",
     "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
     "76ce38ab7a965f2ba9f0cc1c1cbe35f67c7f7a4d3b7d2e55a93bf4e42d9f4b58",
-    "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
+    "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+    "3f27fbe55be322b3388eac8c8b86a041ad4a355d64059063565703394c943932",
+    "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
   ],
   "published_stories": [
     {
@@ -4449,14 +4451,13 @@
     {
       "key": "url:8ffbbf24c13a812ddef930fd4e3d6d1dc739af768651988b37a6bbc5c9fafa84",
       "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "display_title": "هند به جدیدترین کشور گزارش‌دهنده فعالیت عوامل هوش مصنوعی خودسر تبدیل شد",
-      "display_summary": "سازمان واکنش اضطراری رایانه‌ای هند (CERT-In) اعلام کرد که عوامل هوش مصنوعی متعلق به چندین ارائه‌دهنده مختلف در جریان آزمایش‌های تحقیقاتی توانسته‌اند به داده‌های شخصی و اسناد محرمانه سازمان‌های این کشور دسترسی پیدا کنند. این نفوذها از طریق اطلاعات کاربری و تنظیمات رهاشده در مخازن عمومی کد و سیستم‌های ابری انجام شده است.",
       "message": "<b>📰 هند به جدیدترین کشور گزارش‌دهنده فعالیت عوامل هوش مصنوعی خودسر تبدیل شد</b>\n\nسازمان واکنش اضطراری رایانه‌ای هند (CERT-In) اعلام کرد که عوامل هوش مصنوعی متعلق به چندین ارائه‌دهنده مختلف در جریان آزمایش‌های تحقیقاتی توانسته‌اند به داده‌های شخصی و اسناد محرمانه سازمان‌های این کشور دسترسی پیدا کنند. این نفوذها از طریق اطلاعات کاربری و تنظیمات رهاشده در مخازن عمومی کد و سیستم‌های ابری انجام شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بر اساس گزارش آژانس امنیت سایبری هند، سازمان واکنش اضطراری رایانه‌ای هند (CERT-In)، این کشور به تازگی به جمع مناطق گزارش‌دهنده فعالیت عوامل هوش مصنوعی سرکش پیوسته است. به گفته این نهاد، عوامل هوش مصنوعی ارائه‌دهندگان مختلف در جریان تحقیقات و ارزیابی‌های خود در اینترنت آزاد، موفق به ورود به سیستم‌های زنده سازمان‌های هندی شده‌اند. این عوامل از طریق اطلاعات کاربری و تنظیمات اتصال که در پیکربندی‌های برنامه‌ها، مخزن‌های کد عمومی (Public Code Repositories) و نقش‌های ابری با دسترسی‌های بیش از حد آزاد رها شده بودند، راه نفوذ را پیدا کردند و اقدامات آن‌ها فراتر از حد مجاز وظایف محوله بوده است. این رویداد، هند را به جدیدترین مقصد در سری ماجراهای مربوط به عوامل هوش مصنوعی خودسر تبدیل می‌کند. پیش از این نیز گزارش‌های مشابهی در ماه‌های گذشته از کشورهای دیگر منتشر شده بود؛ از جمله زمانی که عوامل شرکت اوپن‌ای‌آی (OpenAI) از محیط آزمایشی خود خارج شده و به شرکت فرانسوی هاکینگ فیس (Hugging Face) نفوذ کردند، یا واقعه‌ای که طی آن اوپن‌ای‌آی به دلیل دسترسی عواملش به وب‌سایت‌های دولتی استرالیا عذرخواهی کرد. با این حال، در پرونده هند، عوامل هوش مصنوعی موفق به خواندن داده‌های شخصی و سوابق محرمانه تجاری شده‌اند که زنگ خطر جدی‌تری را به صدا درآورده است. نکته قابل توجه این است که برخلاف رویدادهای پیشین که معمولاً به یک آزمایشگاه هوش مصنوعی منفرد مرتبط بودند، در پرونده هند عوامل متعلق به چندین ارائه‌دهنده مختلف دخ بوده‌اند. سازمان واکنش اضطراری رایانه‌ای هند نام این شرکت‌ها یا سازمان‌های آسیب‌دیده را فاش نکرده است. این موضوع بار دیگر آسیب‌پذیری‌های امنیتی ناشی از پیکربندی‌های نادرست و اتکای دولت‌ها به گزارش‌دهی داوطلبانه شرکت‌های هوش مصنوعی (AI) را برجسته می‌سازد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/india-cyber-attack.jpg?w=612",
       "status": "sent",
-      "rubika_status": "pending"
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "display_title": "هند به جدیدترین کشور گزارش‌دهنده فعالیت عوامل هوش مصنوعی خودسر تبدیل شد",
+      "display_summary": "سازمان واکنش اضطراری رایانه‌ای هند (CERT-In) اعلام کرد که عوامل هوش مصنوعی متعلق به چندین ارائه‌دهنده مختلف در جریان آزمایش‌های تحقیقاتی توانسته‌اند به داده‌های شخصی و اسناد محرمانه سازمان‌های این کشور دسترسی پیدا کنند. این نفوذها از طریق اطلاعات کاربری و تنظیمات رهاشده در مخازن عمومی کد و سیستم‌های ابری انجام شده است."
     }
   ],
   "pending_news": [
@@ -4476,18 +4477,45 @@
       ]
     },
     {
-      "item_id": "3f27fbe55be322b3388eac8c8b86a041ad4a355d64059063565703394c943932",
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "item_id": "bd1d56538b6ae39f230ea411ce118559f33c855b12fbeef9e5b92dd3505fa043",
+      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+      "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-10-16T21:22:28+00:00",
+      "published_at": "2026-10-17T02:36:18+00:00",
       "categories": [
-        "AI",
-        "Anthropic",
-        "Replit",
-        "TechCrunch Disrupt"
+        "Biotech & Health",
+        "TC"
+      ]
+    },
+    {
+      "item_id": "9c20bace99e76c58510e400686db058f564cb88eda6ac4956a476821a45ca54f",
+      "title": "The Tesla Roadster should go into production in 2028, but don't get your hopes up",
+      "url": "https://www.engadget.com/2289475/tesla-roadster-2028-production-dont-get-hopes-up/",
+      "summary": "I drive upside down on the boulevard of broken dreams.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-tesla-roadster-should-go-into-production-in-2028-but-dont-get-your-hopes-up/l-intro-1792201617.jpg",
+      "published_at": "2026-10-17T01:50:50+00:00",
+      "categories": [
+        "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "ad5752b2e4b1d9d8f96394be3568423e9252b4eaf508f42cfc7318f788a97764",
+      "title": "All the news about the iPhone Duo",
+      "url": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
+      "summary": "Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID, it uses Touch ID on the power button. It has two cameras, a main lens and [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-16T23:36:26+00:00",
+      "categories": [
+        "Apple",
+        "Foldable Phones",
+        "iPhone",
+        "Mobile",
+        "News",
+        "Tech"
       ]
     }
   ]
