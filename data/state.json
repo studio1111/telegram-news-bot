@@ -1784,7 +1784,27 @@
     "1da79efa43c043e9e2e6f064231a1e1b6e7bbe50845be91e9f00f1744a971802",
     "https://www.engadget.com/2293810/tesla-plans-selling-cybercabs-by-end-of-2026/",
     "8bd88e584dc5cde6d541ca302358ed2c676cf27256744324e6abdf9fc1e6d478",
-    "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings"
+    "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings",
+    "2f8af693e3ab82fe925483c1d00bae8f32706c09d1594b9e465da34e7c62d82d",
+    "4a3555853a802ae16b88bfde23f50e32a27109e14077bd7a75649ef8f4027905",
+    "a52f3003ac7ba33d49ee302ad6fdd815ae13b33da19d095ad056c5d4824b6d6d",
+    "b36b41c7da17ce6e276ab5ae2de815bd83f0c06220a9dee8b78c4bff19bdc128",
+    "f49a97c29df9144c663675f125972936d2e5bdc0fc32f887feaa2d570438152a",
+    "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+    "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+    "https://www.theverge.com/gadgets/1015984/aura-smart-bird-feeder-jbl-charge-6-speaker-deal-sale",
+    "https://www.theverge.com/gadgets/1016626/samsung-galaxy-used-amazon",
+    "https://www.theverge.com/tech/1016544/coolpad-cool-x-wide-widescreen-android-16-smartphone-china",
+    "03737636d403a2a8b35e40f84ffb81fb51cdff9593ef850113d2cf8a964933f8",
+    "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
+    "50f066ab5bb75e6c025725c6210808e7946496ce5366e9bc9aa66759c56ca974",
+    "https://www.engadget.com/2294041/iphone-duos-next-gen-prototypes-are-trying-to-cram-in-face-id/",
+    "e4afbeb31530a1b7ffa28aa59fcc1bae890f34cc32145ef923e2be9640b5c6f8",
+    "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+    "fb54b19a0eaa4a90ec12aae72bf41d6afb37bb1b00c9fe617518dba04273a374",
+    "ff9e2a38e15cc649be417a61b4552cff966d17a17af2de6e2cda139a026b4610",
+    "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+    "https://www.engadget.com/2293801/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/"
   ],
   "published_stories": [
     {
@@ -5090,31 +5110,23 @@
       "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings",
       "display_title": "شرکت تسلا (Tesla) وعده داد مالکان خودروها می‌توانند سال آینده به ناوگان رباتاکسی بپیوندند",
       "display_summary": "شرکت تسلا (Tesla) اعلام کرده است که مالکان خودروهای این شرکت احتمالاً از سه ماهه دوم سال ۲۰۲۷ می‌توانند وسایل نقلیه خود را وارد ناوگان رباتاکسی (Robotaxi) کنند. این در حالی است که این خودروساز سابقه‌ای طولانی در عدم پایبندی به موعدهای مقرر و عبور از موانع قانونی و نظارتی پیش‌رو دارد."
+    },
+    {
+      "title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+      "summary": "Helion now has another $225 million to help speed development of its first fusion power plant, due to provide Microsoft with electricity in 2028.",
+      "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
+      "display_title": "استارتاپ همجوشی هسته ای هلیون نیمه هادی های جدیدی را برای دو برابر کردن توان نیروگاه ها توسعه می دهد",
+      "display_summary": "استارتاپ انرژی همجوشی هلیون (Helion) توانسته است با جذب ۱۷۵ میلیون دلار بودجه فدرال و ۵۰ میلیون دلار سرمایه گذاری خصوصی، توسعه نیمه هادی های پیشرفته را برای افزایش کارایی و توان خروجی نیروگاه های خود کلید بزند. این فناوری جدید که خط تولید آن در ایالت واشنگتن راه اندازی می شود، نقش مهمی در تامین برق مورد نیاز مایکروسافت (Microsoft) تا سال ۲۰۲۸ میلادی خواهد داشت."
+    },
+    {
+      "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+      "summary": "Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late August titled “The turbulent AI era is [&#8230;]",
+      "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+      "display_title": "بیل گیتس: برای دو دهه آشفتگی و اختلال ناشی از هوش مصنوعی آماده شوید",
+      "display_summary": "بیل گیتس، بنیان‌گذار مایکروسافت، در مصاحبه‌ای جدید هشدار داد که جهان باید خود را برای دو دهه آشفتگی عمیق ناشی از پیشرفت هوش مصنوعی آماده کند. او با تأکید بر خطرات جدی این فناوری در زمینه‌های امنیت سایبری و زیستی، نقش دولت‌ها را در اعمال استانداردهای ایمنی ضروری دانست."
     }
   ],
   "outbox": [
-    {
-      "key": "url:286cd2bd48f8f4d45bf9b03d98c097c1b7d77ebbac3fe8cc3c606caee12956bd",
-      "url": "https://www.engadget.com/2288161/ugreen-nas-hdmi-port-uses/",
-      "message": "<b>📰 کاربردهای پورت HDMI در تجهیزات ذخیره‌سازی تحت شبکه یوگرین (Ugreen NAS) چیست؟</b>\n\nتجهیزات ذخیره‌سازی تحت شبکه یوگرین (Ugreen NAS) مجهز به پورت HDMI هستند که علاوه بر امکان پخش مستقیم فایل‌های چندرسانه‌ای روی نمایشگر، دسترسی به تنظیمات بایوس (BIOS) و ترمینال را برای کاربران فراهم می‌کند. برای استفاده از این قابلیت‌ها، راهکارهای خاصی مانند استفاده از اپلیکیشن موبایل به عنوان کنترل از راه دور نیاز است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>راه‌اندازی یک سرور ذخیره‌سازی تحت شبکه یا همان ناس (NAS) یکی از روش‌های محبوب برای دسترسی از راه دور به فایل‌ها بدون نیاز به پرداخت هزینه‌های گزاف برای فضای ابری (Cloud Storage) است. در میان گزینه‌های موجود در بازار، دستگاه‌های شرکت یوگرین (Ugreen) طرفداران زیادی دارند، اما وجود یک پورت HDMI در پشت این دستگاه‌ها گاهی برای کاربران پرسش‌برانگیز است. از آنجا که فلسفه اصلی یک سرور ناس اتصال از طریق شبکه اینترنت است، شاید وجود پورت تصویر در آن عجیب به نظر برسد، اما این پورت کاربردهای مهمی دارد. اصلی‌ترین کاربرد پورت HDMI در دستگاه‌های یوگرین ناس (Ugreen NAS)، تماشای مستقیم فایل‌های چندرسانه‌ای ذخیره‌شده روی دستگاه است. اگرچه روش رایج‌تر این است که محتوا را از طریق شبکه به تلویزیون هوشمند یا دستگاه‌هایی مانند روکو استریمینگ استیک (Roku Streaming Stick) انتقال داد، اما استفاده از پورت HDMI به شما اجازه می‌دهد بدون نیاز به این وسایل، دستگاه را مستقیماً به مانیتور کامپیوتر یا ویدیو پروژکتور متصل کنید. البته این فرآیند به سادگی اتصال یک دستگاه معمولی نیست. هنگامی که یوگرین ناس (Ugreen NAS) را از طریق کابل HDMI به نمایشگر وصل می‌کنید، پیامی روی صفحه ظاهر می‌شود که به شما اعلام می‌کند برای پخش محتوا باید از اپلیکیشن موبایل یوگرین (Ugreen) استفاده کنید. در این اپلیکیشن گزینه‌ای برای ارسال محتوا به صفحه نمایشگر تعبیه شده است و پس از آن می‌توانید از گوشی خود به عنوان کنترل از راه دور برای مدیریت پخش استفاده کنید. از آنجا که این دستگاه‌ها کنترل فیزیکی مجزا ندارند، این روش تنها راه برای هدایت و پخش کتابخانه رسانه‌ای است. علاوه بر سرگرمی، پورت HDMI امکانات پیشرفته‌تری را نیز در اختیار کاربران قرار می‌دهد. اگر یک مانیتور و کیبورد به دستگاه متصل کنید، امکان دسترسی به بایوس (BIOS) و محیط ترمینال فراهم می‌شود. شاید کاربران عادی هرگز به این بخش‌ها نیازی پیدا نکنند، اما برای جایگزینی سیستم‌عامل دستگاه، عیب‌یابی مشکلات بوت یا تغییر تنظیمات پیشرفته بدون نیاز به اتصال از راه دور اس‌اس‌اچ (SSH)، وجود آن‌ها ضروری است. برای ورود به تنظیمات بایوس (BIOS)، کافی است دستگاه را در حالی که نمایشگر و کیبورد به آن متصل هستند روشن کنید و بلافاصله کلیدهای کنترل و اف ۱۲ (Ctrl + F12) را به صورت متوالی فشار دهید. در این بخش می‌توانید با کیبورد به جستجوی تنظیمات بپردازید. از سوی دیگر، کاربران می‌توانند با اتصال کیبورد و فشردن کلیدهای کنترل، آلْت و اف ۱ (Ctrl + Alt + F1) به محیط ترمینال دسترسی پیدا کنند؛ هرچند این کلید ممکن است در مدل‌های مختلف یوگرین ناس (Ugreen NAS) متفاوت باشد. دسترسی مستقیم به ترمینال و بایوس ابزارهای قدرتمندی هستند، اما کار با آن‌ها نیازمند دانش فنی است تا از بروز مشکلات سیستمی جلوگیری شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/what-can-you-use-the-hdmi-port-on-your-ugreen-nas-for/l-intro-1792093866.jpg",
-      "status": "sent",
-      "title": "What can you use the HDMI port on your Ugreen NAS for?",
-      "summary": "You can use it to watch media files on the device, but you'll need to use your phone as a remote.",
-      "display_title": "کاربردهای پورت HDMI در تجهیزات ذخیره‌سازی تحت شبکه یوگرین (Ugreen NAS) چیست؟",
-      "display_summary": "تجهیزات ذخیره‌سازی تحت شبکه یوگرین (Ugreen NAS) مجهز به پورت HDMI هستند که علاوه بر امکان پخش مستقیم فایل‌های چندرسانه‌ای روی نمایشگر، دسترسی به تنظیمات بایوس (BIOS) و ترمینال را برای کاربران فراهم می‌کند. برای استفاده از این قابلیت‌ها، راهکارهای خاصی مانند استفاده از اپلیکیشن موبایل به عنوان کنترل از راه دور نیاز است."
-    },
-    {
-      "key": "url:05202fc38139729457b8aa3b04247a7231eea57eb2fe23d5c0b125235549b1f8",
-      "url": "https://www.engadget.com/2288133/robot-vacuum-major-privacy-problem-you-should-know/",
-      "message": "<b>📰 ربات‌های جاروبرقی و چالش‌های جدی حریم خصوصی؛ آنچه باید درباره امنیت خانه خود بدانید</b>\n\nجاروبرقی‌های رباتیک مدرن با بهره‌گیری از دوربین‌ها، میکروفون‌ها و قابلیت اتصال به ابر (Cloud)، اطلاعات حساسی مانند نقشه‌های خانه، الگوهای حرکتی و حتی صداها را جمع‌آوری می‌کنند. این گزارش به بررسی خطرات حریم خصوصی، آسیب‌پذیری‌های امنیتی و راه‌های محافظت از داده‌های شخصی در برابر دسترسی‌های غیرمجاز می‌پردازد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>تمیز بودن کف خانه نباید به بهای مبهم بودن قوانین مربوط به داده‌های شخصی تمام شود. جاروبرقی‌های رباتیک (Robot Vacuums) امروزی با برخورداری از امکاناتی نظیر دوربین و میکروفون، می‌توانند فراتر از نظافت ساده عمل کرده و نقشه دقیق خانه‌ها، تاریخچه نظافت و حتی مکالمات خصوصی کاربران را ثبت کنند. میزان داده‌هایی که این تجهیزات جمع‌آوری می‌کنند و مقصدی که این اطلاعات به آنجا ارسال می‌شوند، به مدل دستگاه بستگی دارد. اتصال به رایانش ابری (Cloud) یکی از چالش‌های اصلی در این حوزه است. جاروبرقی‌های متصل به اینترنت به کاربران اجازه می‌دهند وضعیت نظافت را از راه دور بررسی کنند، اما این ارتباط اغلب از طریق سرورهای شرکت سازنده (Manufacturer) انجام می‌شود. نقشه‌برداری و ویدیوها ابزارهای مفیدی هستند، اما توانایی افشای اطلاعاتی را دارند که کاربران تمایلی به اشتراک‌گذاری آن‌ها با دیگران ندارند. شرکت‌ها علاقه زیادی به گنجاندن اطلاعات مهم در قالب متن‌های طولانی و حقوقی پیچیده دارند، اما آگاهی از اینکه چه اطلاعاتی، چه زمانی و چرا به اشتراک گذاشته می‌شود، امری ضروری است. خطرات حریم خصوصی در این حوزه تنها در حد فرضیه نیستند. به عنوان نمونه، کاربری به نام «سامی ازدوفال (Sam Azdoufal)» هنگام کنترل از راه دور جاروبرقی دی‌جی‌آی (DJI) خود، به طور تصادفی توانست کنترل حدود ۷۰۰۰ جاروبرقی رباتیک دیگر را در سراسر جهان به دست گیرد. شرکت دی‌جی‌آی (DJI) اعلام کرد که این مشکل امنیتی را با انتشار به‌روزرسانی‌هایی برطرف کرده است، اما این رویداد نشان داد که نقص در بررسی‌های امنیتی سرور می‌تواند پیامدهای جدی داشته باشد. در این میان، ابزارهایی مانند کلود کد (Claude Code) در تحلیل‌های فنی به کار گرفته شدند، اما ریشه مشکل در ضعف سیستم‌های امنیتی بود. علاوه بر این حوادث، یک جاروبرقی جدید ممکن است در طول روال‌های روزمره اطلاعاتی را به شرکت سازنده ارسال کند. برای مثال، سیاست حفظ حریم خصوصی شرکت آی‌روبات (iRobot) نشان می‌دهد که مدل‌های متصل می‌توانند داده‌هایی فراتر از نقشه خانه، از جمله نام اتاق‌ها، نوع کف‌پوش، اشیاء شناسایی‌شده، حرکات ربات و جزئیات شبکه وای‌فای (Wi-Fi) را ارسال کنند. برای انتخاب دستگاهی سازگارتر با حریم خصوصی، کاربران باید به دنبال مدل‌هایی باشند که میزان داده‌های ارسالی از خانه را به حداقل می‌رسانند. بررسی دقیق قوانین حریم خصوصی پیش از خرید، توجه به مسیریابی محلی (On-device) و پرهیز از ویژگی‌های ابری اجباری از جمله راهکارهای پیشنهادی است. شرکت‌هایی مانند ماتیک (Matic) با اتخاذ رویکرد محلی‌محور (Local-first) و پردازش داده‌ها روی خود ربات، تلاش کرده‌اند استانداردهای بهتری را رعایت کنند. در نهایت، حتی اگر سیاست‌های یک شرکت بر حفظ حریم خصوصی تأکید داشته باشد، این موضوع تضمینی صددرصد در برابر آسیب‌پذیری‌های امنیتی نخواهد بود. استفاده از رمز عبور قوی، فعال‌سازی احراز هویت دو مرحله‌ای (Two-Factor Authentication) و به‌روزرسانی مداوم میان‌افزار (Firmware) از اقدامات ضروری برای محافظت از حریم خصوصی در برابر خطرات احتمالی است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/robot-vacuums-have-a-major-privacy-problem-you-should-be-aware-of/l-intro-1792093298.jpg",
-      "status": "sent",
-      "title": "Robot vacuums have a major privacy problem you should be aware of",
-      "summary": "Your robot vacuum's microphone and camera are useful for more efficient cleaning, but it's vital to know how that information is stored and shared.",
-      "display_title": "ربات‌های جاروبرقی و چالش‌های جدی حریم خصوصی؛ آنچه باید درباره امنیت خانه خود بدانید",
-      "display_summary": "جاروبرقی‌های رباتیک مدرن با بهره‌گیری از دوربین‌ها، میکروفون‌ها و قابلیت اتصال به ابر (Cloud)، اطلاعات حساسی مانند نقشه‌های خانه، الگوهای حرکتی و حتی صداها را جمع‌آوری می‌کنند. این گزارش به بررسی خطرات حریم خصوصی، آسیب‌پذیری‌های امنیتی و راه‌های محافظت از داده‌های شخصی در برابر دسترسی‌های غیرمجاز می‌پردازد."
-    },
     {
       "key": "url:e6e234bc172dfbe94dc691fb185ef5a8534250e161970a82b7baa95b529b9a8e",
       "url": "https://www.theverge.com/gadgets/1013911/sonys-best-noise-canceling-earbuds-are-nearly-100-off-today-only",
@@ -6163,37 +6175,58 @@
     {
       "key": "url:1da79efa43c043e9e2e6f064231a1e1b6e7bbe50845be91e9f00f1744a971802",
       "url": "https://www.engadget.com/2293810/tesla-plans-selling-cybercabs-by-end-of-2026/",
-      "title": "Tesla plans to start selling Cybercabs by the end of the year",
-      "summary": "Tesla wants to sell Cybercabs to other transport companies before the year ends.",
-      "display_title": "برنامه تسلا برای آغاز فروش خودروهای سایبرکب تا پایان سال جاری میلادی",
-      "display_summary": "شرکت تسلا (Tesla) قصد دارد تا پیش از پایان سال جاری میلادی، فروش خودروهای بدون فرمان و پدال سایبرکب (Cybercab) را به شرکت‌های حمل‌ونقل و مشتریان تجاری آغاز کند. معاون مهندسی این خودروساز اعلام کرده که تولید این خودروها در کارخانه گیگافکتوری تگزاس (Gigafactory Texas) در جریان است و عرضه اولیه با مقیاس کوچک برای مدیریت ناوگان خودران انجام خواهد شد.",
       "message": "<b>📰 برنامه تسلا برای آغاز فروش خودروهای سایبرکب تا پایان سال جاری میلادی</b>\n\nشرکت تسلا (Tesla) قصد دارد تا پیش از پایان سال جاری میلادی، فروش خودروهای بدون فرمان و پدال سایبرکب (Cybercab) را به شرکت‌های حمل‌ونقل و مشتریان تجاری آغاز کند. معاون مهندسی این خودروساز اعلام کرده که تولید این خودروها در کارخانه گیگافکتوری تگزاس (Gigafactory Texas) در جریان است و عرضه اولیه با مقیاس کوچک برای مدیریت ناوگان خودران انجام خواهد شد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت تسلا (Tesla) برنامه‌ریزی کرده است تا پیش از پایان سال جاری میلادی، عرضه و فروش خودروهای خودران سایبرکب (Cybercab) را به مشتریان و شرکت‌های حمل‌ونقل آغاز کند. لارس موراوی (Lars Moravy)، معاون مهندسی تسلا، طی نشست مربوط به گزارش درآمد سه ماهه سوم اعلام کرد که این شرکت تلاش می‌کند خودروهای سایبرکب را تا پایان سال ۲۰۲۶ به دست مشتریان برساند. در حال حاضر، این خودروها در کارخانه گیگافکتوری تگزاس (Gigafactory Texas) تولید می‌شوند، اما واحدهای فعلی بیشتر برای ناوگان رباتکسی داخلی خود شرکت در نظر گرفته شده‌اند. به گفته مدیران تسلا، در صورت موفقیت‌آمیز بودن عرضه اولیه، این روند با مقیاسی کوچک آغاز خواهد شد تا شرکت بتواند تجربیات لازم را در زمینه «مالکیت و مدیریت ناوگان وسایل نقلیه خودران در دست مشتریان» کسب کند و سپس حجم فروش را افزایش دهد. با این حال، ایلان ماسک (Elon Musk)، مدیرعامل تسلا (Tesla)، در این نشست اذعان کرد که «اکثریت قریب به اتفاق» خودروهای سایبرکب اساساً در تملک خود تسلا باقی خواهند ماند و تحت عملیات خدمات سفر اشتراکی این شرکت فعالیت خواهند کرد. خودروی سایبرکب (Cybercab) که نخستین بار در سال ۲۰۲۴ رونمایی شد، فاقد فرمان و پدال ترمز است و امکان رانندگی توسط انسان در آن وجود ندارد؛ بنابراین، این وسیله نقلیه به‌طور کامل به نرم‌افزار خودران تسلا وابسته است. از آنجا که نسخه بدون نظارت یا مستقل (Unsupervised) از فناوری رانندگی خودران کامل (Full Self-Driving) تسلا هنوز در اختیار عموم مصرف‌کنندگان قرار نگرفته است، خودروهایی که در مرحله نخست به مشتریان فروخته می‌شوند، بلافاصله وارد ناوگان عمومی خدمات سفر اشتراکی نخواهند شد. در حال حاضر، مالکان خودروهای تسلا تنها به نسخه تحت نظارت (Supervised) این سامانه دسترسی دارند که همچنان نیازمند حضور راننده انسانی پشت فرمان است. اشوک الوامی (Ashok Elluswamy)، مدیر هوش مصنوعی در تسلا (Tesla)، در این نشست خاطرنشان کرد که این شرکت باور دارد می‌تواند قابلیت رانندگی خودران کامل بدون نظارت (Unsupervised Full Self-Driving) را در حدود سه ماهه دوم سال ۲۰۲۷ روی برخی از نخستین خودروهای مشتریان که بخشی از ناوگان رباتکسی خواهند بود، فعال کند. تسلا هم‌اکنون در حال دریافت درخواست از سوی نهادهایی است که می‌توانند در ساخت شبکه رباتکسی (Robotaxi) به این شرکت کمک کنند، که نشان‌دهنده تمایل اولیه برای فروش این خودروها به صورت ناوگان‌های بزرگ تجاری است. شایان ذکر است که اندکی پس از آغاز ارائه خدمات سفر با سایبرکب در آستین (Austin) واقع در تگزاس، اداره ملی ایمنی ترافیک بزرگراه‌های آمریکا (National Highway Traffic Safety Administration) تحقیقاتی را درباره این خودروها آغاز کرد. این سازمان اعلام نمود که تسلا خودْ گواهی تطابق این خودروها با استانداردهای فدرال ایمنی وسایل نقلیه موتوری را صادر کرده است و نهادهای نظارتی قصد دارند روند و داده‌های مورد استفاده خودروساز را بررسی کنند تا از انطباق واقعی خودروها با این استانداردها اطمینان حاصل نمایند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/tesla-plans-to-start-selling-cybercabs-by-the-end-of-the-year/l-intro-1792659015.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "title": "Tesla plans to start selling Cybercabs by the end of the year",
+      "summary": "Tesla wants to sell Cybercabs to other transport companies before the year ends.",
+      "display_title": "برنامه تسلا برای آغاز فروش خودروهای سایبرکب تا پایان سال جاری میلادی",
+      "display_summary": "شرکت تسلا (Tesla) قصد دارد تا پیش از پایان سال جاری میلادی، فروش خودروهای بدون فرمان و پدال سایبرکب (Cybercab) را به شرکت‌های حمل‌ونقل و مشتریان تجاری آغاز کند. معاون مهندسی این خودروساز اعلام کرده که تولید این خودروها در کارخانه گیگافکتوری تگزاس (Gigafactory Texas) در جریان است و عرضه اولیه با مقیاس کوچک برای مدیریت ناوگان خودران انجام خواهد شد."
     },
     {
       "key": "url:e49b804aa4fbcb2135f4541cc816fa13d7b63c27ba92c0d859a6ae561e379c01",
       "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings",
-      "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
-      "summary": "For years, Elon Musk has been making big promises to Tesla owners about unsupervised autonomous driving and the ability to add their own vehicles to the company's robotaxi fleet. During today's third-quarter earnings call, the company finally gave itself a deadline. According to Tesla VP for Autonomous Driving Ashok Elluswamy, Tesla owners will be able [&#8230;]",
-      "display_title": "شرکت تسلا (Tesla) وعده داد مالکان خودروها می‌توانند سال آینده به ناوگان رباتاکسی بپیوندند",
-      "display_summary": "شرکت تسلا (Tesla) اعلام کرده است که مالکان خودروهای این شرکت احتمالاً از سه ماهه دوم سال ۲۰۲۷ می‌توانند وسایل نقلیه خود را وارد ناوگان رباتاکسی (Robotaxi) کنند. این در حالی است که این خودروساز سابقه‌ای طولانی در عدم پایبندی به موعدهای مقرر و عبور از موانع قانونی و نظارتی پیش‌رو دارد.",
       "message": "<b>📰 شرکت تسلا (Tesla) وعده داد مالکان خودروها می‌توانند سال آینده به ناوگان رباتاکسی بپیوندند</b>\n\nشرکت تسلا (Tesla) اعلام کرده است که مالکان خودروهای این شرکت احتمالاً از سه ماهه دوم سال ۲۰۲۷ می‌توانند وسایل نقلیه خود را وارد ناوگان رباتاکسی (Robotaxi) کنند. این در حالی است که این خودروساز سابقه‌ای طولانی در عدم پایبندی به موعدهای مقرر و عبور از موانع قانونی و نظارتی پیش‌رو دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت تسلا (Tesla) اعلام کرده است که مالکان خودروهای این برند ممکن است تا سه ماهه دوم سال ۲۰۲۷ میلادی اجازه پیدا کنند خودروهای خود را به ناوگان رباتاکسی (Robotaxi) این شرکت اضافه کنند. این وعده جدید در جریان نشست گزارش مالی سه ماهه سوم تسلا مطرح شد و نشان‌دهنده تلاش تازه این خودروساز برای عملی کردن برنامه‌های قدیمی خود در زمینه حمل‌ونقل کاملاً خودکار است. بر اساس اظهارات «اشوک الوسوامی (Ashok Elluswamy)»، معاون بخش رانندگی خودکار در تسلا (Tesla)، نرم‌افزار مورد استفاده برای خودروهای «سایبرکب (Cybercab)» و مدل وای (Model Y) مشابه است و به زودی نسخه‌ای از این نرم‌افزار در اختیار مشتریان قرار خواهد گرفت. تنها نیاز متمم این است که اطمینان حاصل شود خودروهای مشتریان درون محدوده‌های جغرافیایی تعیین‌شده (Geofences) و سیستم مدیریت ناوگان تسلا قرار می‌گیرند تا امکان فعالیت تمام‌خودکار فراهم شود. با این حال، تاریخ تعیین‌شده با تردیدهای زیادی روبه‌روست؛ چرا که «ایلان ماسک (Elon Musk)» مدیرعامل تسلا (Tesla)، سابقه طولانی در اعلام مهلت‌های زمانی جسورانه و سپس به تعویق افتادن چندساله آن‌ها یا حتی فراموش شدنشان دارد. در سال ۲۰۱۹، ماسک در رویداد «روز هوش مصنوعی (AI Day)» وعده داده بود که خودروهای مالکان می‌تواند به عنوان بخشی از یک شبکه رباتاکسی فعالیت کند و برای آن‌ها درآمد غیرفعال به همراه داشته باشد. او ادعا کرده بود که تا سال ۲۰۲۰ حدود یک میلیون رباتاکسی تسلا در خیابان‌ها تردد خواهند کرد، وعده‌ای که تاکنون محقق نشده است. با وجود این، تسلا (Tesla) پیشرفت‌های تدریجی در فناوری‌های کمک‌راننده خود داشته و آمار خرید بسته رانندگی خودکار کامل (Full Self-Driving) در میان خریداران جدید در آمریکای شمالی به بیش از ۷۵ درصد رسیده است. با وجود اشتیاق مشتریان، کارشناسان معتقدند ورود خودروهای شخصی به ناوگان رباتاکسی با موانع جدی نظارتی، قانونی و بیمه‌ای روبه‌رو خواهد بود. اخذ مجوزهای لازم از نهادهای محلی و ایالتی برای خدمات تاکسی رانندگی بدون سرنشین دشوار است و در بسیاری از مناطق، استفاده افراد از خودروهای شخصی به عنوان تاکسی بدون راننده همچنان با محدودیت‌های قانونی مواجه است. باید دید آیا تسلا (Tesla) می‌تواند تا مهلت مقرر در سال ۲۰۲۷ از تمامی این سدهای فنی و قانونی عبور کند یا این تاریخ نیز به فهرست وعده‌های محقق‌نشده این شرکت اضافه خواهد شد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKE001_STK086_Tesla_Robotaxi_3_A.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
+      "summary": "For years, Elon Musk has been making big promises to Tesla owners about unsupervised autonomous driving and the ability to add their own vehicles to the company's robotaxi fleet. During today's third-quarter earnings call, the company finally gave itself a deadline. According to Tesla VP for Autonomous Driving Ashok Elluswamy, Tesla owners will be able [&#8230;]",
+      "display_title": "شرکت تسلا (Tesla) وعده داد مالکان خودروها می‌توانند سال آینده به ناوگان رباتاکسی بپیوندند",
+      "display_summary": "شرکت تسلا (Tesla) اعلام کرده است که مالکان خودروهای این شرکت احتمالاً از سه ماهه دوم سال ۲۰۲۷ می‌توانند وسایل نقلیه خود را وارد ناوگان رباتاکسی (Robotaxi) کنند. این در حالی است که این خودروساز سابقه‌ای طولانی در عدم پایبندی به موعدهای مقرر و عبور از موانع قانونی و نظارتی پیش‌رو دارد."
     },
     {
       "key": "url:4615586fa44617cff144dda6d40d8fb87f07ddf9312e3fc884c5aed718d05813",
       "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
-      "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
-      "summary": "Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the department's security protocols. While he [&#8230;]",
-      "display_title": "اخراج یک افسر پلیس شهر ساوانا به دلیل اشتراک‌گذاری دسترسی سامانه نظارتی باهمسر خود در اداره مهاجرت",
-      "display_summary": "یک افسر پلیس در شهر ساوانا (Savannah) آمریکا پس از تحقیقات داخلی به دلیل در اختیار گذاشتن اطلاعات ورود به سامانه پایش پلاک خودرو به همسرش که مامور اداره مهاجرت و گمرک (ICE) بود، از کار اخراج شد. همسر وی از این دسترسی غیرمجاز برای انجام صدها جستجو عمدتاً روی پلاک خودروی رانندگان لاتین‌تبار استفاده کرده بود.",
       "message": "<b>📰 اخراج یک افسر پلیس شهر ساوانا به دلیل اشتراک‌گذاری دسترسی سامانه نظارتی باهمسر خود در اداره مهاجرت</b>\n\nیک افسر پلیس در شهر ساوانا (Savannah) آمریکا پس از تحقیقات داخلی به دلیل در اختیار گذاشتن اطلاعات ورود به سامانه پایش پلاک خودرو به همسرش که مامور اداره مهاجرت و گمرک (ICE) بود، از کار اخراج شد. همسر وی از این دسترسی غیرمجاز برای انجام صدها جستجو عمدتاً روی پلاک خودروی رانندگان لاتین‌تبار استفاده کرده بود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>یک افسر پلیس شهر ساوانا (Savannah) در ایالت جورجیا آمریکا به نام «امبر هارپ (Amber Harpe)» پس از مشخص شدن تخلف امنیتی در به اشتراک‌گذاری حساب کاربری خود، از اداره پلیس ساوانا (SPD) اخراج شد. بر اساس گزارش‌های منتشرشده، تحقیقات داخلی نشان داد که وی اطلاعات ورود به سامانه نظارتی و پایش پلاک خودرو «فلاک (Flock)» را در اختیار همسر خود، «تایلر هارپ (Tyler Harpe)» که از ماموران اداره مهاجرت و گمرک ایالات متحده (ICE) است، قرار داده است. اداره پلیس ساوانا (SPD) اعلام کرد که داده‌های سامانه «فلاک (Flock)» را با اداره مهاجرت و گمرک (ICE) به اشتراک نمی‌گذارد و اقدام این افسر پلیس در واگذاری دسترسی به سیستم، نقض آشکار پروتکل‌های امنیتی وزارتخانه محسوب می‌شود. طبق اطلاعات ارائه‌شده توسط رسانه محلی وابسته به شبکه ABC یعنی شبکه WJCL، «تایلر هارپ (Tyler Harpe)» پس از ورود غیرمجاز به این سیستم، دست‌کم ۹۸۳ جستجو را در ارتباط با ۹۷ پلاک خودرو انجام داده است که بررسی‌ها نشان می‌دهد بیشتر این پلاک‌ها متعلق به رانندگان لاتین‌تبار بوده است. این زوج در دفاع از عملکرد خود مدعی شدند که از این دسترسی اهداف شخصی نداشته‌اند و جستجوهای انجام‌شده صرفاً با اهداف مرتبط با مجریان قانون صورت گرفته است. با این حال، مسئولان ارشد اداره پلیس واکنش‌های متفاوتی به این تخلف نشان دادند. در حالی که «مکس نوینسکی (Max Nowinsky)» به عنوان سرگرد موقت ابتدا پیشنهاد داده بود که تنها یک تعلیق هشت ساعته برای «امبر هارپ (Amber Harpe)» در نظر گرفته شود، اما «میشل هالفورد (Michelle Halford)» سرگرد پلیس و «رابرت گوین (Robert Gavin)» دستیار رئیس پلیس با این حکم مخالفت کردند. در نهایت، «امبر هارپ (Amber Harpe)» به همراه پنج کارمند دیگر اداره پلیس ساوانا (SPD) به دلیل سوءاستفاده از سامانه «فلاک (Flock)» از کار برکنار شدند. چهار نفر از این افراد بعداً بازداشت شدند، اما «امبر هارپ (Amber Harpe)» در میان افراد بازداشت‌شده حضور نداشت. این پرونده بار دیگر نگرانی‌های جدی را پیرامون امنیت دسترسی به داده‌های شهروندی و حریم خصوصی در سامانه‌های نظارتی پلیس آمریکا برانگیخته است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2265184860.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "pending",
+      "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
+      "summary": "Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the department's security protocols. While he [&#8230;]",
+      "display_title": "اخراج یک افسر پلیس شهر ساوانا به دلیل اشتراک‌گذاری دسترسی سامانه نظارتی باهمسر خود در اداره مهاجرت",
+      "display_summary": "یک افسر پلیس در شهر ساوانا (Savannah) آمریکا پس از تحقیقات داخلی به دلیل در اختیار گذاشتن اطلاعات ورود به سامانه پایش پلاک خودرو به همسرش که مامور اداره مهاجرت و گمرک (ICE) بود، از کار اخراج شد. همسر وی از این دسترسی غیرمجاز برای انجام صدها جستجو عمدتاً روی پلاک خودروی رانندگان لاتین‌تبار استفاده کرده بود."
+    },
+    {
+      "key": "url:2dba5216d961d0cf2930f9e27c776dad4da8543ca47dfd43c8a047c2fa65e955",
+      "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
+      "title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+      "summary": "Helion now has another $225 million to help speed development of its first fusion power plant, due to provide Microsoft with electricity in 2028.",
+      "display_title": "استارتاپ همجوشی هسته ای هلیون نیمه هادی های جدیدی را برای دو برابر کردن توان نیروگاه ها توسعه می دهد",
+      "display_summary": "استارتاپ انرژی همجوشی هلیون (Helion) توانسته است با جذب ۱۷۵ میلیون دلار بودجه فدرال و ۵۰ میلیون دلار سرمایه گذاری خصوصی، توسعه نیمه هادی های پیشرفته را برای افزایش کارایی و توان خروجی نیروگاه های خود کلید بزند. این فناوری جدید که خط تولید آن در ایالت واشنگتن راه اندازی می شود، نقش مهمی در تامین برق مورد نیاز مایکروسافت (Microsoft) تا سال ۲۰۲۸ میلادی خواهد داشت.",
+      "message": "<b>📰 استارتاپ همجوشی هسته ای هلیون نیمه هادی های جدیدی را برای دو برابر کردن توان نیروگاه ها توسعه می دهد</b>\n\nاستارتاپ انرژی همجوشی هلیون (Helion) توانسته است با جذب ۱۷۵ میلیون دلار بودجه فدرال و ۵۰ میلیون دلار سرمایه گذاری خصوصی، توسعه نیمه هادی های پیشرفته را برای افزایش کارایی و توان خروجی نیروگاه های خود کلید بزند. این فناوری جدید که خط تولید آن در ایالت واشنگتن راه اندازی می شود، نقش مهمی در تامین برق مورد نیاز مایکروسافت (Microsoft) تا سال ۲۰۲۸ میلادی خواهد داشت.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استارتاپ همجوشی هسته ای هلیون (Helion) برای توسعه و ساخت نیمه هادی های پیشرفته و الکترونیک قدرت جهت استفاده در نیروگاه های همجوشی خود، موفق به دریافت ۱۷۵ میلیون دلار بودجه فدرال شده است. این شرکت اعلام کرد که قطعات الکترونیکی فعلی معمولاً بین ۵ تا ۱۰ درصد از الکتریسیته عبوری را تلف می کنند و کاهش این اتلاف می تواند به طور چشمگیری توان خروجی سیستم های همجوشی را افزایش دهد. دیوید کیرتلی (David Kirtley)، هم بنیان گذار و مدیرعامل هلیون (Helion)، در این باره توضیح داد که اگر این اتلاف انرژی به نصف کاهش یابد، در واقع توان خروجی سیستم همجوشی دو برابر خواهد شد. شرکت هلیون (Helion) هم اکنون با سرعت در تلاش است تا نخستین نیروگاه خود به نام اوریون (Orion) را تا پیش از مهلت مقرر در سال ۲۰۲۸ میلادی تکمیل کند تا بتواند انرژی الکتریکی مورد نیاز شرکت مایکروسافت (Microsoft) را تامین نماید. بخشی از بودجه جدید برای ایجاد ظرفیت خودکارسازی ماژول های نیمه هادی، بسته بندی و آزمایش در ایالت واشنگتن هزینه خواهد شد. این خط تولید جدید به عنوان نخستین مرکز در ایالات متحده آمریکا شناخته می شود که رده ای از نیمه هادی های ولتاژ بالا و پالسی را تولید می کند که نه تنها در انرژی همجوشی، بلکه در صنایع تولیدی، تصفیه فاضلاب، پزشکی و صنایع دفاعی کاربرد دارند. این بودجه سه ساله توسط وزارت بازرگانی ایالات متحده آمریکا (Department of Commerce) و تحت قانون تراشه ها (CHIPS Act) اعطا شده است؛ قانونی که دولت پیشین آمریکا برای تقویت تحقیق، توسعه و ساخت تراشه در این کشور تدوین کرده بود. علاوه بر بودجه دولتی، هلیون (Helion) از جذب ۵۰ میلیون دلار سرمایه گذاری خصوصی دیگر نیز خبر داد، مجمعی که سرمایه گذار آن را فاش نکرد. با احتساب این موارد، مجموع سرمایه گذاری جذب شده توسط هلیون (Helion) از مرز ۳.۲ میلیارد دلار عبور کرده و این استارتاپ را به یکی از تامین مالی شده ترین شرکت های حوزه همجوشی تبدیل کرده است. بخش عمده ای از این بودجه، یعنی بیش از ۱۰۰ میلیون دلار، به تحقیق و توسعه نیمه هادی ها در ایالت واشنگتن اختصاص می یابد و حدود ۸۰ میلیون دلار نیز صرف همکاری با شرکت گلوبال فاندریز (GlobalFoundries) در ایالت ورمانت برای توسعه ابزار دقیق و طراحی نیمه هادی های نیترید گالیوم خواهد شد. بازدهی نیمه هادی ها یکی از ارکان اصلی رویکرد هلیون (Helion) در تبدیل مستقیم انرژی است که در آن الکتریسیته به جای تبخیر آب و چرخاندن توربین، مستقیماً از واکنش های همجوشی استخراج می شود. در پایان، دیوید کیرتلی (David Kirtley) تاکید کرد که تمرکز اصلی استارتاپ هلیون (Helion) همچنان بر تامین پایدار انرژی شبکه، امنیت ملی و استقلال انرژی ایالات متحده آمریکا متمرکز باقی مانده است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/Helion-Polaris-D-T.jpeg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:f790f518b7407f12127e8aed9e591f0942fe22ffb01c18b1909285242a68d89a",
+      "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+      "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+      "summary": "Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late August titled “The turbulent AI era is [&#8230;]",
+      "display_title": "بیل گیتس: برای دو دهه آشفتگی و اختلال ناشی از هوش مصنوعی آماده شوید",
+      "display_summary": "بیل گیتس، بنیان‌گذار مایکروسافت، در مصاحبه‌ای جدید هشدار داد که جهان باید خود را برای دو دهه آشفتگی عمیق ناشی از پیشرفت هوش مصنوعی آماده کند. او با تأکید بر خطرات جدی این فناوری در زمینه‌های امنیت سایبری و زیستی، نقش دولت‌ها را در اعمال استانداردهای ایمنی ضروری دانست.",
+      "message": "<b>📰 بیل گیتس: برای دو دهه آشفتگی و اختلال ناشی از هوش مصنوعی آماده شوید</b>\n\nبیل گیتس، بنیان‌گذار مایکروسافت، در مصاحبه‌ای جدید هشدار داد که جهان باید خود را برای دو دهه آشفتگی عمیق ناشی از پیشرفت هوش مصنوعی آماده کند. او با تأکید بر خطرات جدی این فناوری در زمینه‌های امنیت سایبری و زیستی، نقش دولت‌ها را در اعمال استانداردهای ایمنی ضروری دانست.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بیل گیتس (Bill Gates)، هم‌بنیان‌گذار و مدیرعامل پیشین شرکت مایکروسافت (Microsoft) و رئیس بنیاد گیتس (Gates Foundation)، در گفتگو با رسانه ورج (The Verge) هشدار داد که گذار به عصر هوش مصنوعی (AI) یکی از آشفته‌ترین دوران‌های تاریخ بشر خواهد بود و این روند ممکن است تا دو دهه به طول بینجامد. گیتس که در ماه‌های اخیر و پس از انتشار مقاله‌ای با عنوان «عصر توفانی هوش مصنوعی فرا رسیده است» سفرهای اطلاع‌رسانی متعددی داشته، بر این باور است که واکنش نهادهای سیاستی و خود صنعت فناوری به سرعتِ رشد این پدیده کافی نبوده است. وی پیش‌تر هوش مصنوعی را خطرناک‌ترین فناوری تاریخ بشریت خوانده و حتی تأثیرات بالقوه آن را فراتر از سلاح‌های هسته‌ای توصیف کرده است. بر اساس ارزیابی این چهره سرشناس فناوری، خطرات نزدیکِ هوش مصنوعی بیشتر مربوط به مدل‌هایی است که فاقد حفاظ‌های ایمنی هستند و می‌توانند توسط بازیگران مخرب برای انجام حملات سایبری گسترده یا تهدیدات زیستی مورد سوءاستفاده قرار گیرند. با این حال، او معتقد است که شرکت‌های پیشرو مانند انتروپیک (Anthropic)، اوپن‌ای‌آی (OpenAI) و دیپ‌مایند (DeepMind) با وجود نیات اولیه آرمان‌گرایانه خود، به دلیل فشارهای رقابتی بازار آزاد به تنهایی قادر به متوقف کردن این روند نیستند و مسئولیت نظارت و کنترل باید بر عهده دولت‌ها قرار گیرد. گیتس همچنین به چالش‌های ساختاری در کنترل هوش مصنوعی اشاره کرد و توضیح داد که جامعه انسانی باید خود را برای تأثیرات عمیق این فناوری بر بازار کار و روابط اجتماعی آماده کند. به گفته او، این دوره گذار ممکن است جامعه را به دو دسته تقسیم کند: کسانی که با زندگی در لبه پرتگاه فناوری راحت هستند و کسانی که آن را پس می‌زنند. در پایان، وی بر لزوم همکاری میان صنعت و دولت برای ایجاد سازوکارهای حفاظتی و نظارتی پیش از وقوع بحران‌های جبران‌ناپذیر تأکید کرد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268806_Bill_Gates_NQuamina-Woo_0007_a8ca1f.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
       "rubika_status": "pending"
     }
   ],
@@ -6291,27 +6324,192 @@
       ]
     },
     {
-      "item_id": "f49a97c29df9144c663675f125972936d2e5bdc0fc32f887feaa2d570438152a",
-      "title": "Tesla says it will start selling Cybercabs by end of year",
-      "url": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
-      "summary": "Tesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering wheel and other traditional controls. During the company&#8217;s third-quarter earnings call, Lars Moravy, vice president of engineering at Tesla, [&#8230;]",
+      "item_id": "e8e305eebc6c49bd9fbb5b20a52e33689f4be62bec58274ebe8b46d0bf982861",
+      "title": "Developer platform Railway urges ‘all users’ to revoke secret keys after cyberattack",
+      "url": "https://techcrunch.com/2026/10/22/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after-cyberattack/",
+      "summary": "The vibe-coding platform said all of its customers should revoke and rotate their private keys, after hackers were able to decrypt some customer secrets.",
       "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Cybercab_76.jpg?resize=1200,675",
-      "published_at": "2026-10-22T00:17:54+00:00",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/08/getty-keys-red-background-locks.jpg?resize=1200,800",
+      "published_at": "2026-10-22T14:03:00+00:00",
       "categories": [
-        "Transportation",
-        "cybercab",
-        "Tesla"
+        "Security",
+        "cybersecurity",
+        "data breach",
+        "hackers",
+        "railway",
+        "vibe coding"
       ]
     },
     {
-      "item_id": "ff9e2a38e15cc649be417a61b4552cff966d17a17af2de6e2cda139a026b4610",
-      "title": "Fortnite is back on Apple's Australian App Store following court ruling",
-      "url": "https://www.engadget.com/2293801/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/",
-      "summary": "Fortnite is back on the App Store in Australia after a federal court ordered Apple to open its iOS ecosystem up to competition.",
+      "item_id": "b68ee341f96953b478c5d5406a52ac3283be1b8e8fc862d117debb8cfae1fd38",
+      "title": "Nirva raises $33M for a pendant that only listens to you",
+      "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "summary": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-22T13:26:52+00:00",
+      "categories": [
+        "AI",
+        "Gadgets",
+        "Ambient AI",
+        "Lightspeed Venture Capital",
+        "South Park Commons",
+        "wearables"
+      ]
+    },
+    {
+      "item_id": "e243aa8ba7758c033c3f57f74f60f87d885b68280b9612deea22c4ec32bcdf7b",
+      "title": "Apple will label apps that are ‘Made for iPhone Duo’",
+      "url": "https://www.theverge.com/tech/1016526/apple-made-for-iphone-duo-badge-app-store",
+      "summary": "Apple is rolling out a new badge in the App Store to indicate whether an app is optimized for its new foldable. The new \"Made for iPhone Duo\" badge will appear across apps and games that work with the device's extra screen real estate. Though Apple doesn't include an image of what this badge might [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_0239.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-22T13:20:37+00:00",
+      "categories": [
+        "Apple",
+        "iPhone",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "10dc6b1a385077eb49740f1969e07c73a8e73344640c6155f48b0144e4fb85db",
+      "title": "The Atari VCS saga will come to an end next year when its software store closes",
+      "url": "https://www.theverge.com/tech/1016481/atari-vcs-console-shutting-down-software-store-2027",
+      "summary": "Following a decade long saga of delays, name changes, and Atari having to assure backers of a crowdfunding campaign that its retro console wasn't doomed, the Atari VCS platform is being retired early next year. On February 1st, 2027, the Atari VCS software store is shutting down, according to an announcement posted to the Atari [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/atarivcs.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-22T13:17:59+00:00",
+      "categories": [
+        "Gadgets",
+        "Gaming",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "c7df602b5cd2fbf8df4a561cc3acf3bec3590dea17f10939d3f687be99bbd4e8",
+      "title": "DeepSeek reportedly raises $15B days after US restrictions",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-22T13:11:13+00:00",
+      "categories": [
+        "AI",
+        "Fundraising",
+        "artificial intellignce",
+        "deepseek",
+        "Funding"
+      ]
+    },
+    {
+      "item_id": "1fa135fa9f3cb71d7c2e93f6f69c7ffb8e8aad550a340ca878e465d977e5acc5",
+      "title": "Insta360 launches a cheaper version of its wireless mics with color screens",
+      "url": "https://www.theverge.com/tech/1015371/insta360-mic-wireless-microphone-color-e-ink-screen",
+      "summary": "Following the launch of its wireless Mic Pro system last May featuring built-in color E Ink screens for custom branding and an array of three microphones to emulate different pickup patterns, Insta360 has announced a cheaper alternative that skips a few features many content creators might not miss. The new Insta360 Mic sits between the [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/insta360_1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "categories": [
+        "Audio",
+        "Gadgets",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "e8677b58e9169571215f811ee39af654227e18f10af72d007b3b90df285bcfd9",
+      "title": "Birdbuddy’s Nook is a compact smart bird feeder for small spaces and budgets",
+      "url": "https://www.theverge.com/tech/1015659/birdbuddy-smart-bird-feeder-2k-camera-home-nook-ai-identification",
+      "summary": "Birdbuddy is finally launching the new smart bird feeders it originally announced at CES 2026 earlier this year, but with new names. The Birdbuddy 2 Mini is now called the Birdbuddy Nook, and it is designed to be a smaller and more affordable option the company describes as its \"most accessible smart bird feeder yet.\" [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/birdbuddy1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "categories": [
+        "Gadgets",
+        "News",
+        "Smart Home",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "fea8013a3841e268e0fdf3be75c8b093374737ea64bd1144a1271249b70286ff",
+      "title": "Googlebooks just aren’t ready",
+      "url": "https://www.theverge.com/tech/1015749/googlebook-hp-acer-lenovo-dell-asus-collective-laptop-review",
+      "summary": "Every Googlebook laptop we've tested so far has great hardware. The problem is the software. While Googlebook OS has exciting ideas for how a laptop and phone can work together, right now it's mostly a frustrating experience filled with annoying bugs and lackluster app support. It often feels like using an Android tablet with a [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268755_Googlebooks_Lenovo_HP_Acer_laptop_review_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "categories": [
+        "Android",
+        "Gadgets",
+        "Google",
+        "Laptop Reviews",
+        "Laptops",
+        "Reviews",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "6e7a9cf2eeaa367adc9134bbed77cc1075df66fd5f32bb07bcaac16a0c1db029",
+      "title": "Birdbuddy’s budget feeder foiled my squirrels",
+      "url": "https://www.theverge.com/tech/1015791/birdbuddy-home-nook-smart-bird-feeder-hands-on",
+      "summary": "Birdbuddy's next-generation smart bird feeders have finally arrived. After spending a few days with the BirdBuddy Nook (from $99) and longer with the flagship Birdbuddy Home ($219), there's a clear winner: The Nook is the perfect all-rounder, just the right blend of technology, nature, and value to bring you delightful scenes from the lives of [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/LR6B6206-1.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "categories": [
+        "Hands-on",
+        "Reviews",
+        "Smart Home Reviews",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "0d6dea23b5fdf45472651b3f7c868f9e6024649b3da0c87a2b9ca42f7ff7604f",
+      "title": "Insta360 Mic review: A midrange mic kit that's anything but boring",
+      "url": "https://www.engadget.com/2292288/insta360-mic-review/",
+      "summary": "In an ocean of boring microphones, Insta360's Mic adds a (customizable) pop of color.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/l-intro-1792661568.jpg",
-      "published_at": "2026-10-22T08:18:58+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/insta360-mic-review-a-midrange-mic-kit-thats-anything-but-boring/l-intro-1792526511.jpg",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "categories": [
+        "Reviews"
+      ]
+    },
+    {
+      "item_id": "d60f3b07bb01db63eaec87e48beb27be5756f09840f0de1dfaed3bbbb9886396",
+      "title": "Roku's Pro Series LX OLED TVs are now available on Amazon",
+      "url": "https://www.engadget.com/2293840/roku-pro-series-lx-oled-tvs-at-amazon/",
+      "summary": "Roku has released its Pro Series LX OLED TVs, which are now available on Amazon in 55 and 65-inch variants.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/rokus-pro-series-lx-oled-tvs-are-now-available-on-amazon/l-intro-1792665032.jpg",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "0250dadefe1a054b141d87a6671b9a48e5714237dfb5f88f29637a11cf738ca9",
+      "title": "1Password will let you hand your data security over to your preferred AI agent",
+      "url": "https://www.engadget.com/2293844/1password-opens-up-ai-agents-muse-dots-grok/",
+      "summary": "If you're willing to let AI book or buy things on your behalf, 1Password just made that easier.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/1password-opens-up-ai-agents-muse-dots-grok/l-intro-1792677756.jpg",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "b9f7e07305a0768ba27e7941c0112fb18e577a19fb9c21cc0d5fc69295b6be03",
+      "title": "Insta360 adds expandable storage to its new e-ink wireless mics",
+      "url": "https://www.engadget.com/2283528/insta360-adds-expandable-storage-to-its-e-ink-wireless-mics/",
+      "summary": "Insta360 has a new wireless mic that combines some features of its existing 'pro' mics with a cheaper price.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/insta360-adds-expandable-storage-to-its-new-e-ink-wireless-mics/l-intro-1791804300.jpg",
+      "published_at": "2026-10-22T13:00:00+00:00",
       "categories": [
         "News"
       ]
