@@ -216,11 +216,33 @@ class StateStore:
                 or not record["url"].strip()
             ):
                 raise StateStoreError("pending_news contains an invalid record")
+        # Never evict a delivery that still needs a retry. Telegram-pending
+        # records and Telegram-sent/Rubika-pending records are operational state,
+        # not history. Only fully delivered records may be trimmed to MAX_OUTBOX.
+        retryable_indexes = {
+            index
+            for index, record in enumerate(outbox)
+            if record.get("status") != "sent" or record.get("rubika_status") == "pending"
+        }
+        completed_indexes = [
+            index
+            for index, record in enumerate(outbox)
+            if index not in retryable_indexes
+        ]
+        completed_slots = max(0, MAX_OUTBOX - len(retryable_indexes))
+        retained_indexes = retryable_indexes | set(
+            completed_indexes[-completed_slots:] if completed_slots else []
+        )
+        retained_outbox = [
+            record for index, record in enumerate(outbox)
+            if index in retained_indexes
+        ]
+
         data = {
             "schema_version": STATE_SCHEMA_VERSION,
             "seen": ordered[-MAX_SEEN:],
             "published_stories": list(records)[-MAX_PUBLISHED_STORIES:],
-            "outbox": list(outbox)[-MAX_OUTBOX:],
+            "outbox": retained_outbox,
             "pending_news": list(pending_news),
         }
         self._write(data)
