@@ -264,7 +264,7 @@ def publish_rich_message(html, image_url=""):
                 )
                 # Publisher API errors are sanitized; raw network exception
                 # strings may contain signed URLs, so never print those.
-                safe_upload_error = re.sub(r"https?://\\S+", "[redacted URL]", safe_upload_error)[:240]
+                safe_upload_error = re.sub(r"https?://\S+", "[redacted URL]", safe_upload_error)[:240]
                 raise TelegramAPIError(
                     f"Telegram rich message image URL fetch failed: {rich_error}; "
                     f"uploaded image retry failed: {safe_upload_error}",
