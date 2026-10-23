@@ -6,6 +6,7 @@ import requests
 
 import app.main as news_main
 from app import ai
+from app.telegram import TelegramDeliveryUnknown
 from app.collector import NewsItem
 
 
@@ -136,7 +137,7 @@ def test_read_timeout_is_treated_as_delivered_to_avoid_a_duplicate(monkeypatch):
     store = _store(outbox=outbox)
 
     def publish(message, image):
-        raise requests.exceptions.ReadTimeout("slow")
+        raise TelegramDeliveryUnknown("slow")
 
     _patch(monkeypatch, [item], lambda t, s, a: _tech(t, s), publish, store)
     news_main.main()
