@@ -7,6 +7,7 @@ import app.main as news_main
 from app.telegram import TelegramDeliveryUnknown
 
 import app.rubika as rubika
+import app.telegram as telegram
 import app.storage as storage
 from app.storage import StateStore
 
@@ -153,3 +154,53 @@ def test_rubika_upload_error_does_not_leak_signed_upload_url(monkeypatch):
 
     assert "private-secret" not in str(caught.value)
     assert signed_url not in str(caught.value)
+
+
+
+def test_telegram_retries_unfetchable_image_with_multipart_upload(monkeypatch):
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "test-token")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "@channel")
+    calls = []
+
+    def fake_post(token, method, payload, max_rate_limit_retries=2, files=None):
+        calls.append((method, payload, files))
+        if len(calls) == 1:
+            raise telegram.TelegramAPIError("Bad Request: failed to get HTTP URL content")
+        return {"ok": True, "result": {"message_id": 123}}
+
+    monkeypatch.setattr(telegram, "_post", fake_post)
+    monkeypatch.setattr(
+        telegram,
+        "_download_image_for_upload",
+        lambda url: (b"image-bytes", "image/jpeg", "hero.jpg"),
+    )
+
+    result = telegram.publish_rich_message("<b>خبر</b>", "https://images.example/story.jpg")
+
+    assert result["ok"] is True
+    assert len(calls) == 2
+    assert calls[1][0] == "sendRichMessage"
+    assert calls[1][2] == {"hero": ("hero.jpg", b"image-bytes", "image/jpeg")}
+    uploaded_payload = json.loads(calls[1][1]["rich_message"])
+    assert uploaded_payload["media"][0]["media"]["media"] == "attach://hero"
+
+
+def test_image_download_timeout_does_not_mark_telegram_delivery_unknown(monkeypatch):
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "test-token")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "@channel")
+
+    def fake_post(token, method, payload, max_rate_limit_retries=2, files=None):
+        raise telegram.TelegramAPIError("Bad Request: failed to get HTTP URL content")
+
+    monkeypatch.setattr(telegram, "_post", fake_post)
+    monkeypatch.setattr(
+        telegram,
+        "_download_image_for_upload",
+        lambda url: (_ for _ in ()).throw(requests.exceptions.ReadTimeout("image CDN timeout")),
+    )
+
+    with pytest.raises(telegram.TelegramAPIError) as caught:
+        telegram.publish_rich_message("<b>خبر</b>", "https://images.example/story.jpg")
+
+    assert not caught.value.delivery_unknown
+    assert not news_main._delivery_unknown(caught.value)
