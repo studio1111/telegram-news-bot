@@ -1,6 +1,10 @@
 import json
 
 import pytest
+import requests
+
+import app.main as news_main
+from app.telegram import TelegramDeliveryUnknown
 
 import app.rubika as rubika
 import app.storage as storage
@@ -81,3 +85,14 @@ def test_rubika_image_download_uses_validated_redirect_safe_fetch(monkeypatch):
 
     assert result == "uploaded-file"
     assert fetched == [("https://images.example/news.jpg", rubika.REQUEST_TIMEOUT)]
+
+
+
+def test_media_read_timeout_is_not_mistaken_for_telegram_delivery():
+    # Image downloads happen before the Telegram API call. Their read timeout
+    # must leave the outbox pending rather than falsely marking the story sent.
+    assert not news_main._delivery_unknown(requests.exceptions.ReadTimeout("image download timed out"))
+
+
+def test_telegram_api_read_timeout_is_treated_as_ambiguous_delivery():
+    assert news_main._delivery_unknown(TelegramDeliveryUnknown("Telegram response timed out"))
