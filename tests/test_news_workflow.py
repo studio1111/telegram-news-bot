@@ -6,6 +6,7 @@ def test_news_workflow_uses_five_minute_schedule_and_safe_state_push():
 
     assert 'cron: "*/5 * * * *"' in workflow
     assert "queue: max" in workflow
+    assert "--status completed" in workflow
     temporary_trigger = "# temporary-validation-trigger" in workflow
     if not temporary_trigger:
         assert "\n  push:" not in workflow
