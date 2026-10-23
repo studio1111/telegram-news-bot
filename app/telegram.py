@@ -54,6 +54,13 @@ def _post(token, method, payload, max_rate_limit_retries=2, files=None):
             raise TelegramDeliveryUnknown(
                 f"Telegram {method} response timed out; delivery status is unknown"
             ) from None
+        except requests.RequestException as exc:
+            status_code = getattr(getattr(exc, "response", None), "status_code", None)
+            status = f" (HTTP {status_code})" if status_code else ""
+            raise TelegramAPIError(
+                f"Telegram {method} request failed{status} ({type(exc).__name__})",
+                fallback_safe=False,
+            ) from None
         # Telegram answers 4xx with a JSON body ({"ok": false, ...}). Read the
         # body first; calling raise_for_status() first turned every rejection
         # into requests.HTTPError, which bypassed the fallback entirely.
@@ -65,9 +72,9 @@ def _post(token, method, payload, max_rate_limit_retries=2, files=None):
         if not isinstance(data, dict):
             try:
                 response.raise_for_status()
-            except requests.HTTPError as exc:
+            except requests.HTTPError:
                 raise TelegramAPIError(
-                    f"Telegram HTTP error in {method}: {exc}",
+                    f"Telegram HTTP error in {method} (HTTP {getattr(response, 'status_code', 'unknown')})",
                     fallback_safe=False,
                     delivery_unknown=getattr(response, "status_code", 0) >= 500,
                 ) from None
@@ -252,7 +259,7 @@ def publish_rich_message(html, image_url=""):
             except Exception as upload_error:
                 raise TelegramAPIError(
                     f"Telegram rich message image URL fetch failed: {rich_error}; "
-                    f"uploaded image retry failed: {upload_error}",
+                    f"uploaded image retry failed ({type(upload_error).__name__})",
                     fallback_safe=False,
                     delivery_unknown=(
                         isinstance(upload_error, TelegramDeliveryUnknown)
