@@ -79,11 +79,11 @@ def _truncate_rubika_text(text, limit=RUBIKA_TEXT_FALLBACK_LIMIT):
         body, _tail = text.split(RUBIKA_FOOTER, 1)
         body = body.rstrip()
         source_line = ""
-        if "\\n" in body:
-            head, last_line = body.rsplit("\\n", 1)
+        if "\n" in body:
+            head, last_line = body.rsplit("\n", 1)
             if last_line.startswith("📡"):
                 body, source_line = head.rstrip(), last_line
-        suffix = "\\n…\\n" + (source_line + "\\n" if source_line else "") + RUBIKA_FOOTER
+        suffix = "\n…\n" + (source_line + "\n" if source_line else "") + RUBIKA_FOOTER
         available = max(0, limit - len(suffix))
         return body[:available].rstrip() + suffix
     return text[: limit - 1].rstrip() + "…"
