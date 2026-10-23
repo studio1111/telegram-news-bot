@@ -11,6 +11,8 @@ from .collector import _safe_get
 API_BASE = "https://botapi.rubika.ir/v3"
 REQUEST_TIMEOUT = 30
 MAX_IMAGE_BYTES = 12 * 1024 * 1024
+RUBIKA_TEXT_FALLBACK_LIMIT = 1800
+RUBIKA_FOOTER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
 
 
 def rubika_enabled():
@@ -67,6 +69,25 @@ def _api(token, method, payload=None):
         detail = body.get("description", "unknown error")
         raise RuntimeError(f"Rubika {method} failed: {str(detail)[:240]}")
     return body
+
+
+def _truncate_rubika_text(text, limit=RUBIKA_TEXT_FALLBACK_LIMIT):
+    """Keep a rejected long text fallback within a conservative API-safe size."""
+    if len(text) <= limit:
+        return text
+    if RUBIKA_FOOTER in text:
+        body, _tail = text.split(RUBIKA_FOOTER, 1)
+        body = body.rstrip()
+        source_line = ""
+        if "\\n" in body:
+            head, last_line = body.rsplit("\\n", 1)
+            if last_line.startswith("📡"):
+                body, source_line = head.rstrip(), last_line
+        suffix = "\\n…\\n" + (source_line + "\\n" if source_line else "") + RUBIKA_FOOTER
+        available = max(0, limit - len(suffix))
+        return body[:available].rstrip() + suffix
+    return text[: limit - 1].rstrip() + "…"
+
 
 def _data(body):
     value = body.get("data", body)
@@ -152,7 +173,22 @@ def publish_rubika_message(message, image_url=""):
         if "INVALID_INPUT" not in str(exc).upper():
             raise
         print("[RUBIKA_MEDIA_REJECTED] sendFile returned INVALID_INPUT; trying sendMessage text fallback")
-        result = _api(token, "sendMessage", {"chat_id": chat_id, "text": text})
+        try:
+            result = _api(token, "sendMessage", {"chat_id": chat_id, "text": text})
+        except RuntimeError as text_error:
+            # INVALID_INPUT is also returned for overlong text by some Rubika
+            # clients. Retry only after a definite rejection, never after a timeout.
+            if "INVALID_INPUT" not in str(text_error).upper() or len(text) <= RUBIKA_TEXT_FALLBACK_LIMIT:
+                raise
+            print(
+                f"[RUBIKA_TEXT_TRUNCATION_FALLBACK] rejected_text_chars={len(text)} "
+                f"retry_chars<={RUBIKA_TEXT_FALLBACK_LIMIT}"
+            )
+            result = _api(
+                token,
+                "sendMessage",
+                {"chat_id": chat_id, "text": _truncate_rubika_text(text)},
+            )
         if isinstance(result, dict):
             result = dict(result)
             result["_delivery_mode"] = "text_fallback"
