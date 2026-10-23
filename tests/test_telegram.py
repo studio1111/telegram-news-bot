@@ -84,3 +84,71 @@ def test_server_error_does_not_trigger_plain_fallback(monkeypatch):
     with pytest.raises(telegram.TelegramAPIError):
         telegram.publish_rich_message("<b>تیتر</b>", "")
     assert len(calls) == 1
+
+
+def test_rich_message_uploads_image_when_telegram_cannot_fetch_url(monkeypatch):
+    import json
+
+    calls = []
+
+    class APIResponse:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def json(self):
+            return self.payload
+
+        def raise_for_status(self):
+            pass
+
+    class ImageResponse:
+        headers = {"Content-Type": "image/jpeg", "Content-Length": "6"}
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            return False
+
+        def raise_for_status(self):
+            pass
+
+        def iter_content(self, chunk_size):
+            assert chunk_size == 64 * 1024
+            yield b"\xff\xd8\xffimg"
+
+    def fake_get(url, **kwargs):
+        assert url == "https://example.com/hero.jpg"
+        assert kwargs["stream"] is True
+        return ImageResponse()
+
+    def fake_post(url, **kwargs):
+        calls.append((url, kwargs))
+        if url.endswith("/sendRichMessage") and "json" in kwargs:
+            return APIResponse({
+                "ok": False,
+                "error_code": 400,
+                "description": "Bad Request: failed to get HTTP URL content",
+            })
+        assert url.endswith("/sendRichMessage")
+        rich_message = json.loads(kwargs["data"]["rich_message"])
+        assert rich_message["media"][0]["media"]["media"] == "attach://hero"
+        filename, image_bytes, content_type = kwargs["files"]["hero"]
+        assert filename == "hero.jpg"
+        assert image_bytes == b"\xff\xd8\xffimg"
+        assert content_type == "image/jpeg"
+        return APIResponse({"ok": True, "result": {"message_id": 123}})
+
+    monkeypatch.setattr(telegram.requests, "get", fake_get)
+    monkeypatch.setattr(telegram.requests, "post", fake_post)
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "test-token")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "@channel")
+
+    result = telegram.publish_rich_message(
+        "<b>عنوان خبر</b><p>متن خبر</p>",
+        "https://example.com/hero.jpg",
+    )
+
+    assert result["ok"] is True
+    assert len(calls) == 2
+
