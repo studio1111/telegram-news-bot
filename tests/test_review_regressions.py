@@ -1,0 +1,83 @@
+import json
+
+import pytest
+
+import app.rubika as rubika
+import app.storage as storage
+from app.storage import StateStore
+
+
+def test_outbox_retains_all_retryable_deliveries_over_limit(tmp_path, monkeypatch):
+    monkeypatch.setattr(storage, "MAX_OUTBOX", 2)
+    store = StateStore(tmp_path / "state.json")
+    outbox = [
+        {"key": "pending-1", "message": "one", "status": "pending"},
+        {"key": "pending-2", "message": "two", "status": "pending"},
+        {"key": "rubika-pending", "message": "three", "status": "sent", "rubika_status": "pending"},
+        {"key": "completed", "message": "four", "status": "sent", "rubika_status": "sent"},
+    ]
+
+    store.save(set(), [], outbox)
+
+    saved = store.load_outbox()
+    assert {record["key"] for record in saved} == {
+        "pending-1",
+        "pending-2",
+        "rubika-pending",
+    }
+
+
+def test_outbox_caps_only_fully_delivered_history(tmp_path, monkeypatch):
+    monkeypatch.setattr(storage, "MAX_OUTBOX", 2)
+    store = StateStore(tmp_path / "state.json")
+    outbox = [
+        {"key": "old", "message": "old", "status": "sent", "rubika_status": "sent"},
+        {"key": "newer", "message": "newer", "status": "sent", "rubika_status": "sent"},
+        {"key": "newest", "message": "newest", "status": "sent", "rubika_status": "sent"},
+    ]
+
+    store.save(set(), [], outbox)
+
+    assert [record["key"] for record in store.load_outbox()] == ["newer", "newest"]
+
+
+class _ImageResponse:
+    status_code = 200
+    headers = {"Content-Type": "image/jpeg"}
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *args):
+        return False
+
+    def raise_for_status(self):
+        return None
+
+    def iter_content(self, chunk_size):
+        yield b"image-bytes"
+
+
+class _UploadResponse:
+    def raise_for_status(self):
+        return None
+
+    def json(self):
+        return {"file_id": "uploaded-file"}
+
+
+def test_rubika_image_download_uses_validated_redirect_safe_fetch(monkeypatch):
+    fetched = []
+    monkeypatch.setattr(rubika, "_safe_get", lambda url, timeout: (fetched.append((url, timeout)) or _ImageResponse()))
+    monkeypatch.setattr(rubika, "_api", lambda *args, **kwargs: {"data": {"upload_url": "https://upload.example/upload"}})
+    monkeypatch.setattr(rubika.requests, "post", lambda *args, **kwargs: _UploadResponse())
+    monkeypatch.setattr(
+        rubika.requests,
+        "get",
+        lambda *args, **kwargs: (_ for _ in ()).throw(AssertionError("unsafe requests.get must not be used")),
+    )
+
+    result = rubika._upload_image("token", "https://images.example/news.jpg")
+
+    assert result == "uploaded-file"
+    assert fetched == [("https://images.example/news.jpg", rubika.REQUEST_TIMEOUT)]
