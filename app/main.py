@@ -115,7 +115,7 @@ def _story_record(item, processed=None):
 
 def _image_candidate_score(item):
     # All three configured sources have equal source priority.
-    # Prefer an available image, then the earliest publication.
+    # Prefer an available image, then the newest publication.
     return (bool(item.image_url), _published_key(item))
 
 
