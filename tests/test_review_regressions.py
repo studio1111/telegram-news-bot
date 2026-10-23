@@ -232,3 +232,29 @@ def test_rubika_retries_invalid_input_with_shorter_text(monkeypatch):
     assert len(send_message_calls[1]) <= 1800
     assert send_message_calls[1].endswith("📡 منبع: TechCrunch\nآخرین اخبار تکنولوژی | @MyNewsTechnology")
     assert result["_delivery_mode"] == "text_fallback"
+
+
+
+def test_telegram_image_fallback_error_keeps_safe_api_reason(monkeypatch):
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "test-token")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "@channel")
+    calls = []
+
+    def fake_post(token, method, payload, max_rate_limit_retries=2, files=None):
+        calls.append(method)
+        if len(calls) == 1:
+            raise telegram.TelegramAPIError("Bad Request: failed to get HTTP URL content")
+        raise telegram.TelegramAPIError("Bad Request: uploaded media reference is invalid")
+
+    monkeypatch.setattr(telegram, "_post", fake_post)
+    monkeypatch.setattr(
+        telegram,
+        "_download_image_for_upload",
+        lambda url: (b"image-bytes", "image/jpeg", "hero.jpg"),
+    )
+
+    with pytest.raises(telegram.TelegramAPIError) as caught:
+        telegram.publish_rich_message("<b>خبر</b>", "https://images.example/story.jpg")
+
+    assert "uploaded media reference is invalid" in str(caught.value)
+    assert "test-token" not in str(caught.value)
