@@ -91,6 +91,13 @@ class StateStore:
                 "image_url": record.get("image_url", "") if isinstance(record.get("image_url", ""), str) else "",
                 "status": status,
             }
+            # Rubika delivery is independent of Telegram delivery. Dropping this
+            # field on load would silently lose retry state after Telegram succeeds.
+            rubika_status = record.get("rubika_status")
+            if rubika_status is not None:
+                if not isinstance(rubika_status, str) or rubika_status not in {"pending", "sent", "disabled"}:
+                    raise StateStoreError("state outbox Rubika status is invalid")
+                migrated_outbox["rubika_status"] = rubika_status
             for field in ("title", "summary", "display_title", "display_summary"):
                 if isinstance(record.get(field, ""), str) and record.get(field, "").strip():
                     migrated_outbox[field] = record[field].strip()
@@ -156,6 +163,7 @@ class StateStore:
             data.get("schema_version") != STATE_SCHEMA_VERSION
             or dropped_empty_url_records
             or rendered_enriched
+            or raw_outbox != outbox
             or raw_pending_news != migrated_pending_news
         )
         return {
@@ -216,11 +224,33 @@ class StateStore:
                 or not record["url"].strip()
             ):
                 raise StateStoreError("pending_news contains an invalid record")
+        # Never evict a delivery that still needs a retry. Telegram-pending
+        # records and Telegram-sent/Rubika-pending records are operational state,
+        # not history. Only fully delivered records may be trimmed to MAX_OUTBOX.
+        retryable_indexes = {
+            index
+            for index, record in enumerate(outbox)
+            if record.get("status") != "sent" or record.get("rubika_status") == "pending"
+        }
+        completed_indexes = [
+            index
+            for index, record in enumerate(outbox)
+            if index not in retryable_indexes
+        ]
+        completed_slots = max(0, MAX_OUTBOX - len(retryable_indexes))
+        retained_indexes = retryable_indexes | set(
+            completed_indexes[-completed_slots:] if completed_slots else []
+        )
+        retained_outbox = [
+            record for index, record in enumerate(outbox)
+            if index in retained_indexes
+        ]
+
         data = {
             "schema_version": STATE_SCHEMA_VERSION,
             "seen": ordered[-MAX_SEEN:],
             "published_stories": list(records)[-MAX_PUBLISHED_STORIES:],
-            "outbox": list(outbox)[-MAX_OUTBOX:],
+            "outbox": retained_outbox,
             "pending_news": list(pending_news),
         }
         self._write(data)

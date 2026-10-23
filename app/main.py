@@ -13,7 +13,7 @@ from .semantic_dedup import find_semantic_relations
 from .collector import NewsItem, collect_feed, fetch_article_image_url, fetch_article_published_at, fetch_article_text, validate_image_url
 from .core import MAX_BACKLOG_AGE_HOURS, NEWS_WINDOW_MINUTES, build_rich_message_html, is_advertisement, is_allowed_news_source, is_backlog_eligible_news, is_duplicate_story, is_new_item, is_recent_news
 from .storage import MAX_PUBLISHED_STORIES, StateStore, StateStoreError
-from .telegram import publish_rich_message
+from .telegram import TelegramAPIError, TelegramDeliveryUnknown, publish_rich_message
 from .rubika import publish_rubika_message, rubika_enabled
 
 
@@ -115,19 +115,21 @@ def _story_record(item, processed=None):
 
 def _image_candidate_score(item):
     # All three configured sources have equal source priority.
-    # Prefer an available image, then the earliest publication.
+    # Prefer an available image, then the newest publication.
     return (bool(item.image_url), _published_key(item))
 
 
 
 def _delivery_unknown(exc):
-    """A read timeout means Telegram may already have delivered the message.
+    """Return true only when a Telegram API request may have been accepted.
 
-    Retrying it would post the story twice, so it is treated as delivered.
-    Connection errors and API rejections are NOT ambiguous and stay retryable.
+    Raw read timeouts from image download or other pre-send work are not proof
+    of delivery and must remain retryable. The publisher tags ambiguous API
+    responses explicitly so their origin cannot be confused with media errors.
     """
-    timeout = requests.exceptions.ReadTimeout
-    return isinstance(exc, timeout) or isinstance(exc.__cause__, timeout)
+    if isinstance(exc, TelegramDeliveryUnknown):
+        return True
+    return isinstance(exc, TelegramAPIError) and exc.delivery_unknown
 
 
 def _prioritize_duplicate_candidates(candidates):

@@ -6,6 +6,8 @@ from urllib.parse import urlparse
 
 import requests
 
+from .collector import _safe_get
+
 API_BASE = "https://botapi.rubika.ir/v3"
 REQUEST_TIMEOUT = 30
 MAX_IMAGE_BYTES = 12 * 1024 * 1024
@@ -75,20 +77,23 @@ def _upload_image(token, image_url):
     parsed = urlparse(image_url)
     if parsed.scheme != "https" or not parsed.netloc:
         raise RuntimeError("Rubika image URL must be HTTPS")
-    with requests.get(image_url, stream=True, timeout=REQUEST_TIMEOUT) as response:
-        response.raise_for_status()
-        content_type = response.headers.get("Content-Type", "").split(";", 1)[0].lower()
-        if not content_type.startswith("image/"):
-            raise RuntimeError("News image URL did not return an image")
-        chunks = []
-        total = 0
-        for chunk in response.iter_content(chunk_size=64 * 1024):
-            if not chunk:
-                continue
-            total += len(chunk)
-            if total > MAX_IMAGE_BYTES:
-                raise RuntimeError("News image exceeds Rubika upload limit")
-            chunks.append(chunk)
+    try:
+        with _safe_get(image_url, timeout=REQUEST_TIMEOUT) as response:
+            response.raise_for_status()
+            content_type = response.headers.get("Content-Type", "").split(";", 1)[0].lower()
+            if not content_type.startswith("image/"):
+                raise RuntimeError("News image URL did not return an image")
+            chunks = []
+            total = 0
+            for chunk in response.iter_content(chunk_size=64 * 1024):
+                if not chunk:
+                    continue
+                total += len(chunk)
+                if total > MAX_IMAGE_BYTES:
+                    raise RuntimeError("News image exceeds Rubika upload limit")
+                chunks.append(chunk)
+    except requests.RequestException as exc:
+        raise RuntimeError(f"Rubika image download failed ({type(exc).__name__})") from None
     image_bytes = b"".join(chunks)
     if not image_bytes:
         raise RuntimeError("News image download was empty")
@@ -98,12 +103,19 @@ def _upload_image(token, image_url):
     if not isinstance(upload_url, str) or not upload_url.startswith("https://"):
         raise RuntimeError("Rubika did not provide a valid upload URL")
     filename = os.path.basename(parsed.path) or "news-image.jpg"
-    upload_response = requests.post(
-        upload_url,
-        files={"file": (filename, image_bytes, content_type)},
-        timeout=REQUEST_TIMEOUT,
-    )
-    upload_response.raise_for_status()
+    try:
+        upload_response = requests.post(
+            upload_url,
+            files={"file": (filename, image_bytes, content_type)},
+            timeout=REQUEST_TIMEOUT,
+        )
+        upload_response.raise_for_status()
+    except requests.RequestException as exc:
+        status_code = getattr(getattr(exc, "response", None), "status_code", None)
+        status = f" (HTTP {status_code})" if status_code else ""
+        raise RuntimeError(
+            f"Rubika image upload request failed{status} ({type(exc).__name__})"
+        ) from None
     try:
         uploaded = upload_response.json()
     except ValueError:
