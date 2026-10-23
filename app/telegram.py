@@ -257,9 +257,17 @@ def publish_rich_message(html, image_url=""):
                     files={"hero": (filename, image_bytes, content_type)},
                 )
             except Exception as upload_error:
+                safe_upload_error = (
+                    str(upload_error)
+                    if isinstance(upload_error, (TelegramAPIError, TelegramDeliveryUnknown))
+                    else type(upload_error).__name__
+                )
+                # Publisher API errors are sanitized; raw network exception
+                # strings may contain signed URLs, so never print those.
+                safe_upload_error = re.sub(r"https?://\\S+", "[redacted URL]", safe_upload_error)[:240]
                 raise TelegramAPIError(
                     f"Telegram rich message image URL fetch failed: {rich_error}; "
-                    f"uploaded image retry failed ({type(upload_error).__name__})",
+                    f"uploaded image retry failed: {safe_upload_error}",
                     fallback_safe=False,
                     delivery_unknown=(
                         isinstance(upload_error, TelegramDeliveryUnknown)
