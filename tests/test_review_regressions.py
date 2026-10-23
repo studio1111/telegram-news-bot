@@ -113,3 +113,43 @@ def test_state_migration_preserves_pending_rubika_delivery_status(tmp_path):
     store.save(set(), [], [pending_rubika])
 
     assert store.load_outbox()[0]["rubika_status"] == "pending"
+
+
+
+def test_telegram_transport_error_does_not_leak_bot_token(monkeypatch):
+    from app import telegram
+
+    token = "super-secret-bot-token"
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", token)
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "@channel")
+    monkeypatch.setattr(
+        telegram.requests,
+        "post",
+        lambda *args, **kwargs: (_ for _ in ()).throw(
+            requests.exceptions.ConnectionError(f"failed https://api.telegram.org/bot{token}/sendRichMessage")
+        ),
+    )
+
+    with pytest.raises(telegram.TelegramAPIError) as caught:
+        telegram._post(token, "sendRichMessage", {"chat_id": "@channel"})
+
+    assert token not in str(caught.value)
+
+
+def test_rubika_upload_error_does_not_leak_signed_upload_url(monkeypatch):
+    signed_url = "https://upload.example/upload?signature=private-secret"
+    monkeypatch.setattr(rubika, "_safe_get", lambda url, timeout: _ImageResponse())
+    monkeypatch.setattr(rubika, "_api", lambda *args, **kwargs: {"data": {"upload_url": signed_url}})
+    monkeypatch.setattr(
+        rubika.requests,
+        "post",
+        lambda *args, **kwargs: (_ for _ in ()).throw(
+            requests.exceptions.ConnectionError(f"failed {signed_url}")
+        ),
+    )
+
+    with pytest.raises(RuntimeError) as caught:
+        rubika._upload_image("token", "https://images.example/news.jpg")
+
+    assert "private-secret" not in str(caught.value)
+    assert signed_url not in str(caught.value)
