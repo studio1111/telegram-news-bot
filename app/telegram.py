@@ -14,7 +14,7 @@ TELEGRAM_MESSAGE_LIMIT = 4096
 FOOTER_MARKER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
 
 
-class TelegramDeliveryUnknown(RuntimeError):
+class TelegramDeliveryUnknown(requests.exceptions.ReadTimeout):
     """The Telegram API request may have been accepted, but no response was confirmed."""
 
 
