@@ -6,6 +6,8 @@ from urllib.parse import urlparse
 
 import requests
 
+from .collector import _safe_get
+
 API_BASE = "https://botapi.rubika.ir/v3"
 REQUEST_TIMEOUT = 30
 MAX_IMAGE_BYTES = 12 * 1024 * 1024
@@ -75,7 +77,7 @@ def _upload_image(token, image_url):
     parsed = urlparse(image_url)
     if parsed.scheme != "https" or not parsed.netloc:
         raise RuntimeError("Rubika image URL must be HTTPS")
-    with requests.get(image_url, stream=True, timeout=REQUEST_TIMEOUT) as response:
+    with _safe_get(image_url, timeout=REQUEST_TIMEOUT) as response:
         response.raise_for_status()
         content_type = response.headers.get("Content-Type", "").split(";", 1)[0].lower()
         if not content_type.startswith("image/"):
