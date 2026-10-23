@@ -14,12 +14,17 @@ TELEGRAM_MESSAGE_LIMIT = 4096
 FOOTER_MARKER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
 
 
+class TelegramDeliveryUnknown(RuntimeError):
+    """The Telegram API request may have been accepted, but no response was confirmed."""
+
+
 class TelegramAPIError(RuntimeError):
     """Telegram request failed; fallback is safe only for explicit client rejection."""
 
-    def __init__(self, message, *, fallback_safe=False):
+    def __init__(self, message, *, fallback_safe=False, delivery_unknown=False):
         super().__init__(message)
         self.fallback_safe = fallback_safe
+        self.delivery_unknown = delivery_unknown
 
 
 def _credentials():
@@ -38,10 +43,17 @@ def _post(token, method, payload, max_rate_limit_retries=2, files=None):
         else:
             request_options["data"] = payload
             request_options["files"] = files
-        response = requests.post(
-            f"https://api.telegram.org/bot{token}/{method}",
-            **request_options,
-        )
+        try:
+            response = requests.post(
+                f"https://api.telegram.org/bot{token}/{method}",
+                **request_options,
+            )
+        except requests.exceptions.ReadTimeout:
+            # This exception is raised only around a Telegram API request.
+            # Image-download timeouts happen elsewhere and must remain retryable.
+            raise TelegramDeliveryUnknown(
+                f"Telegram {method} response timed out; delivery status is unknown"
+            ) from None
         # Telegram answers 4xx with a JSON body ({"ok": false, ...}). Read the
         # body first; calling raise_for_status() first turned every rejection
         # into requests.HTTPError, which bypassed the fallback entirely.
@@ -54,8 +66,16 @@ def _post(token, method, payload, max_rate_limit_retries=2, files=None):
             try:
                 response.raise_for_status()
             except requests.HTTPError as exc:
-                raise TelegramAPIError(f"Telegram HTTP error in {method}: {exc}", fallback_safe=False) from exc
-            raise TelegramAPIError(f"Telegram returned a non-JSON response in {method}", fallback_safe=False)
+                raise TelegramAPIError(
+                    f"Telegram HTTP error in {method}: {exc}",
+                    fallback_safe=False,
+                    delivery_unknown=getattr(response, "status_code", 0) >= 500,
+                ) from None
+            raise TelegramAPIError(
+                f"Telegram returned a non-JSON response in {method}",
+                fallback_safe=False,
+                delivery_unknown=True,
+            )
 
         if data.get("ok"):
             return data
@@ -67,7 +87,11 @@ def _post(token, method, payload, max_rate_limit_retries=2, files=None):
 
         error_code = data.get("error_code")
         fallback_safe = method == "sendRichMessage" and isinstance(error_code, int) and 400 <= error_code < 500 and error_code != 429
-        raise TelegramAPIError(data.get("description") or f"Telegram API error in {method}", fallback_safe=fallback_safe)
+        raise TelegramAPIError(
+            data.get("description") or f"Telegram API error in {method}",
+            fallback_safe=fallback_safe,
+            delivery_unknown=isinstance(error_code, int) and error_code >= 500,
+        )
 
     raise TelegramAPIError(f"Telegram rate limit persisted in {method}", fallback_safe=False)
 
@@ -230,7 +254,11 @@ def publish_rich_message(html, image_url=""):
                     f"Telegram rich message image URL fetch failed: {rich_error}; "
                     f"uploaded image retry failed: {upload_error}",
                     fallback_safe=False,
-                ) from upload_error
+                    delivery_unknown=(
+                        isinstance(upload_error, TelegramDeliveryUnknown)
+                        or getattr(upload_error, "delivery_unknown", False)
+                    ),
+                ) from None
         if not rich_error.fallback_safe:
             raise
         plain = _rich_html_to_plain_text(html)
@@ -247,8 +275,17 @@ def publish_rich_message(html, image_url=""):
                     "disable_web_page_preview": True,
                 },
             )
+        except TelegramDeliveryUnknown:
+            raise
+        except TelegramAPIError as fallback_error:
+            if fallback_error.delivery_unknown:
+                raise
+            raise RuntimeError(
+                f"Telegram rich message failed: {rich_error}; "
+                f"plain message fallback failed: {fallback_error}"
+            ) from None
         except Exception as fallback_error:
             raise RuntimeError(
                 f"Telegram rich message failed: {rich_error}; "
                 f"plain message fallback failed: {fallback_error}"
-            ) from fallback_error
+            ) from None
