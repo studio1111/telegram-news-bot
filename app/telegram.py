@@ -1,4 +1,6 @@
 import html as html_lib
+import json
+import mimetypes
 import os
 import re
 import time
@@ -26,12 +28,17 @@ def _credentials():
     return token, chat_id
 
 
-def _post(token, method, payload, max_rate_limit_retries=2):
+def _post(token, method, payload, max_rate_limit_retries=2, files=None):
     for attempt in range(max_rate_limit_retries + 1):
+        request_options = {"timeout": 30}
+        if files is None:
+            request_options["json"] = payload
+        else:
+            request_options["data"] = payload
+            request_options["files"] = files
         response = requests.post(
             f"https://api.telegram.org/bot{token}/{method}",
-            json=payload,
-            timeout=30,
+            **request_options,
         )
         # Telegram answers 4xx with a JSON body ({"ok": false, ...}). Read the
         # body first; calling raise_for_status() first turned every rejection
@@ -61,6 +68,50 @@ def _post(token, method, payload, max_rate_limit_retries=2):
         raise TelegramAPIError(data.get("description") or f"Telegram API error in {method}", fallback_safe=fallback_safe)
 
     raise TelegramAPIError(f"Telegram rate limit persisted in {method}", fallback_safe=False)
+
+
+MAX_IMAGE_UPLOAD_BYTES = 10 * 1024 * 1024
+
+
+def _download_image_for_upload(image_url):
+    """Download a validated source image so Telegram need not fetch its URL."""
+    with requests.get(
+        image_url,
+        stream=True,
+        timeout=(10, 20),
+        headers={"User-Agent": "Mozilla/5.0 (compatible; TechnologyNewsBot/1.0)"},
+    ) as response:
+        response.raise_for_status()
+        content_type = response.headers.get("Content-Type", "").split(";", 1)[0].strip().lower()
+        if not content_type.startswith("image/") or content_type == "image/svg+xml":
+            raise ValueError(f"Source did not return a supported raster image ({content_type or 'unknown content type'})")
+
+        content_length = response.headers.get("Content-Length")
+        if content_length:
+            try:
+                if int(content_length) > MAX_IMAGE_UPLOAD_BYTES:
+                    raise ValueError("Source image exceeds Telegram's 10 MB upload limit")
+            except ValueError as exc:
+                if str(exc) == "Source image exceeds Telegram's 10 MB upload limit":
+                    raise
+
+        chunks = []
+        total = 0
+        for chunk in response.iter_content(chunk_size=64 * 1024):
+            if not chunk:
+                continue
+            total += len(chunk)
+            if total > MAX_IMAGE_UPLOAD_BYTES:
+                raise ValueError("Source image exceeds Telegram's 10 MB upload limit")
+            chunks.append(chunk)
+        image_bytes = b"".join(chunks)
+
+    if not image_bytes:
+        raise ValueError("Source image is empty")
+    extension = mimetypes.guess_extension(content_type) or ".jpg"
+    if extension == ".jpe":
+        extension = ".jpg"
+    return image_bytes, content_type, "hero" + extension
 
 
 def _rich_html_to_plain_text(value: str) -> str:
@@ -156,10 +207,33 @@ def publish_rich_message(html, image_url=""):
     try:
         return _post(token, "sendRichMessage", payload)
     except TelegramAPIError as rich_error:
-        # A news post is required to contain its verified image. Never degrade
-        # an image-bearing post into a text-only message, otherwise the channel
-        # would violate the publication contract while marking the story sent.
-        if image_url or not rich_error.fallback_safe:
+        # Keep the image-required publication contract, but do not let Telegram's
+        # inability to fetch a publisher CDN URL permanently block a valid story.
+        if image_url:
+            if "failed to get http url content" not in str(rich_error).lower():
+                raise
+            try:
+                image_bytes, content_type, filename = _download_image_for_upload(image_url)
+                rich_message = payload["rich_message"]
+                rich_message["media"][0]["media"]["media"] = "attach://hero"
+                multipart_payload = {
+                    "chat_id": chat_id,
+                    "rich_message": json.dumps(rich_message, ensure_ascii=False),
+                }
+                print("[TELEGRAM_IMAGE_UPLOAD_FALLBACK] Telegram could not fetch source image URL; retrying with multipart upload")
+                return _post(
+                    token,
+                    "sendRichMessage",
+                    multipart_payload,
+                    files={"hero": (filename, image_bytes, content_type)},
+                )
+            except Exception as upload_error:
+                raise TelegramAPIError(
+                    f"Telegram rich message image URL fetch failed: {rich_error}; "
+                    f"uploaded image retry failed: {upload_error}",
+                    fallback_safe=False,
+                ) from upload_error
+        if not rich_error.fallback_safe:
             raise
         plain = _rich_html_to_plain_text(html)
         if not plain:
