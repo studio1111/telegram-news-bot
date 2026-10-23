@@ -7,6 +7,8 @@ import time
 
 import requests
 
+from .collector import _safe_get
+
 
 TELEGRAM_MESSAGE_LIMIT = 4096
 FOOTER_MARKER = "آخرین اخبار تکنولوژی | @MyNewsTechnology"
@@ -75,25 +77,21 @@ MAX_IMAGE_UPLOAD_BYTES = 10 * 1024 * 1024
 
 def _download_image_for_upload(image_url):
     """Download a validated source image so Telegram need not fetch its URL."""
-    with requests.get(
-        image_url,
-        stream=True,
-        timeout=(10, 20),
-        headers={"User-Agent": "Mozilla/5.0 (compatible; TechnologyNewsBot/1.0)"},
-    ) as response:
+    # Use the collector's URL validator and manually validated redirect handling.
+    # Do not follow publisher redirects blindly when downloading a media URL.
+    with _safe_get(image_url, timeout=20) as response:
         response.raise_for_status()
         content_type = response.headers.get("Content-Type", "").split(";", 1)[0].strip().lower()
         if not content_type.startswith("image/") or content_type == "image/svg+xml":
             raise ValueError(f"Source did not return a supported raster image ({content_type or 'unknown content type'})")
 
         content_length = response.headers.get("Content-Length")
-        if content_length:
-            try:
-                if int(content_length) > MAX_IMAGE_UPLOAD_BYTES:
-                    raise ValueError("Source image exceeds Telegram's 10 MB upload limit")
-            except ValueError as exc:
-                if str(exc) == "Source image exceeds Telegram's 10 MB upload limit":
-                    raise
+        try:
+            declared_size = int(content_length) if content_length else None
+        except (TypeError, ValueError):
+            declared_size = None
+        if declared_size is not None and declared_size > MAX_IMAGE_UPLOAD_BYTES:
+            raise ValueError("Source image exceeds Telegram's 10 MB upload limit")
 
         chunks = []
         total = 0
