@@ -139,7 +139,7 @@ def test_rich_message_uploads_image_when_telegram_cannot_fetch_url(monkeypatch):
         assert content_type == "image/jpeg"
         return APIResponse({"ok": True, "result": {"message_id": 123}})
 
-    monkeypatch.setattr(telegram.requests, "get", fake_get)
+    monkeypatch.setattr(telegram, "_safe_get", lambda url, timeout: fake_get(url, stream=True))
     monkeypatch.setattr(telegram.requests, "post", fake_post)
     monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "test-token")
     monkeypatch.setenv("TELEGRAM_CHAT_ID", "@channel")
