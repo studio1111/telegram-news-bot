@@ -67,3 +67,24 @@ def test_below_embedding_threshold_never_reaches_gemini_verifier(monkeypatch):
         [{"title": "Football", "summary": "match"}],
     ) == []
     assert len(calls) == 1
+
+
+def test_embedding_requests_are_chunked_to_api_limit(monkeypatch):
+    monkeypatch.setenv("GEMINI_API_KEY", "test")
+    batch_sizes = []
+
+    def fake_post(url, **kwargs):
+        batch = kwargs["json"]["requests"]
+        batch_sizes.append(len(batch))
+        assert len(batch) <= semantic.MAX_EMBEDDING_BATCH_SIZE
+        return Response({"embeddings": [{"values": [0.0] * 768} for _ in batch]})
+
+    monkeypatch.setattr(semantic.requests, "post", fake_post)
+    result = semantic.find_semantic_relations(
+        [{"title": "new story", "summary": "summary"}],
+        [{"title": f"historical story {i}", "summary": "old"} for i in range(150)],
+    )
+
+    assert result == []
+    assert batch_sizes == [100, 51]
+

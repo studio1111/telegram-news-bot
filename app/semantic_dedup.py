@@ -12,40 +12,47 @@ GEMINI_MODEL = "gemini-3.5-flash-lite"
 def _text(story):
     return "TITLE: " + str(story.get("title", "")) + "\nSUMMARY: " + str(story.get("summary", ""))
 
+MAX_EMBEDDING_BATCH_SIZE = 100
+
+
 def _embed(texts):
     if not texts:
         return []
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("GEMINI_API_KEY is not configured")
-    requests_payload = [
-        {
-            "model": "models/" + EMBEDDING_MODEL,
-            "content": {"parts": [{"text": text[:12000]}]},
-            "embedContentConfig": {"outputDimensionality": EMBEDDING_DIM},
-        }
-        for text in texts
-    ]
-    response = requests.post(
-        f"{GEMINI_API_BASE}/{EMBEDDING_MODEL}:batchEmbedContents",
-        headers={"x-goog-api-key": key},
-        json={"requests": requests_payload},
-        timeout=60,
-    )
-    if not response.ok:
-        raise RuntimeError(f"Gemini embedding API error {response.status_code}: {response.text[:500]}")
-    data = response.json()
-    embeddings = data.get("embeddings")
-    if not isinstance(embeddings, list) or len(embeddings) != len(texts):
-        raise RuntimeError("Gemini embedding API returned an invalid number of vectors")
-    vectors = []
-    for item in embeddings:
-        values = item.get("values") if isinstance(item, dict) else None
-        if not isinstance(values, list) or len(values) != EMBEDDING_DIM:
-            raise RuntimeError("Gemini embedding API returned an invalid vector")
-        vectors.append([float(value) for value in values])
-    return vectors
 
+    # Gemini batchEmbedContents rejects requests containing more than 100 items.
+    # Keep one logical embedding operation, but send deterministic bounded batches.
+    vectors = []
+    for start in range(0, len(texts), MAX_EMBEDDING_BATCH_SIZE):
+        batch = texts[start:start + MAX_EMBEDDING_BATCH_SIZE]
+        requests_payload = [
+            {
+                "model": "models/" + EMBEDDING_MODEL,
+                "content": {"parts": [{"text": text[:12000]}]},
+                "embedContentConfig": {"outputDimensionality": EMBEDDING_DIM},
+            }
+            for text in batch
+        ]
+        response = requests.post(
+            f"{GEMINI_API_BASE}/{EMBEDDING_MODEL}:batchEmbedContents",
+            headers={"x-goog-api-key": key},
+            json={"requests": requests_payload},
+            timeout=60,
+        )
+        if not response.ok:
+            raise RuntimeError(f"Gemini embedding API error {response.status_code}: {response.text[:500]}")
+        data = response.json()
+        embeddings = data.get("embeddings")
+        if not isinstance(embeddings, list) or len(embeddings) != len(batch):
+            raise RuntimeError("Gemini embedding API returned an invalid number of vectors")
+        for item in embeddings:
+            values = item.get("values") if isinstance(item, dict) else None
+            if not isinstance(values, list) or len(values) != EMBEDDING_DIM:
+                raise RuntimeError("Gemini embedding API returned an invalid vector")
+            vectors.append([float(value) for value in values])
+    return vectors
 def _cosine(left, right):
     denominator = math.sqrt(sum(x*x for x in left)) * math.sqrt(sum(x*x for x in right))
     return sum(x*y for x,y in zip(left,right)) / denominator if denominator else 0.0
