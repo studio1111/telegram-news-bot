@@ -96,3 +96,20 @@ def test_media_read_timeout_is_not_mistaken_for_telegram_delivery():
 
 def test_telegram_api_read_timeout_is_treated_as_ambiguous_delivery():
     assert news_main._delivery_unknown(TelegramDeliveryUnknown("Telegram response timed out"))
+
+
+
+def test_state_migration_preserves_pending_rubika_delivery_status(tmp_path):
+    store = StateStore(tmp_path / "state.json")
+    pending_rubika = {
+        "key": "story-1",
+        "url": "https://example.com/story-1",
+        "message": "خبر",
+        "image_url": "https://example.com/story.jpg",
+        "status": "sent",
+        "rubika_status": "pending",
+    }
+
+    store.save(set(), [], [pending_rubika])
+
+    assert store.load_outbox()[0]["rubika_status"] == "pending"
