@@ -121,7 +121,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          gh run list --repo "$GITHUB_REPOSITORY" --workflow news.yml --limit 100 --json databaseId,createdAt --jq 'sort_by(.createdAt) | reverse | .[30:] | .[].databaseId' |
+          gh run list --repo "$GITHUB_REPOSITORY" --workflow news.yml --status completed --limit 100 --json databaseId,createdAt --jq 'sort_by(.createdAt) | reverse | .[30:] | .[].databaseId' |
           while read -r run_id; do
             if [ -n "$run_id" ]; then
               gh run delete "$run_id" --repo "$GITHUB_REPOSITORY" || echo "::warning::Unable to delete old workflow run $run_id"
