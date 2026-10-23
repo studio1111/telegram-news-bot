@@ -4,13 +4,6 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
-  # temporary-validation-trigger
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/news.yml"
-      - "app/**"
 
 concurrency:
   group: news-bot
