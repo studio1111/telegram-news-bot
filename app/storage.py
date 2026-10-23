@@ -91,6 +91,13 @@ class StateStore:
                 "image_url": record.get("image_url", "") if isinstance(record.get("image_url", ""), str) else "",
                 "status": status,
             }
+            # Rubika delivery is independent of Telegram delivery. Dropping this
+            # field on load would silently lose retry state after Telegram succeeds.
+            rubika_status = record.get("rubika_status")
+            if rubika_status is not None:
+                if not isinstance(rubika_status, str) or rubika_status not in {"pending", "sent", "disabled"}:
+                    raise StateStoreError("state outbox Rubika status is invalid")
+                migrated_outbox["rubika_status"] = rubika_status
             for field in ("title", "summary", "display_title", "display_summary"):
                 if isinstance(record.get(field, ""), str) and record.get(field, "").strip():
                     migrated_outbox[field] = record[field].strip()
@@ -156,6 +163,7 @@ class StateStore:
             data.get("schema_version") != STATE_SCHEMA_VERSION
             or dropped_empty_url_records
             or rendered_enriched
+            or raw_outbox != outbox
             or raw_pending_news != migrated_pending_news
         )
         return {
