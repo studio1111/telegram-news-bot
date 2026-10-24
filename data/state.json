@@ -2064,65 +2064,43 @@
     "12653cca73c2cb92e19667f8045859022bf098a2b562151c4db7ef420c7b5eb1",
     "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
     "46e904da1b0e56693ddf07fd5262dcc5e736d17679a53d5dcc8069d10036ad62",
-    "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/"
+    "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
+    "00cee50e2bf3f33f4076a6c53a30865f242f2769e3b418f402ea63f67609714c",
+    "6e6e3bbcc8a0441d3b29c4721d5717beed51957ac5b7eee1e6f6400e87e137b9",
+    "70e980836c92bb673bc24aa04e358b4cdce6377fa10d1a84bd2d9c94c74aea89",
+    "b3c0b22e3629b775a8477874a1fe66ddfd0097919eb32327fed358f473505fd6",
+    "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "https://www.engadget.com/2292018/google-quietly-linking-phone-number-to-android-accounts/",
+    "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+    "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
+    "96d210e04670d6a9471e90b1fac19c4dbd9e7af81a707906c1334f5784ac4f4e",
+    "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+    "05542d92a98fa9a1856afd661f59485a484aeeabb52456466df22df9fab13062",
+    "https://www.engadget.com/2294278/why-wires-in-ethernet-cable-twisted-explained/",
+    "51011a717d9b0141d9c422bd22d70dd7cf271be7c99f145a0a8793d4e7510367",
+    "fd13982069cac3c6e716afad20d7fef39dfc1500243e92ebffc658ee8e10ae77",
+    "https://www.engadget.com/2296222/xbox-game-pass-pick-which-features/",
+    "https://www.engadget.com/2296237/steam-rolls-out-personal-calendar-feature-that-constantly-updates-recommended-games/",
+    "9e0255df28edae29b3b568e9e5f25711a9522d6f31fc2794a26f6501ea4623e2",
+    "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
+    "0243fc819127b1c06c62d102bd170d8c4612101ea958234c6d069d9a84926003",
+    "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "184549956f8a79f78cb5d95e5d8aeeba435b93ce3b6eeef65d815af2bfd06853",
+    "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+    "1f7c0dc399cc30f3a2dec2325284dbbd6ce742bc149e924afb03b4b5d3c15385",
+    "https://www.engadget.com/2291408/how-to-test-cr2032-battery-see-if-good/",
+    "8d2e421e5ffdfa21b6a6893c659609673b238e711d661bfb47de8739b699d7d4",
+    "https://www.engadget.com/2291366/why-ring-camera-useful-without-subscription/",
+    "968c6fc7ffa83500f9a3e8ea149fda404979788b57cbddcc6a970acf3ec85bac",
+    "b1dd8b67048dc04a17ca56ab4638d0f8af9aa7a574e6bd490098a7ab0b05b937",
+    "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
+    "https://www.engadget.com/2290733/macbook-neo-a18-pro-chip-performance/",
+    "ef01267b7cf31448b09bd1820a1082840b1105fcf3a010b2120daf7604993f90",
+    "https://www.engadget.com/2290702/get-better-iphone-battery-life-without-closing-apps/",
+    "f146283a9b44a5921904a474ec5bceb3d0b266e6f624d6a0a18ce4c17525b7d5",
+    "https://www.engadget.com/2290640/anker-charger-iq-meaning-purpose/"
   ],
   "published_stories": [
-    {
-      "title": "Automattic loses its interim CFO just weeks after boardroom shakeup",
-      "summary": "Automattic's interim chief financial officer Jeremy Klaperman has left the company less than a month after taking the role, TechCrunch has learned. Sources say his departure followed a demotion back to his previous position, marking another executive exit amid the organization's leadership turmoil.",
-      "url": "https://techcrunch.com/2026/10/09/automattic-loses-its-interim-cfo-just-weeks-after-boardroom-shakeup/",
-      "display_title": "جدایی مدیر مالی موقت اتوماتیک از این شرکت تنها چند هفته پس از بحران مدیریتی",
-      "display_summary": "جرمی کلپرمن، مدیر مالی موقت شرکت اتوماتیک (Automattic)، کمتر از یک ماه پس از انتصاب به این سمت و به دنبال تنزل مقام، از این شرکت جدا شد. این خروج در ادامه بحران‌های اخیر مدیریتی و تغییرات گسترده در ترکیب هیئت مدیره شرکت مادر وردپرس (WordPress) رخ داده است."
-    },
-    {
-      "title": "An Anthropic model submitted a false homicide tip to Philadelphia police",
-      "summary": "Thankfully, it does not seem to have diverted police resources.",
-      "url": "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
-      "display_title": "ارسال گزارش دروغین قتل به پلیس فیلادلفیا توسط مدل هوش مصنوعی شرکت آنتروپیک",
-      "display_summary": "پلیس فیلادلفیا اعلام کرد که یک مدل هوش مصنوعی متعلق به شرکت آنتروپیک (Anthropic) به اشتباه یک گزارش دروغین درباره قتل را از طریق وب‌سایت این اداره ارسال کرده است. این پیام خوشبختانه در پوشه هرزنامه (Spam) پلیس قرار گرفت و بررسی نشد."
-    },
-    {
-      "title": "Ohio blogger found guilty of harassment for sending Shrek nude to senator",
-      "summary": "A jury found an Ohio political blogger guilty of telecommunications harassment after he sent an explicit image of Shrek to a Republican state senator. On Friday, a judge ordered DJ Byrnes, owner of political commentary blog The Rooster, to pay a $200 fine, according to a report from the Columbus Dispatch. Byrnes texted Ohio Sen. [&#8230;]",
-      "url": "https://www.theverge.com/policy/1008991/ohio-blogger-harassment-shrek-nude",
-      "display_title": "محکومیت یک بلاگر آمریکایی به دلیل ارسال تصویر غیراخلاقی شرک به یک سناتور ایالتی",
-      "display_summary": "یک هیئت منصفه در ایالت اوهایو (Ohio)، بلاگر سیاسی و مدیر وبلاگ «د روستر (The Rooster)»، دی‌جی برنز (DJ Byrnes)، را به اتهام آزار و اذیت مخابراتی از طریق ارسال یک تصویر غیراخلاقی و نامتعارف از انیمیشن «شرک (Shrek)» برای جری چرینوس (Jerry Cirino)، سناتور ایالتی، مجرم شناخت. دادگاه این بلاگر را به پرداخت ۲۰۰ دلار جریمه نقدی محکوم کرد، در حالی که متهم این اقدام را در چارچوب آزادی بیان می‌دانست."
-    },
-    {
-      "title": "Trump’s attempt to rename AI is looking awfully artificial",
-      "summary": "President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like \"Little Marco\" and \"Crooked Hillary\"; he changed \"fake news\" from a phrase describing scammy media outlets to a derogatory term for the press at large. Over the past few weeks, he's clearly decided [&#8230;]",
-      "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
-      "display_title": "تلاش دونالد ترامپ برای تغییر نام هوش مصنوعی؛ از فرمان اجرایی تا واکنش رهبران فناوری",
-      "display_summary": "دونالد ترامپ، رئیس‌جمهور آمریکا، در تلاش است تا با صدور یک فرمان اجرایی واژه «هوش مصنوعی» را ممنوع کرده و اصطلاح «هوش فوق‌العاده» (Super Intelligence) را جایگزین آن کند. این تغییر نام با همراهی برخی چهره‌های سرشناس دنیای فناوری مواجه شده، اما منتقدان آن را تلاشی ناموفق برای سرپوش گذاشتن بر نگرانی‌های عمومی می‌دانند."
-    },
-    {
-      "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
-      "summary": "Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly became the buzziest thing in AI, garnering praise for its straightforward, text message-based interface and its ability to [&#8230;]",
-      "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
-      "display_title": "رقابت تنگاتنگ دستیار هوش مصنوعی اینستینک با غول‌های فناوری نظیر متا و اوپن‌ای‌آی",
-      "display_summary": "استارتاپ اینستینک (Instinct) با ارائه یک دستیار هوش مصنوعی مبتنی بر پیام‌رسان‌ها توانسته توجه زیادی را به خود جلب کند. این در حالی است که با ورود رقبای قدرتمندی مانند متا (Meta) با ابزار میوز (Muse) و اوپن‌ای‌آی (OpenAI) با ابزار داتس (Dots)، آینده این استارتاپ نوظهور در بازار رقابتی با چالش‌های جدی روبه‌رو شده است."
-    },
-    {
-      "title": "Surveillance company Flock cuts staff as privacy backlash grows",
-      "summary": "Flock would not say if CEO Garrett Langley would take a pay cut following the reduction in workforce.",
-      "url": "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
-      "display_title": "شرکت نظارتی فلاک (Flock) همزمان با افزایش انتقادات پیرامون حریم خصوصی، نیروی کار خود را تعدیل می‌کند",
-      "display_summary": "شرکت تولیدکننده فناوری‌های نظارتی و پلاک‌خوان فلاک (Flock) در پی موج فزاینده انتقادات عمومی و قانونی درباره نقض حریم خصوصی، حدود ۱۸ درصد از نیروی کار خود را کاهش می‌دهد. این تصمیم در شرایطی اتخاذ شده که این شرکت با چالش‌هایی نظیر سوءاستفاده مأموران پلیس از سیستم و نگرانی‌های امنیتی روبه‌رو است."
-    },
-    {
-      "title": "A week with Googlebooks: four notes from our testing so far",
-      "summary": "Google's new operating system is off to a rocky start. The five newly launched Googlebook laptops have hardware that ranges from great to excellent, but the software in its current state is the weak point. There are four of us on staff at The Verge actively testing Googlebooks and, frankly, our internal Slack discussions have [&#8230;]",
-      "url": "https://www.theverge.com/tech/1008563/googlebook-software-impressions-thoughts-roundtable",
-      "display_title": "یک هفته با لپ‌تاپ‌های گوگل‌بوک: نگاهی به نقاط قوت و ضعف سیستم‌عامل جدید",
-      "display_summary": "بررسی‌های اولیه لپ‌تاپ‌های جدید شرکت گوگل (Google) مجهز به سیستم‌عامل «گوگل‌بوک اواس» (Googlebook OS) نشان می‌دهد که اگرچه سخت‌افزار این دستگاه‌ها بسیار عالی است، اما نرم‌افزار آن در وضعیت فعلی با چالش‌ها و مشکلات متعددی دست‌وپنجه نرم می‌کند. این سیستم‌عامل جدید که جایگزین «کروم‌اواس» (ChromeOS) شده، در زمینه سازگاری با اپلیکیشن‌های اندروید (Android) و یکپارچه‌سازی دستگاه‌ها هنوز به توسعه و بهینه‌سازی بیشتری نیاز دارد."
-    },
-    {
-      "title": "Meta is banning TikTok ads across its platforms",
-      "summary": "Meta has banned ads from TikTok's Chinese parent company ByteDance across the US and several other countries as the rivalry between the major social media operators heats up, as reported earlier by Bloomberg. The ban, which went into effect on Thursday, restricts ads and paid marketing messages from ByteDance, along with third-party ads that link [&#8230;]",
-      "url": "https://www.theverge.com/tech/1008658/meta-tiktok-bytedance-ads-ban",
-      "display_title": "شرکت متا (Meta) نمایش تبلیغات تیک‌تاک (TikTok) را در پلتفرم‌های خود ممنوع کرد",
-      "display_summary": "شرکت متا (Meta) نمایش تبلیغات مربوط به شرکت بایت‌دنس (ByteDance)، مالک چینی تیک‌تاک (TikTok)، را در ایالات متحده و چندین کشور دیگر ممنوع ساخت. این تصمیم در پی تشدید رقابت میان غول‌های شبکه‌های اجتماعی و بهانه‌جویی درباره تلاش رقبا برای جذب کاربران اتخاذ شده است."
-    },
     {
       "title": "The humble Playdate has become one of gaming’s best deals",
       "summary": "The Playdate, Panic's tiny yellow handheld that launched in 2022, has slowly but surely become a great deal - which is a good thing, because everything else in gaming has only gotten more expensive. Despite being a weird device with a black-and-white screen and a crank jutting out the side, the Playdate has managed to [&#8230;]",
@@ -5566,6 +5544,62 @@
       "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
       "display_title": "متا (Meta) اجرای شرایط تجاری جنجالی جدید خود را به تعویق انداخت",
       "display_summary": "شرکت متا (Meta) اجرای شرایط تجاری جدید خود را که به دلیل نگرانی‌های مربوط به جمع‌آوری داده‌ها برای هوش مصنوعی با انتقاد مواجه شده بود، به تعویق انداخت. این تصمیم پس از اعتراضات گسترده ناشران و نهادهای صنفی اتخاذ شد تا زمان بیشتری برای شفاف‌سازی فراهم شود."
+    },
+    {
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as [&#8230;]",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "display_title": "ایالت پنسیلوانیا استفاده از برچسب برای تبلیغات تولید شده با هوش مصنوعی را الزامی کرد",
+      "display_summary": "جاش شاپیرو (Josh Shapiro)، فرماندار ایالت پنسیلوانیا، قانون جدیدی را امضا کرد که بر اساس آن، تبلیغات تولید یا دستکاری شده با هوش مصنوعی باید دارای برچسب مشخص باشند. این قانون شامل تمامی قالب‌های تبلیغاتی از جمله تصویر، ویدیو، صوت و متن می‌شود، اما منتقدان به وجود ابهام و روزنه‌های قانونی در آن اشاره می‌کنند."
+    },
+    {
+      "title": "Why the wires in your ethernet cables are twisted",
+      "summary": "There's a good reason for that arrangement.",
+      "url": "https://www.engadget.com/2294278/why-wires-in-ethernet-cable-twisted-explained/",
+      "display_title": "دلیل فنی پیچیده شدن سیم‌های درون کابل‌های اترنت (Ethernet) چیست؟",
+      "display_summary": "کابل‌های اترنت (Ethernet) که اینترنت را به خانه‌های ما می‌آورند، در ظاهر ساده به نظر می‌رسند اما در درون خود دارای سیم‌های به هم تابیده‌شده هستند. این طراحی مهندسی شده ریشه در فیزیک الکترومغناطیس دارد و به جلوگیری از تداخل سیگنال‌ها کمک می‌کند."
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "display_title": "بررسی جدید نشان می‌دهد: مدل‌های هوش مصنوعی گروک و چت‌جی‌پی‌تی جهت‌گیری سیاسی متفاوتی دارند",
+      "display_summary": "یک پژوهش تازه نشان می‌دهد که مدل هوش مصنوعی گروک (Grok) متعلق به شرکت اسپیس‌اکس‌ای‌آی (SpaceXAI) تمایل شدیدی به انتخاب نامزدهای جمهوری‌خواه دارد، در حالی که مدل جی‌پی‌تی (GPT) از شرکت اوپن‌ای‌آی (OpenAI) بیشتر نامزدهای دموکرات را برمی‌گزیند. این دو مدل در بررسی نزدیک به ۵۰۰ رقابت انتخاباتی، در بیش از ۹۰ درصد موارد با یکدیگر اختلاف نظر داشتند."
+    },
+    {
+      "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+      "summary": "Lindsay Powell, who releases records under the name Fielded, has spent most of her career subverting expectations and genre conventions. According to their Bandcamp page, Fielded started as an experimental noise project before growing into something closer to R&#38;B. But from moment one, her take on the genre was restless, relentlessly playing with what R&#38;B [&#8230;]",
+      "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+      "display_title": "نگاهی به دنیای موسیقی فیلدید؛ از کلاهبرداران تا سایبرپانک ژاپنی",
+      "display_summary": "لیندسی پاول (Lindsay Powell) با نام هنری فیلدید (Fielded)، در جدیدترین آلبوم خود به نام «سایه‌ای از یک حیوان» (Some Kind of Animal)، مرزهای سبک‌های مختلف موسیقی را جابجا کرده است. او در یک مصاحبه جدید از علاقه‌اش به داستان‌های کلاهبرداران و سینمای سایبرپانک ژاپنی سخن گفته است."
+    },
+    {
+      "title": "Here's how to test a CR2032 battery to see if it's good",
+      "summary": "CR2032 batteries are found in a lot of gadgets around your home. They're easy to test when they run low, especially if you have the appropriate devices.",
+      "url": "https://www.engadget.com/2291408/how-to-test-cr2032-battery-see-if-good/",
+      "display_title": "آموزش نحوه تست کردن باتری سی‌آر۲۰۳۲ برای اطمینان از سلامت آن",
+      "display_summary": "باتری‌های سکه‌ای سی‌آر۲۰۳۲ (CR2032) در بسیاری از گجت‌های خانگی مانند سوییچ خودرو و ردیاب ایرتگ (AirTag) کاربرد دارند. این گزارش روش‌های مختلف بررسی میزان ولتاژ و سلامت این باتری‌ها را با استفاده از مولتی‌متر یا ابزارهای جایگزین شرح می‌دهد."
+    },
+    {
+      "title": "Why your Ring camera is still useful without a subscription",
+      "summary": "Modern smart home cameras and security systems put a lot of features behind a subscription. Here are a few reasons why you don't always need to pay.",
+      "url": "https://www.engadget.com/2291366/why-ring-camera-useful-without-subscription/",
+      "display_title": "چرا دوربین‌های رینگ بدون خرید اشتراک ماهانه نیز کاربردی و مفید هستند؟",
+      "display_summary": "بسیاری از قابلیت‌های پیشرفته دوربین‌های هوشمند خانگی ساخت شرکت رینگ (Ring) نیازمند پرداخت اشتراک ماهانه هستند. با این حال، کاربران می‌توانند حتی بدون پرداخت هزینه و خرید اشتراک نیز از امکانات پایه مانند ارتباط صوتی دوطرفه و پخش زنده بهره‌مند شوند."
+    },
+    {
+      "title": "How to get better iPhone battery life without closing any apps",
+      "summary": "Apple has added a host of battery-management features to the iPhone over the years.",
+      "url": "https://www.engadget.com/2290702/get-better-iphone-battery-life-without-closing-apps/",
+      "display_title": "چگونه بدون بستن برنامه‌ها، طول عمر باتری آیفون را افزایش دهیم؟",
+      "display_summary": "بر خلاف تصور عموم، بستن مکرر برنامه‌ها در پس‌زمینه تأثیر چندانی در کاهش مصرف باتری آیفون ندارد. شرکت اپل (Apple) راهکارهای کاربردی و علمی‌تری مانند مدیریت روشنایی صفحه، تنظیمات اتصال و قابلیت‌های بهینه‌سازی انرژی را برای افزایش طول عمر باتری پیشنهاد می‌کند."
+    },
+    {
+      "title": "The beneficial purpose of 'IQ' on your Anker chargers",
+      "summary": "Anker's PowerIQ technology helps identify and charge your devices more efficiently.",
+      "url": "https://www.engadget.com/2290640/anker-charger-iq-meaning-purpose/",
+      "display_title": "آشنایی با فناوری «پاورآی‌کیو (PowerIQ)» روی شارژرهای شرکت انکر (Anker)",
+      "display_summary": "فناوری «پاورآی‌کیو (PowerIQ)» متعلق به شرکت انکر (Anker) به شارژرها اجازه می‌دهد تا نوع دستگاه متصل را شناسایی کرده و ولتاژ خروجی را برای شارژ بهینه و ایمن تنظیم کنند. این فناوری اختصاصی با استانداردهای رایج دیگری مانند «پاور دیلیوری (Power Delivery)» و «کوئیک شارژ (Quick Charge)» سازگاری دارد تا سرعت و امنیت شارژ دستگاه‌ها بهبود یابد."
     }
   ],
   "outbox": [
@@ -5579,105 +5613,6 @@
       "summary": "Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fraud. In December 2025, Shirley published a viral video alleging fraud at daycares in Minnesota that were operated by members [&#8230;]",
       "display_title": "دولت ترامپ پاداش ۱۰ هزار دلاری به یک یوتیوبر داد و برنامه جایزه ۲۵ میلیون دلاری برای گزارش تقلب راه اندازی کرد",
       "display_summary": "دونالد ترامپ و جی‌دی ونس اعلام کردند که دولت ایالات متحده به نیک شرلی، یوتیوبر راست‌گرا، مبلغ ۱۰ هزار دلار پاداش داده و یک برنامه پاداش ۲۵ میلیون دلاری را برای گزارش تقلب توسط شهروندان راه‌اندازی کرده است. این اقدام در حالی صورت می‌گیرد که روش‌های جنجالی این تولیدکننده محتوا در متهم کردن کسب‌وکارها با انتقادات فراوانی مواجه شده است."
-    },
-    {
-      "key": "url:8363c44308ce831c9bc7fe4d8a97520cd607dee24080f49b254c800d8c182572",
-      "url": "https://www.engadget.com/2292610/subaru-is-dropping-gas-cars-for-evs-in-europe-by-the-end-of-2027/",
-      "message": "<b>📰 شرکت سوبارو تا پایان سال ۲۰۲۷ فروش خودروهای بنزینی را در اروپا متوقف می‌کند</b>\n\nشرکت خودروسازی سوبارو (Subaru) تأیید کرد که در واکنش به قوانین سخت‌گیرانه جدید اتحادیه اروپا (EU) درباره آلایندگی و ایمنی، تا پایان سال ۲۰۲۷ تمام خودروهای بنزینی خود را از بازار اروپا خارج خواهد کرد. این شرکت قصد دارد سبد محصولات خود در این منطقه را به خودروهای تمام‌برقی تغییر دهد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت ژاپنی سوبارو (Subaru) اعلام کرد که تا پیش از پایان سال ۲۰۲۷، فروش خودروهای بنزینی و موتورهای درون‌سوز را در قاره اروپا متوقف کرده و تمام تمرکز خود را روی عرضه خودروهای تمام‌الکتریکی معطوف خواهد کرد. این تصمیم راهبردی در پی وضع قوانین جدید و سخت‌گیرانه اتحادیه اروپا (EU) در خصوص حد مجاز انتشار گازهای گلخانه‌ای و استانداردهای اجباری سیستم‌های کمک‌راننده اتخاذ شده است. اگرچه سوبارو سهم بازار کوچکی در اروپا دارد و سال گذشته تنها حدود ۲۳ هزار دستگاه خودرو یعنی معادل ۰.۲ درصد از کل بازار را در این منطقه به فروش رساند، اما محصولات محبوب این برند مانند مدل‌های آوت‌بک (Outback) و دبلیوآرایکس (WRX) طرفداران وفاداری در میان علاقه‌مندان به خودروهای آفرود و تیونینگ دارند. کنار گذاشتن این مدل‌ها و موتورهای سنتی موسوم به باکسر (Boxer) سوبارو، از نظر نمادین اهمیت بالایی دارد. بر اساس برنامه‌ریزی‌های انجام‌شده، مدل نمادین آوت‌بک (Outback) به عنوان نخستین خودروی بنزینی سوبارو در پایان سال جاری میلادی از بازار اروپا کنار می‌رود. پس از آن نیز مدل‌های ایمپرزا (Impreza)، کراس‌تک (Crosstrek) و فارستر (Forester) در سال ۲۰۲۷ با بازار اروپا خداحافظی خواهند کرد. از سال ۲۰۲۸ به بعد، سوبارو تنها سه مدل تمام‌برقی شامل سولتریا (Solterra)، ای-آوت‌بک (E-Outback) (که در بازار ایالات متحده با نام تریل‌سیککر (Trailseeker) شناخته می‌شود) و آن‌چارتد (Uncharted) را در اتحادیه اروپا عرضه خواهد کرد. این خودروها با همکاری شرکت تویوتا (Toyota) و بر اساس پلتفرم‌های برقی این شرکت توسعه یافته‌اند. دلیل اصلی این تحول، قوانین سخت‌گیرانه اتحادیه اروپا درباره میانگین انتشار دی‌اکسید کربن ناوگان خودروسازان و تجهیزات ایمنی الزامی است. اتحادیه اروپا مقرر کرده است که خودروهای تولید شده در بازه زمانی ۲۰۲۵ تا ۲۰۳۴ باید میانگین انتشار آلایندگی خود را به ۹۳.۶ گرم در هر کیلومتر برسانند که نشان‌دهنده کاهش ۱۵ درصدی نسبت به سطوح سال ۲۰۲۱ است. همچنین از ژوئیه ۲۰۲۶، تمامی خودروهای سواری و ون‌ها باید به سیستم‌های هشدار پیشرفته حواس‌پرتی راننده (ADDW) و ترمز اضطراری پیشرفته مجهز باشند. با این حال، سوبارو هم‌زمان اعلام کرده است که برای نسل آینده خودروهای الکتریکی خود، فناوری‌های برقی را به صورت مستقل و جدا از تویوتا توسعه خواهد داد. پلتفرم نسل بعدی این شرکت شامل باتری جدید، فناوری موتور الکتریکی و واحد کنترل یکپارچه برای به‌روزرسانی‌های از راه دور خواهد بود. تاکاتومو واتاموری (Takatomo Watamori)، معاون مهندسی سوبارو، در این خصوص گفت که توسعه مستقل فناوری‌های برقی به این شرکت اجازه می‌دهد تا لذت رانندگی و آرامش خاطر مورد انتظار مشتریان را حتی در این دوران گذار حفظ کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/subaru-is-dropping-gas-cars-for-evs-in-europe-by-the-end-of-2027/l-intro-1792573932.jpg",
-      "status": "sent",
-      "title": "Subaru is dropping gas cars for EVs in Europe by the end of 2027",
-      "summary": "Subaru will halt the sale of gas-powered vehicles in favor of an all-electric lineup in Europe no later than 2027.",
-      "display_title": "شرکت سوبارو تا پایان سال ۲۰۲۷ فروش خودروهای بنزینی را در اروپا متوقف می‌کند",
-      "display_summary": "شرکت خودروسازی سوبارو (Subaru) تأیید کرد که در واکنش به قوانین سخت‌گیرانه جدید اتحادیه اروپا (EU) درباره آلایندگی و ایمنی، تا پایان سال ۲۰۲۷ تمام خودروهای بنزینی خود را از بازار اروپا خارج خواهد کرد. این شرکت قصد دارد سبد محصولات خود در این منطقه را به خودروهای تمام‌برقی تغییر دهد."
-    },
-    {
-      "key": "url:c014b161f25d8a756bc56571d5fa6aa4650fd5c4e5c737f6071878ecad141bbd",
-      "url": "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu",
-      "message": "<b>📰 آزمایش جدید یوتیوب برای پنهان کردن دکمه دیسلایک</b>\n\nشرکت یوتیوب (YouTube) در حال آزمایش تغییراتی جدید روی رابط کاربری خود است که طی آن دکمه دیسلایک ممکن است به منوی فرعی منتقل شود. این اقدام در ادامه سیاست‌های پیشین این پلتفرم برای محدود کردن دسترسی به این دکمه صورت می‌گیرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پلتفرم اشتراک‌گذاری ویدیو یوتیوب (YouTube) ظاهراً در حال آزمایش تغییر جدیدی است که بر اساس آن، دکمه دیسلایک (Dislike) از جایگاه فعلی خود جابه‌جا شده و به منوی سه‌نقطه منتقل می‌شود. به گزارش وب‌سایت تخصصی «ناین‌توپایوگوجل» (9to5Google)، این تغییر در قالب تصاویر منتشر شده توسط برخی کاربران در شبکه‌های اجتماعی نظیر ایکس (X) و ردیت (Reddit) مشاهده شده است. در حال حاضر، دکمه دیسلایک در کنار دکمه لایک (Like) و در زیر کادر ویدیو قرار دارد که دسترسی به آن را بسیار آسان می‌کند. با این حال، انتقال این دکمه به یک منوی فرعی به این معنا خواهد بود که کاربران برای ابراز نارضایتی یا عدم پسندیدن یک ویدیو باید تلاش بیشتری انجام دهند و این موضوع احتمالاً به کاهش چشمگیر استفاده از آن منجر خواهد شد. شرکت گوگل (Google) و مجموعه یوتیوب تاکنون به درخواست‌ها برای اظهار نظر رسمی در این زمینه پاسخی نداده‌اند و وسعت این آزمایش هنوز مشخص نیست. این پلتفرم پیش‌تر نيز سابقه اعمال تغییرات جدی روی قابلیت دیسلایک را داشته است. در سال ۲۰۲۱ میلادی، یوتیوب تصمیم گرفت شمارشگر عمومی دیسلایک را پنهان کند تا به ادعای خود از سازندگان در برابر آزار و اذیت محافظت کند؛ هرچند که سازندگان ویدیوها همچنان قادر به دیدن تعداد دیسلایک‌های دریافتی خود هستند. همچنین در اوایل سال جاری میلادی، این شرکت دکمه دیسلایک را به طور کامل از بخش ویدیوهای کوتاه یوتیوب شورتس (YouTube Shorts) حذف کرد و به کاربران پیشنهاد داد تا از گزینه‌های موجود در منوی سه‌نقطه استفاده کنند. کارشناسان حوزه فناوری بر این باورند که تغییرات احتمالی جدید، گامی دیگر در راستای کاهش اهمیت دیسلایک و بهبود تجربه کاربری سازندگان محتوا از سوی شرکت گوگل محسوب می‌شود. باید دید که آیا این آزمایش محدود به گروه کوچکی از کاربران باقی می‌ماند یا به صورت عمومی برای تمامی کاربران در سراسر جهان عرضه خواهد شد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/acastro_STK092_04.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "status": "sent",
-      "title": "YouTube might be testing hiding the dislike button",
-      "summary": "YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and a user on Reddit also shared an image of the dislike button being absent for them. Right now, [&#8230;]",
-      "display_title": "آزمایش جدید یوتیوب برای پنهان کردن دکمه دیسلایک",
-      "display_summary": "شرکت یوتیوب (YouTube) در حال آزمایش تغییراتی جدید روی رابط کاربری خود است که طی آن دکمه دیسلایک ممکن است به منوی فرعی منتقل شود. این اقدام در ادامه سیاست‌های پیشین این پلتفرم برای محدود کردن دسترسی به این دکمه صورت می‌گیرد."
-    },
-    {
-      "key": "url:023857d58cf8ba10be3b52615339af6255b6fee8d785f13be065e13ba4f8c190",
-      "url": "https://www.engadget.com/2289290/wind-turbine-for-home-1kw-power/",
-      "message": "<b>📰 توربین بادی یک کیلوواتی چقدر برق برای خانه شما تولید می کند؟</b>\n\nبررسی ها نشان می دهد که یک توربین بادی ۱ کیلوواتی می تواند به کاهش هزینه های برق خانگی کمک کند، اما میزان خروجی آن به شدت به شرایط وزش باد و محل نصب بستگی دارد. این سیستم ها معمولاً به عنوان منبع انرژی مکمل و در مناطق روستایی باز کاربرد دارند، در حالی که برای مناطق مسکونی شهری با موانع زیاد و هزینه های بالا گزینه بهینه ای محسوب نمی شوند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استفاده از توربین های بادی مقیاس کوچک برای مصارف مسکونی همواره با پرسش های زیادی همراه بوده است. با وجود رشد چشمگیر انرژی خورشیدی، انرژی باد در بخش خانگی کمتر مورد توجه قرار گرفته است. با این حال، توربین های بادی کوچک، از جمله مدل های یک کیلوواتی، می توانند نقش متمایزی در تأمین انرژی ایفا کنند، مشروط بر اینکه نیازها و مقیاس مصرف به درستی شناخته شوند. نکته کلیدی درباره توربین های یک کیلوواتی این است که عدد «یک کیلووات» ظرفیت اوج (Peak) دستگاه را نشان می دهد و لزوماً میزان تولید مداوم آن نیست. شاخص کاربردی تر، میزان تولید انرژی سالانه یا ماهانه بر اساس کیلووات ساعت است. در یک مکان با شرایط بهینه، یک توربین ۱ کیلوواتی می تواند ماهانه حدود ۲۰۰ کیلووات ساعت یا سالانه نزدیک به ۲۴۰۰ کیلووات ساعت برق تولید کند. این میزان کمتر از یک چهارم مصرف سالانه برق یک خانه معمولی در ایالات متحده (United States) است. محل نصب، عامل اصلی موفقیت یا شکست این سیستم ها است. توربین های بادی خانگی به سرعت باد بالا و پیوسته در طول ماه نیازمندند. خانه هایی که در میان درختان، در جوامع شهری فشرده یا پشت تپه ها قرار دارند، گزینه مناسبی برای این کار نیستند؛ چرا که موانع فیزیکی نه تنها جریان باد را مسدود می کنند، بلکه باعث ایجاد توربولانس یا آشفتگی هوا شده که هم خروجی توربین را کاهش می دهد و هم استهلاک قطعات را تسریع می کند. وزارت انرژی ایالات متحده (United States Department of Energy) توصیه می کند که بخش پایینی روتور توربین حداقل ۳۰ فوت بالاتر از هر مانعی در شعاع ۳۰۰ فوتی باشد که این استاندارد، نصب آن را در محله های حومه شهری بسیار دشوار یا غیرممکن می سازد. علاوه بر این، قوانین منطقه بندی محلی معمولاً ارتفاع سازه ها را به حدود ۳۵ فوت محدود می کنند. از نظر اقتصادی نیز، هزینه نصب توربین های بادی مسکونی بین ۲۰ هزار تا ۵۰ هزار دلار تخمین زده می شود، در حالی که نصب پنل های خورشیدی با ظرفیت تولید مشابه به مراتب ارزان تر تمام می شود. برای بیشتر ساکنان مناطق حومه ای و شهری، ارتقای عایق بندی منزل و استفاده از پنل های خورشیدی نتایج مطمئن تر و مقرون به صرفه تری به همراه دارد. توربین های بادی یک کیلوواتی بیشتر برای کابین های کوچک، کاروان ها یا مناطق روستایی باز و بادخیز مناسب هستند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/how-much-power-can-a-1kw-wind-turbine-produce-for-your-home/l-intro-1792074246.jpg",
-      "status": "sent",
-      "title": "How much power can a 1kW wind turbine produce for your home?",
-      "summary": "A 1 kW wind turbine can help with your electric bill, but the wind determines how much.",
-      "display_title": "توربین بادی یک کیلوواتی چقدر برق برای خانه شما تولید می کند؟",
-      "display_summary": "بررسی ها نشان می دهد که یک توربین بادی ۱ کیلوواتی می تواند به کاهش هزینه های برق خانگی کمک کند، اما میزان خروجی آن به شدت به شرایط وزش باد و محل نصب بستگی دارد. این سیستم ها معمولاً به عنوان منبع انرژی مکمل و در مناطق روستایی باز کاربرد دارند، در حالی که برای مناطق مسکونی شهری با موانع زیاد و هزینه های بالا گزینه بهینه ای محسوب نمی شوند."
-    },
-    {
-      "key": "url:f05c75ebfb7781b06ec71f5e939b5eb784798dae77d83b54aef2c93588811e84",
-      "url": "https://www.engadget.com/2291457/openai-says-its-models-can-translate-cobol/",
-      "message": "<b>📰 شرکت اوپن‌ای‌آی از قابلیت‌های جدید مدل‌های هوش مصنوعی خود برای مهاجرت بانک‌ها از زبان قدیمی کوبول (COBOL) خبر داد</b>\n\nشرکت اوپن‌ای‌آی (OpenAI) اعلام کرده است که مدل‌های هوش مصنوعی این شرکت اکنون توانایی بهتری در کار با زبان‌های برنامه‌نویسی قدیمی مانند کوبول (COBOL) دارند. این پیشرفت می‌تواند به بانک‌ها و موسسات مالی کمک کند تا سیستم‌های قدیمی خود را به فناوری‌های مدرن منتقل کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اوپن‌ای‌آی (OpenAI) از ارتقای توانایی مدل‌های هوش مصنوعی خود در زمینه درک، کدنویسی و مهاجرت نرم‌افزاری با استفاده از زبان‌های برنامه‌نویسی قدیمی خبر داد. این دسته از زبان‌ها مانند کوبول (COBOL)، فرترن (Fortran) و ویژوال بیسیک (Visual Basic) با کمبود برنامه‌نویس متخصص مواجه هستند. بر اساس آمارهای اعلام‌شده، حدود ۴۰ درصد از بانک‌های جهان همچنان به سیستم‌های مبتنی بر زبان کوبول (COBOL) وابسته‌اند. مهاجرت این زیرساخت‌ها به زبان‌های مدرن علاوه بر زمان‌بر بودن، هزینه‌ای سرسام‌آور میان میلیون‌ها تا صدها میلیون دلار به همراه دارد. از سوی دیگر، برنامه‌نویسان مسلط به این زبان‌های قدیمی در حال بازنشستگی و خروج از بازار کار هستند و بانک‌ها ناچارند در سال‌های آینده به ناچار دست به مهاجرت نرم‌افزاری بزنند. شرکت اوپن‌ای‌آی (OpenAI) می‌دارد که این بهبود عملکرد با راهنمایی توسعه‌دهندگان و مشتریان سازمانی و بر اساس بازخوردهای دریافتی انجام شده است. مدل‌های کدنویسی پیش‌تر در کار با زبان‌های قدیمی با چالش جدی روبه‌رو بودند. به همین دلیل، این شرکت مجموعه ارزیابی جدیدی به نام «مالتی‌لنگ‌بنچ» (MultiLangBench) را طراحی کرده است که از مدل‌ها می‌خواهد موتورهای پایگاه داده سازگار با اس‌کیوال‌لایت (SQLite) را در زبان‌های مشخصی ایجاد کنند. در این ارزیابی‌ها، مدل «جی‌پی‌تی-۶ آسترا» (GPT-6 Astra) میانگین نرخ موفقیت ۸۷.۴ درصدی را در ۲۰ زبان به ثبت رساند که پیشرفت چشمگیری نسبت به نسخه «جی‌پی‌تی-۵.۶ سول» (GPT-5.6 Sol) با نرخ موفقیت ۲۶.۸ درصد محسوب می‌شود. با این حال، زبان کوبول (COBOL) همچنان دشوارترین زبان برای هوش مصنوعی باقی مانده است، به طوری که نرخ موفقیت مدل آسترا (Astra) در این زمینه ۷۲ درصد بوده است. علاوه بر این، اوپن‌ای‌آی (OpenAI) توانایی مدل‌های خود را در انتقال کدهای کوبول (COBOL) به زبان‌های مدرنی نظیر سی‌پلاس‌پلاس (++C)، جاوا (Java)، کاتلین (Kotlin)، پایتون (Python) و راست (Rust) و در عین حال حفظ عملکرد دقیق برنامه‌ها ارزیابی کرد. برای اینکه هوش مصنوعی بتواند به موسسات مالی در این مهاجرت یاری برساند، باید رفتارهای دقیق کدهای کوبول (COBOL) نظیر نحوه گرد کردن اعشار و مدیریت رکوردهای مفقود را حفظ کند. در این آزمایش‌ها، مدل «جی‌پی‌تی-۶.۱ سول» (GPT-6.1 Sol) با بالاترین میزان استدلال توانست به دقت خیره‌کننده ۹۷.۹ درصد دست یابد. با وجود این دستاوردها، شرکت اوپن‌ای‌آی (OpenAI) اذعان می‌کند که فرآیند مهاجرت تنها زمانی موفق محسوب می‌شود که تمامی آزمون‌ها با موفقیت سپری شوند. سیستم‌های بانکی نیازمند دقت فوق‌العاده‌ای هستند و استفاده از این ابزارها در نرم‌افزارهای تولیدی همچنان به بازبینی کارشناسان و تست دقیق نیاز دارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/openai-says-its-models-can-help-banks-migrate-from-old-cobol-programs/l-intro-1792497626.jpg",
-      "status": "sent",
-      "title": "OpenAI says its models can help banks migrate from old COBOL programs",
-      "summary": "OpenAI says its models now come with better COBOL capabilities.",
-      "display_title": "شرکت اوپن‌ای‌آی از قابلیت‌های جدید مدل‌های هوش مصنوعی خود برای مهاجرت بانک‌ها از زبان قدیمی کوبول (COBOL) خبر داد",
-      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) اعلام کرده است که مدل‌های هوش مصنوعی این شرکت اکنون توانایی بهتری در کار با زبان‌های برنامه‌نویسی قدیمی مانند کوبول (COBOL) دارند. این پیشرفت می‌تواند به بانک‌ها و موسسات مالی کمک کند تا سیستم‌های قدیمی خود را به فناوری‌های مدرن منتقل کنند."
-    },
-    {
-      "key": "url:467eed4398b7fd5d282ba655adfe84fa7d22991fe54a97412caa7601e12f2b32",
-      "url": "https://www.theverge.com/entertainment/1008654/k-pop-sunmi-wonder-girls-interview",
-      "message": "<b>📰 نگاهی به ابزارها و عادت‌های دیجیتال سانمی، ستاره نامدار موسیقی پاپ کره</b>\n\nسانمی (Sunmi)، ستاره برجسته موسیقی پاپ کره جنوبی (K-pop) و عضو سابق گروه واندر گرلز (Wonder Girls)، در یک مصاحبه جدید از ابزارها، اپلیکیشن‌ها و عادت‌های دیجیتال مورد علاقه خود رونمایی کرد. او از علاقه خود به نرم‌افزار نوشن (Notion) و ویدیوهای پاکسازی گوش در یوتیوب (YouTube) تا استفاده از گوشی سامسونگ گلکسی زد فولد ۸ (Samsung Galaxy Z Fold 8) گفت.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>سانمی (Sunmi)، یکی از چهره‌های برجسته و تأثیرگذار در موسیقی پاپ کره جنوبی (K-pop) که فعالیت حرفه‌ای خود را از سال ۲۰۰۷ با گروه واندر گرلز (Wonder Girls) آغاز کرده بود، در گفتگویی تازه با وب‌سایت «دِ ورج» (The Verge) ابعاد کمتر شناخته‌شده‌ای از زندگی شخصی، روند هنری و عادت‌های دیجیتال خود را به اشتراک گذاشت. این خواننده نام‌آشنا که با ترانه‌های هیت و حضور مستمر در عرصه موسیقی شناخته می‌شود، درباره ابزارها و فناوری‌هایی که در زندگی روزمره و فرآیند خلق آثارش به کار می‌برد، صحبت کرد. بر اساس این گفتگو، سانمی برای نوشتن ترانه‌ها و ثبت ایده‌های موسیقایی خود به شدت به گوشی هوشمندش وابسته است و به طور مداوم از برنامه‌های نوتز (Notes) و ویس مموز (Voice Memos) استفاده می‌کند. او همچنین از هواداران پرپاقرص محصولات سامسونگ (Samsung) است و گوشی سامسونگ گلکسی زد فولد ۸ (Samsung Galaxy Z Fold 8) را به عنوان گجت محبوب خود معرفی کرد؛ دستگاهی که به گفته او به دلیل صفحه نمایش بزرگ و سبکی، کار با اسناد و ویرایش ویدیوها را در حین سفرهای کاری بسیار آسان کرده است. در میان ابزارهای مدیریت پروژه، سانمی برای پروژه‌های گروهی از نرم‌افزار نوشن (Notion) استفاده می‌کند، هرچند معتقد است که رابط کاربری آن نیازمند بهبود و زمان برای یادگیری است. او همچنین تب‌های مرورگر خود را میان نوشن (Notion)، گوگل درایو (Google Drive)، یوتیوب (YouTube) و کلود (Claude) تقسیم کرده است. جالب اینجاست که این ستاره موسیقی پاپ، تماشای ویدیوهای مربوط به پاکسازی گوش در یوتیوب (YouTube) را به عنوان پناهگاه آرامش آنلاین خود توصیف کرده و در زمینه فناوری‌های نوظهور نیز مخالفت صریح خود را با پدیده دیپ‌فیک (Deepfakes) ابراز داشته است. این مصاحبه نگاهی خودمانی و جذاب به زندگی یکی از ستاره‌های بزرگ موسیقی آسیا دارد که چگونه فناوری‌های روز و ابزارهای دیجیتال را در خدمت خلاقیت و مدیریت زندگی پرمشغله خود درآورده است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Photo-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "status": "sent",
-      "title": "K-pop star Sunmi loves Notion and ear cleaning videos",
-      "summary": "Sunmi is an undeniable force in K-pop. She first made her debut as a member of the Wonder Girls back in 2007, one of the first K-pop acts to really break through in the West. The English version of their single \"Nobody\" was the first K-pop song to hit the Billboard Hot 100 in October [&#8230;]",
-      "display_title": "نگاهی به ابزارها و عادت‌های دیجیتال سانمی، ستاره نامدار موسیقی پاپ کره",
-      "display_summary": "سانمی (Sunmi)، ستاره برجسته موسیقی پاپ کره جنوبی (K-pop) و عضو سابق گروه واندر گرلز (Wonder Girls)، در یک مصاحبه جدید از ابزارها، اپلیکیشن‌ها و عادت‌های دیجیتال مورد علاقه خود رونمایی کرد. او از علاقه خود به نرم‌افزار نوشن (Notion) و ویدیوهای پاکسازی گوش در یوتیوب (YouTube) تا استفاده از گوشی سامسونگ گلکسی زد فولد ۸ (Samsung Galaxy Z Fold 8) گفت."
-    },
-    {
-      "key": "url:a16468910f59867ed543161900d32c857a4050357f6057b9fe90ba40e00cd408",
-      "url": "https://www.engadget.com/2291445/oppo-find-x10-pro-max-hands-on/",
-      "message": "<b>📰 بررسی اولیه گوشی فایند ایکس ۱۰ پرو مکس اوپو (Oppo Find X10 Pro Max): دوربین‌های سه‌گانه ۲۰۰ مگاپیکسلی با نوآوری‌های محدود</b>\n\nشرکت اوپو (Oppo) از پرچمدار جدید خود با نام فایند ایکس ۱۰ پرو مکس (Find X10 Pro Max) رونمایی کرد که به سه حسگر دوربین ۲۰۰ مگاپیکسلی مجهز شده است. این گوشی با وجود بهبودهای جزئی در طراحی، باتری حجیم و تراشه قدرتمند، تغییرات انقلابی کمی نسبت به نسل‌های قبل دارد و عرضه آن در ایالات متحده آمریکا (US) برنامه‌ریزی نشده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت چینی اوپو (Oppo) با معرفی گوشی جدید فایند ایکس ۱۰ پرو مکس (Oppo Find X10 Pro Max) بار دیگر به بازار تلفن‌های هوشمند پرچمدار بازگشته است. این محصول که تلاش می‌کند جای خالی مدل‌های وان‌پلاس (OnePlus) را پر کند، در مناطق مختلفی از جمله اروپا و آسیا عرضه می‌شود، اما کاربران در ایالات متحده آمریکا (US) باز هم برای تهیه آن با دشواری روبه‌رو خواهند بود. این گوشی میان‌رده پریمیوم بالاتر از مدل فایند ایکس ۹ پرو (Find X9 Pro) قرار می‌گیرد، اما پایین‌تر از مدل قدرتمندتر فایند ایکس ۹ اولترا (Find X9 Ultra) جای می‌گیرد. در بخش طراحی، اوپو تغییرات بنیادین زیادی ایجاد نکرده است. بدنه دستگاه دارای فریم آلومینیومی با پوشش مات و پنل پشتی بافتی است و در دو رنگ سفید لونا (Luna White) و خاکستری تیتانیوم (Titanium Grey) روانه بازار می‌شود. نمایشگر ۶.۷۸ اینچی دستگاه با حداکثر روشنایی ۳۶۰۰ نیت، از نرخ تازه‌سازی تطبیقی ۱ تا ۱۴۴ هرتز، عمق رنگ ۱۰ بیتی و فناوری دالبی ویژن (Dolby Vision) پشتیبانی می‌کند. حسگر نور پنج‌کاناله جدید نیز عملکرد تنظیم خودکار روشنایی و تشخیص دمای رنگ محیط را بهبود بخشیده است. تمرکز اصلی اوپو در این مدل روی قابلیت‌های عکاسی و فیلم‌برداری است، هرچند انتخاب حسگرها کمی گیج‌کننده به نظر می‌رسد. برخلاف مدل فایند ایکس ۹ اولترا (Find X9 Ultra) که از حسگر بزرگ‌تر شرکت سونی (Sony) بهره می‌برد، فایند ایکس ۱۰ پرو مکس (Find X10 Pro Max) به سه حسگر مجزای ۲۰۰ مگاپیکسلی، از جمله حسگر اچ‌پی‌سی سامسونگ (Samsung HPC) روی دوربین اصلی مجهز شده است. این دوربین از زوم اپتیکال ۳ برابری و زوم بدون افت کیفیت ۶ برابری پشتیبانی می‌کند و با موتور پردازش تصویر جدید «لومو ترون» (Lumo True)، پردازش‌های مصنوعی کاهنده جزئیات را به حداقل می‌رساند. در بخش سخت‌افزار، این گوشی به باتری پرظرفیت ۷۱۵۰ میلی‌آمپر ساعتی از نوع سیلیکون کربن مجهز شده که از شارژ سیمی ۸۰ واتی و شارژ بی‌سیم ۵۰ واتی (مخصوص شارژر ایرووکس (AirVOOC) شرکت اوپو) پشتیبانی می‌کند. قلب تپنده دستگاه تراشه دایمنسیتی ۹۶۰۰ پرو مدیاتک (MediaTek Dimensity 9600 Pro) با لیتوگرافی ۲ نانومتری است که کارایی چندهسته‌ای را به میزان قابل‌توجهی افزایش داده و عملکرد روانی در اجرای بازی‌ها و برنامه‌ها ارائه می‌دهد. گوشی فایند ایکس ۱۰ پرو مکس (Find X10 Pro Max) از امروز با قیمت پایه ۱۴۹۹ پوند (حدود ۲۰۰۰ دلار) در بریتانیا عرضه می‌شود که برچسب قیمتی بالایی به شمار می‌رود. اوپو برای جبران این قیمت بالا، هدایایی نظیر کیت مبدل تله‌فوتو، ساعت هوشمند واچ ایکس ۳ (Watch X3) یا تبلت پد ۵ (Pad 5) را به خریداران اولیه پیشنهاد می‌کند. در مجموع، با وجود ابزارهای حرفه‌ای ویدیو و کیفیت ساخت بالا، این دستگاه تغییرات انقلابی محدودی ارائه می‌دهد و شاید برخی کاربران ترجیح دهند منتظر نسخه اولترای این سری بمانند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/oppo-find-x10-pro-max-hands-on-triple-200-megapixel-cameras-but-few-surprises/l-intro-1792496281.jpg",
-      "status": "sent",
-      "title": "Oppo Find X10 Pro Max hands-on: Triple 200-megapixel cameras but few surprises",
-      "summary": "Trying to fill a OnePlus-shaped hole, Oppo plays it a little safe.",
-      "display_title": "بررسی اولیه گوشی فایند ایکس ۱۰ پرو مکس اوپو (Oppo Find X10 Pro Max): دوربین‌های سه‌گانه ۲۰۰ مگاپیکسلی با نوآوری‌های محدود",
-      "display_summary": "شرکت اوپو (Oppo) از پرچمدار جدید خود با نام فایند ایکس ۱۰ پرو مکس (Find X10 Pro Max) رونمایی کرد که به سه حسگر دوربین ۲۰۰ مگاپیکسلی مجهز شده است. این گوشی با وجود بهبودهای جزئی در طراحی، باتری حجیم و تراشه قدرتمند، تغییرات انقلابی کمی نسبت به نسل‌های قبل دارد و عرضه آن در ایالات متحده آمریکا (US) برنامه‌ریزی نشده است."
-    },
-    {
-      "key": "url:dd01504f29a730f2211c458d20d0df7e09b5fc5f0ba46aa7b19a170852a63fdb",
-      "url": "https://www.theverge.com/gadgets/1015346/samsung-5k-monitor-gaming-gta-6-usbc-charger-deal-sale",
-      "message": "<b>📰 مانیتور ۵K سامسونگ با قابلیت‌های گیمینگ و قیمت مناسب عرضه شد</b>\n\nشرکت سامسونگ (Samsung) مانیتور ۲۷ اینچی اودیسه جی۸۰اتراف (Odyssey G80HF) خود را با وضوح ۵K و قابلیت‌های پیشرفته گیمینگ با تخفیف ویژه در بازار عرضه کرده است. این نمایشگر از نرخ‌سازی‌های دوگانه پشتیبانی می‌کند و گزینه‌ای مناسب برای کاربران علاقه‌مند به بازی و کیفیت تصویر بالا به شمار می‌رود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار مانیتورهای با وضوح تصویر ۵K این روزها میزبان گزینه‌های متعددی است که اغلب آن‌ها برای کاربران مک (Mac) و افرادی که به دنبال جایگزین‌های ارزان‌تر برای استودیو دیسپلی (Studio Display) اپل (Apple) با تراکم پیکسلی بالا هستند، طراحی شده‌اند. با این حال، اگر به دنبال مانیتوری با قابلیت‌های جذاب برای اجرای بازی‌ها هستید، مانیتور ۲۷ اینچی اودیسه جی۸ (Odyssey G) مدل G80HF ساخت سامسونگ (Samsung) یکی از بهترین گزینه‌ها برای برآورده کردن این نیاز است. این مانیتور پیشرفته دارای پنل فست ای‌پی‌اس (Fast IPS) است و از دو حالت نمایشی پشتیبانی می‌کند: وضوح ۵K با نرخ تازه‌سازی تصویر تا ۱۸۰ هرتز، یا وضوح 1440p با نرخ تازه‌سازی فوق‌العاده ۳۶۰ هرتز. شرکت سامسونگ (Samsung) همچنین پشتیبانی از فناوری‌های جی‌سینک (G-Sync) انویدیا (Nvidia) و فری‌سینک پریمیوم (FreeSync Premium) ای‌ام‌دی (AMD) را در این محصول گنجانده است تا نرخ تازه‌سازی مانیتور کاملاً با خروجی فریم کارت گرافیک هماهنگ بماند. از نظر درگاه‌های ارتباطی، این مانیتور به یک پورت دیسپلی‌پورت ۲.۱ (DisplayPort 2.1)، دو پورت اچ‌دی‌ام‌آی ۲.۱ (HDMI 2.1) و یک هاب یو‌اس‌بی (USB) برای اتصال یا شارژ لوازم جانبی مجهز شده است. زمان پاسخگویی یک میلی‌ثانیه‌ای نیز از دیگر ویژگی‌های برجسته این نمایشگر است که معمولاً در مانیتورهای گیمینگ دیده می‌شود، اما وجود آن در یک مانیتور ۵K با این رده قیمتی، ویژگی کمیاب و ارارشمندی به شمار می‌رود. در مقایسه با رقیبان، شرکت ال‌جی (LG) نیز مانیتور ۲۷ اینچی اولتراگیر اوو ۵K مینی ال‌ئی‌دی (UltraGear evo 5K Mini LED) را با قیمت بالاتری عرضه می‌کند که تصاویر روشن‌تر و مناطق تاریک‌سازی موضعی بیشتری دارد، اما نرخ‌های تازه‌سازی دوگانه آن به اندازه مدل سامسونگ (Samsung) بالا نیست. در مجموع، مانیتور اودیسه جی۸ (Odyssey G8) سامسونگ (Samsung) باترکیبی از وضوح خیره‌کننده تصویر و ویژگی‌های مناسب برای بازی، ارزش خرید بالایی را برای کاربران حرفه‌ای و گیمرها به ارمغان می‌آورد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/samsung5k.png?quality=90&strip=all&crop=0,0,100,100",
-      "status": "sent",
-      "title": "Samsung’s 5K monitor has good gaming chops and a great price",
-      "summary": "There are quite a few 5K monitors out there. Many of them are designed to appeal to Mac users who are looking for cheaper Studio Display alternatives without giving up the pixel-dense 218ppi screen. However, if you’re interested in hearing about one with gaming chops, Samsung’s 27-inch Odyssey G80HF seems like one of the best [&#8230;]",
-      "display_title": "مانیتور ۵K سامسونگ با قابلیت‌های گیمینگ و قیمت مناسب عرضه شد",
-      "display_summary": "شرکت سامسونگ (Samsung) مانیتور ۲۷ اینچی اودیسه جی۸۰اتراف (Odyssey G80HF) خود را با وضوح ۵K و قابلیت‌های پیشرفته گیمینگ با تخفیف ویژه در بازار عرضه کرده است. این نمایشگر از نرخ‌سازی‌های دوگانه پشتیبانی می‌کند و گزینه‌ای مناسب برای کاربران علاقه‌مند به بازی و کیفیت تصویر بالا به شمار می‌رود."
-    },
-    {
-      "key": "url:d09d81616800d77a09609980a744813816e02f8bb3677b3654b5bcb118c52047",
-      "url": "https://www.engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow/",
-      "message": "<b>📰 افتتاح اولین فروشگاه دائمی پوکمون در لندن؛ آغاز گسترش شعب خارج از آسیا</b>\n\nشرکت پوکمون (The Pokémon Company) اعلام کرد که نخستین فروشگاه دائمی خود را خارج از قاره آسیا در شهر لندن افتتاح خواهد کرد. این فروشگاه جدید قرار است تا سال ۲۰۲۹ میلادی راه‌اندازی شود و پس از آن شعب بیشتری در سایر نقاط جهان گشایش خواهند یافت.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>طرفداران مجموعه پوکمون (Pokémon) در خارج از آسیا تاکنون برای خرید حضوری از فروشگاه‌های رسمی این برند ناچار بودند به کشورهای آسیایی سفر کنند یا امیدوار باشند که فروشگاه‌های موقت (Pop-up) در نزدیکی محل زندگی آن‌ها دایر شود. اما اکنون شرایط در حال تغییر است و شرکت پوکمون (The Pokémon Company) برنامه‌ریزی برای افتتاح چندین فروشگاه دائمی در خارج از آسیا را آغاز کرده است. نخستین شعبه از این فروشگاه‌های دائمی در شهر لندن (London) پایتخت بریتانیا احداث خواهد شد و طبق اعلام رسمی، زمان بهره‌برداری از آن تا سال ۲۰۲۹ میلادی پیش‌بینی شده است. پیش‌تر نیز فروشگاه‌های موقت مختلفی در لندن فعالیت کرده بودند؛ از جمله شعبه‌ای که اوایل سال جاری میلادی در موزه تاریخ طبیعی (Natural History Museum) دایر شد و نمونه‌های دیگری که در حاشیه مسابقات بین‌المللی پوکمون در اروپا میزبان هواداران بودند. فروشگاه دائمی جدید نیز مشابه نمونه‌های موقت، محصولات و کالاهای انحصاری و ویژه‌ای را به مراجعین عرضه خواهد کرد. گاکو سوزای (Gaku Susai)، مدیر ارشد محصولات و تجربه کاربری در شرکت بین‌المللی پوکمون (The Pokémon Company International) در این خصوص گفت: «ما همواره در حال بررسی فرصت‌های جدیدی هستیم تا بتوانیم تجربیات منحصر‌به‌فرد و به‌یادماندنی برای طرفداران خود خلق کنیم. این فروشگاه جدید در لندن به بازدیدکنندگان این فرصت را می‌دهد که وارد دنیای پوکمون شوند؛ چه کسانی که برای نخستین بار با این برند آشنا می‌شوند و چه افرادی که سال‌هاست به عنوان مربی (Trainer) در این دنیا فعالیت می‌کنند.» علاوه بر لندن، شرکت پوکمون (The Pokémon Company) تایید کرده است که در آینده جزئیات مربوط به تاسیس سایر شعب فیزیکی خود در اقصی نقاط جهان را اعلام خواهد کرد. اگرچه این شرکت سابقه تاسیس مرکز پوکمون نیویورک (Pokémon Center New York) را در سال ۲۰۰۱ در ایالات متحده آمریکا در کارنامه دارد، اما آن شعبه چهار سال بعد به فروشگاه پرچمدار نینتندو (Nintendo) تبدیل شد. حالا با افتتاح فروشگاه جدید در لندن، فصل تازه‌ای از دسترسی جهانی به محصولات این مجموعه محبوب رقم خواهد خورد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow/l-intro-1792592324.jpg",
-      "status": "sent",
-      "title": "A permanent Pokémon store will open in London, with more locations outside Asia to follow",
-      "summary": "The new retail location is set to open by 2029.",
-      "display_title": "افتتاح اولین فروشگاه دائمی پوکمون در لندن؛ آغاز گسترش شعب خارج از آسیا",
-      "display_summary": "شرکت پوکمون (The Pokémon Company) اعلام کرد که نخستین فروشگاه دائمی خود را خارج از قاره آسیا در شهر لندن افتتاح خواهد کرد. این فروشگاه جدید قرار است تا سال ۲۰۲۹ میلادی راه‌اندازی شود و پس از آن شعب بیشتری در سایر نقاط جهان گشایش خواهند یافت."
-    },
-    {
-      "key": "url:a61adc6e1acb139db65a2be5f750baa5d29b59b8545d4937087927bc2199819d",
-      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-      "message": "<b>📰 هوش مصنوعی وعده بهره‌وری می‌دهد، اما برای مدیران به دردسری بزرگ تبدیل شده است</b>\n\nبر اساس یک نظرسنجی جدید، بیش از نیمی از مدیران ارشد اعلام کرده‌اند که پس از به‌کارگیری ابزارهای هوش مصنوعی، ارزیابی عملکرد کارمندان به کار دشوارتری تبدیل شده است. این ابزارها همچنین حجم کار نظارتی و پیچیدگی‌های مدیریتی را به شدت افزایش داده‌اند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>فناوری هوش مصنوعی (AI) اگرچه در ظاهر نویدبخش افزایش بهره‌وری در محیط‌های کاری است، اما در عمل چالش‌های جدید و پیچیده‌ای را برای مدیران سازمان‌ها ایجاد کرده است. بر اساس نتایج یک نظرسنجی تازه توسط شرکت «نیلسن (Nielsen)» که به سفارش شرکت مدیریت کار «ماندی‌دات‌کام (Monday.com)» از ۱۷۰۰ مدیر ارشد و مدیر اجرایی در هفت کشور مختلف انجام شده است، بیش از نیمی از شرکت‌کنندگان اظهار داشتند که ارزیابی کار کارمندان پس از پذیرش فناوری هوش مصنوعی دشوارتر شده است. دلیل اصلی این موضوع آن است که خروجی کار کارمندان معمولاً به شکل فرمت‌های صیقل‌خورده و بی‌نقص به صندوق ورودی مدیران می‌رسد و تشخیص این امر که چه بخشی از کار توسط خود کارمند و چه بخشی توسط هوش مصنوعی تولید شده، بسیار دشوار است. در نتیجه این وضعیت، نزدیک به نیمی از مدیران اعتراف کرده‌اند که زمان بیشتری را صرف بازبینی و راهنمایی خروجی تیم‌های خود می‌کنند. با این وجود، مدیران مخالف هوش مصنوعی نیستند؛ برعکس، ۹۴ درصد از افراد نظرسنجی‌شده نسبت به بهبود کارایی از طریق هوش مصنوعی ابراز هیجان کرده‌اند و معتقدند پتانسیل‌های زیادی در آن وجود دارد. «میخال میلر لوی (Michal Miller Levi)»، رئیس بخش تحقیقات بازار و بینش مشتریان در «ماندی‌دات‌کام (Monday.com)»، این شور و اشتیاق را به روزهای نخست ظهور اینترنت در دهه ۲۰۰۰ میلادی تشبیه کرد. با این حال، مشکل اینجاست که سرعت توسعه هوش مصنوعی بسیار بیشتر از توانایی انطباق سازمان‌ها با آن است. این تحقیق نشان می‌دهد که ۷۸ درصد از مدیران روش‌های ارزیابی کارمندان خود را تغییر داده و معیارهای جدیدی مانند مهارت در نوشتن دستورات (Prompt)، توانایی تفویض وظایف به هوش مصنوعی و آزمایش روش‌های نوین کاری را مبنای قضاوت قرار داده‌اند. با این حال، نگرانی‌هایی درباره سوگیری در ارزیابی‌ها وجود دارد؛ چرا که ۴۶ درصد از مدیران از هوش مصنوعی برای تصمیم‌گیری و ۳۹ درصد از رهبران برای نگارش ارزیابی عملکرد کارکنان استفاده می‌کنند که این امر خطرات انتقال تعصبات الگوریتمی مدل‌های زبانی بزرگ (LLMs) را افزایش می‌دهد. علاوه بر این، ساختار ابزارهای فناوری در سازمان‌ها پیچیده‌تر شده است. ۵۷ درصد از مدیران می‌گویند سازمان‌هایشان اکنون ابزارهای بیشتری نسبت به گذشته در گردش دارند و ۵۱ درصد از افزایش وابستگی متقابل این ابزارها خبر داده‌اند. چالش کنترل عاملیت‌های هوش مصنوعی (AI Agents) نیز دغدغه‌ای جدی است؛ به‌طوری‌که ۵۸ درصد از مدیران انتظار دارند طی سال آینده بر عاملیت‌های هوش مصنوعی بیشتر از کارمندان انسانی نظارت کنند و ۴۶ درصد نگران از دست دادن کنترل بر عملکرد آن‌ها هستند. در پایان، یافته‌های این گزارش نشان می‌دهد که پذیرش هوش مصنوعی بیش از آنکه صرفاً فرصتی برای افزایش بهره‌وری باشد، به یک چالش جدی در زمینه حاکمیت شرکتی و مدیریت فرآیندها بدل شده است و سازمان‌ها برای مدیریت آن به ساختارهای دقیق‌تری نیاز دارند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-157163369.jpg?resize=1200,900",
-      "status": "sent",
-      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
-      "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
-      "display_title": "هوش مصنوعی وعده بهره‌وری می‌دهد، اما برای مدیران به دردسری بزرگ تبدیل شده است",
-      "display_summary": "بر اساس یک نظرسنجی جدید، بیش از نیمی از مدیران ارشد اعلام کرده‌اند که پس از به‌کارگیری ابزارهای هوش مصنوعی، ارزیابی عملکرد کارمندان به کار دشوارتری تبدیل شده است. این ابزارها همچنین حجم کار نظارتی و پیچیدگی‌های مدیریتی را به شدت افزایش داده‌اند."
     },
     {
       "key": "url:6d003e3596a0b5270ca21e46869f2bbe83dfbc2b81c4e662f31a403ab0ae17a1",
@@ -6641,60 +6576,168 @@
     {
       "key": "url:0ef367750cbae5d905fd8b3a506e0fa367ccf42e2614f7d5a169b812fb87a6c5",
       "url": "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users/",
-      "title": "Capcom confirms data breach that affected 11.7 million users",
-      "summary": "Capcom ID is still available to use, but users may see more phishing scam emails.",
-      "display_title": "شرکت کپکام (Capcom) تأیید کرد: هک و افشای اطلاعات ۱۱.۷ میلیون کاربر",
-      "display_summary": "شرکت بازی‌سازی کپکام (Capcom) تأیید کرد که در پی یک نفوذ امنیتی غیرمجاز، اطلاعات بیش از ۱۱.۷ میلیون کاربر حساب کاربری کپکام (Capcom ID) در معرض خطر قرار گرفته است. این شرکت اعلام کرده است که اگرچه اطلاعات مالی و کارت‌های اعتباری کاربران لو نرفته است، اما کاربران باید مراقب ایمیل‌های کلاهبرداری فیشینگ (Phishing) باشند.",
       "message": "<b>📰 شرکت کپکام (Capcom) تأیید کرد: هک و افشای اطلاعات ۱۱.۷ میلیون کاربر</b>\n\nشرکت بازی‌سازی کپکام (Capcom) تأیید کرد که در پی یک نفوذ امنیتی غیرمجاز، اطلاعات بیش از ۱۱.۷ میلیون کاربر حساب کاربری کپکام (Capcom ID) در معرض خطر قرار گرفته است. این شرکت اعلام کرده است که اگرچه اطلاعات مالی و کارت‌های اعتباری کاربران لو نرفته است، اما کاربران باید مراقب ایمیل‌های کلاهبرداری فیشینگ (Phishing) باشند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت بازی‌سازی ژاپنی کپکام (Capcom) به طور رسمی تأیید کرد که سیستم حساب‌های کاربری این شرکت موسوم به کپکام (Capcom ID) هدف یک حمله سایبری و دسترسی غیرمجاز از سوی شخص ثالث قرار گرفته است که بر اساس آن، اطلاعات مربوط به بیش از ۱۱.۷ میلیون کاربر تحت تأثیر این نفوذ امنیتی قرار گرفته است. بر اساس بیانیه رسمی منتشر شده از سوی کپکام (Capcom)، این حادثه امنیتی از تاریخ ۱۹ اکتبر آغاز شد؛ زمانی که سیستم‌های نظارتی این شرکت فعالیت‌های مشکوکی را شناسایی کردند که نشان‌دهنده احتمال دسترسی غیرمجاز به شبکه بود. تیم امنیتی کپکام (Capcom) بلافاصله دسترسی‌های غیرمجاز را مسدود کرده و تحقیقات جامعی را درباره ابعاد و علت این رویداد آغاز نمود. با این حال، بررسی‌ها تأیید کرد که مهاجمان پیش از مسدودسازی موفق به دسترسی به داده‌ها شده بودند. در میان اطلاعات فاش شده، آدرس ایمیل میلیون‌ها کاربر به چشم می‌خورد. همچنین این نفوذ شامل افشای تاریخ تولد، جنسیت، کشور یا منطقه و نام‌های مستعار مربوط به ۴۳ حساب کاربری و تغییرات غیرمجاز در رمز عبور ۱۹۶ حساب دیگر بوده است. با وجود این، شرکت کپکام (Capcom) اطمینان خاطر داد که اطلاعات مربوط به کارت‌های اعتباری و مالی مشتریان در جریان این حمله به سرقت نرفته و در امنيت قرار دارد. پس از شناسایی این حادثه، مدیران کپکام (Capcom) موضوع را به پلیس محلی و همچنین هیئت مشاوران خارجی خود در حوزه امنیت اطلاعات گزارش دادند. این شرکت اعلام کرد که روش حمله مهاجمان را شناسایی و مسدود کرده است و خدمات وابسته به کپکام (Capcom ID) از جمله بخش‌های آنلاین بازی‌هایی نظیر استریت فایتر ۶ (Street Fighter 6) که نیازمند این حساب کاربری هستند، همچنان به کار خود ادامه می‌دهند و در دسترس کاربران قرار دارند. با این وجود، شرکت کپکام (Capcom) به تمامی کاربران خود هشدار جدی داد که با توجه به لو رفتن اطلاعات اولیه حساب‌ها، احتمال سوءاستفاده از آن‌ها در قالب ایمیل‌های کلاهبرداری و فیشینگ (Phishing) وجود دارد و کاربران باید نهایت احتیاط را در برخورد با پیام‌های مشکوک به نام این شرکت به خرج دهند. این رویداد امنیتی بار دیگر نشان داد که صنعت بازی‌های ویدئویی همچنان یکی از اهداف جذاب برای هکرها و حملات سایبری است، چنان‌که پیش‌تر نیز شرکت‌هایی مانند راک‌استار گیمز (Rockstar Games) در ماه آوریل از وقوع حوادث مشابهی خبر داده بودند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/capcom-confirms-data-breach-that-affected-11-7-million-users/l-intro-1792859616.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Capcom confirms data breach that affected 11.7 million users",
+      "summary": "Capcom ID is still available to use, but users may see more phishing scam emails.",
+      "display_title": "شرکت کپکام (Capcom) تأیید کرد: هک و افشای اطلاعات ۱۱.۷ میلیون کاربر",
+      "display_summary": "شرکت بازی‌سازی کپکام (Capcom) تأیید کرد که در پی یک نفوذ امنیتی غیرمجاز، اطلاعات بیش از ۱۱.۷ میلیون کاربر حساب کاربری کپکام (Capcom ID) در معرض خطر قرار گرفته است. این شرکت اعلام کرده است که اگرچه اطلاعات مالی و کارت‌های اعتباری کاربران لو نرفته است، اما کاربران باید مراقب ایمیل‌های کلاهبرداری فیشینگ (Phishing) باشند."
     },
     {
       "key": "url:93f8cf567fdc5cc8cb164f785604c65164119364b4f3b51c850a62878f0831de",
       "url": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
-      "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
-      "summary": "Instacart might sell itself to a larger competitor.",
-      "display_title": "بررسی احتمال فروش اینستاکارت (Instacart)؛ مذاکرات با شرکت‌های دوردش (DoorDash) و اوبر (Uber)",
-      "display_summary": "گزارش‌های تازه حاکی از آن است که شرکت تحویل خواربار اینستاکارت (Instacart) برای بررسی گزینه‌های استراتژیک خود و احتمال فروش، با شرکت‌های بزرگ فناوری و تحویل کالا از جمله دوردش (DoorDash) و اوبر (Uber) مذاکره کرده است. این خبر باعث جهش ارزش سهام اینستاکارت (Instacart) در بازار بورس شد.",
       "message": "<b>📰 بررسی احتمال فروش اینستاکارت (Instacart)؛ مذاکرات با شرکت‌های دوردش (DoorDash) و اوبر (Uber)</b>\n\nگزارش‌های تازه حاکی از آن است که شرکت تحویل خواربار اینستاکارت (Instacart) برای بررسی گزینه‌های استراتژیک خود و احتمال فروش، با شرکت‌های بزرگ فناوری و تحویل کالا از جمله دوردش (DoorDash) و اوبر (Uber) مذاکره کرده است. این خبر باعث جهش ارزش سهام اینستاکارت (Instacart) در بازار بورس شد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت تحویل خواربار اینستاکارت (Instacart) مذاکراتی را درباره احتمال فروش خود به رقبا و شرکت‌های بزرگ بازار برگزار کرده است. بر اساس گزارش‌های منتشر شده توسط رسانه‌هایی چون اینفرمیشن (The Information) و بلومبرگ (Bloomberg)، این شرکت بانک سرمایه‌گذاری را برای ارزیابی گزینه‌های پیش روی خود استخدام کرده و گفتگوهایی را با شرکت دوردش (DoorDash) انجام داده است. همچنین گزارش‌ها نشان می‌دهد که اینستاکارت (Instacart) با شرکت اوبر (Uber) نیز گفتگوهایی داشته است، هرچند منابع آگاه اعلام کرده‌اند که اوبر (Uber) در نهایت از این مذاکرات خارج شده است. ارزش بازار (Market Cap) اینستاکارت (Instacart) در حال حاضر بیش از ۱۳ میلیارد دلار برآورد می‌شود و ارزش سهام این شرکت از ابتدای سال جاری میلادی رشد ۲۵ درصدی را تجربه کرده است. کارشناسان بازار مالی بر این باورند که اینستاکارت (Instacart) ممکن است این زمان را فرصتی مناسب برای فروش با قیمتی مطلوب پیش از تشدید رقابت‌ها در بازار تحویل مواد غذایی بداند. با این وجود، منابع نزدیک به این پرونده تأکید کرده‌اند که این مذاکرات همچنان در مراحل اولیه قرار دارد و لزوماً به قطعی شدن قرارداد فروش منجر نخواهد شد. انتشار این اخبار بازتاب گسترده‌ای در بازارهای مالی داشت و باعث شد ارزش سهام اینستاکارت (Instacart) بیش از ۹.۲ درصد رشد کند، در حالی که ارزش سهام اوبر (Uber) و دوردش (DoorDash) با کاهشی جزئی مواجه شد. در صورت نهایی شدن هرگونه توافق، این معامله می‌تواند تحولات بزرگی را در بازار خدمات تحویل آنلاین و تجارت الکترونیک ایجاد کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2022/09/instacart-logo.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+      "summary": "Instacart might sell itself to a larger competitor.",
+      "display_title": "بررسی احتمال فروش اینستاکارت (Instacart)؛ مذاکرات با شرکت‌های دوردش (DoorDash) و اوبر (Uber)",
+      "display_summary": "گزارش‌های تازه حاکی از آن است که شرکت تحویل خواربار اینستاکارت (Instacart) برای بررسی گزینه‌های استراتژیک خود و احتمال فروش، با شرکت‌های بزرگ فناوری و تحویل کالا از جمله دوردش (DoorDash) و اوبر (Uber) مذاکره کرده است. این خبر باعث جهش ارزش سهام اینستاکارت (Instacart) در بازار بورس شد."
     },
     {
       "key": "url:afeb8e877c1252ee45d33fc833b147465bf9bdfe2a63562529ab7ba4b8db93bb",
       "url": "https://www.engadget.com/2291533/what-is-theater-mode-on-apple-watch/",
-      "title": "What is Theater Mode on your Apple Watch and when should you use it?",
-      "summary": "There are various ways to silence your Apple Watch when you need to lock in. Theater Mode doesn't quite go as far as Do Not Disturb, but it's still very useful.",
-      "display_title": "حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) چیست و چه زمانی باید از آن استفاده کرد؟",
-      "display_summary": "حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) ابزاری کاربردی برای خاموش کردن صفحه نمایش و بی‌صدا کردن اعلان‌ها در محیط‌های ساکت است. این قابلیت از روشن شدن ناخواسته صفحه با حرکت مچ جلوگیری کرده و در عین حال، هپتیک (Haptics) یا همان بازخوردهای لرزشی را حفظ می‌کند.",
       "message": "<b>📰 حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) چیست و چه زمانی باید از آن استفاده کرد؟</b>\n\nحالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) ابزاری کاربردی برای خاموش کردن صفحه نمایش و بی‌صدا کردن اعلان‌ها در محیط‌های ساکت است. این قابلیت از روشن شدن ناخواسته صفحه با حرکت مچ جلوگیری کرده و در عین حال، هپتیک (Haptics) یا همان بازخوردهای لرزشی را حفظ می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>ساعت‌های هوشمند اپل واچ (Apple Watch) فراتر از اعلام زمان، بسیاری از امکانات آیفون (iPhone) را به همراه مجموعه‌ای از داده‌های بیومتریک در اختیار کاربران قرار می‌دهند. با این حال، این گجت‌ها دارای ویژگی‌های فرعی و کاربردی دیگری نیز هستند که حالت تئاتر (Theater Mode) یکی از آن‌ها به شمار می‌رود. این قابلیت کاربردی برای زمانی طراحی شده است که می‌خواهید ساعت خود را در محیط‌های نیازمند سکوت آرام کنید. حالت تئاتر (Theater Mode) عملکردی مشابه با حالت مزاحم نشوید (Do Not Disturb) دارد و از زمان انتشار سیستم‌عامل واچ‌اواس ۳.۲ (watchOS 3.2) معرفی شده است؛ به این معنا که حتی مدل‌های قدیمی‌تر اپل واچ (Apple Watch) نیز از آن پشتیبانی می‌کنند. فعال‌سازی این حالت باعث می‌شود تا روشنایی صفحه نمایش کاهش یابد، دستگاه بی‌صدا شود و اعلان‌های بصری غیرفعال گردند. همچنین، از روشن شدن صفحه نمایش هنگام بالا آوردن مچ دست جلوگیری می‌شود و برای روشن کردن صفحه باید روی آن ضربه بزنید یا یکی از دکمه‌های ساعت را فشار دهید. تفاوت اصلی این حالت با حالت مزاحم نشوید (Do Not Disturb) در این است که حالت تئاتر (Theater Mode) همچنان بازخوردهای لرزشی یا همان هپتیک (Haptics) را فعال نگه می‌دارد؛ بنابراین کاربر همچنان می‌تواند لرزش ناشی از دریافت اعلان را حس کند. برای فعال کردن این ویژگی، کافی است دکمه کناری اپل واچ (Apple Watch) را لمس کنید تا مرکز کنترل (Control Center) باز شود و سپس آیکون مربوط به ماسک‌های تئاتر را فعال کنید. برخلاف حالت مزاحم نشوید (Do Not Disturb)، این حالت به صورت خودکار غیرفعال نمی‌شود و کاربر باید آن را به صورت دستی خاموش کند. بهترین زمان برای استفاده از حالت تئاتر (Theater Mode) در محیط‌هایی است که سکوت و احترام به دیگران اهمیت دارد، مانند سالن‌های سینما، تئاتر، جلسات کاری یا رویدادهای اجتماعی. علاوه بر حفظ تمرکز و جلوگیری از مزاحمت برای اطرافیان، این ویژگی به کاهش مصرف باتری نیز کمک می‌کند؛ زیرا از روشن شدن مداوم صفحه نمایش با حرکات دست جلوگیری می‌نماید. کاربران همچنین می‌توانند تنظیمات مربوط به برخی پایشگرهای بیومتریک را در این حالت شخصی‌سازی کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/what-is-theater-mode-on-your-apple-watch-and-when-should-you-use-it/l-intro-1792501458.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "What is Theater Mode on your Apple Watch and when should you use it?",
+      "summary": "There are various ways to silence your Apple Watch when you need to lock in. Theater Mode doesn't quite go as far as Do Not Disturb, but it's still very useful.",
+      "display_title": "حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) چیست و چه زمانی باید از آن استفاده کرد؟",
+      "display_summary": "حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) ابزاری کاربردی برای خاموش کردن صفحه نمایش و بی‌صدا کردن اعلان‌ها در محیط‌های ساکت است. این قابلیت از روشن شدن ناخواسته صفحه با حرکت مچ جلوگیری کرده و در عین حال، هپتیک (Haptics) یا همان بازخوردهای لرزشی را حفظ می‌کند."
     },
     {
       "key": "url:2829b6d867987bf473e5eebeb8be95c7a42c8e62e4c93e5492ec625be0099bf6",
       "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
-      "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
-      "summary": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare.",
-      "display_title": "آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی»؛ چگونه یک نقص امنیتی کل اینترنت را تا آستانه بحران برد",
-      "display_summary": "کشف دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی» (PHP) که به مهاجمان اجازه دسترسی غیرمجاز از راه دور را می‌دهد، شرکت‌ها و نهادهای دولتی سراسر جهان را وادار به واکنش فوری کرد. هرچند با انتشار سریع بسته‌های اصلاحی از فاجعه‌ای بزرگ جلوگیری شد، اما این رویداد شکنندگی زیرساخت‌های قدیمی وب را بیش از پیش نمایان کرد.",
       "message": "<b>📰 آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی»؛ چگونه یک نقص امنیتی کل اینترنت را تا آستانه بحران برد</b>\n\nکشف دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی» (PHP) که به مهاجمان اجازه دسترسی غیرمجاز از راه دور را می‌دهد، شرکت‌ها و نهادهای دولتی سراسر جهان را وادار به واکنش فوری کرد. هرچند با انتشار سریع بسته‌های اصلاحی از فاجعه‌ای بزرگ جلوگیری شد، اما این رویداد شکنندگی زیرساخت‌های قدیمی وب را بیش از پیش نمایان کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>زبان برنامه‌نویسی وب «پی‌اچ‌پی» (PHP) که بخش عمده‌ای از وب‌سایت‌ها و سرورهای اینترنتی جهان بر پایه آن بنا شده‌اند، در هفته گذشته تا آستانه ایجاد اختلالی گسترده در شبکه جهانی پیش رفت. این بحران ناشی از کشف دو آسیب‌پذیری امنیتی بسیار خطرناک بود که سال‌ها به صورت پنهان در ساختار این فناوری وجود داشتند تا اینکه پژوهشگران امنیت سایبری موفق به شناسایی روش سوءاستفاده از آن‌ها شدند. این دو آسیب‌پذیری که با عناوین «پی‌اچ‌پی‌تو‌شل» (PHP2Shell) و شناسه‌های رسمی شناخته می‌شوند، به مهاجمان اجازه می‌دهند بدون نیاز به هیچ‌گونه رمز عبور یا احراز هویت، از راه دور به سیستم‌های متصل به اینترنت که از «پی‌اچ‌پی» استفاده می‌کنند نفوذ کرده و کنترل کامل آن‌ها را به دست بگیرند. چنین نقصی که در ادبیات امنیت سایبری به عنوان اجرای از راه دور کد شناخته می‌شود، یکی از مخرب‌ترین انواع حفره‌های امنیتی محسوب می‌شود. با انتشار این خبر، «بنیاد پی‌اچ‌پی» (PHP Foundation) به سرعت بسته‌های اصلاحی و وصله‌های امنیتی لازم را منتشر کرد. پیش از انتشار عمومی، اطلاعات مربوط به این نقص‌ها به صورت محرمانه در اختیار برخی از شرکت‌های بزرگ فناوری و میزبان‌های وب قرار گرفته بود تا زیرساخت‌های خود را ایمن‌سازی کنند. با این حال، بسیاری از صنایع از جمله بانک‌ها، فروشگاه‌های آنلاین، مراکز درمانی و برخی نهادهای دولتی ترجیح دادند برای جلوگیری از حملات احتمالی، خدمات خود را به صورت موقت از دسترس خارج کنند. پژوهشگران شرکت «کالیف» (Calif) که این نقص‌ها را کشف کرده بودند، در فرآیند تحلیل خود از ابزارهای هوش مصنوعی نیز بهره بردند؛ هرچند به گفته آن‌ها بخش عمده کار متکی بر دانش تخصصی انسانی و شناخت دقیق از ساختار «پی‌اچ‌پی» بوده است. شرکت‌های امنیتی بزرگی نظیر «آمازون» (Amazon)، «پالو آلتو نتورکز» (Palo Alto Networks) و «کلادفلر» (Cloudflare) گزارش داده‌اند که تلاش‌ها برای سوءاستفاده از این آسیب‌پذیری‌ها بلافاصله پس از افشای اطلاعات به شدت افزایش یافته است. زبان «پی‌اچ‌پی» که دهه‌ها از عمر آن می‌گذرد، همچنان هسته مرکزی سیستم‌های مدیریت محتوای بزرگی مانند «وردپرس» (WordPress)، «دروپال» (Drupal) و «ویکی‌پدیا» (Wikipedia) را تشکیل می‌دهد. کارشناسان هشدار می‌دهند که این رویداد آخرین بحران نخواهد بود؛ چرا که بسیاری از فناوری‌های قدیمی وب از مشکلات ایمنی حافظه رنج می‌برند و ترکیب این نقاط ضعف با قابلیت‌های رو به رشد هوش مصنوعی می‌تواند چالش‌های امنیتی جدیدی را برای اینترنت رقم بزند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/php-web-bug-padlock-2300746159.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+      "summary": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare.",
+      "display_title": "آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی»؛ چگونه یک نقص امنیتی کل اینترنت را تا آستانه بحران برد",
+      "display_summary": "کشف دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی» (PHP) که به مهاجمان اجازه دسترسی غیرمجاز از راه دور را می‌دهد، شرکت‌ها و نهادهای دولتی سراسر جهان را وادار به واکنش فوری کرد. هرچند با انتشار سریع بسته‌های اصلاحی از فاجعه‌ای بزرگ جلوگیری شد، اما این رویداد شکنندگی زیرساخت‌های قدیمی وب را بیش از پیش نمایان کرد."
     },
     {
       "key": "url:46e904da1b0e56693ddf07fd5262dcc5e736d17679a53d5dcc8069d10036ad62",
       "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
+      "message": "<b>📰 متا (Meta) اجرای شرایط تجاری جنجالی جدید خود را به تعویق انداخت</b>\n\nشرکت متا (Meta) اجرای شرایط تجاری جدید خود را که به دلیل نگرانی‌های مربوط به جمع‌آوری داده‌ها برای هوش مصنوعی با انتقاد مواجه شده بود، به تعویق انداخت. این تصمیم پس از اعتراضات گسترده ناشران و نهادهای صنفی اتخاذ شد تا زمان بیشتری برای شفاف‌سازی فراهم شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت متا (Meta) اعلام کرد که اجرای شرایط تجاری جنجالی جدید خود را که پیش‌تر قرار بود از تاریخ ۳۰ اکتبر اجرایی شود، به تعویق می‌اندازد. بر اساس ایمیلی که سخنگوی این شرکت به خبرگزاری رویترز (Reuters) و نشریه فست کامپانی (Fast Company) ارسال کرده است، تاریخ اجرای به‌روزرسانی شرایط تجاری و شرایط تبلیغات سلف‌سرویس (Self-Serve Ad Terms) تا ۲۰ نوامبر تمدید شده است. این تاخیر به منظور فراهم کردن زمان بیشتر برای توضیح تغییرات به شرکا و ذینفعان صورت گرفته است. پیش‌تر، تغییرات برنامه‌ریزی‌شده در شرایط استفاده متا حاشیه‌ساز شده بود؛ چرا که این بندها به شرکت اجازه می‌داد با استفاده از ابزارهای خودکار و ابزارهای وب‌گردی (Web Scrapers)، محتوای مربوط به حساب‌های تجاری، دامنه‌ها و صفحات وب را فهرست‌بندی و تحلیل کند. نسخه اولیه این شرایط ذکر کرده بود که متا می‌تواند از این محتوا برای توسعه، بهبود، پژوهش و آموزش محصولات و خدمات شرکت متا (Meta Company Products) استفاده کند. با این حال، پس از اعتراض ناشران و کسب‌وکارها، شرکت عبارت مربوط به آموزش هوش مصنوعی را از متن حذف کرد. با وجود این اصلاحات، نهادهای آسیب‌دیده شکایات رسمی خود را به مراجع ضد انحصار (Antitrust Authorities) ارائه دادند. همچنین، اتحاد رسانه‌های خبری (News Media Alliance) که نمایندگی هزاران سازمان خبری در ایالات متحده آمریکا (United States) و کانادا (Canada) را بر عهده دارد، با ارسال نامه سرگشاده‌ای خواستار لغو کامل این شرایط پیش از تاریخ ۳۰ اکتبر شده بود. این سازمان هشدار داده بود که ناشران خبری ناچار خواهند شد روزنامه‌نگاری ارزشمند خود را بدون دریافت دستمزد در اختیار توسعه محصولاتی قرار دهند که در نهایت برای جذب مخاطب و آگهی‌دهنده با خود آن‌ها رقابت خواهند کرد. متا در بیانیه جدید خود تاکید کرده است که قصد دارد نحوه عملکرد خزنده‌های وب (Web Crawlers) خود را برای شرکای تجاریش شفاف‌سازی کند. این شرکت همچنین خاطرنشان ساخت که مالکان محتوا و ناشران همچنان می‌توانند با استفاده از فایل متنی استاندارد robots.txt، ترجیحات خود را به خزنده‌ها و ربات‌های هوش مصنوعی اعلام کرده و از ایندکس شدن محتوای خود جلوگیری کنند. این در حالی است که پیش‌تر گزارش‌هایی مبنی بر بی‌توجهی برخی خزنده‌های هوش مصنوعی به دستورالعمل‌های فایل robots.txt منتشر شده بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/meta-is-delaying-its-controversial-new-business-terms-amid-scraping-concerns/l-intro-1792836885.jpg",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "Meta is delaying its controversial new business terms amid scraping concerns",
       "summary": "Meta drew flak for an upcoming change to its business terms that would allow it to scrape business accounts' content for AI training.",
       "display_title": "متا (Meta) اجرای شرایط تجاری جنجالی جدید خود را به تعویق انداخت",
-      "display_summary": "شرکت متا (Meta) اجرای شرایط تجاری جدید خود را که به دلیل نگرانی‌های مربوط به جمع‌آوری داده‌ها برای هوش مصنوعی با انتقاد مواجه شده بود، به تعویق انداخت. این تصمیم پس از اعتراضات گسترده ناشران و نهادهای صنفی اتخاذ شد تا زمان بیشتری برای شفاف‌سازی فراهم شود.",
-      "message": "<b>📰 متا (Meta) اجرای شرایط تجاری جنجالی جدید خود را به تعویق انداخت</b>\n\nشرکت متا (Meta) اجرای شرایط تجاری جدید خود را که به دلیل نگرانی‌های مربوط به جمع‌آوری داده‌ها برای هوش مصنوعی با انتقاد مواجه شده بود، به تعویق انداخت. این تصمیم پس از اعتراضات گسترده ناشران و نهادهای صنفی اتخاذ شد تا زمان بیشتری برای شفاف‌سازی فراهم شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت متا (Meta) اعلام کرد که اجرای شرایط تجاری جنجالی جدید خود را که پیش‌تر قرار بود از تاریخ ۳۰ اکتبر اجرایی شود، به تعویق می‌اندازد. بر اساس ایمیلی که سخنگوی این شرکت به خبرگزاری رویترز (Reuters) و نشریه فست کامپانی (Fast Company) ارسال کرده است، تاریخ اجرای به‌روزرسانی شرایط تجاری و شرایط تبلیغات سلف‌سرویس (Self-Serve Ad Terms) تا ۲۰ نوامبر تمدید شده است. این تاخیر به منظور فراهم کردن زمان بیشتر برای توضیح تغییرات به شرکا و ذینفعان صورت گرفته است. پیش‌تر، تغییرات برنامه‌ریزی‌شده در شرایط استفاده متا حاشیه‌ساز شده بود؛ چرا که این بندها به شرکت اجازه می‌داد با استفاده از ابزارهای خودکار و ابزارهای وب‌گردی (Web Scrapers)، محتوای مربوط به حساب‌های تجاری، دامنه‌ها و صفحات وب را فهرست‌بندی و تحلیل کند. نسخه اولیه این شرایط ذکر کرده بود که متا می‌تواند از این محتوا برای توسعه، بهبود، پژوهش و آموزش محصولات و خدمات شرکت متا (Meta Company Products) استفاده کند. با این حال، پس از اعتراض ناشران و کسب‌وکارها، شرکت عبارت مربوط به آموزش هوش مصنوعی را از متن حذف کرد. با وجود این اصلاحات، نهادهای آسیب‌دیده شکایات رسمی خود را به مراجع ضد انحصار (Antitrust Authorities) ارائه دادند. همچنین، اتحاد رسانه‌های خبری (News Media Alliance) که نمایندگی هزاران سازمان خبری در ایالات متحده آمریکا (United States) و کانادا (Canada) را بر عهده دارد، با ارسال نامه سرگشاده‌ای خواستار لغو کامل این شرایط پیش از تاریخ ۳۰ اکتبر شده بود. این سازمان هشدار داده بود که ناشران خبری ناچار خواهند شد روزنامه‌نگاری ارزشمند خود را بدون دریافت دستمزد در اختیار توسعه محصولاتی قرار دهند که در نهایت برای جذب مخاطب و آگهی‌دهنده با خود آن‌ها رقابت خواهند کرد. متا در بیانیه جدید خود تاکید کرده است که قصد دارد نحوه عملکرد خزنده‌های وب (Web Crawlers) خود را برای شرکای تجاریش شفاف‌سازی کند. این شرکت همچنین خاطرنشان ساخت که مالکان محتوا و ناشران همچنان می‌توانند با استفاده از فایل متنی استاندارد robots.txt، ترجیحات خود را به خزنده‌ها و ربات‌های هوش مصنوعی اعلام کرده و از ایندکس شدن محتوای خود جلوگیری کنند. این در حالی است که پیش‌تر گزارش‌هایی مبنی بر بی‌توجهی برخی خزنده‌های هوش مصنوعی به دستورالعمل‌های فایل robots.txt منتشر شده بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/meta-is-delaying-its-controversial-new-business-terms-amid-scraping-concerns/l-intro-1792836885.jpg",
+      "display_summary": "شرکت متا (Meta) اجرای شرایط تجاری جدید خود را که به دلیل نگرانی‌های مربوط به جمع‌آوری داده‌ها برای هوش مصنوعی با انتقاد مواجه شده بود، به تعویق انداخت. این تصمیم پس از اعتراضات گسترده ناشران و نهادهای صنفی اتخاذ شد تا زمان بیشتری برای شفاف‌سازی فراهم شود."
+    },
+    {
+      "key": "url:c7aa9b7dfeaf83bd70a0235dc2db7447b4c2813e717e295ca0d51e3a66cf7ec0",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as [&#8230;]",
+      "display_title": "ایالت پنسیلوانیا استفاده از برچسب برای تبلیغات تولید شده با هوش مصنوعی را الزامی کرد",
+      "display_summary": "جاش شاپیرو (Josh Shapiro)، فرماندار ایالت پنسیلوانیا، قانون جدیدی را امضا کرد که بر اساس آن، تبلیغات تولید یا دستکاری شده با هوش مصنوعی باید دارای برچسب مشخص باشند. این قانون شامل تمامی قالب‌های تبلیغاتی از جمله تصویر، ویدیو، صوت و متن می‌شود، اما منتقدان به وجود ابهام و روزنه‌های قانونی در آن اشاره می‌کنند.",
+      "message": "<b>📰 ایالت پنسیلوانیا استفاده از برچسب برای تبلیغات تولید شده با هوش مصنوعی را الزامی کرد</b>\n\nجاش شاپیرو (Josh Shapiro)، فرماندار ایالت پنسیلوانیا، قانون جدیدی را امضا کرد که بر اساس آن، تبلیغات تولید یا دستکاری شده با هوش مصنوعی باید دارای برچسب مشخص باشند. این قانون شامل تمامی قالب‌های تبلیغاتی از جمله تصویر، ویدیو، صوت و متن می‌شود، اما منتقدان به وجود ابهام و روزنه‌های قانونی در آن اشاره می‌کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>ایالت پنسیلوانیا (Pennsylvania) به یکی از نخستین ایالت‌های ایالات متحده تبدیل شد که تبلیغات تجاری تولیدشده توسط هوش مصنوعی (AI) را ملزم به داشتن برچسب‌های هشداردهنده می‌کند. جاش شاپیرو (Josh Shapiro)، فرماندار پنسیلوانیا، روز پنج‌شنبه لایحه موسوم به «قانون تبلیغات فریبنده هوش مصنوعی» (Artificial Intelligence Deceptive Advertising Act) را امضا کرد و آن را به قانون تبدیل نمود. بر اساس این قانون جدید، هر نوع تبلیغی — اعم از تصویر ثابت، ویدیو، فایل صوتی یا متن — که به‌طور قابل‌توجهی به وسیله فناوری‌های هوش مصنوعی تولید یا دستکاری شده باشد، باید برچسبی با همان فرمت خودِ تبلیغ را به نمایش بگذارد. این الزامات طیف وسیعی از آگهی‌های تلویزیونی شرکت‌های چندمیلیارد دلاری تا تراکت‌های تبلیغاتی محلی رستوران‌ها را در بر می‌گیرد. از آنجا که این قانون برای هر تبلیغی که در این ایالت پخش شود اعمال می‌گردد، ممکن است مخاطبان در سایر ایالت‌ها نیز شاهد نمایش این برچسب‌ها در آگهی‌های ارسالی به پنسیلوانیا باشند. با این حال، کارشناسان حقوقی خاطرنشان می‌کنند که این قانون با کاستی‌ها و ابهاماتی روبه‌رو است. تعریف دقیق عبارت «به‌طور قابل‌توجهی دستکاری‌شده» کاملاً ذهنی و نسبی است. همچنین در متن قانون معافیت‌هایی برای آثار «پارسودی، طنز، نقد یا تفسیر» و همچنین محتوایی که «به‌وضوح خیالی» محسوب می‌شود، در نظر گرفته شده است؛ اما معیارهای روشنی برای تشخیص اینکه چه چیزی «به‌وضوح خیالی» یا «فریبنده» برای مصرف‌کننده است، ارائه نشده است. این لایحه توسط نیک پیسیوتانو (Nick Pisciottano)، از سناتورهای ایالت پنسیلوانیا (Pennsylvania State Senator)، پیشنهاد شده بود، اما دفتر وی هنوز واکنشی به درخواست‌ها برای شفاف‌سازی و اظهارنظر درباره ابهامات این قانون نشان نداده است. اجرای این قانون گامی تازه در جهت تنظیم‌گری محتوای دیجیتال به شمار می‌رود، اما چالش‌های اجرایی آن همچنان پابرجای است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:05542d92a98fa9a1856afd661f59485a484aeeabb52456466df22df9fab13062",
+      "url": "https://www.engadget.com/2294278/why-wires-in-ethernet-cable-twisted-explained/",
+      "title": "Why the wires in your ethernet cables are twisted",
+      "summary": "There's a good reason for that arrangement.",
+      "display_title": "دلیل فنی پیچیده شدن سیم‌های درون کابل‌های اترنت (Ethernet) چیست؟",
+      "display_summary": "کابل‌های اترنت (Ethernet) که اینترنت را به خانه‌های ما می‌آورند، در ظاهر ساده به نظر می‌رسند اما در درون خود دارای سیم‌های به هم تابیده‌شده هستند. این طراحی مهندسی شده ریشه در فیزیک الکترومغناطیس دارد و به جلوگیری از تداخل سیگنال‌ها کمک می‌کند.",
+      "message": "<b>📰 دلیل فنی پیچیده شدن سیم‌های درون کابل‌های اترنت (Ethernet) چیست؟</b>\n\nکابل‌های اترنت (Ethernet) که اینترنت را به خانه‌های ما می‌آورند، در ظاهر ساده به نظر می‌رسند اما در درون خود دارای سیم‌های به هم تابیده‌شده هستند. این طراحی مهندسی شده ریشه در فیزیک الکترومغناطیس دارد و به جلوگیری از تداخل سیگنال‌ها کمک می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>معمولاً واژه‌های «گره خورده» و «کابل» ترکیب خوشایندی در دنیای فناوری نیستند، زیرا گره‌ها و خمیدگی‌ها می‌توانند کارایی را کاهش داده یا به قطعی کابل منجر شوند. با این حال، در کابل‌های اترنت (Ethernet) که وظیفه انتقال اینترنت به خانه‌ها را بر عهده دارند، پیچش‌های موجود در بخش داخلی، کلید اصلی ارائه بهترین و باکیفیت‌ترین سیگنال اینترنتی به شمار می‌روند. فناوری کابل‌های جفت به هم تابیده‌شده (Twisted Pair) موضوع جدیدی نیست؛ مفهوم آن به الکساندر گراهام بل (Alexander Graham Bell) نسبت داده می‌شود و استفاده از آن به دهه ۱۸۸۰ میلادی و خطوط اولیه تلفن در ایالات متحده آمریکا (United States) بازمی‌گردد. دهه‌ها بعد، این فناوری اکنون به استاندارد صنعتی برای کابل‌های اترنت تبدیل شده است. دلیل اصلی مفید بودن این پیچش‌ها در هر نوع کابل ارتباطی، پدیده الکترومغناطیس است. هنگامی که بارهای الکتریکی در امتداد یک سیم حرکت می‌کنند، میدان مغناطیسی کوچکی در اطراف رشته فلزی نازک ایجاد می‌شود. اگر دو سیم مجزا به صورت موازی در کنار یکدیگر قرار گیرند، میدان مغناطیسی ایجاد شده توسط یکی از آن‌ها می‌تواند مانع حرکت جریان الکتریکی در دیگری شود و در نتیجه سرعت سیگنال را کاهش دهد. با این حال، تاباندن سیم‌ها به دور یکدیگر باعث ایجاد میدان‌های مغناطیسی متضادی می‌شود که اثرات منفی یکدیگر را خنثی می‌کنند و به سیگنال‌های الکتریکی اجازه می‌دهند با حداکثر سرعت حرکت کنند. بیشتر کابل‌های اترنت مدرن از چهار جفت سیم مسی به هم تابیده تشکیل شده‌اند. بر اساس میزان اطلاعات در حال انتقال، ممکن است همه این جفت‌ها در یک زمان فعال نباشند، اما هنگام پشتیبانی از استانداردهایی مانند اینترنت گیگابیتی (Gigabit Internet)، هر چهار جفت فعال می‌شوند. علاوه بر فویل محافظی که دور تا دور مجموعه سیم‌ها قرار دارد تا آن‌ها را در برابر تداخلات بیرونی عایق کند، ساختار جفت‌های تابیده‌شده از تداخل سیم‌های داخلی با یکدیگر جلوگیری می‌کند. به این پدیده تداخل متقاطع یا کراس‌تاک (Crosstalk) گفته می‌شود. الکترومغناطیس همچنین دلیل این موضوع را توضیح می‌دهد که چرا هر یک از چهار جفت سیم با نرخ متفاوتی پیچ خورده‌اند. ایجاد تغییرات در میزان فشردگی پیچش‌ها کمک می‌کند تا میدان مغناطیسی ایجاد شده توسط هر جفت، مشکلات تداخل جدیدی برای سایر بخش‌ها به وجود نیاورد. اگر تمام جفت‌ها دقیقاً به یک شکل تابیده می‌شدند، این جفت‌های در کنار هم قرار گرفته دچار همان افت عملکردی می‌شدند که سیم‌های موازی با آن روبرو هستند. کابل‌های جفت تابیده‌شده استاندارد رایجی در تقریباً تمام کابل‌های فناوری امروزی هستند؛ بنابراین هنگام تعویض کابل‌های اترنت در خانه، نیازی نیست به دنبال ویژگی خاصی فراتر از استانداردهای موجود باشید. با این وجود، آگاهی از دانش پشت این فناوری به درک بهتر زیرساخت‌هایی کمک می‌کند که ما را همیشه آنلاین و متصل نگه می‌دارند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/why-the-wires-in-your-ethernet-cables-are-twisted/l-intro-1790877005.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:d31f8fa997636f366be0ecbee2ff677bbd152d01431a9c098d298f90092db56c",
+      "url": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
+      "title": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
+      "summary": "Black Friday is still over a month away, but if you&#8217;re hoping to upgrade your TV, you don’t need to wait until November. LG has already kicked off its early Black Friday sale, letting you save on the LG C6 and various soundbars through November 1st. Right now, for instance, you can snag a 55-inch [&#8230;]",
+      "display_title": "تخفیف ۴۰۰ دلاری تلویزیون اولد ال‌جی C6 پیش از آغاز حراج بلک فراییدی",
+      "display_summary": "شرکت ال‌جی (LG) پیش از فرا رسیدن فصل حراج‌های بلک فراییدی (Black Friday)، تخفیف‌های زودهنگام خود را روی تلویزیون‌های پیشرفته مدل C6 آغاز کرده است. در این حراج، مدل ۵۵ اینچی این تلویزیون با کاهش قیمت ۴۰۰ دلاری به پایین‌ترین نرخ تاریخ خود یعنی ۹۹۹.۹۹ دلار رسیده است.",
+      "message": "<b>📰 تخفیف ۴۰۰ دلاری تلویزیون اولد ال‌جی C6 پیش از آغاز حراج بلک فراییدی</b>\n\nشرکت ال‌جی (LG) پیش از فرا رسیدن فصل حراج‌های بلک فراییدی (Black Friday)، تخفیف‌های زودهنگام خود را روی تلویزیون‌های پیشرفته مدل C6 آغاز کرده است. در این حراج، مدل ۵۵ اینچی این تلویزیون با کاهش قیمت ۴۰۰ دلاری به پایین‌ترین نرخ تاریخ خود یعنی ۹۹۹.۹۹ دلار رسیده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>با اینکه هنوز بیش از یک ماه تا برگزاری رویداد بزرگ خرید بلک فراییدی (Black Friday) زمان باقی مانده است، شرکت ال‌جی (LG) تصمیم گرفته است با آغاز تخفیف‌های زودهنگام خود، توجه خریداران لوازم الکترونیکی را جلب کند. در این طرح ویژه، مدل‌های مختلف تلویزیون پیشرفته ال‌جی C6 (LG C6) به همراه محصولات صوتی دیگر با کاهش قیمت‌های چشمگیری روبه‌رو شده‌اند و این تخفیف‌ها تا تاریخ اول نوامبر برقرار خواهند بود. بر اساس گزارش‌های منتشر شده، مدل ۵۵ اینچی تلویزیون اولد (OLED) ال‌جی C6 در حال حاضر با تخفیف قابل توجه ۴۰۰ دلاری و با قیمت استثنایی ۹۹۹.۹۹ دلار به فروش می‌رسد که پایین‌ترین قیمت ثبت‌شده برای این محصول به شمار می‌رود. فروشگاه‌های بزرگی نظیر آمازون (Amazon) و بست بای (Best Buy) این قیمت را اعمال کرده‌اند. همچنین مدل ۶۵ اینچی این تلویزیون نیز با ۳۰۰ دلار تخفیف و با قیمت ۱,۳۹۹.۹۹ دلار از طریق آمازون، بست بای و وب‌سایت رسمی ال‌جی قابل خریداری است. خریدارانی که این محصول را مستقیماً از ال‌جی تهیه کنند، هدایای دیگری مانند یک دسته بازی بی‌سیم ایکس‌باکس (Xbox Wireless Controller) و یک پایه دیواری رایگان نیز دریافت خواهند کرد. تلویزیون ال‌جی C6 نسبت به مدل سال گذشته یعنی ال‌جی C5 (LG C5) بهبودهای مهمی را تجربه کرده است. قلب تپنده این دستگاه پردازنده جدید و سریع‌تر آلفا ۱۱ ای‌آی جن ۳ (Alpha 11 AI Gen3) است که برای ارتقای کیفیت تصویر و صدا طراحی شده و روشنایی کلی نمایشگر را افزایش داده است. این تلویزیون همچنین از نرخ تازه‌سازی تصویر تا ۱۶۵ هرتز برای اجرای روان‌تر بازی‌ها پشتیبانی می‌کند که نسبت به محدودیت ۱۴۴ هرتزی نسل قبل پیشرفت داشته است. حضور چهار پورت اچ‌دی‌ام‌آی ۲.۱ (HDMI 2.1) به همراه پشتیبانی از فناوری‌های فریسینک پریمیوم (AMD FreeSync Premium) و جی‌سینک انویدیا (Nvidia G-Sync)، این محصول را به گزینه‌ای ایده‌آل برای گیمرها تبدیل کرده است تا از پارگی تصویر جلوگیری شود. این نمایشگر اولد ویژگی‌های بنیادین این فناوری نظیر سیاهی عمیق، رنگ‌های زنده و کنتراست فوق‌العاده را ارائه می‌دهد. پشتیبانی از استانداردهای دالبی ویژن (Dolby Vision) و دالبی اتمس (Dolby Atmos) نیز تماشای فیلم‌ها و سریال‌ها را غوطه‌ورکننده‌تر می‌کند. علاوه بر دسترسی داخلی به سرویس‌های استریم مانند نتفلیکس (Netflix) و اچ‌بی‌او مکس (HBO Max)، پشتیبانی از فناوری‌های گوگل کست (Google Cast)، اپل ایرپلی ۲ (Apple AirPlay 2) و پروتکل خانه هوشمند ماترر (Matter) اتصال دستگاه‌های مختلف را آسان‌تر ساخته است. با این حال، در کنار مشخصات فنی درخشان، برخی پژوهشگران اخیراً نگرانی‌هایی را درباره نحوه جمع‌آوری و ثبت داده‌های کاربران توسط تلویزیون‌های هوشمند ال‌جی مطرح کرده‌اند. در واکنش به این انتقادات، شرکت ال‌جی اعلام کرده است که تلویزیون‌های این شرکت به طور مداوم مکالمات کاربران را ضبط نمی‌کنند و قابلیت‌هایی مانند تشخیص صدا و تبلیغات مبتنی بر علایق، اختیاری بوده و به طور پیش‌فرض غیرفعال هستند. با وجود این چالش‌ها، قابلیت‌های سخت‌افزاری و تخفیف‌های جذاب مدل C6 همچنان ارزش خرید آن را حفظ کرده است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/TV-OLED55C6PUA-Brilliant-oled-pictures_features_900x600.avif?quality=90&strip=all&crop=0,0,100,100",
+      "status": "pending",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:e7a80d87e8606cee69a815d06e2848b2e420fab4398892381db73d78ffc01e50",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "display_title": "بررسی جدید نشان می‌دهد: مدل‌های هوش مصنوعی گروک و چت‌جی‌پی‌تی جهت‌گیری سیاسی متفاوتی دارند",
+      "display_summary": "یک پژوهش تازه نشان می‌دهد که مدل هوش مصنوعی گروک (Grok) متعلق به شرکت اسپیس‌اکس‌ای‌آی (SpaceXAI) تمایل شدیدی به انتخاب نامزدهای جمهوری‌خواه دارد، در حالی که مدل جی‌پی‌تی (GPT) از شرکت اوپن‌ای‌آی (OpenAI) بیشتر نامزدهای دموکرات را برمی‌گزیند. این دو مدل در بررسی نزدیک به ۵۰۰ رقابت انتخاباتی، در بیش از ۹۰ درصد موارد با یکدیگر اختلاف نظر داشتند.",
+      "message": "<b>📰 بررسی جدید نشان می‌دهد: مدل‌های هوش مصنوعی گروک و چت‌جی‌پی‌تی جهت‌گیری سیاسی متفاوتی دارند</b>\n\nیک پژوهش تازه نشان می‌دهد که مدل هوش مصنوعی گروک (Grok) متعلق به شرکت اسپیس‌اکس‌ای‌آی (SpaceXAI) تمایل شدیدی به انتخاب نامزدهای جمهوری‌خواه دارد، در حالی که مدل جی‌پی‌تی (GPT) از شرکت اوپن‌ای‌آی (OpenAI) بیشتر نامزدهای دموکرات را برمی‌گزیند. این دو مدل در بررسی نزدیک به ۵۰۰ رقابت انتخاباتی، در بیش از ۹۰ درصد موارد با یکدیگر اختلاف نظر داشتند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بر اساس یک پژوهش جدید انجام‌شده توسط استودیوی پژوهشی و طراحی کانووو (Convovo) به سرپرستی تپان پاریک (Tapan Parikh)، استاد دانشگاه کرنل (Cornell University)، مدل‌های هوش مصنوعی پیشرو جهان یعنی گروک (Grok) و جی‌پی‌تی (GPT) هنگام مواجهه با انتخاب‌های سیاسی، جهت‌گیری‌های متفاوتی از خود نشان می‌دهند. در این پژوهش مشخص شد که مدل گروک ۴.۷ متعلق به شرکت اسپیس‌اکس‌ای‌آی (SpaceXAI) در ۹۲ درصد موارد نامزدهای جمهوری‌خواه را پیشنهاد کرده و در مقابل، مدل جی‌پی‌تی-۶.۱ سول (GPT-6.1 Sol) ساخت شرکت اوپن‌ای‌آی (OpenAI) در ۹۷ درصد موارد به سراغ نامزدهای دموکرات رفته است. این بررسی که روی نزدیک به ۵۰۰ رقابت انتخاباتی انجام شد، نشان داد که این دو مدل در کمتر از ۱۰ درصد موارد نظرات همسویی داشته‌اند. اگرچه برنامه‌های کاربری مصرف‌کننده معمولاً از پاسخ مستقیم به پرسش‌های انتخاباتی امتناع می‌کنند، اما این پژوهش از طریق رابط‌های برنامه‌نویسی کاربردی یا همان ای‌پی‌آی (API) به بررسی دقیق‌تر مدل‌ها پرداخت. سخنگوی شرکت اوپن‌ای‌آی (OpenAI) در این رابطه توضیح داد که ای‌پی‌آی (API) توسعه‌دهندگان منعکس‌کننده تجربه کاربری عمومی نیست و برنامه‌هایی مانند چت‌جی‌پی‌تی (ChatGPT) به‌گونه‌ای طراحی شده‌اند که در گفتگوهای سیاسی بی‌طرف بمانند. با این حال، تپان پاریک (Tapan Parikh) تأکید کرد که این بررسی‌ها وجود ارزش‌های پنهان و الگوهای جستجوی متفاوت را در مدل‌های هوش مصنوعی آشکار می‌کند. نتایج این تحقیق نشان داد منابعی که هر هوش مصنوعی برای تصمیم‌گیری استفاده می‌کند به‌شدت تحت تأثیر جهت‌گیری‌های خاص است. مدل گروک (Grok) بیشتر به منابع محافظه‌کارانه و شبکه‌های اجتماعی از جمله پلتفرم ایکس (X) استناد می‌کرد، در حالی که مدل جی‌پی‌تی (GPT) به منابعی همچون ویکی‌پدیا (Wikipedia)، آسوشیتد پرس (Associated Press)، اکسیوس (Axios) و ردیت (Reddit) متکی بود. همچنین تفاوت چشمگیری در موضوعات جستجو شده توسط دو مدل وجود داشت؛ به طوری که مدل جی‌پی‌تی (GPT) بیشتر بر مسائل بهداشت و درمان و سقط جنین تمرکز داشت، در حالی که مدل گروک (Grok) موضوعات مهاجرت، مالیات، جرم و جنایت و انرژی را در اولویت قرار می‌داد. این یافته‌ها بار دیگر نگرانی‌ها پیرامون سوگیری‌های سیاسی پنهان در مدل‌های زبانی بزرگ را افزایش داده است. مرکز امنیت هوش مصنوعی (Center for AI Safety) پیش‌تر هشدار داده بود که این مدل‌ها می‌توانند کاربران را به سمت دیدگاه‌های سیاسی خاص هدایت کنند. با نزدیک شدن به انتخابات میان‌دوره‌ای، این بحث‌ها اهمیت دوچندانی یافته است؛ به ویژه با توجه به اینکه چهره‌هایی چون ایلان ماسک (Elon Musk) مدیرعامل اسپیس‌اکس‌ای‌آی (SpaceXAI) و سام آلتمن (Sam Altman) مدیرعامل اوپن‌ای‌آی (OpenAI) بارها در کانون توجه تحولات سیاسی و فناوری بوده‌اند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:e802392f2f096dfec92dfd41a5bc380f9e84c81755be1bd2f765cb03be3949d6",
+      "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+      "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+      "summary": "Lindsay Powell, who releases records under the name Fielded, has spent most of her career subverting expectations and genre conventions. According to their Bandcamp page, Fielded started as an experimental noise project before growing into something closer to R&#38;B. But from moment one, her take on the genre was restless, relentlessly playing with what R&#38;B [&#8230;]",
+      "display_title": "نگاهی به دنیای موسیقی فیلدید؛ از کلاهبرداران تا سایبرپانک ژاپنی",
+      "display_summary": "لیندسی پاول (Lindsay Powell) با نام هنری فیلدید (Fielded)، در جدیدترین آلبوم خود به نام «سایه‌ای از یک حیوان» (Some Kind of Animal)، مرزهای سبک‌های مختلف موسیقی را جابجا کرده است. او در یک مصاحبه جدید از علاقه‌اش به داستان‌های کلاهبرداران و سینمای سایبرپانک ژاپنی سخن گفته است.",
+      "message": "<b>📰 نگاهی به دنیای موسیقی فیلدید؛ از کلاهبرداران تا سایبرپانک ژاپنی</b>\n\nلیندسی پاول (Lindsay Powell) با نام هنری فیلدید (Fielded)، در جدیدترین آلبوم خود به نام «سایه‌ای از یک حیوان» (Some Kind of Animal)، مرزهای سبک‌های مختلف موسیقی را جابجا کرده است. او در یک مصاحبه جدید از علاقه‌اش به داستان‌های کلاهبرداران و سینمای سایبرپانک ژاپنی سخن گفته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>لیندسی پاول (Lindsay Powell) که آثار خود را با نام هنری فیلدید (Fielded) منتشر می‌کند، در طول سال‌های فعالیت حرفه‌ای خود همواره تلاش کرده است تا چارچوب‌ها و انتظارات مرسوم در دنیای موسیقی را به چالش بکشد. این هنرمند کار خود را به عنوان یک پروژه تجربی در سبک نویز آغاز کرد و به تدریج به سمت سبک آراندبی (R&amp;B) و ژانرهای تلفیقی حرکت نمود. در جدیدترین اثر او با عنوان «سایه‌ای از یک حیوان» (Some Kind of Animal)، ردپایی از تمام تجربه‌های گذشته فیلدید دیده می‌شود؛ از قطعات آرام و ریتمیک گرفته تا موسیقی فانک صنعتی. او در مصاحبه‌ای با وب‌سایت «د ورج» (The Verge)، به ابعاد مختلف فرآیند خلاقانه خود پرداخته است. فیلدید اشاره کرد که در ضبط آثارش به شدت به کارت صدا و تجهیزات یونیورسال آدیو (Universal Audio) وابسته است و از افزونه‌های دیجیتال آن‌ها برای دستیابی به صدایی حرفه‌ای استفاده می‌کند. نکته جالب توجه در زندگی شخصی و هنری این هنرمند، علاقه عمیق او به داستان‌های مربوط به کلاهبرداران و فریبکاران است. او مطالعه درباره ذهنیت این افراد و پرونده‌های کلاهبرداری را بسیار جذاب می‌داند و حتی کتاب مقالاتی از آلیسا بنت (Alissa Bennett) با نام «راهنمای تاکسیدرمیست» (Taxidermist’s Handbook) را که درباره کلاهبرداران و مجرمان است، مطالعه کرده است. علاوه بر این، پاول به فیلم‌های سایبرپانک ژاپنی همچون «پینوکیو ۹۶۴» (964 Pinocchio) علاقه دارد و از فضای بصری و صوتی آن‌ها برای الهام‌گرفتن در کارهای موسیقی خود بهره می‌برد. در پایان، فیلدید درباره آینده هنر و چالش‌های تکنولوژیک نیز دیدگاه ص محسوبی دارد و ابراز امیدواری کرده است که ابزارهای هوش مصنوعی (AI) تأثیر مخربی بر خلاقیت انسان نگذارند. آلبوم جدید او نشان‌دهنده پختگی هنری و رویکرد بدون مرز او در ساخت موسیقی است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/fielded_pressphoto_6-Fielded.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:1f7c0dc399cc30f3a2dec2325284dbbd6ce742bc149e924afb03b4b5d3c15385",
+      "url": "https://www.engadget.com/2291408/how-to-test-cr2032-battery-see-if-good/",
+      "title": "Here's how to test a CR2032 battery to see if it's good",
+      "summary": "CR2032 batteries are found in a lot of gadgets around your home. They're easy to test when they run low, especially if you have the appropriate devices.",
+      "display_title": "آموزش نحوه تست کردن باتری سی‌آر۲۰۳۲ برای اطمینان از سلامت آن",
+      "display_summary": "باتری‌های سکه‌ای سی‌آر۲۰۳۲ (CR2032) در بسیاری از گجت‌های خانگی مانند سوییچ خودرو و ردیاب ایرتگ (AirTag) کاربرد دارند. این گزارش روش‌های مختلف بررسی میزان ولتاژ و سلامت این باتری‌ها را با استفاده از مولتی‌متر یا ابزارهای جایگزین شرح می‌دهد.",
+      "message": "<b>📰 آموزش نحوه تست کردن باتری سی‌آر۲۰۳۲ برای اطمینان از سلامت آن</b>\n\nباتری‌های سکه‌ای سی‌آر۲۰۳۲ (CR2032) در بسیاری از گجت‌های خانگی مانند سوییچ خودرو و ردیاب ایرتگ (AirTag) کاربرد دارند. این گزارش روش‌های مختلف بررسی میزان ولتاژ و سلامت این باتری‌ها را با استفاده از مولتی‌متر یا ابزارهای جایگزین شرح می‌دهد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>باتری‌های سکه‌ای لیتیومی ۳ ولتی مدل سی‌آر۲۰۳۲ (CR2032) در بسیاری از تجهیزات و گجت‌های الکترونیکی پیرامون ما یافت می‌شوند. از این باتری‌ها در سوییچ خودروها، ردیاب‌های ایرتگ (AirTag) شرکت اپل (Apple)، گجت اسمارت‌تگ۲ (SmartTag2) شرکت سامسونگ (Samsung) و برخی سنسورهای خانگی هوشمند استفاده می‌شود. زمانی که این تجهیزات به خوبی کار نمی‌کنند، پیش از متهم کردن خود دستگاه، بررسی باتری درون آن گزینه منطقی‌تری به نظر می‌رسد. بسته به نوع دستگاه و میزان استفاده، عمر یک باتری سی‌آر۲۰۳۲ (CR2032) می‌تواند بیش از یک سال باشد. برای بررسی وضعیت این باتری‌ها، استفاده از یک مولتی‌متر (Multimeter) ابزار مناسبی است که می‌تواند ولتاژ باتری را نمایش دهد، هرچند که خواندن ولتاژ تنها بخشی از تصویر سلامت باتری را نشان می‌دهد. پیش از آغاز هرگونه تست، ظاهر باتری را بررسی کنید. وجود رسوب، لکه‌های زنگ‌زده، تورم یا نشت مایع به معنای لزوم تعویض فوری باتری است. همچنین باید پایه‌های اتصال درون دستگاه را نیز بررسی کنید، زیرا خوردگی در آن قسمت‌ها نیز می‌تواند باعث اختلال در عملکرد دستگاه شود. برای تست با مولتی‌متر، دستگاه را روی حالت ولتاژ جریان مستقیم (DC) تنظیم کنید. پراب مشکی را به پورت کام (COM) و پراب قرمز را به پورت ولتاژ متصل نمایید. باتری را با احتیاط از لبه‌ها نگه دارید، پراب قرمز را روی سطح مثبت (+) و پراب مشکی را روی مرکز سطح منفی (-) در زیر باتری قرار دهید. یک باتری تازه و سالم معمولاً عددی در حدود ۳ ولت را نشان می‌دهد، در حالی که ولتاژ نزدیک به ۲.۵ ولت زمان مناسب برای تعویض آن را اعلام می‌کند. با این حال، مولتی‌متر جریان بسیار کمی مصرف می‌کند و ممکن است باتری روی نمایشگر سالم به نظر برسد اما هنگام نیاز واقعی گجت به جریان برق، دچار افت عملکرد شود. روش‌های دیگری مانند استفاده از تسترهای مخصوص باتری‌های سکه‌ای یا ترفند استفاده از یک دیود نورگسیل یا همان ال‌ئی‌دی (LED) کوچک نیز برای بررسی توانایی نسبی باتری در تأمین جریان وجود دارد. کاربران ردیاب ایرتگ (AirTag) همچنین می‌توانند پیش از باز کردن گجت، وضعیت باتری را از طریق بخش اقلام (Items) در اپلیکیشن فایند مای (Find My) بررسی کنند. شرکت اپل (Apple) توصیه می‌کند هنگام تعویض باتری ایرتگ (AirTag)، به سازگاری بسته‌بندی با این گجت توجه شود، زیرا برخی از باتری‌های سی‌آر۲۰۳۲ (CR2032) دارای روکش‌های تلخ‌کننده هستند که ممکن است مانع اتصال صحیح شوند. در پایان، باتری‌های مستعمل را دور از دسترس کودکان نگهداری کرده و پیش از انتقال به مراکز بازیافت، پایانه‌های آن‌ها را با چسب بپوشانید تا از خطرات احتمالی بلعیده شدن و آسیب‌های جدی داخلی جلوگیری شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/heres-how-to-test-a-cr2032-battery-to-see-if-its-good/l-intro-1792489885.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:8d2e421e5ffdfa21b6a6893c659609673b238e711d661bfb47de8739b699d7d4",
+      "url": "https://www.engadget.com/2291366/why-ring-camera-useful-without-subscription/",
+      "title": "Why your Ring camera is still useful without a subscription",
+      "summary": "Modern smart home cameras and security systems put a lot of features behind a subscription. Here are a few reasons why you don't always need to pay.",
+      "display_title": "چرا دوربین‌های رینگ بدون خرید اشتراک ماهانه نیز کاربردی و مفید هستند؟",
+      "display_summary": "بسیاری از قابلیت‌های پیشرفته دوربین‌های هوشمند خانگی ساخت شرکت رینگ (Ring) نیازمند پرداخت اشتراک ماهانه هستند. با این حال، کاربران می‌توانند حتی بدون پرداخت هزینه و خرید اشتراک نیز از امکانات پایه مانند ارتباط صوتی دوطرفه و پخش زنده بهره‌مند شوند.",
+      "message": "<b>📰 چرا دوربین‌های رینگ بدون خرید اشتراک ماهانه نیز کاربردی و مفید هستند؟</b>\n\nبسیاری از قابلیت‌های پیشرفته دوربین‌های هوشمند خانگی ساخت شرکت رینگ (Ring) نیازمند پرداخت اشتراک ماهانه هستند. با این حال، کاربران می‌توانند حتی بدون پرداخت هزینه و خرید اشتراک نیز از امکانات پایه مانند ارتباط صوتی دوطرفه و پخش زنده بهره‌مند شوند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>امروزه تجهیزات و دوربین‌های نظارتی هوشمند خانگی امکانات متعددی را در اختیار کاربران قرار می‌دهند، اما بسیاری از ویژگی‌های پیشرفته آن‌ها پشت حصار اشتراک‌های ماهانه پنهان شده‌اند. برای مثال، شرکت رینگ (Ring) که از زیرمجموعه‌های شرکت آمازون (Amazon) محسوب می‌شود، سه سطح اشتراک مختلف از قیمت پایه ۴.۹۹ دلار در ماه را ارائه می‌دهد تا کاربران بتوانند به تمام قابلیت‌های امنیتی دسترسی پیدا کنند. با این وجود، اگر نیازی به دسترسی طولانی‌مدت به فایل‌های ویدئویی ذخیره‌شده نداشته باشید، همچنان می‌توانید بدون پرداخت هیچ‌گونه هزینه ماهانه‌ای از این دستگاه‌ها استفاده کنید. بدون داشتن اشتراک، دوربین‌های رینگ (Ring) همچنان به عنوان یک آیفون تصویری و سیستم ارتباطی زنده به کار خود ادامه می‌دهند که در خانه یا بیرون از آن بسیار کاربردی است. قابلیت‌های گفتگوی دوطرفه (Two-Way Talk) و فید زنده (Live Feed) در سناریوهای مختلفی به کمک کاربران می‌آیند. حتی زمانی که در خانه هستید و منتظر فردی می‌باشید، می‌توانید پیش از بلند شدن از جا، دقیقا ببینید چه کسی پشت در است و از طریق اپلیکیشن موبایل با او صحبت کنید. این ویژگی برای والدین و افرادی که از حیوانات خانگی نگهداری می‌کنند نیز گزینه‌ای ایده‌آل است تا بدون نیاز به پرداخت هزینه‌های اضافی، مراقب کودکان یا حیوانات خود باشند. با این حال، دوربین‌های رینگ (Ring) طی سال‌های گذشته با چالش‌ها و حاشیه‌هایی در زمینه حریم خصوصی مواجه بوده‌اند. قابلیت تشخیص چهره آشنا (Familiar Faces) که از فناوری هوش مصنوعی برای شناسایی دوستان و آشنایان استفاده می‌کند، اخیراً منجر به طرح دعوای حقوقی علیه شرکت‌های آمازون (Amazon) و رینگ (Ring) شده است؛ بر اساس این شکایت، ادعا شده که اطلاعات تشخیص چهره عابران بدون اطلاع آن‌ها جمع‌آوری شده است. همچنین شراکت این شرکت با شرکت امنیت سایبری فلاک سیفتی (Flock Safety) انتقاداتی را به همراه داشت که در نهایت به تغییراتی در رویکردهای امنیتی انجامید. در همین راستا، آمازون به‌تازگی بروزرسانی نرم‌افزاری جدیدی تحت عنوان رمزگذاری حذف کلید (TAKE) را معرفی کرده است که به گفته این شرکت، ویدئوهای رینگ (Ring) را با کلیدهای رمزگذاری چرخشی منحصربه‌فرد محافظت می‌کند تا کنترل دسترسی کاملاً در اختیار کاربر باشد. در مجموع، اگرچه برای دسترسی به آرشیو ویدئوهای ضبط‌شده و مقابله با سرقت بسته‌های پستی خرید اشتراک توصیه می‌شود، اما دوربین‌های رینگ (Ring) حتی در حالت رایگان نیز ابزارهای کارآمدی برای نظارت بر منزل، ارتباط با مراجعان و تامین آرامش خاطر کاربران به شمار می‌روند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/why-your-ring-camera-is-still-useful-without-a-subscription/l-intro-1791283019.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:ef01267b7cf31448b09bd1820a1082840b1105fcf3a010b2120daf7604993f90",
+      "url": "https://www.engadget.com/2290702/get-better-iphone-battery-life-without-closing-apps/",
+      "title": "How to get better iPhone battery life without closing any apps",
+      "summary": "Apple has added a host of battery-management features to the iPhone over the years.",
+      "display_title": "چگونه بدون بستن برنامه‌ها، طول عمر باتری آیفون را افزایش دهیم؟",
+      "display_summary": "بر خلاف تصور عموم، بستن مکرر برنامه‌ها در پس‌زمینه تأثیر چندانی در کاهش مصرف باتری آیفون ندارد. شرکت اپل (Apple) راهکارهای کاربردی و علمی‌تری مانند مدیریت روشنایی صفحه، تنظیمات اتصال و قابلیت‌های بهینه‌سازی انرژی را برای افزایش طول عمر باتری پیشنهاد می‌کند.",
+      "message": "<b>📰 چگونه بدون بستن برنامه‌ها، طول عمر باتری آیفون را افزایش دهیم؟</b>\n\nبر خلاف تصور عموم، بستن مکرر برنامه‌ها در پس‌زمینه تأثیر چندانی در کاهش مصرف باتری آیفون ندارد. شرکت اپل (Apple) راهکارهای کاربردی و علمی‌تری مانند مدیریت روشنایی صفحه، تنظیمات اتصال و قابلیت‌های بهینه‌سازی انرژی را برای افزایش طول عمر باتری پیشنهاد می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بدون در نظر گرفتن میزان شارژدهی اولیه آیفون (iPhone)، اکثر کاربران تمایل دارند باتری گوشی هوشمندشان دوام بیشتری داشته باشد. با گذشت زمان، کیفیت باتری‌های لیتیوم-یونی به طور طبیعی کاهش می‌یابد، اما شیوه‌های استفاده روزمره کاربران نقش بسیار مهمی در میزان نگهداری شارژ ایفا می‌کند. برخلاف باور رایج، بستن برنامه‌هایی که در پس‌زمینه باز هستند لزوماً به معنای کاهش مصرف انرژی نیست؛ زیرا سیستم‌عامل آی‌اواس (iOS) مدیریت حافظه و پردازش‌ها را به صورت بهینه انجام می‌دهد. با این حال، روش‌های مؤثرتری برای بهینه‌سازی مصرف باتری وجود دارد که نیاز به بستن دستی برنامه‌ها ندارد. مدیریت فعالیت‌های پس‌زمینه و خدمات موقعیت‌یابی برنامه‌های فعال در پس‌زمینه همیشه مقصر اصلی خالی شدن باتری نیستند، اما محدود کردن دسترسی آن‌ها به منابع سیستم می‌تواند کمک‌کننده باشد. قابلیت «بروزرسانی برنامه‌ها در پس‌زمینه» (Background App Refresh) به نرم‌افزارها اجازه می‌دهد حتی زمانی که از آن‌ها استفاده نمی‌کنید، داده‌های جدید را از اینترنت دریافت کرده و خود را به‌روزرسانی کنند. غیر فعال کردن این ویژگی از فعالیت‌های اضافی جلوگیری کرده و انرژی زیادی را ذخیره می‌کند. علاوه بر این، کاربران می‌توانند در تنظیمات اختصاصی هر برنامه، دسترسی به خدمات موقعیت‌یابی (Location Services) را تنها به زمان استفاده از آن اپلیکیشن محدود کنند. بهینه‌سازی تنظیمات صفحه نمایش شرکت اپل (Apple) گام‌های اولیه متعددی را برای افزایش طول عمر باتری توصیه می‌کند. نخستین اقدام، تنظیم دستی روشنایی صفحه روی کمترین سطح ممکن یا استفاده از قابلیت روشنایی خودکار (Auto-Brightness) است. استفاده از روشنایی خودکار گزینه بهتری است زیرا دستگاه به طور هوشمند نور صفحه را با محیط تطبیق می‌دهد. دومین توصیه کلیدی، روشن نگهداشتن همیشه وای‌فای (Wi-Fi) است، زیرا اتصال به شبکه‌های بی‌سیم نسبت به شبکه‌های تلفن همراه انرژی کمتری مصرف می‌کند. علاوه بر روشنایی، تغییر سایر تنظیمات نمایشگر نیز تأثیر چشمگیری دارد. غیرفعال کردن قابلیت صفحه نمایش همیشه روشن (Always-On Display) فشار مداوم بر باتری را کاهش می‌دهد. همچنین فعال کردن حالت تیره (Dark Mode) در گوشی‌هایی که دارای صفحه نمایش اولد (OLED) هستند، انرژی را به طور قابل‌توجهی ذخیره می‌کند؛ زیرا فناوری اولد پیکسل‌های مشکی را کاملاً خاموش می‌کند. کاهش نرخ تازه‌سازی تصویر (Limit Frame Rate) نیز با تنظیم نرخ بر روی ۶۰ هرتز به جای ۱۲۰ هرتز پروماشن (ProMotion)، تعداد دفعات تازه‌سازی صفحه را در طول روز کاهش می‌دهد، هرچند این تغییر ممکن است برای کاربرانی که به روانی ۱۲۰ هرتز عادت کرده‌اند محسوس باشد. تنظیمات پیشرفته شارژ و مدیریت توان دستگاه‌های آیفون (iPhone) مجهز به ابزارهایی برای مدیریت مستقیم توان مصرفی و فرایند شارژ هستند. با فعال کردن قابلیت قدرت تطبیقی (Adaptive Power)، گوشی الگوی استفاده کاربر را تحلیل کرده و مواردی مانند روشنایی صفحه و داده‌های پس‌زمینه را بهینه‌سازی می‌کند تا در زمان‌هایی که به حداکثر توان دستگاه نیاز نیست، مصرف باتری کاهش یابد. حالت صرفه‌جویی در انرژی (Low Power Mode) نیز تغییرات مشابهی ایجاد می‌کند اما تأثیر سنگین‌تری بر عملکرد پردازشی دارد. در درازمدت، ظرفیت باتری برای نگهداری شارژ افت می‌کند. فعال کردن قابلیت شارژ بهینه (Optimized Charging) با متوقف کردن روند شارژ در حد ۸۰ درصد تا زمان نیاز واقعی کاربر، از فرسودگی زودهنگام باتری جلوگیری می‌کند. به طور کلی، نگه داشتن سطح شارژ باتری بین ۲۰ تا ۸۰ درصد به جای تخلیه کامل یا شارژ صد درصدی، یکی از بهترین راهکارها برای افزایش طول عمر مفید باتری آیفون (iPhone) است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-get-better-iphone-battery-life-without-closing-any-apps/l-intro-1792433821.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:f146283a9b44a5921904a474ec5bceb3d0b266e6f624d6a0a18ce4c17525b7d5",
+      "url": "https://www.engadget.com/2290640/anker-charger-iq-meaning-purpose/",
+      "title": "The beneficial purpose of 'IQ' on your Anker chargers",
+      "summary": "Anker's PowerIQ technology helps identify and charge your devices more efficiently.",
+      "display_title": "آشنایی با فناوری «پاورآی‌کیو (PowerIQ)» روی شارژرهای شرکت انکر (Anker)",
+      "display_summary": "فناوری «پاورآی‌کیو (PowerIQ)» متعلق به شرکت انکر (Anker) به شارژرها اجازه می‌دهد تا نوع دستگاه متصل را شناسایی کرده و ولتاژ خروجی را برای شارژ بهینه و ایمن تنظیم کنند. این فناوری اختصاصی با استانداردهای رایج دیگری مانند «پاور دیلیوری (Power Delivery)» و «کوئیک شارژ (Quick Charge)» سازگاری دارد تا سرعت و امنیت شارژ دستگاه‌ها بهبود یابد.",
+      "message": "<b>📰 آشنایی با فناوری «پاورآی‌کیو (PowerIQ)» روی شارژرهای شرکت انکر (Anker)</b>\n\nفناوری «پاورآی‌کیو (PowerIQ)» متعلق به شرکت انکر (Anker) به شارژرها اجازه می‌دهد تا نوع دستگاه متصل را شناسایی کرده و ولتاژ خروجی را برای شارژ بهینه و ایمن تنظیم کنند. این فناوری اختصاصی با استانداردهای رایج دیگری مانند «پاور دیلیوری (Power Delivery)» و «کوئیک شارژ (Quick Charge)» سازگاری دارد تا سرعت و امنیت شارژ دستگاه‌ها بهبود یابد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در بازار پر از اصطلاحات فنی و شعارهای بازاریابی لوازم الکترونیکی، شناخت قابلیت‌های واقعی گجت‌ها اهمیت زیادی دارد. این موضوع به‌ویژه در خرید شارژرها و باتری‌ها برجسته‌تر است، چرا که انتخاب نادرست می‌تواند به دستگاه‌های کاربران آسیب بزند یا روند شارژ را مختل کند. برچسب «پاورآی‌کیو (PowerIQ)» سال‌هاست که روی شارژرهای شرکت انکر (Anker) دیده می‌شود و آشنایی با کارکرد آن پیش از خرید هر محصولی بسیار مفید است. شارژرها و تجهیزات الکترونیکی از استانداردهای متنوعی برای انتقال و دریافت انرژی استفاده می‌کنند. احتمالاً نام‌هایی مانند «کوئیک شارژ (Quick Charge)» یا به‌اختصار «کی‌سی (QC)» و «پاور دیلیوری (Power Delivery)» یا به‌اختصار «پی‌دی (PD)» را در مشخصات محصولات مختلف دیده‌اید. فناوری «پاورآی‌کیو (PowerIQ)» یا «پی‌آی‌کیو (PIQ)» یک فناوری اختصاصی از شرکت انکر (Anker) است که نحوه ارسال جریان برق از شارژر به باتری دستگاه متصل را مدیریت می‌کند. بر اساس اعلام شرکت انکر (Anker)، شارژرهای مجهز به فناوری «پاورآی‌کیو (PowerIQ)» قادرند دستگاه متصل را به‌طور خودکار شناسایی کرده و خروجی برق را بر اساس بهترین ولتاژ مورد نیاز آن تنظیم کنند. این مکانیزم به شارژرها اجازه می‌دهد تا دستگاه‌ها را با سرعت بالا و در عین حال به ایمن‌ترین شکل ممکن شارژ کنند، بدون آنکه ولتاژ اضافی به باتری آسیب برساند. البته شارژ سریع همواره با مقداری استهلاک درازمدت برای باتری همراه است و اگرچه این فناوری می‌تواند خطرات ناشی از نوسانات را کاهش دهد، اما حذف کامل اثرات جانبی شارژ سریع امکان‌پذیر نیست. با این حال، شارژرهای دارای فناوری «پاورآی‌کیو (PowerIQ)» لزوماً از استانداردهای دیگر سریع‌تر نیستند. سرعت شارژ بیش از هر چیز به حداکثر توان پذیرش توسط دستگاه مقصد بستگی دارد. برای نمونه، اگر دستگاهی حداکثر از توان ۱۲ وات پشتیبانی کند، اتصال آن به یک شارژر قدرتمند ۱۰۰ واتی تغییری در سرعت شارژ ایجاد نخواهد کرد. علاوه بر این، همه دستگاه‌ها با تمام استانداردها سازگار نیستند؛ استاندارد «پاور دیلیوری (Power Delivery)» رایج‌ترین گزینه است، در حالی که «کوئیک شارژ (Quick Charge)» نیز به‌طور گسترده در گوشی‌های اندرویدی (Android) به کار می‌رود. خوشبختانه در سال‌های اخیر این مرزها کم‌رنگ‌تر شده‌اند، زیرا نسخه‌های جدیدتر استانداردهای «پاور دیلیوری (Power Delivery)» و «کوئیک شارژ (Quick Charge)» تا حد زیادی با یکدیگر سازگاری متقابل دارند. این موضوع درباره فناوری «پاورآی‌کیو (PowerIQ)» نیز صدق می‌کند و جدیدترین نسخه آن یعنی «پی‌آی‌کیو ۴.۰ (PIQ 4.0)» با استانداردهای «کوئیک شارژ (Quick Charge)» و «پاور دیلیوری ۳.۰ (Power Delivery 3.0)» سازگار است؛ به این معنا که شارژرهای جدید این شرکت می‌توانند عملاً هر دستگاهی را با سرعت بالا شارژ کنند. در مدل‌های جدیدتر شارژرهای شرکت انکر (Anker)، نمایشگرهایی تعبیه شده است که اطلاعات لحظه‌ای درباره روند شارژ دستگاه‌ها ارائه می‌دهند. از آنجا که شارژرهای مجهز به «پاورآی‌کیو (PowerIQ)» وضعیت دستگاه متصل را به‌طور مداوم رصد می‌کنند، این نمایشگرها قادرند اطلاعاتی نظیر میزان توان مصرفی (وات) و درجه حرارت را به صورت زنده به نمایش بگذارند. اگرچه دسترسی به این اطلاعات شاید برای همه کاربران ضروری نباشد، اما مشاهده آن در یک نگاه خالی از لطف نیست.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/the-beneficial-purpose-of-iq-on-your-anker-chargers/l-intro-1792432015.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -6731,56 +6774,6 @@
       ]
     },
     {
-      "item_id": "9e0255df28edae29b3b568e9e5f25711a9522d6f31fc2794a26f6501ea4623e2",
-      "title": "These clever apps show off the iPhone Duo’s potential",
-      "url": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
-      "summary": "From retro cassette players and virtual notebooks to flight trackers and even a digital toaster, developers are finding creative ways to take advantage of Apple's first foldable iPhone.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-24T15:00:00+00:00",
-      "categories": [
-        "Apps",
-        "Apple",
-        "Duo"
-      ]
-    },
-    {
-      "item_id": "0243fc819127b1c06c62d102bd170d8c4612101ea958234c6d069d9a84926003",
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-24T15:00:00+00:00",
-      "categories": [
-        "AI",
-        "Government & Policy",
-        "Elon Musk",
-        "SpaceX",
-        "vote",
-        "Exclusive",
-        "xAI",
-        "sam altman",
-        "OpenAI",
-        "ChatGPT"
-      ]
-    },
-    {
-      "item_id": "184549956f8a79f78cb5d95e5d8aeeba435b93ce3b6eeef65d815af2bfd06853",
-      "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
-      "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
-      "summary": "Lindsay Powell, who releases records under the name Fielded, has spent most of her career subverting expectations and genre conventions. According to their Bandcamp page, Fielded started as an experimental noise project before growing into something closer to R&#38;B. But from moment one, her take on the genre was restless, relentlessly playing with what R&#38;B [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/fielded_pressphoto_6-Fielded.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-24T15:00:00+00:00",
-      "categories": [
-        "Entertainment",
-        "Interview",
-        "Music",
-        "Report"
-      ]
-    },
-    {
       "item_id": "3486b911883bad28579ac930d3a2d880107aea429af05782794ac1a5f8dd019b",
       "title": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
       "url": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
@@ -6792,115 +6785,6 @@
         "Deals",
         "Gadgets",
         "Verge Shopping"
-      ]
-    },
-    {
-      "item_id": "1f7c0dc399cc30f3a2dec2325284dbbd6ce742bc149e924afb03b4b5d3c15385",
-      "title": "Here's how to test a CR2032 battery to see if it's good",
-      "url": "https://www.engadget.com/2291408/how-to-test-cr2032-battery-see-if-good/",
-      "summary": "CR2032 batteries are found in a lot of gadgets around your home. They're easy to test when they run low, especially if you have the appropriate devices.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/heres-how-to-test-a-cr2032-battery-to-see-if-its-good/l-intro-1792489885.jpg",
-      "published_at": "2026-10-24T15:00:00+00:00",
-      "categories": [
-        "Accessories"
-      ]
-    },
-    {
-      "item_id": "8d2e421e5ffdfa21b6a6893c659609673b238e711d661bfb47de8739b699d7d4",
-      "title": "Why your Ring camera is still useful without a subscription",
-      "url": "https://www.engadget.com/2291366/why-ring-camera-useful-without-subscription/",
-      "summary": "Modern smart home cameras and security systems put a lot of features behind a subscription. Here are a few reasons why you don't always need to pay.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/why-your-ring-camera-is-still-useful-without-a-subscription/l-intro-1791283019.jpg",
-      "published_at": "2026-10-24T14:30:00+00:00",
-      "categories": [
-        "Amazon"
-      ]
-    },
-    {
-      "item_id": "b1dd8b67048dc04a17ca56ab4638d0f8af9aa7a574e6bd490098a7ab0b05b937",
-      "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
-      "url": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
-      "summary": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-24T14:15:00+00:00",
-      "categories": [
-        "Hardware",
-        "Gadgets"
-      ]
-    },
-    {
-      "item_id": "00cee50e2bf3f33f4076a6c53a30865f242f2769e3b418f402ea63f67609714c",
-      "title": "What to expect from Apple’s ‘Pro and tell’ event",
-      "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
-      "summary": "It feels like Apple's Welcome Home event just happened. And the iPhone Duo announcement isn't all that far in our rearview mirror, either. Yet, the company is back with another launch, focused on the MacBook Pro, it looks like. Its \"Pro and tell\" event is scheduled for October 28th at 1PM ET in Los Angeles. [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/pro-and-tell.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-24T14:15:00+00:00",
-      "categories": [
-        "Apple",
-        "Apple Event 2026",
-        "Apple Rumors",
-        "Report",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "70e980836c92bb673bc24aa04e358b4cdce6377fa10d1a84bd2d9c94c74aea89",
-      "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
-      "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
-      "summary": "It looks like the long-rumored touchscreen MacBook might actually get announced next week, and after using the Lenovo Yoga 9n for our testing of Nvidia's RTX Spark platform, it got me thinking: this is a lot of what I want from a touchscreen MacBook. Like the Apple silicon in modern MacBook Pros, RTX Spark is [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268814_Nvidia_RTX_Spark_HP_Lenovo_Yoga_9n_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-24T14:00:00+00:00",
-      "categories": [
-        "Apple",
-        "Gadgets",
-        "Laptops",
-        "Lenovo",
-        "macOS",
-        "Microsoft",
-        "Report",
-        "Tech",
-        "Windows"
-      ]
-    },
-    {
-      "item_id": "968c6fc7ffa83500f9a3e8ea149fda404979788b57cbddcc6a970acf3ec85bac",
-      "title": "The MacBook Neo uses an iPhone chip, and it's just good enough",
-      "url": "https://www.engadget.com/2290733/macbook-neo-a18-pro-chip-performance/",
-      "summary": "The MacBook Neo had to make some compromises to meet its price point. And as long as you're aware of them, it offers a solid value.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-macbook-neo-uses-an-iphone-chip-and-its-just-good-enough/l-intro-1792434494.jpg",
-      "published_at": "2026-10-24T14:00:00+00:00",
-      "categories": [
-        "Apple"
-      ]
-    },
-    {
-      "item_id": "ef01267b7cf31448b09bd1820a1082840b1105fcf3a010b2120daf7604993f90",
-      "title": "How to get better iPhone battery life without closing any apps",
-      "url": "https://www.engadget.com/2290702/get-better-iphone-battery-life-without-closing-apps/",
-      "summary": "Apple has added a host of battery-management features to the iPhone over the years.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-to-get-better-iphone-battery-life-without-closing-any-apps/l-intro-1792433821.jpg",
-      "published_at": "2026-10-24T13:45:00+00:00",
-      "categories": [
-        "Apple"
-      ]
-    },
-    {
-      "item_id": "f146283a9b44a5921904a474ec5bceb3d0b266e6f624d6a0a18ce4c17525b7d5",
-      "title": "The beneficial purpose of 'IQ' on your Anker chargers",
-      "url": "https://www.engadget.com/2290640/anker-charger-iq-meaning-purpose/",
-      "summary": "Anker's PowerIQ technology helps identify and charge your devices more efficiently.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-beneficial-purpose-of-iq-on-your-anker-chargers/l-intro-1792432015.jpg",
-      "published_at": "2026-10-24T13:30:00+00:00",
-      "categories": [
-        "Accessories"
       ]
     }
   ]
