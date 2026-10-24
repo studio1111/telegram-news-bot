@@ -2044,44 +2044,29 @@
     "f6ad7ed870a16711a1f0cefeb64a79b8bdd88741f737cd45d88df091e2f3f8b5",
     "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
     "172c870486ad7c2d1e411eaead091d355751ce9acd6be50d35996c196096352b",
-    "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika"
+    "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
+    "3d31d640e24574853e9ecf485eb7c558403ba438e07e9016888b1872d47e3357",
+    "6ca935d0dba04f99f44f4ad588e4ec6f0b714adfe3d4c981e9944304d2cc1291",
+    "d572273cb2547e878c347d67ba3c619b1aa6baf8f42fa5d9c66a176d901d1848",
+    "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+    "https://www.engadget.com/2295856/peak-on-consoles-hockey-roguelites-and-other-new-indie-games-worth-checking-out/",
+    "https://www.engadget.com/2296211/the-uk-is-investing-134-million-into-an-ai-biosecurity-lab/",
+    "0ef367750cbae5d905fd8b3a506e0fa367ccf42e2614f7d5a169b812fb87a6c5",
+    "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users/",
+    "9c262f1b1e0c37303fbee1aabd7d8ec6cf106052bf543433a1a159297321dc95",
+    "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+    "8839652f5ff751ba4cab11db36119355b0f065a91f91f9d4d55b13b2ac0fa4e4",
+    "f9b21a674fd61ad51caec349738f2ed98face5771ac346ebec3ec968524b699f",
+    "https://www.engadget.com/2291599/smart-tv-wifi-faster-than-ethernet-speed-isnt-everything/",
+    "https://www.engadget.com/2291739/chance-playstation-5-plugged-into-wrong-hdmi-port/",
+    "afeb8e877c1252ee45d33fc833b147465bf9bdfe2a63562529ab7ba4b8db93bb",
+    "https://www.engadget.com/2291533/what-is-theater-mode-on-apple-watch/",
+    "12653cca73c2cb92e19667f8045859022bf098a2b562151c4db7ef420c7b5eb1",
+    "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+    "46e904da1b0e56693ddf07fd5262dcc5e736d17679a53d5dcc8069d10036ad62",
+    "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/"
   ],
   "published_stories": [
-    {
-      "title": "Anthropic now offers a free vulnerability-finding service for open-source software",
-      "summary": "Anthropic is offering open-source projects a new way to check for vulnerabilities with its OSS Scanner.",
-      "url": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks/",
-      "display_title": "شرکت انتروپیک سرویس رایگان کشف آسیب‌پذیری را برای نرم‌افزارهای متن‌باز راه‌اندازی کرد",
-      "display_summary": "شرکت انتروپیک ابزار جدیدی به نام اسکنر متن‌باز (OSS Scanner) را برای بررسی امنیتی پروژه‌های متن‌باز بدون دریافت هزینه معرفی کرد. این سیستم از مدل‌های پیشرفته هوش مصنوعی برای انجام بررسی‌های دوره‌ای استفاده می‌کند تا به توسعه‌دهندگان در شناسایی خطرات امنیتی کمک کند."
-    },
-    {
-      "title": "Netflix releases trailer for its miniseries about Sam Bankman-Fried's scandal-ridden crypto exchange",
-      "summary": "Watch the trailer for Netflix's The Altruists, a mini-series about the rise and fall of cryptocurrency exchange FTX.",
-      "url": "https://www.engadget.com/2281997/netflix-the-altruists-sam-bankman-fried-trailer/",
-      "display_title": "انتشار تریلر مینی‌سریال نتفلیکس درباره رسوایی صرافی ارز دیجیتال اف‌تی‌اکس",
-      "display_summary": "شرکت نتفلیکس (Netflix) تریلر مینی‌سریال جدید خود به نام «نیکوکاران» (The Altruists) را منتشر کرد که به داستان ظهور و سقوط صرافی ارز دیجیتال اف‌تی‌اکس (FTX) و بنیان‌گذار آن، سم بنکمن-فرید (Sam Bankman-Fried)، می‌پردازد. این مجموعه هشت قسمتی قرار است از تاریخ ۲۸ آبان (November 19) پخش خود را آغاز کند."
-    },
-    {
-      "title": "Remember Orkut? Its founder wants to bring it back",
-      "summary": "Orkut's founder is now taking aim at algorithms and AI-generated content.",
-      "url": "https://techcrunch.com/2026/10/09/remember-orkut-its-founder-wants-to-bring-it-back/",
-      "display_title": "بازگشت احتمالی اورکات (Orkut)؛ بنیان‌گذار شبکه اجتماعی قدیمی به دنبال احیای ارتباطات انسانی است",
-      "display_summary": "اورکات بویوک‌کتن (Orkut Büyükkökten)، بنیان‌گذار شبکه اجتماعی محبوب و قدیمی اورکات (Orkut)، قصد دارد این پلتفرم را با تمرکز بر ارتباطات انسانی واقعی و دوری از محتوای تولید شده توسط هوش مصنوعی احیا کند. او از کاربران خواسته است تا با مراجعه به وب‌سایت اصلی، حمایت خود را برای بازگشت این شبکه اجتماعی اعلام کنند."
-    },
-    {
-      "title": "A16z’s Olivia Moore on the state of consumer AI",
-      "summary": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
-      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
-      "display_title": "وضعیت هوش مصنوعی مصرف‌کننده از نگاه اولیویا مور در شرکت اندرویسن هوروویتز (Andreessen Horowitz)",
-      "display_summary": "اولیویا مور (Olivia Moore)، شریک صندوق سرمایه‌گذاری اندرویسن هوروویتز (Andreessen Horowitz)، در گزارش جدید خود به بررسی ۱۰۰ اپلیکیشن برتر هوش مصنوعی مصرف‌کننده پرداخته است. وی معتقد است صنعت هوش مصنوعی برای رشد پایدار باید به مدل‌های درآمدی فراتر از اشتراک‌های شخصی و هزینه‌های توکن اتکا کند."
-    },
-    {
-      "title": "The AI is in the computer",
-      "summary": "It's gadget season, and a lot of companies are launching a lot of new products. But whether it's Microsoft dropping a high-end laptop, Amazon shipping a fancy Android tablet, or Apple diving headlong into the smart home, the actual strategy appears to be almost always the same. All these companies believe AI assistants and agents [&#8230;]",
-      "url": "https://www.theverge.com/podcast/1008707/amazon-alexa-tablet-googlebooks-apple-vergecast",
-      "display_title": "هوش مصنوعی در بطن رایانه ها؛ بررسی رویکرد جدید شرکت های فناوری در طراحی سخت افزار",
-      "display_summary": "با فرا رسیدن فصل عرضه گجت های جدید، شرکت های بزرگ فناوری مانند مایکروسافت (Microsoft)، آمازون (Amazon) و اپل (Apple) تمرکز اصلی خود را بر ادغام دستیارها و عامل های هوش مصنوعی با سخت افزارهای جدید معطوف کرده اند. این روند پرسش های مهمی را درباره آینده تعامل انسان با رایانه ها و میزان کارایی این ابزارها ایجاد کرده است."
-    },
     {
       "title": "Automattic loses its interim CFO just weeks after boardroom shakeup",
       "summary": "Automattic's interim chief financial officer Jeremy Klaperman has left the company less than a month after taking the role, TechCrunch has learned. Sources say his departure followed a demotion back to his previous position, marking another executive exit amid the organization's leadership turmoil.",
@@ -5546,6 +5531,41 @@
       "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
       "display_title": "استودیو لایکا پس از دو دهه فعالیت، انیمیشن «وایلدوود» را روانه پرده سینماها کرد",
       "display_summary": "استودیو انیمیشن‌سازی لایکا (Laika) با اکران انیمیشن «وایلدوود» (Wildwood)، بزرگ‌ترین پروژه تاریخ خود را به نمایش گذاشت. این اثر که حاصل ترکیبی از فنون سنتی انیمیشن استاپ‌موشن و فناوری‌های نوین است، پس از سال‌ها تلاش و توسعه مستمر توسط «تراویس نایت» (Travis Knight) ساخته شده است."
+    },
+    {
+      "title": "Capcom confirms data breach that affected 11.7 million users",
+      "summary": "Capcom ID is still available to use, but users may see more phishing scam emails.",
+      "url": "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users/",
+      "display_title": "شرکت کپکام (Capcom) تأیید کرد: هک و افشای اطلاعات ۱۱.۷ میلیون کاربر",
+      "display_summary": "شرکت بازی‌سازی کپکام (Capcom) تأیید کرد که در پی یک نفوذ امنیتی غیرمجاز، اطلاعات بیش از ۱۱.۷ میلیون کاربر حساب کاربری کپکام (Capcom ID) در معرض خطر قرار گرفته است. این شرکت اعلام کرده است که اگرچه اطلاعات مالی و کارت‌های اعتباری کاربران لو نرفته است، اما کاربران باید مراقب ایمیل‌های کلاهبرداری فیشینگ (Phishing) باشند."
+    },
+    {
+      "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+      "summary": "Instacart might sell itself to a larger competitor.",
+      "url": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+      "display_title": "بررسی احتمال فروش اینستاکارت (Instacart)؛ مذاکرات با شرکت‌های دوردش (DoorDash) و اوبر (Uber)",
+      "display_summary": "گزارش‌های تازه حاکی از آن است که شرکت تحویل خواربار اینستاکارت (Instacart) برای بررسی گزینه‌های استراتژیک خود و احتمال فروش، با شرکت‌های بزرگ فناوری و تحویل کالا از جمله دوردش (DoorDash) و اوبر (Uber) مذاکره کرده است. این خبر باعث جهش ارزش سهام اینستاکارت (Instacart) در بازار بورس شد."
+    },
+    {
+      "title": "What is Theater Mode on your Apple Watch and when should you use it?",
+      "summary": "There are various ways to silence your Apple Watch when you need to lock in. Theater Mode doesn't quite go as far as Do Not Disturb, but it's still very useful.",
+      "url": "https://www.engadget.com/2291533/what-is-theater-mode-on-apple-watch/",
+      "display_title": "حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) چیست و چه زمانی باید از آن استفاده کرد؟",
+      "display_summary": "حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) ابزاری کاربردی برای خاموش کردن صفحه نمایش و بی‌صدا کردن اعلان‌ها در محیط‌های ساکت است. این قابلیت از روشن شدن ناخواسته صفحه با حرکت مچ جلوگیری کرده و در عین حال، هپتیک (Haptics) یا همان بازخوردهای لرزشی را حفظ می‌کند."
+    },
+    {
+      "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+      "summary": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare.",
+      "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+      "display_title": "آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی»؛ چگونه یک نقص امنیتی کل اینترنت را تا آستانه بحران برد",
+      "display_summary": "کشف دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی» (PHP) که به مهاجمان اجازه دسترسی غیرمجاز از راه دور را می‌دهد، شرکت‌ها و نهادهای دولتی سراسر جهان را وادار به واکنش فوری کرد. هرچند با انتشار سریع بسته‌های اصلاحی از فاجعه‌ای بزرگ جلوگیری شد، اما این رویداد شکنندگی زیرساخت‌های قدیمی وب را بیش از پیش نمایان کرد."
+    },
+    {
+      "title": "Meta is delaying its controversial new business terms amid scraping concerns",
+      "summary": "Meta drew flak for an upcoming change to its business terms that would allow it to scrape business accounts' content for AI training.",
+      "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
+      "display_title": "متا (Meta) اجرای شرایط تجاری جنجالی جدید خود را به تعویق انداخت",
+      "display_summary": "شرکت متا (Meta) اجرای شرایط تجاری جدید خود را که به دلیل نگرانی‌های مربوط به جمع‌آوری داده‌ها برای هوش مصنوعی با انتقاد مواجه شده بود، به تعویق انداخت. این تصمیم پس از اعتراضات گسترده ناشران و نهادهای صنفی اتخاذ شد تا زمان بیشتری برای شفاف‌سازی فراهم شود."
     }
   ],
   "outbox": [
@@ -5559,61 +5579,6 @@
       "summary": "Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fraud. In December 2025, Shirley published a viral video alleging fraud at daycares in Minnesota that were operated by members [&#8230;]",
       "display_title": "دولت ترامپ پاداش ۱۰ هزار دلاری به یک یوتیوبر داد و برنامه جایزه ۲۵ میلیون دلاری برای گزارش تقلب راه اندازی کرد",
       "display_summary": "دونالد ترامپ و جی‌دی ونس اعلام کردند که دولت ایالات متحده به نیک شرلی، یوتیوبر راست‌گرا، مبلغ ۱۰ هزار دلار پاداش داده و یک برنامه پاداش ۲۵ میلیون دلاری را برای گزارش تقلب توسط شهروندان راه‌اندازی کرده است. این اقدام در حالی صورت می‌گیرد که روش‌های جنجالی این تولیدکننده محتوا در متهم کردن کسب‌وکارها با انتقادات فراوانی مواجه شده است."
-    },
-    {
-      "key": "url:a75db9db31bf9f49302fbb52fb5e7ea203773a23f76111db251c21ffc5222cb8",
-      "url": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
-      "message": "<b>📰 انتخاب رابرت داونی جونیور به عنوان مدیر ارشد تجربه مشتری برای عینک‌های واقعیت افزوده اسنپ</b>\n\nشرکت اسنپ (Snap) در اقدامی جالب، «رابرت داونی جونیور» (Robert Downey Jr)، بازیگر سرشناس نقش مرد آهنی، را به عنوان سفیر برند و مدیر ارشد تجربه مشتری عینک‌های واقعیت افزوده «اسپکس» (Specs) منصوب کرد. این همکاری شامل انتشار ویدیوهایی تبلیغاتی است که در یکی از آن‌ها به رقابت با محصولات شرکت متا (Meta) پرداخته می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اسنپ (Snap) در جدیدترین اقدام خود برای بازاریابی و معرفی عینک‌های واقعیت افزوده جدیدش، با «رابرت داونی جونیور» (Robert Downey Jr)، بازیگر مشهور هالیوود که بیشتر با ایفای نقش «مرد آهنی» (Iron Man) شناخته می‌شود، قرارداد همکاری امضا کرد. بر اساس این توافق، رابرت داونی جونیور به عنوان «مدیر ارشد تجربه مشتری» عینک‌های «اسپکس» (Specs) فعالیت خواهد کرد و شرکت اسنپ چندین ویدیوی تبلیغاتی با حضور او منتشر کرده است. در این ویدیوها، رابرت داونی جونیور قابلیت‌های مختلف عینک واقعیت افزوده اسپکس را به نمایش می‌گذارد؛ از جمله استفاده از آن به عنوان ابزاری برای کمک به تمرین گلف، تمرین هنر و تماشای خصوصی مسابقات هنرهای رزمی ترکیبی (MMA) در رختخواب. یکی از نکات جالب توجه در این ویدیوها این است که او محتویات جعبه‌ای با برچسب «عینک‌های هوش مصنوعی» را درون سطل زباله می‌ریزد که کنایه‌ای آشکار به عینک‌های هوشمند محبوب شرکت متا (Meta) محسوب می‌شود. طبق بیوبلاگ منتشر شده توسط شرکت اسنپ، رابرت داونی جونیور در قالب این همکاری «در کنار تیم اسپکس کار خواهد کرد تا بررسی کند واقعیت افزوده چگونه می‌تواند شیوه زندگی و کار مردم را بهبود بخشد؛ از تجربه‌های روزمره در زمینه سرگرمی و آموزش گرفته تا کاربردهای تخصصی در حوزه‌های پزشکی، مهندسی و تولید.» رابرت داونی جونیور نیز درباره این همکاری اعلام کرد که پس از آزمایش تقریباً تمام فناوری‌های پوشیدنی عرضه شده در بازار طی ۲۰ سال گذشته و ناامید شدن از آن‌ها، تنها پس از ۴۰ ثانیه استفاده از عینک اسپکس کاملاً به آن علاقه‌مند شده است. علاوه بر این بازیگر سرشناس، شرکت اسنپ چهره‌های سرشناس دیگری مانند «ایموگن هپ» (Imogen Heap)، موزیسین، و «جیمی باتلر» (Jimmy Butler)، ستاره مسابقات بسکتبال ان‌بی‌ای (NBA)، را نیز برای کمک به تبلیغ عینک‌های اسپکس به خدمت گرفته است. عینک‌های واقعیت افزوده اسپکس قرار است پاییز امسال با قیمت ۲۱۹۵ دلار به بازار عرضه شوند و هم‌اکنون امکان پیش‌خرید آن‌ها فراهم شده است. این عینک‌ها با قیمت بالای خود و بهره‌گیری از چهره‌های سرشناس، نشان‌دهنده تلاش جدی اسنپ برای ورود قدرتمند به بازار فناوری‌های پوشیدنی و رقابت با سایر غول‌های فناوری است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/videoframe_10042.png?quality=90&strip=all&crop=0,0,100,100",
-      "status": "sent",
-      "title": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
-      "summary": "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has published several videos featuring Downey showcasing the capabilities of the new glasses, including as a tool to get help with a putt, practice art, [&#8230;]",
-      "display_title": "انتخاب رابرت داونی جونیور به عنوان مدیر ارشد تجربه مشتری برای عینک‌های واقعیت افزوده اسنپ",
-      "display_summary": "شرکت اسنپ (Snap) در اقدامی جالب، «رابرت داونی جونیور» (Robert Downey Jr)، بازیگر سرشناس نقش مرد آهنی، را به عنوان سفیر برند و مدیر ارشد تجربه مشتری عینک‌های واقعیت افزوده «اسپکس» (Specs) منصوب کرد. این همکاری شامل انتشار ویدیوهایی تبلیغاتی است که در یکی از آن‌ها به رقابت با محصولات شرکت متا (Meta) پرداخته می‌شود."
-    },
-    {
-      "key": "url:1425d64459175b929010206b4bdcfd75b1a5126f2430d5b886a969575667cfd8",
-      "url": "https://www.theverge.com/tech/1014063/antigravity-a1-drone-follow-me-watch-ring-control",
-      "message": "<b>📰 کاهش چشمگیر قیمت پهپاد آنتی‌گرَویتی A1 با جایگزینی هدست با کنترل مچی</b>\n\nشرکت آنتی‌گرَویتی (Antigravity) با عرضه یک کیت جدید و حذف هدست واقعیت مجازی گران‌قیمت، قیمت ورود به دنیای پهپاد محبوب آنتی‌گرَویتی A1 (Antigravity A1) را به نصف کاهش داد و آن را به ۷۹۹ دلار رساند. این کیت جدید شامل یک ساعت هوشمند و انگشتر کنترلی است که به پهپاد اجازه می‌دهد به صورت خودکار کاربر را تعقیب کرده و فیلم‌برداری کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت آنتی‌گرَویتی (Antigravity) با معرفی یک کیت جدید با عنوان «دنبال من» (Follow Me)، قیمت پایه پهپاد خود را به نصف کاهش داد و به ۷۹۹ دلار رساند. پهپاد آنتی‌گرَویتی A1 (Antigravity A1) که سال گذشته به عنوان یکی از بهترین پهپادهای مبتدی بازار شناخته شد، پیش‌تر نیازمند استفاده از هدست‌های پرواز اول شخص (FPV) و مجموعه‌ای گران‌قیمت با قیمت بیش از ۱۵۹۹ دلار بود. اکنون با حذف این هدست و کنترلر حرکتی، کاربران می‌توانند با استفاده از یک ساعت هوشمند و یک انگشتر، پهپاد خود را به یک فیلم‌بردار رباتیک تبدیل کنند. کیت جدید به کاربران اجازه می‌دهد بدون نیاز به بستن چشم خود به روی دنیای واقعی از طریق هدست، پهپاد را از کیف خارج کرده، با یک دکمه از روی دست پرتاب کنند و به پیاده‌روی یا دوچرخه‌سواری بپردازند؛ در حالی که پهپاد به صورت خودکار به فیلم‌برداری و تعقیب آن‌ها مشغول است. ساعت هوشمند همراه این کیت دارای یک صفحه نمایش لمسی است که پیش‌نمایشی از دید پهپاد را نشان می‌دهد و به کاربر اجازه می‌دهد با حرکات دست یا لمس صفحه، زاویه دید یا جهت حرکت پهپاد را تنظیم کند. انگشتر همراه نیز به عنوان یک دکمه تکمیلی برای پرتاب و جابجایی تک‌دستی پهپاد عمل می‌کند. با وجود پیشرفت‌های چشمگیر در طراحی و کاهش قیمت، بررسی‌های اولیه نشان می‌دهد که سیستم‌های خودمختار این پهپاد هنوز با چالش‌هایی روبرو هستند. در تست‌های انجام‌شده توسط وب‌سایت «ورج» (The Verge)، مواردی از برخورد با موانع باریک مانند سیم‌های برق یا شاخه‌های نازک گزارش شده و سیستم تعقیب خودکار در برخی موقعیت‌ها مانند عبور از تپه‌های مرتفع نیاز به دقت بیشتری دارد. با این حال، محافظ‌های پروانه جدید و قابلیت ذخیره‌سازی خودکار آخرین ثانیه‌های ویدیوی پیش از سقوط روی ساعت هوشمند، از ویژگی‌های مثبت این به‌روزرسانی به شمار می‌روند. در مجموع، کیت جدید آنتی‌گرَویتی A1 گامی مهم در جهت ساده‌سازی استفاده از پهپادهای فیلم‌برداری برای کاربران عادی و علاقه‌مندان به ثبت تصاویر ورزشی و روزمره است. مالکان قبلی این پهپاد نیز می‌توانند لوازم جانبی جدید را به صورت جداگانه تهیه کنند تا از قابلیت‌های کنترل مچی بهره‌مند شوند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-antigravity-a1-sean-hollister-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "status": "sent",
-      "title": "Antigravity just halved the price of its drone — by swapping its headset for wristwatch control",
-      "summary": "Last year's Antigravity A1 is the best beginner drone I've ever tried. I put a friend who'd never flown into its virtual cockpit and didn't worry one bit. The A1's also nice for people who'd prefer to think about flying rather than filming, because you can reframe its 360-degree footage after. But until today, that [&#8230;]",
-      "display_title": "کاهش چشمگیر قیمت پهپاد آنتی‌گرَویتی A1 با جایگزینی هدست با کنترل مچی",
-      "display_summary": "شرکت آنتی‌گرَویتی (Antigravity) با عرضه یک کیت جدید و حذف هدست واقعیت مجازی گران‌قیمت، قیمت ورود به دنیای پهپاد محبوب آنتی‌گرَویتی A1 (Antigravity A1) را به نصف کاهش داد و آن را به ۷۹۹ دلار رساند. این کیت جدید شامل یک ساعت هوشمند و انگشتر کنترلی است که به پهپاد اجازه می‌دهد به صورت خودکار کاربر را تعقیب کرده و فیلم‌برداری کند."
-    },
-    {
-      "key": "url:6b1fb47d93a9d500f640df18509de892a026d990292572e78623772e41715097",
-      "url": "https://www.engadget.com/2288598/google-one-useful-features/",
-      "message": "<b>📰 قابلیت‌های پنهان و نادیده‌گرفته‌شده در اشتراک‌های گوگل وان (Google One)</b>\n\nبسیاری از کاربران اشتراک‌های گوگل وان (Google One) را تنها برای افزایش فضای ذخیره‌سازی خریداری می‌کنند، در حالی که این سرویس مزایای متعددی نظیر امکان اشتراک‌گذاری فضا با خانواده، ابزارهای پیشرفته هوش مصنوعی و تخفیف‌ها یا اشتراک‌های رایگان خدمات دیگر را به همراه دارد. بررسی بخش مزایا در تنظیمات حساب کاربری می‌تواند به کاربران کمک کند تا از تمامی امکانات پولی که پرداخت می‌کنند، نهایت استفاده را ببرند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بسیاری از افراد زمانی که اقدام به خرید اشتراک سرویس گوگل وان (Google One) می‌کنند، تنها یک هدف دارند و آن افزایش فضای ذخیره‌سازی حساب کاربری گوگل (Google) است. اگرچه فضای رایگان ۱۵ گیگابایتی گوگل در مقایسه با بسیاری از ارائه‌دهندگان دیگر سخاوتمندانه به نظر می‌رسد، اما این حجم با استفاده از گوگل فوتوز (Google Photos)، گوگل درایو (Google Drive) و جیمیل (Gmail) به سرعت پر می‌شود. با این حال، اگر تنها به فضای ذخیره‌سازی اکتفا کنید، بسیاری از قابلیت‌های ارزشمند این سرویس را از دست خواهید داد. یکی از قابلیت‌های کاربردی گوگل وان، امکان اشتراک‌گذاری فضای ذخیره‌سازی با دوستان و اعضای خانواده است. اگر حجم فضای خریداری‌شده بیشتر از نیاز شخصی شماست، می‌توانید تا پنج نفر دیگر را به یک گروه خانوادگی (Family Group) اضافه کنید و از فضای مشترک بهره‌مند شوید. در این حالت، میزان استفاده هر فرد ابتدا از سهمیه ۱۵ گیگابایتی شخصی خودش کسر می‌شود و سپس به سراغ فضای اشتراکی می‌رود، بدون اینکه کاربران بتوانند به فایل‌های شخصی یکدیگر دسترسی داشته باشند. علاوه بر فضا، طرح‌های پیشرفته‌تر گوگل وان که شامل قابلیت‌های هوش مصنوعی (AI) هستند، امکانات چشمگیری را در اختیار کاربران قرار می‌دهند. کاربران طرح‌های هوش مصنوعی می‌توانند از دسترسی بیشتر به مدل‌های جمنای (Gemini)، ابزارهای پیشرفته در جیمیل، گوگل داکس (Google Docs) و گوگل اسلایدز (Google Slides) بهره‌مند شوند. در سطوح بالاتر و حرفه‌ای‌تر، قابلیت‌هایی نظیر «تحقیق عمیق» (Deep Research) فعال می‌شود که به جمنای اجازه می‌دهد با بررسی منابع مختلف و داده‌های حساب گوگل شما، گزارش‌های جامع و دقیقی تهیه کند. فراتر از هوش مصنوعی و فضای ذخیره‌سازی، مزایای دیگری نیز در این اشتراک‌ها گنجانده شده است. کاربران طرح‌های ۲۰۰ گیگابایتی و بالاتر می‌توانند درصدی از خریدهای خود از فروشگاه گوگل استور (Google Store) را به صورت اعتبار فروشگاهی پس بگیرند. همچنین در طرح‌های سطح بالا، دسترسی به برخی ویژگی‌های گوگل میت (Google Meet) مانند تماس‌های ۲۴ ساعته و ابزارهای پیشرفته تقویم گوگل (Google Calendar) باز می‌شود. برخی طرح‌های رده‌بالا حتی اشتراک سرویس‌های دیگری نظیر یوتیوب پریمیوم (YouTube Premium) یا خدمات خانه هوشمند گوگل را نیز به صورت بسته‌های ترکیبی ارائه می‌دهند. بررسی دقیق بخش مزایا در صفحه گوگل وان می‌تواند به کاربران کمک کند تا از تمامی امکانات پنهان این سرویس بهره‌مند شوند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/3-useful-features-included-with-google-one-that-people-ignore/l-intro-1792146441.jpg",
-      "status": "sent",
-      "title": "3+ useful features included with Google One that people ignore",
-      "summary": "Google One plans originally started off as a way to expand the storage limits for files and photos. Now, they come with more features and additional perks.",
-      "display_title": "قابلیت‌های پنهان و نادیده‌گرفته‌شده در اشتراک‌های گوگل وان (Google One)",
-      "display_summary": "بسیاری از کاربران اشتراک‌های گوگل وان (Google One) را تنها برای افزایش فضای ذخیره‌سازی خریداری می‌کنند، در حالی که این سرویس مزایای متعددی نظیر امکان اشتراک‌گذاری فضا با خانواده، ابزارهای پیشرفته هوش مصنوعی و تخفیف‌ها یا اشتراک‌های رایگان خدمات دیگر را به همراه دارد. بررسی بخش مزایا در تنظیمات حساب کاربری می‌تواند به کاربران کمک کند تا از تمامی امکانات پولی که پرداخت می‌کنند، نهایت استفاده را ببرند."
-    },
-    {
-      "key": "url:fce282284b9ed000a4cf6c2f2843f735cc3e00352e9ffc4a32f9a6f525608421",
-      "url": "https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/",
-      "message": "<b>📰 قابلیت عضویت پولی پادکست‌ها با امکانات ویژه در اسپاتیفای راه‌اندازی شد</b>\n\nشرکت اسپاتیفای (Spotify) قابلیت جدیدی را برای عضویت پولی پادکست‌ها معرفی کرده است که به سازندگان اجازه می‌دهد محتوای انحصاری، دسترسی زودهنگام و تجربه بدون تبلیغات را به مخاطبان خود ارائه دهند. در این طرح، سازندگان ۹۰ درصد از درآمد حاصل از عضویت را دریافت خواهند کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اسپاتیفای (Spotify) از راه‌اندازی سیستم عضویت پولی جدیدی خبر داد که به پادکسترها امکان می‌دهد از طریق ارائه مزایایی فراتر از اپیزودهای جایگزین، از هواداران خود درآمد کسب کنند. این قابلیت تازه به سازندگان محتوا اجازه می‌دهد تا امکاناتی نظیر محتوای صوتی یا ویدیویی انحصاری، کاهش یا حذف تبلیغات، و دسترسی زودهنگام به برنامه‌ها را برای طرفداران خود تدارک ببینند. این ویژگی جدید که نخستین بار در رویداد «روز سرمایه‌گذار» (Investor Day) در ماه مه معرفی شده بود، هم‌اکنون در ۳۴ بازار در سراسر جهان از جمله ایالات متحده آمریکا (United States) در حال عرضه است. راه‌اندازی این سیستم بخشی از تلاش‌های مداوم اسپاتیفای (Spotify) برای جذاب‌تر کردن پلتفرم خود برای پادکسترها به شمار می‌رود، به‌ویژه در شرایطی که این شرکت در بازار محتوای ویدیویی با رقیب قدرتمندی مانند یوتیوب (YouTube) رقابت می‌کند. طبق اعلام رسمی، سازندگان محتوا ۹۰ درصد از درآمد حاصل از عضویت‌های پولی را برای خود نگه خواهند داشت و می‌توانند بسته‌های حمایتی مختلفی را با سطوح قیمتی گوناگون طراحی کنند تا با بودجه و میزان تعهد طرفداران مختلف سازگار باشد. برای واجد شرایط شدن در این طرح، پادکسترها باید برنامه‌های خود را روی پلتفرم‌های اسپاتیفای برای سازندگان (Spotify for Creators) یا مگافون (Megaphone) میزبانی کنند و حداقل ۱۰۰ ساعت مصرف محتوا، ۱۰۰ شنونده یا بیننده، و دست‌کم سه اپیزود منتشرشده داشته باشند. کاربران می‌توانند روند عضویت و پرداخت هزینه را مستقیماً از طریق صفحه پادکست در وب‌سایت اسپاتیفای (Spotify) انجام داده و بلافاصله به محتوای انحصاری دسترسی پیدا کنند. در زمان راه‌اندازی، چندین برنامه معروف از جمله «نمایش آدام فریدلند» (The Adam Friedland Show)، «معنا ساختن با سم هریس» (Making Sense with Sam Harris)، «نمایش شان رایان» (Shawn Ryan Show) و استودیوی وای‌ام‌اچ (YMH Studios) از این قابلیت بهره‌مند شده‌اند. اسپاتیفای (Spotify) برنامه‌ریزی کرده است تا در آینده امکاناتی نظیر نشان‌های عضویت (Membership Badges) و ویدیوهای خوش‌آمدگویی را نیز به این مجموعه ابزارهای کسب درآمد اضافه کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Memberships-1.jpg?resize=1200,675",
-      "status": "sent",
-      "title": "Spotify launches paid podcast memberships with perks beyond bonus content",
-      "summary": "Spotify's new paid memberships let podcasters offer fans exclusive perks, including ad-free listening, early access, and bonus content, while keeping 90% of the revenue.",
-      "display_title": "قابلیت عضویت پولی پادکست‌ها با امکانات ویژه در اسپاتیفای راه‌اندازی شد",
-      "display_summary": "شرکت اسپاتیفای (Spotify) قابلیت جدیدی را برای عضویت پولی پادکست‌ها معرفی کرده است که به سازندگان اجازه می‌دهد محتوای انحصاری، دسترسی زودهنگام و تجربه بدون تبلیغات را به مخاطبان خود ارائه دهند. در این طرح، سازندگان ۹۰ درصد از درآمد حاصل از عضویت را دریافت خواهند کرد."
-    },
-    {
-      "key": "url:de0cce47f02c45d948f6b05ab3fe2cab655e8049bef2b2325da03ec3ea6d5dc5",
-      "url": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
-      "message": "<b>📰 رونمایی از اولین خودروی شاسی‌بلند اختصاصی مرسدس-آام‌گ (Mercedes-AMG)؛ یک هیولای الکتریکی با قدرت ۱۱۵۰ اسب بخار</b>\n\nشرکت مرسدس-آام‌گ (Mercedes-AMG) از اولین شاسی‌بلند کاملاً اختصاصی خود با نام جی‌تی اس‌یووی (GT SUV) رونمایی کرد. این خودروی الکتریکی قدرتمند به سه موتور پیشرفته مجهز بوده و با پشتیبانی از فناوری شارژ فوق‌سریع و قابلیت‌های هوش مصنوعی، رقیبی جدی برای خودروهایی نظیر پورشه کاین توربو الکتریک (Porsche Cayenne Turbo Electric) به شمار می‌رود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت مرسدس-آام‌گ (Mercedes-AMG) در اقدامی مهم، از اولین شاسی‌بلند تمام‌الکتریکی و اختصاصی خود با نام جی‌تی اس‌یووی (GT SUV) رونمایی کرد. این محصول جدید که برای عرضه در تابستان آینده برنامه‌ریزی شده است، نقطه عطف تازه‌ای در تاریخ ۵۹ ساله این برند عملکردی محسوب می‌شود؛ چرا که برای نخستین بار، یک شاسی‌بلند تمام‌عیار از پایه و به‌طور کامل در داخل شرکت توسعه یافته است. این خودرو روی پلتفرم باواریایی و عملکرد بالای شرکت مرسدس-بنز (Mercedes-Benz) موسوم به آام‌گ.ای (AMG.EA) ساخته شده و تلاش می‌کند تا هندلینگ یک خودروی اسپرت را با کاربری یک شاسی‌بلند خانوادگی ترکیب کند. مرسدس-آام‌گ این خودرو را در سه تیپ مختلف شامل جی‌تی ۵۳ (GT 53)، جی‌تی ۵۵ (GT 55) و مدل پرچمدار جی‌تی ۶۳ (GT 63) روانه بازار خواهد کرد. مدل پرچمدار با بهره‌گیری از سه موتور شارش محوری، توانی معادل ۱۱۵۳ اسب بخار تولید می‌کند که حتی از پورشه کاین توربو الکتریک مجهز به سیستم لانچ کنترل نیز فراتر می‌رود. یکی از برجسته‌ترین ویژگی‌های این شاسی‌بلند الکتریکی، معماری ۸۰۰ ولتی آن است که امکان شارژ فوق‌سریع را فراهم می‌کند. باتری ۱۲۸ کیلووات ساعتی مدل‌های جی‌تی ۶۳ و جی‌تی ۵۵ از توان شارژ شگفت‌انگیز ۷۱۰ کیلووات پشتیبانی می‌کنند، در حالی که مدل جی‌تی ۵۳ با باتری ۱۰۶ کیلووات ساعتی شارژ ۶۰۰ کیلوواتی را ارائه می‌دهد. رانندگان می‌توانند ظرف تنها ۱۲ دقیقه شارژ باتری را از ۱۰ به ۸۰ درصد برسانند یا در مدت ۱۰ دقیقه، مسافتی حدود ۴۵۰ کیلومتر به برد حرکتی خودرو اضافه کنند. فناوری باتری این خودرو از فرمول‌های الهام‌گرفته از مسابقات فرمول یک (Formula 1) با کاتدهای ان‌سی‌ام‌سی (NCMA) و آندهای حاوی سیلیکون بهره می‌برد و یک روغن عایق الکتریکی برای مدیریت حرارتی دقیق در جریان است. مهندسان مرسدس-آام‌گ برای کنترل وزن و بهبود دینامیک حرکتی، میله‌های تعادل مکانیکی سنتی را با سیستم تعلیق هیدرولیکی فعال جایگزین کرده‌اند تا در شتاب‌گیری‌ها و پیچ‌ها از تکان‌های بدنه جلوگیری شود. با وجود ابعاد بزرگ، وزن مدل جی‌تی ۶۳ حدود ۵۹۴۱ پوند (حدود ۲۶۹۵ کیلوگرم) است که با رقبایی چون لوتوس الترا آر (Lotus Eletre R) و لوسید گرویتی (Lucid Gravity) رقابت می‌کند. در بخش فناوری‌های داخلی، سیستم‌عامل ام‌بی.اواس (MB.OS) روی نمایشگر ۱۴ اینچی خودرو نصب شده و دستیارهای هوش مصنوعی متعدد از سوی شرکت‌های اوپن‌ای‌آی (OpenAI)، مایکروسافت (Microsoft) و گوگل (Google) به رانندگان کمک می‌کنند. همچنین سیستم مدیریت عملکرد پیشگو (Predictive Performance Manager) با استفاده از داده‌های نقشه‌برداری مسیر، توان خروجی موتورهای الکتریکی را برای بهینه‌سازی مصرف انرژی در سرازیری‌ها و سربالایی‌ها تنظیم می‌کند. شرکت مرسدس-آام‌گ هنوز قیمت رسمی این خودرو را اعلام نکرده است، اما انتظار می‌رود با نزدیک شدن به زمان عرضه نهایی، اطلاعات بیشتری در این زمینه منتشر شود.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/26C0332_071.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "status": "sent",
-      "title": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
-      "summary": "Earlier this year, Mercedes' AMG performance brand grabbed our attention with the GT four-door coupe, a souped-up sports sedan with three axial flux motors delivering over 1,150 horsepower. Well, now meet its beefier cousin, the 2028 Mercedes-AMG GT SUV, an equally powerful, ultra-fast-charging electric people-hauler. The AMG GT SUV (say that five times fast) marks [&#8230;]",
-      "display_title": "رونمایی از اولین خودروی شاسی‌بلند اختصاصی مرسدس-آام‌گ (Mercedes-AMG)؛ یک هیولای الکتریکی با قدرت ۱۱۵۰ اسب بخار",
-      "display_summary": "شرکت مرسدس-آام‌گ (Mercedes-AMG) از اولین شاسی‌بلند کاملاً اختصاصی خود با نام جی‌تی اس‌یووی (GT SUV) رونمایی کرد. این خودروی الکتریکی قدرتمند به سه موتور پیشرفته مجهز بوده و با پشتیبانی از فناوری شارژ فوق‌سریع و قابلیت‌های هوش مصنوعی، رقیبی جدی برای خودروهایی نظیر پورشه کاین توربو الکتریک (Porsche Cayenne Turbo Electric) به شمار می‌رود."
     },
     {
       "key": "url:8363c44308ce831c9bc7fe4d8a97520cd607dee24080f49b254c800d8c182572",
@@ -6604,72 +6569,132 @@
     {
       "key": "url:84e80436ba320532b226144fc9ac21a01ce2b0a592783dbc39b9d6ce4a934c88",
       "url": "https://www.engadget.com/2290638/which-windows-background-services-safely-disable-improve-pc-gaming/",
-      "title": "Which services can you safely disable to improve PC gaming?",
-      "summary": "A lot of what Windows does out of the box isn't essential, and can waste your computer's power when you're trying to game.",
-      "display_title": "کدام سرویس‌های ویندوز را برای بهبود اجرای بازی‌ها غیرفعال کنیم؟",
-      "display_summary": "سیستم‌عامل ویندوز (Windows) به‌صورت پیش‌فرض دارای سرویس‌های پس‌زمینه متعددی است که منابع سخت‌افزاری ارزشمند را مصرف می‌کنند. با غیرفعال کردن برخی از این قابلیت‌های غیرضروری مانند نوار بازی (Xbox Game Bar) و شاخص‌گذاری جستجو (Windows Search)، می‌توان عملکرد رایانه شخصی را در اجرای بازی‌ها تا حدی بهینه‌سازی کرد.",
       "message": "<b>📰 کدام سرویس‌های ویندوز را برای بهبود اجرای بازی‌ها غیرفعال کنیم؟</b>\n\nسیستم‌عامل ویندوز (Windows) به‌صورت پیش‌فرض دارای سرویس‌های پس‌زمینه متعددی است که منابع سخت‌افزاری ارزشمند را مصرف می‌کنند. با غیرفعال کردن برخی از این قابلیت‌های غیرضروری مانند نوار بازی (Xbox Game Bar) و شاخص‌گذاری جستجو (Windows Search)، می‌توان عملکرد رایانه شخصی را در اجرای بازی‌ها تا حدی بهینه‌سازی کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>با توجه به شرایط سخت بازار سخت‌افزار و افزایش هزینه‌های ارتقای رایانه شخصی (PC) که تحت تأثیر عوامل مختلفی نظیر تقاضای مراکز داده برای پردازش هوش مصنوعی (AI) و قطعات رخ داده است، بسیاری از کاربران به دنبال راهکارهایی برای بهینه‌سازی حداکثری سیستم موجود خود هستند. سیستم‌عامل ویندوز ۱۱ (Windows 11) دارای چندین سرویس و فرآیند در پس‌زمینه است که منابع پردازنده (CPU)، حافظه رم (RAM) و شبکه را مصرف می‌کنند؛ منابعی که بازی‌ها به شدت به آن‌ها نیاز دارند. هرچند غیرفعال کردن این سرویس‌ها جایگزین ارتقای سخت‌افزاری کارت گرافیک (GPU) نمی‌شود، اما می‌تواند به روان‌تر شدن اجرای بازی‌ها کمک کند. نخستین سرویسی که غیرفعال کردن آن توصیه می‌شود، نوار بازی مایکروسافت یعنی ایکس‌باکس گیم بار (Xbox Game Bar) است. اگرچه این ابزار برای ضبط ویدیو و مدیریت موسیقی طراحی شده است، اما برای بیشتر رایانه‌های شخصی یک سربار غیرضروری محسوب می‌شود، به‌ویژه که پلتفرم استیم (Steam) ابزارهای مشابهی را ارائه می‌دهد. برای غیرفعال کردن آن کافی است از طریق بخش تنظیمات (Settings) به قسمت کامپوننت‌های سیستم (System components) مراجعه کرده و اجازه دسترسی در پس‌زمینه را روی حالت هرگز (Never) قرار دهید. مورد بعدی، تنظیمات جستجوی ویندوز (Windows Search) است. حالت پیشرفته (Enhanced mode) تمام رایانه را فهرست‌بندی می‌کند که می‌تواند روی عملکرد پردازنده و باتری تأثیر منفی بگذارد. تغییر آن به حالت کلاسیک (Classic) این فشار را کاهش می‌دهد. همچنین توقف موقت همگام‌سازی ابزارهای ابری مانند وان‌درایو (OneDrive) در هنگام بازی، از افزایش ناگهانی مصرف شبکه و پردازنده جلوگیری می‌کند. سرویس دیگری که بررسی آن سودمند است، سایز‌مین (SysMain) نام دارد. این سرویس تلاش می‌کند با پیش‌بینی برنامه‌های مورد نیاز کاربر، آن‌ها را پیش از اجرا در حافظه بارگذاری کند؛ اما در زمان بازی ممکن است نتیجه معکوس داشته باشد. با مراجعه به بخش خدمات (Services) در ویندوز، می‌توان نوع راه‌اندازی (Startup type) این سرویس را روی حالت غیرفعال (Disabled) قرار داد. با این حال، کاربران باید احتیاط کنند و سرویس‌های حیاتی را به صورت تصادفی غیرفعال نکنند تا دچار اختلال در عملکرد سیستم‌عامل نشوند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/which-services-can-you-safely-disable-to-improve-pc-gaming/l-intro-1792431811.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Which services can you safely disable to improve PC gaming?",
+      "summary": "A lot of what Windows does out of the box isn't essential, and can waste your computer's power when you're trying to game.",
+      "display_title": "کدام سرویس‌های ویندوز را برای بهبود اجرای بازی‌ها غیرفعال کنیم؟",
+      "display_summary": "سیستم‌عامل ویندوز (Windows) به‌صورت پیش‌فرض دارای سرویس‌های پس‌زمینه متعددی است که منابع سخت‌افزاری ارزشمند را مصرف می‌کنند. با غیرفعال کردن برخی از این قابلیت‌های غیرضروری مانند نوار بازی (Xbox Game Bar) و شاخص‌گذاری جستجو (Windows Search)، می‌توان عملکرد رایانه شخصی را در اجرای بازی‌ها تا حدی بهینه‌سازی کرد."
     },
     {
       "key": "url:adfbc25d06db6da69d8ca3760addfab0fe2c8fd910498d93eb6b35a1a35373d3",
       "url": "https://www.engadget.com/2290489/how-to-improve-pc-airflow-better-cooling/",
-      "title": "How to improve your PC's airflow for better cooling",
-      "summary": "Here's how to think about your PC's fans.",
-      "display_title": "راهنمای جامع بهبود جریان هوای رایانه شخصی (PC) برای خنک‌سازی بهتر قطعات",
-      "display_summary": "بهبود جریان هوا در رایانه شخصی (PC) یکی از ارکان اصلی حفظ عملکرد پایدار قطعات سخت‌افزاری است. با تنظیم دقیق تعداد، مکان و سرعت فن‌ها و مدیریت کابل‌ها می‌توان به خنک‌سازی بهینه و کاهش تجمع گرد و غبار کمک کرد.",
       "message": "<b>📰 راهنمای جامع بهبود جریان هوای رایانه شخصی (PC) برای خنک‌سازی بهتر قطعات</b>\n\nبهبود جریان هوا در رایانه شخصی (PC) یکی از ارکان اصلی حفظ عملکرد پایدار قطعات سخت‌افزاری است. با تنظیم دقیق تعداد، مکان و سرعت فن‌ها و مدیریت کابل‌ها می‌توان به خنک‌سازی بهینه و کاهش تجمع گرد و غبار کمک کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>هنگام ساخت یا ارتقای یک رایانه شخصی (PC)، کاربران معمولاً بیشتر بر روی قطعات قدرتمندی مانند کارت گرافیک (Graphics Card) تمرکز می‌کنند تا نحوه جای‌گذاری فن‌ها. با این حال، بهبود جریان هوا (Airflow) نقشی حیاتی در حفظ کارایی و افزایش طول عمر قطعات ایفا می‌کند. قطعات سخت‌افزاری هنگام فعالیت گرمای زیادی تولید می‌کنند که اگر در داخل کیس محبوس شود، به افت عملکرد سیستم منجر خواهد شد. هدف اصلی از به‌کارگیری فن‌ها، مکش هوای خنک از محیط بیرون به درون کیس و هدایت هوای گرم تولید شده توسط قطعات به بیرون است. گام نخست برای دست‌یابی به این هدف، قرار دادن رایانه شخصی (PC) در مکانی مناسب است؛ نباید دستگاه را در گوشه‌ای بسته، زیر میز یا در میان انبوهی از وسایل الکترونیکی دیگر قرار داد. محل قرارگیری و فشار هوا کلید اصلی داشتن جریان هوای ایده‌آل است. از آنجا که هوای گرم به طور طبیعی به سمت بالا حرکت می‌کند و گرم‌ترین قطعات سیستم یعنی پردازنده مرکزی یا همان سی‌پی‌یو (CPU) و پردازنده گرافیکی (GPU) معمولاً در بخش پشتی قرار دارند، بهترین رویکرد مکش هوای خنک از بخش جلو و پایین و خارج کردن هوای گرم از بخش بالا و پشت کیس است. افزودن فن به قسمت‌های بالا و پایین، گام مؤثری برای سیستم‌هایی است که با فن‌های جلو و عقب خنک نمی‌شوند. علاوه بر جریان هوا، فن‌ها فشار هوای درون کیس را نیز تغییر می‌دهند. اگر فشار هوای داخل بیشتر از بیرون باشد (فشار مثبت)، هوا تمایل دارد از منافذ خارج شود. در مقابل، فشار منفی باعث مکش هوا و گرد و غبار از درزها به داخل می‌شود. ایده‌آل‌ترین حالت فشار خنثی است، اما دستیابی به آن دشوار بوده و معمولاً ایجاد فشار مثبت اندک برای جلوگیری از ورود گرد و غبار توصیه می‌شود. انتخاب اندازه و سرعت فن‌ها نیز اهمیت دارد. سایز استاندارد فن‌های کیس ۱۲۰ میلی‌متر است. فن‌های بزرگ‌تر حجم هوای بیشتری را جابه‌جا می‌کنند اما فشار کمتری دارند. از آنجا که فن‌های ورودی باید هوا را از توری‌های محافظ عبور دهند، تنظیم سرعت بالاتر برای آن‌ها می‌تواند مفید باشد. همچنین فن‌های بزرگ‌تر معمولاً صدای کمتری تولید می‌کنند. در کنار فن‌ها، تمیز کردن دوره‌ای گرد و غبار با هوای فشرده، استفاده از فیلترهای گرد و غبار، انتخاب کیس‌هایی با پنل جلویی مشبک به‌جای پنل‌های صلب، و مدیریت صحیح کابل‌ها (Cable Management) برای جلوگیری از مسدود شدن مسیر جریان هوا، از دیگر اقدامات ضروری برای خنک نگه داشتن رایانه شخصی (PC) به شمار می‌روند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/how-to-improve-your-pcs-airflow-for-better-cooling/l-intro-1792426812.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "How to improve your PC's airflow for better cooling",
+      "summary": "Here's how to think about your PC's fans.",
+      "display_title": "راهنمای جامع بهبود جریان هوای رایانه شخصی (PC) برای خنک‌سازی بهتر قطعات",
+      "display_summary": "بهبود جریان هوا در رایانه شخصی (PC) یکی از ارکان اصلی حفظ عملکرد پایدار قطعات سخت‌افزاری است. با تنظیم دقیق تعداد، مکان و سرعت فن‌ها و مدیریت کابل‌ها می‌توان به خنک‌سازی بهینه و کاهش تجمع گرد و غبار کمک کرد."
     },
     {
       "key": "url:398d56547fd02e4faf442700ec5ecf7e8983b8be4285cd51569ec325b619f6fa",
       "url": "https://www.engadget.com/2290438/how-long-should-hdmi-cable-be-maximum-length/",
-      "title": "How long is too long for an HDMI cable?",
-      "summary": "An HDMI cable doesn't have an exact usable length, but shorter is always better for more complex uses.",
-      "display_title": "کابل‌های اچ‌دی‌ام‌آی (HDMI): چه زمانی طول کابل بیش از حد محسوب می‌شود؟",
-      "display_summary": "سازمان مدیریت صدور مجوز اچ‌دی‌ام‌آی (HDMI Licensing Administrator) حد مشخصی برای حداکثر طول کابل‌های اچ‌دی‌ام‌آی تعیین نکرده است، اما با افزایش پهنای باند و سرعت انتقال داده‌ها، استفاده از کابل‌های کوتاه‌تر اهمیت بیشتری پیدا می‌کند. کیفیت سیگنال به عوامل مختلفی مانند نوع کابل، وضوح تصویر و سخت‌افزار دو طرف بستگی دارد.",
       "message": "<b>📰 کابل‌های اچ‌دی‌ام‌آی (HDMI): چه زمانی طول کابل بیش از حد محسوب می‌شود؟</b>\n\nسازمان مدیریت صدور مجوز اچ‌دی‌ام‌آی (HDMI Licensing Administrator) حد مشخصی برای حداکثر طول کابل‌های اچ‌دی‌ام‌آی تعیین نکرده است، اما با افزایش پهنای باند و سرعت انتقال داده‌ها، استفاده از کابل‌های کوتاه‌تر اهمیت بیشتری پیدا می‌کند. کیفیت سیگنال به عوامل مختلفی مانند نوع کابل، وضوح تصویر و سخت‌افزار دو طرف بستگی دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>فناوری اچ‌دی‌ام‌آی (HDMI) به دلیل سادگی و کارایی خود، یکی از ارکان اصلی در انتقال تصاویر و صدا در تجهیزات مدرن به شمار می‌رود. اتصال یک کابل کوتاه برای وصل کردن دستگاه‌های پخش استریم به تلویزیون معمولاً بدون مشکل تا پایان عمر دستگاه کار می‌کند. با این حال، هنگامی که کابل از یک اتاق عبور می‌کند، داخل دیوار قرار می‌گیرد یا به ویدیو پروژکتور متصل می‌شود، شرایط کمی پیچیده‌تر خواهد شد. بر اساس گزارش‌های سازمان مدیریت صدور مجوز اچ‌دی‌ام‌آی (HDMI Licensing Administrator)، هیچ حد نصاب رسمی و ثابتی برای حداکثر طول کابل وجود ندارد، زیرا مسافت قابل پوشش به مشخصات کابل، نوع سیگنال و سخت‌افزار مبدأ و مقصد بستگی دارد. طول‌های متداولی مانند ۳، ۷.۵ یا ۱۵ متر که در بازار دیده می‌شوند، بیشتر جنبه راهنمایی دارند تا یک قانون قطعی. پهنای باند نقش بسیار مهمی در این میان ایفا می‌کند. یک پخش‌کننده قدیمی دی‌وی‌دی (DVD) فشار زیادی به کابل وارد نمی‌کند، اما انتقال تصویر با کیفیت چهارکی (4K) در نرخ تازه‌سازی ۱۲۰ هرتز همراه با فناوری‌هایچ‌دی‌ار (HDR) و نرخ تازه‌سازی متغیر (VRR) وظیفه بسیار سنگین‌تری است. هرچه مسیر کابل‌کشی طولانی‌تر باشد، حاشیه خطا کاهش می‌یابد. کابل‌های مسی پاسیو سنتی سیگنال الکتریکی را منتقل می‌کنند که در طول مسیر ضعیف می‌شود. به همین دلیل، کابلی که در کیفیت ۱۰۸۰پی (1080p) به خوبی کار می‌کند، ممکن است نتواند رزولوشن چهارکی با نرخ ۱۲۰ هرتز را به طور پایدار پشتیبانی کند. برخلاف تلویزیون‌های آنالیز قدیمی که کیفیت تصویر با افزایش فاصله به تدریج افت می‌کرد، در استاندارد اچ‌دی‌ام‌آی افت کیفیت به شکل دیگری بروز می‌کند. هنگامی که کابل به حد نهایی خود می‌رسد، نشانه‌هایی مانند پرش تصویر، ظاهر شدن نقاط چشمک‌زن، قطع صدای مقطعی، سیاه‌ شدن موقتی صفحه یا نبود تصویر به طور کامل مشاهده می‌شود. برای مسیرهای طولانی‌تر، استفاده از کابل‌های اکتیو مسی یا نوری (Optical) ضرورت می‌یابد. کابل‌های نوری اچ‌دی‌ام‌آی سیگنال‌های پرسرعت را به نور تبدیل می‌کنند و می‌توانند مسافت‌های طولانی را پوشش دهند. البته نکته مهم این است که برخلاف کابل‌های استاندارد، بسیاری از کابل‌های اکتیو و نوری دارای جهت مشخصی هستند و جابجا وصل کردن دو سر کابل منجر به عدم دریافت تصویر خواهد شد. در نهایت، کارشناسان توصیه می‌کنند پیش از نصب دائمی کابل در داخل دیوار، تمامی حالت‌های سنگین از جمله بالاترین رزولوشن، نرخ تازه‌سازی، اچ‌دی‌ار و نرخ تازه‌سازی متغیر را تست کنید. استفاده از کوتاه‌ترین کابل ممکن و توجه به برچسب‌های استاندارد و گواهی‌نامه‌های معتبر، بهترین راهکار برای جلوگیری از افت کیفیت است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/how-long-is-too-long-for-an-hdmi-cable/l-intro-1792426463.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "How long is too long for an HDMI cable?",
+      "summary": "An HDMI cable doesn't have an exact usable length, but shorter is always better for more complex uses.",
+      "display_title": "کابل‌های اچ‌دی‌ام‌آی (HDMI): چه زمانی طول کابل بیش از حد محسوب می‌شود؟",
+      "display_summary": "سازمان مدیریت صدور مجوز اچ‌دی‌ام‌آی (HDMI Licensing Administrator) حد مشخصی برای حداکثر طول کابل‌های اچ‌دی‌ام‌آی تعیین نکرده است، اما با افزایش پهنای باند و سرعت انتقال داده‌ها، استفاده از کابل‌های کوتاه‌تر اهمیت بیشتری پیدا می‌کند. کیفیت سیگنال به عوامل مختلفی مانند نوع کابل، وضوح تصویر و سخت‌افزار دو طرف بستگی دارد."
     },
     {
       "key": "url:1a7ddd20c143c34d1a37160336abce82e677cc1490f7ebb3f0575acd9c46b370",
       "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
-      "title": "Lee Chang Dong ponders the ethics of the camera",
-      "summary": "Lee Chang Dong's seventh feature film, Possible Love, is inspired by true events from 2009, when a Korean conglomerate fired a third of its staff - 2,600 employees - after which many died by suicide. Possible Love is the latest in a long line of Lee movies that engage with themes of class or labor [&#8230;]",
-      "display_title": "نگاهی به اخلاقیات دوربین و رنج کارگران در فیلم جدید لی چانگ-دونگ",
-      "display_summary": "لی چانگ-دونگ (Lee Chang-dong)، کارگردان سرشناس کره‌ای، در فیلم جدید خود با نام «عشق ممکن» (Possible Love) به بررسی بحران کارگری سال ۲۰۰۹ و اخلاقیات پیچیده فیلمبرداری از رنج دیگران پرداخته است. این اثر که با حمایت نتفلیکس (Netflix) ساخته شده، نگاهی عمیق به قدرت و مسئولیت پشت دوربین دارد.",
       "message": "<b>📰 نگاهی به اخلاقیات دوربین و رنج کارگران در فیلم جدید لی چانگ-دونگ</b>\n\nلی چانگ-دونگ (Lee Chang-dong)، کارگردان سرشناس کره‌ای، در فیلم جدید خود با نام «عشق ممکن» (Possible Love) به بررسی بحران کارگری سال ۲۰۰۹ و اخلاقیات پیچیده فیلمبرداری از رنج دیگران پرداخته است. این اثر که با حمایت نتفلیکس (Netflix) ساخته شده، نگاهی عمیق به قدرت و مسئولیت پشت دوربین دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>لی چانگ-دونگ (Lee Chang-dong)، کارگردان برجسته سینمای کره جنوبی و سازنده آثار تحسین‌شده‌ای چون «سوختن» (Burning)، در هفتمین فیلم بلند خود با عنوان «عشق ممکن» (Possible Love) به موضوعاتی چون مبارزات کارگری، ارتباطات انسانی و ماهیت ثبت رنج دیگران روی پرده سینما پرداخته است. این فیلم الهام‌گرفته از رویدادهای واقعی سال ۲۰۰۹ است؛ زمانی که یک شرکت بزرگ خوشه‌ای کره‌ای یک‌سوم از کارکنان خود، یعنی ۲,۶۰۰ نفر را اخراج کرد و پس از آن شماری از این کارگران دست به خودکشی زدند. فیلم «عشق ممکن» بر خلاف آثار سطحی که تنها بر هیجان اولیه اعتراضات کارگری تمرکز می‌کنند، به سراغ دوران پس از بحران و روزهای تاریک و مبهم پس از آن رفته است. داستان فیلم با جمله‌ای از کتاب مقدس آغاز می‌شود: «نباید طمع کنی.» در ادامه، فیلم روایتگر شخصیت‌هایی است که به طمع ورزیدن نسبت به شغل، لباس‌ها، همسران و موقعیت اجتماعی یکدیگر مشغولند. می-اوک (Mi-ok) با بازی جئون دو-یئون (Jeon Do-yeon)، همسر رنج‌دیده هو-سئک (Ho-seok) است که شغل خود را از دست داده است. در مراسم خاکسپاری یکی از همکاران که به دلیل خودکشی جان باخته، این زوج با مستندسازی به نام یه-جی (Ye-ji) با بازی چو یئو-جئونگ (Cho Yeo-jeong) و همسر ثروتمندش سانگ-وو (Zo In-sung) آشنا می‌شوند. لی چانگ-دونگ در مصاحبه‌ای درباره ریشه‌های فکری و سیاسی خود صحبت کرده و از دوران جوانی‌اش در شهر دگو (Daegu)، قلب تپنده محافظه‌کاری در کره جنوبی، یاد می‌کند. او توضیح می‌دهد که چگونه در جریان اعتراضات مه ۱۹۸۰ علیه رژیم چون دو-هوان (Chun Doo-hwan) با واقعیت‌های خشن جامعه روبه‌رو شد و این تجربیات چگونه بر دیدگاه او نسبت به جهان تأثیر گذاشته است. وی همچنین به رابطه خود با دیگر فیلمسازان بزرگ کره مانند بونگ جون-هو (Bong Joon Ho) و پارک چان-ووک (Park Chan Wook) اشاره می‌کند و از پرسش‌های مشترکشان درباره اخلاقیات بازنمایی رنج انسان‌ها سخن می‌گوید. این کارگردان برجسته درباره نقش و قدرت دوربین می‌گوید: «لحظه‌ای که دوربین را به دست می‌گیرید، قدرتی به شما داده می‌شود و دوربین بر اساس همان قدرت عمل می‌کند.» او می‌افزاید که فیلمسازان و روزنامه‌نگاران معمولاً نه در دنیای سوژه‌های خود جای دارند و نه در سمت سرمایه، بلکه در موقعیتی میانی و خنثی قرار دارند، اما با این حال تلاش می‌کنند تا از طریق آثار خود تغییرات کوچکی ایجاد کنند. لی چانگ-دونگ همچنین همکاری خود با نتفلیکس را مثبت ارزیابی کرده و خاطرنشان کرد که این شرکت سرمایه‌گذار در تمام مراحل ساخت، استقلال و آزادی کامل را به عنوان کارگردان برای او تضمین کرده است. فیلم «عشق ممکن» پس از اکران محدود در سینماهای ایالات متحده، از طریق پلتفرم نتفلیکس (Netflix) در دسترس مخاطبان جهانی قرار می‌گیرد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Possible-Love_NYFF64_03.jpeg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Lee Chang Dong ponders the ethics of the camera",
+      "summary": "Lee Chang Dong's seventh feature film, Possible Love, is inspired by true events from 2009, when a Korean conglomerate fired a third of its staff - 2,600 employees - after which many died by suicide. Possible Love is the latest in a long line of Lee movies that engage with themes of class or labor [&#8230;]",
+      "display_title": "نگاهی به اخلاقیات دوربین و رنج کارگران در فیلم جدید لی چانگ-دونگ",
+      "display_summary": "لی چانگ-دونگ (Lee Chang-dong)، کارگردان سرشناس کره‌ای، در فیلم جدید خود با نام «عشق ممکن» (Possible Love) به بررسی بحران کارگری سال ۲۰۰۹ و اخلاقیات پیچیده فیلمبرداری از رنج دیگران پرداخته است. این اثر که با حمایت نتفلیکس (Netflix) ساخته شده، نگاهی عمیق به قدرت و مسئولیت پشت دوربین دارد."
     },
     {
       "key": "url:f17ac495d6d9792fceb84d8cfda8ab0b9b44205c335bb0bd7798818e8f7bd734",
       "url": "https://www.engadget.com/2294585/ken-kutaragi-father-of-playstation-sides-with-sony-physical-games/",
-      "title": "'Father of the PlayStation' Ken Kutaragi sides with Sony on the physical discs debate",
-      "summary": "The debate about Sony's plan to stop making physical PS5 discs has raged since this summer.",
-      "display_title": "کن کوتاراگی (Ken Kutaragi)، ملقب به پدر پلی‌استیشن، از تصمیم سونی (Sony) در حذف دیسک‌های فیزیکی دفاع کرد",
-      "display_summary": "کن کوتاراگی (Ken Kutaragi)، خالق پلی‌استیشن اصلی، در اظهاراتی از تصمیم شرکت سونی (Sony) برای توقف تولید دیسک‌های فیزیکی پلی‌استیشن ۵ (PS5) حمایت کرد. او این تغییر را با توجه به استقبال گسترده از بازی‌های دیجیتال و شبکه‌ای شدن کنسول‌ها، از نظر اقتصادی منطقی دانست.",
       "message": "<b>📰 کن کوتاراگی (Ken Kutaragi)، ملقب به پدر پلی‌استیشن، از تصمیم سونی (Sony) در حذف دیسک‌های فیزیکی دفاع کرد</b>\n\nکن کوتاراگی (Ken Kutaragi)، خالق پلی‌استیشن اصلی، در اظهاراتی از تصمیم شرکت سونی (Sony) برای توقف تولید دیسک‌های فیزیکی پلی‌استیشن ۵ (PS5) حمایت کرد. او این تغییر را با توجه به استقبال گسترده از بازی‌های دیجیتال و شبکه‌ای شدن کنسول‌ها، از نظر اقتصادی منطقی دانست.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بحث و تبادل نظر پیرامون برنامه شرکت سونی (Sony) برای توقف تولید دیسک‌های فیزیکی پلی‌استیشن ۵ (PS5) که از تابستان گذشته داغ شده بود، اکنون با واکنش چهره‌های سرشناس صنعت بازی‌های ویدئویی ابعاد تازه‌ای به خود گرفته است. در همین راستا، کن کوتاراگی (Ken Kutaragi)، مهندسی که هدایت توسعه پلی‌استیشن، پلی‌استیشن ۲ (PS2) و پلی‌استیشن ۳ (PS3) را بر عهده داشت و به عنوان «پدر پلی‌استیشن» شناخته می‌شود، اعلام کرد که هرچند نارضایتی بازیکنان از توقف تولید دیسک را درک می‌کند، اما ادامه انتشار دیسک‌های فیزیکی را از نظر اقتصادی منطقی نمی‌داند. کوتاراگی طی سخنرانی خود در کنفرانس نیو هورایزنز گیم ریپابلیک (Game Republic New Horizons) در شهر میدلزبورو (Middlesbrough) انگلستان، اشاره کرد که دیسک‌های فیزیکی در طول سال‌ها به نمادی برای «مالکیت» بازی تبدیل شده‌اند و مقاومت در برابر انتقال به پلی‌استیشنِ بدون دیسک، بیشتر ریشه در نوعی طرز فکر دارد. از آنجا که این چهره برجسته صنعت در سال ۲۰۰۷ از سونی جدا شده و اکنون شرکت‌های خود را اداره می‌کند، این دیدگاه شخصی اوست و لزوماً موضع رسمی شرکت سونی محسوب نمی‌شود. او با مقایسه کنسول‌های بازی با گوشی‌های هوشمند (Smartphones) توضیح داد که امروزه اکثر کاربران به اینترنت متصل هستند و همان‌طور که کسی انتظار رسانه فیزیکی را روی گوشی ندارد، در حوزه کنسول‌ها نیز کاربران به ماندگاری محتوای دیجیتال خود اعتماد دارند. این در حالی است که موضع رسمی شرکت سونی (Sony) در ماه اوت و در جریان یک پرونده دادگاهی در کالیفرنیا (California) تا حدودی چالش‌برانگیز ظاهر شد؛ جایی که این شرکت اعلام کرد خریداران محتوای دیجیتال آگاهند که مالک فایل‌های دانلودی نیستند، بلکه تنها یک مجوز برای اجرای بازی (قابل لغو) دریافت می‌کنند. کوتاراگی همچنین پیش‌بینی کرد که رهبران فعلی بخش سرگرمی تعاملی سونی (Sony Interactive Entertainment)، با جذب نیروهایی از کسب‌وکارهای استریم مانند گایکای (Gaikai)، پلی‌استیشن را فراتر از یک کنسول و به عنوان یک پایانه محتوایی نگاه می‌کنند. جالب اینجاست که او این تغییر رویکرد را از سال ۲۰۰۶ و در مصاحبه با وب‌سایت گیم‌اسپات (GameSpot) پیش‌بینی کرده بود. شرکت سونی (Sony) در ماه ژوئیه اعلام کرد که بر اساس گرایش فزاینده بازیکنان به خرید دیجیتال، تولید بازی‌های دیسکی پلی‌استیشن را از ژانویه ۲۰۲۸ متوقف خواهد کرد. آمار فروش بازی‌ها در فاصله ماه‌های آوریل تا ژوئن نشان داد که دانلودهای دیجیتال ۸۲ درصد از کل فروش بازی‌های پلی‌استیشن ۴ (PS4) و پلی‌استیشن ۵ را تشکیل داده‌اند و سهم نرم‌افزارهای فیزیکی از درآمد ۵۲۶.۶ میلیارد ین حاصل از فروش نرم‌افزار، تنها حدود ۲۰.۵ میلیارد ین (کمتر از چهار درصد) بوده است. لین تائو (Lin Tao)، مدیر ارشد مالی سونی، در نشست اعلام درآمد این شرکت تأکید کرد که سونی با وجود نظرات مخالف بازیکنان، با احتیاط به مسیر خود ادامه خواهد داد. پیش‌تر کارزاری آنلاین با جمع‌آوری بیش از ۳۵۲,۰۰۰ امضا از سونی خواسته بود تا بازی‌های فیزیکی را حفظ کند. کوتاراگی سومین مدیر ارشد پیشین پلی‌استیشن است که در این مناقشه اظهارنظر می‌کند. پیش‌تر شوهی یوشیدا (Shuhei Yoshida)، رئیس سابق استودیوهای جهانی سونی (Sony Worldwide Studios)، اعلام کرده بود که یک بازیکن کاملاً دیجیتال است و حذف دیسک را یک مشکل بزرگ نمی‌داند. در مقابل، شان لیدن (Shawn Layden)، رئیس پیشین این استودیوها، پیشنهاد کرده بود که سونی می‌تواند فرآیند تولید دیسک را مانند شرکت مایکروسافت (Microsoft) برای ایکس‌باکس (Xbox)، به تولیدکنندگان خارج از شرکت واگذار کند تا این مسئله حل شود. در تحولی مرتبط، ریچی تورس (Ritchie Torres)، نماینده کنگره ایالات متحده آمریکا، در اواسط ماه اکتبر «قانون قدرت به بازیکنان» (Power to the Players Act) را معرفی کرد که در صورت تصویب، کمیسیون تجارت فدرال (FTC) را ملزم می‌کند قوانین مربوط به مالکیت بازی‌های خریداری‌شده را به‌گونه‌ای تنظیم کند که بازی‌ها به عنوان کالای خریداری‌شده و نه صرفاً مجوز شناخته شوند. در نتیجه‌گیری می‌توان گفت صنعت بازی‌های ویدئویی باعظمت تمام به سمت توزیع کاملاً دیجیتال در حرکت است؛ روندی که اگرچه از سوی پیشگامان تکنولوژی و مدیران اقتصادی تأیید می‌شود، اما همچنان چالش‌های جدی حقوقی و فرهنگی پیرامون حقوق مالکیت دیجیتال کاربران بر جای گذاشته است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/father-of-the-playstation-ken-kutaragi-sides-with-sony-on-the-physical-discs-debate/l-intro-1792693371.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "'Father of the PlayStation' Ken Kutaragi sides with Sony on the physical discs debate",
+      "summary": "The debate about Sony's plan to stop making physical PS5 discs has raged since this summer.",
+      "display_title": "کن کوتاراگی (Ken Kutaragi)، ملقب به پدر پلی‌استیشن، از تصمیم سونی (Sony) در حذف دیسک‌های فیزیکی دفاع کرد",
+      "display_summary": "کن کوتاراگی (Ken Kutaragi)، خالق پلی‌استیشن اصلی، در اظهاراتی از تصمیم شرکت سونی (Sony) برای توقف تولید دیسک‌های فیزیکی پلی‌استیشن ۵ (PS5) حمایت کرد. او این تغییر را با توجه به استقبال گسترده از بازی‌های دیجیتال و شبکه‌ای شدن کنسول‌ها، از نظر اقتصادی منطقی دانست."
     },
     {
       "key": "url:d7892e3bcefec72b9e941c36e9f2c04f4ae22c07fdb9a7eee75c8a272328a72e",
       "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
+      "message": "<b>📰 استودیو لایکا پس از دو دهه فعالیت، انیمیشن «وایلدوود» را روانه پرده سینماها کرد</b>\n\nاستودیو انیمیشن‌سازی لایکا (Laika) با اکران انیمیشن «وایلدوود» (Wildwood)، بزرگ‌ترین پروژه تاریخ خود را به نمایش گذاشت. این اثر که حاصل ترکیبی از فنون سنتی انیمیشن استاپ‌موشن و فناوری‌های نوین است، پس از سال‌ها تلاش و توسعه مستمر توسط «تراویس نایت» (Travis Knight) ساخته شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استودیو انیمیشن‌سازی لایکا (Laika) با انتشار انیمیشن سینمایی «وایلدوود» (Wildwood)، نقطه عطف جدیدی در تاریخ دو دهه‌ای فعالیت خود به ثبت رساند. این اثر که بزرگ‌ترین پروژه تولیدی این استودیو تا به امروز محسوب می‌شود، فرآیند ساخت طولانی و پیچیده‌ای را پشت سر گذاشته و از تکنیک‌های پیشرفته در کنار هنر سنتی استاپ‌موشن بهره برده است. «کالب دوشانل» (Caleb Deschanel)، فیلم‌بردار کهنه‌کار هالیوود که در کارنامه خود همکاری در پروژه‌های بزرگی همچون «پدرخوانده» (The Godfather) و «تایتانیک» (Titanic) را دارد، به‌عنوان مدیر فیلم‌برداری در پروژه «وایلدوود» (Wildwood) حضور یافته است. وی اعتراف می‌کند که با وجود سال‌ها تجربه در سینمای زنده، پیچیدگی‌های ساخت انیمیشن استاپ‌موشن فراتر از تصورات اولیه او بوده است. ایده اولیه ساخت این فیلم از رمانی به همین نام نوشته «کالین ملوی» (Colin Meloy)، خواننده گروه موسیقی «دسامبریستز» (The Decemberists)، گرفته شده است. «تراویس نایت» (Travis Knight)، مدیرعامل استودیو لایکا (Laika) و کارگردان «وایلدوود» (Wildwood)، حقوق اقتباس از این کتاب را در سال ۲۰۱۱ خریداری کرد، اما تولید رسمی آن یک دهه بعد کلید خورد. به گفته او، این داستان درباره عشق، از دست دادن و اندوه است و به همین دلیل شخصاً اهمیت بسیار زیادی برایش داشته است. داستان انیمیشن درباره دختری به نام «پرو» (Prue) است که برای نجات برادر نوزاد خود وارد جنگلی مرموز و ممنوعه در حومه شهر پورتلند می‌شود؛ فضایی سحرآمیز که یادآور دنیای «نارنیا» (Narnia) است. برای خلق این جهان پیچیده، نزدیک به ۵۰ انیماتور و بیش از ۲۰۰ عروسک به کار گرفته شده‌اند. از صحنه‌های شاخص این فیلم می‌توان به یک نبرد ۱۲ دقیقه‌ای حماسی اشاره کرد که به گفته سازندگان، چالش‌برانگیزترین سکانس تاریخ فعالیت این استودیو بوده است. «براد شیف» (Brad Schiff)، مدیر بخش انیمیشن لایکا (Laika)، رویکرد اصلی استودیو را تلفیق هنر سنتی با فناوری مدرن عنوان می‌کند. در هر پروژه، تکنیک‌های تازه‌ای ابداع می‌شود؛ برای نمونه، در انیمیشن قبلی این استودیو یعنی «مایکل گمشته» (Missing Link)، از مکانیسم تنفس در عروسک‌ها استفاده شد که اکنون به یک استاندارد در کارهای لایکا (Laika) تبدیل شده است. در «وایلدوود» (Wildwood) نیز پیشرفت‌های چشمگیری در زمینه مواد اولیه، از جمله ساخت سیلیکون سبک‌تر و انعطاف‌پذیرتر به جای فوم لاتکس سنتی، صورت گرفته است. در نهایت، انیمیشن «وایلدوود» (Wildwood) نشان‌دهنده تکامل دو دهه‌ای استودیویی است که توانسته با اتکا به هنر دست انسان و نوآوری‌های فنی، جان تازه‌ای به عروسک‌های بی‌جان ببخشد و اثری ماندگار را روانه سالن‌های سینما کند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/09450646-b085-11f1-90b9-46f10a3e57b0_3600.1360.cmp_.def_.out_.002._L.0059.UNAPPROVED.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "Laika has spent 20 years building up to Wildwood",
       "summary": "Across several decades in Hollywood, Caleb Deschanel has seen a lot. He served as cinematographer on films like The Passion of the Christ and The Patriot, worked on sequences in The Godfather and Titanic, and directed a few episodes of Twin Peaks. Even still, nothing could quite prepare him for his first stop-motion project: working [&#8230;]",
       "display_title": "استودیو لایکا پس از دو دهه فعالیت، انیمیشن «وایلدوود» را روانه پرده سینماها کرد",
-      "display_summary": "استودیو انیمیشن‌سازی لایکا (Laika) با اکران انیمیشن «وایلدوود» (Wildwood)، بزرگ‌ترین پروژه تاریخ خود را به نمایش گذاشت. این اثر که حاصل ترکیبی از فنون سنتی انیمیشن استاپ‌موشن و فناوری‌های نوین است، پس از سال‌ها تلاش و توسعه مستمر توسط «تراویس نایت» (Travis Knight) ساخته شده است.",
-      "message": "<b>📰 استودیو لایکا پس از دو دهه فعالیت، انیمیشن «وایلدوود» را روانه پرده سینماها کرد</b>\n\nاستودیو انیمیشن‌سازی لایکا (Laika) با اکران انیمیشن «وایلدوود» (Wildwood)، بزرگ‌ترین پروژه تاریخ خود را به نمایش گذاشت. این اثر که حاصل ترکیبی از فنون سنتی انیمیشن استاپ‌موشن و فناوری‌های نوین است، پس از سال‌ها تلاش و توسعه مستمر توسط «تراویس نایت» (Travis Knight) ساخته شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استودیو انیمیشن‌سازی لایکا (Laika) با انتشار انیمیشن سینمایی «وایلدوود» (Wildwood)، نقطه عطف جدیدی در تاریخ دو دهه‌ای فعالیت خود به ثبت رساند. این اثر که بزرگ‌ترین پروژه تولیدی این استودیو تا به امروز محسوب می‌شود، فرآیند ساخت طولانی و پیچیده‌ای را پشت سر گذاشته و از تکنیک‌های پیشرفته در کنار هنر سنتی استاپ‌موشن بهره برده است. «کالب دوشانل» (Caleb Deschanel)، فیلم‌بردار کهنه‌کار هالیوود که در کارنامه خود همکاری در پروژه‌های بزرگی همچون «پدرخوانده» (The Godfather) و «تایتانیک» (Titanic) را دارد، به‌عنوان مدیر فیلم‌برداری در پروژه «وایلدوود» (Wildwood) حضور یافته است. وی اعتراف می‌کند که با وجود سال‌ها تجربه در سینمای زنده، پیچیدگی‌های ساخت انیمیشن استاپ‌موشن فراتر از تصورات اولیه او بوده است. ایده اولیه ساخت این فیلم از رمانی به همین نام نوشته «کالین ملوی» (Colin Meloy)، خواننده گروه موسیقی «دسامبریستز» (The Decemberists)، گرفته شده است. «تراویس نایت» (Travis Knight)، مدیرعامل استودیو لایکا (Laika) و کارگردان «وایلدوود» (Wildwood)، حقوق اقتباس از این کتاب را در سال ۲۰۱۱ خریداری کرد، اما تولید رسمی آن یک دهه بعد کلید خورد. به گفته او، این داستان درباره عشق، از دست دادن و اندوه است و به همین دلیل شخصاً اهمیت بسیار زیادی برایش داشته است. داستان انیمیشن درباره دختری به نام «پرو» (Prue) است که برای نجات برادر نوزاد خود وارد جنگلی مرموز و ممنوعه در حومه شهر پورتلند می‌شود؛ فضایی سحرآمیز که یادآور دنیای «نارنیا» (Narnia) است. برای خلق این جهان پیچیده، نزدیک به ۵۰ انیماتور و بیش از ۲۰۰ عروسک به کار گرفته شده‌اند. از صحنه‌های شاخص این فیلم می‌توان به یک نبرد ۱۲ دقیقه‌ای حماسی اشاره کرد که به گفته سازندگان، چالش‌برانگیزترین سکانس تاریخ فعالیت این استودیو بوده است. «براد شیف» (Brad Schiff)، مدیر بخش انیمیشن لایکا (Laika)، رویکرد اصلی استودیو را تلفیق هنر سنتی با فناوری مدرن عنوان می‌کند. در هر پروژه، تکنیک‌های تازه‌ای ابداع می‌شود؛ برای نمونه، در انیمیشن قبلی این استودیو یعنی «مایکل گمشته» (Missing Link)، از مکانیسم تنفس در عروسک‌ها استفاده شد که اکنون به یک استاندارد در کارهای لایکا (Laika) تبدیل شده است. در «وایلدوود» (Wildwood) نیز پیشرفت‌های چشمگیری در زمینه مواد اولیه، از جمله ساخت سیلیکون سبک‌تر و انعطاف‌پذیرتر به جای فوم لاتکس سنتی، صورت گرفته است. در نهایت، انیمیشن «وایلدوود» (Wildwood) نشان‌دهنده تکامل دو دهه‌ای استودیویی است که توانسته با اتکا به هنر دست انسان و نوآوری‌های فنی، جان تازه‌ای به عروسک‌های بی‌جان ببخشد و اثری ماندگار را روانه سالن‌های سینما کند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/09450646-b085-11f1-90b9-46f10a3e57b0_3600.1360.cmp_.def_.out_.002._L.0059.UNAPPROVED.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "display_summary": "استودیو انیمیشن‌سازی لایکا (Laika) با اکران انیمیشن «وایلدوود» (Wildwood)، بزرگ‌ترین پروژه تاریخ خود را به نمایش گذاشت. این اثر که حاصل ترکیبی از فنون سنتی انیمیشن استاپ‌موشن و فناوری‌های نوین است، پس از سال‌ها تلاش و توسعه مستمر توسط «تراویس نایت» (Travis Knight) ساخته شده است."
+    },
+    {
+      "key": "url:0ef367750cbae5d905fd8b3a506e0fa367ccf42e2614f7d5a169b812fb87a6c5",
+      "url": "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users/",
+      "title": "Capcom confirms data breach that affected 11.7 million users",
+      "summary": "Capcom ID is still available to use, but users may see more phishing scam emails.",
+      "display_title": "شرکت کپکام (Capcom) تأیید کرد: هک و افشای اطلاعات ۱۱.۷ میلیون کاربر",
+      "display_summary": "شرکت بازی‌سازی کپکام (Capcom) تأیید کرد که در پی یک نفوذ امنیتی غیرمجاز، اطلاعات بیش از ۱۱.۷ میلیون کاربر حساب کاربری کپکام (Capcom ID) در معرض خطر قرار گرفته است. این شرکت اعلام کرده است که اگرچه اطلاعات مالی و کارت‌های اعتباری کاربران لو نرفته است، اما کاربران باید مراقب ایمیل‌های کلاهبرداری فیشینگ (Phishing) باشند.",
+      "message": "<b>📰 شرکت کپکام (Capcom) تأیید کرد: هک و افشای اطلاعات ۱۱.۷ میلیون کاربر</b>\n\nشرکت بازی‌سازی کپکام (Capcom) تأیید کرد که در پی یک نفوذ امنیتی غیرمجاز، اطلاعات بیش از ۱۱.۷ میلیون کاربر حساب کاربری کپکام (Capcom ID) در معرض خطر قرار گرفته است. این شرکت اعلام کرده است که اگرچه اطلاعات مالی و کارت‌های اعتباری کاربران لو نرفته است، اما کاربران باید مراقب ایمیل‌های کلاهبرداری فیشینگ (Phishing) باشند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت بازی‌سازی ژاپنی کپکام (Capcom) به طور رسمی تأیید کرد که سیستم حساب‌های کاربری این شرکت موسوم به کپکام (Capcom ID) هدف یک حمله سایبری و دسترسی غیرمجاز از سوی شخص ثالث قرار گرفته است که بر اساس آن، اطلاعات مربوط به بیش از ۱۱.۷ میلیون کاربر تحت تأثیر این نفوذ امنیتی قرار گرفته است. بر اساس بیانیه رسمی منتشر شده از سوی کپکام (Capcom)، این حادثه امنیتی از تاریخ ۱۹ اکتبر آغاز شد؛ زمانی که سیستم‌های نظارتی این شرکت فعالیت‌های مشکوکی را شناسایی کردند که نشان‌دهنده احتمال دسترسی غیرمجاز به شبکه بود. تیم امنیتی کپکام (Capcom) بلافاصله دسترسی‌های غیرمجاز را مسدود کرده و تحقیقات جامعی را درباره ابعاد و علت این رویداد آغاز نمود. با این حال، بررسی‌ها تأیید کرد که مهاجمان پیش از مسدودسازی موفق به دسترسی به داده‌ها شده بودند. در میان اطلاعات فاش شده، آدرس ایمیل میلیون‌ها کاربر به چشم می‌خورد. همچنین این نفوذ شامل افشای تاریخ تولد، جنسیت، کشور یا منطقه و نام‌های مستعار مربوط به ۴۳ حساب کاربری و تغییرات غیرمجاز در رمز عبور ۱۹۶ حساب دیگر بوده است. با وجود این، شرکت کپکام (Capcom) اطمینان خاطر داد که اطلاعات مربوط به کارت‌های اعتباری و مالی مشتریان در جریان این حمله به سرقت نرفته و در امنيت قرار دارد. پس از شناسایی این حادثه، مدیران کپکام (Capcom) موضوع را به پلیس محلی و همچنین هیئت مشاوران خارجی خود در حوزه امنیت اطلاعات گزارش دادند. این شرکت اعلام کرد که روش حمله مهاجمان را شناسایی و مسدود کرده است و خدمات وابسته به کپکام (Capcom ID) از جمله بخش‌های آنلاین بازی‌هایی نظیر استریت فایتر ۶ (Street Fighter 6) که نیازمند این حساب کاربری هستند، همچنان به کار خود ادامه می‌دهند و در دسترس کاربران قرار دارند. با این وجود، شرکت کپکام (Capcom) به تمامی کاربران خود هشدار جدی داد که با توجه به لو رفتن اطلاعات اولیه حساب‌ها، احتمال سوءاستفاده از آن‌ها در قالب ایمیل‌های کلاهبرداری و فیشینگ (Phishing) وجود دارد و کاربران باید نهایت احتیاط را در برخورد با پیام‌های مشکوک به نام این شرکت به خرج دهند. این رویداد امنیتی بار دیگر نشان داد که صنعت بازی‌های ویدئویی همچنان یکی از اهداف جذاب برای هکرها و حملات سایبری است، چنان‌که پیش‌تر نیز شرکت‌هایی مانند راک‌استار گیمز (Rockstar Games) در ماه آوریل از وقوع حوادث مشابهی خبر داده بودند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/capcom-confirms-data-breach-that-affected-11-7-million-users/l-intro-1792859616.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:93f8cf567fdc5cc8cb164f785604c65164119364b4f3b51c850a62878f0831de",
+      "url": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+      "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+      "summary": "Instacart might sell itself to a larger competitor.",
+      "display_title": "بررسی احتمال فروش اینستاکارت (Instacart)؛ مذاکرات با شرکت‌های دوردش (DoorDash) و اوبر (Uber)",
+      "display_summary": "گزارش‌های تازه حاکی از آن است که شرکت تحویل خواربار اینستاکارت (Instacart) برای بررسی گزینه‌های استراتژیک خود و احتمال فروش، با شرکت‌های بزرگ فناوری و تحویل کالا از جمله دوردش (DoorDash) و اوبر (Uber) مذاکره کرده است. این خبر باعث جهش ارزش سهام اینستاکارت (Instacart) در بازار بورس شد.",
+      "message": "<b>📰 بررسی احتمال فروش اینستاکارت (Instacart)؛ مذاکرات با شرکت‌های دوردش (DoorDash) و اوبر (Uber)</b>\n\nگزارش‌های تازه حاکی از آن است که شرکت تحویل خواربار اینستاکارت (Instacart) برای بررسی گزینه‌های استراتژیک خود و احتمال فروش، با شرکت‌های بزرگ فناوری و تحویل کالا از جمله دوردش (DoorDash) و اوبر (Uber) مذاکره کرده است. این خبر باعث جهش ارزش سهام اینستاکارت (Instacart) در بازار بورس شد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت تحویل خواربار اینستاکارت (Instacart) مذاکراتی را درباره احتمال فروش خود به رقبا و شرکت‌های بزرگ بازار برگزار کرده است. بر اساس گزارش‌های منتشر شده توسط رسانه‌هایی چون اینفرمیشن (The Information) و بلومبرگ (Bloomberg)، این شرکت بانک سرمایه‌گذاری را برای ارزیابی گزینه‌های پیش روی خود استخدام کرده و گفتگوهایی را با شرکت دوردش (DoorDash) انجام داده است. همچنین گزارش‌ها نشان می‌دهد که اینستاکارت (Instacart) با شرکت اوبر (Uber) نیز گفتگوهایی داشته است، هرچند منابع آگاه اعلام کرده‌اند که اوبر (Uber) در نهایت از این مذاکرات خارج شده است. ارزش بازار (Market Cap) اینستاکارت (Instacart) در حال حاضر بیش از ۱۳ میلیارد دلار برآورد می‌شود و ارزش سهام این شرکت از ابتدای سال جاری میلادی رشد ۲۵ درصدی را تجربه کرده است. کارشناسان بازار مالی بر این باورند که اینستاکارت (Instacart) ممکن است این زمان را فرصتی مناسب برای فروش با قیمتی مطلوب پیش از تشدید رقابت‌ها در بازار تحویل مواد غذایی بداند. با این وجود، منابع نزدیک به این پرونده تأکید کرده‌اند که این مذاکرات همچنان در مراحل اولیه قرار دارد و لزوماً به قطعی شدن قرارداد فروش منجر نخواهد شد. انتشار این اخبار بازتاب گسترده‌ای در بازارهای مالی داشت و باعث شد ارزش سهام اینستاکارت (Instacart) بیش از ۹.۲ درصد رشد کند، در حالی که ارزش سهام اوبر (Uber) و دوردش (DoorDash) با کاهشی جزئی مواجه شد. در صورت نهایی شدن هرگونه توافق، این معامله می‌تواند تحولات بزرگی را در بازار خدمات تحویل آنلاین و تجارت الکترونیک ایجاد کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/09/instacart-logo.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:afeb8e877c1252ee45d33fc833b147465bf9bdfe2a63562529ab7ba4b8db93bb",
+      "url": "https://www.engadget.com/2291533/what-is-theater-mode-on-apple-watch/",
+      "title": "What is Theater Mode on your Apple Watch and when should you use it?",
+      "summary": "There are various ways to silence your Apple Watch when you need to lock in. Theater Mode doesn't quite go as far as Do Not Disturb, but it's still very useful.",
+      "display_title": "حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) چیست و چه زمانی باید از آن استفاده کرد؟",
+      "display_summary": "حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) ابزاری کاربردی برای خاموش کردن صفحه نمایش و بی‌صدا کردن اعلان‌ها در محیط‌های ساکت است. این قابلیت از روشن شدن ناخواسته صفحه با حرکت مچ جلوگیری کرده و در عین حال، هپتیک (Haptics) یا همان بازخوردهای لرزشی را حفظ می‌کند.",
+      "message": "<b>📰 حالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) چیست و چه زمانی باید از آن استفاده کرد؟</b>\n\nحالت تئاتر (Theater Mode) در اپل واچ (Apple Watch) ابزاری کاربردی برای خاموش کردن صفحه نمایش و بی‌صدا کردن اعلان‌ها در محیط‌های ساکت است. این قابلیت از روشن شدن ناخواسته صفحه با حرکت مچ جلوگیری کرده و در عین حال، هپتیک (Haptics) یا همان بازخوردهای لرزشی را حفظ می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>ساعت‌های هوشمند اپل واچ (Apple Watch) فراتر از اعلام زمان، بسیاری از امکانات آیفون (iPhone) را به همراه مجموعه‌ای از داده‌های بیومتریک در اختیار کاربران قرار می‌دهند. با این حال، این گجت‌ها دارای ویژگی‌های فرعی و کاربردی دیگری نیز هستند که حالت تئاتر (Theater Mode) یکی از آن‌ها به شمار می‌رود. این قابلیت کاربردی برای زمانی طراحی شده است که می‌خواهید ساعت خود را در محیط‌های نیازمند سکوت آرام کنید. حالت تئاتر (Theater Mode) عملکردی مشابه با حالت مزاحم نشوید (Do Not Disturb) دارد و از زمان انتشار سیستم‌عامل واچ‌اواس ۳.۲ (watchOS 3.2) معرفی شده است؛ به این معنا که حتی مدل‌های قدیمی‌تر اپل واچ (Apple Watch) نیز از آن پشتیبانی می‌کنند. فعال‌سازی این حالت باعث می‌شود تا روشنایی صفحه نمایش کاهش یابد، دستگاه بی‌صدا شود و اعلان‌های بصری غیرفعال گردند. همچنین، از روشن شدن صفحه نمایش هنگام بالا آوردن مچ دست جلوگیری می‌شود و برای روشن کردن صفحه باید روی آن ضربه بزنید یا یکی از دکمه‌های ساعت را فشار دهید. تفاوت اصلی این حالت با حالت مزاحم نشوید (Do Not Disturb) در این است که حالت تئاتر (Theater Mode) همچنان بازخوردهای لرزشی یا همان هپتیک (Haptics) را فعال نگه می‌دارد؛ بنابراین کاربر همچنان می‌تواند لرزش ناشی از دریافت اعلان را حس کند. برای فعال کردن این ویژگی، کافی است دکمه کناری اپل واچ (Apple Watch) را لمس کنید تا مرکز کنترل (Control Center) باز شود و سپس آیکون مربوط به ماسک‌های تئاتر را فعال کنید. برخلاف حالت مزاحم نشوید (Do Not Disturb)، این حالت به صورت خودکار غیرفعال نمی‌شود و کاربر باید آن را به صورت دستی خاموش کند. بهترین زمان برای استفاده از حالت تئاتر (Theater Mode) در محیط‌هایی است که سکوت و احترام به دیگران اهمیت دارد، مانند سالن‌های سینما، تئاتر، جلسات کاری یا رویدادهای اجتماعی. علاوه بر حفظ تمرکز و جلوگیری از مزاحمت برای اطرافیان، این ویژگی به کاهش مصرف باتری نیز کمک می‌کند؛ زیرا از روشن شدن مداوم صفحه نمایش با حرکات دست جلوگیری می‌نماید. کاربران همچنین می‌توانند تنظیمات مربوط به برخی پایشگرهای بیومتریک را در این حالت شخصی‌سازی کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/what-is-theater-mode-on-your-apple-watch-and-when-should-you-use-it/l-intro-1792501458.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:2829b6d867987bf473e5eebeb8be95c7a42c8e62e4c93e5492ec625be0099bf6",
+      "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
+      "title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+      "summary": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare.",
+      "display_title": "آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی»؛ چگونه یک نقص امنیتی کل اینترنت را تا آستانه بحران برد",
+      "display_summary": "کشف دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی» (PHP) که به مهاجمان اجازه دسترسی غیرمجاز از راه دور را می‌دهد، شرکت‌ها و نهادهای دولتی سراسر جهان را وادار به واکنش فوری کرد. هرچند با انتشار سریع بسته‌های اصلاحی از فاجعه‌ای بزرگ جلوگیری شد، اما این رویداد شکنندگی زیرساخت‌های قدیمی وب را بیش از پیش نمایان کرد.",
+      "message": "<b>📰 آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی»؛ چگونه یک نقص امنیتی کل اینترنت را تا آستانه بحران برد</b>\n\nکشف دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی» (PHP) که به مهاجمان اجازه دسترسی غیرمجاز از راه دور را می‌دهد، شرکت‌ها و نهادهای دولتی سراسر جهان را وادار به واکنش فوری کرد. هرچند با انتشار سریع بسته‌های اصلاحی از فاجعه‌ای بزرگ جلوگیری شد، اما این رویداد شکنندگی زیرساخت‌های قدیمی وب را بیش از پیش نمایان کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>زبان برنامه‌نویسی وب «پی‌اچ‌پی» (PHP) که بخش عمده‌ای از وب‌سایت‌ها و سرورهای اینترنتی جهان بر پایه آن بنا شده‌اند، در هفته گذشته تا آستانه ایجاد اختلالی گسترده در شبکه جهانی پیش رفت. این بحران ناشی از کشف دو آسیب‌پذیری امنیتی بسیار خطرناک بود که سال‌ها به صورت پنهان در ساختار این فناوری وجود داشتند تا اینکه پژوهشگران امنیت سایبری موفق به شناسایی روش سوءاستفاده از آن‌ها شدند. این دو آسیب‌پذیری که با عناوین «پی‌اچ‌پی‌تو‌شل» (PHP2Shell) و شناسه‌های رسمی شناخته می‌شوند، به مهاجمان اجازه می‌دهند بدون نیاز به هیچ‌گونه رمز عبور یا احراز هویت، از راه دور به سیستم‌های متصل به اینترنت که از «پی‌اچ‌پی» استفاده می‌کنند نفوذ کرده و کنترل کامل آن‌ها را به دست بگیرند. چنین نقصی که در ادبیات امنیت سایبری به عنوان اجرای از راه دور کد شناخته می‌شود، یکی از مخرب‌ترین انواع حفره‌های امنیتی محسوب می‌شود. با انتشار این خبر، «بنیاد پی‌اچ‌پی» (PHP Foundation) به سرعت بسته‌های اصلاحی و وصله‌های امنیتی لازم را منتشر کرد. پیش از انتشار عمومی، اطلاعات مربوط به این نقص‌ها به صورت محرمانه در اختیار برخی از شرکت‌های بزرگ فناوری و میزبان‌های وب قرار گرفته بود تا زیرساخت‌های خود را ایمن‌سازی کنند. با این حال، بسیاری از صنایع از جمله بانک‌ها، فروشگاه‌های آنلاین، مراکز درمانی و برخی نهادهای دولتی ترجیح دادند برای جلوگیری از حملات احتمالی، خدمات خود را به صورت موقت از دسترس خارج کنند. پژوهشگران شرکت «کالیف» (Calif) که این نقص‌ها را کشف کرده بودند، در فرآیند تحلیل خود از ابزارهای هوش مصنوعی نیز بهره بردند؛ هرچند به گفته آن‌ها بخش عمده کار متکی بر دانش تخصصی انسانی و شناخت دقیق از ساختار «پی‌اچ‌پی» بوده است. شرکت‌های امنیتی بزرگی نظیر «آمازون» (Amazon)، «پالو آلتو نتورکز» (Palo Alto Networks) و «کلادفلر» (Cloudflare) گزارش داده‌اند که تلاش‌ها برای سوءاستفاده از این آسیب‌پذیری‌ها بلافاصله پس از افشای اطلاعات به شدت افزایش یافته است. زبان «پی‌اچ‌پی» که دهه‌ها از عمر آن می‌گذرد، همچنان هسته مرکزی سیستم‌های مدیریت محتوای بزرگی مانند «وردپرس» (WordPress)، «دروپال» (Drupal) و «ویکی‌پدیا» (Wikipedia) را تشکیل می‌دهد. کارشناسان هشدار می‌دهند که این رویداد آخرین بحران نخواهد بود؛ چرا که بسیاری از فناوری‌های قدیمی وب از مشکلات ایمنی حافظه رنج می‌برند و ترکیب این نقاط ضعف با قابلیت‌های رو به رشد هوش مصنوعی می‌تواند چالش‌های امنیتی جدیدی را برای اینترنت رقم بزند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/php-web-bug-padlock-2300746159.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:46e904da1b0e56693ddf07fd5262dcc5e736d17679a53d5dcc8069d10036ad62",
+      "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
+      "title": "Meta is delaying its controversial new business terms amid scraping concerns",
+      "summary": "Meta drew flak for an upcoming change to its business terms that would allow it to scrape business accounts' content for AI training.",
+      "display_title": "متا (Meta) اجرای شرایط تجاری جنجالی جدید خود را به تعویق انداخت",
+      "display_summary": "شرکت متا (Meta) اجرای شرایط تجاری جدید خود را که به دلیل نگرانی‌های مربوط به جمع‌آوری داده‌ها برای هوش مصنوعی با انتقاد مواجه شده بود، به تعویق انداخت. این تصمیم پس از اعتراضات گسترده ناشران و نهادهای صنفی اتخاذ شد تا زمان بیشتری برای شفاف‌سازی فراهم شود.",
+      "message": "<b>📰 متا (Meta) اجرای شرایط تجاری جنجالی جدید خود را به تعویق انداخت</b>\n\nشرکت متا (Meta) اجرای شرایط تجاری جدید خود را که به دلیل نگرانی‌های مربوط به جمع‌آوری داده‌ها برای هوش مصنوعی با انتقاد مواجه شده بود، به تعویق انداخت. این تصمیم پس از اعتراضات گسترده ناشران و نهادهای صنفی اتخاذ شد تا زمان بیشتری برای شفاف‌سازی فراهم شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت متا (Meta) اعلام کرد که اجرای شرایط تجاری جنجالی جدید خود را که پیش‌تر قرار بود از تاریخ ۳۰ اکتبر اجرایی شود، به تعویق می‌اندازد. بر اساس ایمیلی که سخنگوی این شرکت به خبرگزاری رویترز (Reuters) و نشریه فست کامپانی (Fast Company) ارسال کرده است، تاریخ اجرای به‌روزرسانی شرایط تجاری و شرایط تبلیغات سلف‌سرویس (Self-Serve Ad Terms) تا ۲۰ نوامبر تمدید شده است. این تاخیر به منظور فراهم کردن زمان بیشتر برای توضیح تغییرات به شرکا و ذینفعان صورت گرفته است. پیش‌تر، تغییرات برنامه‌ریزی‌شده در شرایط استفاده متا حاشیه‌ساز شده بود؛ چرا که این بندها به شرکت اجازه می‌داد با استفاده از ابزارهای خودکار و ابزارهای وب‌گردی (Web Scrapers)، محتوای مربوط به حساب‌های تجاری، دامنه‌ها و صفحات وب را فهرست‌بندی و تحلیل کند. نسخه اولیه این شرایط ذکر کرده بود که متا می‌تواند از این محتوا برای توسعه، بهبود، پژوهش و آموزش محصولات و خدمات شرکت متا (Meta Company Products) استفاده کند. با این حال، پس از اعتراض ناشران و کسب‌وکارها، شرکت عبارت مربوط به آموزش هوش مصنوعی را از متن حذف کرد. با وجود این اصلاحات، نهادهای آسیب‌دیده شکایات رسمی خود را به مراجع ضد انحصار (Antitrust Authorities) ارائه دادند. همچنین، اتحاد رسانه‌های خبری (News Media Alliance) که نمایندگی هزاران سازمان خبری در ایالات متحده آمریکا (United States) و کانادا (Canada) را بر عهده دارد، با ارسال نامه سرگشاده‌ای خواستار لغو کامل این شرایط پیش از تاریخ ۳۰ اکتبر شده بود. این سازمان هشدار داده بود که ناشران خبری ناچار خواهند شد روزنامه‌نگاری ارزشمند خود را بدون دریافت دستمزد در اختیار توسعه محصولاتی قرار دهند که در نهایت برای جذب مخاطب و آگهی‌دهنده با خود آن‌ها رقابت خواهند کرد. متا در بیانیه جدید خود تاکید کرده است که قصد دارد نحوه عملکرد خزنده‌های وب (Web Crawlers) خود را برای شرکای تجاریش شفاف‌سازی کند. این شرکت همچنین خاطرنشان ساخت که مالکان محتوا و ناشران همچنان می‌توانند با استفاده از فایل متنی استاندارد robots.txt، ترجیحات خود را به خزنده‌ها و ربات‌های هوش مصنوعی اعلام کرده و از ایندکس شدن محتوای خود جلوگیری کنند. این در حالی است که پیش‌تر گزارش‌هایی مبنی بر بی‌توجهی برخی خزنده‌های هوش مصنوعی به دستورالعمل‌های فایل robots.txt منتشر شده بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/meta-is-delaying-its-controversial-new-business-terms-amid-scraping-concerns/l-intro-1792836885.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -6706,27 +6731,176 @@
       ]
     },
     {
-      "item_id": "3d31d640e24574853e9ecf485eb7c558403ba438e07e9016888b1872d47e3357",
-      "title": "Peak on consoles, hockey roguelites and other new indie games worth checking out",
-      "url": "https://www.engadget.com/2295856/peak-on-consoles-hockey-roguelites-and-other-new-indie-games-worth-checking-out/",
-      "summary": "Steam Next Fest means there are a lot of weird new games in our indie gaming roundup this week.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/peak-on-consoles-hockey-roguelites-and-other-new-indie-games-worth-checking-out/l-intro-1792786507.jpg",
-      "published_at": "2026-10-24T11:30:00+00:00",
+      "item_id": "9e0255df28edae29b3b568e9e5f25711a9522d6f31fc2794a26f6501ea4623e2",
+      "title": "These clever apps show off the iPhone Duo’s potential",
+      "url": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
+      "summary": "From retro cassette players and virtual notebooks to flight trackers and even a digital toaster, developers are finding creative ways to take advantage of Apple's first foldable iPhone.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-24T15:00:00+00:00",
       "categories": [
-        "Gaming"
+        "Apps",
+        "Apple",
+        "Duo"
       ]
     },
     {
-      "item_id": "46e904da1b0e56693ddf07fd5262dcc5e736d17679a53d5dcc8069d10036ad62",
-      "title": "Meta is delaying its controversial new business terms amid scraping concerns",
-      "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
-      "summary": "Meta drew flak for an upcoming change to its business terms that would allow it to scrape business accounts' content for AI training.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/meta-is-delaying-its-controversial-new-business-terms-amid-scraping-concerns/l-intro-1792836885.jpg",
-      "published_at": "2026-10-24T10:18:15+00:00",
+      "item_id": "0243fc819127b1c06c62d102bd170d8c4612101ea958234c6d069d9a84926003",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-24T15:00:00+00:00",
       "categories": [
-        "AI"
+        "AI",
+        "Government & Policy",
+        "Elon Musk",
+        "SpaceX",
+        "vote",
+        "Exclusive",
+        "xAI",
+        "sam altman",
+        "OpenAI",
+        "ChatGPT"
+      ]
+    },
+    {
+      "item_id": "184549956f8a79f78cb5d95e5d8aeeba435b93ce3b6eeef65d815af2bfd06853",
+      "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+      "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+      "summary": "Lindsay Powell, who releases records under the name Fielded, has spent most of her career subverting expectations and genre conventions. According to their Bandcamp page, Fielded started as an experimental noise project before growing into something closer to R&#38;B. But from moment one, her take on the genre was restless, relentlessly playing with what R&#38;B [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/fielded_pressphoto_6-Fielded.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-24T15:00:00+00:00",
+      "categories": [
+        "Entertainment",
+        "Interview",
+        "Music",
+        "Report"
+      ]
+    },
+    {
+      "item_id": "3486b911883bad28579ac930d3a2d880107aea429af05782794ac1a5f8dd019b",
+      "title": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
+      "summary": "Black Friday is still over a month away, but if you&#8217;re hoping to upgrade your TV, you don’t need to wait until November. LG has already kicked off its early Black Friday sale, letting you save on the LG C6 and various soundbars through November 1st. Right now, for instance, you can snag a 55-inch [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/TV-OLED55C6PUA-Brilliant-oled-pictures_features_900x600.avif?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-24T15:00:00+00:00",
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "1f7c0dc399cc30f3a2dec2325284dbbd6ce742bc149e924afb03b4b5d3c15385",
+      "title": "Here's how to test a CR2032 battery to see if it's good",
+      "url": "https://www.engadget.com/2291408/how-to-test-cr2032-battery-see-if-good/",
+      "summary": "CR2032 batteries are found in a lot of gadgets around your home. They're easy to test when they run low, especially if you have the appropriate devices.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/heres-how-to-test-a-cr2032-battery-to-see-if-its-good/l-intro-1792489885.jpg",
+      "published_at": "2026-10-24T15:00:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "8d2e421e5ffdfa21b6a6893c659609673b238e711d661bfb47de8739b699d7d4",
+      "title": "Why your Ring camera is still useful without a subscription",
+      "url": "https://www.engadget.com/2291366/why-ring-camera-useful-without-subscription/",
+      "summary": "Modern smart home cameras and security systems put a lot of features behind a subscription. Here are a few reasons why you don't always need to pay.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-your-ring-camera-is-still-useful-without-a-subscription/l-intro-1791283019.jpg",
+      "published_at": "2026-10-24T14:30:00+00:00",
+      "categories": [
+        "Amazon"
+      ]
+    },
+    {
+      "item_id": "b1dd8b67048dc04a17ca56ab4638d0f8af9aa7a574e6bd490098a7ab0b05b937",
+      "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
+      "url": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
+      "summary": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-24T14:15:00+00:00",
+      "categories": [
+        "Hardware",
+        "Gadgets"
+      ]
+    },
+    {
+      "item_id": "00cee50e2bf3f33f4076a6c53a30865f242f2769e3b418f402ea63f67609714c",
+      "title": "What to expect from Apple’s ‘Pro and tell’ event",
+      "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
+      "summary": "It feels like Apple's Welcome Home event just happened. And the iPhone Duo announcement isn't all that far in our rearview mirror, either. Yet, the company is back with another launch, focused on the MacBook Pro, it looks like. Its \"Pro and tell\" event is scheduled for October 28th at 1PM ET in Los Angeles. [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/pro-and-tell.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-24T14:15:00+00:00",
+      "categories": [
+        "Apple",
+        "Apple Event 2026",
+        "Apple Rumors",
+        "Report",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "70e980836c92bb673bc24aa04e358b4cdce6377fa10d1a84bd2d9c94c74aea89",
+      "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+      "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+      "summary": "It looks like the long-rumored touchscreen MacBook might actually get announced next week, and after using the Lenovo Yoga 9n for our testing of Nvidia's RTX Spark platform, it got me thinking: this is a lot of what I want from a touchscreen MacBook. Like the Apple silicon in modern MacBook Pros, RTX Spark is [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268814_Nvidia_RTX_Spark_HP_Lenovo_Yoga_9n_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-24T14:00:00+00:00",
+      "categories": [
+        "Apple",
+        "Gadgets",
+        "Laptops",
+        "Lenovo",
+        "macOS",
+        "Microsoft",
+        "Report",
+        "Tech",
+        "Windows"
+      ]
+    },
+    {
+      "item_id": "968c6fc7ffa83500f9a3e8ea149fda404979788b57cbddcc6a970acf3ec85bac",
+      "title": "The MacBook Neo uses an iPhone chip, and it's just good enough",
+      "url": "https://www.engadget.com/2290733/macbook-neo-a18-pro-chip-performance/",
+      "summary": "The MacBook Neo had to make some compromises to meet its price point. And as long as you're aware of them, it offers a solid value.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-macbook-neo-uses-an-iphone-chip-and-its-just-good-enough/l-intro-1792434494.jpg",
+      "published_at": "2026-10-24T14:00:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "ef01267b7cf31448b09bd1820a1082840b1105fcf3a010b2120daf7604993f90",
+      "title": "How to get better iPhone battery life without closing any apps",
+      "url": "https://www.engadget.com/2290702/get-better-iphone-battery-life-without-closing-apps/",
+      "summary": "Apple has added a host of battery-management features to the iPhone over the years.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-get-better-iphone-battery-life-without-closing-any-apps/l-intro-1792433821.jpg",
+      "published_at": "2026-10-24T13:45:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "f146283a9b44a5921904a474ec5bceb3d0b266e6f624d6a0a18ce4c17525b7d5",
+      "title": "The beneficial purpose of 'IQ' on your Anker chargers",
+      "url": "https://www.engadget.com/2290640/anker-charger-iq-meaning-purpose/",
+      "summary": "Anker's PowerIQ technology helps identify and charge your devices more efficiently.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-beneficial-purpose-of-iq-on-your-anker-chargers/l-intro-1792432015.jpg",
+      "published_at": "2026-10-24T13:30:00+00:00",
+      "categories": [
+        "Accessories"
       ]
     }
   ]
