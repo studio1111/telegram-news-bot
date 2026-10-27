@@ -2352,72 +2352,55 @@
     "facc8a5d3d0d5d73df86dd15a2a237ba08cc9714c115a86d26f1ad0d308237ff",
     "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
     "65031cf7c2161a076f3a92a77942d5863dfc4a99d962c11e6146430393800f8d",
-    "https://techcrunch.com/2026/10/26/x-is-nudging-users-to-promote-their-posts-with-a-pointing-hand-and-people-are-confused/"
+    "https://techcrunch.com/2026/10/26/x-is-nudging-users-to-promote-their-posts-with-a-pointing-hand-and-people-are-confused/",
+    "1a03a87b9dbed5729a40ca626740978635a68ee9ec13d0b106bfa5fabd410c3f",
+    "26f503fc57d2e3fda47125ed05c09b7c83515aeb647d28a25152622a5a3d0366",
+    "3e120c3c780d463e32899899ff7e33b34eb81283040752d8e6b0b9a0d827219a",
+    "483127fbf2a13a63a23d208849b8226d61dcb7d773a0bfa57ef1769d311f3612",
+    "58fbb7e7477528f9ae41f4eb1f2c2875c7906969ba3c569306d2982108966a9e",
+    "64fa7da98239446a04b7d74cf8ca00cb84f32534360e639efcb7746eacb7275e",
+    "89d6fa0ecfbd595f9a5b80c8e2b6861eb95f2556f448ac0d87c03bda947d8530",
+    "8b5f9144c38f1a0ec5d9bdb442e852e387bf7f422c0d4b8b75fa36cccc659003",
+    "8fb966a41a0a7cbdec11615e078a9a1a6bc07e7e54d795a037255443726f612b",
+    "90ea8e58f854eaa516b9a28a80261b75fdb7dbccce8f3640df0ca788ef9981a1",
+    "b13b2ee5fae0b34db07289593c6daf24062e237098276626e9e617a68b3c353c",
+    "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
+    "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
+    "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+    "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+    "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
+    "https://www.engadget.com/2298214/anthropics-political-problem-will-get-worse-before-it-gets-better/",
+    "https://www.engadget.com/2298872/gta-6-download-size-reportedly-210-gb/",
+    "https://www.engadget.com/2298907/rockstar-workers-in-uk-hold-union-vote-as-gta-6-release/",
+    "https://www.theverge.com/science/1019879/elon-musk-starlink-ukraine-terms-of-service",
+    "https://www.theverge.com/tech/1018679/twelve-south-airfly-view-screen-display-wireless-headphone-earbuds-airplane-adapter",
+    "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+    "8780d497a4a73fe2689b4dcc8b83f4b388f49e3fc808de4964bb64384922b703",
+    "https://www.engadget.com/2295698/book-vs-clamshell-foldable-phones-which-better/",
+    "aa48ad6a4f862ff0d286a21d58698e1860ea611afbaf023f46222563857ba1a5",
+    "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+    "3de5f1a10d78bb5453c902eb55863e1c5731a33608467a6b47e7ed9fdc6f99d2",
+    "https://www.engadget.com/2298132/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/",
+    "569e4be82d517286e8011077c791172ddc8e645435f9031797179c3a08022bb3",
+    "https://www.engadget.com/2295693/a-jailbroken-playstation-5-can-play-ps2-discs-but-sony-is-giving-users-a-tough-choice/",
+    "90fec1a713e61d7fcbdb053e0772ec15d58cf0cf413544912f8e34755405ade9",
+    "https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax/",
+    "143e0eb350b2821f9d168fbc202161d4354b2021720fe7a1b599e513973e717e",
+    "https://www.engadget.com/2295682/drawbacks-you-should-know-before-buying-xbox-series-x/",
+    "229054104bdca041652b203edb14c17c6a7e128ee8ac90f802419a1b5f4e9842",
+    "https://www.theverge.com/gadgets/1019300/fujifilm-instax-mini-evo-2-instant-camera-price-availability",
+    "d8a80b8436b4448e4e501b16593d2809b822b075de9079cb54e3f3babb717ff3",
+    "https://www.engadget.com/2295544/older-samsung-phones-how-much-actually-worth/",
+    "f8a635213a723951836706edc39ff38673d2d6026f8b019981e2dd3b38bd9ee8",
+    "https://www.engadget.com/2298015/nasa-plans-to-launch-three-massive-rockets-for-the-artemis-3-crewed-lunar-test-mission/",
+    "c0d660968e2a742cf1b5ab10fd743898028ebf407b27aa78e0ef69550b5a76e0",
+    "https://www.engadget.com/2298013/acer-predator-atlas-8-gaming-handheld-comes-to-best-buy-on-november-1-for-1300/",
+    "97ba5f6d12e93abe31acfa9676cc6add4a700d08beee78030dfa2c67613b86ff",
+    "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+    "76e0132c4fdbe2d083a09c6bc1f38b913968267de3a56c352111acc6c63197bd",
+    "https://www.engadget.com/2297565/20-years-of-macbook-how-apple-shaped-the-laptops-we-use-today/"
   ],
   "published_stories": [
-    {
-      "title": "How does a backup camera actually work?",
-      "summary": "Aftermarket backup cameras might not work as well as integrated ones, but they're still a useful upgrade to an older car.",
-      "url": "https://www.engadget.com/2280368/how-backup-camera-works/",
-      "display_title": "دوربین‌های دنده‌عقب بی‌سیم چگونه کار می‌کنند؟",
-      "display_summary": "دوربین‌های دنده‌عقب پس از خرید (Aftermarket) ابزاری کاربردی برای ارتقای خودروهای قدیمی‌تر و بهبود ایمنی هنگام پارک کردن هستند. این گزارش به بررسی نحوه عملکرد فنی، روش‌های نصب و محدودیت‌های این فناوری بی‌سیم می‌پردازد."
-    },
-    {
-      "title": "How to use the parental controls on iOS 27",
-      "summary": "Screen Time has new features to help parents manage their children's Apple devices, as well as refinements to existing controls.",
-      "url": "https://www.engadget.com/2280277/how-to-use-ios-27-parental-controls/",
-      "display_title": "آموزش استفاده از قابلیت‌های کنترل والدین در سیستم‌عامل آی‌او‌اس ۲۷ (iOS 27)",
-      "display_summary": "شرکت اپل (Apple) با انتشار سیستم‌عامل آی‌او‌اس ۲۷ (iOS 27) قابلیت‌های کنترل والدین و زمان نمایش صفحه (Screen Time) را با همکاری آکادمی اطفال آمریکا (American Academy of Pediatrics) به‌روزرسانی کرده است. این ویژگی‌های جدید شامل محدودیت‌های زمانی انعطاف‌پذیرتر، تاییدیه برای مرور وب و مخاطبین، و ابزارهای ایمنی پیشرفته برای محافظت از کودکان در فضای دیجیتال است."
-    },
-    {
-      "title": "How to reduce mobile data usage on your iPhone",
-      "summary": "If your cellular plan has limited data, you'll want to take advantage of these easy tweaks to stretch those gigabytes.",
-      "url": "https://www.engadget.com/2280214/how-to-reduce-mobile-data-usage-iphone/",
-      "display_title": "آموزش کاهش مصرف داده تلفن همراه در آیفون",
-      "display_summary": "اگر حجم اینترنت همراه شما محدود است یا قصد دارید در هزینه‌ها صرفه‌جویی کنید، راهکارهای ساده‌ای برای کاهش مصرف داده در آیفون (iPhone) وجود دارد. با اعمال تغییراتی در تنظیمات سیستم‌عامل و برنامه‌ها می‌توانید به راحتی میزان مصرف گیگابایت‌های خود را مدیریت کنید."
-    },
-    {
-      "title": "Simple tweaks to improve your 4K TV's picture quality",
-      "summary": "Even if your TV looks great as-is, some tweaks to its modes and sliders, as well as the room it's in, will make it look much better.",
-      "url": "https://www.engadget.com/2280162/improve-picture-quality-4k-tv-simple-tweaks/",
-      "display_title": "تنظیمات ساده برای بهبود کیفیت تصویر تلویزیون‌های فورکی (4K TV)",
-      "display_summary": "تلویزیون‌های مدرن فورکی (4K TV) معمولاً با تنظیمات پیش‌فرض کارخانه‌ای عرضه می‌شوند که برای محیط فروشگاه‌ها بهینه شده‌اند و کیفیت واقعی تصویر را نشان نمی‌دهند. با چند تغییر ساده در حالت‌های تصویر، غیرفعال‌سازی پردازش‌های اضافی و بهینه‌سازی نور محیط، می‌توانید تجربه تماشای خود را به شکل چشمگیری ارتقا دهید."
-    },
-    {
-      "title": "What is the 3-2-1 rule for backing up your data?",
-      "summary": "Make sure your files are safe in the event of a hard drive disaster.",
-      "url": "https://www.engadget.com/2280127/backing-up-data-3-2-1-rule-explained/",
-      "display_title": "قانون ۳-۲-۱ چیست و چگونه از داده‌های خود در برابر حوادث محافظت کنیم؟",
-      "display_summary": "قانون ۳-۲-۱ یک چارچوب استاندارد و مطمئن برای پشتیبان‌گیری از داده‌ها است که به کاربران کمک می‌کند تا در صورت بروز خرابی سخت‌افزاری یا بلایای طبیعی، فایل‌های مهم خود را از دست ندهند. این روش بر پایه ایجاد چندین نسخه پشتیبان روی رسانه‌های مختلف و نگهداری حداقل یک نسخه در خارج از محل اصلی استوار است."
-    },
-    {
-      "title": "NASA dumped over 800GB of Artemis II data online",
-      "summary": "If you thought you'd seen all there is to see from the Artemis II mission, you're wrong. This week NASA posted over 800GB worth of science data, images, and videos on the Artemis II: Sights &#38; Sounds of Science site. The archive includes over 11,000 photos and videos, over 8.5 hours of audio, and crew-annotated [&#8230;]",
-      "url": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
-      "display_title": "انتشار بیش از ۸۰۰ گیگابایت داده، تصویر و صوت از ماموریت آرتمیس ۲ توسط ناسا",
-      "display_summary": "سازمان ناسا (NASA) بیش از ۸۰۰ گیگابایت داده علمی، شامل تصاویر، ویدیوها و فایل‌های صوتی مربوط به ماموریت آرتمیس ۲ (Artemis II) را به صورت آنلاین منتشر کرد. این آرشیو کم‌نظیر شامل جزئیات دقیق، تصاویر حاشیه‌نویسی‌شده توسط خدمه و مستنداتی درباره مشاهدات فضایی است."
-    },
-    {
-      "title": "The hidden features every Waze user should know about",
-      "summary": "There are a load of features tucked away in Google's 'other' mapping app.",
-      "url": "https://www.engadget.com/2280999/waze-hidden-features-users-should-know/",
-      "display_title": "قابلیت‌های پنهانی که هر کاربر اپلیکیشن ویز باید بداند",
-      "display_summary": "اپلیکیشن مسیریاب ویز (Waze) که متعلق به شرکت گوگل (Google) است، قابلیت‌های کاربردی و کمتر شناخته‌شده‌ای دارد که در منوهای آن پنهان شده‌اند. این ویژگی‌ها شامل مسیریابی آسان به آدرس مخاطبان، شخصی‌سازی صدا و ثبت دستورالعمل‌های صوتی شخصی، و برنامه‌ریزی سفرها بر اساس ترافیک پیش‌بینی‌شده می‌شود."
-    },
-    {
-      "title": "George A. Romero’s Season of the Witch is a slow-burn feminist occult drama",
-      "summary": "George A. Romero is obviously best known as the father of the modern zombie movie. But between inventing the genre with Night of the Living Dead and his outbreak horror, The Crazies, Romero made two much lesser-known films: There's Always Vanilla, which I'll admit I've never seen, and Season of the Witch, or, as it [&#8230;]",
-      "url": "https://www.theverge.com/entertainment/1009346/george-a-romero-season-of-the-witch-feminist-horror-review",
-      "display_title": "فیلم «فصل جادوگری» اثر «جورج A. رومرو (George A. Romero)»؛ درام فمینیستی کند و رازآلود",
-      "display_summary": "فیلم «فصل جادوگری (Season of the Witch)» اثر «جورج A. رومرو (George A. Romero)»، پدر فیلم‌های زامبی مدرن، اثری کمترشناخته‌شده و فمینیستی درباره یک زن خانه‌دار است که برای رهایی از زندگی فرساینده خود به جادوگری روی می‌آورد. این اثر که در ابتدا با نام «همسران گرسنه (Hungry Wives)» و با بازاریابی اشتباه به عنوان فیلمی مستهجن اکران شده بود، اکنون پس از سال‌ها بازسازی و توجه دوباره، به عنوان یک درام دلهره‌آور و پیشرو شناخته می‌شود."
-    },
-    {
-      "title": "Efferon wants to eradicate the devastating toll of pediatric sepsis",
-      "summary": "This Battlefield 200 startup has developed blood-purification tech to save children",
-      "url": "https://techcrunch.com/2026/10/11/efferon-wants-to-eradicate-the-devastating-toll-of-pediatric-sepsis/",
-      "display_title": "تلاش استارتاپ «افرون (Efferon)» برای مهار سپس کودکان با فناوری تصفیه خون",
-      "display_summary": "استارتاپ «افرون (Efferon)» دستگاه پزشکی جدیدی برای کودکان توسعه داده است که با تصفیه خون، عوارض خطرناک سپس را کاهش می‌دهد. این فناوری نوین موفق به دریافت استاندارد «مارک CE اروپا (CE Mark)» شده و در بخش‌های مراقبت‌های ویژه در سراسر جهان مورد استفاده قرار می‌گیرد."
-    },
     {
       "title": "Why it's important to backup data saved on your older thumb drives",
       "summary": "Transferring important files to a thumb drive is brilliant for portability, but not always great for longevity. Here's why you should back them up elsewhere.",
@@ -5854,6 +5837,69 @@
       "url": "https://techcrunch.com/2026/10/26/x-is-nudging-users-to-promote-their-posts-with-a-pointing-hand-and-people-are-confused/",
       "display_title": "نمایش عجیب یک دست اشاره‌گر در شبکه اجتماعی ایکس برای ترغیب کاربران به تبلیغ پست‌ها",
       "display_summary": "شبکه اجتماعی ایکس (X) اخیراً در زمان نگارش پست توسط کاربران، از یک انیمیشن دست اشاره‌گر استفاده کرده که دکمه تبلیغ (Promote) را نشان می‌دهد. این ترفند تهاجمی برای ترغیب کاربران به صرف هزینه، موجی از تعجب و انتقاد را در میان کاربران به همراه داشته است."
+    },
+    {
+      "title": "Book vs clamshell foldable phones: which is better for your everyday needs?",
+      "summary": "There are pros and cons to each style of foldable.",
+      "url": "https://www.engadget.com/2295698/book-vs-clamshell-foldable-phones-which-better/",
+      "display_title": "مقایسه گوشی‌های تاشوی صدفی و کتابی: کدام‌یک برای نیازهای روزمره شما مناسب‌تر است؟",
+      "display_summary": "بازار گوشی‌های هوشمند تاشو به دو دسته اصلی صدفی و کتابی تقسیم می‌شود که هر کدام مزایا و معایب خاص خود را دارند. گوشی‌های صدفی (Clamshell) با طراحی جمع‌وجور و دسترسی سریع به اطلاعات روی نمایشگر بیرونی شناخته می‌شوند، در حالی که مدل‌های کتابی (Book-style) با گشودن صفحه‌نمایشی بزرگ‌تر مانند تبلت، تجربه‌ای همه‌جانبه برای کارهای چندوظیفه‌ای و سرگرمی فراهم می‌کنند."
+    },
+    {
+      "title": "Japan internet giant GMO says hackers posted stolen customer data",
+      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+      "display_title": "هکرها اطلاعات سرقت‌شده مشتریان جی‌ام‌او اینترنت (GMO Internet) ژاپن را منتشر کردند",
+      "display_summary": "شرکت بزرگ اینترنتی جی‌ام‌او اینترنت (GMO Internet) در ژاپن پس از یک نفوذ سایبری به سرویس ابری خود، در حال بررسی ادعاهای هکرها مبنی بر انتشار داده‌های مشتریان است. این حادثه امنیتی که حدود ۲۷ هزار سرور را تحت تأثیر قرار داده، شرکت را مجبور به درخواست بازنشانی رمزهای عبور و ارائه هشدار به کاربران کرده است."
+    },
+    {
+      "title": "Apple's iMac with M6 arrives promising a 'huge leap' in AI performance",
+      "summary": "It offers more cores and more performance per core than the iMac M5.",
+      "url": "https://www.engadget.com/2298132/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/",
+      "display_title": "رونمایی از آی‌مک جدید اپل با تراشه ام۶ و وعده جهش بزرگ در پردازش هوش مصنوعی",
+      "display_summary": "شرکت اپل (Apple) از رایانه‌های همه‌کاره آی‌مک (iMac) جدید خود مجهز به تراشه‌های قدرتمند ام۶ (M6) رونمایی کرد. این مدل جدید با بهره‌گیری از هسته‌های پردازشی بیشتر و شتاب‌دهنده‌های عصبی پیشرفته، بهبود چشمگیری در اجرای قابلیت‌های هوش مصنوعی و عملکرد گرافیکی ارائه می‌دهد."
+    },
+    {
+      "title": "A jailbroken PlayStation 5 can play PS2 discs, but Sony is giving users a tough choice",
+      "summary": "We mean that in the Faustian bargain sense.",
+      "url": "https://www.engadget.com/2295693/a-jailbroken-playstation-5-can-play-ps2-discs-but-sony-is-giving-users-a-tough-choice/",
+      "display_title": "اجرای دیسک‌های پلی‌استیشن ۲ روی پلی‌استیشن ۵ هک‌شده با بهایی سنگین از سوی سونی",
+      "display_summary": "یک شبیه‌ساز جدید امکان اجرای دیسک‌های بازی پلی‌استیشن ۲ را روی کنسول پلی‌استیشن ۵ جیلبریک‌شده فراهم کرده است. با این حال، این کار مستلزم از دست دادن دسترسی به شبکه پلی‌استیشن، به‌روزرسانی‌ها و بازی‌های جدید مانند جی‌تی‌ای ۶ است."
+    },
+    {
+      "title": "Billionaire Palmer Luckey isn’t leaving California over the wealth tax",
+      "summary": "\"It's causing a lot of people to run who I don't want to be running,\" native Californian Palmer Luckey said. \"But I'm planning on staying in California. I'm going to keep fighting it.\"",
+      "url": "https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax/",
+      "display_title": "پالمر لاکی: با وجود مالیات ثروت، کالیفرنیا را ترک نمی‌کنم و می‌مانم تا بجنگم",
+      "display_summary": "پالمر لاکی (Palmer Luckey)، بنیان‌گذار شرکت آکیولس وی‌آر (Oculus VR) و شرکت دفاعی آندوریل (Anduril)، اعلام کرد که برخلاف فشارهای همتایان میلیاردرش و انتقادات شدید نسبت به طرح جنجالی مالیات ثروت در کالیفرنیا، قصد ترک این ایالت را ندارد. او معتقد است این لایحه غیرمنصفانه و آسیب‌زا است، اما ترجیح می‌دهد در کالیفرنیا بماند و با آن مبارزه کند."
+    },
+    {
+      "title": "Fujifilm’s Instax Mini Evo 2 adds a touchscreen and video recording",
+      "summary": "Fujifilm is trying to find the right balance of fun and photography with its latest hybrid instant camera. Like its predecessor, the Instax Mini Evo 2 feels less like a retro gimmick, and more like a basic digital camera that just happens to have a built-in printer. It also enjoys some key upgrades: a larger [&#8230;]",
+      "url": "https://www.theverge.com/gadgets/1019300/fujifilm-instax-mini-evo-2-instant-camera-price-availability",
+      "display_title": "دوربین هیبریدی اینستکس مینی اوو ۲ شرکت فوجی‌فیلم با صفحه نمایش لمسی و قابلیت ضبط ویدیو معرفی شد",
+      "display_summary": "شرکت فوجی‌فیلم (Fujifilm) نسخه جدید دوربین فوری و هیبریدی خود را با نام اینستکس مینی اوو ۲ (Instax Mini Evo 2) معرفی کرد. این مدل جدید با برخورداری از صفحه نمایش لمسی بزرگ‌تر، حسگر تصویر ارتقایافته و امکان ضبط محدود ویدیو، شباهت بیشتری به دوربین‌های دیجیتال سنتی پیدا کرده است."
+    },
+    {
+      "title": "Here's how much your older Samsung phones are actually worth",
+      "summary": "You have options for selling your old Samsung phone, depending on how much hassle you'll tolerate for more cash.",
+      "url": "https://www.engadget.com/2295544/older-samsung-phones-how-much-actually-worth/",
+      "display_title": "ارزش واقعی گوشی‌های قدیمی سامسونگ در بازار خرید و فروش چقدر است؟",
+      "display_summary": "بررسی‌ها نشان می‌دهد که گوشی‌های قدیمی‌تر سری گلکسی سامسونگ (Samsung Galaxy) همچنان ارزش دلاری قابل توجهی دارند، اما تفاوت چشمگیری میان قیمت پیشنهادی سایت‌های بازخرید و فروش مستقیم به مصرف‌کننده وجود دارد. کاربران می‌توانند با انتخاب روش‌های مختلف مانند پلتفرم‌های واسطه یا تعویض با مدل‌های نو، از دستگاه‌های کارکرده خود کسب درآمد کنند."
+    },
+    {
+      "title": "NASA plans to launch three massive rockets for the Artemis 3 crewed lunar test mission",
+      "summary": "NASA has detailed how the next Artemis 3 test will happen, but it doesn't have a concrete date for it yet.",
+      "url": "https://www.engadget.com/2298015/nasa-plans-to-launch-three-massive-rockets-for-the-artemis-3-crewed-lunar-test-mission/",
+      "display_title": "برنامه ناسا برای پرتاب سه موشک غول‌پیکر در مأموریت آزمایشی و سرنشین‌دار آرتمیس ۳ (Artemis 3)",
+      "display_summary": "سازمان فضایی ناسا (NASA) جزئیات تازه‌ای از مأموریت آزمایشی آرتمیس ۳ (Artemis 3) منتشر کرده است که طی آن سه موشک سنگین‌بر در بازه زمانی دو هفته‌ای به فضا پرتاب خواهند شد. این مأموریت شامل ارزیابی سیستم‌های فرودگر شرکت‌های بلو اوریجین (Blue Origin) و اسپیس‌ایکس (SpaceX) خواهد بود، هرچند تاریخ دقیق پرتاب آن هنوز مشخص نیست."
+    },
+    {
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "display_title": "سرمایه‌گذاری انویدیا روی استارتاپ هندی «سیمپل‌اس마트» برای اجرای کارآمدتر مدل‌های هوش مصنوعی",
+      "display_summary": "شرکت انویدیا (Nvidia) در جدیدترین دور تأمین مالی استارتاپ هندی «سیمپل‌اسمارت» (Simplismart) مشارکت کرد. این استارتاپ نرم‌افزاری توسعه داده است که به شرکت‌ها کمک می‌کند مدل‌های هوش مصنوعی را با تعداد پردازنده‌های گرافیکی کمتری اجرا کنند."
     }
   ],
   "outbox": [
@@ -7117,72 +7163,180 @@
     {
       "key": "url:e651b92c4874a1273889f86f2be4bf45c44ec5f55b9f0e36c6c1fee713c7ee59",
       "url": "https://www.engadget.com/2297022/vivos-x500-pro-max-hands-on/",
-      "title": "Vivo's X500 Pro Max is another camera-focused smartphone with more video tricks",
-      "summary": "Vivo and Oppo are launching similar phones with different priorities.",
-      "display_title": "معرفی گوشی هوشمند ویوو ایکس۵۰۰ پرو مکس با تمرکز ویژه بر قابلیت‌های دوربین و ویدیو",
-      "display_summary": "شرکت ویوو (Vivo) از گوشی جدید ایکس۵۰۰ پرو مکس (X500 Pro Max) با تمرکز ویژه بر قابلیت‌های عکاسی و فیلم‌برداری پیشرفته رونمایی کرد. این دستگاه به سنسورهای قدرتمند، پردازنده مدیاتک دیمنسیتی (MediaTek Dimensity) و باتری حجیم مجهز شده است.",
       "message": "<b>📰 معرفی گوشی هوشمند ویوو ایکس۵۰۰ پرو مکس با تمرکز ویژه بر قابلیت‌های دوربین و ویدیو</b>\n\nشرکت ویوو (Vivo) از گوشی جدید ایکس۵۰۰ پرو مکس (X500 Pro Max) با تمرکز ویژه بر قابلیت‌های عکاسی و فیلم‌برداری پیشرفته رونمایی کرد. این دستگاه به سنسورهای قدرتمند، پردازنده مدیاتک دیمنسیتی (MediaTek Dimensity) و باتری حجیم مجهز شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت چینی ویوو (Vivo) بار دیگر با معرفی گوشی هوشمند جدید خود یعنی ایکس۵۰۰ پرو مکس (X500 Pro Max)، توجه علاقه‌مندان به عکاسی موبایل را به خود جلب کرده است. این محصول جدید که در ادامه رقابت شرکت‌های سازنده گوشی‌های هوشمند عرضه شده، با تکیه بر قابلیت‌های پیشرفته ویدیو و همکاری با شرکت زایس (Zeiss) تلاش می‌کند استانداردهای جدیدی را در زمینه تصویربرداری با موبایل ارائه دهد. بزرگ‌ترین ارتقای بخش دوربین ایکس۵۰۰ پرو مکس (X500 Pro Max) استفاده از سنسور ۵۰ مگاپیکسلی سونی لایتیا (Sony Lytia) با فناوری الوفیک (LOFIC) است که ۱۷ استاپ محدوده دینامیکی ارائه می‌دهد. همچنین این گوشی از یک دوربین اولتراواید ۵۰ مگاپیکسلی و یک دوربین تله‌فوتو پریسکوپی ۲۰۰ مگاپیکسلی با قابلیت زوم اپتیکال بدون افت کیفیت تا ۱۰ برابر بهره می‌برد. سیستم لرزشگیر اپتیکال در این مدل بهبود یافته و لرزشگیر سه درجه‌ای در سطح گیمبال، ضبط ویدیوهای نرم و بدون لرزش را حتی در حال حرکت تضمین می‌کند. در بخش سخت‌افزاری، این گوشی به پردازنده ۲ نانومتری مدیاتک دیمنسیتی ۹۶۰۰ پرو (MediaTek Dimensity 9600 Pro) و یک باتری غول‌پیکر ۷۸۰۰ میلی‌آمپر ساعتی در برخی مناطق مجهز شده است که از شارژ سریع ۹۰ واتی پشتیبانی می‌کند. صفحه نمایش ۶.۸۵ اینچی این دستگاه با نرخ تازه‌سازی ۱۴۴ هرتز و روشنایی پیک ۴۵۰۰ نیت، تجربه بصری باکیفیتی را رقم می‌زند. با این حال، بخش نرم‌افزاری با رابط کاربری اوریجین اواس ۷ (Origin OS 7) به دلیل داشتن برنامه‌های پیش‌فرض مزاحم و اعلان‌های مداوم، همچنان نقطه ضعفی برای کاربران بازار جهانی محسوب می‌شود. گوشی ویوو ایکس۵۰۰ پرو مکس (X500 Pro Max) قرار است در بازارهای منتخب جهانی از جمله اسپانیا، برزیل، هند و سنگاپور عرضه شود، اما برنامه‌ای برای عرضه رسمی آن در ایالات متحده آمریکا و بریتانیا وجود ندارد. این محصول با امکانات گسترده خود رقیبی جدی برای سایر پرچمداران عکاسی در بازار به شمار می‌رود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/vivos-x500-pro-max-is-another-camera-focused-smartphone-with-more-video-tricks/l-intro-1793029784.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Vivo's X500 Pro Max is another camera-focused smartphone with more video tricks",
+      "summary": "Vivo and Oppo are launching similar phones with different priorities.",
+      "display_title": "معرفی گوشی هوشمند ویوو ایکس۵۰۰ پرو مکس با تمرکز ویژه بر قابلیت‌های دوربین و ویدیو",
+      "display_summary": "شرکت ویوو (Vivo) از گوشی جدید ایکس۵۰۰ پرو مکس (X500 Pro Max) با تمرکز ویژه بر قابلیت‌های عکاسی و فیلم‌برداری پیشرفته رونمایی کرد. این دستگاه به سنسورهای قدرتمند، پردازنده مدیاتک دیمنسیتی (MediaTek Dimensity) و باتری حجیم مجهز شده است."
     },
     {
       "key": "url:8a520bc5439cf61c41b302e42448c9b55a0c540912a2da9e6fd1423ba193fcdd",
       "url": "https://www.engadget.com/2295961/reason-why-usb-ports-orange/",
-      "title": "The reason why some USB ports are orange",
-      "summary": "USB colors and symbols provide an idea of a port's capabilities, but are not as standardized as they should be.",
-      "display_title": "دلیل رنگ نارنجی در برخی از درگاه‌های یو‌اس‌بی (USB) چیست؟",
-      "display_summary": "درگاه‌های یو‌اس‌بی (USB) با رنگ‌های مختلف راهنمایی برای شناخت قابلیت‌های آن‌ها هستند، اما رنگ نارنجی استاندارد واحدی ندارد. این رنگ معمولاً نشانگر قابلیت شارژ حتی در زمان خاموش بودن دستگاه است، اما عملکرد آن به سازنده بستگی دارد.",
       "message": "<b>📰 دلیل رنگ نارنجی در برخی از درگاه‌های یو‌اس‌بی (USB) چیست؟</b>\n\nدرگاه‌های یو‌اس‌بی (USB) با رنگ‌های مختلف راهنمایی برای شناخت قابلیت‌های آن‌ها هستند، اما رنگ نارنجی استاندارد واحدی ندارد. این رنگ معمولاً نشانگر قابلیت شارژ حتی در زمان خاموش بودن دستگاه است، اما عملکرد آن به سازنده بستگی دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اگر نگاهی به درگاه‌های یو‌اس‌بی (USB) روی رایانه یا تجهیزات الکترونیکی خود بیندازید، ممکن است متوجه درگاه‌های نارنجی‌رنگی شوید. وجود یک درگاه یو‌اس‌بی نارنجی معمولاً به این معناست که شما با یک گزینه شارژ «همیشه روشن» (Always-On) روبرو هستید. این بدان معناست که حتی زمانی که رایانه یا منبع تغذیه خاموش است، این درگاه همچنان جریان برق را برای شارژ تجهیزاتی مانند تلفن همراه تامین می‌کند. با این حال، استفاده از عبارت «احتمال» برای این قابلیت بسیار هوشمندانه‌تر است؛ زیرا برخلاف تصور عموم، رنگ نارنجی در درگاه‌های یو‌اس‌بی تابع یک استاندارد سخت‌افزار جهانی نیست. هیچ قانون رسمی در صنعت الکترونیک وجود ندارد که رنگ نارنجی را منحصراً به درگاه‌های شارژر در حالت خاموشی اختصاص دهد. این رنگ معمولاً روی بخش پلاستیکی داخل سوکت مستطیلی‌شکل یو‌اس‌بی نوع ای (USB-A) دیده می‌شود. برخی از تولیدکنندگان از درگاه‌های نارنجی به عنوان درگاه‌های «همیشه روشن» یاد می‌کنند، در حالی که برخی دیگر ممکن است سرعت بالای انتقال داده را نیز در کنار آن ارائه دهند. درگاه‌های نارنجی اغلب با فناوری یو‌اس‌بی ۳.۰ (USB 3.0) مرتبط هستند و سرعت انتقال داده‌ای تا ۵ گیگابیت بر ثانیه را ارائه می‌دهند. اما از آنجا که این یک مشخصه جهانی نیست، باید رنگ نارنجی را صرفاً به عنوان یک ویژگی مرتبط با توان الکترونیکی در نظر گرفت که نیاز به تایید مشخصات سازنده دارد. اوضاع زمانی پیچیده‌تر می‌شود که بدانیم یک سازنده ممکن است ویژگی خاصی را بدون وعده دادن توان شارژ مشخص برجسته کند، یا اینکه یک درگاه نارنجی سرعت ۵ گیگابیت بر ثانیه را نداشته باشد اما دستگاه شما را در حالت خاموشی شارژ کند. معنای متغیر در شرکت‌های مختلف از آنجا که رنگ نارنجی اساساً به عنوان یک نشانه بصری عمل می‌کند که نشان می‌دهد درگاه مورد نظر استاندارد معمولی ندارد، همه‌چیز به سیاست شرکت سازنده بستگی دارد. بررسی دفترچه راهنما یا صفحه مشخصات آنلاین دستگاه بسیار مطمئن‌تر از تکیه بر جدول‌های رنگی است. شرکت اینتل (Intel) و شرکت ادون‌تک (Advantech) نمونه‌های خوبی از تولیدکنندگانی هستند که از یک قطعه پلاستیکی نارنجی‌رنگ برای نشان دادن قابلیت‌های کاملاً متفاوتی استفاده می‌کنند. در محصولات اینتل (Intel)، درگاه یو‌اس‌بی نارنجی یک اتصال شارژ بهبودیافته در برخی رایانه‌های ان‌یو‌سی (NUC PCs) است که جریان برقی تا ۱.۵ آمپر را ارائه می‌دهد؛ در حالی که درگاه‌های آبی‌رنگ در همان مدل‌ها ۹۰۰ میلی‌آمپر جریان دارند. در مقابل، شرکت ادون‌تک (Advantech) از درگاه‌های نارنجی به عنوان اتصالات یو‌اس‌بی با نگهداری بالا استفاده می‌کند، یعنی سوکت کابل را بسیار محکم‌تر نگه می‌دارد و نیروی لازم برای بیرون کشیدن آن ۵۰ درصد بیشتر از کانکتورهای معمولی است. کدام درگاه سریع‌تر است: آبی یا نارنجی؟ در بیشتر مقایسه‌های رنگی، هر دو درگاه یو‌اس‌بی نارنجی و آبی از فناوری یو‌اس‌بی ۳.۰ (USB 3.0) استفاده می‌کنند که از نرخ انتقال داده تا ۵.۰ گیگابیت بر ثانیه پشتیبانی می‌کند. با توجه به این مشخصات، درگاه نارنجی تنها در بخش «همیشه روشن» با درگاه آبی تفاوت دارد. جابه‌جایی کابل از درگاه آبی به نارنجی نباید هیچ تفاوتی ایجاد کند، مگر اینکه رایانه خاموش باشد و نیاز به شارژ وسیله‌ای داشته باشید. البته رنگ آبی نیز به طور کامل استانداردسازی نشده است. طبق اعلام انجمن مجریان جهانی یو‌اس‌بی (USB-IF)، این رنگ پیشنهادی برای اتصالات سوپراسپید (SuperSpeed) یا همان یو‌اس‌بی ۳.۰ با سرعت ۵ گیگابیت بر ثانیه است. با وجود این توصیه، بررسی دقیق مشخصات فنی هر درگاه به صورت جداگانه، به‌ویژه برای رنگ‌های غیرمتعارف مانند بنفش، همیشه ضروری است. در نهایت، دستگاه متصل و کابل یو‌اس‌بی نیز اهمیت بالایی دارند؛ زیرا هر لوازم جانبی با حداکثر توان تبلیغاتی درگاه سازگار نیست و کابل نیز باید از آن قابلیت‌ها پشتیبانی کند. هنگام نیاز به شارژ سریع یا انتقال داده پرسرعت، حتماً از توانایی‌های درگاه نارنجی مورد نظر اطمینان حاصل کنید.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/the-reason-why-some-usb-ports-are-orange/l-intro-1792790118.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "The reason why some USB ports are orange",
+      "summary": "USB colors and symbols provide an idea of a port's capabilities, but are not as standardized as they should be.",
+      "display_title": "دلیل رنگ نارنجی در برخی از درگاه‌های یو‌اس‌بی (USB) چیست؟",
+      "display_summary": "درگاه‌های یو‌اس‌بی (USB) با رنگ‌های مختلف راهنمایی برای شناخت قابلیت‌های آن‌ها هستند، اما رنگ نارنجی استاندارد واحدی ندارد. این رنگ معمولاً نشانگر قابلیت شارژ حتی در زمان خاموش بودن دستگاه است، اما عملکرد آن به سازنده بستگی دارد."
     },
     {
       "key": "url:0fcf6f6c92fd1124bb803ec0d6078cad2fd0aaa1a055889a960c61d2ba7b44aa",
       "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-      "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
-      "display_title": "مدیر ارشد هوش مصنوعی متا برای رقابت با مایکروسافت و گوگل استعفا داد",
-      "display_summary": "روهیت پتل (Rohit Patel)، مدیر ارشد هوش مصنوعی در شرکت متا (Meta)، پس از هشت سال فعالیت از این شرکت جدا شد تا استارتاپ جدید خود به نام ان‌داک (Ndoc) را راه‌اندازی کند. این استارتاپ با هدف ارائه یک محیط کاری یکپارچه مبتنی بر هوش مصنوعی طراحی شده است تا جایگزین ابزارهایی مانند مایکروسافت آفیس (Microsoft Office) و گوگل وایس‌ورک (Google Workspace) شود.",
       "message": "<b>📰 مدیر ارشد هوش مصنوعی متا برای رقابت با مایکروسافت و گوگل استعفا داد</b>\n\nروهیت پتل (Rohit Patel)، مدیر ارشد هوش مصنوعی در شرکت متا (Meta)، پس از هشت سال فعالیت از این شرکت جدا شد تا استارتاپ جدید خود به نام ان‌داک (Ndoc) را راه‌اندازی کند. این استارتاپ با هدف ارائه یک محیط کاری یکپارچه مبتنی بر هوش مصنوعی طراحی شده است تا جایگزین ابزارهایی مانند مایکروسافت آفیس (Microsoft Office) و گوگل وایس‌ورک (Google Workspace) شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>روهیت پتل (Rohit Patel)، مدیر ارشد بخش هوش مصنوعی در شرکت متا (Meta)، پس از هشت سال فعالیت در زمینه ارزیابی‌های هوش مصنوعی و یادگیری تقویتی، از این غول فناوری جدا شد. او که پیش‌تر به عنوان مدیر در آزمایشگاه سوپرامنیت متا (Meta Superintelligence Labs) فعالیت می‌کرد، اکنون استارتاپ جدیدی به نام ان‌داک (Ndoc) را پایه‌گذاری کرده است. هدف این استارتاپ، ارائه یک جایگزین بومی مبتنی بر هوش مصنوعی برای مجموعه‌های نرم‌افزاری رایج نظیر مایکروسافت آفیس (Microsoft Office) و گوگل وایس‌ورک (Google Workspace) است. جدایی روهیت پتل در ادامه موجی از خروج چهره‌های ارشد از شرکت متا صورت می‌گیرد؛ پیش از این نیز مدیران و پژوهشگران برجسته‌ای همچون جوئل کاپلان (Joel Kaplan)، اندرو تولوک (Andrew Tulloch) و امیلی دالتون اسمیت (Emily Dalton Smith) این شرکت را ترک کرده بودند. استارتاپ ان‌داک (Ndoc) به‌گونه‌ای طراحی شده است که فراتر از یک ابزار کمکی ساده عمل کند. پتل قصد دارد رویکرد پراکنده کاربران در استفاده از ابزارهای گ گوناگون مانند اکسل (Excel)، ورد (Word)، پاورپوینت (PowerPoint)، تبلو (Tableau) و ریپلیت (Replit) را حذف کرده و همه آن‌ها را در یک فضای کاری واحد و یکپارچه جمع‌آوری کند. این پلتفرم جدید از سه بخش اصلی تشکیل شده است: تب «استیج» (Stage) برای ارائه گزارش‌ها، داشبوردها و اسناد؛ تب «روایت» (Narrative) برای تحلیل‌ها و استنادهای مستند؛ و تب «مدل» (Model) که کدهای پایتون و داده‌های زیربنایی را در خود جای می‌دهد. پتل با تکیه بر تجربه خود در زمینه یادگیری تقویتی و ارزیابی خروجی‌های هوش مصنوعی، این ساختار را به گونه‌ای توسعه داده است که کاربران بتوانند کدهای مراجع و فرمول‌های محاسباتی را به راحتی بررسی و راستی‌آزمایی کنند تا هیچ ابهامی در خروجی‌های هوش مصنوعی باقی نماند. یکی از اهداف بلندپروازانه پتل، بازتعریف ساختار فایل‌های سنتی است. او قصد دارد فرمت جدیدی را معرفی کند که فایل‌ها را به صورت یک سند واحد در مرورگر وب باز کند و حتی برنامه‌ریزی کرده است تا این فرمت را به صورت متن‌باز (Open Source) عرضه کند تا توسعه‌دهندگان دیگر نیز بتوانند ابزارهای سازگار با آن را بسازند و کاربران در انحصار شرکت‌های بزرگی چون مایکروسافت (Microsoft) یا گوگل (Google) باقی نمانند. با این حال، ورود به این حوزه رقابتی چالش بزرگی برای یک استارتاپ نوپا با تیمی کوچک محسوب می‌شود. شرکت‌های بزرگی مانند اوپن‌ای‌آی (OpenAI)، آنتروپیک (Anthropic)، متا (Meta) و گوگل (Google) نیز ابزارهای هوش مصنوعی سازمانی خود را برای اتصال به محیط‌های کاری معرفی کرده‌اند. اما پتل معتقد است که رویکرد رقیبان، یعنی صرفاً چسباندن هوش مصنوعی به ابزارهای قدیمی، ناکارآمد است و باید ساختار کار را از ریشه بازطراحی کرد. در حال حاضر، استارتاپ ان‌داک (Ndoc) نسخه آزمایشی خود را برای مشتریان منتخب در فهرست انتظار عرضه کرده است و پتل قصد دارد با سرعت بالا به توسعه و بهه‌سازی محصول خود ادامه دهد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/rohit-5.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+      "display_title": "مدیر ارشد هوش مصنوعی متا برای رقابت با مایکروسافت و گوگل استعفا داد",
+      "display_summary": "روهیت پتل (Rohit Patel)، مدیر ارشد هوش مصنوعی در شرکت متا (Meta)، پس از هشت سال فعالیت از این شرکت جدا شد تا استارتاپ جدید خود به نام ان‌داک (Ndoc) را راه‌اندازی کند. این استارتاپ با هدف ارائه یک محیط کاری یکپارچه مبتنی بر هوش مصنوعی طراحی شده است تا جایگزین ابزارهایی مانند مایکروسافت آفیس (Microsoft Office) و گوگل وایس‌ورک (Google Workspace) شود."
     },
     {
       "key": "url:d3f6099b460a7796546fa4b398f2eee232f1d1b025f9b6e3066370e4274ff90e",
       "url": "https://techcrunch.com/2026/10/27/ford-fathom-will-be-the-cheapest-american-ev-capable-of-powering-a-house/",
-      "title": "Ford Fathom will be the cheapest American EV capable of powering a house",
-      "summary": "Ford is rolling out two new chargers capable of powering a home or the grid — so-called V2X capability.",
-      "display_title": "شرکت فورد (Ford) از ارزان‌ترین خودروی برقی آمریکا با قابلیت تأمین برق خانه رونمایی کرد",
-      "display_summary": "شرکت خودروسازی فورد (Ford) از وانت برقی جدید و مقرون‌به‌صرفه خود به نام فورد فاتوم (Ford Fathom) همراه با دو شارژر دوطرفه جدید رونمایی کرد. این فناوری به مالکان اجازه می‌دهد تا از خودروی خود به عنوان منبع تأمین انرژی خانه یا شبکه برق استفاده کنند.",
       "message": "<b>📰 شرکت فورد (Ford) از ارزان‌ترین خودروی برقی آمریکا با قابلیت تأمین برق خانه رونمایی کرد</b>\n\nشرکت خودروسازی فورد (Ford) از وانت برقی جدید و مقرون‌به‌صرفه خود به نام فورد فاتوم (Ford Fathom) همراه با دو شارژر دوطرفه جدید رونمایی کرد. این فناوری به مالکان اجازه می‌دهد تا از خودروی خود به عنوان منبع تأمین انرژی خانه یا شبکه برق استفاده کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت خودروسازی فورد (Ford) از وانت برقی جدیدی به نام فورد فاتوم (Ford Fathom) رونمایی کرده است که به عنوان ارزان‌ترین خودروی الکتریکی آمریکایی با قابلیت تغذیه برق منازل شناخته می‌شود. قیمت پایه این خودرو ۲۸,۳۵۰ دلار تعیین شده است و این شرکت همزمان از دو شارژر جدید با قابلیت تبادل انرژی دوطرفه (V2X) پرده برداشته که هزینه‌های راه‌اندازی این فناوری را به طور چشمگیری کاهش می‌دهند. شارژرهای جدید فورد (Ford) حدود نیمی از قیمت محصولات نسل قبلی این شرکت را دارند. مدل اول موسوم به ایستگاه برق خانگی (Home Power Station) با قیمت تقریبی ۶۵۰ دلار عرضه می‌شود و به کاربران کمک می‌کند با شارژ کردن خودرو در ساعات ارزان بودن برق و تزریق مجدد آن به خانه در زمان اوج مصرف، هزینه‌های خود را کاهش دهند. بسته دوم که شامل پنل پشتیبان خانگی (Home Backup Panel) نیز می‌شود، با قیمت حدود ۲,۱۰۰ دلار به فروش می‌رسد و امکان برق‌رسانی کامل یا جزئی به خانه را در زمان قطعی شبکه فراهم می‌کند. البته هزینه‌های نصب و آماده‌سازی برقی منزل همچنان به قوت خود باقی است. این وانت برقی قادر است بیش از ۱۰ کیلووات برق به خانه منتقل کند که اگرچه برای تمام بارهای یک منزل مسکونی کافی نیست، اما می‌تواند وسایلی مانند یخچال و کولر را برای حدود نیم روز روشن نگه دارد. علاوه بر این، مالکان فورد فاتوم (Ford Fathom) می‌توانند در شبکه‌های نیروگاهی مجازی (VPP) شرکت کرده و با اتصال خودرو به شبکه، برق مازاد خود را بفروشند و سالانه درآمدی تا ۱,۰۰۰ دلار کسب کنند. در مجموع، این اقدام گامی مهم در جهت همه‌گیر شدن فناوری‌های ذخیره‌سازی انرژی و استفاده از خودروهای برقی به عنوان منابع پشتیبان اضطراری و کمک به پایداری شبکه برق به شمار می‌رود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Home-Power-Station_1920x1080.jpg?resize=1200,675",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Ford Fathom will be the cheapest American EV capable of powering a house",
+      "summary": "Ford is rolling out two new chargers capable of powering a home or the grid — so-called V2X capability.",
+      "display_title": "شرکت فورد (Ford) از ارزان‌ترین خودروی برقی آمریکا با قابلیت تأمین برق خانه رونمایی کرد",
+      "display_summary": "شرکت خودروسازی فورد (Ford) از وانت برقی جدید و مقرون‌به‌صرفه خود به نام فورد فاتوم (Ford Fathom) همراه با دو شارژر دوطرفه جدید رونمایی کرد. این فناوری به مالکان اجازه می‌دهد تا از خودروی خود به عنوان منبع تأمین انرژی خانه یا شبکه برق استفاده کنند."
     },
     {
       "key": "url:ae1724b8d37c020b6738773609ad91bfb64f0133187a9bde946c4f50da93cb42",
       "url": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
-      "title": "US government says hackers are now exploiting critical PHP web bugs",
-      "summary": "The U.S. government cyber agency warns that hackers have figured out a way to exploit the popular PHP software, used in 70% of the web's software.",
-      "display_title": "آژانس سایبری آمریکا: هکرهای مخرب در حال بهره‌برداری از آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی (PHP)» هستند",
-      "display_summary": "آژانس امنیت سایبری و زیرساخت آمریکا (CISA) تأیید کرد که هکرها در حال سوءاستفاده فعال از دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی (PHP)» هستند. این نقص‌های امنیتی به مهاجمان اجازه می‌دهد بدون نیاز به رمز عبور، به سیستم‌های آسیب‌پذیر نفوذ کنند و نهادهای دولتی ملزم به اصلاح سریع سیستم‌های خود شده‌اند.",
       "message": "<b>📰 آژانس سایبری آمریکا: هکرهای مخرب در حال بهره‌برداری از آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی (PHP)» هستند</b>\n\nآژانس امنیت سایبری و زیرساخت آمریکا (CISA) تأیید کرد که هکرها در حال سوءاستفاده فعال از دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی (PHP)» هستند. این نقص‌های امنیتی به مهاجمان اجازه می‌دهد بدون نیاز به رمز عبور، به سیستم‌های آسیب‌پذیر نفوذ کنند و نهادهای دولتی ملزم به اصلاح سریع سیستم‌های خود شده‌اند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>آژانس امنیت سایبری و زیرساخت آمریکا (CISA) در اطلاعیه‌ای رسمی تأیید کرد که هکرها در حال حاضر به صورت فعال از دو آسیب‌پذیری امنیتی بحرانی در نرم‌افزار وب محبوب «پی‌اچ‌پی (PHP)» بهره‌برداری می‌کنند. این نهاد دولتی به تمامی آژانس‌های غیرنظامی فدرال در آمریکا دستور داده است تا طی سه روز آینده سیستم‌های خود را به‌روزرسانی و وصله (Patch) کنند. این هشدار فوری کمتر از یک هفته پس از آن صادر شد که توسعه‌دهندگان «پی‌اچ‌پی (PHP)» اصلاحیه‌هایی را برای این دو باگ خطرناک ارائه کردند. این نقص‌های امنیتی به هکرها اجازه می‌دهند تا بدون نیاز به کلمه عبور و از راه دور، از طریق اینترنت به سیستم‌های آسیب‌پذیر نفوذ کنند. بر اساس آمارهای موجود، نرم‌افزار «پی‌اچ‌پی (PHP)» روی حدود ۷۰ درصد از سرورهای وب جهان مورد استفاده قرار می‌گیرد و این وسعت کاربری، وب‌سایت‌ها و اپلیکیشن‌های بزرگ زیادی را در معرض خطر جدی قرار داده است. شدت این آسیب‌پذیری‌ها به گونه‌ای است که برخی دولت‌ها و شرکت‌های بزرگ ناچار شده‌اند وب‌سایت‌های خود را برای اعمال اصلاحات موقتاً از دسترس خارج کنند. اگرچه این باگ‌ها در دسته‌بندی بحرانی قرار دارند، پژوهشگران امنیتی در ابتدا ساخت کدهای بهره‌بردار (Exploit) کارآمد برای نفوذ به سیستم‌ها را دشوار اما غیرممکن ارزیابی کرده بودند. با این حال، تأیید سوءاستفاده‌های واقعی در دنیای واقعی (In-the-wild) فشار مضاعفی بر سازمان‌ها وارد کرده است تا هرچه سریع‌تر سیستم‌های خود را ایمن کنند. بر اساس گزارش‌های منتشر شده، این آسیب‌پذیری‌ها که با نام «پی‌اچ‌پی‌تو‌شل (PHP2Shell)» شناخته می‌شوند، از نقص‌هایی در نرم‌افزار سرچشمه می‌گیرند که سال‌ها مخفی مانده بودند. این نقص‌ها دو سال پیش کشف شده بودند، اما بنیاد متولی «پی‌اچ‌پی (PHP)» معتقد بود راه عملیاتی ساده‌ای برای سوءاستفاده از آن‌ها وجود ندارد و به همین دلیل بدون اصلاح رها شدند. اوایل سال جاری میلادی، پژوهشگران شرکت امنیتی «کالیف (Calif)» توانستند با کمک یک مدل هوش مصنوعی، راهی برای سوءاستفاده از این دو آسیب‌پذیری خفته پیدا کنند. این رویداد بار دیگر چالش‌های مربوط به فناوری‌های قدیمی و متن‌باز (Open Source) وب را برجسته می‌کند که سال‌هاست با کمبود بودجه و منابع روبرو بوده‌اند. پیشرفت مدل‌های هوش مصنوعی در کشف و زنجیر کردن آسیب‌پذیری‌های پنهان، خطرات جدیدی را متوجه زیرساخت‌های حیاتی اینترنت کرده است و سازمان‌ها را ناچار به بازنگری جدی در امنیت سایبری خود می‌سازد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/php-outage-2300859754.jpg?resize=1200,867",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "US government says hackers are now exploiting critical PHP web bugs",
+      "summary": "The U.S. government cyber agency warns that hackers have figured out a way to exploit the popular PHP software, used in 70% of the web's software.",
+      "display_title": "آژانس سایبری آمریکا: هکرهای مخرب در حال بهره‌برداری از آسیب‌پذیری‌های بحرانی «پی‌اچ‌پی (PHP)» هستند",
+      "display_summary": "آژانس امنیت سایبری و زیرساخت آمریکا (CISA) تأیید کرد که هکرها در حال سوءاستفاده فعال از دو آسیب‌پذیری بحرانی در زبان برنامه‌نویسی وب «پی‌اچ‌پی (PHP)» هستند. این نقص‌های امنیتی به مهاجمان اجازه می‌دهد بدون نیاز به رمز عبور، به سیستم‌های آسیب‌پذیر نفوذ کنند و نهادهای دولتی ملزم به اصلاح سریع سیستم‌های خود شده‌اند."
     },
     {
       "key": "url:df54f981e01462e2df79918f2574938bf7c47c98fe7b849cc1460d49524a8696",
       "url": "https://techcrunch.com/2026/10/26/x-is-nudging-users-to-promote-their-posts-with-a-pointing-hand-and-people-are-confused/",
+      "message": "<b>📰 نمایش عجیب یک دست اشاره‌گر در شبکه اجتماعی ایکس برای ترغیب کاربران به تبلیغ پست‌ها</b>\n\nشبکه اجتماعی ایکس (X) اخیراً در زمان نگارش پست توسط کاربران، از یک انیمیشن دست اشاره‌گر استفاده کرده که دکمه تبلیغ (Promote) را نشان می‌دهد. این ترفند تهاجمی برای ترغیب کاربران به صرف هزینه، موجی از تعجب و انتقاد را در میان کاربران به همراه داشته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>برخی تغییرات رابط کاربری و ابزارهای تشویقی در اپلیکیشن‌ها ممکن است آزاردهنده اما قابل چشم‌پوشی باشند، اما برخی دیگر آن‌قدر توی ذوق می‌زنند که کاربر را به شدت کلافه می‌کنند. تلاش جدید شبکه اجتماعی ایکس (X) برای ترغیب کاربران به تبلیغ پست‌هایشان دقیقاً در همین دسته دوم قرار می‌گیرد. طی ۲۴ ساعت گذشته، شمار رو به رشدی از کاربران گزارش داده‌اند که هنگام نوشتن پست، یک دست اسرارآمیز و بزرگ به طور ناگهانی روی صفحه ظاهر شده و به دکمه «تبلیغ» (Promote) اشاره می‌کند. این اقدام تعجب و نارضایتی طیف وسیعی از کاربران را برانگیخته است. با توجه به نزدیکی به جشن هالووین (Halloween)، برخی تصور کرده‌اند که این شاید یک شوخی ترسناک از سوی این پلتفرم باشد، هرچند شرکت ایکس هنوز واکنشی به این موضوع نشان نداده است. حتی کاربرانی که تمایل داشتند برای تبلیغ پست‌های خود هزینه کنند نیز از دیدن این دست ناگهانی شوکه و منصرف شده‌اند. بسیاری از کاربران با انتشار تصاویر و ویدیوهایی در این پلتفرم، اعتراض خود را اعلام کردند. تام وارن (Tom Warren) خبرنگار حوزه فناوری نوشت که دست بزرگ بلافاصله هنگام نوشتن توییت ظاهر شده است. مولی اوشی (Molly O&#x27;Shea) و مت اسلاتنیک (Matt Slotnick) نیز با تعجب پرسtیدند که این ابزار ناخواسته چیست و از مدیران این شبکه خواستند دیگر چنین ترفندهایی را تکرار نکنند. برخی از ناظران این ترفند را به سیاست‌های رشد کاربران توسط مدیران پیشین و کنونی ربط داده‌اند. دیلن آبروس کاتو (Dylan Abruscato) رئیس پادکست تی‌بی‌پی‌ان (TBPN) این ترفند را یادآور تاکتیک‌های رشد نیکیتا بیر (Nikita Bier)، رئیس سابق محصول در ایکس دانست. نیکیتا بیر در ماه اوت (August) پس از نزدیک به یک سال فعالیت از این شرکت جدا شد. از سوی دیگر، پیتر سلاویس (Peter Sellis) که پیش‌تر در شرکت‌های اسنپ (Snap) و دیسکورد (Discord) فعالیت داشته، به تازگی به عنوان مدیر جدید محصول ایکس منصوب شده است. هنوز مشخص نیست که آیا نمایش این دست اشاره‌گر مستقیماً به دستور پیتر سلاویس (Peter Sellis) انجام شده است یا خیر و شرکت ایکس هنوز به درخواست‌های رسانه‌ها برای اظهار نظر پاسخ نداده است. در نتیجه، این اقدام تهاجمی رابط کاربری بار دیگر بحث پیرامون سیاست‌های کسب درآمد و ترفندهای افزایش تعامل در شبکه اجتماعی ایکس (X) را تحت مدیریت ایلان ماسک (Elon Musk) داغ کرده است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg?resize=1200,675",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "X is nudging users to promote their posts with a pointing hand, and people are confused",
       "summary": "Whose hand is behind this travesty?",
       "display_title": "نمایش عجیب یک دست اشاره‌گر در شبکه اجتماعی ایکس برای ترغیب کاربران به تبلیغ پست‌ها",
-      "display_summary": "شبکه اجتماعی ایکس (X) اخیراً در زمان نگارش پست توسط کاربران، از یک انیمیشن دست اشاره‌گر استفاده کرده که دکمه تبلیغ (Promote) را نشان می‌دهد. این ترفند تهاجمی برای ترغیب کاربران به صرف هزینه، موجی از تعجب و انتقاد را در میان کاربران به همراه داشته است.",
-      "message": "<b>📰 نمایش عجیب یک دست اشاره‌گر در شبکه اجتماعی ایکس برای ترغیب کاربران به تبلیغ پست‌ها</b>\n\nشبکه اجتماعی ایکس (X) اخیراً در زمان نگارش پست توسط کاربران، از یک انیمیشن دست اشاره‌گر استفاده کرده که دکمه تبلیغ (Promote) را نشان می‌دهد. این ترفند تهاجمی برای ترغیب کاربران به صرف هزینه، موجی از تعجب و انتقاد را در میان کاربران به همراه داشته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>برخی تغییرات رابط کاربری و ابزارهای تشویقی در اپلیکیشن‌ها ممکن است آزاردهنده اما قابل چشم‌پوشی باشند، اما برخی دیگر آن‌قدر توی ذوق می‌زنند که کاربر را به شدت کلافه می‌کنند. تلاش جدید شبکه اجتماعی ایکس (X) برای ترغیب کاربران به تبلیغ پست‌هایشان دقیقاً در همین دسته دوم قرار می‌گیرد. طی ۲۴ ساعت گذشته، شمار رو به رشدی از کاربران گزارش داده‌اند که هنگام نوشتن پست، یک دست اسرارآمیز و بزرگ به طور ناگهانی روی صفحه ظاهر شده و به دکمه «تبلیغ» (Promote) اشاره می‌کند. این اقدام تعجب و نارضایتی طیف وسیعی از کاربران را برانگیخته است. با توجه به نزدیکی به جشن هالووین (Halloween)، برخی تصور کرده‌اند که این شاید یک شوخی ترسناک از سوی این پلتفرم باشد، هرچند شرکت ایکس هنوز واکنشی به این موضوع نشان نداده است. حتی کاربرانی که تمایل داشتند برای تبلیغ پست‌های خود هزینه کنند نیز از دیدن این دست ناگهانی شوکه و منصرف شده‌اند. بسیاری از کاربران با انتشار تصاویر و ویدیوهایی در این پلتفرم، اعتراض خود را اعلام کردند. تام وارن (Tom Warren) خبرنگار حوزه فناوری نوشت که دست بزرگ بلافاصله هنگام نوشتن توییت ظاهر شده است. مولی اوشی (Molly O&#x27;Shea) و مت اسلاتنیک (Matt Slotnick) نیز با تعجب پرسtیدند که این ابزار ناخواسته چیست و از مدیران این شبکه خواستند دیگر چنین ترفندهایی را تکرار نکنند. برخی از ناظران این ترفند را به سیاست‌های رشد کاربران توسط مدیران پیشین و کنونی ربط داده‌اند. دیلن آبروس کاتو (Dylan Abruscato) رئیس پادکست تی‌بی‌پی‌ان (TBPN) این ترفند را یادآور تاکتیک‌های رشد نیکیتا بیر (Nikita Bier)، رئیس سابق محصول در ایکس دانست. نیکیتا بیر در ماه اوت (August) پس از نزدیک به یک سال فعالیت از این شرکت جدا شد. از سوی دیگر، پیتر سلاویس (Peter Sellis) که پیش‌تر در شرکت‌های اسنپ (Snap) و دیسکورد (Discord) فعالیت داشته، به تازگی به عنوان مدیر جدید محصول ایکس منصوب شده است. هنوز مشخص نیست که آیا نمایش این دست اشاره‌گر مستقیماً به دستور پیتر سلاویس (Peter Sellis) انجام شده است یا خیر و شرکت ایکس هنوز به درخواست‌های رسانه‌ها برای اظهار نظر پاسخ نداده است. در نتیجه، این اقدام تهاجمی رابط کاربری بار دیگر بحث پیرامون سیاست‌های کسب درآمد و ترفندهای افزایش تعامل در شبکه اجتماعی ایکس (X) را تحت مدیریت ایلان ماسک (Elon Musk) داغ کرده است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg?resize=1200,675",
+      "display_summary": "شبکه اجتماعی ایکس (X) اخیراً در زمان نگارش پست توسط کاربران، از یک انیمیشن دست اشاره‌گر استفاده کرده که دکمه تبلیغ (Promote) را نشان می‌دهد. این ترفند تهاجمی برای ترغیب کاربران به صرف هزینه، موجی از تعجب و انتقاد را در میان کاربران به همراه داشته است."
+    },
+    {
+      "key": "url:8780d497a4a73fe2689b4dcc8b83f4b388f49e3fc808de4964bb64384922b703",
+      "url": "https://www.engadget.com/2295698/book-vs-clamshell-foldable-phones-which-better/",
+      "title": "Book vs clamshell foldable phones: which is better for your everyday needs?",
+      "summary": "There are pros and cons to each style of foldable.",
+      "display_title": "مقایسه گوشی‌های تاشوی صدفی و کتابی: کدام‌یک برای نیازهای روزمره شما مناسب‌تر است؟",
+      "display_summary": "بازار گوشی‌های هوشمند تاشو به دو دسته اصلی صدفی و کتابی تقسیم می‌شود که هر کدام مزایا و معایب خاص خود را دارند. گوشی‌های صدفی (Clamshell) با طراحی جمع‌وجور و دسترسی سریع به اطلاعات روی نمایشگر بیرونی شناخته می‌شوند، در حالی که مدل‌های کتابی (Book-style) با گشودن صفحه‌نمایشی بزرگ‌تر مانند تبلت، تجربه‌ای همه‌جانبه برای کارهای چندوظیفه‌ای و سرگرمی فراهم می‌کنند.",
+      "message": "<b>📰 مقایسه گوشی‌های تاشوی صدفی و کتابی: کدام‌یک برای نیازهای روزمره شما مناسب‌تر است؟</b>\n\nبازار گوشی‌های هوشمند تاشو به دو دسته اصلی صدفی و کتابی تقسیم می‌شود که هر کدام مزایا و معایب خاص خود را دارند. گوشی‌های صدفی (Clamshell) با طراحی جمع‌وجور و دسترسی سریع به اطلاعات روی نمایشگر بیرونی شناخته می‌شوند، در حالی که مدل‌های کتابی (Book-style) با گشودن صفحه‌نمایشی بزرگ‌تر مانند تبلت، تجربه‌ای همه‌جانبه برای کارهای چندوظیفه‌ای و سرگرمی فراهم می‌کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار گوشی‌های هوشمند تاشو طی سال‌های اخیر رشد چشمگیری داشته و شرکت‌های فناوری بزرگ مانند شرکت سامسونگ (Samsung)، شرکت اپل (Apple) و شرکت گوگل (Google) محصولات متنوعی را روانه بازار کرده‌اند. در حال حاضر، گوشی‌های تاشو به دو شکل اصلی یعنی مدل‌های صدفی و مدل‌های کتابی طراحی می‌شوند که هر یک برای سبک زندگی و نیازهای متفاوتی توسعه یافته‌اند. گوشی‌های تاشو صدفی یادآور تلفن‌های همراه قدیمی فلیپ (Flip phone) هستند که از پایین به بالا باز می‌شوند. این دستگاه‌ها در حالت بسته بسیار جمع‌وجور و مربع‌شکل هستند و یک نمایشگر بیرونی کاربردی در اختیار کاربر قرار می‌دهند. نمایشگر بیرونی به کاربران اجازه می‌دهد بدون باز کردن کامل گوشی، به مواردی مانند پیام‌ها، تماس‌ها، تقویم و وضعیت آب‌وهوا دسترسی داشته باشند. این ویژگی به کاهش حواس‌پرتی و دسترسی سریع کمک می‌کند. هنگامی که دستگاه را باز می‌کنید، با یک نمایشگر استاندارد روبه‌رو می‌شوید که کار با یک دست را بسیار آسان‌تر می‌کند. در مقابل، گوشی‌های تاشو کتابی مانند کتاب از راست به چپ باز می‌شوند. این محصولات در حالت بسته شباهت زیادی به گوشی‌های معمولی دارند، اما با باز کردن آن‌ها، نمایشگری بزرگ‌تر و هم‌اندازه با تبلت نمایان می‌شود. این سبک طراحی برای تماشای ویدیو، مرور وب، مطالعه کتاب‌های الکترونیکی و بازی کردن ایده‌آل است. همچنین مدل‌های کتابی به دلیل پشتیبانی از حالت‌های تقسیم صفحه (Split screen) و عملکردهای چندوظیفه‌ای، ابزار قدرتمندی برای بهره‌وری و کار در حال حرکت محسوب می‌شوند. با این حال، این دستگاه‌ها معمولاً ضخیم‌تر، سنگین‌تر و گران‌تر هستند و به دلیل مکانیسم‌های پیچیده‌تر، نیاز به مراقبت بیشتری دارند. انتخاب میان این دو مدل کاملاً به ترجیحات شخصی و الگوی مصرف کاربر بستگی دارد. اگر به دنبال دستگاهی کوچک با دسترسی سریع به اطلاعات هستید، مدل‌های صدفی گزینه بهتری هستند. اما اگر خواهان تجربه‌ای فراگیر برای مصرف محتوا و کارهای حرفه‌ای هستید، مدل‌های کتابی ارزش خرید بالاتری دارند. آمارها و تحلیل‌های بازار نشان می‌دهند که تمایل کاربران به سمت دستگاه‌های پرچمدار با حافظه بیشتر و قابلیت‌های ترکیبی گوشی و تبلت در حال افزایش است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/book-vs-clamshell-foldable-phones-which-is-better-for-your-everyday-needs/l-intro-1791573406.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:80ab2e6673015dce05c79b9265a840abf22edd5b143d375af07931d9e15016ad",
+      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+      "title": "Japan internet giant GMO says hackers posted stolen customer data",
+      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+      "display_title": "هکرها اطلاعات سرقت‌شده مشتریان جی‌ام‌او اینترنت (GMO Internet) ژاپن را منتشر کردند",
+      "display_summary": "شرکت بزرگ اینترنتی جی‌ام‌او اینترنت (GMO Internet) در ژاپن پس از یک نفوذ سایبری به سرویس ابری خود، در حال بررسی ادعاهای هکرها مبنی بر انتشار داده‌های مشتریان است. این حادثه امنیتی که حدود ۲۷ هزار سرور را تحت تأثیر قرار داده، شرکت را مجبور به درخواست بازنشانی رمزهای عبور و ارائه هشدار به کاربران کرده است.",
+      "message": "<b>📰 هکرها اطلاعات سرقت‌شده مشتریان جی‌ام‌او اینترنت (GMO Internet) ژاپن را منتشر کردند</b>\n\nشرکت بزرگ اینترنتی جی‌ام‌او اینترنت (GMO Internet) در ژاپن پس از یک نفوذ سایبری به سرویس ابری خود، در حال بررسی ادعاهای هکرها مبنی بر انتشار داده‌های مشتریان است. این حادثه امنیتی که حدود ۲۷ هزار سرور را تحت تأثیر قرار داده، شرکت را مجبور به درخواست بازنشانی رمزهای عبور و ارائه هشدار به کاربران کرده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت بزرگ فناوری و اینترنتی «جی‌ام‌او اینترنت» (GMO Internet) ژاپن پس از وقوع یک دسترسی غیرمجاز به سرویس دسکتاپ ابری خود موسوم به «اونامه» (Onamae) که میزبان معامله‌گران مالی است، با بحران افشای داده‌ها روبه‌رو شده است. این شرکت اعلام کرده که هکرها ظاهراً اطلاعات مرتبط با مشتریان و کسب‌وکار آن را در فضای آنلاین منتشر کرده‌اند، هرچند صحت این داده‌ها هنوز در دست بررسی است و ابعاد دقیق این نفوذ کاملاً مشخص نیست. به دنبال گزارش‌هایی مبنی بر انجام عملیات‌های غیرمجاز روی حساب‌های معاملاتی کاربران، «جی‌ام‌او اینترنت» (GMO Internet) به مشتریان خود توصیه کرده است که فوراً رمزهای عبور خود را بازنشانی کنند. برآوردهای اولیه نشان می‌دهد که این نفوذ سایبری ممکن است تا ۲۷ هزار سرور را تحت تأثیر قرار داده باشد. این رویداد تنها یک هفته پس از آن رخ داد که واحد امنیت سایبری این شرکت ژاپنی شواهدی درباره استفاده از یک ابزار تست نفوذ مبتنی بر هوش مصنوعی ساخت چین به نام «آرتکس» (Artex) در حملات علیه شرکت‌های این کشور کشف کرده بود، هرچند ارتباط مستقیم میان این ابزار و هک اخیر هنوز به صورت رسمی تایید نشده است. بر اساس گزارش شرکت «کراوداسترایک» (CrowdStrike)، ابزار «آرتکس» (Artex) پیش‌تر در ماه سپتامبر نیز برای هک موسسات مالی در کره جنوبی (South Korea) مورد استفاده قرار گرفته بود. این حملات عمدتاً از طریق سوءاستفاده از ضعف‌های امنیتی مانند فقدان احراز هویت چندمرحله‌ای انجام شده‌اند. پس از افشای این ارتباطات، توسعه‌دهنده چینی «آرتکس» (Artex) انتشار به‌روزرسانی‌های عمومی را متوقف کرده و این ابزار امنیتی مبتنی بر هوش مصنوعی را به سیستمی بسته‌بندی شده و منبع‌بسته تبدیل کرده است. سازمان خدمات مالی ژاپن (FSA) نیز در واکنش به این وضعیت اعلام کرد که در ماه مه با صدور دستورالعمل‌هایی از موسسات مالی خواسته بود تا آمادگی خود را در برابر افزایش آسیب‌پذیری‌های سایبری بالا ببرند. این نهاد نظارتی خواستار تقویت دفاع‌های پایه از جمله مدیریت آسیب‌پذیری و آمادگی در برابر حوادث شده و شرکت‌ها را به استفاده از هوش مصنوعی (AI) و ابزارهای امنیتی ترغیب کرده است. گاه‌شمار این رویداد نشان می‌دهد که «جی‌ام‌او اینترنت» (GMO Internet) در تاریخ ۲۱ اکتبر پس از کشف دسترسی غیرمجاز، سرویس ابری خود را متوقف کرده و ایمیلی از هکرها مبنی بر درخواست باج ۸ میلیارد ینی (معادل حدود ۵۰ میلیون دلار) دریافت کرده است. این شرکت طی روزهای بعد ضمن گزارش موضوع به پلیس ژاپن و همکاری با نهادهای دولتی، فرآیند جمع‌آوری دستگاه‌های کاربران برای بررسی بدافزارها و ارائه خدمات جایگزین را آغاز کرد. در پایان، این حادثه بار دیگر شکنندگی زیرساخت‌های ابری و اهمیت حیاتی امنیت سایبری را برای پلتفرم‌های مالی و فناوری برجسته می‌کند و لزوم ارتقای استانداردهای حفاظتی در برابر تهدیدات پیچیده مدرن را به شرکت‌ها یادآور می‌شود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/07/data-breach-overview-v2.jpg?resize=1200,675",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:3de5f1a10d78bb5453c902eb55863e1c5731a33608467a6b47e7ed9fdc6f99d2",
+      "url": "https://www.engadget.com/2298132/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/",
+      "title": "Apple's iMac with M6 arrives promising a 'huge leap' in AI performance",
+      "summary": "It offers more cores and more performance per core than the iMac M5.",
+      "display_title": "رونمایی از آی‌مک جدید اپل با تراشه ام۶ و وعده جهش بزرگ در پردازش هوش مصنوعی",
+      "display_summary": "شرکت اپل (Apple) از رایانه‌های همه‌کاره آی‌مک (iMac) جدید خود مجهز به تراشه‌های قدرتمند ام۶ (M6) رونمایی کرد. این مدل جدید با بهره‌گیری از هسته‌های پردازشی بیشتر و شتاب‌دهنده‌های عصبی پیشرفته، بهبود چشمگیری در اجرای قابلیت‌های هوش مصنوعی و عملکرد گرافیکی ارائه می‌دهد.",
+      "message": "<b>📰 رونمایی از آی‌مک جدید اپل با تراشه ام۶ و وعده جهش بزرگ در پردازش هوش مصنوعی</b>\n\nشرکت اپل (Apple) از رایانه‌های همه‌کاره آی‌مک (iMac) جدید خود مجهز به تراشه‌های قدرتمند ام۶ (M6) رونمایی کرد. این مدل جدید با بهره‌گیری از هسته‌های پردازشی بیشتر و شتاب‌دهنده‌های عصبی پیشرفته، بهبود چشمگیری در اجرای قابلیت‌های هوش مصنوعی و عملکرد گرافیکی ارائه می‌دهد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اپل (Apple) در ادامه روند معرفی محصولات جدید خود، از نسل تازه رایانه‌های همه‌کاره آی‌مک (iMac) با بهره‌گیری از پردازنده‌های جدید ام۶ (M6) رونمایی کرد. این رایانه رومیزی جدید با وعده «جهش بزرگ» در عملکرد پردازشی و قابلیت‌های هوش مصنوعی معرفی شده است و به لطف هسته‌های بیشتر و شتاب‌دهنده‌های عصبی جدید در هر هسته، تحولی قابل‌توجه نسبت به نسل‌های پیشین خود ایجاد می‌کند. تراشه ام۶ (M6) که پیش‌تر در رایانه‌های مک مینی (Mac mini) و مک استودیو (Mac Studio) دیده شده بود، اکنون به رایانه‌های رومیزی مقرون‌به‌صرفه آی‌مک (iMac) راه یافته است. این پردازنده جدید نه تنها کارایی بیشتری به ازای هر هسته ارائه می‌دهد، بلکه تعداد کل هسته‌ها را نیز افزایش داده است؛ به‌طوری‌که این دستگاه شامل پردازنده مرکزی (CPU) تا ۱۲ هسته‌ای، پردازنده گرافیکی (GPU) تا ۱۲ هسته‌ای و موتور عصبی (Neural Engine) دوگانه ۱۶ هسته‌ای است. اپل (Apple) اعلام کرده است که این تراشه به همراه پهنای باند حافظه سریع‌تر ۱۷۰ گیگابایت بر ثانیه، عملکرد گرافیکی آی‌مک (iMac) جدید را در مقایسه با مدل قبلی مجهز به تراشه ام۴ (M4) دو برابر می‌کند و کارهای سنگینی مانند ویرایش عکس و بازی‌های ویدئویی را به‌طور چشمگیری تسریع می‌بخشد. مدل‌های پایه این دستگاه با ۱۶ گیگابایت حافظه یکپارچه عرضه می‌شوند و کاربران می‌توانند گزینه‌های ۲۴ و ۳۲ گیگابایتی را نیز انتخاب کنند. از آنجا که آی‌مک (iMac) بیشتر برای کارهای بهره‌وری طراحی شده است، اپل (Apple) می‌گوید این دستگاه در اجرای نرم‌افزارهایی مانند مایکروسافت اکسل (Microsoft Excel) تا ۵۰ درصد سریع‌تر از مدل ام۴ (M4) و ۲.۵ برابر سریع‌تر از مدل ام۱ (M1) عمل می‌کند. با این حال، توان پردازشی دستگاه به اندازه‌ای بالا است که از پس کارهای سنگین‌تری مانند ویرایش ویدیو و بهبود اجرای بازی‌ها از طریق فناوری رهگیری پرتو (Ray Tracing) نیز برمی‌آید. تمرکز اصلی اپل (Apple) در مدل‌های جدید، برجسته‌سازی قابلیت‌های هوش مصنوعی است. در این بخش، سرعت دستگاه تا پنج برابر در پردازش دستورات هوش مصنوعی روی دستگاه در مقایسه با مدل ام۴ (M4) و تا ۱۲ برابر مدل ام۱ (M1) سریع‌تر شده است. این قدرت پردازشی برای اجرای نسل بعدی سیستم هوش مصنوعی اپل اینتلیجنس (Apple Intelligence) همراه با دستیار صوتی سیری (Siri) در سیستم‌عامل مک‌اواس ۲۷ (macOS 27) اهمیت بالایی دارد. کاربران آی‌مک (iMac) می‌توانند از این قابلیت‌ها برای جستجوی اطلاعات در ایمیل‌ها و عکس‌ها استفاده کنند. از نظر ظاهری، صفحه نمایش ۲۴ اینچی رتینا (Retina) با رزولوشن 4.5K و روشنایی ۵۰۰ نیت بدون تغییر باقی مانده است. با این حال، آی‌مک جدید (iMac) از فناوری‌های وای‌فای ۷ (Wi-Fi 7) و بلوتوث ۶ (Bluetooth 6) به همراه درگاه اترنت ۲.۵ گیگابایتی پشتیبانی می‌کند. پیش‌خرید این دستگاه با قیمت پایه ۱۴۹۹ دلار از روز آینده آغاز می‌شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/l-intro-1793110400.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:569e4be82d517286e8011077c791172ddc8e645435f9031797179c3a08022bb3",
+      "url": "https://www.engadget.com/2295693/a-jailbroken-playstation-5-can-play-ps2-discs-but-sony-is-giving-users-a-tough-choice/",
+      "title": "A jailbroken PlayStation 5 can play PS2 discs, but Sony is giving users a tough choice",
+      "summary": "We mean that in the Faustian bargain sense.",
+      "display_title": "اجرای دیسک‌های پلی‌استیشن ۲ روی پلی‌استیشن ۵ هک‌شده با بهایی سنگین از سوی سونی",
+      "display_summary": "یک شبیه‌ساز جدید امکان اجرای دیسک‌های بازی پلی‌استیشن ۲ را روی کنسول پلی‌استیشن ۵ جیلبریک‌شده فراهم کرده است. با این حال، این کار مستلزم از دست دادن دسترسی به شبکه پلی‌استیشن، به‌روزرسانی‌ها و بازی‌های جدید مانند جی‌تی‌ای ۶ است.",
+      "message": "<b>📰 اجرای دیسک‌های پلی‌استیشن ۲ روی پلی‌استیشن ۵ هک‌شده با بهایی سنگین از سوی سونی</b>\n\nیک شبیه‌ساز جدید امکان اجرای دیسک‌های بازی پلی‌استیشن ۲ را روی کنسول پلی‌استیشن ۵ جیلبریک‌شده فراهم کرده است. با این حال، این کار مستلزم از دست دادن دسترسی به شبکه پلی‌استیشن، به‌روزرسانی‌ها و بازی‌های جدید مانند جی‌تی‌ای ۶ است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>دنیای بازی‌های ویدیویی همواره شاهد تلاش توسعه‌دهندگان مستقل برای باز کردن مرزهای سخت‌افزاری کنسول‌ها بوده است. اخیراً یک شبیه‌ساز خانگی (Homebrew) به نام پی‌اس۵اس‌اکس‌۲ (PS5SX2) معرفی شده است که به کاربران اجازه می‌دهد دیسک‌های بازی پلی‌استیشن ۲ (PlayStation 2) را روی کنسول پلی‌استیشن ۵ (PlayStation 5) اجرا کنند. این نرم‌افزار که بر پایه شبیه‌ساز متن‌باز و قدیمی پی‌سی‌اس‌اکس‌۲ (PCSX2) توسعه یافته، امکاناتی نظیر وضوح تصویر چهارکی (4K)، پشتیبانی از نسبت تصویر عریض، پچ‌های نرخ ۶۰ فریم بر ثانیه و بسته‌های بافت با کیفیت بالا (HD Texture Packs) را ارائه می‌دهد. با وجود جذابیت ظاهری این پروژه، استفاده از آن با موانع و محدودیت‌های جدی همراه است. سخت‌افزار پلی‌استیشن ۵ (PlayStation 5) قادر به خواندن دیسک‌های دی‌وی‌دی (DVD) و بلو‌ری (Blu-ray) است اما از دیسک‌های سی‌دی (CD) پشتیبانی نمی‌کند؛ بنابراین برخی عناوین قدیمی‌تر یا کوچک‌تر پلی‌استیشن ۲ (PlayStation 2) که روی سی‌دی عرضه شده بودند، مستقیماً از روی دیسک اجرا نمی‌شوند، مگر اینکه فایل‌های آن‌ها از طریق رایانه شخصی (PC) استخراج و به کنسول منتقل شود. عناوینی نظیر گاد آو وار (God of War)، گرند تفت اوتو ۳ (Grand Theft Auto III) و متال گیر سالید ۲ (Metal Gear Solid 2) که روی دیسک‌های دی‌وی‌دی عرضه شده بودند، بدون مشکل خاصی قابل خواندن هستند. بزرگترین چالش پیش روی کاربران، نیازمندی این روش به جیلبریک (Jailbreak) کردن کنسول است. برای اجرای این شبیه‌ساز، دستگاه باید روی نسخه‌های قدیمی سیستم‌عامل پلی‌استیشن ۵ (PlayStation 5) باقی بماند. شبیه‌ساز عمومی فعلی با نام ریلیپس (Relapse)، روی نسخه سیستم‌عامل ۱۳.۶۰ و پایین‌تر کار می‌کند. شرکت سونی (Sony) با انتشار به‌روزرسانی‌های ۱۴.۰۰ و ۱۴.۱۰ این حفره امنیتی را مسدود کرده و از اواسط ماه اکتبر، دسترسی به شبکه پلی‌استیشن (PlayStation Network) را برای کنسول‌هایی که نسخه‌های قدیمی‌تر نرم‌افزاری را اجرا می‌کنند، مسدود کرده است. این محدودیت به آن معناست که کاربران با جیلبریک کردن دستگاه، دسترسی به بخش چندنفره آنلاین، فروشگاه پلی‌استیشن (PlayStation Store) و بازی‌های جدیدی که به فریم‌ور جدید نیاز دارند را از دست خواهند داد. به عنوان مثال، بازی مورد انتظار گرند تفت اوتو ۶ (Grand Theft Auto VI) احتمالاً برای اجرا به نسخه فریم‌ور ۱۴.۱۰ یا بالاتر نیاز خواهد داشت. اگرچه ابزارهای هوش مصنوعی (AI) ممکن است در آینده به توسعه‌دهندگان در انتشار جیلبریک‌های جدید کمک کنند، اما در حال حاضر تبدیل کردن یک کنسول گران‌قیمت به دستگاهی صرفاً برای اجرای بازی‌های قدیمی توجیه منطقی کمی دارد. در نهایت، کارشناسان معتقدند که روش‌های بسیار بهتری مانند استفاده از شبیه‌سازهای موجود روی رایانه شخصی (PC)، استیم دک (Steam Deck) یا تلفن‌های همراه اندرویدی (Android) برای تجربه عناوین کلاسیک پلی‌استیشن ۲ (PlayStation 2) وجود دارد بدون اینکه نیازی به به خطر انداختن امنیت و قابلیت‌های اصلی کنسول پلی‌استیشن ۵ (PlayStation 5) باشد. شرکت سونی (Sony) نیز با آگاهی از این هزینه‌های سنگین برای کاربران، نیازی به مسدود کردن مستقیم ابزارهای هک نداشته و تنها با بالا بردن بهای استفاده از آن‌ها، کاربران را از انجام این کار منصرف می‌کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/a-jailbroken-playstation-5-can-play-ps2-discs-but-sony-is-giving-users-a-tough-choice/l-intro-1792777805.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:a175d7b773baa33a74c160142a91824111d9fa518235679d96ad6f3d959a8dcc",
+      "url": "https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax/",
+      "title": "Billionaire Palmer Luckey isn’t leaving California over the wealth tax",
+      "summary": "\"It's causing a lot of people to run who I don't want to be running,\" native Californian Palmer Luckey said. \"But I'm planning on staying in California. I'm going to keep fighting it.\"",
+      "display_title": "پالمر لاکی: با وجود مالیات ثروت، کالیفرنیا را ترک نمی‌کنم و می‌مانم تا بجنگم",
+      "display_summary": "پالمر لاکی (Palmer Luckey)، بنیان‌گذار شرکت آکیولس وی‌آر (Oculus VR) و شرکت دفاعی آندوریل (Anduril)، اعلام کرد که برخلاف فشارهای همتایان میلیاردرش و انتقادات شدید نسبت به طرح جنجالی مالیات ثروت در کالیفرنیا، قصد ترک این ایالت را ندارد. او معتقد است این لایحه غیرمنصفانه و آسیب‌زا است، اما ترجیح می‌دهد در کالیفرنیا بماند و با آن مبارزه کند.",
+      "message": "<b>📰 پالمر لاکی: با وجود مالیات ثروت، کالیفرنیا را ترک نمی‌کنم و می‌مانم تا بجنگم</b>\n\nپالمر لاکی (Palmer Luckey)، بنیان‌گذار شرکت آکیولس وی‌آر (Oculus VR) و شرکت دفاعی آندوریل (Anduril)، اعلام کرد که برخلاف فشارهای همتایان میلیاردرش و انتقادات شدید نسبت به طرح جنجالی مالیات ثروت در کالیفرنیا، قصد ترک این ایالت را ندارد. او معتقد است این لایحه غیرمنصفانه و آسیب‌زا است، اما ترجیح می‌دهد در کالیفرنیا بماند و با آن مبارزه کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پالمر لاکی (Palmer Luckey)، چهره سرشناس حوزه فناوری و بنیان‌گذار شرکت فناوری‌های دفاعی آندوریل (Anduril)، اعلام کرد که با وجود مخالفت شدید با طرح پیشنهادی «مالیات بر ثروت» در ایالت کالیفرنیا (California)، تصمیمی برای ترک این ایالت ندارد. این موضع‌گیری در حالی انجام می‌شود که بسیاری از ثروتمندان و چهره‌های برجسته اقتصادی به دلیل این طرح مالیاتی جنجالی، تهدید به مهاجرت از کالیفرنیا کرده‌اند. لاکی که از سن ۲۱ سالگی و پس از فروش شرکت سازنده هدست‌های واقعیت مجازی خود یعنی آکیولس وی‌آر (Oculus VR) به فیسبوک (Facebook) با قیمت ۲ میلیارد دلار در سال ۲۰۱۴ به جرگه میلیاردرها پیوسته است، اکنون شرکت آندوریل را با ارزشی بالغ بر ۶۱ میلیارد دلار مدیریت می‌کند. او در یک نشست خبری تأکید کرد که اگرچه این قانون مشکلات زیادی ایجاد کرده و باعث فرار بسیاری از افراد و شرکت‌ها شده است، اما او قصد دارد در کالیفرنیا بماند و برای اصلاح امور بجنگد. به گفته لاکی، این تصمیم او مایه اختلاف و اصطکاک با برخی از دوستان میلیاردرش شده است. آن‌ها معتقدند عدم مهاجرت او پیامی اشتباه به سیاست‌گذاران می‌دهد و نشان‌دهنده عدم تبعات منفی برای چنین تصمیماتی است. با این حال، لاکی اظهار داشت که در حال حاضر ترجیح می‌دهد راه مبارزه از درون را انتخاب کند، زیرا همچنان به امکان اصلاح شرایط در کالیفرنیا باور دارد. مهم‌ترین انتقاد لاکی به این لایحه مالیاتی، نحوه طراحی و حامیان آن است. این طرح که توسط یک واحد از اتحادیه کارگران بخش بهداشت و درمان (United Healthcare Workers) حمایت می‌شود، مدعی است درآمد حاصله صرف برنامه‌های مراقبت‌های بهداشتی، آموزش و کمک‌های غذایی از جمله مدی‌کال (Medi-Cal) خواهد شد. با این حال، منتقدان نگران شیوه ارزیابی دارایی‌ها، از جمله دارایی‌های غیرنقد و ارزش‌گذاری سهام کنترلی شرکت‌ها هستند. بر اساس برآوردهای موسسه مالیاتی تاکس فاندیشن (Tax Foundation)، این طرح می‌تواند بنیان‌گذاران شرکت‌ها را بر اساس حقوق رأی‌دهی و کنترل شرکت‌ها، مشمول مالیات‌های سنگین و بی‌سابقه‌ای کند که حتی با فروش کل سهام نیز جبران‌پذیر نیست. لاکی خاطرنشان کرد که شخص او ممکن است تنها به خاطر دارایی شرکت آندوریل مجبور به پرداخت مالیاتی در حدود ۳ میلیارد دلار (معادل ۵ درصد ارزش شرکت) شود. با این وجود، او امیدوار است که این لایحه رأی نیاورد یا در صورت تصویب، با چالش‌های حقوقی جدی مواجه شود؛ چرا که به گفته وی، این طرح مالیات بر مالکیت نیست، بلکه مالیات بر کنترل شرکت‌ها است. در پایان، لاکی تصریح کرد که ماندن در ایالات متحده آمریکا و کالیفرنیا برای حفظ حقوق رأی‌دهی و مدیریت شرکت آندوریل که یکی از تامین‌کنندگان اصلی تجهیزات ارتش ایالات متحده (U.S. Military) است، اهمیت حیاتی دارد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Palmer-Luckey-1.jpg?resize=1200,794",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:b4bbcfafe3cabce9514a7f068ae8cc70d7bd6e2b3d8a7fa281dd87ba0345b26b",
+      "url": "https://www.theverge.com/gadgets/1019300/fujifilm-instax-mini-evo-2-instant-camera-price-availability",
+      "title": "Fujifilm’s Instax Mini Evo 2 adds a touchscreen and video recording",
+      "summary": "Fujifilm is trying to find the right balance of fun and photography with its latest hybrid instant camera. Like its predecessor, the Instax Mini Evo 2 feels less like a retro gimmick, and more like a basic digital camera that just happens to have a built-in printer. It also enjoys some key upgrades: a larger [&#8230;]",
+      "display_title": "دوربین هیبریدی اینستکس مینی اوو ۲ شرکت فوجی‌فیلم با صفحه نمایش لمسی و قابلیت ضبط ویدیو معرفی شد",
+      "display_summary": "شرکت فوجی‌فیلم (Fujifilm) نسخه جدید دوربین فوری و هیبریدی خود را با نام اینستکس مینی اوو ۲ (Instax Mini Evo 2) معرفی کرد. این مدل جدید با برخورداری از صفحه نمایش لمسی بزرگ‌تر، حسگر تصویر ارتقایافته و امکان ضبط محدود ویدیو، شباهت بیشتری به دوربین‌های دیجیتال سنتی پیدا کرده است.",
+      "message": "<b>📰 دوربین هیبریدی اینستکس مینی اوو ۲ شرکت فوجی‌فیلم با صفحه نمایش لمسی و قابلیت ضبط ویدیو معرفی شد</b>\n\nشرکت فوجی‌فیلم (Fujifilm) نسخه جدید دوربین فوری و هیبریدی خود را با نام اینستکس مینی اوو ۲ (Instax Mini Evo 2) معرفی کرد. این مدل جدید با برخورداری از صفحه نمایش لمسی بزرگ‌تر، حسگر تصویر ارتقایافته و امکان ضبط محدود ویدیو، شباهت بیشتری به دوربین‌های دیجیتال سنتی پیدا کرده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت فوجی‌فیلم (Fujifilm) با معرفی مدل جدید دوربین فوری و هیبریدی خود تحت عنوان اینستکس مینی اوو ۲ (Instax Mini Evo 2)، گام بلندی در جهت ترکیب عکاسی سنتی و فناوری‌های مدرن برداشته است. این دستگاه جدید که با قیمت ۲۹۰ دلار عرضه می‌شود، تلاش می‌کند تعادلی میان جذابیت‌های رترو و کارایی یک دوربین دیجیتال پایه مجهز به چاپگر داخلی برقرار کند. مدل جدید نسبت به نسل قبلی خود یعنی اینستکس مینی اوو (Instax Mini Evo) شاهد ارتقاهای چشمگیری بوده است. یکی از مهم‌ترین تغییرات، استفاده از یک حسگر تصویر ۱/۲.۷۷ اینچی در مقایسه با حسگر ۱/۵ اینچی مدل قبلی است که کیفیت بهتری را ارائه می‌دهد. همچنین این دوربین برای نخستین بار در خانواده محصولات اینستکس (Instax) به یک صفحه نمایش لمسی ال‌سی‌دی (LCD) بزرگ ۴.۵ اینچی مجهز شده است که کنترل‌های فیزیکی سنتی پشت دوربین را کنار گذاشته تا فضای بیشتری در اختیار کاربر قرار گیرد. اگرچه این دستگاه یک دوربین فوری است، اما قابلیت جدیدی برای ضبط ویدیوهای کوتاه را نیز به کاربران ارائه می‌دهد؛ ویدیوهایی که تنها شامل چند ثانیه منتهی به ثبت عکس هستند. کلیپ‌های ویدیویی در قالب فرمت ام‌په‌فور (MP4) با رزولوشن ۵۶۰ در ۹۹۲ پیکسل و نرخ ۲۴ فریم بر ثانیه ضبط شده و تنها روی کارت حافظه میکرو‌اس‌دی (microSD) ذخیره می‌شوند؛ ضمن اینکه این ویدیوها فاقد صدا هستند و حافظه داخلی دوربین تنها برای ذخیره عکس‌ها کاربرد دارد. در کنار تغییرات دیجیتالی، ویژگی‌های کلاسیک محبوب کاربران نیز حفظ شده است. این دوربین همچنان دارای دو دیسک چرخشی و اهرم چاپ الهام‌گرفته از دوربین‌های فیلم‌برداری قدیمی است که کاربران می‌توانند از طریق آن‌ها یا صفحه نمایش لمسی، به ۱۰ حالت فیلم و ۱۰ افکت لنز مختلف دسترسی پیدا کنند. دوربین اینستکس مینی اوو ۲ از درگاه یو‌اس‌بی تایپ-سی (USB-C) برای شارژ بهره می‌برد، عکس‌های فرمت اینستکس مینی (Instax Mini) در ابعاد ۲ در ۳ اینچ را چاپ می‌کند و امکان تنظیم نوردهی، تراز سفیدی و فلاش را به عکاس می‌دهد. این دوربین جدید با رنگ مشکی و طراحی کلاسیک خود که انتظار می‌رود با استقبال خوب بازار جوانان مواجه شود، از اواخر ماه نوامبر با قیمت ۲۹۰ دلار روانه بازار خواهد شد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Fujifilm-Instax-Mini-Evo-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:d8a80b8436b4448e4e501b16593d2809b822b075de9079cb54e3f3babb717ff3",
+      "url": "https://www.engadget.com/2295544/older-samsung-phones-how-much-actually-worth/",
+      "title": "Here's how much your older Samsung phones are actually worth",
+      "summary": "You have options for selling your old Samsung phone, depending on how much hassle you'll tolerate for more cash.",
+      "display_title": "ارزش واقعی گوشی‌های قدیمی سامسونگ در بازار خرید و فروش چقدر است؟",
+      "display_summary": "بررسی‌ها نشان می‌دهد که گوشی‌های قدیمی‌تر سری گلکسی سامسونگ (Samsung Galaxy) همچنان ارزش دلاری قابل توجهی دارند، اما تفاوت چشمگیری میان قیمت پیشنهادی سایت‌های بازخرید و فروش مستقیم به مصرف‌کننده وجود دارد. کاربران می‌توانند با انتخاب روش‌های مختلف مانند پلتفرم‌های واسطه یا تعویض با مدل‌های نو، از دستگاه‌های کارکرده خود کسب درآمد کنند.",
+      "message": "<b>📰 ارزش واقعی گوشی‌های قدیمی سامسونگ در بازار خرید و فروش چقدر است؟</b>\n\nبررسی‌ها نشان می‌دهد که گوشی‌های قدیمی‌تر سری گلکسی سامسونگ (Samsung Galaxy) همچنان ارزش دلاری قابل توجهی دارند، اما تفاوت چشمگیری میان قیمت پیشنهادی سایت‌های بازخرید و فروش مستقیم به مصرف‌کننده وجود دارد. کاربران می‌توانند با انتخاب روش‌های مختلف مانند پلتفرم‌های واسطه یا تعویض با مدل‌های نو، از دستگاه‌های کارکرده خود کسب درآمد کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>داشتن یک گوشی پرچمدار قدیمی از شرکت سامسونگ (Samsung) لزوماً به معنای بی‌ارزش شدن آن نیست. بررسی‌های بازار نشان می‌دهد که مدل‌های قدیمی‌تر سری گلکسی (Galaxy) همچنان می‌توانند صدها دلار ارزش داشته باشند، البته با یک شکاف قیمتی قابل توجه میان پیشنهادهای نقدی شرکت‌های بازخرید و فروش مستقیم به خریداران شخصی. بر اساس داده‌های بازار، مدل گلکسی اس ۲۳ اولترا (Galaxy S23 Ultra) با ظرفیت ۲۵۶ گیگابایت که در زمان عرضه در فوریه ۲۰۲۳ قیمت پایه‌ای معادل ۱,۱۹۹.۹۹ دلار داشت، توانست در اواخر اکتبر ۲۰۲۶ پیشنهاد خرید نقدی تا سقف ۲۹۱ دلار را ثبت کند. این در حالی است که میانگین قیمت فروش تکمیل‌شده همان مدل در پلتفرم سوآپا (Swappa) به حدود ۴۰۴ دلار رسید. این اختلاف قیمت ۱۱۳ دلاری، هزینه‌ای است که کاربران برای راحتی کار و عدم درگیری با فرآیند فروش شخصی پرداخت می‌کنند. به طور کلی، دارندگان گوشی‌های قدیمی سه‌راه اصلی برای تبدیل دستگاه خود به پول نقد پیش رو دارند: فروش به سایت‌های بازخرید (Buyback)، فروش مستقیم به مصرف‌کننده دیگر، یا تعویض با دستگاه‌های نو از طریق خود سامسونگ (Samsung). سایت‌های بازخرید و طرح‌های تعویض، راحتی زیادی به همراه دارند و با ارائه قیمت‌های آنلاین و برچسب‌های پستی پیش‌پرداخت، کار را ساده می‌کنند؛ اما مبلغ کمتری به فروشنده پرداخت می‌کنند زیرا خریدار نیز باید به سود خود برسد. در مقابل، فروش مستقیم به دیگران پول بیشتری نصیب فروشنده می‌کند اما نیازمند اقداماتی نظیر عکاسی از محصول و مدیریت ارسال است. بر اساس آمارهای مقایسه قیمت پلتفرم سل‌سل (SellCell) در ایالات متحده، بالاترین پیشنهادهای نقدی برای مدل‌های در حد نو شامل گلکسی اس ۲۴ اولترا (Galaxy S24 Ultra) با مبلغ ۴۴۹ دلار، اس ۲۳ اولترا (Galaxy S23 Ultra) با ۲۹۱ دلار، اس ۲۲ اولترا (Galaxy S22 Ultra) با ۱۹۶ دلار و اس ۲۱ اولترا (Galaxy S21 Ultra) با ۱۳۶ دلار بوده است. جالب اینجاست که حتی مدل قدیمی‌تر گلکسی اس ۲۰ اولترا (Galaxy S20 Ultra) نیز توانسته پیشنهاد ۱۳۶ دلاری دریافت کند، هرچند تعداد فروشگاه‌های خریدار آن بسیار محدود است. گوشی‌های تاشو نیز نتوانسته‌اند قیمت‌های زمان عرضه خود را حفظ کنند. مدل گلکسی زد فولد ۶ (Galaxy Z Fold6) که در سال ۲۰۲۴ با قیمت پایه ۱,۹۰۰ دلار عرضه شد، حداکثر پیشنهاد نقدی ۵۱۲ دلار را به خود اختصاص داد و مدل زد فولد ۵ (Galaxy Z Fold5) نیز با قیمت ۳۲۷ دلار ارزیابی شد. با این حال، فروش مستقیم این محصولات به افراد دیگر از طریق پلتفرم‌هایی مانند سوآپا (Swappa) می‌تواند مبالغ بالاتری را به همراه داشته باشد؛ به عنوان مثال، میانگین فروش اس ۲۴ اولترا در این پلتفرم ۶۰۰ دلار و زد فولد ۶ معادل ۶۵۷ دلار گزارش شده است. هنگام خرید یا فروش مدل‌های قدیمی‌تر گلکسی، توجه به پشتیبانی نرم‌افزاری اهمیت بالایی دارد. سامسونگ از زمان عرضه سری اس ۲۴ (S24)، وعده هفت نسل ارتقای سیستم‌عامل و هفت سال به‌روزرسانی امنیتی را داده است که پشتیبانی نرم‌افزاری آن‌ها را تا اوایل سال ۲۰۳۱ ادامه خواهد داد. سری اس ۲۳ (S23) نیز تا اوایل سال ۲۰۲۸ بسته‌های امنیتی دریافت خواهد کرد. کاربران برای فروش دستگاه خود می‌توانند از ابزارهایی مانند سل‌سل (SellCell) برای مقایسه قیمت‌ها، بک مارکت (Back Market) برای فروش به بازسازندگان، یا سوآپا (Swappa) برای فروش مستقیم به خریدار نهایی استفاده کنند. همچنین برنامه تعویض اختصاصی سامسونگ (Samsung) به جای پول نقد، اعتبار خرید دستگاه جدید ارائه می‌دهد که میزان آن بسته به زمان و طرح‌های تشویقی متغیر است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/heres-how-much-your-older-samsung-phones-are-actually-worth/l-intro-1792776180.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:f8a635213a723951836706edc39ff38673d2d6026f8b019981e2dd3b38bd9ee8",
+      "url": "https://www.engadget.com/2298015/nasa-plans-to-launch-three-massive-rockets-for-the-artemis-3-crewed-lunar-test-mission/",
+      "title": "NASA plans to launch three massive rockets for the Artemis 3 crewed lunar test mission",
+      "summary": "NASA has detailed how the next Artemis 3 test will happen, but it doesn't have a concrete date for it yet.",
+      "display_title": "برنامه ناسا برای پرتاب سه موشک غول‌پیکر در مأموریت آزمایشی و سرنشین‌دار آرتمیس ۳ (Artemis 3)",
+      "display_summary": "سازمان فضایی ناسا (NASA) جزئیات تازه‌ای از مأموریت آزمایشی آرتمیس ۳ (Artemis 3) منتشر کرده است که طی آن سه موشک سنگین‌بر در بازه زمانی دو هفته‌ای به فضا پرتاب خواهند شد. این مأموریت شامل ارزیابی سیستم‌های فرودگر شرکت‌های بلو اوریجین (Blue Origin) و اسپیس‌ایکس (SpaceX) خواهد بود، هرچند تاریخ دقیق پرتاب آن هنوز مشخص نیست.",
+      "message": "<b>📰 برنامه ناسا برای پرتاب سه موشک غول‌پیکر در مأموریت آزمایشی و سرنشین‌دار آرتمیس ۳ (Artemis 3)</b>\n\nسازمان فضایی ناسا (NASA) جزئیات تازه‌ای از مأموریت آزمایشی آرتمیس ۳ (Artemis 3) منتشر کرده است که طی آن سه موشک سنگین‌بر در بازه زمانی دو هفته‌ای به فضا پرتاب خواهند شد. این مأموریت شامل ارزیابی سیستم‌های فرودگر شرکت‌های بلو اوریجین (Blue Origin) و اسپیس‌ایکس (SpaceX) خواهد بود، هرچند تاریخ دقیق پرتاب آن هنوز مشخص نیست.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>سازمان ملی هوانوردی و فضایی آمریکا، ناسا (NASA)، جزئیات برنامه‌ریزی خود را برای مأموریت آزمایشی و سرنشین‌دار آرتمیس ۳ (Artemis 3) اعلام کرد. این مأموریت که بخشی از برنامه بازگشت انسان به ماه است، رویکرد متفاوتی را دنبال می‌کند و شامل پرتاب سه فضاپیما با سه موشک غول‌پیکر مختلف از ایالت فلوریدا (Florida) در بازه زمانی دو هفته‌ای خواهد بود. بر اساس برنامه‌ریزی‌های جدید، این مأموریت با پرتاب موشک نیو گلن (New Glenn) ساخت شرکت بلو اوریجین (Blue Origin) آغاز می‌شود که نسخه آزمایشی فرودگر بلو مون مارک ۲ (Blue Moon Mark 2) را به مدار زمین منتقل می‌کند. پس از آن، موشک سامانه پرتاب فضایی (SLS) حامل کپسول سرنشین‌دار اوریون (Orion) به فضا پرتاب خواهد شد. فضانوردان حاضر در این مأموریت شامل رندی برسنیک (Randy Bresnik)، فرانک روبیو (Frank Rubio)، آندره دوگلاس (Andre Douglas) از ناسا (NASA) و لوکا پارمیتانو (Luca Parmitano) از آژانس فضایی اروپا (ESA) خواهند بود. فضانوردان پس از استقرار کپسول اوریون (Orion) در مدار، به فرودگر بلو اوریجین (Blue Origin) ملحق شده و سیستم‌های حیاتی، کنترل پرواز و فشار جوی آن را ارزیابی خواهند کرد. در مرحله پایانی، شرکت اسپیس‌ایکس (SpaceX) نسخه سوم موشک استارشیپ (Starship) را به فضا پرتاب خواهد کرد تا نحوه اتصال و جداسازی آن با کپسول اوریون (Orion) در شرایط فضایی آزمایش شود. این اقدامات به ناسا (NASA) کمک می‌کند تا نحوه تعامل کپسول اوریون (Orion) با دو معماری مختلف فرودگرهای تجاری را در یک مأموریت واحد بررسی کند. همچنین در جریان این مأموریت، لباس‌های جدید سیستم بقای خدمه اوریون (Orion Crew Survival System) که به طور ویژه برای سفرهای فضایی عمیق طراحی شده‌اند، ارزیابی خواهند شدند. با وجود این برنامه‌ریزی‌ها، تاریخ دقیق پرتاب آرتمیس ۳ (Artemis 3) هنوز به طور قطعی مشخص نشده است. گزارش‌های داخلی حاکی از آن است که این پروژه مدتی از برنامه زمانی خود عقب‌تر است و بهترین سناریو برای انجام آن تابستان سال ۲۰۲۷ میلادی پیش‌بینی می‌شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/nasa-plans-to-launch-three-massive-rockets-for-the-artemis-3-crewed-lunar-test-mission/l-intro-1793101991.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:72e188139d8466867249a9057edc7d23aaddab2df0e1d5ba4c6ae1aa9d4ae887",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "display_title": "سرمایه‌گذاری انویدیا روی استارتاپ هندی «سیمپل‌اس마트» برای اجرای کارآمدتر مدل‌های هوش مصنوعی",
+      "display_summary": "شرکت انویدیا (Nvidia) در جدیدترین دور تأمین مالی استارتاپ هندی «سیمپل‌اسمارت» (Simplismart) مشارکت کرد. این استارتاپ نرم‌افزاری توسعه داده است که به شرکت‌ها کمک می‌کند مدل‌های هوش مصنوعی را با تعداد پردازنده‌های گرافیکی کمتری اجرا کنند.",
+      "message": "<b>📰 سرمایه‌گذاری انویدیا روی استارتاپ هندی «سیمپل‌اس마트» برای اجرای کارآمدتر مدل‌های هوش مصنوعی</b>\n\nشرکت انویدیا (Nvidia) در جدیدترین دور تأمین مالی استارتاپ هندی «سیمپل‌اسمارت» (Simplismart) مشارکت کرد. این استارتاپ نرم‌افزاری توسعه داده است که به شرکت‌ها کمک می‌کند مدل‌های هوش مصنوعی را با تعداد پردازنده‌های گرافیکی کمتری اجرا کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در حالی که تب توسعه هوش مصنوعی فشارهای زیادی را به زیرساخت‌های پردازشی جهان وارد کرده است، شرکت انویدیا (Nvidia) با سرمایه‌گذاری در یک دور تأمین مالی ۱۴ میلیون دلاری، از استارتاپ هندی «سیمپل‌اسمارت» (Simplismart) حمایت کرد. این سرمایه‌گذاری روی نرم‌افزاری متمرکز است که به شرکت‌ها کمک می‌کند مدل‌های هوش مصنوعی (AI) را به شکل کارآمدتر و در برخی موارد با تعداد واحدهای پردازشی گرافیکی یا همان جی‌پی‌یو (GPU) کمتری اجرا کنند. این دور از تأمین مالی سری B به رهبری شرکت «دالاس ونچر کپیتال» (Dallas Venture Capital) انجام شد و شرکت‌های دیگری نظیر انویدیا (Nvidia)، «اکسل» (Accel)، «شاسترا وی‌سی» (Shastra VC) و «مایکرومکس» (Micromax) نیز در آن مشارکت کردند. ارزش این استارتاپ چهارساله پس از جذب سرمایه جدید به حدود ۱۰۰ میلیون دلار رسیده است. امروزه شرکت‌های مختلف هزینه‌های سنگینی را برای خرید پردازنده‌های گرافیکی جهت اجرای برنامه‌های هوش مصنوعی متحمل می‌شوند، اما بهره‌برداری مطمئن و اقتصادی از این مدل‌ها در مقیاس وسیع همچنان یک چالش بزرگ محسوب می‌شود. نرم‌افزار «سیمپل‌اسمارت» (Simplismart) به عنوان لایه‌ای میان مدل‌های هوش مصنوعی و زیرساخت‌های پردازشی قرار می‌گیرد و نحوه استقرار و مدیریت مدل‌ها را برای برآورده کردن نیازهای تجاری تنظیم می‌کند. به گفته «امریتاشو جین» (Amritanshu Jain)، هم‌بنیان‌گذار و مدیرعامل این استارتاپ، شرکت‌ها بیش از هر چیز به سرعت و هزینه‌ای نیاز دارند که برای کاربردهای خاص آن‌ها منطقی باشد. این استارتاپ مستقر در شهر بنگلور (Bengaluru) ابزارهایی را برای تنظیم دقیق مدل‌ها، مقیاس‌بندی خودکار منابع پردازشی و نظارت بر عملکرد ارائه می‌دهد. پلتفرم «سیمپل‌اسمارت» (Simplismart) پیش از این توانسته است به پلتفرم تولید ویدئوی هوش مصنوعی «این‌ویدیو» (InVideo) کمک کند تا هزینه‌های سرویس‌دهی جی‌پی‌یو خود را تا ۵۶ درصد کاهش دهد. شرکت‌های دیگری نظیر «های‌جن» (HeyGen)، «هیگزفیلد» (Higgsfield) و ارائه‌دهنده خدمات ابری هندی «یوتا» (Yotta) نیز از فناوری این شرکت بهره می‌برند. «امریتاشو جین» (Amritanshu Jain) اعلام کرد که درآمد سالانه این استارتاپ طی شش ماه گذشته رشد ۱۴ برابری داشته و بیش از نیمی از درآمد آن از بازار ایالات متحده آمریکا تأمین می‌شود. این استارتاپ که در سال ۲۰۲۲ توسط «امریتاشو جین» (Amritanshu Jain) و «دوانش گاتاک» (Devansh Ghatak) تأسیس شده، در نظر دارد سرمایه جدید را صرف گسترش حضور خود در بازار آمریکا، افزایش نیروی انسانی و توسعه بیشتر نرم‌افزار استنتاج خود کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/simplismart-founders-amritanshu-devansh.jpg?resize=1200,800",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -7205,43 +7359,16 @@
       ]
     },
     {
-      "item_id": "26f503fc57d2e3fda47125ed05c09b7c83515aeb647d28a25152622a5a3d0366",
-      "title": "Apple unveils new 14-inch MacBook Pro with M6 chip",
-      "url": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
-      "summary": "The new MacBook Pro comes with 24 hours of battery life, and now features support for Wi-Fi 7 and Bluetooth 6 connectivity.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-27T14:25:11+00:00",
-      "categories": [
-        "Hardware",
-        "Gadgets",
-        "Apple",
-        "macbook pros"
-      ]
-    },
-    {
       "item_id": "4ea3cb16d88f883127641c978c0ee1a8d042b81b91b1eefb521b84c416f5cc43",
       "title": "Everything Apple announced this week so far: New iPad and MacBooks",
       "url": "https://www.engadget.com/2298220/everything-apple-announced-ipad-macbook-pro-and-tell-event/",
       "summary": "Ahead of its 'Pro and Tell' event, the company has already launched a few new devices.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/everything-apple-announced-this-week/l-intro-1793108609.jpg",
+      "image_url": "https://www.engadget.com/img/gallery/everything-apple-announced-ipad-macbook-pro-and-tell-event/l-intro-1793118895.jpg",
       "published_at": "2026-10-27T14:23:09+00:00",
       "categories": [
         "Computing",
         "Apple"
-      ]
-    },
-    {
-      "item_id": "b13b2ee5fae0b34db07289593c6daf24062e237098276626e9e617a68b3c353c",
-      "title": "Anthropic's political problem will get worse before it gets better",
-      "url": "https://www.engadget.com/2298214/anthropics-political-problem-will-get-worse-before-it-gets-better/",
-      "summary": "With the midterms closing in, its IPO paperwork reveal a company rightly worried about its regulatory future.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/anthropics-political-problem-will-get-worse-before-it-gets-better/l-intro-1793110492.jpg",
-      "published_at": "2026-10-27T14:16:27+00:00",
-      "categories": [
-        "AI"
       ]
     },
     {
@@ -7262,80 +7389,6 @@
       ]
     },
     {
-      "item_id": "1a03a87b9dbed5729a40ca626740978635a68ee9ec13d0b106bfa5fabd410c3f",
-      "title": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
-      "url": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
-      "summary": "The latest Apple software update for iPhones and iPads includes new features and important security updates.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-27T13:54:51+00:00",
-      "categories": [
-        "Apps",
-        "Apple",
-        "iOS",
-        "siri ai"
-      ]
-    },
-    {
-      "item_id": "8fb966a41a0a7cbdec11615e078a9a1a6bc07e7e54d795a037255443726f612b",
-      "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
-      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
-      "summary": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in Keynote. In Pages, Apple says the AI assistant can draft, restructure, [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-Creator-Studio-intelligent-assistant-in-Keynote-on-iPad-Pro-261027_big.jpg.large_2x.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-27T13:50:51+00:00",
-      "categories": [
-        "AI",
-        "Apple",
-        "Apps",
-        "News",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "8780d497a4a73fe2689b4dcc8b83f4b388f49e3fc808de4964bb64384922b703",
-      "title": "Book vs clamshell foldable phones: which is better for your everyday needs?",
-      "url": "https://www.engadget.com/2295698/book-vs-clamshell-foldable-phones-which-better/",
-      "summary": "There are pros and cons to each style of foldable.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/book-vs-clamshell-foldable-phones-which-is-better-for-your-everyday-needs/l-intro-1791573406.jpg",
-      "published_at": "2026-10-27T13:45:00+00:00",
-      "categories": [
-        "Smartphones"
-      ]
-    },
-    {
-      "item_id": "aa48ad6a4f862ff0d286a21d58698e1860ea611afbaf023f46222563857ba1a5",
-      "title": "Japan internet giant GMO says hackers posted stolen customer data",
-      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
-      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-27T13:32:57+00:00",
-      "categories": [
-        "AI",
-        "Security",
-        "CrowdStrike",
-        "cybersecurity",
-        "GMO Internet",
-        "Japan",
-        "security",
-        "south korea"
-      ]
-    },
-    {
-      "item_id": "3de5f1a10d78bb5453c902eb55863e1c5731a33608467a6b47e7ed9fdc6f99d2",
-      "title": "Apple's iMac with M6 arrives promising a 'huge leap' in AI performance",
-      "url": "https://www.engadget.com/2298132/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/",
-      "summary": "It offers more cores and more performance per core than the iMac M5.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/l-intro-1793110400.jpg",
-      "published_at": "2026-10-27T13:25:44+00:00",
-      "categories": [
-        "Apple"
-      ]
-    },
-    {
       "item_id": "5fcc2d0d5e44358adf71d52deac988ec7799f433d990ad3e8141e8176cd56a78",
       "title": "Apple has updated the 14-inch MacBook Pro with an M6 chip",
       "url": "https://www.engadget.com/2298120/apple-has-updated-the-14-inch-macbook-pro-with-an-m6-chip/",
@@ -7345,18 +7398,6 @@
       "published_at": "2026-10-27T13:23:27+00:00",
       "categories": [
         "Apple"
-      ]
-    },
-    {
-      "item_id": "569e4be82d517286e8011077c791172ddc8e645435f9031797179c3a08022bb3",
-      "title": "A jailbroken PlayStation 5 can play PS2 discs, but Sony is giving users a tough choice",
-      "url": "https://www.engadget.com/2295693/a-jailbroken-playstation-5-can-play-ps2-discs-but-sony-is-giving-users-a-tough-choice/",
-      "summary": "We mean that in the Faustian bargain sense.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/a-jailbroken-playstation-5-can-play-ps2-discs-but-sony-is-giving-users-a-tough-choice/l-intro-1792777805.jpg",
-      "published_at": "2026-10-27T13:15:00+00:00",
-      "categories": [
-        "PlayStation"
       ]
     },
     {
@@ -7391,74 +7432,22 @@
       ]
     },
     {
-      "item_id": "90fec1a713e61d7fcbdb053e0772ec15d58cf0cf413544912f8e34755405ade9",
-      "title": "Billionaire Palmer Luckey isn’t leaving California over the wealth tax",
-      "url": "https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax/",
-      "summary": "\"It's causing a lot of people to run who I don't want to be running,\" native Californian Palmer Luckey said. \"But I'm planning on staying in California. I'm going to keep fighting it.\"",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-27T13:01:00+00:00",
-      "categories": [
-        "Startups",
-        "TC",
-        "anduril"
-      ]
-    },
-    {
       "item_id": "72e6dc510681c2a71c4159c4007938f9a2cd89ce968a01c899940eaa68f184ba",
       "title": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
       "url": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/",
-      "summary": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S. and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
+      "summary": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S., and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Palmer-Luckey.jpg?resize=1200,800",
       "published_at": "2026-10-27T13:00:00+00:00",
       "categories": [
-        "TC",
-        "Startups",
-        "Hardware",
         "Government & Policy",
-        "anduril"
-      ]
-    },
-    {
-      "item_id": "483127fbf2a13a63a23d208849b8226d61dcb7d773a0bfa57ef1769d311f3612",
-      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
-      "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-27T13:00:00+00:00",
-      "categories": [
-        "AI"
-      ]
-    },
-    {
-      "item_id": "3e120c3c780d463e32899899ff7e33b34eb81283040752d8e6b0b9a0d827219a",
-      "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
-      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
-      "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-27T13:00:00+00:00",
-      "categories": [
+        "Hardware",
+        "Startups",
         "TC",
-        "AI",
-        "Opera"
-      ]
-    },
-    {
-      "item_id": "58fbb7e7477528f9ae41f4eb1f2c2875c7906969ba3c569306d2982108966a9e",
-      "title": "AirFly’s wireless headphone dongle adds a screen to guide you through the pairing process",
-      "url": "https://www.theverge.com/tech/1018679/twelve-south-airfly-view-screen-display-wireless-headphone-earbuds-airplane-adapter",
-      "summary": "Twelve South has announced a new version of its Airfly dongle that simplifies the pairing process when connecting wireless headphones to devices that don't natively support Bluetooth. Instead of having to decode flashing or color-changing LEDs, the new Airfly View adds a built-in screen that displays instructions for each step of the pairing process in [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/airfly1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-27T13:00:00+00:00",
-      "categories": [
-        "Audio",
-        "Gadgets",
-        "News",
-        "Tech"
+        "anduril",
+        "laptops",
+        "Palmer Luckey",
+        "Qualcomm"
       ]
     },
     {
@@ -7494,85 +7483,6 @@
       ]
     },
     {
-      "item_id": "143e0eb350b2821f9d168fbc202161d4354b2021720fe7a1b599e513973e717e",
-      "title": "4 drawbacks you should know before buying an Xbox Series X",
-      "url": "https://www.engadget.com/2295682/drawbacks-you-should-know-before-buying-xbox-series-x/",
-      "summary": "The Xbox Series X has had some stumbles, so you should be aware of its faults before picking one up.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/4-drawbacks-you-should-know-before-buying-an-xbox-series-x/l-intro-1792781267.jpg",
-      "published_at": "2026-10-27T12:45:00+00:00",
-      "categories": [
-        "Xbox"
-      ]
-    },
-    {
-      "item_id": "229054104bdca041652b203edb14c17c6a7e128ee8ac90f802419a1b5f4e9842",
-      "title": "Fujifilm’s Instax Mini Evo 2 adds a touchscreen and video recording",
-      "url": "https://www.theverge.com/gadgets/1019300/fujifilm-instax-mini-evo-2-instant-camera-price-availability",
-      "summary": "Fujifilm is trying to find the right balance of fun and photography with its latest hybrid instant camera. Like its predecessor, the Instax Mini Evo 2 feels less like a retro gimmick, and more like a basic digital camera that just happens to have a built-in printer. It also enjoys some key upgrades: a larger [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Fujifilm-Instax-Mini-Evo-2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-27T12:31:33+00:00",
-      "categories": [
-        "Cameras",
-        "Gadgets",
-        "News",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "d8a80b8436b4448e4e501b16593d2809b822b075de9079cb54e3f3babb717ff3",
-      "title": "Here's how much your older Samsung phones are actually worth",
-      "url": "https://www.engadget.com/2295544/older-samsung-phones-how-much-actually-worth/",
-      "summary": "You have options for selling your old Samsung phone, depending on how much hassle you'll tolerate for more cash.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/heres-how-much-your-older-samsung-phones-are-actually-worth/l-intro-1792776180.jpg",
-      "published_at": "2026-10-27T12:15:00+00:00",
-      "categories": [
-        "Samsung"
-      ]
-    },
-    {
-      "item_id": "f8a635213a723951836706edc39ff38673d2d6026f8b019981e2dd3b38bd9ee8",
-      "title": "NASA plans to launch three massive rockets for the Artemis 3 crewed lunar test mission",
-      "url": "https://www.engadget.com/2298015/nasa-plans-to-launch-three-massive-rockets-for-the-artemis-3-crewed-lunar-test-mission/",
-      "summary": "NASA has detailed how the next Artemis 3 test will happen, but it doesn't have a concrete date for it yet.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/nasa-plans-to-launch-three-massive-rockets-for-the-artemis-3-crewed-lunar-test-mission/l-intro-1793101991.jpg",
-      "published_at": "2026-10-27T11:58:00+00:00",
-      "categories": [
-        "Space"
-      ]
-    },
-    {
-      "item_id": "c0d660968e2a742cf1b5ab10fd743898028ebf407b27aa78e0ef69550b5a76e0",
-      "title": "Acer's Predator Atlas 8 gaming handheld finally launches at Best Buy on November 1 for $1,300",
-      "url": "https://www.engadget.com/2298013/acer-predator-atlas-8-gaming-handheld-comes-to-best-buy-on-november-1-for-1300/",
-      "summary": "The Predator Atlas 8 gaming handheld PC is coming to the US after all on November 1st for $1,300.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/acers-predator-atlas-8-gaming-handheld-finally-launches-at-best-buy-on-november-1-for-1300/l-intro-1793101845.jpg",
-      "published_at": "2026-10-27T11:50:55+00:00",
-      "categories": [
-        "PC Gaming"
-      ]
-    },
-    {
-      "item_id": "97ba5f6d12e93abe31acfa9676cc6add4a700d08beee78030dfa2c67613b86ff",
-      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-      "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-10-27T11:00:00+00:00",
-      "categories": [
-        "Startups",
-        "AI",
-        "Accel",
-        "nvidia",
-        "Exclusive"
-      ]
-    },
-    {
       "item_id": "050d58dec3466e985e16fa9d1afe0132d469582d97aa5fcf60dc31e285304300",
       "title": "Sterling Anderson doesn’t think humanoid robots should be building cars",
       "url": "https://www.theverge.com/transportation/1018625/gm-sterling-anderson-interview-robots-ai-autonomous-data-privacy",
@@ -7588,19 +7498,6 @@
       ]
     },
     {
-      "item_id": "76e0132c4fdbe2d083a09c6bc1f38b913968267de3a56c352111acc6c63197bd",
-      "title": "20 Years of MacBook: How Apple shaped the laptops we use today",
-      "url": "https://www.engadget.com/2297565/20-years-of-macbook-how-apple-shaped-the-laptops-we-use-today/",
-      "summary": "Apple has influenced everything from unibody laptop cases to high-res screens.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/20-years-of-macbook-how-apple-shaped-the-laptops-we-use-today/l-intro-1793042760.jpg",
-      "published_at": "2026-10-27T11:00:00+00:00",
-      "categories": [
-        "Laptops",
-        "Apple"
-      ]
-    },
-    {
       "item_id": "d2389b2d2bdd0b41c4afa40c5ee350b9533864b3948afbb6a6fa1c8ed4ee1dd1",
       "title": "Slate teams up with Smarties to add candy colors to its EV trucks",
       "url": "https://www.engadget.com/2295050/slate-ev-smarties-candy-color-wraps/",
@@ -7610,6 +7507,285 @@
       "published_at": "2026-10-27T11:00:00+00:00",
       "categories": [
         "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "6dd303e39bdfabd34bd53794bcde6df19135b7379a67affaa336c714235afa34",
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-27T18:55:35+00:00",
+      "categories": [
+        "AI",
+        "Startups",
+        "Venture",
+        "disruptive",
+        "In Brief"
+      ]
+    },
+    {
+      "item_id": "d78d52906a9aed056eae3448f3b021ca8f2d95d7a5aadcc8b1f29714857e783b",
+      "title": "This old Nokia phone got an AI Upgrade it was never designed for",
+      "url": "https://www.engadget.com/2295625/old-nokia-phone-ai-upgrade-never-designed-for/",
+      "summary": "The GOAT of dumb phones gets a new lease on life.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/this-old-nokia-phone-got-an-ai-upgrade-it-was-never-designed-for/l-intro-1792779965.jpg",
+      "published_at": "2026-10-27T18:30:00+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "fa18903ec3decc22d90b6264ae99d753d05d1f31f73a49b69535764283d737f2",
+      "title": "Trump is making it easier for fossil fuel companies to leak methane",
+      "url": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump",
+      "summary": "In its latest gift to oil and gas companies, the Trump administration is expected to announce plans today to weaken rules that guard against methane leaks. Methane is a smog-forming pollutant and a powerful greenhouse gas that's up to 80 times as potent as carbon dioxide on a 20-year horizon. It's the primary component of [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK466_ELECTION_2024_CVirginia_F.webp?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T18:25:13+00:00",
+      "categories": [
+        "Energy",
+        "Environment",
+        "News",
+        "Policy",
+        "Science"
+      ]
+    },
+    {
+      "item_id": "0b66526317f83b2ee81186db2af47722cd1475ba4d3198e6e97e5cbb6765fdc1",
+      "title": "Why buying a Mac mini over a MacBook might be the smarter move",
+      "url": "https://www.engadget.com/2296036/why-buying-mac-mini-over-macbook-smarter-move/",
+      "summary": "Apple's smallest desktop delivers better performance and value for those willing to leave the laptop behind.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-buying-a-mac-mini-over-a-macbook-might-be-the-smarter-move/l-intro-1792413302.jpg",
+      "published_at": "2026-10-27T18:00:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "2fc542d98ad94bfcb4e52abeba6ee54462d4e106a232cd36d3f17037df8e829e",
+      "title": "VisionQuest is what happens when AI really goes rogue",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come to dominate the conversation about real-world generative artificial [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/107-90190_RC.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T17:30:00+00:00",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Comics",
+        "Disney",
+        "Entertainment",
+        "Marvel",
+        "OpenAI",
+        "Streaming",
+        "TV Shows"
+      ]
+    },
+    {
+      "item_id": "41437ad28c8bb1a11ae676abbc3bb6e9f3cfdc83aa4ef1d18415bf872287501b",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-27T17:08:08+00:00",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Exclusive",
+        "MIT",
+        "OpenAI"
+      ]
+    },
+    {
+      "item_id": "26974e241af93f8ded2d335558851a4ebe07e8c75b5930232f858886f139239c",
+      "title": "The Super Mouse puts a touchscreen macro pad under your hand",
+      "url": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
+      "summary": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact touchscreen sitting beneath your hand. The Super Mouse may not prioritize ergonomics with its boxy design, but it can replace other peripherals on your desk, like a trackpad, [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/supermouse1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T17:00:00+00:00",
+      "categories": [
+        "Gadgets",
+        "Kickstarter",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "7bb38d27601476b7f5a2dbc438c43b141bbb087422e4563cdbc99bfe2a65c4e2",
+      "title": "Pokémon Unite is shutting down",
+      "url": "https://www.engadget.com/2298514/pokemon-unite-is-shutting-down/",
+      "summary": "Its journey ends in March 2027.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/pokmon-unite-is-shutting-down/l-intro-1793120222.jpg",
+      "published_at": "2026-10-27T16:57:44+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "a8171a741b3ef9962be05990ced4b10e0e669a7e556ae67f789f7308cd6bdb69",
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and shareholders eager for returns may [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2280291188.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T16:51:22+00:00",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Policy",
+        "Report"
+      ]
+    },
+    {
+      "item_id": "2faa796c29bc02ebd50470088bbf464e83517ef498dd558095b318f908e1f9aa",
+      "title": "Why does the FCC hate Minions routers?",
+      "url": "https://www.engadget.com/2296043/why-does-the-fcc-hate-minions-routers/",
+      "summary": "These themed routers are surprisingly (inexplicably) capable, but they are under threat by the FCC.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-does-the-fcc-hate-minions-routers/l-intro-1792572728.jpg",
+      "published_at": "2026-10-27T16:45:00+00:00",
+      "categories": [
+        "Computing"
+      ]
+    },
+    {
+      "item_id": "a59b4866f49df5d0b8d3375720d024e30d4a4fd1bb21cb5c9692911f43aab433",
+      "title": "Meta’s $25 billion legal loss just put blood in the water",
+      "url": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
+      "summary": "When attorneys general from across the US announced a $17 billion settlement with Meta this summer, the sum was unprecedented. But a ruling last week by a New Mexico judge blew that number out of the water. The judge ordered Meta to pay $25 billion to resolve claims that Meta misled users around the 2018 [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STKS507_FTCxMETA_ANTITRUST_CVIRGINIA_4_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T16:44:40+00:00",
+      "categories": [
+        "Analysis",
+        "Meta",
+        "Policy",
+        "Report",
+        "Social Media",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "adaf81d269342d768317c171cb7edadbd33806d11bfde116eb64ea4b11658f06",
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-27T16:30:57+00:00",
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "Genie",
+        "Google",
+        "google deepmind",
+        "world models"
+      ]
+    },
+    {
+      "item_id": "ad725e12aaf62df57a4f2b72002446fdcf984b5d3756d932ae0a238f59fb5af7",
+      "title": "Apple Creator Studio update adds MotionVFX to Final Cut, and AI to everywhere",
+      "url": "https://www.engadget.com/2298428/apple-creator-studio-update-adds-motionvfx-to-final-cut-and-ai-to-everywhere/",
+      "summary": "Final Cut clips can finally be unlocked from the primary timeline - hallelujah.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apple-creator-studio-update-adds-motionvfx-to-final-cut-and-ai-to-everywhere/l-intro-1793118031.jpg",
+      "published_at": "2026-10-27T16:21:44+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "63d079f28c8550cc09a148b9525570e9f66e60a9fb8fdbcda6f2364050a40e85",
+      "title": "Apple iPhone Duo vs Google Pixel 11 Pro Fold: The differences beyond foldable style",
+      "url": "https://www.engadget.com/2296032/apple-iphone-duo-vs-google-pixel-11-pro-fold/",
+      "summary": "With the iPhone Duo now in people's hands, how does it compare to Google's Pixel 11 Pro Fold?",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apple-iphone-duo-vs-google-pixel-11-pro-fold-the-differences-beyond-foldable-style/l-intro-1792405273.jpg",
+      "published_at": "2026-10-27T16:15:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "5b31836cc58a7b8d7a666c72eec6ab16aecc5cc181ae7c276ced4a191c96eb17",
+      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into a job application. You [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/firefox-fill.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T16:14:18+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "Tech",
+        "Web"
+      ]
+    },
+    {
+      "item_id": "2b6781b92f138302c957e92c63d5e1c04fdebec46ea0a09353f3060e047cad4d",
+      "title": "Major League Baseball is looking for a new kind of fan",
+      "url": "https://www.theverge.com/report/1019478/major-league-baseball-fandom-social-media-world-series-influencers",
+      "summary": "On October 2nd, just as Major League Baseball's Division Series was kicking off, the main MLB Instagram and TikTok accounts posted a video hyping up the teams still in the running for the World Series. It featured clips of players from the Milwaukee Brewers, Los Angeles Dodgers, Chicago White Sox, and more sliding into home [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2301861042.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T16:02:43+00:00",
+      "categories": [
+        "Creators",
+        "Culture",
+        "Entertainment",
+        "Internet Culture",
+        "Report",
+        "Sports",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "d9c453b74b1d7c5c5f9d6a1d0d67a3697166aded65392219530958f7a7a9dd9c",
+      "title": "Google’s next Genie AI model generates more realistic experiences",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "summary": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 Flash under the hood to help [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-26-at-3.00.35-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T16:00:00+00:00",
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "5831080d0a4733db775feeaa965967c4f832f2712705fd385f11de0c7dbbed73",
+      "title": "My favorite robot vacuum just got quieter, and more expensive",
+      "url": "https://www.theverge.com/tech/1019298/matic-serene-robot-vacuum-price-specs-release-date",
+      "summary": "Matic, the company behind my favorite robot vacuum, is launching its first new model since its 2023 debut: the Matic Serene. The new robotic floor cleaner has one key upgrade: noise reduction. With a promised output of just 52 decibels at its highest suction level, the Serene claims to be about as quiet as a [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/matic_yoga_serene-20.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-27T16:00:00+00:00",
+      "categories": [
+        "News",
+        "Robot",
+        "Smart Home",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "7e1dfe2acd6ccb320d86a2bd3bab2cce349fb0d26d06853639fc19d3cd1fd29d",
+      "title": "You can finally see who's talking in voice chat on PlayStation 5 — here's how",
+      "url": "https://www.engadget.com/2284038/playstation-5-display-whos-speaking-party-voice-feature/",
+      "summary": "You don't have to guess who's loudly eating chips in your PlayStation 5 party anymore - now you can see who's speaking in real-time.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/you-can-finally-see-whos-talking-in-voice-chat-on-playstation-5-heres-how/l-intro-1791817383.jpg",
+      "published_at": "2026-10-27T15:45:00+00:00",
+      "categories": [
+        "PlayStation"
       ]
     }
   ]
