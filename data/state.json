@@ -2642,51 +2642,47 @@
     "faf2794d3f149bafad552f805efc9b71ba762ebc9ca25108ca83a571b8fea38e",
     "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
     "54ba3d629ffd2306cf5a4d07a64cb0194675375e4ed0b893d3dadfb4ffbf73cb",
-    "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/"
+    "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
+    "33f98c75ea9ce61040c80df8401159adc43197941c077855b96f0ac05a76f441",
+    "532dc145c958774c717fedc39448584f119a6301b2f3b618902a6b362dee3efc",
+    "712918f76ae317d4b79ec91ddb45ec32f3dbc4691568592eab71ccc47fa114a6",
+    "cc6b55499e9271a824e9ae9c17bc0a6bc9388f4e6ccd05e9fd8e44331d26ca10",
+    "da7fa9c73a6714ae9f8930933e704e9b4bb85ae8336ab29e8b1c81e9c9bdd8bb",
+    "e8ef3e560ba0ed569d227d9d592600bc1eb826127bb5d89e26229912cde6b9d5",
+    "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+    "https://www.engadget.com/2300661/hackers-leaked-details-more-than-41000-homeland-security-personnel/",
+    "https://www.engadget.com/2300741/doordash-acquires-instacart-in-dollar17-billion-delivery-service-merger/",
+    "https://www.theverge.com/business/1021981/doordash-instacart-acquisition-announcement",
+    "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+    "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+    "b362f82014976dddf0830b72deb705629815aed79f6b84b5c76640f9fb1210c3",
+    "https://www.engadget.com/2301587/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof/",
+    "8a4add64ee6b4fc531161df3d4cb672600e02f4bb2e5915675f51d7fbb9dc543",
+    "https://www.theverge.com/transportation/1022555/gm-data-privacy-attorneys-general-lawsuit",
+    "00aa902106761a28d886bf072bb335567c1c1c1ae00c0729a09598305fc9a38d",
+    "https://techcrunch.com/2026/10/29/where-was-my-invite-to-the-wait-what-airbnb-had-a-gala/",
+    "57cf3e6ebdcea79349f7b8f59817278abf80becd30042a82122c8d24811b9ee6",
+    "https://www.engadget.com/2301500/hacker-may-have-stolen-millions-in-a-malware-attack-against-online-poker-players/",
+    "6702349f06312c91547518ce501d310edacaa1475cb6afc1b4fd88e4e9d3b437",
+    "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+    "ba5a60830a914e7ee02014dd3dec16ca70e90c2cabee187b9f5b53c6f7963e57",
+    "https://www.engadget.com/2301458/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/",
+    "1b3f11e1f6657f8cd9a637f1a0a74ca1faf8f198b9ec0b0823f1fa5f32ea5813",
+    "6f3f683ae1a45754239c07b3d10510ae241688c952a47d344360941bd8ebbfe9",
+    "cfd050e17be40b971e07652c14560cacb20e23c5578d0fe33a0f441960f8f057",
+    "e9cb4a04832e9485d83dc5c36884059d2aebc6ffe822dd5d162866bdd5da9785",
+    "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+    "https://www.engadget.com/2301410/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/",
+    "https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/",
+    "https://www.engadget.com/2301452/dont-expect-more-assassins-creed-remakes-anytime-soon/",
+    "6f83fe34ca66d1e49d01b2dfe48fdd75e01fcff5c47ba461f5d5f3dfd8700b0c",
+    "https://www.engadget.com/2294413/easysmx-s10-lite-review/",
+    "fdc609b67b3ad805ec2752137d7a5329ad3b34d5a40543e17f9cf0fea0cf8b7b",
+    "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
+    "ae326965517bb9eeb7025c37161392f5f8e79e7793f07ea59de54c319292a8c1",
+    "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/"
   ],
   "published_stories": [
-    {
-      "title": "How long can you expect an Amazon Kindle to last?",
-      "summary": "Amazon will support your Kindle for a while, but it should last much longer than that if you take care of it.",
-      "url": "https://www.engadget.com/2281451/how-long-amazon-kindle-lasts-lifespan/",
-      "display_title": "عمر مفید کتابخوان‌های کیندل آمازون چقدر است؟",
-      "display_summary": "شرکت آمازون (Amazon) حداقل چهار سال به‌روزرسانی امنیتی برای کتابخوان‌های الکترونیکی کیندل (Kindle) تضمین می‌کند، اما این دستگاه‌ها اغلب می‌توانند بسیار بیشتر از این مدت کار کنند. با این حال، پایان پشتیبانی نرم‌افزاری، کاهش ظرفیت باتری و قطع دسترسی به فروشگاه، عواملی هستند که در نهایت عمر مفید دستگاه را تعیین می‌کنند."
-    },
-    {
-      "title": "The OnePlus 16 is the company’s most interesting phone in years",
-      "summary": "Today the OnePlus 16 launched in China, the company's first flagship phone since quitting both the US and European markets this summer. As luck would have it, it also looks like the company's best phone in some time. Like most OnePlus phones, the 16 is positioned around performance, with a Snapdragon 8 Elite Extreme Gen [&#8230;]",
-      "url": "https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china",
-      "display_title": "گوشی وان‌پلاس ۱۶ با قابلیت‌های پیشرفته و باتری عظیم معرفی شد",
-      "display_summary": "شرکت وان‌پلاس (OnePlus) از پرچمدار جدید خود به نام وان‌پلاس ۱۶ (OnePlus 16) در بازار چین رونمایی کرد. این گوشی با بهره‌مندی از تراشه قدرتمند اسنپدراگون (Snapdragon) و باتری ۹۰۰۰ میلی‌آمپرساعتی، جذاب‌ترین محصول این شرکت در سال‌های اخیر به شمار می‌رود."
-    },
-    {
-      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-      "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context.",
-      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-      "display_title": "مدیر سابق پلود ۲۶ میلیون دلار برای توسعه اپلیکیشن هوش مصنوعی با قابلیت گوش دادن مداوم جذب کرد",
-      "display_summary": "استارتاپ «امبی (Ambi)» که توسط مدیر سابق شرکت «پلود (Paud)» تأسیس شده، موفق شد در چندین مرحله تأمین مالی ۲۶ میلیون دلار سرمایه جذب کند. این اپلیکیشن هوش مصنوعی برای ارائه پیشنهادهای شخصی‌سازی‌شده و هوش لحظه‌ای طراحی شده است و به صورت مداوم در پس‌زمینه به مکالمات گوش می‌دهد."
-    },
-    {
-      "title": "Buying Apple’s wall-mounted HomeView? The mount costs extra",
-      "summary": "The HomeView smart home display announced by Apple today comes in two models that both cost $299: one with a speaker base, and the other being a self explanatory \"Wall Mounted\" version. If you want the latter, however, you'll actually have to pay at least $59 more - the mounts required to actually affix the [&#8230;]",
-      "url": "https://www.theverge.com/tech/1010164/apple-homeview-wall-mounted-sold-separately",
-      "display_title": "هزینه پنهان هوم‌ویو دیواری اپل؛ پایه نصب جداگانه فروخته می‌شود",
-      "display_summary": "شرکت اپل (Apple) نمایشگر هوشمند جدید خود موسوم به هوم‌ویو (HomeView) را با قیمت پایه ۲۹۹ دلار معرفی کرد، اما نسخه دیواری این دستگاه بدون پایه و منبع تغذیه عرضه می‌شود. خریداران این نسخه باید حداقل ۵۹ دلار اضافی برای تهیه پایه اختصاصی پرداخت کنند."
-    },
-    {
-      "title": "The 2026 Startup Battlefield Top 20: From organs to orbit and everything in between",
-      "summary": "Twenty founders just earned their shot at Disrupt glory. They're headed to the main stage at TechCrunch Disrupt to compete for the $100,000 prize and the coveted Disrupt Cup.",
-      "url": "https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between/",
-      "display_title": "معرفی ۲۰ استارتاپ برتر رقابت استارت‌آپ بتل‌فیلد ۲۰۲۶ در رویداد تک‌کرانچ دیزپت",
-      "display_summary": "رویداد فناوری تک‌کرانچ دیزپت ۲۰۲۶ فهرست ۲۰ استارتاپ برتر راه یافته به مرحله نهایی رقابت استارت‌آپ بتل‌فیلد را اعلام کرد. این شرکت‌های نوپا از حوزه‌های مختلف فناوری، فضایی، هوش مصنوعی و پزشکی برای کسب جایزه صد هزار دلاری و جام قهرمانی به رقابت می‌پردازند."
-    },
-    {
-      "title": "Framework Laptop 12 (2026 upgrade) review: Intel's Core Series 3 fixes a key flaw",
-      "summary": "Framework's Laptop 12 was conceived as a Chromebook killer, but now it has a flagship chip inside. Does it work as a grown-up machine?",
-      "url": "https://www.engadget.com/2271233/framework-laptop-12-2026-upgrade-review/",
-      "display_title": "بررسی لپ‌تاپ فریم‌ور ۱۲ (نسخه ارتقایافته ۲۰۲۶): تراشه‌های سری ۳ اینتل بزرگ‌ترین ضعف آن را برطرف کردند",
-      "display_summary": "نسخه جدید لپ‌تاپ فریم‌ور ۱۲ (Framework Laptop 12) با بهره‌گیری از پردازنده‌های قدرتمند و بهینه سری ۳ اینتل (Intel)، مشکل ضعف عملکرد نسل پیشین را به طور چشمگیری حل کرده است. این دستگاه ماژولار و قابل تعمیر، اکنون توانایی اجرای پردازش‌های سنگین و حتی بازی‌های ویدئویی را دارد، هرچند قیمت‌گذاری بالا همچنان یکی از چالش‌های اصلی آن محسوب می‌شود."
-    },
     {
       "title": "Spotify users on iOS 27 can now ask Siri to play music without having to say ‘on Spotify’",
       "summary": "Siri can now learn users' preferred music app, allowing Spotify listeners to request songs, podcasts, and playlists without specifying which app to use.",
@@ -6144,6 +6140,48 @@
       "url": "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
       "display_title": "نسل جدید اکو دات (Echo Dot) آمازون با قابلیت تقویت‌کنندگی وای‌فای و پردازنده هوش مصنوعی معرفی شد",
       "display_summary": "شرکت آمازون (Amazon) از نسل جدید اسپیکر هوشمند اکو دات (Echo Dot) با قابلیت‌های پیشرفته‌ای از جمله عملکرد به عنوان توسعه‌دهنده شبکه وای‌فای ایرو (eero)، هاب خانه هوشمند و پردازنده هوش مصنوعی داخلی رونمایی کرد. این دستگاه جدید با قیمت پایه ۱۰۰ دلار و در مدل‌های متنوع به بازار عرضه می‌شود."
+    },
+    {
+      "title": "Popcorn bucket innovation is at an all-time low and the Dune: Part Three 'Double Sandworm' is proof",
+      "summary": "Just what the Sandworm bucket needed: a second hole.",
+      "url": "https://www.engadget.com/2301587/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof/",
+      "display_title": "توقف خلاقیت در طراحی سطل‌های پاپ‌کورن سینمایی با معرفی مدل جدید فیلم «تل‌ماسه: بخش سوم» (Dune: Part Three)",
+      "display_summary": "شرکت سینمایی «ای‌ام‌سی تیتِرز» (AMC Theatres) از طراحی جدید سطل پاپ‌کورن فیلم «تل‌ماسه: بخش سوم» (Dune: Part Three) با نام «کرم شنی دوبل» (Double Sandworm) رونمایی کرد. این طراحی جدید که دارای دو حفره برای دست است، انتقاد کارشناسان را برانگیخته که معتقدند روند نوآوری در تولید اقلام کلکسیونی سینمایی دچار رکود شده است."
+    },
+    {
+      "title": "Where was my invite to the — wait, what? Airbnb had a gala?",
+      "summary": "Airbnb’s nonprofit held its inaugural gala on Wednesday in Los Angeles, and the internet had one reaction — the *what* gala?",
+      "url": "https://techcrunch.com/2026/10/29/where-was-my-invite-to-the-wait-what-airbnb-had-a-gala/",
+      "display_title": "برگزاری نخستین مهمانی باشکوه بنیاد خیره کننده ایرب‌بی و تعجب کاربران در فضای مجازی",
+      "display_summary": "بنیاد خیریه وابسته به شرکت ایرب‌بی (Airbnb) نخستین مراسم سالانه خود را در شهر لس‌آنجلس برگزار کرد که حضور چهره‌های سرشناس هالیوودی در آن، تعجب و واکنش‌های فراوانی را در شبکه‌های اجتماعی به همراه داشت. این شرکت همزمان از طرح جدیدی برای اختصاص بخشی از درآمد خود به اسکان اضطراب‌زدگان خبر داد."
+    },
+    {
+      "title": "Hacker may have stolen millions in a malware attack against online poker players",
+      "summary": "Wired has the story of a superuser cheating scandal.",
+      "url": "https://www.engadget.com/2301500/hacker-may-have-stolen-millions-in-a-malware-attack-against-online-poker-players/",
+      "display_title": "حمله بدافزاری به بازیکنان پوکر آنلاین؛ هکری که میلیون‌ها دلار به جیب زد",
+      "display_summary": "گزارش‌های جدید حاکی از آن است که صدها بازیکن پوکر آنلاین هدف یک حمله سایبری و بدافزاری پیشرفته قرار گرفته‌اند. این هکر با استفاده از بدافزار توانسته صفحه نمایش قربانیان را مشاهده کند و میلیون‌ها دلار به سرقت ببرد."
+    },
+    {
+      "title": "Netflix is making a live-action PUBG show written and directed by Donald Glover",
+      "summary": "The streamer also has an Assassin's Creed series in the works, along with a Gears of War feature film.",
+      "url": "https://www.engadget.com/2301458/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/",
+      "display_title": "ساخت سریال لایو-اکشن پابجی (PUBG) با نویسندگی و کارگردانی دونالد گلاور (Donald Glover) در نتفلیکس (Netflix)",
+      "display_summary": "شرکت نتفلیکس (Netflix) قصد دارد یک سریال لایو-اکشن بر اساس بازی ویدیویی محبوب پابجی (PUBG) تولید کند. نویسندگی، کارگردانی و بازی در این پروژه بر عهده دونالد گلاور (Donald Glover) خواهد بود."
+    },
+    {
+      "title": "EasySMX S10 Lite review: A Switch 2 fidget toy with a weird removable faceplate",
+      "summary": "EasySMX is using Elizabeth Holmes levels of pedantry with this faceplate situation.",
+      "url": "https://www.engadget.com/2294413/easysmx-s10-lite-review/",
+      "display_title": "بررسی دسته بازی ایس‌ای‌ام‌اس‌ام‌ایکس اس۱۰ لایت (EasySMX S10 Lite): تجربه‌ای عجیب با قاب جلویی مغناطیسی",
+      "display_summary": "دسته بازی ایس‌ای‌ام‌اس‌ام‌ایکس اس۱۰ لایت (EasySMX S10 Lite) با قیمت مقرون‌به‌صرفه چهل دلاری و دکمه‌های بسیار حساس معرفی شد. با این حال، طراحی عجیب و وضعیت مبهم قاب جلویی مغناطیسی قابل تعویض آن انتقاداتی را به همراه داشته است."
+    },
+    {
+      "title": "Apple and Google fined in South Korea over app store violations",
+      "summary": "South Korean regulators found that Apple and Google violated the country's Telecommunications Business Act.",
+      "url": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
+      "display_title": "جريمه سنگين اپل و گوگل در کره جنوبی به اتهام تخلفات فروشگاه اپلیکیشن",
+      "display_summary": "رگولاتور مخابراتی کره جنوبی شرکت‌های اپل (Apple) و گوگل (Google) را به دلیل نقض قوانین کسب‌وکار مخابراتی و تخلفات مربوط به فروشگاه‌های اپلیکیشن جریمه کرد. این نهاد نظارتی شرکت‌ها را ملزم کرده است که روش‌های تجاری خود را تغییر داده و پرداخت‌های خارجی را بپذیرند."
     }
   ],
   "outbox": [
@@ -8139,36 +8177,108 @@
     {
       "key": "url:ea76deab69b26ba9c7181345813b19c1f7e781721efc99648234370608b9a75f",
       "url": "https://www.theverge.com/tech/1022113/kevin-bates-arduboy-digital-candle-ai-simulate-flame",
-      "title": "This $149 digital candle uses AI to accurately simulate a flickering flame",
-      "summary": "After engineering a flexible version of Tetris that could be wrapped around a magazine, Kevin Bates' latest creation is a digital candle that uses a custom AI model to accurately simulate the appearance of a flickering flame across a grid of LEDs. It's a far cry from the types of devices Bates is typically known [&#8230;]",
-      "display_title": "معرفی شمع دیجیتال ۱۴۹ دلاری با هوش مصنوعی برای شبیه‌سازی شعله",
-      "display_summary": "کوین بیتس (Kevin Bates)، خالق آرادوبوی (Arduboy)، از یک شمع دیجیتال جدید رونمایی کرد که با استفاده از یک مدل هوش مصنوعی و شبکه عصبی، حرکت شعله را روی آرایه‌ای از ال‌ای‌دی‌ها (LEDs) شبیه‌سازی می‌کند. این گجت ۱۰ اینچی با قیمت ۱۴۹ دلار عرضه شده و الگوریتم آن به گونه‌ای است که حرکت شعله هرگز تکرار نمی‌شود.",
       "message": "<b>📰 معرفی شمع دیجیتال ۱۴۹ دلاری با هوش مصنوعی برای شبیه‌سازی شعله</b>\n\nکوین بیتس (Kevin Bates)، خالق آرادوبوی (Arduboy)، از یک شمع دیجیتال جدید رونمایی کرد که با استفاده از یک مدل هوش مصنوعی و شبکه عصبی، حرکت شعله را روی آرایه‌ای از ال‌ای‌دی‌ها (LEDs) شبیه‌سازی می‌کند. این گجت ۱۰ اینچی با قیمت ۱۴۹ دلار عرضه شده و الگوریتم آن به گونه‌ای است که حرکت شعله هرگز تکرار نمی‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>کوین بیتس (Kevin Bates)، طراح و مهندس خلاقی که پیش‌تر با ساخت کنسول دستی کوچک آرادوبوی (Arduboy) و نسخه انعطاف‌پذیر بازی تتریس (Tetris) شناخته می‌شد، این بار دست به ابداع عجیبی زده است. این محصول جدید که «شمع دیجیتال» (Digital Candle) نام دارد، از یک مدل هوش مصنوعی سفارشی و شبکه عصبی کوچک بهره می‌برد تا تصویر شعله لرزان یک شمع واقعی را روی شبکه‌ای از لامپ‌های ال‌ای‌دی (LEDs) به شکلی طبیعی شبیه‌سازی کند. این شمع دیجیتال با ارتفاع ۱۰ اینچی طراحی شده و در بخش بالایی آن ۱۴۴ لامپ ال‌ای‌دی کهربایی‌رنگ در قالب یک شبکه ۹ در ۱۶ با قابلیت تنظیم روشنایی تعبیه شده‌اند. در بخش پایینی دستگاه نیز یک درگاه یو‌اس‌بی نوع سی (USB-C) برای تأمین انرژی قرار دارد؛ البته این دستگاه فاقد باتری قابل شارژ است. پردازش این شبیه‌سازی توسط تراشه اسپرسیف (Espressif ESP32-S3) انجام می‌شود که یک مدل هوش مصنوعی آموزش‌دیده با تصاویر ویدئویی از شعله واقعی را اجرا می‌کند. ویژگی اصلی این شبیه‌سازی آن است که الگوریتم تولید شعله هرگز تکرار نمی‌شود و برای هر دستگاه منحصر‌به‌فرد است، زیرا به‌صورت لحظه‌ای (on-the-fly) تولید می‌شود و یک انیمیشن از‌پیش‌برنامه‌ریزی‌شده و تکرار شونده نیست. علاوه بر این، ساختار شمع دیجیتال به‌صورت متن‌باز (open source) طراحی شده است تا کاربران علاقه‌مند به سخت‌افزار بتوانند از آن به‌عنوان ساعت، نمایشگر اعلان‌ها یا برای اجرای شبیه‌سازی‌های دیگری مانند بازی زندگی کانوی (Conway&#x27;s Game of Life) استفاده کنند. با وجود ویژگی‌های خلاقانه و ایمنی بالاتر نسبت به شمع‌های سنتی، قیمت ۱۴۹ دلاری این گجت ممکن است برای برخی از خریداران چالش‌برانگیز باشد، به‌ویژه که جو و فضای عاطفی یک شمع واقعی را کاملاً بازسازی نمی‌کند. با این حال، قابلیت‌های برنامه‌نویسی و ماهیت متن‌باز آن می‌تواند جذابیت زیادی برای افراد علاقه‌مند به دنیای فناوری و گجت‌های خاص داشته باشد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/candle.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "This $149 digital candle uses AI to accurately simulate a flickering flame",
+      "summary": "After engineering a flexible version of Tetris that could be wrapped around a magazine, Kevin Bates' latest creation is a digital candle that uses a custom AI model to accurately simulate the appearance of a flickering flame across a grid of LEDs. It's a far cry from the types of devices Bates is typically known [&#8230;]",
+      "display_title": "معرفی شمع دیجیتال ۱۴۹ دلاری با هوش مصنوعی برای شبیه‌سازی شعله",
+      "display_summary": "کوین بیتس (Kevin Bates)، خالق آرادوبوی (Arduboy)، از یک شمع دیجیتال جدید رونمایی کرد که با استفاده از یک مدل هوش مصنوعی و شبکه عصبی، حرکت شعله را روی آرایه‌ای از ال‌ای‌دی‌ها (LEDs) شبیه‌سازی می‌کند. این گجت ۱۰ اینچی با قیمت ۱۴۹ دلار عرضه شده و الگوریتم آن به گونه‌ای است که حرکت شعله هرگز تکرار نمی‌شود."
     },
     {
       "key": "url:3eb958348088c8d067362bb27d8eaceb7d2696976d3cb66381cb976a38f24b20",
       "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
-      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
-      "summary": "Deepgram said that it is committed to keep Pipecat open source.",
-      "display_title": "خریداری شرکت دیلی توسط دیپ‌گرام برای تقویت زیرساخت هوش مصنوعی صوتی",
-      "display_summary": "شرکت دیپ‌گرام (Deepgram) در راستای تقویت زیرساخت‌های هوش مصنوعی صوتی خود، شرکت دیلی (Daily)، سازنده فریم‌ورک متن‌باز پایپ‌کت (Pipecat) را خریداری کرد. دو شرکت تأیید کرده‌اند که پروژه پایپ‌کت همچنان به صورت متن‌باز و بی‌طرف نسبت به ارائه‌دهندگان خدمات باقی خواهد ماند.",
       "message": "<b>📰 خریداری شرکت دیلی توسط دیپ‌گرام برای تقویت زیرساخت هوش مصنوعی صوتی</b>\n\nشرکت دیپ‌گرام (Deepgram) در راستای تقویت زیرساخت‌های هوش مصنوعی صوتی خود، شرکت دیلی (Daily)، سازنده فریم‌ورک متن‌باز پایپ‌کت (Pipecat) را خریداری کرد. دو شرکت تأیید کرده‌اند که پروژه پایپ‌کت همچنان به صورت متن‌باز و بی‌طرف نسبت به ارائه‌دهندگان خدمات باقی خواهد ماند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار هوش مصنوعی صوتی (Voice AI) در ماه‌های اخیر داغ بوده و شرکت‌های پیشرو تلاش می‌کنند با اتخاذ استراتژی‌های جدید، مشارکت‌ها و ادغام‌ها، جایگاه خود را در این حوزه تحکیم کنند. در همین راستا، شرکت دیپ‌گرام (Deepgram) اعلام کرد که شرکت دیلی (Daily) را که توسعه‌دهنده و نگه‌دارنده یکی از محبوب‌ترین زیرساخت‌های متن‌باز هوش مصنوعی صوتی یعنی پایپ‌کت (Pipecat) است، خریداری کرده است. ارزش مالی این معامله افشا نشده است، اما مدیران هر دو شرکت تأیید کردند که پایپ‌کت به صورت متن‌باز (Open-Source) به فعالیت خود ادامه خواهد داد. پایپ‌کت (Pipecat) یک فریم‌ورک پیشرفته است که جریان‌های صوتی و تصویری را به همراه سایر بخش‌های زنجیره پردازشی از جمله تبدیل گفتار به متن (STT)، مدل‌های زبانی بزرگ (LLMs) و مدل‌های تبدیل متن به گفتار (TTS) مدیریت کرده و در عین حال تأخیر زمانی (Latency) را به حداقل می‌رساند. شرکت دیلی (Daily) نیز به نوبه خود زیرساخت‌های میزبانی‌شده‌ای را برای انواع تماس‌های صوتی و تصویری فراهم می‌کند. پیوستن دیلی به دیپ‌گرام به این شرکت اجازه می‌دهد تا درک عمیق‌تری از زیرساخت‌های ارتباطی بلادرنگ صوتی و تصویری به دست آورد. طبق داده‌های پایگاه پیچ‌بوک (PitchBook)، شرکت دیلی پیش از این بیش از ۶۲ میلیون دلار سرمایه از سرمایه‌گذارانی نظیر تایگر گلوبال (Tiger Global)، هایفیلد کپیتال (Highfield Capital)، نت فریدمن (Nat Friedman)، لاکی گروم (Lachy Groom) و کوین ویل (Kevin Weil) جذب کرده بود. از سوی دیگر، شرکت دیپ‌گرام نیز اوایل امسال با جذب ۱۳۰ میلیون دلار در دور سرمایه‌گذاری سری سی (Series C) به جایگاه شرکت‌های تک‌شاحی (Unicorn) دست یافت. جالب اینجاست که هر دو شرکت در سال ۲۰۱۶ در یک دوره شتاب‌دهی مشترک در وای کامبینیتور (Y Combinator) حضور داشتند. کویندلا کرامر (Kwindla Kramer)، یکی از بنیان‌گذاران دیلی، در خصوص این معامله اشاره کرد که ایده ساخت پایپ‌کت پس از ظهور مدل جی‌پی‌تی-۴ (GPT-4) شکل گرفت؛ زمانی که این تیم شروع به آزمایش ارتباط صوتی و متنی میان هوش مصنوعی و انسان کرد. وی افزود دلیل اصلی تمایل آن‌ها به واگذاری شرکت به دیپ‌گرام، تعهد اسکات استفنسون (Scott Stephenson)، مدیرعامل دیپ‌گرام، به حفظ ماهیت متن‌باز و بی‌طرف پایپ‌کت بوده است. اسکات استفنسون نیز خاطرنشان کرد که دیپ‌گرام مدت‌ها به دنبال فعالیت جدی‌تر در حوزه متن‌باز بوده و این قرارداد به توسعه‌دهندگان امکان می‌دهد تا با اتصال مدل‌های مختلف و یک گذرگاه متنی (Context Bus)، دستیارهای صوتی هوشمندی با بیان قوی و سیستم‌های صوتی سرتاسری ایجاد کنند. همزمان با این خرید، دیپ‌گرام از استاندارد زمینه بلادرنگ (Real-Time Context Standard یا به اختصار RCS) نیز رونمایی کرد؛ یک پروتکل متن‌باز برای دستیارهای صوتی که به طور مشترک با تیم پایپ‌کت توسعه یافته است. این معامله نشان‌دهنده روند رو به رشد سرمایه‌گذاری و رقابت فشرده در بازار هوش مصنوعی صوتی است؛ جایی که شرکت‌های ارائه‌دهنده مدل مانند الون‌لبز (ElevenLabs)، گрадиوم (Gradium) و فیش آدیو (Fish Audio) و شرکت‌های زیرساختی نظیر لایوکیت (LiveKit) و واپی (Vapi) همگی در تلاش برای تصهمیم‌گیری و گسترش سهم خود از این بازار نوظهور هستند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Scott-Kwin-1.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "summary": "Deepgram said that it is committed to keep Pipecat open source.",
+      "display_title": "خریداری شرکت دیلی توسط دیپ‌گرام برای تقویت زیرساخت هوش مصنوعی صوتی",
+      "display_summary": "شرکت دیپ‌گرام (Deepgram) در راستای تقویت زیرساخت‌های هوش مصنوعی صوتی خود، شرکت دیلی (Daily)، سازنده فریم‌ورک متن‌باز پایپ‌کت (Pipecat) را خریداری کرد. دو شرکت تأیید کرده‌اند که پروژه پایپ‌کت همچنان به صورت متن‌باز و بی‌طرف نسبت به ارائه‌دهندگان خدمات باقی خواهد ماند."
     },
     {
       "key": "url:54ba3d629ffd2306cf5a4d07a64cb0194675375e4ed0b893d3dadfb4ffbf73cb",
       "url": "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
+      "message": "<b>📰 نسل جدید اکو دات (Echo Dot) آمازون با قابلیت تقویت‌کنندگی وای‌فای و پردازنده هوش مصنوعی معرفی شد</b>\n\nشرکت آمازون (Amazon) از نسل جدید اسپیکر هوشمند اکو دات (Echo Dot) با قابلیت‌های پیشرفته‌ای از جمله عملکرد به عنوان توسعه‌دهنده شبکه وای‌فای ایرو (eero)، هاب خانه هوشمند و پردازنده هوش مصنوعی داخلی رونمایی کرد. این دستگاه جدید با قیمت پایه ۱۰۰ دلار و در مدل‌های متنوع به بازار عرضه می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت آمازون (Amazon) در جریان رویداد معرفی محصولات جدید خود، از نسل تازه اسپیکر محبوب اکو دات (Echo Dot) پردهبرداری کرد که با به‌روزرسانی‌های سخت‌افزاری و نرم‌افزاری چشمگیری همراه است. این گجت کره‌ای‌شکل کوچک اکنون علاوه بر پخش صدا، می‌تواند به عنوان یک هاب کامل خانه هوشمند و همچنین یک توسعه‌دهنده شبکه وای‌فای عمل کند. یکی از مهم‌ترین تغییرات در نسل جدید اکو دات (Echo Dot)، تجهیز آن به تراشه اختصاصی جدید شرکت آمازون (Amazon) یعنی تراشه ای‌زد۳ (AZ3) است. این پردازنده جدید برای پردازش محلی هوش مصنوعی طراحی شده و به دستیار صوتی الکساپلاس (Alexa+) اجازه می‌دهد تا مکالمات بسیار طبیعی‌تری با کاربر داشته باشد؛ چرا که دستورات صوتی دیگر نیازی به رفت‌وبرگشت به مراکز داده ندارند و به صورت محلی پردازش می‌شوند. همچنین آمازون (Amazon) با افزودن یک میکروفون چهارم، توانایی دستگاه را در تشخیص صدای کاربران در محیط‌های شلوغ بهبود بخشیده است. این میکروفون اضافی در کنار فناوری تشخیص صدا (Voice ID)، به سیستم اجازه می‌دهد تا پروفایل صوتی افراد مختلف را از هم تشخیص داده و مثلاً به جای پخش لیست پخش موسیقی یکی از اعضای خانواده، لیست پخش فرد دیگری را اجرا کند. قابلیت کلیدی دیگر این دستگاه، ایفای نقش به عنوان هاب خانه هوشمند است که از پروتکل‌های ارتباطی زیگبی (Zigbee)، ماتر (Matter) و ترد (Thread) پشتیبانی می‌کند. به گفته آمازون (Amazon)، کاربران می‌توانند هزاران دستگاه سازگار را مستقیماً و بدون نیاز به تجهیزات جانبی اضافی به این اسپیکر متصل کنند. علاوه بر این، اکو دات (Echo Dot) جدید اکنون به عنوان یک توسعه‌دهنده شبکه وای‌فای برای روترهای ایرو (eero) عمل می‌کند و می‌تواند تا ۱۰۰۰ فوت به محدوده پوشش شبکه بی‌سیم خانه اضافه کند تا نقاط کور اینترنت از بین بروند. در زمینه کیفیت صدا نیز آمازون (Amazon) با به‌کارگیری یک درایور تمام‌محدوده در بدنه دستگاه، شفافیت صدای خواننده را افزایش داده و ۵۰ درصد بیس (Bass) بیشتری نسبت به نسل قبلی فراهم کرده است. این گجت همچنین دارای سنسورهای محیطی است که می‌توانند مواردی مانند دمای اتاق و حضور انسان را تشخیص دهند تا به صورت خودکار اقداماتی مانند تنظیم ترموستات یا روشن کردن چراغ‌ها را انجام دهند. نسخه ویژه‌ای برای کودکان موسوم به اکو دات کودکان (Amazon Kids Echo Dot) نیز با طرح‌های فانتزی پنگوئن و اختاپوس معرفی شده که به همراه یک اشتراک یک‌ساله کیدزپلاس (Kids+ ( ارائه می‌شود. مدل استاندارد اکو دات (Echo Dot) با قیمت ۱۰۰ دلار در چهار رنگ مختلف و مدل کودکان با قیمت پایه ۱۱۰ دلار هم‌اکنون در دسترس علاقه‌مندان قرار گرفته است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/l-intro-1793185938.jpg",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "Amazon's new Echo Dot now works as an eero Wi-Fi extender and smart home hub",
       "summary": "Amazon just unveiled a new Echo Dot with some useful new smart home features.",
       "display_title": "نسل جدید اکو دات (Echo Dot) آمازون با قابلیت تقویت‌کنندگی وای‌فای و پردازنده هوش مصنوعی معرفی شد",
-      "display_summary": "شرکت آمازون (Amazon) از نسل جدید اسپیکر هوشمند اکو دات (Echo Dot) با قابلیت‌های پیشرفته‌ای از جمله عملکرد به عنوان توسعه‌دهنده شبکه وای‌فای ایرو (eero)، هاب خانه هوشمند و پردازنده هوش مصنوعی داخلی رونمایی کرد. این دستگاه جدید با قیمت پایه ۱۰۰ دلار و در مدل‌های متنوع به بازار عرضه می‌شود.",
-      "message": "<b>📰 نسل جدید اکو دات (Echo Dot) آمازون با قابلیت تقویت‌کنندگی وای‌فای و پردازنده هوش مصنوعی معرفی شد</b>\n\nشرکت آمازون (Amazon) از نسل جدید اسپیکر هوشمند اکو دات (Echo Dot) با قابلیت‌های پیشرفته‌ای از جمله عملکرد به عنوان توسعه‌دهنده شبکه وای‌فای ایرو (eero)، هاب خانه هوشمند و پردازنده هوش مصنوعی داخلی رونمایی کرد. این دستگاه جدید با قیمت پایه ۱۰۰ دلار و در مدل‌های متنوع به بازار عرضه می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت آمازون (Amazon) در جریان رویداد معرفی محصولات جدید خود، از نسل تازه اسپیکر محبوب اکو دات (Echo Dot) پردهبرداری کرد که با به‌روزرسانی‌های سخت‌افزاری و نرم‌افزاری چشمگیری همراه است. این گجت کره‌ای‌شکل کوچک اکنون علاوه بر پخش صدا، می‌تواند به عنوان یک هاب کامل خانه هوشمند و همچنین یک توسعه‌دهنده شبکه وای‌فای عمل کند. یکی از مهم‌ترین تغییرات در نسل جدید اکو دات (Echo Dot)، تجهیز آن به تراشه اختصاصی جدید شرکت آمازون (Amazon) یعنی تراشه ای‌زد۳ (AZ3) است. این پردازنده جدید برای پردازش محلی هوش مصنوعی طراحی شده و به دستیار صوتی الکساپلاس (Alexa+) اجازه می‌دهد تا مکالمات بسیار طبیعی‌تری با کاربر داشته باشد؛ چرا که دستورات صوتی دیگر نیازی به رفت‌وبرگشت به مراکز داده ندارند و به صورت محلی پردازش می‌شوند. همچنین آمازون (Amazon) با افزودن یک میکروفون چهارم، توانایی دستگاه را در تشخیص صدای کاربران در محیط‌های شلوغ بهبود بخشیده است. این میکروفون اضافی در کنار فناوری تشخیص صدا (Voice ID)، به سیستم اجازه می‌دهد تا پروفایل صوتی افراد مختلف را از هم تشخیص داده و مثلاً به جای پخش لیست پخش موسیقی یکی از اعضای خانواده، لیست پخش فرد دیگری را اجرا کند. قابلیت کلیدی دیگر این دستگاه، ایفای نقش به عنوان هاب خانه هوشمند است که از پروتکل‌های ارتباطی زیگبی (Zigbee)، ماتر (Matter) و ترد (Thread) پشتیبانی می‌کند. به گفته آمازون (Amazon)، کاربران می‌توانند هزاران دستگاه سازگار را مستقیماً و بدون نیاز به تجهیزات جانبی اضافی به این اسپیکر متصل کنند. علاوه بر این، اکو دات (Echo Dot) جدید اکنون به عنوان یک توسعه‌دهنده شبکه وای‌فای برای روترهای ایرو (eero) عمل می‌کند و می‌تواند تا ۱۰۰۰ فوت به محدوده پوشش شبکه بی‌سیم خانه اضافه کند تا نقاط کور اینترنت از بین بروند. در زمینه کیفیت صدا نیز آمازون (Amazon) با به‌کارگیری یک درایور تمام‌محدوده در بدنه دستگاه، شفافیت صدای خواننده را افزایش داده و ۵۰ درصد بیس (Bass) بیشتری نسبت به نسل قبلی فراهم کرده است. این گجت همچنین دارای سنسورهای محیطی است که می‌توانند مواردی مانند دمای اتاق و حضور انسان را تشخیص دهند تا به صورت خودکار اقداماتی مانند تنظیم ترموستات یا روشن کردن چراغ‌ها را انجام دهند. نسخه ویژه‌ای برای کودکان موسوم به اکو دات کودکان (Amazon Kids Echo Dot) نیز با طرح‌های فانتزی پنگوئن و اختاپوس معرفی شده که به همراه یک اشتراک یک‌ساله کیدزپلاس (Kids+ ( ارائه می‌شود. مدل استاندارد اکو دات (Echo Dot) با قیمت ۱۰۰ دلار در چهار رنگ مختلف و مدل کودکان با قیمت پایه ۱۱۰ دلار هم‌اکنون در دسترس علاقه‌مندان قرار گرفته است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/l-intro-1793185938.jpg",
+      "display_summary": "شرکت آمازون (Amazon) از نسل جدید اسپیکر هوشمند اکو دات (Echo Dot) با قابلیت‌های پیشرفته‌ای از جمله عملکرد به عنوان توسعه‌دهنده شبکه وای‌فای ایرو (eero)، هاب خانه هوشمند و پردازنده هوش مصنوعی داخلی رونمایی کرد. این دستگاه جدید با قیمت پایه ۱۰۰ دلار و در مدل‌های متنوع به بازار عرضه می‌شود."
+    },
+    {
+      "key": "url:b362f82014976dddf0830b72deb705629815aed79f6b84b5c76640f9fb1210c3",
+      "url": "https://www.engadget.com/2301587/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof/",
+      "title": "Popcorn bucket innovation is at an all-time low and the Dune: Part Three 'Double Sandworm' is proof",
+      "summary": "Just what the Sandworm bucket needed: a second hole.",
+      "display_title": "توقف خلاقیت در طراحی سطل‌های پاپ‌کورن سینمایی با معرفی مدل جدید فیلم «تل‌ماسه: بخش سوم» (Dune: Part Three)",
+      "display_summary": "شرکت سینمایی «ای‌ام‌سی تیتِرز» (AMC Theatres) از طراحی جدید سطل پاپ‌کورن فیلم «تل‌ماسه: بخش سوم» (Dune: Part Three) با نام «کرم شنی دوبل» (Double Sandworm) رونمایی کرد. این طراحی جدید که دارای دو حفره برای دست است، انتقاد کارشناسان را برانگیخته که معتقدند روند نوآوری در تولید اقلام کلکسیونی سینمایی دچار رکود شده است.",
+      "message": "<b>📰 توقف خلاقیت در طراحی سطل‌های پاپ‌کورن سینمایی با معرفی مدل جدید فیلم «تل‌ماسه: بخش سوم» (Dune: Part Three)</b>\n\nشرکت سینمایی «ای‌ام‌سی تیتِرز» (AMC Theatres) از طراحی جدید سطل پاپ‌کورن فیلم «تل‌ماسه: بخش سوم» (Dune: Part Three) با نام «کرم شنی دوبل» (Double Sandworm) رونمایی کرد. این طراحی جدید که دارای دو حفره برای دست است، انتقاد کارشناسان را برانگیخته که معتقدند روند نوآوری در تولید اقلام کلکسیونی سینمایی دچار رکود شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>سطل‌های پاپ‌کورن کلکسیونی به یکی از اجزای ثابت در روند بهبود صنعت سینما پس از دوران همه‌گیری کرونا تبدیل شده‌اند و اگر فروش این ظروف پلاستیکی به روشن ماندن چراغ سالن‌های نمایش کمک کند، تا حدی قابل پذیرش است. با این حال، اگر قرار باشد سینمادوستان تن به این روند تجاری‌سازی ظروف غذا بدهند، انتظار می‌رود این محصولات حداقل از خلاقیت و جذابیت کافی برخوردار باشند. دو سال پس از آنکه سطل پاپ‌کورن کرم شنی فیلم «تل‌ماسه: بخش دوم» (Dune: Part Two) در فضای مجازی جنجال‌برانگیز شد، شرکت سینمایی «ای‌ام‌سی تیتِرز» (AMC Theatres) تصمیم گرفت برای اکران فیلم «تل‌ماسه: بخش سوم» (Dune: Part Three) قدمی فراتر بگذارد. این زنجیره سینمایی دو مدل سطل موضوعی شامل «کرم شنی ثامپر» (Sandworm Thumper) و «کرم شنی دوبل» (Double Sandworm) را برای فروش عرضه می‌کند که هر کدام دارای یک حفره دستی به شکل کرم هستند و مدل دوبل طبیعتاً از دو حفره بهره می‌برد. افزودن حفره دوم به این ظرف، هرچند یکی از مشکلات مدل قبلی را با امکان دسترسی همزمان دو نفر به پاپ‌کورن حل کرده، اما بیش از پیش بر جنبه‌های طنزآمیز و کنایه‌آمیزی که بسیاری از مخاطبان در مدل اولیه یافته بودند، تأکید می‌کند. با این وجود، این ایده چندان خلاقانه به نظر نمی‌رسد. استفاده از ظرف‌های با شکل‌های غیرمتعارف پتانسیل بالایی دارد؛ برای مثال، ابتکار «ای‌ام‌سی» (AMC) در عرضه سطل پاپ‌کورن به شکل کیف دستی برای فیلم «شیطان پرادا می‌پوشد ۲» (The Devil Wears Prada 2) ایده‌ای جذاب بود یا طراحی ظرف به شکل اسب تروا برای فیلم «اودیسه» (The Odyssey) و حتی سطل پوشیدنی موی گایل برای بازی «استریت فایتر» (Street Fighter) هر کدام جذابیت‌های خاص خود را داشتند. با این حال، این موارد استثنا هستند و نوآوری سطحی نمی‌تواند تا ابد ادامه پیدا کند. این پرسش مطرح می‌شود که آیا واقعاً دست بردن مکرر به داخل یک حفره روی سر برای خوردن پاپ‌کورن لذت‌بخش است؟ آیا افزودن یک حفره دوم بهترین ایده‌ای بود که «ای‌ام‌سی» (AMC) می‌توانست برای انعکاس روح یکی از بصری‌ترین فرانچایزهای سینمایی ارائه دهد؟ یکی از دلایل محبوبیت سطل کرم شنی اورجینال این بود که سازندگان آن ظاهراً پیش‌بینی نمی‌کردند که مخاطبان بلافاصله نگاهی جنسی به طراحی آن داشته باشند؛ این ظرف ناخواسته عجیب و غریب بود. بیشتر سطل‌های پاپ‌کورنی که از آن زمان تاکنون عرضه شده‌اند، فاقد آن سطح از سادگی و خلاقیت کودکانه هستند و به همین دلیل جذابیت کمتری دارند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof/l-intro-1793302293.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:c58a269b723144bb32586f3a5b59f9a3cc5ac942e6739d7f2611c98ac02dbe41",
+      "url": "https://techcrunch.com/2026/10/29/where-was-my-invite-to-the-wait-what-airbnb-had-a-gala/",
+      "title": "Where was my invite to the — wait, what? Airbnb had a gala?",
+      "summary": "Airbnb’s nonprofit held its inaugural gala on Wednesday in Los Angeles, and the internet had one reaction — the *what* gala?",
+      "display_title": "برگزاری نخستین مهمانی باشکوه بنیاد خیره کننده ایرب‌بی و تعجب کاربران در فضای مجازی",
+      "display_summary": "بنیاد خیریه وابسته به شرکت ایرب‌بی (Airbnb) نخستین مراسم سالانه خود را در شهر لس‌آنجلس برگزار کرد که حضور چهره‌های سرشناس هالیوودی در آن، تعجب و واکنش‌های فراوانی را در شبکه‌های اجتماعی به همراه داشت. این شرکت همزمان از طرح جدیدی برای اختصاص بخشی از درآمد خود به اسکان اضطراب‌زدگان خبر داد.",
+      "message": "<b>📰 برگزاری نخستین مهمانی باشکوه بنیاد خیره کننده ایرب‌بی و تعجب کاربران در فضای مجازی</b>\n\nبنیاد خیریه وابسته به شرکت ایرب‌بی (Airbnb) نخستین مراسم سالانه خود را در شهر لس‌آنجلس برگزار کرد که حضور چهره‌های سرشناس هالیوودی در آن، تعجب و واکنش‌های فراوانی را در شبکه‌های اجتماعی به همراه داشت. این شرکت همزمان از طرح جدیدی برای اختصاص بخشی از درآمد خود به اسکان اضطراب‌زدگان خبر داد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت خدمات اجاره اقامتگاه ایرب‌بی (Airbnb) با برگزاری نخستین مهمانی سالانه و مجلل (Gala) توسط بنیاد خیریه خود در شهر لس‌آنجلس (Los Angeles)، موجی از تعجب و شگفتی را در شبکه‌های اجتماعی برانگیخت. این رویداد که بسیاری از کاربران اینترنت را با این پرسش مواجه کرد که «مهمانی ایرب‌بی دیگر چیست؟»، میزبان شماری از برجسته‌ترین چهره‌های دنیای هنر و سرگرمی بود. بنیاد خیره ایرب‌بی در سال ۲۰۲۰ با هدف ارائه مسکن رایگان و موقت به خانواده‌های آسیب‌دیده از بحران‌ها و بلایای طبیعی راه‌اندازی شد. برگزاری چنین مراسم‌های پرزرق‌وبرقی معمولاً با هدف جلب توجه حامیان مالی بزرگ و چهره‌های ثروتمند انجام می‌شود. شرکت ایرب‌بی در بیانیه‌ای اعلام کرد که این مراسم همزمان با آغاز یک ابتکار عمل جدید برای این بنیاد برگزار شده است. بر اساس این طرح، از روز برگزاری مراسم (۲۸ اکتبر)، این شرکت معادل ۱۰ سنت از درآمد تجاری حاصل از هر رزرو اقامتگاه را به این بنیاد خیریه اهدا خواهد کرد. این طرح جدید قرار است طی پنج سال آینده مبلغ ۵۰۰ میلیون دلار سرمایه برای بنیاد فراهم کند تا امکان ارائه مسکن رایگان برای یک میلیون شب اقامت در سال فراهم شود. همچنین این بودجه به شرکت کمک خواهد کرد تا دایره حمایت‌های خود را به خانواده‌های آسیب‌دیده از خشونت‌های خانگی، کهنه‌سربازان نیازمند و افرادی که برای درمان‌های پزشکی سفر می‌کنند، گسترش دهد. اجرای این مراسم باشکوه را جیمی کیمل (Jimmy Kimmel) بر عهده داشت و چارلی ایکس‌سی‌اکس (Charli XCX) به اجرای زنده پرداخت. تهیه غذای مهمانان نیز بر عهده سرآشپز خوزه آندرس (José Andrés) از سازمان آشپزخانه مرکزی جهان (World Central Kitchen) بود. در فهرست مهمانان این رویداد نام چهره‌های سرشناسی چون سرنا ویلیامز (Serena Williams)، دمی لواتو (Demi Lovato)، شارلیز ترون (Charlize Theron) و سینتیا اریوو (Cynthia Erivo) به چشم می‌خورد. اگرچه سخنگوی ایرب‌بی اعلام کرد که تمرکز اصلی این رویداد بر روی جمع‌آوری کمک‌های مالی نبوده و هدف آن آغاز فصل جدیدی از فعالیت‌های بنیاد بوده است، اما برگزاری این مهمانی نشان داد که چنین رویدادهایی ابزار قدرتمندی برای گردهم آوردن ثروتمندان و جلب توجه رسانه‌ها به شمار می‌روند. این رویداد همچنین باعث شد تا نام ایرب‌بی بار دیگر نه به عنوان شرکتی که تأثیر منفی بر بازار مسکن دارد، بلکه به عنوان حامی نیازمندان در سرخط خبرها قرار گیرد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Getty-Images-for-Airbnb.org_.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:57cf3e6ebdcea79349f7b8f59817278abf80becd30042a82122c8d24811b9ee6",
+      "url": "https://www.engadget.com/2301500/hacker-may-have-stolen-millions-in-a-malware-attack-against-online-poker-players/",
+      "title": "Hacker may have stolen millions in a malware attack against online poker players",
+      "summary": "Wired has the story of a superuser cheating scandal.",
+      "display_title": "حمله بدافزاری به بازیکنان پوکر آنلاین؛ هکری که میلیون‌ها دلار به جیب زد",
+      "display_summary": "گزارش‌های جدید حاکی از آن است که صدها بازیکن پوکر آنلاین هدف یک حمله سایبری و بدافزاری پیشرفته قرار گرفته‌اند. این هکر با استفاده از بدافزار توانسته صفحه نمایش قربانیان را مشاهده کند و میلیون‌ها دلار به سرقت ببرد.",
+      "message": "<b>📰 حمله بدافزاری به بازیکنان پوکر آنلاین؛ هکری که میلیون‌ها دلار به جیب زد</b>\n\nگزارش‌های جدید حاکی از آن است که صدها بازیکن پوکر آنلاین هدف یک حمله سایبری و بدافزاری پیشرفته قرار گرفته‌اند. این هکر با استفاده از بدافزار توانسته صفحه نمایش قربانیان را مشاهده کند و میلیون‌ها دلار به سرقت ببرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>جامعه پوکر حرفه‌ای درگیر یک رسوایی بزرگ امنیتی شده است که ابعاد آن توجه کارشناسان امنیت سایبری را به خود جلب کرده است. بر اساس گزارش نشریه وایرد (Wired)، صدها بازیکن پوکر آنلاین ادعا می‌کنند که هدف یک حمله بدافزاری پیچیده قرار گرفته‌اند؛ حمله‌ای که به فرد متخلف اجازه می‌داد صفحه نمایش حریفان را ببیند و کارت‌های آن‌ها را مشاهده کند. در دنیای قمار، به روش‌هایی که از دسترسی ناعادلانه به اطلاعات کارت دیگران استفاده می‌کنند، اصطلاحاً استراتژی «سوپرکاربر» (Superuser) گفته می‌شود. این پدیده سابقه طولانی در تاریخ بازی‌های آنلاین دارد، اما حمله اخیر نشان‌دهنده یک کمپین بلندمدت و گسترده است که طی آن میلیون‌ها دلار از بازیکنان پلتفرم‌های مختلف پوکر آنلاین به سرقت رفته است. بر اساس جزئیات منتشر شده، مهاجمان از ابزارهای شخص ثالثی که به کاربران اجازه می‌دهند چندین بازی پوکر را به‌طور هم‌زمان اجرا کنند، سوءاستفاده کرده‌اند. آن‌ها توانستند از این طریق، بدافزاری به نام «مش‌ایجنت» (MeshAgent) را روی رایانه بازیکنان هدف نصب کنند. واکنش پلتفرم‌های مختلف آنلاین به این رویداد امنیتی بسیار متفاوت بود؛ موضوعی که تعجب بسیاری از ناظران را برانگیخت، به ویژه که نام واقعی فرد متخلف حتی در جامعه کاربری نیز شناخته شده است. نشریه وایرد (Wired) به دلیل عدم طرح اتهام رسمی در دادگاه، از انتشار هویت این شخص خودداری کرد و این فرد نیز پاسخی به درخواست‌ها برای اظهار نظر نداده است. واکنش پلتفرم‌های آنلاین به این رسوایی طیف گسترده‌ای داشت. یکی از ارائه‌دهندگان خدمات پیش از افشای عمومی این هک، کاربر متخلف را به دلیل نرخ برد غیرعادی و الگوهای مشکوک بازی مسدود کرده بود. سایر پلتفرم‌ها ابزارهایی را برای بررسی آلودگی احتمالی سیستم‌ها به بازیکنان ارائه دادند. با این حال، برخی شرکت‌ها حتی با وجود شکایات مکرر بازیکنان، حساب این فرد را مسدود نکردند و مدعی شدند هیچ مدرکی دال بر دستکاری نتایج بازی نیافته‌اند و از بازپرداخت خسارت به بازندگان خودداری کردند. این پرونده بار دیگر آسیب‌پذیری‌های دنیای بازی‌های آنلاین را برجسته کرده و اهمیت رعایت اصول ایمنی سخت‌افزاری و نرم‌افزاری را به کاربران یادآوری می‌کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/hacker-may-have-stolen-millions-in-a-malware-attack-against-online-poker-players/l-intro-1793300458.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:ba5a60830a914e7ee02014dd3dec16ca70e90c2cabee187b9f5b53c6f7963e57",
+      "url": "https://www.engadget.com/2301458/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/",
+      "title": "Netflix is making a live-action PUBG show written and directed by Donald Glover",
+      "summary": "The streamer also has an Assassin's Creed series in the works, along with a Gears of War feature film.",
+      "display_title": "ساخت سریال لایو-اکشن پابجی (PUBG) با نویسندگی و کارگردانی دونالد گلاور (Donald Glover) در نتفلیکس (Netflix)",
+      "display_summary": "شرکت نتفلیکس (Netflix) قصد دارد یک سریال لایو-اکشن بر اساس بازی ویدیویی محبوب پابجی (PUBG) تولید کند. نویسندگی، کارگردانی و بازی در این پروژه بر عهده دونالد گلاور (Donald Glover) خواهد بود.",
+      "message": "<b>📰 ساخت سریال لایو-اکشن پابجی (PUBG) با نویسندگی و کارگردانی دونالد گلاور (Donald Glover) در نتفلیکس (Netflix)</b>\n\nشرکت نتفلیکس (Netflix) قصد دارد یک سریال لایو-اکشن بر اساس بازی ویدیویی محبوب پابجی (PUBG) تولید کند. نویسندگی، کارگردانی و بازی در این پروژه بر عهده دونالد گلاور (Donald Glover) خواهد بود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت نتفلیکس (Netflix) در ادامه روند اقتباس‌های خود از بازی‌های ویدیویی معروف، تولید یک سریال لایو-اکشن جدید بر اساس بازی بتل رویال و پرطرفدار پابجی (PUBG) را کلید زده است. هدایت این پروژه بزرگ بر عهده دونالد گلاور (Donald Glover)، هنرمند سرشناس و خالق سریال تحسین‌شده آتلانتا (Atlanta) گذاشته شده است. بر اساس اطلاعات منتشرشده توسط نتفلیکس (Netflix)، دونالد گلاور (Donald Glover) علاوه بر نویسندگی و کارگردانی، به عنوان بازیگر اصلی و تهیه‌کننده اجرایی نیز در این پروژه حضور خواهد داشت. او در این مسیر از همکاری برادر و همکار همیشگی خود، استیون گلاور (Stephen Glover) بهره خواهد برد. انتخاب دونالد گلاور (Donald Glover) برای ساخت اقتباسی از بازی پابجی (PUBG) برای بسیاری از ناظران جذاب و در عین حال غیرمنتظره بوده است، چرا که آثار پیشین او معمولاً فضایی عمیق، هنری و ساختارشکنی داشته‌اند، در حالی که بازی پابجی (PUBG) فاقد داستانی خطی و مفصل است و بیشتر بر بقای ۱۰۰ بازیکن در یک جزیره تمرکز دارد. با این حال، آزادی عمل زیادی که عدم وجود داستان مشخص در بازی به تیم سازنده می‌دهد، به دونالد گلاور (Donald Glover) اجازه می‌دهد تا خلاقیت خود را به کار گیرد. بازی اصلی به طور مبهم به وجود مسابقات مرگبار و خونینی برای سرگرمی طبقه مرفه اشاره دارد که همین ایده می‌تواند فضایی مشابه با آثار معروف دیگری چون بازی مرکب (Squid Game) یا بازی‌های گرسنگی (The Hunger Games) را برای سریال به ارمغان بیاورد. تا کنون جزئیات بیشتری درباره سایر بازیگران یا تاریخ دقیق انتشار این سریال اعلام نشده است. پروژه پابجی (PUBG) تنها اقتباس ویدیویی نتفلیکس (Netflix) نیست و این سرویس استریم (Streaming) برنامه‌های دیگری نظیر ساخت سریالی بر اساس اساسینز کرید (Assassin&#x27;s Creed) و فیلم سینمایی چرخ‌دنده‌های جنگ (Gears of War) را نیز در دست اقدام دارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/l-intro-1793299226.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:6f83fe34ca66d1e49d01b2dfe48fdd75e01fcff5c47ba461f5d5f3dfd8700b0c",
+      "url": "https://www.engadget.com/2294413/easysmx-s10-lite-review/",
+      "title": "EasySMX S10 Lite review: A Switch 2 fidget toy with a weird removable faceplate",
+      "summary": "EasySMX is using Elizabeth Holmes levels of pedantry with this faceplate situation.",
+      "display_title": "بررسی دسته بازی ایس‌ای‌ام‌اس‌ام‌ایکس اس۱۰ لایت (EasySMX S10 Lite): تجربه‌ای عجیب با قاب جلویی مغناطیسی",
+      "display_summary": "دسته بازی ایس‌ای‌ام‌اس‌ام‌ایکس اس۱۰ لایت (EasySMX S10 Lite) با قیمت مقرون‌به‌صرفه چهل دلاری و دکمه‌های بسیار حساس معرفی شد. با این حال، طراحی عجیب و وضعیت مبهم قاب جلویی مغناطیسی قابل تعویض آن انتقاداتی را به همراه داشته است.",
+      "message": "<b>📰 بررسی دسته بازی ایس‌ای‌ام‌اس‌ام‌ایکس اس۱۰ لایت (EasySMX S10 Lite): تجربه‌ای عجیب با قاب جلویی مغناطیسی</b>\n\nدسته بازی ایس‌ای‌ام‌اس‌ام‌ایکس اس۱۰ لایت (EasySMX S10 Lite) با قیمت مقرون‌به‌صرفه چهل دلاری و دکمه‌های بسیار حساس معرفی شد. با این حال، طراحی عجیب و وضعیت مبهم قاب جلویی مغناطیسی قابل تعویض آن انتقاداتی را به همراه داشته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار لوازم جانبی کنسول‌ها همیشه میزبان محصولات خلاقانه و در عین حال عجیبی است. شرکت ایس‌ای‌ام‌اس‌ام‌ایکس (EasySMX) با عرضه دسته بازی اس۱۰ لایت (EasySMX S10 Lite) توانسته است توجه بسیاری از گیمرها را به خود جلب کند. این کنترلر که به عنوان یک گزینه ارزان‌قیمت برای کنسول نینتندو سوییچ ۲ (Nintendo Switch 2) طراحی شده، با برچسب قیمتی حدود ۴۰ دلار به بازار عرضه می‌شود که بسیار کمتر از قیمت ۹۰ دلاری کنترلر پرو (Pro Controller) نینتندو است. از نظر ویژگی‌های سخت‌افزاری، این کنترلر نقاط قوت قابل توجهی دارد. دسته اس۱۰ لایت (EasySMX S10 Lite) مجهز به جوی‌استیک‌های اثر هال (Hall effect) با حرکت بسیار نرم و بی‌صدا است که از رانش جلوگیری می‌کنند. دکمه‌های رویی دستگاه از نوع میکروسووییچ (microswitch) بوده و حس کلیک‌پذیری و بازخورد لمسی بسیار خوبی دارند. همچنین قابلیت‌هایی نظیر کنترل‌های حرکتی ۹ محوره، موتورهای بازخورد هپتیک قوی با چهار سطح شدت، و توانایی روشن کردن از راه دور کنسول نینتندو سوییچ ۲ (Nintendo Switch 2) از دیگر ویژگی‌های مثبت این گجت به شمار می‌روند. یک کلید فیزیکی در پشت دسته نیز تعویض حالت اتصال میان سوییچ (Switch)، سوییچ ۲ (Switch 2)، رایانه‌های شخصی (PC)، اندروید (Android) و آی‌اواس (iOS) را ممکن می‌سازد. با وجود این ویژگی‌های جذاب، بخش طراحی و به‌ویژه قاب جلویی مغناطیسی این دسته انتقاداتی را برانگیخته است. این قاب نیمه‌شفاف که با چهار مگنت روی بدنه متصل می‌شود، در نمونه‌های ارسالی به‌خوبی روی دستگاه فیکس نمی‌شود و لبه‌های آن ناهمواری آزاردهنده‌ای دارد. نکته مبهم‌تر، شعارهای تبلیغاتی شرکت سازنده درباره قابلیت شخصی‌سازی یا همان دی‌آی‌ای (DIY) است. شرکت ایس‌ای‌ام‌اس‌ام‌ایکس (EasySMX) در صفحه محصول خود ادعا می‌کند که کاربران می‌توانند قاب‌های مغناطیسی و استیکرهای متنوع را تعویض کنند؛ این در حالی است که هیچ‌گونه قاب جایگزین یا سفارشی توسط این شرکت برای فروش عرضه نمی‌شود و فایل‌های سه‌بعدی آن نیز در دسترس عموم قرار ندارند. در مجموع، دسته بازی ایس‌ای‌ام‌اس‌ام‌ایکس اس۱۰ لایت (EasySMX S10 Lite) با وجود دکمه‌های عالی و قیمت مناسب، به دلیل ادعاهای بازاریابی مبهم پیرامون قابلیت تعویض قاب، نتوانسته رضایت کامل منتقدان را جلب کند. این کنترلر برای کاربرانی که به دنبال یک دسته ارزان با کلیک‌های رضایت‌بخش هستند گزینه بدی نیست، اما در رقابت با محصولاتی نظیر آلتیمیت ۲سی (Ultimate 2C) ساخت شرکت ایت‌بی‌دو (8BitDo) کار دشواری خواهد داشت.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/easysmx-s10-lite-review-a-switch-2-fidget-toy-with-a-weird-removable-faceplate/l-intro-1792686295.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:fdc609b67b3ad805ec2752137d7a5329ad3b34d5a40543e17f9cf0fea0cf8b7b",
+      "url": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
+      "title": "Apple and Google fined in South Korea over app store violations",
+      "summary": "South Korean regulators found that Apple and Google violated the country's Telecommunications Business Act.",
+      "display_title": "جريمه سنگين اپل و گوگل در کره جنوبی به اتهام تخلفات فروشگاه اپلیکیشن",
+      "display_summary": "رگولاتور مخابراتی کره جنوبی شرکت‌های اپل (Apple) و گوگل (Google) را به دلیل نقض قوانین کسب‌وکار مخابراتی و تخلفات مربوط به فروشگاه‌های اپلیکیشن جریمه کرد. این نهاد نظارتی شرکت‌ها را ملزم کرده است که روش‌های تجاری خود را تغییر داده و پرداخت‌های خارجی را بپذیرند.",
+      "message": "<b>📰 جريمه سنگين اپل و گوگل در کره جنوبی به اتهام تخلفات فروشگاه اپلیکیشن</b>\n\nرگولاتور مخابراتی کره جنوبی شرکت‌های اپل (Apple) و گوگل (Google) را به دلیل نقض قوانین کسب‌وکار مخابراتی و تخلفات مربوط به فروشگاه‌های اپلیکیشن جریمه کرد. این نهاد نظارتی شرکت‌ها را ملزم کرده است که روش‌های تجاری خود را تغییر داده و پرداخت‌های خارجی را بپذیرند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>رگولاتور مخابراتی کره جنوبی، کمیسیون رسانه و ارتباطات کره (KMCC)، پس از بررسی‌های جامع، شرکت‌های بزرگ فناوری یعنی اپل (Apple) و گوگل (Google) را به دلیل نقض قوانین کسب‌وکار مخابراتی این کشور مشمول جریمه‌های سنگین مالی کرد. این تصمیم پس از تحقیقات میدانی و بررسی‌های دقیق که از سال ۲۰۲۲ آغاز شده بود، اتخاذ شد. بر اساس اعلام کمیسیون رسانه و ارتباطات کره (KMCC)، گوگل (Google) با جریمه‌ای معادل ۴۲.۹ میلیارد وون (حدود ۳۲ میلیون دلار) مواجه شده است، در حالی که شرکت اپل (Apple) باید مبلغ ۲۰.۸۱ میلیارد وون (حدود ۱۵.۶ میلیون دلار) جریمه پرداخت کند. این نهاد نظارتی اعلام کرد که هر دو شرکت قوانین بازار اپلیکیشن را نقض کرده‌اند؛ از جمله اجبار کاربران به استفاده از روش‌های پرداخت درون‌برنامه‌ای خود، اعمال کمیسیون ۲۶ درصدی برای پرداخت‌های شخص ثالث و ممنوعیت پرداخت‌های خارجی. علاوه بر این تخلفات، بررسی‌ها نشان داد که اپل (Apple) و گوگل (Google) روند بررسی و تأیید اپلیکیشن‌ها را بدون ارائه دلیل واضح به تأخیر انداخته و به پرسش‌های فردی توسعه‌دهندگان درباره این تأخیرها پاسخ ندmamند. همچنین مشخص شد که اپل (Apple) کمیسیون‌های خود را به شکلی تبعیض‌آمیز محاسبه می‌کند؛ به طوری که کمیسیون توسعه‌دهندگان کره‌ای بر اساس قیمت شامل مالیات بر ارزش افزوده (VAT) محاسبه می‌شده، اما برای توسعه‌دهندگان خارج از این کشور، مبنای محاسبه قیمت‌های بدون مالیات بوده است. در پی این احکام، کمیسیون رسانه و ارتباطات کره (KMCC) علاوه بر اعمال جریمه، این غول‌های فناوری را ملزم کرده است تا روش‌های تجاری خود را تغییر دهند، پرداخت‌های خارجی را بپذیرند و رویه‌های بررسی اپلیکیشن‌های خود را بازنگری کنند. از اپل (Apple) نیز خواسته شده است تا به تبعیض میان توسعه‌دهندگان داخلی و خارجی پایان دهد. پیش از این نیز این شرکت‌ها در برخی مناطق دیگر مانند ایالات متحده آمریکا (United States) و اتحادیه اروپا (European Union) ناچار به پذیرش پرداخت‌های خارجی شده بودند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/apple-and-google-fined-in-south-korea-for-app-store-violations/l-intro-1793270417.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -8371,124 +8481,212 @@
       ]
     },
     {
-      "item_id": "cc6b55499e9271a824e9ae9c17bc0a6bc9388f4e6ccd05e9fd8e44331d26ca10",
-      "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
-      "url": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
-      "summary": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a single Made-in-USA laptop would be a surprise, because no [&#8230;]",
+      "item_id": "85108a5ae09e640f5f8a26fc99fb68163c88d6c02766dc12ff19f6e44f876918",
+      "title": "Ikea&#8217;s colorful donut-shaped smart lamp is $20 off",
+      "url": "https://www.theverge.com/gadgets/1022440/ikea-varmblixt-smart-lamp-deal-sale",
+      "summary": "With its playful design, versatility, and relatively affordable price, the Ikea Varmblixt quickly became one of my colleague Jennifer Pattison Tuohy’s new favorite smart light products when she tested it in April. Now, the donut-shaped lamp is on sale for $79.99 ($20 off) through November 11th at Ikea. Don’t let us tell you where you [&#8230;]",
       "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/2026-BlueChip-InField-5-Web.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-29T02:22:46+00:00",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268444_Ikea_Varmblixt_lamp_JTuohy_0006.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-29T18:18:36+00:00",
       "categories": [
+        "Deals",
         "Gadgets",
-        "Laptops",
-        "News",
-        "Policy",
-        "Report"
+        "Verge Shopping"
       ]
     },
     {
-      "item_id": "1b3f11e1f6657f8cd9a637f1a0a74ca1faf8f198b9ec0b0823f1fa5f32ea5813",
-      "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
-      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
-      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot.",
+      "item_id": "35779c426a8e6417fa9adc9931005606026d3413a6311a4b9d17ed33fabe0faa",
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
       "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1252468735.jpg?resize=1200,800",
-      "published_at": "2026-10-29T13:00:00+00:00",
+      "image_url": "",
+      "published_at": "2026-10-29T17:54:38+00:00",
       "categories": [
         "AI",
-        "Commerce",
-        "Amazon",
-        "Alexa"
+        "Apps",
+        "ai dictation",
+        "granola",
+        "In Brief",
+        "Wispr flow"
       ]
     },
     {
-      "item_id": "e8ef3e560ba0ed569d227d9d592600bc1eb826127bb5d89e26229912cde6b9d5",
-      "title": "DoorDash acquires Instacart in $17 billion delivery service merger",
-      "url": "https://www.engadget.com/2300741/doordash-acquires-instacart-in-dollar17-billion-delivery-service-merger/",
-      "summary": "The deal combines the two largest grocery delivery platforms in the US.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/doordash-acquires-instacart-in-17-billion-delivery-service-merger/l-intro-1793276637.jpg",
-      "published_at": "2026-10-29T12:24:06+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
-      "item_id": "6f83fe34ca66d1e49d01b2dfe48fdd75e01fcff5c47ba461f5d5f3dfd8700b0c",
-      "title": "EasySMX S10 Lite review: A Switch 2 fidget toy with a weird removable faceplate",
-      "url": "https://www.engadget.com/2294413/easysmx-s10-lite-review/",
-      "summary": "EasySMX is using Elizabeth Holmes levels of pedantry with this faceplate situation.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/easysmx-s10-lite-review-a-switch-2-fidget-toy-with-a-weird-removable-faceplate/l-intro-1792686295.jpg",
-      "published_at": "2026-10-29T12:00:00+00:00",
-      "categories": [
-        "Gaming",
-        "Nintendo"
-      ]
-    },
-    {
-      "item_id": "532dc145c958774c717fedc39448584f119a6301b2f3b618902a6b362dee3efc",
-      "title": "DoorDash is acquiring Instacart for $17 billion",
-      "url": "https://www.theverge.com/business/1021981/doordash-instacart-acquisition-announcement",
-      "summary": "DoorDash has announced that it's buying Instacart in a deal valued at approximately $17 billion. The acquisition will give DoorDash a bigger presence in online grocery delivery thanks to Instacart's established grocery marketplace and retailer partnerships, with Instacart CEO Chris Rogers saying the deal will make \"online grocery more seamless and affordable\" for millions of [&#8230;]",
+      "item_id": "d76e5863461cfabe2802c7cf9236e143ad672be2071fb4598097b54ec6d2b270",
+      "title": "Apple’s new laptop supports one of the coolest features for color pros",
+      "url": "https://www.theverge.com/1022347/apple-macbook-supports-new-cmf",
+      "summary": "The new MacBook Pro brings with it a bunch of firsts for Apple laptops, the two flashiest being an OLED display and touchscreen functionality. But as an image-accuracy enthusiast, trained calibrator, and resident display expert, what excites me most about the MacBook Pro with PROLED XDR Display is the technology it uses to display an [&#8230;]",
       "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2255805905.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-29T11:56:35+00:00",
-      "categories": [
-        "Business",
-        "News"
-      ]
-    },
-    {
-      "item_id": "fdc609b67b3ad805ec2752137d7a5329ad3b34d5a40543e17f9cf0fea0cf8b7b",
-      "title": "Apple and Google fined in South Korea over app store violations",
-      "url": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
-      "summary": "South Korean regulators found that Apple and Google violated the country's Telecommunications Business Act.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/apple-and-google-fined-in-south-korea-for-app-store-violations/l-intro-1793270417.jpg",
-      "published_at": "2026-10-29T10:42:26+00:00",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268836_MacBook_Pro_touchscreen_OLED_handson_ADiBenedetto_0039.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-29T17:48:09+00:00",
       "categories": [
         "Apple",
-        "Google"
+        "Tech"
       ]
     },
     {
-      "item_id": "da7fa9c73a6714ae9f8930933e704e9b4bb85ae8336ab29e8b1c81e9c9bdd8bb",
-      "title": "AI has come for Arizona’s water",
-      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
-      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one [&#8230;]",
+      "item_id": "4ac80454813f64356115327c760f4f1379949b7d9ba80f59bc28b4b61346ae18",
+      "title": "Utah charges Kalshi and its CEO with illegally promoting online gambling",
+      "url": "https://www.theverge.com/policy/1022400/utah-kalshi-criminal-charges",
+      "summary": "Utah has filed criminal charges against Kalshi and its executives, accusing the prediction market of breaking anti-gambling laws, as reported by The Salt Lake Tribune and the Associated Press. The state has filed 14 charges against Kalshi, as well as CEO Tarek Mansour and COO Luana Lopes Lara, including 12 counts of illegally promoting online [&#8230;]",
       "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268658_Data_center_AZ_LEDE_VOSSS50.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-29T10:00:04+00:00",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2301796292.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-29T17:40:23+00:00",
       "categories": [
-        "AI",
+        "Apps",
+        "News",
+        "Policy",
+        "Politics",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "c9f7b537b0a7834511f9d8c187e9c44e19a7b3947bc9b501e35b51047242e2e8",
+      "title": "Data centers could send US climate pollution skyrocketing",
+      "url": "https://www.theverge.com/science/1022258/data-centers-climate-change-carbon-dioxide-pollution-gas",
+      "summary": "The US power sector could release 42 percent more planet-heating carbon dioxide pollution by 2030 than it did in 2025 as it builds out more fossil fuel infrastructure to meet data center electricity demand, according to a new analysis by the Sierra Club. That would essentially wipe out 15 years of greenhouse gas reductions. CO2 [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-29T17:10:46+00:00",
+      "categories": [
+        "Climate",
+        "Energy",
         "Environment",
-        "Features",
         "Science"
       ]
     },
     {
-      "item_id": "ae326965517bb9eeb7025c37161392f5f8e79e7793f07ea59de54c319292a8c1",
-      "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
-      "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
-      "summary": "Google's latest Gemini 4 Carbon AI model boasts top benchmark scores in areas like cybersecurity and coding.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/googles-gemini-4-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/l-intro-1793266804.jpg",
-      "published_at": "2026-10-29T09:41:58+00:00",
+      "item_id": "c902306f3a24817bf39f8a17ba09aec8004075350b554f05d79af593e85a0dac",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-29T17:00:00+00:00",
       "categories": [
-        "AI"
+        "AI",
+        "cyber",
+        "mistral"
       ]
     },
     {
-      "item_id": "33f98c75ea9ce61040c80df8401159adc43197941c077855b96f0ac05a76f441",
-      "title": "Hackers leaked details of more than 41,000 Homeland Security personnel",
-      "url": "https://www.engadget.com/2300661/hackers-leaked-details-more-than-41000-homeland-security-personnel/",
-      "summary": "A hacktivist group stole the information of ICE agents and border police from Homeland Security.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/hackers-leaked-details-of-more-than-41000-homeland-security-personnel/l-intro-1793262738.jpg",
-      "published_at": "2026-10-29T08:33:46+00:00",
+      "item_id": "222edc95c13c163dcd6c520c0c01d5a85e686d02325fa370d0230c0a9a921d7b",
+      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-29T16:42:32+00:00",
       "categories": [
-        "Cybersecurity"
+        "AI",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "a5f49cd1e0f8ba122289f51454c06b577e7cd1cd41f576b4e6d783ed06ba7e45",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-29T16:21:00+00:00",
+      "categories": [
+        "AI",
+        "Startups",
+        "Venture",
+        "Andreessen Horowitz",
+        "architecture",
+        "dream",
+        "Palantir",
+        "world models"
+      ]
+    },
+    {
+      "item_id": "e08ad8c43baa62019ce13fe21ea68afdb47b7f9cc84d0b65c42607147499f97c",
+      "title": "SuperMe raises $20M for its network of AI expert profiles",
+      "url": "https://techcrunch.com/2026/10/29/superme-raises-20m-for-its-network-of-ai-expert-profiles/",
+      "summary": "SuperMe is a network of AI profiles built from the knowledge of real-life experts. When you ask a question, the platform determines which experts are best suited to answer and creates a group chat with their AI profiles.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-29T16:19:43+00:00",
+      "categories": [
+        "Apps",
+        "expert network",
+        "forerunner",
+        "greylock"
+      ]
+    },
+    {
+      "item_id": "34be4db7dc5f506e26a11f0858402856aff21076b3619a6ab79354f9d9f96420",
+      "title": "This open-source project lets you sync Withings data to other apps without a subscription",
+      "url": "https://www.theverge.com/tech/1022214/yourownweigh-sync-withings-smart-scale-data-wireless-web-app-free",
+      "summary": "When it was revealed earlier this month that Withings would require new users to subscribe to a Withings Plus subscription to sync heath data from the company's devices to third-party apps, Tom Anthony, who was already fed up with the Withings mobile app which they describe as a \"bloated mess,\" became motivated to \"free\" their [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24856976/236744_Withings_Body_Smart_VSong_0007.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-29T16:14:06+00:00",
+      "categories": [
+        "Gadgets",
+        "Health",
+        "News",
+        "Science",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "5e5116b1f676a84cebb5e30cde64619379afb3834c96d8af1fb932588d0a9293",
+      "title": "ThermoWorks debuts shorter version of its RFX Meat wireless probe for small cuts",
+      "url": "https://www.engadget.com/2301085/thermoworks-debuts-shorter-version-of-its-rfx-meat-wireless-probe-for-small-cuts/",
+      "summary": "The RFX Meat Mini offers nearly identical performance to the full-sized grilling probe.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/thermoworks-debuts-shorter-version-of-its-rfx-meat-wireless-probe-for-small-cuts/l-intro-1793289798.jpg",
+      "published_at": "2026-10-29T16:04:13+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "13c8d693cf3d142543e470013c75c9445080a211ea53adbd9e173b329ef916c1",
+      "title": "FromSoftware delays The Duskbloods until 2027",
+      "url": "https://www.engadget.com/2300955/fromsoftware-delays-the-duskbloods-until-2027/",
+      "summary": "The studio is taking more time to refine the \"rules and balance\" of the Nintendo Switch 2 exclusive.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/fromsoftware-delays-the-duskbloods-until-2027/l-intro-1793286117.jpg",
+      "published_at": "2026-10-29T15:02:41+00:00",
+      "categories": [
+        "Nintendo"
+      ]
+    },
+    {
+      "item_id": "18c3e8010eefc3fa0d0a9b2c7ef1faeec8097003887e3bd6a34032021d63c980",
+      "title": "Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy",
+      "url": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/",
+      "summary": "Mintive was founded by two engineers who have been working on AI for decades through Google Brain and Coursera. It's platform promises to help IT easily control enterprise agents.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-29T15:00:00+00:00",
+      "categories": [
+        "Fundraising",
+        "Startups",
+        "TC",
+        "cowboy ventures"
+      ]
+    },
+    {
+      "item_id": "84240ca1c39f3a8878175d1e2eba5ca29c6701964129132617d57f2b2288f4b2",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-29T14:35:26+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "ai agent",
+        "IVP",
+        "Wabi"
       ]
     }
   ]
