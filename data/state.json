@@ -2620,30 +2620,31 @@
     "53411b42524aec7583172f9fe02519464d10d1873bbf62bc925edac541739982",
     "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
     "ada254634105eb808e53041a89a929f8799b2962da245be4932312b8bbf988dd",
-    "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+    "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+    "28a9f2b02249040cea0ba84f0f07e8ab8a9bea91fe8f9ad44b8735fc52f1b4ae",
+    "3a2e2700df4d94c403bd35aa558cc059c37028b04832d7452dcafbea9c9527f9",
+    "55976a9852dffd2ad85f170456f83ebd63630b277b83ef87fb4646e21cb32c70",
+    "5765633b99a24753f60ea78aa47fef90d28c40c4aea00154aee4d7d10bbc97ec",
+    "8063a7abe777a7e6b2f04a4d29ab88297721f516de2460fa92a325be738c260a",
+    "b3db38d75edd7f37015ed269d44eb4c3f26749d0cfdf43ee10ef7fd26636e012",
+    "f4307006beaa77aadc98f70ebb8a79371c6d455f60fe96dd5b4082be8c4e482b",
+    "https://techcrunch.com/2026/10/29/bluesky-blocks-links-to-leaked-dhs-employee-data-as-government-seeks-takedowns/",
+    "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
+    "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+    "https://www.theverge.com/gadgets/1022103/ocarina-of-time-remake-apple-mac-mini-ssd-hdmi-dock-deal-sale",
+    "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+    "https://www.theverge.com/report/1022013/apple-touchscreen-macbook-pro-toaster-refrigerator",
+    "https://www.theverge.com/tech/1022140/amazon-alexa-for-shopping-grocery-lists-gift-registries",
+    "1f96ba86f3e4da62ec5386c9097c8458793549b79cf2f9593d130aaf315d6221",
+    "https://www.theverge.com/tech/1022113/kevin-bates-arduboy-digital-candle-ai-simulate-flame",
+    "c82b61bf1239134a61e65562ea507bd198f9b5e056dc5984030a18ea5f53e2c6",
+    "https://techcrunch.com/2026/10/29/who-will-you-learn-from-in-6-days-at-techcrunch-founder-summit-meet-the-founders-and-investors-taking-the-stage/",
+    "faf2794d3f149bafad552f805efc9b71ba762ebc9ca25108ca83a571b8fea38e",
+    "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+    "54ba3d629ffd2306cf5a4d07a64cb0194675375e4ed0b893d3dadfb4ffbf73cb",
+    "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/"
   ],
   "published_stories": [
-    {
-      "title": "What's the difference between alkaline and lithium-ion batteries?",
-      "summary": "Alkaline and lithium-ion batteries serve very different purposes. Here's how they compare on lifespan, cost, rechargeability, and everyday use.",
-      "url": "https://www.engadget.com/2281493/alkaline-vs-lithium-ion-batteries-difference-between/",
-      "display_title": "بررسی تفاوت‌های کلیدی میان باتری‌های آلکالین و لیتیوم یونی؛ کاربردها، طول عمر و ایمنی",
-      "display_summary": "باتری‌های آلکالین و لیتیوم یونی اهداف بسیار متفاوتی را در دستگاه‌های الکترونیکی دنبال می‌کنند. درک تفاوت‌های میان این دو فناوری از نظر هزینه، قابلیت شارژ مجدد و میزان مصرف انرژی به انتخاب درست برای هر وسیله کمک می‌کند."
-    },
-    {
-      "title": "Smart ring maker Ultrahuman to roll out biological-age model across UAE",
-      "summary": "Ultrahuman and Abu Dhabi will spend the next two years working on research and clinical validation of the model.",
-      "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
-      "display_title": "شرکت سازنده حلقه هوشمند اولتراهیومن (Ultrahuman) مدل سن بیولوژیک را در امارات متحده عربی (United Arab Emirates) پیاده‌سازی می‌کند",
-      "display_summary": "شرکت اولتراهیومن (Ultrahuman)، سازنده حلقه‌های هوشمند، با مقامات بهداشتی ابوظبی (Abu Dhabi) برای توسعه و اعتبارسنجی یک مدل سن بیولوژیک مبتنی بر داده‌های پوشیدنی و بالینی توافق‌نامه امضا کرد. این مدل قرار است در نهایت از طریق پلتفرم‌های بهداشت دیجیتال دولتی در اختیار شهروندان امارات متحده عربی (United Arab Emirates) قرار گیرد تا به ارزیابی عوامل مؤثر بر روند پیری کمک کند."
-    },
-    {
-      "title": "The tech behind your car's adaptive cruise control",
-      "summary": "Despite the fact that it functions using a basic camera-and-radar system, adaptive cruise control has proven to have significant influence over driving habits.",
-      "url": "https://www.engadget.com/2281470/tech-behind-adaptive-cruise-control/",
-      "display_title": "فناوری پشت صحنه کروز کنترل تطبیقی خودروها چگونه کار می‌کند؟",
-      "display_summary": "سیستم کروز کنترل تطبیقی (Adaptive Cruise Control) با استفاده از ترکیب حسگرهای رادار و دوربین، فاصله خودرو با ماشین جلویی را تنظیم می‌کند. با این حال، پیشرفت‌های نرم‌افزاری و هوش مصنوعی در سال‌های اخیر قابلیت‌های این فناوری را افزایش داده، اما همچنان محدودیت‌ها و چالش‌های ایمنی مهمی بر سر راه استفاده از آن وجود دارد."
-    },
     {
       "title": "How long can you expect an Amazon Kindle to last?",
       "summary": "Amazon will support your Kindle for a while, but it should last much longer than that if you take care of it.",
@@ -6122,6 +6123,27 @@
       "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
       "display_title": "گسترش جهانی تبلیغات مبتنی بر هوش مصنوعی گوگل در بخش جستجو همزمان با کند شدن رشد درآمد",
       "display_summary": "شرکت گوگل (Google) اعلام کرده است که تبلیغات در بخش جستجوی مبتنی بر هوش مصنوعی خود را به بازارهای بین‌المللی گسترش می‌دهد. این تصمیم در حالی اتخاذ شده که گزارش مالی سه‌ماهه آلفابت (Alphabet) از رشد کلی درآمد حکایت دارد، اما سرعت رشد درآمد تبلیغات سنتی جستجو با کاهش مواجه شده است."
+    },
+    {
+      "title": "This $149 digital candle uses AI to accurately simulate a flickering flame",
+      "summary": "After engineering a flexible version of Tetris that could be wrapped around a magazine, Kevin Bates' latest creation is a digital candle that uses a custom AI model to accurately simulate the appearance of a flickering flame across a grid of LEDs. It's a far cry from the types of devices Bates is typically known [&#8230;]",
+      "url": "https://www.theverge.com/tech/1022113/kevin-bates-arduboy-digital-candle-ai-simulate-flame",
+      "display_title": "معرفی شمع دیجیتال ۱۴۹ دلاری با هوش مصنوعی برای شبیه‌سازی شعله",
+      "display_summary": "کوین بیتس (Kevin Bates)، خالق آرادوبوی (Arduboy)، از یک شمع دیجیتال جدید رونمایی کرد که با استفاده از یک مدل هوش مصنوعی و شبکه عصبی، حرکت شعله را روی آرایه‌ای از ال‌ای‌دی‌ها (LEDs) شبیه‌سازی می‌کند. این گجت ۱۰ اینچی با قیمت ۱۴۹ دلار عرضه شده و الگوریتم آن به گونه‌ای است که حرکت شعله هرگز تکرار نمی‌شود."
+    },
+    {
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "summary": "Deepgram said that it is committed to keep Pipecat open source.",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "display_title": "خریداری شرکت دیلی توسط دیپ‌گرام برای تقویت زیرساخت هوش مصنوعی صوتی",
+      "display_summary": "شرکت دیپ‌گرام (Deepgram) در راستای تقویت زیرساخت‌های هوش مصنوعی صوتی خود، شرکت دیلی (Daily)، سازنده فریم‌ورک متن‌باز پایپ‌کت (Pipecat) را خریداری کرد. دو شرکت تأیید کرده‌اند که پروژه پایپ‌کت همچنان به صورت متن‌باز و بی‌طرف نسبت به ارائه‌دهندگان خدمات باقی خواهد ماند."
+    },
+    {
+      "title": "Amazon's new Echo Dot now works as an eero Wi-Fi extender and smart home hub",
+      "summary": "Amazon just unveiled a new Echo Dot with some useful new smart home features.",
+      "url": "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
+      "display_title": "نسل جدید اکو دات (Echo Dot) آمازون با قابلیت تقویت‌کنندگی وای‌فای و پردازنده هوش مصنوعی معرفی شد",
+      "display_summary": "شرکت آمازون (Amazon) از نسل جدید اسپیکر هوشمند اکو دات (Echo Dot) با قابلیت‌های پیشرفته‌ای از جمله عملکرد به عنوان توسعه‌دهنده شبکه وای‌فای ایرو (eero)، هاب خانه هوشمند و پردازنده هوش مصنوعی داخلی رونمایی کرد. این دستگاه جدید با قیمت پایه ۱۰۰ دلار و در مدل‌های متنوع به بازار عرضه می‌شود."
     }
   ],
   "outbox": [
@@ -8093,24 +8115,60 @@
     {
       "key": "url:3b64f2126ca310fc1aab8c279ff1c2d5126b60e12b1cae6b8321b39d9a3ef124",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
-      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and [&#8230;]",
-      "display_title": "آدام موسری: موج منفی پیرامون هوش مصنوعی رو به وخامت است",
-      "display_summary": "آدام موسری، مدیر اینستاگرام، در یک مصاحبه پیش‌بینی کرد که نارضایتی، خشم و نگرانی‌ها پیرامون هوش مصنوعی در سال‌های آینده رو به وخامت خواهد گذاشت. او ریشه این چالش‌ها را نگرانی از امنیت، از دست رفتن مشاغل و ترس بنیادین از عقب‌ماندن در عصر فناوری دانست.",
       "message": "<b>📰 آدام موسری: موج منفی پیرامون هوش مصنوعی رو به وخامت است</b>\n\nآدام موسری، مدیر اینستاگرام، در یک مصاحبه پیش‌بینی کرد که نارضایتی، خشم و نگرانی‌ها پیرامون هوش مصنوعی در سال‌های آینده رو به وخامت خواهد گذاشت. او ریشه این چالش‌ها را نگرانی از امنیت، از دست رفتن مشاغل و ترس بنیادین از عقب‌ماندن در عصر فناوری دانست.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>آدام موسری (Adam Mosseri)، رئیس شبکه اجتماعی اینستاگرام (Instagram)، در مصاحبه‌ای تازه پیش‌بینی کرد که موج منفی، خشم و نارضایتی عمومی پیرامون فناوری هوش مصنوعی (AI) طی سال‌های آینده نه‌تنها فروکش نخواهد کرد، بلکه ابعاد وخیم‌تری به خود خواهد گرفت. اظهارات موسری در شرایطی مطرح می‌شود که واکنش‌های منفی نسبت به مدیران شرکت‌های فناوری، از جمله اعتراض دانشجویان در مراسم‌های فارغ‌التحصیلی، به روندی چشمگیر تبدیل شده است. موسری که در پادکست کالین اند سمیر (Colin and Samir) حضور یافته بود، پیرامون موضوعاتی نظیر ابزارهای ویدیویی جدید اینستاگرام سخن گفت، اما بخش عمده‌ای از صحبت‌های خود را به چالش‌های اجتماعی هوش مصنوعی اختصاص داد. وی تأکید کرد که موج فزاینده اضطراب و ناامیدی، به‌ویژه در صنایع خلاق، تشدید خواهد شد و این وضعیت نه‌تنها فعالان صنعت فناوری، بلکه طیف وسیعی از افراد جامعه را تحت تأثیر قرار خواهد داد. رئیس اینستاگرام در ادامه به موضوع محتوای بی‌کیفیت یا اصطلاحاً «اسلاپ» (Slop) تولیدشده توسط هوش مصنوعی اشاره کرد و توضیح داد که پلتفرم‌ها در رتبه‌بندی این دست از محتواها با چالش مواجهند. به گفته او، اگرچه محتوای ارزشمند مبتنی بر هوش مصنوعی وجود دارد، اما سیستم‌های رتبه‌بندی معمولاً محتوای هوش مصنوعی را به خوبی محتوای انسانی ارزیابی و دسته‌بندی نمی‌کنند. موسری همچنین یادآور شد که اصطلاح «اسلاپ» گاهی بیش از حد و به صورت افراطی به کار می‌رود. پلتفرم اینستاگرام متعلق به شرکت متا (Meta)، در ماه‌های اخیر اقداماتی را برای مقابله با پروفایل‌های جعلی و محتوای گمراه‌کننده هوش مصنوعی آغاز کرده است؛ از جمله الزام حساب‌های کاربری به درج برچسب‌های شناسایی. با این حال، موسری اذعان کرد که ممنوعیت کامل محتوای هوش مصنوعی در این پلتفرم عملی نیست و چالش‌هایی نظیر دیپ‌فیک چهره‌های سرشناس همچنان پابرجا هستند. موسری در تحلیل ریشes‌های روانی این نگرانی‌ها گفت که دغدغه‌های مردم فراتر از مسائل فنی است. نگرانی درباره مالکیت محتوا، سوءاستفاده مدل‌های هوش مصنوعی از آثار سازندگان، مسائل امنیتی، و خطر جابجایی مشاغل و جایگزینی نیروی انسانی اعم از مهندسان، ریاضیدانان یا تولیدکنندگان محتوا، از جمله دغدغه‌های اصلی جامعه هستند. او در نهایت خاطرنشان کرد که در پسِ تمامی این اعتراضات، یک ترس بنیادین و عمیق نهفته است: ترس از عقب‌ماندن از قافله پیشرفت.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2239561028.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and [&#8230;]",
+      "display_title": "آدام موسری: موج منفی پیرامون هوش مصنوعی رو به وخامت است",
+      "display_summary": "آدام موسری، مدیر اینستاگرام، در یک مصاحبه پیش‌بینی کرد که نارضایتی، خشم و نگرانی‌ها پیرامون هوش مصنوعی در سال‌های آینده رو به وخامت خواهد گذاشت. او ریشه این چالش‌ها را نگرانی از امنیت، از دست رفتن مشاغل و ترس بنیادین از عقب‌ماندن در عصر فناوری دانست."
     },
     {
       "key": "url:e46d29680afeffb35eba7f551d4e3616f80de5155a803d9316f5c95e4501887e",
       "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "message": "<b>📰 گسترش جهانی تبلیغات مبتنی بر هوش مصنوعی گوگل در بخش جستجو همزمان با کند شدن رشد درآمد</b>\n\nشرکت گوگل (Google) اعلام کرده است که تبلیغات در بخش جستجوی مبتنی بر هوش مصنوعی خود را به بازارهای بین‌المللی گسترش می‌دهد. این تصمیم در حالی اتخاذ شده که گزارش مالی سه‌ماهه آلفابت (Alphabet) از رشد کلی درآمد حکایت دارد، اما سرعت رشد درآمد تبلیغات سنتی جستجو با کاهش مواجه شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) برنامه‌های خود را برای توسعه تبلیغات در تجربه‌های جستجوی مجهز به هوش مصنوعی به بازارهای بین‌المللی اعلام کرد. این تصمیم راهبردی نشان‌دهنده تلاش این غول فناوری برای ایجاد منابع درآمدی جدید است، زیرا سرعت رشد کسب‌وکار سنتی تبلیغات جستجوی آن با روند کاهشی روبه‌رو شده است. این خبر همزمان با انتشار گزارش مالی سه‌ماهه شرکت آلفابت (Alphabet)، شرکت مادر گوگل (Google)، اعلام شد. طبق این گزارش، کل درآمد شرکت با ۲۵ درصد افزایش نسبت به مدت مشابه سال قبل به ۱۲۷.۶ میلیارد دلار رسید. با این وجود، رشد درآمد بخش جستجوی گوگل (Google Search) به ۱۲ درصد کاهش یافت که نسبت به رشد ۱۷ درصدی در سه‌ماهه دوم و ۱۹ درصدی در سه‌ماهه اول، افت نشان می‌دهد. همین روند کاهشی باعث شد تا فشار مضاعفی بر گوگل (Google) وارد شود تا قابلیت‌های هوش مصنوعی رو به رشد خود را به یک منبع درآمدی سودآور تبدیل کند. فیلیپ شیندلر (Philipp Schindler)، مدیر ارشد کسب‌وکار گوگل (Google)، در نشست با سرمایه‌گذاران گفت که این شرکت در حال مقیاس‌گذاری تبلیغات باکیفیت در بخش نمای کلی هوش مصنوعی (AI Overviews) برای کاربران و پرس‌وجوهای بیشتری است. به گفته وی، این اقدام شامل انتقال ردپای درآمدزایی گوگل (Google) به سطح جهانی برای نخستین بار، به همراه معرفی تبلیغات چندمرحله‌ای و حالت هوش مصنوعی در ایالات متحده است. بر اساس ارزیابی‌های اولیه گوگل (Google)، نرخ کلیک برای فهرست محصولات حمایت‌شده در حالت هوش مصنوعی با نتایج ارگانیک قابل مقایسه است و تحقیقات کاربری نشان می‌دهد که کاربران این تبلیغات را مرتبط می‌دانند. این تحولات بر پایه معرفی فرمت‌های جدید تبلیغاتی مبتنی بر جمینای (Gemini) در ماه مه بنا شده است که شامل تبلیغات کشف مکالمه‌ای و توصیه‌های حمایت‌شده در پاسخ‌های تولیدشده توسط هوش مصنوعی می‌شود. ساندار پیچای (Sundar Pichai)، مدیرعامل گوگل (Google)، نیز در این نشست خاطرنشان کرد که پرس‌وجوهای جستجو با سریع‌ترین نرخ سالانه خود در پنج سال گذشته رشد کرده‌اند. او ویژگی‌های هوش مصنوعی را عامل تغییر نحوه استفاده کاربران از جستجو دانست و افزود که پرس‌وجوها در حالت هوش مصنوعی به طور میانگین سه برابر طولانی‌تر از جستجوهای سنتی هستند و از هر پنج جستجو، یکی شامل صدا، تصویر یا اسناد است. همچنین بخش خدمات گوگل (Google Services) درآمدی معادل ۹۶.۳ میلیارد دلار ثبت کرد و بخش گوگل کلود (Google Cloud) با جهش ۱۰۳ درصدی به درآمد ۳۰.۷ میلیارد دلاری دست یافت. در مجموع، این تحولات نشان می‌دهد که گوگل (Google) با وجود چالش‌های موجود در بخش تبلیغات سنتی، تمام تلاش خود را به کار گرفته است تا با تکیه بر فناوری‌های نوین و اکوسیستم هوش مصنوعی، مسیرهای تازه ای برای رشد مالی خود هموار سازد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "Google expands AI Search ads globally as core ad growth slows",
       "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
       "display_title": "گسترش جهانی تبلیغات مبتنی بر هوش مصنوعی گوگل در بخش جستجو همزمان با کند شدن رشد درآمد",
-      "display_summary": "شرکت گوگل (Google) اعلام کرده است که تبلیغات در بخش جستجوی مبتنی بر هوش مصنوعی خود را به بازارهای بین‌المللی گسترش می‌دهد. این تصمیم در حالی اتخاذ شده که گزارش مالی سه‌ماهه آلفابت (Alphabet) از رشد کلی درآمد حکایت دارد، اما سرعت رشد درآمد تبلیغات سنتی جستجو با کاهش مواجه شده است.",
-      "message": "<b>📰 گسترش جهانی تبلیغات مبتنی بر هوش مصنوعی گوگل در بخش جستجو همزمان با کند شدن رشد درآمد</b>\n\nشرکت گوگل (Google) اعلام کرده است که تبلیغات در بخش جستجوی مبتنی بر هوش مصنوعی خود را به بازارهای بین‌المللی گسترش می‌دهد. این تصمیم در حالی اتخاذ شده که گزارش مالی سه‌ماهه آلفابت (Alphabet) از رشد کلی درآمد حکایت دارد، اما سرعت رشد درآمد تبلیغات سنتی جستجو با کاهش مواجه شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) برنامه‌های خود را برای توسعه تبلیغات در تجربه‌های جستجوی مجهز به هوش مصنوعی به بازارهای بین‌المللی اعلام کرد. این تصمیم راهبردی نشان‌دهنده تلاش این غول فناوری برای ایجاد منابع درآمدی جدید است، زیرا سرعت رشد کسب‌وکار سنتی تبلیغات جستجوی آن با روند کاهشی روبه‌رو شده است. این خبر همزمان با انتشار گزارش مالی سه‌ماهه شرکت آلفابت (Alphabet)، شرکت مادر گوگل (Google)، اعلام شد. طبق این گزارش، کل درآمد شرکت با ۲۵ درصد افزایش نسبت به مدت مشابه سال قبل به ۱۲۷.۶ میلیارد دلار رسید. با این وجود، رشد درآمد بخش جستجوی گوگل (Google Search) به ۱۲ درصد کاهش یافت که نسبت به رشد ۱۷ درصدی در سه‌ماهه دوم و ۱۹ درصدی در سه‌ماهه اول، افت نشان می‌دهد. همین روند کاهشی باعث شد تا فشار مضاعفی بر گوگل (Google) وارد شود تا قابلیت‌های هوش مصنوعی رو به رشد خود را به یک منبع درآمدی سودآور تبدیل کند. فیلیپ شیندلر (Philipp Schindler)، مدیر ارشد کسب‌وکار گوگل (Google)، در نشست با سرمایه‌گذاران گفت که این شرکت در حال مقیاس‌گذاری تبلیغات باکیفیت در بخش نمای کلی هوش مصنوعی (AI Overviews) برای کاربران و پرس‌وجوهای بیشتری است. به گفته وی، این اقدام شامل انتقال ردپای درآمدزایی گوگل (Google) به سطح جهانی برای نخستین بار، به همراه معرفی تبلیغات چندمرحله‌ای و حالت هوش مصنوعی در ایالات متحده است. بر اساس ارزیابی‌های اولیه گوگل (Google)، نرخ کلیک برای فهرست محصولات حمایت‌شده در حالت هوش مصنوعی با نتایج ارگانیک قابل مقایسه است و تحقیقات کاربری نشان می‌دهد که کاربران این تبلیغات را مرتبط می‌دانند. این تحولات بر پایه معرفی فرمت‌های جدید تبلیغاتی مبتنی بر جمینای (Gemini) در ماه مه بنا شده است که شامل تبلیغات کشف مکالمه‌ای و توصیه‌های حمایت‌شده در پاسخ‌های تولیدشده توسط هوش مصنوعی می‌شود. ساندار پیچای (Sundar Pichai)، مدیرعامل گوگل (Google)، نیز در این نشست خاطرنشان کرد که پرس‌وجوهای جستجو با سریع‌ترین نرخ سالانه خود در پنج سال گذشته رشد کرده‌اند. او ویژگی‌های هوش مصنوعی را عامل تغییر نحوه استفاده کاربران از جستجو دانست و افزود که پرس‌وجوها در حالت هوش مصنوعی به طور میانگین سه برابر طولانی‌تر از جستجوهای سنتی هستند و از هر پنج جستجو، یکی شامل صدا، تصویر یا اسناد است. همچنین بخش خدمات گوگل (Google Services) درآمدی معادل ۹۶.۳ میلیارد دلار ثبت کرد و بخش گوگل کلود (Google Cloud) با جهش ۱۰۳ درصدی به درآمد ۳۰.۷ میلیارد دلاری دست یافت. در مجموع، این تحولات نشان می‌دهد که گوگل (Google) با وجود چالش‌های موجود در بخش تبلیغات سنتی، تمام تلاش خود را به کار گرفته است تا با تکیه بر فناوری‌های نوین و اکوسیستم هوش مصنوعی، مسیرهای تازه ای برای رشد مالی خود هموار سازد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+      "display_summary": "شرکت گوگل (Google) اعلام کرده است که تبلیغات در بخش جستجوی مبتنی بر هوش مصنوعی خود را به بازارهای بین‌المللی گسترش می‌دهد. این تصمیم در حالی اتخاذ شده که گزارش مالی سه‌ماهه آلفابت (Alphabet) از رشد کلی درآمد حکایت دارد، اما سرعت رشد درآمد تبلیغات سنتی جستجو با کاهش مواجه شده است."
+    },
+    {
+      "key": "url:ea76deab69b26ba9c7181345813b19c1f7e781721efc99648234370608b9a75f",
+      "url": "https://www.theverge.com/tech/1022113/kevin-bates-arduboy-digital-candle-ai-simulate-flame",
+      "title": "This $149 digital candle uses AI to accurately simulate a flickering flame",
+      "summary": "After engineering a flexible version of Tetris that could be wrapped around a magazine, Kevin Bates' latest creation is a digital candle that uses a custom AI model to accurately simulate the appearance of a flickering flame across a grid of LEDs. It's a far cry from the types of devices Bates is typically known [&#8230;]",
+      "display_title": "معرفی شمع دیجیتال ۱۴۹ دلاری با هوش مصنوعی برای شبیه‌سازی شعله",
+      "display_summary": "کوین بیتس (Kevin Bates)، خالق آرادوبوی (Arduboy)، از یک شمع دیجیتال جدید رونمایی کرد که با استفاده از یک مدل هوش مصنوعی و شبکه عصبی، حرکت شعله را روی آرایه‌ای از ال‌ای‌دی‌ها (LEDs) شبیه‌سازی می‌کند. این گجت ۱۰ اینچی با قیمت ۱۴۹ دلار عرضه شده و الگوریتم آن به گونه‌ای است که حرکت شعله هرگز تکرار نمی‌شود.",
+      "message": "<b>📰 معرفی شمع دیجیتال ۱۴۹ دلاری با هوش مصنوعی برای شبیه‌سازی شعله</b>\n\nکوین بیتس (Kevin Bates)، خالق آرادوبوی (Arduboy)، از یک شمع دیجیتال جدید رونمایی کرد که با استفاده از یک مدل هوش مصنوعی و شبکه عصبی، حرکت شعله را روی آرایه‌ای از ال‌ای‌دی‌ها (LEDs) شبیه‌سازی می‌کند. این گجت ۱۰ اینچی با قیمت ۱۴۹ دلار عرضه شده و الگوریتم آن به گونه‌ای است که حرکت شعله هرگز تکرار نمی‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>کوین بیتس (Kevin Bates)، طراح و مهندس خلاقی که پیش‌تر با ساخت کنسول دستی کوچک آرادوبوی (Arduboy) و نسخه انعطاف‌پذیر بازی تتریس (Tetris) شناخته می‌شد، این بار دست به ابداع عجیبی زده است. این محصول جدید که «شمع دیجیتال» (Digital Candle) نام دارد، از یک مدل هوش مصنوعی سفارشی و شبکه عصبی کوچک بهره می‌برد تا تصویر شعله لرزان یک شمع واقعی را روی شبکه‌ای از لامپ‌های ال‌ای‌دی (LEDs) به شکلی طبیعی شبیه‌سازی کند. این شمع دیجیتال با ارتفاع ۱۰ اینچی طراحی شده و در بخش بالایی آن ۱۴۴ لامپ ال‌ای‌دی کهربایی‌رنگ در قالب یک شبکه ۹ در ۱۶ با قابلیت تنظیم روشنایی تعبیه شده‌اند. در بخش پایینی دستگاه نیز یک درگاه یو‌اس‌بی نوع سی (USB-C) برای تأمین انرژی قرار دارد؛ البته این دستگاه فاقد باتری قابل شارژ است. پردازش این شبیه‌سازی توسط تراشه اسپرسیف (Espressif ESP32-S3) انجام می‌شود که یک مدل هوش مصنوعی آموزش‌دیده با تصاویر ویدئویی از شعله واقعی را اجرا می‌کند. ویژگی اصلی این شبیه‌سازی آن است که الگوریتم تولید شعله هرگز تکرار نمی‌شود و برای هر دستگاه منحصر‌به‌فرد است، زیرا به‌صورت لحظه‌ای (on-the-fly) تولید می‌شود و یک انیمیشن از‌پیش‌برنامه‌ریزی‌شده و تکرار شونده نیست. علاوه بر این، ساختار شمع دیجیتال به‌صورت متن‌باز (open source) طراحی شده است تا کاربران علاقه‌مند به سخت‌افزار بتوانند از آن به‌عنوان ساعت، نمایشگر اعلان‌ها یا برای اجرای شبیه‌سازی‌های دیگری مانند بازی زندگی کانوی (Conway&#x27;s Game of Life) استفاده کنند. با وجود ویژگی‌های خلاقانه و ایمنی بالاتر نسبت به شمع‌های سنتی، قیمت ۱۴۹ دلاری این گجت ممکن است برای برخی از خریداران چالش‌برانگیز باشد، به‌ویژه که جو و فضای عاطفی یک شمع واقعی را کاملاً بازسازی نمی‌کند. با این حال، قابلیت‌های برنامه‌نویسی و ماهیت متن‌باز آن می‌تواند جذابیت زیادی برای افراد علاقه‌مند به دنیای فناوری و گجت‌های خاص داشته باشد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/candle.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:3eb958348088c8d067362bb27d8eaceb7d2696976d3cb66381cb976a38f24b20",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "summary": "Deepgram said that it is committed to keep Pipecat open source.",
+      "display_title": "خریداری شرکت دیلی توسط دیپ‌گرام برای تقویت زیرساخت هوش مصنوعی صوتی",
+      "display_summary": "شرکت دیپ‌گرام (Deepgram) در راستای تقویت زیرساخت‌های هوش مصنوعی صوتی خود، شرکت دیلی (Daily)، سازنده فریم‌ورک متن‌باز پایپ‌کت (Pipecat) را خریداری کرد. دو شرکت تأیید کرده‌اند که پروژه پایپ‌کت همچنان به صورت متن‌باز و بی‌طرف نسبت به ارائه‌دهندگان خدمات باقی خواهد ماند.",
+      "message": "<b>📰 خریداری شرکت دیلی توسط دیپ‌گرام برای تقویت زیرساخت هوش مصنوعی صوتی</b>\n\nشرکت دیپ‌گرام (Deepgram) در راستای تقویت زیرساخت‌های هوش مصنوعی صوتی خود، شرکت دیلی (Daily)، سازنده فریم‌ورک متن‌باز پایپ‌کت (Pipecat) را خریداری کرد. دو شرکت تأیید کرده‌اند که پروژه پایپ‌کت همچنان به صورت متن‌باز و بی‌طرف نسبت به ارائه‌دهندگان خدمات باقی خواهد ماند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار هوش مصنوعی صوتی (Voice AI) در ماه‌های اخیر داغ بوده و شرکت‌های پیشرو تلاش می‌کنند با اتخاذ استراتژی‌های جدید، مشارکت‌ها و ادغام‌ها، جایگاه خود را در این حوزه تحکیم کنند. در همین راستا، شرکت دیپ‌گرام (Deepgram) اعلام کرد که شرکت دیلی (Daily) را که توسعه‌دهنده و نگه‌دارنده یکی از محبوب‌ترین زیرساخت‌های متن‌باز هوش مصنوعی صوتی یعنی پایپ‌کت (Pipecat) است، خریداری کرده است. ارزش مالی این معامله افشا نشده است، اما مدیران هر دو شرکت تأیید کردند که پایپ‌کت به صورت متن‌باز (Open-Source) به فعالیت خود ادامه خواهد داد. پایپ‌کت (Pipecat) یک فریم‌ورک پیشرفته است که جریان‌های صوتی و تصویری را به همراه سایر بخش‌های زنجیره پردازشی از جمله تبدیل گفتار به متن (STT)، مدل‌های زبانی بزرگ (LLMs) و مدل‌های تبدیل متن به گفتار (TTS) مدیریت کرده و در عین حال تأخیر زمانی (Latency) را به حداقل می‌رساند. شرکت دیلی (Daily) نیز به نوبه خود زیرساخت‌های میزبانی‌شده‌ای را برای انواع تماس‌های صوتی و تصویری فراهم می‌کند. پیوستن دیلی به دیپ‌گرام به این شرکت اجازه می‌دهد تا درک عمیق‌تری از زیرساخت‌های ارتباطی بلادرنگ صوتی و تصویری به دست آورد. طبق داده‌های پایگاه پیچ‌بوک (PitchBook)، شرکت دیلی پیش از این بیش از ۶۲ میلیون دلار سرمایه از سرمایه‌گذارانی نظیر تایگر گلوبال (Tiger Global)، هایفیلد کپیتال (Highfield Capital)، نت فریدمن (Nat Friedman)، لاکی گروم (Lachy Groom) و کوین ویل (Kevin Weil) جذب کرده بود. از سوی دیگر، شرکت دیپ‌گرام نیز اوایل امسال با جذب ۱۳۰ میلیون دلار در دور سرمایه‌گذاری سری سی (Series C) به جایگاه شرکت‌های تک‌شاحی (Unicorn) دست یافت. جالب اینجاست که هر دو شرکت در سال ۲۰۱۶ در یک دوره شتاب‌دهی مشترک در وای کامبینیتور (Y Combinator) حضور داشتند. کویندلا کرامر (Kwindla Kramer)، یکی از بنیان‌گذاران دیلی، در خصوص این معامله اشاره کرد که ایده ساخت پایپ‌کت پس از ظهور مدل جی‌پی‌تی-۴ (GPT-4) شکل گرفت؛ زمانی که این تیم شروع به آزمایش ارتباط صوتی و متنی میان هوش مصنوعی و انسان کرد. وی افزود دلیل اصلی تمایل آن‌ها به واگذاری شرکت به دیپ‌گرام، تعهد اسکات استفنسون (Scott Stephenson)، مدیرعامل دیپ‌گرام، به حفظ ماهیت متن‌باز و بی‌طرف پایپ‌کت بوده است. اسکات استفنسون نیز خاطرنشان کرد که دیپ‌گرام مدت‌ها به دنبال فعالیت جدی‌تر در حوزه متن‌باز بوده و این قرارداد به توسعه‌دهندگان امکان می‌دهد تا با اتصال مدل‌های مختلف و یک گذرگاه متنی (Context Bus)، دستیارهای صوتی هوشمندی با بیان قوی و سیستم‌های صوتی سرتاسری ایجاد کنند. همزمان با این خرید، دیپ‌گرام از استاندارد زمینه بلادرنگ (Real-Time Context Standard یا به اختصار RCS) نیز رونمایی کرد؛ یک پروتکل متن‌باز برای دستیارهای صوتی که به طور مشترک با تیم پایپ‌کت توسعه یافته است. این معامله نشان‌دهنده روند رو به رشد سرمایه‌گذاری و رقابت فشرده در بازار هوش مصنوعی صوتی است؛ جایی که شرکت‌های ارائه‌دهنده مدل مانند الون‌لبز (ElevenLabs)، گрадиوم (Gradium) و فیش آدیو (Fish Audio) و شرکت‌های زیرساختی نظیر لایوکیت (LiveKit) و واپی (Vapi) همگی در تلاش برای تصهمیم‌گیری و گسترش سهم خود از این بازار نوظهور هستند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Scott-Kwin-1.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:54ba3d629ffd2306cf5a4d07a64cb0194675375e4ed0b893d3dadfb4ffbf73cb",
+      "url": "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
+      "title": "Amazon's new Echo Dot now works as an eero Wi-Fi extender and smart home hub",
+      "summary": "Amazon just unveiled a new Echo Dot with some useful new smart home features.",
+      "display_title": "نسل جدید اکو دات (Echo Dot) آمازون با قابلیت تقویت‌کنندگی وای‌فای و پردازنده هوش مصنوعی معرفی شد",
+      "display_summary": "شرکت آمازون (Amazon) از نسل جدید اسپیکر هوشمند اکو دات (Echo Dot) با قابلیت‌های پیشرفته‌ای از جمله عملکرد به عنوان توسعه‌دهنده شبکه وای‌فای ایرو (eero)، هاب خانه هوشمند و پردازنده هوش مصنوعی داخلی رونمایی کرد. این دستگاه جدید با قیمت پایه ۱۰۰ دلار و در مدل‌های متنوع به بازار عرضه می‌شود.",
+      "message": "<b>📰 نسل جدید اکو دات (Echo Dot) آمازون با قابلیت تقویت‌کنندگی وای‌فای و پردازنده هوش مصنوعی معرفی شد</b>\n\nشرکت آمازون (Amazon) از نسل جدید اسپیکر هوشمند اکو دات (Echo Dot) با قابلیت‌های پیشرفته‌ای از جمله عملکرد به عنوان توسعه‌دهنده شبکه وای‌فای ایرو (eero)، هاب خانه هوشمند و پردازنده هوش مصنوعی داخلی رونمایی کرد. این دستگاه جدید با قیمت پایه ۱۰۰ دلار و در مدل‌های متنوع به بازار عرضه می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت آمازون (Amazon) در جریان رویداد معرفی محصولات جدید خود، از نسل تازه اسپیکر محبوب اکو دات (Echo Dot) پردهبرداری کرد که با به‌روزرسانی‌های سخت‌افزاری و نرم‌افزاری چشمگیری همراه است. این گجت کره‌ای‌شکل کوچک اکنون علاوه بر پخش صدا، می‌تواند به عنوان یک هاب کامل خانه هوشمند و همچنین یک توسعه‌دهنده شبکه وای‌فای عمل کند. یکی از مهم‌ترین تغییرات در نسل جدید اکو دات (Echo Dot)، تجهیز آن به تراشه اختصاصی جدید شرکت آمازون (Amazon) یعنی تراشه ای‌زد۳ (AZ3) است. این پردازنده جدید برای پردازش محلی هوش مصنوعی طراحی شده و به دستیار صوتی الکساپلاس (Alexa+) اجازه می‌دهد تا مکالمات بسیار طبیعی‌تری با کاربر داشته باشد؛ چرا که دستورات صوتی دیگر نیازی به رفت‌وبرگشت به مراکز داده ندارند و به صورت محلی پردازش می‌شوند. همچنین آمازون (Amazon) با افزودن یک میکروفون چهارم، توانایی دستگاه را در تشخیص صدای کاربران در محیط‌های شلوغ بهبود بخشیده است. این میکروفون اضافی در کنار فناوری تشخیص صدا (Voice ID)، به سیستم اجازه می‌دهد تا پروفایل صوتی افراد مختلف را از هم تشخیص داده و مثلاً به جای پخش لیست پخش موسیقی یکی از اعضای خانواده، لیست پخش فرد دیگری را اجرا کند. قابلیت کلیدی دیگر این دستگاه، ایفای نقش به عنوان هاب خانه هوشمند است که از پروتکل‌های ارتباطی زیگبی (Zigbee)، ماتر (Matter) و ترد (Thread) پشتیبانی می‌کند. به گفته آمازون (Amazon)، کاربران می‌توانند هزاران دستگاه سازگار را مستقیماً و بدون نیاز به تجهیزات جانبی اضافی به این اسپیکر متصل کنند. علاوه بر این، اکو دات (Echo Dot) جدید اکنون به عنوان یک توسعه‌دهنده شبکه وای‌فای برای روترهای ایرو (eero) عمل می‌کند و می‌تواند تا ۱۰۰۰ فوت به محدوده پوشش شبکه بی‌سیم خانه اضافه کند تا نقاط کور اینترنت از بین بروند. در زمینه کیفیت صدا نیز آمازون (Amazon) با به‌کارگیری یک درایور تمام‌محدوده در بدنه دستگاه، شفافیت صدای خواننده را افزایش داده و ۵۰ درصد بیس (Bass) بیشتری نسبت به نسل قبلی فراهم کرده است. این گجت همچنین دارای سنسورهای محیطی است که می‌توانند مواردی مانند دمای اتاق و حضور انسان را تشخیص دهند تا به صورت خودکار اقداماتی مانند تنظیم ترموستات یا روشن کردن چراغ‌ها را انجام دهند. نسخه ویژه‌ای برای کودکان موسوم به اکو دات کودکان (Amazon Kids Echo Dot) نیز با طرح‌های فانتزی پنگوئن و اختاپوس معرفی شده که به همراه یک اشتراک یک‌ساله کیدزپلاس (Kids+ ( ارائه می‌شود. مدل استاندارد اکو دات (Echo Dot) با قیمت ۱۰۰ دلار در چهار رنگ مختلف و مدل کودکان با قیمت پایه ۱۱۰ دلار هم‌اکنون در دسترس علاقه‌مندان قرار گرفته است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/l-intro-1793185938.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -8297,18 +8355,6 @@
       ]
     },
     {
-      "item_id": "54ba3d629ffd2306cf5a4d07a64cb0194675375e4ed0b893d3dadfb4ffbf73cb",
-      "title": "Amazon's new Echo Dot now works as an eero Wi-Fi extender and smart home hub",
-      "url": "https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/",
-      "summary": "Amazon just unveiled a new Echo Dot with some useful new smart home features.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/l-intro-1793185938.jpg",
-      "published_at": "2026-10-28T12:00:00+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
       "item_id": "8a1eda7de27d2c1c37d72032bab5b03ed6d93d0bf70b2bd3c18ed963599c7767",
       "title": "Apple launches its new touchscreen MacBook Pro",
       "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
@@ -8338,6 +8384,111 @@
         "News",
         "Policy",
         "Report"
+      ]
+    },
+    {
+      "item_id": "1b3f11e1f6657f8cd9a637f1a0a74ca1faf8f198b9ec0b0823f1fa5f32ea5813",
+      "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot.",
+      "source": "TechCrunch",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1252468735.jpg?resize=1200,800",
+      "published_at": "2026-10-29T13:00:00+00:00",
+      "categories": [
+        "AI",
+        "Commerce",
+        "Amazon",
+        "Alexa"
+      ]
+    },
+    {
+      "item_id": "e8ef3e560ba0ed569d227d9d592600bc1eb826127bb5d89e26229912cde6b9d5",
+      "title": "DoorDash acquires Instacart in $17 billion delivery service merger",
+      "url": "https://www.engadget.com/2300741/doordash-acquires-instacart-in-dollar17-billion-delivery-service-merger/",
+      "summary": "The deal combines the two largest grocery delivery platforms in the US.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/doordash-acquires-instacart-in-17-billion-delivery-service-merger/l-intro-1793276637.jpg",
+      "published_at": "2026-10-29T12:24:06+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "6f83fe34ca66d1e49d01b2dfe48fdd75e01fcff5c47ba461f5d5f3dfd8700b0c",
+      "title": "EasySMX S10 Lite review: A Switch 2 fidget toy with a weird removable faceplate",
+      "url": "https://www.engadget.com/2294413/easysmx-s10-lite-review/",
+      "summary": "EasySMX is using Elizabeth Holmes levels of pedantry with this faceplate situation.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/easysmx-s10-lite-review-a-switch-2-fidget-toy-with-a-weird-removable-faceplate/l-intro-1792686295.jpg",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "categories": [
+        "Gaming",
+        "Nintendo"
+      ]
+    },
+    {
+      "item_id": "532dc145c958774c717fedc39448584f119a6301b2f3b618902a6b362dee3efc",
+      "title": "DoorDash is acquiring Instacart for $17 billion",
+      "url": "https://www.theverge.com/business/1021981/doordash-instacart-acquisition-announcement",
+      "summary": "DoorDash has announced that it's buying Instacart in a deal valued at approximately $17 billion. The acquisition will give DoorDash a bigger presence in online grocery delivery thanks to Instacart's established grocery marketplace and retailer partnerships, with Instacart CEO Chris Rogers saying the deal will make \"online grocery more seamless and affordable\" for millions of [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2255805905.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-29T11:56:35+00:00",
+      "categories": [
+        "Business",
+        "News"
+      ]
+    },
+    {
+      "item_id": "fdc609b67b3ad805ec2752137d7a5329ad3b34d5a40543e17f9cf0fea0cf8b7b",
+      "title": "Apple and Google fined in South Korea over app store violations",
+      "url": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
+      "summary": "South Korean regulators found that Apple and Google violated the country's Telecommunications Business Act.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apple-and-google-fined-in-south-korea-for-app-store-violations/l-intro-1793270417.jpg",
+      "published_at": "2026-10-29T10:42:26+00:00",
+      "categories": [
+        "Apple",
+        "Google"
+      ]
+    },
+    {
+      "item_id": "da7fa9c73a6714ae9f8930933e704e9b4bb85ae8336ab29e8b1c81e9c9bdd8bb",
+      "title": "AI has come for Arizona’s water",
+      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268658_Data_center_AZ_LEDE_VOSSS50.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-29T10:00:04+00:00",
+      "categories": [
+        "AI",
+        "Environment",
+        "Features",
+        "Science"
+      ]
+    },
+    {
+      "item_id": "ae326965517bb9eeb7025c37161392f5f8e79e7793f07ea59de54c319292a8c1",
+      "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
+      "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
+      "summary": "Google's latest Gemini 4 Carbon AI model boasts top benchmark scores in areas like cybersecurity and coding.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/googles-gemini-4-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/l-intro-1793266804.jpg",
+      "published_at": "2026-10-29T09:41:58+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "33f98c75ea9ce61040c80df8401159adc43197941c077855b96f0ac05a76f441",
+      "title": "Hackers leaked details of more than 41,000 Homeland Security personnel",
+      "url": "https://www.engadget.com/2300661/hackers-leaked-details-more-than-41000-homeland-security-personnel/",
+      "summary": "A hacktivist group stole the information of ICE agents and border police from Homeland Security.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/hackers-leaked-details-of-more-than-41000-homeland-security-personnel/l-intro-1793262738.jpg",
+      "published_at": "2026-10-29T08:33:46+00:00",
+      "categories": [
+        "Cybersecurity"
       ]
     }
   ]
