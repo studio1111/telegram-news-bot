@@ -2824,58 +2824,37 @@
     "https://www.theverge.com/tech/1022592/apple-homeview-amazon-echo-show-16-smart-display-family-computer",
     "https://www.theverge.com/tech/1022894/iphone-duo-apple-pencil-hands-on",
     "8043ca8deac3dcb031ccd576e7473ae2842c6151295182491841651a4b74da36",
-    "https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/"
+    "https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/",
+    "1634b01ed7ac79cc0dd1a5881e50cf082c6429fe085ffb4734796f5dbcf0031f",
+    "6c74fdc14f7b9f0ed26e87a32bf8142325d30d4428ab74efe12331afd9f5c186",
+    "b05b5bca654aa87af8d94c0d966ff41ad6794d844498d19678abf4c05cfd18ec",
+    "https://www.engadget.com/2301968/senators-looking-into-serious-privacy-risks-with-meta-ai-glasses/",
+    "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+    "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x",
+    "b0cb2d3118fecaeb75d2c9ad8b30f5d702abdd5eccbfa176116ab0479068b34c",
+    "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+    "4ffb410c7716cf775e91a576c224b1b04d904a4a54076448902d46fc0d293874",
+    "6a975b6faee5b0cca3a6483709d20cf29cbacdaa28f903b18a6d02e9f1c8d433",
+    "https://www.engadget.com/2302681/everything-you-need-to-know-about-googlebooks/",
+    "https://www.engadget.com/2302956/meta-settles-another-social-media-addiction-case-just-before-trial/",
+    "d75fccee0d04d7377fbd3411924c50b76e02b5152c9a44a69efc35d12bf7f02e",
+    "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+    "097d58a929222f46b0d15deef3c3eb2d045032bcbd59be3fcb5b4a0275b10742",
+    "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+    "3adf93b942e686c780fd0a22be6d3b7d5048176a467bb302be9d5f9af8ce59dd",
+    "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+    "c8d8d8f58a4585abb2f1f9168cf11d54c33c1ebbc5fa405a0714dbaa949e85fb",
+    "https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets",
+    "f8bade2eb5bc57c5750ba27fa97dda2f9f8c45aaf5e1de7d8698c695c63391fc",
+    "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
+    "3a0247a7c1b5dacbd31e9a6ec0dcc8bb9e2012dcad4078c7ea830fd5e738fb60",
+    "https://www.theverge.com/gadgets/1022794/vizio-mini-led-quantum-tv-65-inch-walmart-deal-sale",
+    "bbbe0e91a754296e1445947b0218480b0c5a5d35ddc372415dfb849a967590d7",
+    "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+    "ea24213794ccd50873cf3badf79e19b9b61a1e1d4b1324c9464a3f3e89c1b508",
+    "https://www.engadget.com/2301498/lenovo-googlebook-15-review/"
   ],
   "published_stories": [
-    {
-      "title": "How to improve your online privacy and security in Google Chrome",
-      "summary": "Google has much to gain by collecting data from you through your activity on Chrome, but you can make it harder.",
-      "url": "https://www.engadget.com/2282288/how-to-improve-online-privacy-security-google-chrome/",
-      "display_title": "چگونه حریم خصوصی و امنیت خود را در گوگل کروم افزایش دهیم؟",
-      "display_summary": "مرورگر گوگل کروم (Google Chrome) به عنوان محبوب‌ترین مرورگر جهان، داده‌های زیادی از کاربران را جمع‌آوری می‌کند. با این حال، کاربران می‌توانند با تغییر برخی تنظیمات حریم خصوصی و امنیتی، از داده‌های خود در برابر ردیابی و خطرات سایبری محافظت کنند."
-    },
-    {
-      "title": "5 clever ways Gemini can automate everyday tasks",
-      "summary": "If you're not using some of these skills, you're missing out on a chance to streamline your days, keep up to date and more.",
-      "url": "https://www.engadget.com/2282226/clever-ways-gemini-automate-everyday-tasks/",
-      "display_title": "پنج روش هوشمندانه برای خودکارسازی کارهای روزمره با جمینای",
-      "display_summary": "هوش مصنوعی جمینای شرکت گوگل فراتر از پاسخ‌گویی به سوالات ساده عمل می‌کند و قابلیت خودکارسازی وظایف روزانه مانند مدیریت تقویم، بررسی ترافیک و دریافت اخبار را دارد. این ابزار با ویژگی‌های جدیدی مانند اسکن ایمیل‌ها توسط مدل جمینای اسپارک، به کاربران کمک می‌کند تا در وقت خود صرفه‌جویی کنند."
-    },
-    {
-      "title": "Helix Carbon says it can make iron cheaper by recycling blast furnace pollution",
-      "summary": "The steel industry is a big polluter, but Helix Carbon can upcycle pollution from blast furnaces to drive down emissions and improve margins.",
-      "url": "https://techcrunch.com/2026/10/13/helix-carbon-makes-iron-cheaper-by-upcycling-blast-furnace-pollution-see-how-at-techcrunch-disrupt/",
-      "display_title": "استارتاپ هلیکس کربن (Helix Carbon)؛ کاهش هزینه‌های تولید آهن و کربن‌زدایی با بازیافت آلاینده‌های کوره بلند",
-      "display_summary": "استارتاپ نوپای هلیکس کربن (Helix Carbon) فناوری تازه‌ای را برای تصفیه و بازیافت گازهای خروجی کوره‌های بلند فولادسازی توسعه داده است. این روش ضمن کاهش چشمگیر انتشار دی‌اکسید کربن، با تبدیل ضایعات به مونوکسید کربن و تزریق مجدد آن به کوره، هزینه‌های تولید آهن را برای تولیدکنندگان پایین می‌آورد."
-    },
-    {
-      "title": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers — see it at Disrupt",
-      "summary": "Diesel is expensive and polluting, and LNK Energies says it has come up with a way to replace it with hydrogen, all while undercutting diesel on cost.",
-      "url": "https://techcrunch.com/2026/10/13/mit-startup-says-it-can-turn-diesel-trucks-into-cheaper-hydrogen-haulers-see-it-at-disrupt/",
-      "display_title": "استارتاپ وابسته به ام‌آی‌تی (MIT) فناوری تبدیل کامیون‌های دیزلی به خودروهای هیدروژنی ارزان‌قیمت را معرفی کرد",
-      "display_summary": "یک استارتاپ برخاسته از انستیتو فناوری ماساچوست (MIT) به نام ال‌ان‌کی انرژی‌ز (LNK Energies) فناوری نوینی را توسعه داده است که می‌تواند کامیون‌های سنگین دیزلی را با هزینه‌ای کمتر و آلایندگی پایین‌تر به سوخت هیدروژنی مجهز کند. این روش با استفاده از حامل‌های مایع هیدروژن، نیاز به زیرساخت‌های پرهزینه فشرده‌سازی و جایگاه‌های جدید سوخت را از بین می‌برد."
-    },
-    {
-      "title": "Google will let you distribute vibe-coded Android apps with just a Google account",
-      "summary": "The company is revamping the Play Store for the AI era with changes to publishing, recommendations and more.",
-      "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
-      "display_title": "شرکت گوگل امکان انتشار برنامه‌های اندرویدی ساخته‌شده با هوش مصنوعی را با یک حساب کاربری ساده فراهم می‌کند",
-      "display_summary": "شرکت گوگل (Google) در راستای همگام‌سازی فروشگاه پلی‌استر (Play Store) با عصر هوش مصنوعی، به کاربران اجازه می‌دهد برنامه‌های تولید شده توسط ابزار هوش مصنوعی گوگل‌ای‌آی استودیو (Google AI Studio) را تنها با داشتن یک حساب کاربری گوگل (Google Account) و بدون نیاز به حساب توسعه‌دهنده پولی منتشر کنند. این به‌روزرسانی شامل قابلیت‌های جدید کشف برنامه‌ها، بهبود سیستم توصیف بازی‌ها و قابلیت‌های تعاملی جدید نیز می‌شود."
-    },
-    {
-      "title": "Is AppleCare actually worth it for the Apple Watch SE?",
-      "summary": "AppleCare+ makes Apple Watch repairs or replacements easier, but even at a low cost, it might not be a good value.",
-      "url": "https://www.engadget.com/2282163/applecare-apple-watch-se-when-worth-buying/",
-      "display_title": "آیا خرید بیمه اپل‌کر پلاس برای ساعت هوشمند اپل واچ اس‌ای ارزش مالی دارد؟",
-      "display_summary": "بیمه اپل‌کر پلاس (AppleCare+) برای ساعت هوشمند اپل واچ اس‌ای ۳ (Apple Watch SE 3) با قیمت ماهانه پایینی ارائه می‌شود، اما هزینه‌های جانبی تعمیرات و شرایط خاص آن باعث می‌شود که این طرح برای همه کاربران گزینه به‌صرفه‌ای نباشد. انتخاب این بیمه کاملاً به سبک زندگی کاربر و میزان ریسک آسیب‌دیدگی دستگاه بستگی دارد."
-    },
-    {
-      "title": "Google's Gemini 4 Argon is now available in the Gemini app and AI Mode in Search",
-      "summary": "Google has rolled out Gemini 4 Argon to more users.",
-      "url": "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
-      "display_title": "مدل هوش مصنوعی جمنای ۴ آرگون (Gemini 4 Argon) گوگل عرضه شد",
-      "display_summary": "شرکت گوگل (Google) مدل هوش مصنوعی جدید خود موسوم به جمنای ۴ آرگون (Gemini 4 Argon) را در اپلیکیشن جمنای (Gemini) و حالت هوش مصنوعی در بخش جستجو منتشر کرد. این مدل پیشرفته در حال حاضر تنها برای مشترکان اشتراک‌های پریمیوم و پرو این شرکت در دسترس است."
-    },
     {
       "title": "India delays digital payments fee rollout amid retailer pushback",
       "summary": "The NPCI, which operates the UPI network, said it was postponing the planned October 15 rollout of the 0.4% fee due to the festive shopping season.",
@@ -6326,6 +6305,55 @@
       "url": "https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/",
       "display_title": "متا اپلیکیشن مد مبتنی بر هوش مصنوعی را برای پرو مجازی لباس عرضه کرد",
       "display_summary": "شرکت متا (Meta) اپلیکیشن مد جدیدی بر پایه هوش مصنوعی به نام استایل اسکچ (Style Sketch) را به صورت محدود در کشورهای اندونزی، سنگاپور و تایلند منتشر کرد. این برنامه به کاربران اجازه می‌دهد با استفاده از تصاویر شبکه‌های اجتماعی یا گالری خود، کمد مجازی بسازند و لباس‌ها را روی مدل‌های شبیه‌سازی‌شده پرو کنند."
+    },
+    {
+      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+      "display_title": "ادامه خریدهای راهبردی شرکت سیلزفورس با خرید ۳۷۵ میلیون دلاری استارتاپ دفاعی «رون»",
+      "display_summary": "شرکت «سیلزفورس» در راستای توسعه فعالیت‌های خود در حوزه فناوری‌های دفاعی، توافق کرده است تا استارتاپ «رون تکنولوجیز» (Rune Technologies) را با مبلغ ۳۷۵ میلیون دلار به صورت نقد و سهام خریداری کند. این قرارداد به پلتفرم دفاعی «میشن‌فورس» (Missionforce) کمک می‌کند تا با بهره‌گیری از هوش مصنوعی، مدیریت لجستیک و پیش‌بینی نیازهای زنجیره تأمین ارتش ایالات متحده آمریکا را بهبود بخشد."
+    },
+    {
+      "title": "Satlyt takes another step toward turning satellites into space data centers",
+      "summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+      "display_title": "گام مهم شرکت «ستلیت» (Satlyt) برای تبدیل ماهواره‌ها به مراکز داده فضایی",
+      "display_summary": "شرکت نوپای «ستلیت» (Satlyt) با موفقیت در یک آزمایش جدید، یک قدم دیگر به تبدیل ماهواره‌ها به مراکز داده مجازی در فضا نزدیک‌تر شد. این فناوری به ماهواره‌ها اجازه می‌دهد تا وظایف پردازشی را بر اساس میزان ارتباطات و منابع موجود در مدار بین خود تقسیم کنند."
+    },
+    {
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "display_title": "معرفی ایجنت هوش مصنوعی جدید «زست» برای پیشنهاد رستوران و رزرو میز از طریق پیامک",
+      "display_summary": "استارتاپ «زست» از یک دستیار هوش مصنوعی جدید رونمایی کرده است که در بستر پیامک فعالیت می‌کند. این ایجنت قادر است با تحلیل سلیقه غذایی کاربران و دوستانشان، گزینه‌های مناسب را پیشنهاد دهد، نظرسنجی کند و حتی میز مورد نظر را رزرو نماید."
+    },
+    {
+      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More [&#8230;]",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "display_title": "استارباکس به دنبال استفاده از هوش مصنوعی برای نمایش منوهای دیجیتال شخصی‌سازی‌شده در بخش سفارش‌دهی خودرویی است",
+      "display_summary": "شرکت استارباکس قصد دارد با بهره‌گیری از فناوری هوش مصنوعی، منوهای دیجیتال و شخصی‌سازی‌شده را هنگام ورود مشتریان به بخش سفارش‌دهی خودرویی (Drive-thru) ارائه دهد. برایان نیکل، مدیرعامل استارباکس، اعلام کرد که این شرکت همچنین به دنبال استفاده از مدل‌های هوش مصنوعی برای کمک به باریستاها در ثبت دقیق‌تر سفارش‌ها و بهبود تجربه کاربری در اپلیکیشن اختصاصی خود است."
+    },
+    {
+      "title": "Rivian’s autonomy gamble faces its first real test",
+      "summary": "During an hourlong earnings call last night, Rivian CEO RJ Scaringe spent less time talking about the production ramp of the all-important R2 SUV than he did hyping the company's still-unproven autonomous vehicle ambitions. But the company faces a crucial test later this year, when it rolls out its point-to-point hands-free driving feature - first [&#8230;]",
+      "url": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
+      "display_title": "قمار بزرگ ریویان روی فناوری خودران؛ آزمونی سرنوشت‌ساز برای آینده این شرکت",
+      "display_summary": "شرکت ریویان (Rivian) در جریان گزارش مالی اخیر خود تمرکز ویژه‌ای بر برنامه‌های خودران و سیستم‌های هوش مصنوعی معطوف کرد. با این حال، تلاش برای توسعه فناوری‌های خودران پیشرفته همزمان با مقیاس‌بندی تولید خودروی انبوه آر۲ (R2)، ریسک مالی بزرگی را برای این خودروساز الکتریکی رقم زده است."
+    },
+    {
+      "title": "Vizio’s discounted Mini LED TV lets you skip the sign-ups and smarts",
+      "summary": "Modern smart TVs let you skip the streaming device, which is convenient, but they also come with their own issues, including privacy concerns and frequent updates. The Vizio Mini LED Quantum TV lets you cut out the rigamarole and just get straight to the HDMI ports. And right now, it’s discounted at Walmart, with the [&#8230;]",
+      "url": "https://www.theverge.com/gadgets/1022794/vizio-mini-led-quantum-tv-65-inch-walmart-deal-sale",
+      "display_title": "تلویزیون اقتصادی مینی‌ال‌ای‌دی ویزیو با قابلیت دور زدن سیستم‌عامل هوشمند و تخفیف ویژه",
+      "display_summary": "تلویزیون مینی‌ال‌ای‌دی کوانتوم ساخت شرکت ویزیو به کاربران امکان می‌دهد تا از تنظیمات پیچیده و سیستم‌عامل‌های هوشمند با قابلیت ردیابی داده‌ها صرف‌نظر کنند. این محصول اقتصادی در فروشگاه والمارت با تخفیف‌های جذاب برای مدل‌های مختلف عرضه شده است."
+    },
+    {
+      "title": "Lenovo Googlebook 15 review: Your Android phone's new best friend",
+      "summary": "Despite Lenovo providing excellent hardware for Google's new laptop platform, Googlebook OS will only impress Android die-hards.",
+      "url": "https://www.engadget.com/2301498/lenovo-googlebook-15-review/",
+      "display_title": "بررسی لپ‌تاپ گوگل‌بوک ۱۵ ساخت لنوو؛ پلتفرم جدید گوگل و قابلیت‌های آن",
+      "display_summary": "لپ‌تاپ گوگل‌بوک ۱۵ (Googlebook 15) ساخته شرکت لنوو (Lenovo) با سخت‌افزاری پریمیوم و نمایشگر خیره‌کننده OLED عرضه شده است. با این حال، سیستم‌عامل جدید گوگل‌بوک (Googlebook OS) به‌عنوان یک نرم‌افزار نسل اولی همچنان نیازمند بهینه‌سازی و رفع باگ‌های سازگاری برنامه‌ها است."
     }
   ],
   "outbox": [
@@ -8765,72 +8793,156 @@
     {
       "key": "url:37facd4b9ab8bfdbf2e0c5d2986026ef90b467cd8148cfc8c13d7901ef066da2",
       "url": "https://www.engadget.com/2302932/bluesky-now-has-a-dedicated-moderation-inbox/",
-      "title": "Bluesky now has a dedicated 'moderation inbox'",
-      "summary": "The beta feature makes it easier to stay on top of reports and account strikes.",
-      "display_title": "شبکه اجتماعی بلوسکی صندوق پیام‌رسانی اختصاصی برای مدیریت محتوا معرفی کرد",
-      "display_summary": "شبکه اجتماعی بلوسکی (Bluesky) از راه‌اندازی یک صندوق پیام‌رسانی اختصاصی برای مدیریت محتوا در نسخه بتا خبر داد. این ویژگی جدید به کاربران امکان می‌دهد تا گزارش‌های ارسالی، وضعیت حساب کاربری و اخطارهای دریافت شده را در یک مکان واحد پیگیری کنند.",
       "message": "<b>📰 شبکه اجتماعی بلوسکی صندوق پیام‌رسانی اختصاصی برای مدیریت محتوا معرفی کرد</b>\n\nشبکه اجتماعی بلوسکی (Bluesky) از راه‌اندازی یک صندوق پیام‌رسانی اختصاصی برای مدیریت محتوا در نسخه بتا خبر داد. این ویژگی جدید به کاربران امکان می‌دهد تا گزارش‌های ارسالی، وضعیت حساب کاربری و اخطارهای دریافت شده را در یک مکان واحد پیگیری کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شبکه اجتماعی بلوسکی (Bluesky) در راستای بهبود ارتباط با کاربران و شفاف‌سازی فرآیندهای نظارتی، از راه‌اندازی یک بخش جدید تحت عنوان صندوق پیام‌رسانی مدیریت محتوا (Moderation Inbox) خبر داد. این ویژگی که در حال حاضر به صورت نسخه آزمایشی یا بتا (Beta) عرضه شده است، تلاش می‌کند تا روند پیگیری گزارش‌ها و وضعیت حساب‌های کاربری را ساماندهی کند. بر اساس اطلاعات منتشر شده، این صندوق جدید تمامی گزارش‌هایی را که کاربران درباره سایر حساب‌ها یا پست‌ها ثبت کرده‌اند، به همراه اقدامات انجام شده علیه حساب کاربری خود فرد و وضعیت کلی او در پلتفرم، در یک بخش واحد جمع‌آوری می‌کند. برای فعال‌سازی این قابلیت، کاربران باید ابتدا گزینه‌های مربوط به ویژگی‌های بتا را در بخش تنظیمات اپلیکیشن بلوسکی (Bluesky) فعال کرده و سپس صندوق پیام‌رسانی را از طریق منوی ابزارهای نظارتی (Moderation tools) پیدا کنند. بلوسکی (Bluesky) اعلام کرده است که این صندوق در ابتدا خالی خواهد بود، حتی اگر کاربر پیش‌تر اخطاری دریافت کرده باشد، اما با ثبت گزارش‌های جدید و اعمال تصمیمات نظارتی توسط پلتفرم، این بخش به‌روزرسانی می‌شود. از مزایای کلیدی این قابلیت امکان ثبت درخواست تجدیدنظر (Appeal) برای بیشتر تصمیمات پلتفرم به طور مستقیم از طریق اپلیکیشن است؛ هرچند مواردی همچنان نیازمند پیگیری از طریق صفحه ورود به حساب کاربری خواهند بود. پیش از این، بلوسکی (Bluesky) تصمیمات مربوط به مدیریت محتوا را از طریق ایمیل به کاربران اطلاع‌رسانی می‌کرد که این روش مشکلاتی را به همراه داشت؛ از جمله دشواری در دسترسی به کاربرانی که از سرورهای مستقل استفاده می‌کردند و محدود شدن اطلاع‌رسانی‌ها تنها به موارد بسیار جدی. صندوق پیام‌رسانی درون‌برنامه‌ای به شرکت اجازه می‌دهد بدون شلوغ کردن صندوق ایمیل کاربران، نوتیفیکیشن‌ها را ارسال کرده و مراحل مختلف نظارت را با آن‌ها به اشتراک بگذارد. این شبکه اجتماعی پیش‌تر به خاطر ابزارهای مسدودسازی پیشرفته شهرت یافته بود، اما رویکرد خود این شرکت در زمینه نظارت بر محتوا گاه با انتقاداتی نیز روبرو شده است. به عنوان مثال، در سال ۲۰۲۵ گزارشی از سوی روزنامه گاردین (The Guardian) منتشر شد که نشان می‌داد سیستم خودکار اسپم این پلتفرم به اشتباه حساب‌های کاربری مربوط به فلسطینیان را مسدود کرده است. قابلیت‌های جدید نظارتی و امکان اعتراض مستقیم درون‌برنامه‌ای می‌تواند به شفافیت بیشتر و کاهش چالش‌های این‌چنینی کمک کند. علاوه بر صندوق پیام‌رسانی مدیریت محتوا، آخرین به‌روزرسانی بلوسکی (Bluesky) شامل یک ابزارک یا ویجت (Widget) اختیاری برای صفحه اصلی گوشی است که موضوعات داغ و پربحث (Trending topics) را به نمایش می‌گذارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/bluesky-now-has-a-dedicated-moderation-inbox/l-intro-1793390683.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Bluesky now has a dedicated 'moderation inbox'",
+      "summary": "The beta feature makes it easier to stay on top of reports and account strikes.",
+      "display_title": "شبکه اجتماعی بلوسکی صندوق پیام‌رسانی اختصاصی برای مدیریت محتوا معرفی کرد",
+      "display_summary": "شبکه اجتماعی بلوسکی (Bluesky) از راه‌اندازی یک صندوق پیام‌رسانی اختصاصی برای مدیریت محتوا در نسخه بتا خبر داد. این ویژگی جدید به کاربران امکان می‌دهد تا گزارش‌های ارسالی، وضعیت حساب کاربری و اخطارهای دریافت شده را در یک مکان واحد پیگیری کنند."
     },
     {
       "key": "url:8198aceabf4925286944360363545e9c8abf8423cc4a04285a9b10219150112b",
       "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
-      "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
-      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal &#038; Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
-      "display_title": "پیشنهاد خرید موسسه حقوقی سنتی «ویل گاتشال» توسط استارتاپ حقوقی هوش مصنوعی «کروزبی»",
-      "display_summary": "استارتاپ حقوقی مبتنی بر هوش مصنوعی «کروزبی (Crosby)» پس از بحران و در آستانه فروپاشی موسسه حقوقی سنتی و نام‌آشنای وال‌استریت، «ویل گاتشال (Weil Gotshal & Manges)»، پیشنهادی برای خرید برخی از دارایی‌ها، نشان تجاری و جذب وکلای آن ارائه داده است. این تحول نشان‌دهنده تغییرات ساختاری عمیق در صنعت حقوقی و تلاش استارتاپ‌های فناوری‌محور برای تسلط بر آینده خدمات حقوقی است.",
       "message": "<b>📰 پیشنهاد خرید موسسه حقوقی سنتی «ویل گاتشال» توسط استارتاپ حقوقی هوش مصنوعی «کروزبی»</b>\n\nاستارتاپ حقوقی مبتنی بر هوش مصنوعی «کروزبی (Crosby)» پس از بحران و در آستانه فروپاشی موسسه حقوقی سنتی و نام‌آشنای وال‌استریت، «ویل گاتشال (Weil Gotshal &amp; Manges)»، پیشنهادی برای خرید برخی از دارایی‌ها، نشان تجاری و جذب وکلای آن ارائه داده است. این تحول نشان‌دهنده تغییرات ساختاری عمیق در صنعت حقوقی و تلاش استارتاپ‌های فناوری‌محور برای تسلط بر آینده خدمات حقوقی است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در روزهای اخیر، صنعت حقوقی ایالات متحده شاهد یکی از عجیب‌ترین و در عین حال متحولانه‌ترین رویدادهای خود بوده است؛ رویدادی که به تعبیری شبیه به یک سناریوی واقعی از سریال تلویزیونی «سوتس (Suits)» است. موسسه حقوقی سنتی و معتبر «ویل گاتشال (Weil Gotshal &amp; Manges)» در وال‌استریت که سابقه درخشانی دارد، پس از انصراف رهبر آینده‌اش، جدایی شماری از وکلای ارشد و شکست در مذاکرات ادغام با رقیب دیرینه‌اش «ویلکی فر اند گالاگر (Willkie Farr &amp; Gallagher)»، اکنون در آستانه رای‌گیری برای انحلال کامل قرار گرفته است. در همین حال، استارتاپ نوپای «کروزبی (Crosby)» که بر پایه فناوری هوش مصنوعی بنیان‌گذاری شده، وارد میدان شده و پیشنهادی رسمی برای تصاحب بخشی از دارایی‌های «ویل گاتشال (Weil Gotshal &amp; Manges)»، از جمله نشان تجاری (Brand)، حق امتیاز و داده‌های داخلی آن ارائه داده است. علاوه بر این، این استارتاپ در تلاش است تا برخی از ۱,۲۰۰ وکیل شاغل در این موسسه بحران‌زده را به همکاری دعوت کند. خبر این پیشنهاد جذاب نخستین بار توسط نشریه «اینفرمیشن (The Information)» منتشر شد. استارتاپ «کروزبی (Crosby)» که تنها دو سال از عمر آن می‌گذرد، رویکرد متفاوتی نسبت به سایر شرکت‌های فناوری حقوقی دارد. برخلاف شرکت‌هایی نظیر «هاروی (Harvey)» یا «لگورا (Legora)» که نرم‌افزارها و ابزارهای هوش مصنوعی خود را به موسسات سنتی می‌فروشند، «کروزبی (Crosby)» خود به عنوان یک موسسه حقوقی مستقل عمل می‌کند. این شرکت ادعا می‌کند که با اتکا به قابلیت‌های هوش مصنوعی پیشرفته، خدمات حقوقی را با سرعتی بی‌سابقه به مشتریان ارائه می‌دهد. این استارتاپ در مسیر رشد خود موفق شده است حدود ۸۵ میلیون دلار سرمایه جذب کند؛ از جمله یک دور سرمایه‌گذاری سری B به مبلغ ۶۰ میلیون دلار در ماه مارس که توسط شرکت‌های سرمایه‌گذاری «لوکس کپیتال (Lux Capital)» و «ایندکس ونچرز (Index Ventures)» هدایت شد و صندوق‌های دیگری نظیر «سکویا کپیتال (Sequoia Capital)»، «الاد جیل (Elad Gil)»، «وان‌وان ادوایزرز (01 Advisors)» و «بین کپیتال ونچرز (Bain Capital Ventures)» نیز در آن مشارکت داشتند. «کروزبی (Crosby)» در سال ۲۰۲۵ با بودجه اولیه ۵.۸ میلیون دلاری از سایه خارج شده و فعالیت رسمی خود را آغاز کرده بود. اگرچه کارشناسان بر این باورند که ظهور هوش مصنوعی عامل مستقیم فروپاشی «ویل گاتشال (Weil Gotshal &amp; Manges)» نبوده است، اما ناظران صنعت معتقدند که فناوری‌های هوش مصنوعی بدون شک نقشی کلیدی در شکل‌دهی به آینده حرفه وکالت و موسسات حقوقی خواهند داشت. تا کنون جزئیات مالی دقیق و شرایط این پیشنهاد از سوی طرفین فاش نشده است و هیچ تضمینی وجود ندارد که «کروزبی (Crosby)» در این معامله به موفقیت برسد. با این وجود، در صورت نهایی شدن این قرارداد، میراث یکی از بزرگ‌ترین نام‌های تاریخ حقوقی وال‌استریت می‌تواند بار دیگر از میان خاکستر برخیزد؛ این بار اما در کالبدی کاملاً مدرن، دیجیتال و مبتنی بر هوش مصنوعی.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2025/06/Crosby-cofounders.jpg?resize=1200,900",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal &#038; Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "display_title": "پیشنهاد خرید موسسه حقوقی سنتی «ویل گاتشال» توسط استارتاپ حقوقی هوش مصنوعی «کروزبی»",
+      "display_summary": "استارتاپ حقوقی مبتنی بر هوش مصنوعی «کروزبی (Crosby)» پس از بحران و در آستانه فروپاشی موسسه حقوقی سنتی و نام‌آشنای وال‌استریت، «ویل گاتشال (Weil Gotshal & Manges)»، پیشنهادی برای خرید برخی از دارایی‌ها، نشان تجاری و جذب وکلای آن ارائه داده است. این تحول نشان‌دهنده تغییرات ساختاری عمیق در صنعت حقوقی و تلاش استارتاپ‌های فناوری‌محور برای تسلط بر آینده خدمات حقوقی است."
     },
     {
       "key": "url:caa322de31cf06b75c5241f976f06736d37a210229f479ca2f558f2d980257d0",
       "url": "https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter",
-      "title": "This electric screwdriver uses a camera and AI to figure out what bit you need",
-      "summary": "Companies like Hoto and Fanttik have elevated the design and functionality of tools like electric screwdrivers, but Arrowmax wants to make them smarter by adding a camera and AI that work together to eliminate the trial and error of finding the exact type and size of bit you need. It's convenient, but also helpful, as [&#8230;]",
-      "display_title": "معرفی پیچ‌گوشتی برقی هوشمند شرکت «ارومکس (Arrowmax)» مجهز به دوربین و هوش مصنوعی",
-      "display_summary": "شرکت «ارومکس (Arrowmax)» از پیچ‌گوشتی برقی جدیدی به نام «اروسپیس اس‌وان (Arrowspace S1)» رونمایی کرده است که با بهره‌گیری از دوربین داخلی و هوش مصنوعی، نوع و اندازه سرپیچ مناسب را تشخیص می‌دهد. این ابزار هوشمند برای رفع نیاز کاربران در انتخاب دقیق ابزار و جلوگیری از آسیب به پیچ‌ها طراحی شده است و از طریق کمپین تامین مالی جمعی «کیک‌استارتر (Kickstarter)» عرضه می‌شود.",
       "message": "<b>📰 معرفی پیچ‌گوشتی برقی هوشمند شرکت «ارومکس (Arrowmax)» مجهز به دوربین و هوش مصنوعی</b>\n\nشرکت «ارومکس (Arrowmax)» از پیچ‌گوشتی برقی جدیدی به نام «اروسپیس اس‌وان (Arrowspace S1)» رونمایی کرده است که با بهره‌گیری از دوربین داخلی و هوش مصنوعی، نوع و اندازه سرپیچ مناسب را تشخیص می‌دهد. این ابزار هوشمند برای رفع نیاز کاربران در انتخاب دقیق ابزار و جلوگیری از آسیب به پیچ‌ها طراحی شده است و از طریق کمپین تامین مالی جمعی «کیک‌استارتر (Kickstarter)» عرضه می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت‌های مختلفی در سال‌های اخیر طراحی و کارایی ابزارهایی مانند پیچ‌گوشتی‌های برقی را ارتقا داده‌اند، اما شرکت «ارومکس (Arrowmax)» قصد دارد با افزودن دوربین و فناوری هوش مصنوعی، این ابزار را وارد مرحله‌ای جدید کند. محصول جدید این شرکت که «اروسپیس اس‌وان (Arrowspace S1)» نام دارد، به گونه‌ای طراحی شده است که فرآیند حدس و خطا برای پیدا کردن نوع و اندازه دقیق سرپیچ (Bit) مورد نیاز را به طور کامل حذف کند. انتخاب اشتباه اندازه سرپیچ می‌تواند به خراب شدن دنده پیچ و دشوارتر شدن فرایند تعمیر منجر شود، و این ابزار جدید دقیقاً برای حل همین مشکل توسعه یافته است. پیچ‌گوشتی «اروسپیس اس‌وان (Arrowspace S1)» در حال حاضر از طریق کمپین تامین مالی جمعی در وب‌سایت «کیک‌استارتر (Kickstarter)» در دسترس علاقه‌مندان قرار گرفته است، هرچند این شرکت پیش‌تر نیز محصولات موفق دیگری را از همین طریق عرضه کرده بود. کاربران می‌توانند این پیچ‌گوشتی را به صورت An individual و با قیمتی حدود ۷۹ دلار پیش‌خرید کنند، اما کاربرد و کارایی آن با خرید بسته ترکیبی شامل کیف هوشمند سرپیچ که قیمت پیش‌خرید را به حدود ۱۲۹ دلار می‌رساند، به شکل قابل توجهی افزایش می‌یابد. قیمت نهایی در بازار خرده‌فروشی بالاتر خواهد بود و انتظار می‌رود عرضه این محصول زودتر از آوریل ۲۰۲۷ آغاز نشود. در بخش پایینی مدل «اروسپیس اس‌وان (Arrowspace S1)» یک دوربین کوچک همراه با چراغ ال‌ئی‌دی (LED) تعبیه شده است که برای ثبت تصویر از سرپیچ کاربرد دارد. برای اطمینان از اینکه مدل هوش مصنوعی بهترین تصویر ممکن را دریافت کند، یک «کاوشگر تماس دقیق» در کنار دوربین قرار گرفته که روی سطح پیچ قرار می‌گیرد تا فاصله کانونی دوربین همیشه در حالت ایده‌آل باشد. پس از پردازش تصویر توسط هوش مصنوعی، نوع و اندازه سرپیچ مورد نیاز از طریق یک اپلیکیشن موبایل متصل نمایش داده می‌شود. بر اساس پیچ شناسایی شده، پیچ‌گوشتی همچنین به صورت خودکار تنظیمات گشتاور ایمن را انتخاب می‌کند تا خطر آسیب به قطعه کاهش یابد. برای راحتی بیشتر کاربران و بی‌نیازی از جستجوی دستی، کیف هوشمند «اس‌وان (S1 Smart Case)» شامل ۵۲ سرپیچ فولادی است که در کنار هرکدام یک چراغ ال‌ئی‌دی (LED) قرار دارد و با روشن شدن، سرپیچ مورد نظر را به راحتی نمایان می‌کند. این دستگاه به یک باتری قابل شارژ ۶۰۰ میلی‌آمپرساعتی مجهز است که به گفته شرکت سازنده، انرژی لازم برای ۹۰ دقیقه استفاده مداوم یا باز و بسته کردن بیش از ۹۰۰ پیچ را فراهم می‌کند. اطلاعات مربوط به شارژ باقی‌مانده، تنظیمات گشتاور و جهت چرخش نیز بر روی نمایشگر «اولد (OLED)» تعبیه‌شده روی بدنه دستگاه قابل مشاهده است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/arrowspace1.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "This electric screwdriver uses a camera and AI to figure out what bit you need",
+      "summary": "Companies like Hoto and Fanttik have elevated the design and functionality of tools like electric screwdrivers, but Arrowmax wants to make them smarter by adding a camera and AI that work together to eliminate the trial and error of finding the exact type and size of bit you need. It's convenient, but also helpful, as [&#8230;]",
+      "display_title": "معرفی پیچ‌گوشتی برقی هوشمند شرکت «ارومکس (Arrowmax)» مجهز به دوربین و هوش مصنوعی",
+      "display_summary": "شرکت «ارومکس (Arrowmax)» از پیچ‌گوشتی برقی جدیدی به نام «اروسپیس اس‌وان (Arrowspace S1)» رونمایی کرده است که با بهره‌گیری از دوربین داخلی و هوش مصنوعی، نوع و اندازه سرپیچ مناسب را تشخیص می‌دهد. این ابزار هوشمند برای رفع نیاز کاربران در انتخاب دقیق ابزار و جلوگیری از آسیب به پیچ‌ها طراحی شده است و از طریق کمپین تامین مالی جمعی «کیک‌استارتر (Kickstarter)» عرضه می‌شود."
     },
     {
       "key": "url:baf2e8680ec92ea7a5c1fb842627bbfa119b0f4469128343da5b1e2607141102",
       "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "summary": "DoorDash said that it is open to working with third-party agent makers.",
-      "display_title": "درخواست‌های ثبت‌شده توسط ایجنت‌های هوش مصنوعی در دورداش تنها به «چند صد سفارش» محدود شده است",
-      "display_summary": "شرکت تحویل سفارش دورداش (DoorDash) اعلام کرد که برخلاف سر و صدای زیاد درباره تسخیر تجارت توسط هوش مصنوعی، تاکنون تنها چند صد سفارش از طریق ایجنت‌های شخص ثالث دریافت کرده است. مدیرعامل این شرکت، تونی خو (Tony Xu)، بر لزوم واقع‌بین بودن در خصوص فناوری‌های نوظهور تأکید کرد، در حالی که مسیر همکاری با سازندگان این ابزارها همچنان باز است.",
       "message": "<b>📰 درخواست‌های ثبت‌شده توسط ایجنت‌های هوش مصنوعی در دورداش تنها به «چند صد سفارش» محدود شده است</b>\n\nشرکت تحویل سفارش دورداش (DoorDash) اعلام کرد که برخلاف سر و صدای زیاد درباره تسخیر تجارت توسط هوش مصنوعی، تاکنون تنها چند صد سفارش از طریق ایجنت‌های شخص ثالث دریافت کرده است. مدیرعامل این شرکت، تونی خو (Tony Xu)، بر لزوم واقع‌بین بودن در خصوص فناوری‌های نوظهور تأکید کرد، در حالی که مسیر همکاری با سازندگان این ابزارها همچنان باز است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>برخلاف سر و صدای زیادی که درباره تسخیر تجارت و ثبت سفارش‌ها توسط ابزارهای خودکار به پا شده است، آمارها نشان می‌دهند که این فناوری هنوز راه درازی در پیش دارد. شرکت تحویل غذای دورداش (DoorDash) در جریان گزارش مالی سه ماهه سوم خود فاش کرد که تاکنون تنها «چند صد سفارش» از طریق ایجنت‌های هوش مصنوعی شخص ثالث مانند میوز (Muse)، اینستینکت (Instinct) و فو (Fo) دریافت کرده است. این آمار در مقیاس فعالیت‌های این غول تحویل کالا بسیار ناچیز است. برای مقایسه، شرکت دورداش (DoorDash) در گزارش سال ۲۰۲۵ خود اعلام کرده بود که به طور میانگین روزانه ۳ میلیون سفارش تحویل می‌دهد. تونی خو (Tony Xu)، مدیرعامل دورداش (DoorDash)، در پاسخ به سوالات تحلیلگران پیرامون این موضوع گفت که استفاده از ایجنت‌ها برای ثبت سفارش همچنان یک حوزه بسیار پویا و در حال تغییر است. تونی خو (Tony Xu) افزود: «دیدگاه من درباره تمامی مسائل مربوط به فناوری این است که هیچ‌گاه نباید با جاذبه بجنگید، اما در عین حال نباید توهم‌زده هم باشید. منظورم این است که اگر به جایگاه امروزی ایجنت‌های هوش مصنوعی نگاه کنیم، می‌بینیم که در کل شاید تنها چند صد سفارش از سوی برخی از این ایجنت‌های شخص ثالث دریافت کرده‌ایم.» مدیرعامل دورداش (DoorDash) خاطرنشان کرد که کاربران همچنان ترجیح می‌دهند سفارش‌های خود را به روش سنتی و مستقیماً از طریق اپلیکیشن دورداش (DoorDash) ثبت کنند. با این حال، این شرکت تمایل دارد اطلاعات بیشتری درباره موارد استفاده از ایجنت‌ها کسب کند و رابطه سالم و سازنده‌ای با توسعه‌دهندگان شخص ثالث برقرار سازد. وی همچنین اشاره کرد که در آینده ممکن است فرصت‌هایی برای تبلیغات درون این ایجنت‌ها وجود داشته باشد. با وجود آمار پایین سفارش‌ها، دورداش (DoorDash) خود نیز به توسعه ابزارهای مشابه پرداخته است؛ از جمله یک ایجنت تبدیل متن به سفارش که در ماه سپتامبر معرفی شد، یک ایجنت خط فرمان در ماه ژوئیه و یک چت‌بات به نام اسک دورداش (Ask DoorDash) که در ماه ژوئن راه‌اندازی شد تا کاربران بتوانند با استفاده از دستورات متنی و تصاویر سفارش خود را ثبت کنند. این شرکت همچنین یک پروتکل ارتباطی برای سفارش‌های شرکتی از طریق سایر چت‌بات‌ها عرضه کرده است. فکلور و فضای سفارش‌دهی مبتنی بر ایجنت‌ها در حال تحول است و وب‌سایت‌ها و پلتفرم‌ها هنوز در حال تصمیم‌گیری درباره نحوه دسترسی این ابزارها به محتوای خود هستند. در حالی که شرکت‌هایی مانند آمازون (Amazon) دسترسی ایجنت‌های شخصی را مسدود کرده‌اند، رقیبی چون والمارت (Walmart) از آن‌ها استقبال کرده است تا سهم بیشتری از بازار را از چنگ رقبا درآورد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1232015093.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "summary": "DoorDash said that it is open to working with third-party agent makers.",
+      "display_title": "درخواست‌های ثبت‌شده توسط ایجنت‌های هوش مصنوعی در دورداش تنها به «چند صد سفارش» محدود شده است",
+      "display_summary": "شرکت تحویل سفارش دورداش (DoorDash) اعلام کرد که برخلاف سر و صدای زیاد درباره تسخیر تجارت توسط هوش مصنوعی، تاکنون تنها چند صد سفارش از طریق ایجنت‌های شخص ثالث دریافت کرده است. مدیرعامل این شرکت، تونی خو (Tony Xu)، بر لزوم واقع‌بین بودن در خصوص فناوری‌های نوظهور تأکید کرد، در حالی که مسیر همکاری با سازندگان این ابزارها همچنان باز است."
     },
     {
       "key": "url:57bd8cae501a4c7803bcdea65bff5258df6940e4c6836b6573eb0e88f1b387dc",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
-      "title": "Silicon Valley wants you to invest in miracles",
-      "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, [&#8230;]",
-      "display_title": "درخواست شرکت انتروپیک از وال‌استریت برای سرمایه‌گذاری روی «عصر معجزات» هوش مصنوعی",
-      "display_summary": "شرکت هوش مصنوعی انتروپیک (Anthropic) با انتشار اوراق ثبت‌نام اولیه (S-1) برای ورود به بورس، سرمایه‌گذاران وال‌استریت را به مشارکت در آینده‌ای شگفت‌انگیز اما پر از ریسک‌های اگزیستانسیال دعوت کرده است. این سند ۳۳۵ صفحه‌ای ترکیبی از وعده‌های بزرگ تکنولوژیک و اعترافات صریح به خطرات بالقوه هوش مصنوعی پیشرفته است.",
       "message": "<b>📰 درخواست شرکت انتروپیک از وال‌استریت برای سرمایه‌گذاری روی «عصر معجزات» هوش مصنوعی</b>\n\nشرکت هوش مصنوعی انتروپیک (Anthropic) با انتشار اوراق ثبت‌نام اولیه (S-1) برای ورود به بورس، سرمایه‌گذاران وال‌استریت را به مشارکت در آینده‌ای شگفت‌انگیز اما پر از ریسک‌های اگزیستانسیال دعوت کرده است. این سند ۳۳۵ صفحه‌ای ترکیبی از وعده‌های بزرگ تکنولوژیک و اعترافات صریح به خطرات بالقوه هوش مصنوعی پیشرفته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت پیشرو در زمینه هوش مصنوعی، انتروپیک (Anthropic)، با انتشار پرونده ۳۳۵ صفحه‌ای S-1 خود برای عرضه اولیه سهام (IPO)، نقطه عطف تازه‌ای در ادبیات مالی و فناورانه در مواجهه با وال‌استریت (Wall Street) رقم زده است. این شرکت در نامه‌ای که در ابتدای این سند منتشر شده، از خریداران احتمالی سهام خواسته است که خرید خود را تنها یک معامله مالی ساده ندانند، بلکه آن را فرصتی برای مشارکت در «یکی از مهم‌ترین لحظات تاریخ بشر» تلقی کنند. بنیان‌گذاران انتروپیک در این بیانیه ادعا کرده‌اند که هدف آن‌ها هدایت بشریت به سوی ایمنی در برابر تحولات تکنولوژیک، گشودن مرزهای تازه کشف و خلق «عصر معجزات» است. با این حال، این سند طولانی که شامل ۹۴ صفحه از عوامل خطر مختلف است، هشدارهای صریحی نیز در بر دارد. از جمله این هشدارها می‌توان به خطرات فاجعه‌بار و حتی «اگزیستانسیال» (وجودی) برای بشریت اشاره کرد؛ خطراتی ناشی از مدل‌هایی که ممکن است رفتارهایی فراتر از کنترل توسعه‌دهندگان از خود نشان دهند. به گفته تحلیلگران اقتصادی، مانند جی. آر. ریتر (Jay R. Ritter)، استاد دانشگاه فلوریدا (University of Florida)، روند انتشار اوراق S-1 در شرکت‌های فناوری از دهه‌های گذشته تاکنون تغییرات چشمگیری داشته است. برای نمونه، شرکت اپل (Apple) در سال ۱۹۸۰ با اسنادی بسیار مختصر وارد بورس شد، اما امروزه شرکت‌های فناوری نظیر متا (Meta) و اکنون انتروپیک با حجمی از اطلاعات پیچیده و ریسک‌نامه‌های مفصل تلاش می‌کنند از انتظارات غیرواقعی جلوگیری کنند. انتروپیک این رویکرد را بخشی از استراتژی «ضد فروش» و صداقت بنیادین خود می‌داند تا سرمایه‌گذاران بلندمدت واقعی را جذب کند. با وجود این چشم‌اندازهای بلندپروازانه، سند مالی انتروپیک زوایای پنهانی از چالش‌های مالی این صنعت را نیز آشکار کرده است. هزینه‌های سرسام‌آور تأمین قدرت پردازشی، تعهدات مالی صدها میلیارد دلاری برای زیرساخت‌ها و احتمال عدم سودآوری در آینده، از جمله چالش‌هایی است که این شرکت با آن روبه‌روست. مدیرعامل انتروپیک، داریو آمودی (Dario Amodei)، پیش‌تر هشدار داده بود که احتمال خطرات جدی تا انقراض بشر ناشی از توسعه کنترل‌نشده هوش مصنوعی وجود دارد. با این حال، انتروپیک به‌عنوان یک شرکت انتفاعی عمومی (Public Benefit Corporation)، متعهد شده است که در کنار منافع سهامداران، مأموریت‌های اجتماعی و ایمنی را در اولویت قرار دهد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Silicon Valley wants you to invest in miracles",
+      "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, [&#8230;]",
+      "display_title": "درخواست شرکت انتروپیک از وال‌استریت برای سرمایه‌گذاری روی «عصر معجزات» هوش مصنوعی",
+      "display_summary": "شرکت هوش مصنوعی انتروپیک (Anthropic) با انتشار اوراق ثبت‌نام اولیه (S-1) برای ورود به بورس، سرمایه‌گذاران وال‌استریت را به مشارکت در آینده‌ای شگفت‌انگیز اما پر از ریسک‌های اگزیستانسیال دعوت کرده است. این سند ۳۳۵ صفحه‌ای ترکیبی از وعده‌های بزرگ تکنولوژیک و اعترافات صریح به خطرات بالقوه هوش مصنوعی پیشرفته است."
     },
     {
       "key": "url:8043ca8deac3dcb031ccd576e7473ae2842c6151295182491841651a4b74da36",
       "url": "https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/",
+      "message": "<b>📰 متا اپلیکیشن مد مبتنی بر هوش مصنوعی را برای پرو مجازی لباس عرضه کرد</b>\n\nشرکت متا (Meta) اپلیکیشن مد جدیدی بر پایه هوش مصنوعی به نام استایل اسکچ (Style Sketch) را به صورت محدود در کشورهای اندونزی، سنگاپور و تایلند منتشر کرد. این برنامه به کاربران اجازه می‌دهد با استفاده از تصاویر شبکه‌های اجتماعی یا گالری خود، کمد مجازی بسازند و لباس‌ها را روی مدل‌های شبیه‌سازی‌شده پرو کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت متا (Meta) در ادامه عرضه محصولات نرم‌افزاری جدید خود، اپلیکیشن مبتنی بر هوش مصنوعی جدیدی در حوزه مد و پوشاک به نام استایل اسکچ (Style Sketch) را معرفی کرد. این اپلیکیشن فعلاً به صورت محدود در کشورهای اندونزی، سنگاپور و تایلند برای سیستم‌عامل‌های اندروید (Android) و آی‌اواس (iOS) منتشر شده است و کاربران می‌توانند آن را دانلود کنند. وجود این اپلیکیشن برای نخستین بار توسط مت ناوارا (Matt Navarra)، مشاور شبکه‌های اجتماعی، در شبکه اجتماعی ایکس (X) فاش شد. اپلیکیشن استایل اسکچ (Style Sketch) قابلیت اتصال به حساب‌های کاربری فیسبوک (Facebook) و اینستاگرام (Instagram) را دارد و می‌تواند با استفاده از تصاویر اشتراک‌گذاری‌شده توسط کاربران، یک کمد لباس مجازی برای آن‌ها بسازد. همچنین در صورتی که کاربران نخواهند حساب‌های کاربری خود را متصل کنند، امکان بارگذاری تصاویر لباس‌ها از گالری گوشی یا عکاسی مستقیم از آن‌ها وجود دارد. پس از ساخت کمد مجازی، کاربران می‌توانند پیشنهادهای متنوعی برای ترکیب لباس‌های خود دریافت کنند. این اپلیکیشن امکان پرو کردن لباس‌ها روی یک مدل مجازی را فراهم می‌کند که از نظر فرم بدن و رنگ پوست با کاربر تطابق دارد. کاربران همچنین می‌توانند با انتخاب یک آیتم خاص، درخواست پیشنهاد برای ست کردن لباس‌ها بدهند، شرایط آب‌وهوایی روز را وارد کنند یا از هوش مصنوعی بخواهند برای برنامه‌های سفر آن‌ها پیشنهادهای پوشش مناسب ارائه دهد. بر اساس گزارش‌های رسانه‌های فناوری از جمله تک‌کرانچ (TechCrunch)، مارک زاکربرگ (Mark Zuckerberg)، مدیرعامل متا (Meta)، پیش‌تر در سال جاری اعلام کرده بود که این شرکت قصد دارد اپلیکیشن‌های مستقل بیشتری را عرضه کند؛ چرا که پیشرفت‌های حوزه هوش مصنوعی توسعه نرم‌افزارها را بسیار ساده‌تر کرده است. این رویکرد همچنین به متا (Meta) کمک می‌کند تا کاربران بیشتری را به سمت استفاده و آموزش سیستم‌های هوش مصنوعی خود جذب کند. با این حال، متا (Meta) نخستین شرکتی نیست که به سراغ ابزارهای مد مبتنی بر هوش مصنوعی می‌رود. شرکت گوگل (Google) از سال ۲۰۲۵ ویژگی پرو مجازی لباس را در بخش جستجوی خود ارائه داده بود و اوایل سال جاری نیز قابلیت کمد لباس (Wardrobe) را به اپلیکیشن گوگل فوتوز (Google Photos) اضافه کرد. علاوه بر این، شرکت اوپن‌ای‌آی (OpenAI) نیز اخیراً ویژگی جدیدی را در چت‌جی‌پی‌تی (ChatGPT) معرفی کرده است که به کاربران اجازه می‌دهد تصاویر خود و لباس‌های مدنظرشان را بارگذاری کنند تا نحوه قرارگیری و ظاهر لباس‌ها را روی خود مشاهده کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/l-intro-1793361850.jpg",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "Meta quietly launches an AI fashion app for virtually trying on clothes",
       "summary": "Meta has launched an AI fashion app called Style Sketch in Indonesia, Singapore and Thailand.",
       "display_title": "متا اپلیکیشن مد مبتنی بر هوش مصنوعی را برای پرو مجازی لباس عرضه کرد",
-      "display_summary": "شرکت متا (Meta) اپلیکیشن مد جدیدی بر پایه هوش مصنوعی به نام استایل اسکچ (Style Sketch) را به صورت محدود در کشورهای اندونزی، سنگاپور و تایلند منتشر کرد. این برنامه به کاربران اجازه می‌دهد با استفاده از تصاویر شبکه‌های اجتماعی یا گالری خود، کمد مجازی بسازند و لباس‌ها را روی مدل‌های شبیه‌سازی‌شده پرو کنند.",
-      "message": "<b>📰 متا اپلیکیشن مد مبتنی بر هوش مصنوعی را برای پرو مجازی لباس عرضه کرد</b>\n\nشرکت متا (Meta) اپلیکیشن مد جدیدی بر پایه هوش مصنوعی به نام استایل اسکچ (Style Sketch) را به صورت محدود در کشورهای اندونزی، سنگاپور و تایلند منتشر کرد. این برنامه به کاربران اجازه می‌دهد با استفاده از تصاویر شبکه‌های اجتماعی یا گالری خود، کمد مجازی بسازند و لباس‌ها را روی مدل‌های شبیه‌سازی‌شده پرو کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت متا (Meta) در ادامه عرضه محصولات نرم‌افزاری جدید خود، اپلیکیشن مبتنی بر هوش مصنوعی جدیدی در حوزه مد و پوشاک به نام استایل اسکچ (Style Sketch) را معرفی کرد. این اپلیکیشن فعلاً به صورت محدود در کشورهای اندونزی، سنگاپور و تایلند برای سیستم‌عامل‌های اندروید (Android) و آی‌اواس (iOS) منتشر شده است و کاربران می‌توانند آن را دانلود کنند. وجود این اپلیکیشن برای نخستین بار توسط مت ناوارا (Matt Navarra)، مشاور شبکه‌های اجتماعی، در شبکه اجتماعی ایکس (X) فاش شد. اپلیکیشن استایل اسکچ (Style Sketch) قابلیت اتصال به حساب‌های کاربری فیسبوک (Facebook) و اینستاگرام (Instagram) را دارد و می‌تواند با استفاده از تصاویر اشتراک‌گذاری‌شده توسط کاربران، یک کمد لباس مجازی برای آن‌ها بسازد. همچنین در صورتی که کاربران نخواهند حساب‌های کاربری خود را متصل کنند، امکان بارگذاری تصاویر لباس‌ها از گالری گوشی یا عکاسی مستقیم از آن‌ها وجود دارد. پس از ساخت کمد مجازی، کاربران می‌توانند پیشنهادهای متنوعی برای ترکیب لباس‌های خود دریافت کنند. این اپلیکیشن امکان پرو کردن لباس‌ها روی یک مدل مجازی را فراهم می‌کند که از نظر فرم بدن و رنگ پوست با کاربر تطابق دارد. کاربران همچنین می‌توانند با انتخاب یک آیتم خاص، درخواست پیشنهاد برای ست کردن لباس‌ها بدهند، شرایط آب‌وهوایی روز را وارد کنند یا از هوش مصنوعی بخواهند برای برنامه‌های سفر آن‌ها پیشنهادهای پوشش مناسب ارائه دهد. بر اساس گزارش‌های رسانه‌های فناوری از جمله تک‌کرانچ (TechCrunch)، مارک زاکربرگ (Mark Zuckerberg)، مدیرعامل متا (Meta)، پیش‌تر در سال جاری اعلام کرده بود که این شرکت قصد دارد اپلیکیشن‌های مستقل بیشتری را عرضه کند؛ چرا که پیشرفت‌های حوزه هوش مصنوعی توسعه نرم‌افزارها را بسیار ساده‌تر کرده است. این رویکرد همچنین به متا (Meta) کمک می‌کند تا کاربران بیشتری را به سمت استفاده و آموزش سیستم‌های هوش مصنوعی خود جذب کند. با این حال، متا (Meta) نخستین شرکتی نیست که به سراغ ابزارهای مد مبتنی بر هوش مصنوعی می‌رود. شرکت گوگل (Google) از سال ۲۰۲۵ ویژگی پرو مجازی لباس را در بخش جستجوی خود ارائه داده بود و اوایل سال جاری نیز قابلیت کمد لباس (Wardrobe) را به اپلیکیشن گوگل فوتوز (Google Photos) اضافه کرد. علاوه بر این، شرکت اوپن‌ای‌آی (OpenAI) نیز اخیراً ویژگی جدیدی را در چت‌جی‌پی‌تی (ChatGPT) معرفی کرده است که به کاربران اجازه می‌دهد تصاویر خود و لباس‌های مدنظرشان را بارگذاری کنند تا نحوه قرارگیری و ظاهر لباس‌ها را روی خود مشاهده کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes/l-intro-1793361850.jpg",
+      "display_summary": "شرکت متا (Meta) اپلیکیشن مد جدیدی بر پایه هوش مصنوعی به نام استایل اسکچ (Style Sketch) را به صورت محدود در کشورهای اندونزی، سنگاپور و تایلند منتشر کرد. این برنامه به کاربران اجازه می‌دهد با استفاده از تصاویر شبکه‌های اجتماعی یا گالری خود، کمد مجازی بسازند و لباس‌ها را روی مدل‌های شبیه‌سازی‌شده پرو کنند."
+    },
+    {
+      "key": "url:e1b4a35a75a820f77df0c91e3176ca7af63faa09ece9352e888828db309ed5f1",
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "display_title": "ادامه خریدهای راهبردی شرکت سیلزفورس با خرید ۳۷۵ میلیون دلاری استارتاپ دفاعی «رون»",
+      "display_summary": "شرکت «سیلزفورس» در راستای توسعه فعالیت‌های خود در حوزه فناوری‌های دفاعی، توافق کرده است تا استارتاپ «رون تکنولوجیز» (Rune Technologies) را با مبلغ ۳۷۵ میلیون دلار به صورت نقد و سهام خریداری کند. این قرارداد به پلتفرم دفاعی «میشن‌فورس» (Missionforce) کمک می‌کند تا با بهره‌گیری از هوش مصنوعی، مدیریت لجستیک و پیش‌بینی نیازهای زنجیره تأمین ارتش ایالات متحده آمریکا را بهبود بخشد.",
+      "message": "<b>📰 ادامه خریدهای راهبردی شرکت سیلزفورس با خرید ۳۷۵ میلیون دلاری استارتاپ دفاعی «رون»</b>\n\nشرکت «سیلزفورس» در راستای توسعه فعالیت‌های خود در حوزه فناوری‌های دفاعی، توافق کرده است تا استارتاپ «رون تکنولوجیز» (Rune Technologies) را با مبلغ ۳۷۵ میلیون دلار به صورت نقد و سهام خریداری کند. این قرارداد به پلتفرم دفاعی «میشن‌فورس» (Missionforce) کمک می‌کند تا با بهره‌گیری از هوش مصنوعی، مدیریت لجستیک و پیش‌بینی نیازهای زنجیره تأمین ارتش ایالات متحده آمریکا را بهبود بخشد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت نرم‌افزاری «سیلزفورس» (Salesforce) روند خریدهای راهبردی و ادغام‌های خود را در سال جاری ادامه داده و این بار بر اساس گزارش‌های منتشرشده، توافق کرده است تا استارتاپ حوزه فناوری دفاعی یعنی «رون تکنولوجیز» (Rune Technologies) را با ارزش ۳۷۵ میلیون دلار به صورت وجه نقد و سهام تصاحب کند. این قرارداد جدید نشان‌دهنده تلاش جدی «سیلزفورس» برای ورود عمیق‌تر به بازار فناوری‌های دفاعی و امنیتی از طریق واحد تجاری خود موسوم به «میشن‌فورس» (Missionforce) است که به نهادهای امنیت ملی و دفاعی خدمات ارائه می‌دهد. استارتاپ «رون» (Rune) که در سال ۲۰۲۴ تأسیس شده است، نرم‌افزارهای مبتنی بر هوش مصنوعی را توسعه می‌دهد تا به ارتش ایالات متحده آمریکا در پیش‌بینی نیازهای زنجیره تأمین و مدیریت لجستیک در میدان نبرد کمک کند. از زمان راه‌اندازی واحد «میشن‌فورس» (Missionforce) در سال گذشته، کسب‌وکار این بخش با رشد چشمگیر ۸۰ درصدی نسبت به سال گذشته روبه‌رو شده است که بخشی از آن ناشی از انعقاد یک قرارداد جدید ۱۰ ساله به ارزش ۵.۶ میلیارد دلار با ارتش ایالات متحده آمریکا (U.S. Army) است. با ادغام داده‌های لجستیکی خط مقدم که توسط استارتاپ «رون» (Rune) فراهم می‌شود، واحد «میشن‌فورس» (Missionforce) قادر خواهد بود حوزه فعالیت خود را فراتر از برنامه‌ریزی‌های اداری و پشتیبان دفتری گسترش دهد و به طور مستقیم از عملیات‌های میدان نبرد پشتیبانی کند. این استارتاپ پیش از این توانسته بود در مجموع ۳۰ میلیون دلار سرمایه از سرمایه‌گذارانی نظیر «آندریسن هوروویتز» (Andreessen Horowitz)، «پوینت۷۲ ونچرز» (Point72 Ventures) و شرکت سرمایه‌گذاری مخاطره‌آمیز «آی‌کیوتی» (IQT) که توسط سازمان اطلاعات مرکزی آمریکا پشتیبانی می‌شود، جذب کند. آخرین ارزش‌گذاری «رون» (Rune) در جریان جذب سرمایه سری A به سرپرستی «هیومن کپیتال» (Human Capital) مبلغ ۱۲۷ میلیون دلار برآورد شده بود. شرکت «سیلزفورس» (Salesforce) در سال جاری میلادی بسیار فعال بوده و خریدهای کلانی را به ثبت رسانده است. علاوه بر استارتاپ «رون» (Rune)، این غول نرم‌افزاری مدیریت ارتباط با مشتری توافق کرده بود پلتفرم عامل هوش مصنوعی «فین» (Fin) را به مبلغ ۳.۶ میلیارد دلار بخرد، شرکت «کوالیفاید» (Qualified) را با قیمت ۱.۲ میلیارد دلار تصاحب کند و قرارداد خرید «لیسن لبز» (Listen Labs) را امضا نماید. در مجموع، معامله ۳۷۵ میلیون دلاری برای خرید استارتاپ «رون» (Rune) گام مهم دیگری برای «سیلزفورس» (Salesforce) به شمار می‌رود تا جایگاه خود را در بازارهای حساس دولتی و نظامی تقویت کرده و فناوری‌های هوش مصنوعی پیشرفته را وارد حوزه لجستیک دفاعی نماید.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2221463618.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:0aa2c4ab9e7d550d2753b7b6fa1d4fde8a7b63758f5fa913b2e0ef37657c4e12",
+      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+      "title": "Satlyt takes another step toward turning satellites into space data centers",
+      "summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+      "display_title": "گام مهم شرکت «ستلیت» (Satlyt) برای تبدیل ماهواره‌ها به مراکز داده فضایی",
+      "display_summary": "شرکت نوپای «ستلیت» (Satlyt) با موفقیت در یک آزمایش جدید، یک قدم دیگر به تبدیل ماهواره‌ها به مراکز داده مجازی در فضا نزدیک‌تر شد. این فناوری به ماهواره‌ها اجازه می‌دهد تا وظایف پردازشی را بر اساس میزان ارتباطات و منابع موجود در مدار بین خود تقسیم کنند.",
+      "message": "<b>📰 گام مهم شرکت «ستلیت» (Satlyt) برای تبدیل ماهواره‌ها به مراکز داده فضایی</b>\n\nشرکت نوپای «ستلیت» (Satlyt) با موفقیت در یک آزمایش جدید، یک قدم دیگر به تبدیل ماهواره‌ها به مراکز داده مجازی در فضا نزدیک‌تر شد. این فناوری به ماهواره‌ها اجازه می‌دهد تا وظایف پردازشی را بر اساس میزان ارتباطات و منابع موجود در مدار بین خود تقسیم کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت «ستلیت» (Satlyt) که در زمینه توسعه نرم‌افزار برای مدیریت پردازش داده‌ها در فضا فعالیت می‌کند، پس از ۱۳ ماه تلاش موفق شد آزمایش مهمی را با موفقیت پشت سر بگذارد. این آزمایش که در همکاری با «دانشگاه هیوستون» (University of Houston) و در قالب یک پروژه تحقیقاتی با بودجه «ناسا» (NASA) انجام شد، نشان داد که نرم‌افزار این استارتاپ می‌تواند وظایف پردازشی را میان رایانه‌های مختلف در مدار زمین و بر اساس وضعیت ارتباطی و منابع موجود تقسیم کند. «رما آفولو» (Rama Afullo)، بنیانگذار و مدیرعامل «ستلیت» (Satlyt) که سابقه فعالیت در شرکت‌های «گوگل» (Google) و «اسپس‌اکس» (SpaceX) را دارد، هدف این پروژه را ایجاد شبکه‌ای نرم‌افزاری اعلام کرد که بتواند چندین ماهواره را برای به اشتراک‌گذاری وظایف محاسباتی به یکدیگر متصل کند. کاربران این سیستم تنها نیاز به تعریف دسترسی‌ها، اولویت‌ها و محدودیت‌های عملیاتی خواهند داشت و نرم‌افزار به صورت خودکار تصمیم‌گیری‌های لازم را انجام می‌دهد. در حال حاضر، نرم‌افزار این شرکت بر روی سه ماهواره در مدار مستقر است. در آزمایش اخیر، این شرکت یک شبکه شبیه‌سازی‌شده شامل چهار رایانه، چهار کاربر و هشت سرویس ایجاد کرد. یک رایانه فیزیکی در داخل فضاپیما این آزمایش را اجرا کرده و نتایج را به زمین ارسال نمود. این آزمایش موفقیت‌آمیز ثابت کرد که نرم‌افزار «ستلیت» (Satlyt) توانایی تولید برنامه‌های پردازشی را در سخت‌افزارهای مستقر در فضا دارد، هرچند چالش‌هایی مانند نحوه زمان‌بندی تاخیرها نیز شناسایی و ثبت شد که تیم مهندسی باید برای رفع آن‌ها اقدام کند. «ستلیت» (Satlyt) که در رقابت‌های امسال «تک‌کرانچ دیزراپ بتل‌فیلد» (TechCrunch Disrupt Battlefield) جزء پنج تیم برتر شناخته شد، قصد دارد با پردازش داده‌ها در نزدیکی محل جمع‌آوری آن‌ها، وابستگی به ارسال داده‌ها به زمین و تحلیل‌های زمینی را کاهش دهد. به عنوان مثال، شناسایی سریع‌تر پدیده‌هایی مانند آتش‌سوزی جنگل‌ها از جمله کاربردهای این فناوری است. این شرکت همچنین تحقیقاتی را برای کاربردهای فراتر از مدار پایینی زمین، از جمله پشتیبانی از پخش ویدئوی ۴کی از ماه، با همکاری «ناسا» (NASA) دنبال می‌کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Just_Super-Getty.jpg?resize=1200,750",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:4d0843b360d077cf4f8e57d3d04c018508bffdf5e1602efd1a5a76b8544c5931",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "display_title": "معرفی ایجنت هوش مصنوعی جدید «زست» برای پیشنهاد رستوران و رزرو میز از طریق پیامک",
+      "display_summary": "استارتاپ «زست» از یک دستیار هوش مصنوعی جدید رونمایی کرده است که در بستر پیامک فعالیت می‌کند. این ایجنت قادر است با تحلیل سلیقه غذایی کاربران و دوستانشان، گزینه‌های مناسب را پیشنهاد دهد، نظرسنجی کند و حتی میز مورد نظر را رزرو نماید.",
+      "message": "<b>📰 معرفی ایجنت هوش مصنوعی جدید «زست» برای پیشنهاد رستوران و رزرو میز از طریق پیامک</b>\n\nاستارتاپ «زست» از یک دستیار هوش مصنوعی جدید رونمایی کرده است که در بستر پیامک فعالیت می‌کند. این ایجنت قادر است با تحلیل سلیقه غذایی کاربران و دوستانشان، گزینه‌های مناسب را پیشنهاد دهد، نظرسنجی کند و حتی میز مورد نظر را رزرو نماید.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استارتاپ «زست (Zest)» که اوایل سال جاری میلادی با هدف کشف و پیشنهاد رستوران معرفی شد، اکنون گامی فراتر گذاشته و به دنبال آینده‌ای است که در آن اپلیکیشن‌های موبایلی دیگر رابط کاربری اصلی نباشند. این استارتاپ از یک «دستیار رستوران» مجهز به هوش مصنوعی رونمایی کرد که مستقیماً در پیامک‌های کاربران فعالیت می‌کند؛ رویکردی مشابه آنچه در دیگر ایجن‌های هوش مصنوعی نظیر «اینستینکت (Instinct)» یا «پوک (Poke)» دیده می‌شود. این راه‌اندازی نشان‌دهنده تغییر گسترده‌ای در رویکرد استارتاپ‌ها به حوزه هوش مصنوعی است؛ جایی که ایجنت‌های محاوره‌ای وظایفی را بر عهده می‌گیرند که پیش‌تر نیازمند باز کردن اپلیکیشن‌های مستقل بود. برای «زست»، این به معنای انتقال توصیه‌های رستورانی به محیط پیامک و سپس فراهم کردن امکان رزرو مستقیم میز برای کاربر است. «ماریو گومز-هال (Mario Gomez-Hall)»، بنیانگذار و مدیرعامل «زست»، در این باره می‌گوید: «اکنون ایجنت خود محصول است. شما به آن پیام می‌دهید و این دستیار بر اساس تاریخچه واقعی شما و دوستانتان پاسخ می‌دهد. نیازی به هفته‌ها مکالمه برای شناخت شما ندارد، زیرا کار را از جاهایی که واقعاً رفته‌اید آغاز می‌کند.» این استارتاپ که در نوامبر ۲۰۲۴ تأسیس شده و توانسته ۱.۸ میلیون دلار سرمایه اولیه از چهره‌هایی چون «الکسیس اوهانیان (Alexis Ohanian)» در صندوق «۷۷۶» و «استیو جانگ (Steve Jang)» در «کایندرد ونچرز (Kindred Ventures)» جذب کند، ویژگی منحصربه‌فردی دارد. «زست» به کارت‌های اعتباری کاربران متصل می‌شود تا مکان‌هایی را که واقعاً برای غذا خوردن رفته‌اند ردیابی کند و به درکی دقیق از سلیقه و علایق آن‌ها دست یابد. این داده‌های مالی از طریق شرکت خدمات مالی «پلید (Plaid)» وارد اپلیکیشن می‌شوند. «زست» تأکید می‌کند که برای ساخت نقشه و فهرست‌های شخصی‌سازی‌شده، تنها روی تراکنش‌های حوزه غذا و نوشیدنی تمرکز دارد. ایده جدید این استارتاپ این است که مشکل همیشگی «امشب کجا برای غذا خوردن برویم؟» را از زاویه‌ای تازه حل کند. اکنون این سرویس توصیه‌های خود را از درون یک رشته پیام متنی ارائه می‌دهد و می‌تواند از هوش مصنوعی برای بررسی ظرفیت و رزرو میز از طریق خدمات متصلی مانند «اوپن‌تیبل (OpenTable)»، «رسی (Resy)» و «سون‌رومز (SevenRooms)» استفاده کند. برای استفاده از این سرویس، کاربران به شماره پیامکی «زست» پیام می‌فرستند. جذابیت اصلی اینجاست که «زست» را می‌توان وارد یک گروه چت کرد؛ جایی که می‌تواند سلیقه همه اعضا را ترکیب کند تا مکان‌هایی را بیابد که کل گروه از آن لذت ببرند. همچنین این دستیار می‌تواند با قابلیت رأی‌گیری درون‌گروهی، اختلافات نظر را حل کرده و بدون نیاز به خروج از محیط چت، میز را برای گروه رزرو کند. کاربران می‌توانند بر اساس عوامل مختلفی مانند نوع غذا، هوس غذایی، مناسبت، محدودیت‌های رژیمی یا محله، از «زست» درخواست پیشنهاد کنند و حتی سوالاتی درباره میزان شلوغی رستوران یا داشتن اینترنت وای‌فای بپرسند. حتی امکان دریافت منو از طریق پیامک نیز وجود دارد. آزمایش‌های اولیه نشان داده است که این هوش مصنوعی عملکرد خوبی در ارائه پیشنهادهای متناسب با شرایط زمانی، تعداد افراد و موقعیت مکانی دارد. شرکت از ماه گذشته آزمایش این دستیار را آغاز کرده بود اما عرضه رسمی را تا زمان اضافه شدن قابلیت رزرو متوقف کرده بود. «زست» در نظر دارد در آینده دامنه توصیه‌های خود را فراتر از رستوران‌ها، به کسب‌وکارها و خرید نیز گسترش دهد. «گومز-هال» در پایان خاطرنشان کرد که رزرو و سفارش‌دهی خطوط درآمدی اصلی این شرکت محسوب می‌شوند، چرا که «زست» سلیقه کاربر را بسیار سریع‌تر از دستیارهای عمومی یاد می‌گیرد و این ارزشی فراتر از یک شام ساده دارد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/zest.jpg?resize=1200,764",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:8789b25f4f928a029c45ca212a1b04923d18f26eb94d10f419ceea9ec95d2c4f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More [&#8230;]",
+      "display_title": "استارباکس به دنبال استفاده از هوش مصنوعی برای نمایش منوهای دیجیتال شخصی‌سازی‌شده در بخش سفارش‌دهی خودرویی است",
+      "display_summary": "شرکت استارباکس قصد دارد با بهره‌گیری از فناوری هوش مصنوعی، منوهای دیجیتال و شخصی‌سازی‌شده را هنگام ورود مشتریان به بخش سفارش‌دهی خودرویی (Drive-thru) ارائه دهد. برایان نیکل، مدیرعامل استارباکس، اعلام کرد که این شرکت همچنین به دنبال استفاده از مدل‌های هوش مصنوعی برای کمک به باریستاها در ثبت دقیق‌تر سفارش‌ها و بهبود تجربه کاربری در اپلیکیشن اختصاصی خود است.",
+      "message": "<b>📰 استارباکس به دنبال استفاده از هوش مصنوعی برای نمایش منوهای دیجیتال شخصی‌سازی‌شده در بخش سفارش‌دهی خودرویی است</b>\n\nشرکت استارباکس قصد دارد با بهره‌گیری از فناوری هوش مصنوعی، منوهای دیجیتال و شخصی‌سازی‌شده را هنگام ورود مشتریان به بخش سفارش‌دهی خودرویی (Drive-thru) ارائه دهد. برایان نیکل، مدیرعامل استارباکس، اعلام کرد که این شرکت همچنین به دنبال استفاده از مدل‌های هوش مصنوعی برای کمک به باریستاها در ثبت دقیق‌تر سفارش‌ها و بهبود تجربه کاربری در اپلیکیشن اختصاصی خود است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت زنجیره‌ای قهوه‌های محبوب استارباکس (Starbucks) برنامه‌های جدید خود را برای دگرگون‌سازی تجربه خرید مشتریان در بخش سفارش‌دهی خودرویی (Drive-thru) از طریق فناوری هوش مصنوعی (AI) اعلام کرد. برایان نیکل (Brian Niccol)، مدیرعامل استارباکس، در جریان نشست اخیر گزارش درآمد این شرکت فاش کرد که استارباکس در حال بررسی و توسعه تجربیاتی است که می‌تواند مشتریان شرکت‌کننده را به محض ورود شناسایی کرده، منوهای دیجیتال شخصی‌سازی‌شده را به آن‌ها نمایش دهد و روند پرداخت را تسهیل کند. این رویکرد شباهت زیادی به فناوری‌هایی دارد که دیگر شرکت‌های فست‌فود و خدمات غذایی نظیر تاکو بل (Taco Bell) و مک‌دونالد (McDonald&#x27;s) در حال آزمایش آن‌ها هستند. برای مثال، مک‌دونالد اخیراً ویژگی مبتنی بر هوش مصنوعی خود موسوم به آرک‌آی‌کیو (ArchIQ) را در تعداد محدودی از شعب خود به صورت آزمایشی به کار گرفته است تا ربات چت‌گر بتواند مشتریان ثابت را شناسایی کرده و امکان سفارش‌دهی «همیشگی» آن‌ها را فراهم سازد. علاوه بر منوهای دیجیتال خودرویی، استارباکس برنامه‌ریزی کرده است تا از سال ۲۰۲۷ میلادی، آزمایش مدل‌های هوش مصنوعی پس‌زمینه را آغاز کند. این مدل‌ها به باریستاها کمک خواهند کرد تا سفارش‌ها را با دقت و سرعت بیشتری ثبت کنند. همچنین، این شرکت قصد دارد قابلیت‌های هوش مصنوعی را در بخش جستجو و کشف اپلیکیشن استارباکس (Starbucks App) ادغام کرده و در آینده امکان سفارش‌دهی مبتنی بر گفتگو و عاملیت هوشمند (Conversational and Agentic Ordering) را فراهم کند. استارباکس پیش از این نیز گام‌هایی در جهت خودکارسازی و هوشمندسازی خدمات خود برداشته است؛ از جمله اجازه دادن به مشتریان برای ثبت سفارش از طریق چت‌جی‌پی‌تی (ChatGPT) و راه‌اندازی دستیار هوشمندی به نام گرین دات اسیست (Green Dot Assist) که به کارمندان کمک می‌کند پاسخ سوالات خود را درباره دستور پخت‌ها و استانداردهای خدمات به دست آورند. با وجود این برنامه‌های گسترده، زمان دقیق پیاده‌سازی و عمومی شدن منوهای دیجیتال شخصی‌سازی‌شده در استارباکس هنوز مشخص نیست و به گفته مدیرعامل این شرکت، این پروژه همچنان در مراحل «ابتدایی» خود قرار دارد. استارباکس قصد دارد با رویکردی گام‌به‌گام، راهکارها را آزمایش کرده، نتایج را ارزیابی کند و در نهایت قابلیت‌های موفق را به شکل گسترده به کار ببندد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:256174e04f2a657aa0f8a469f133ed9d3e150bd030afd21b60129a141f3110d9",
+      "url": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
+      "title": "Rivian’s autonomy gamble faces its first real test",
+      "summary": "During an hourlong earnings call last night, Rivian CEO RJ Scaringe spent less time talking about the production ramp of the all-important R2 SUV than he did hyping the company's still-unproven autonomous vehicle ambitions. But the company faces a crucial test later this year, when it rolls out its point-to-point hands-free driving feature - first [&#8230;]",
+      "display_title": "قمار بزرگ ریویان روی فناوری خودران؛ آزمونی سرنوشت‌ساز برای آینده این شرکت",
+      "display_summary": "شرکت ریویان (Rivian) در جریان گزارش مالی اخیر خود تمرکز ویژه‌ای بر برنامه‌های خودران و سیستم‌های هوش مصنوعی معطوف کرد. با این حال، تلاش برای توسعه فناوری‌های خودران پیشرفته همزمان با مقیاس‌بندی تولید خودروی انبوه آر۲ (R2)، ریسک مالی بزرگی را برای این خودروساز الکتریکی رقم زده است.",
+      "message": "<b>📰 قمار بزرگ ریویان روی فناوری خودران؛ آزمونی سرنوشت‌ساز برای آینده این شرکت</b>\n\nشرکت ریویان (Rivian) در جریان گزارش مالی اخیر خود تمرکز ویژه‌ای بر برنامه‌های خودران و سیستم‌های هوش مصنوعی معطوف کرد. با این حال، تلاش برای توسعه فناوری‌های خودران پیشرفته همزمان با مقیاس‌بندی تولید خودروی انبوه آر۲ (R2)، ریسک مالی بزرگی را برای این خودروساز الکتریکی رقم زده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت خودروسازی ریویان (Rivian) در گزارش مالی اخیر خود نشان داد که قمار بزرگی روی فناوری‌های خودران و هوش مصنوعی آغاز کرده است. آر جی اسکاریج (RJ Scaringe)، مدیرعامل ریویان، بخش عمده‌ای از نشست اخیر با سهامداران را به تعریف و تمجید از برنامه‌های بلندپروازانه این شرکت در حوزه خودروهای خودران اختصاص داد؛ این در حالی است که ریویان هم‌زمان باید خطوط تولید خودروی شاسی‌بلند و انبوه خود یعنی ریویان آر۲ (Rivian R2) را با موفقیت توسعه دهد. بر اساس برنامه‌ریزی‌های اعلام‌شده، این شرکت قصد دارد قابلیت رانندگی بدون دخالت دست و نقطه‌به‌نقطه خود را در اواخر سال جاری میلادی ابتدا برای آزمایش‌های داخلی کارمندان و سپس در سال ۲۰۲۷ برای مشتریان عرضه کند. همچنین، ریویان برنامه‌ریزی کرده است تا نخستین خودروهای ربات تاکسی (Robotaxi) خود را با همکاری شرکت اوبر (Uber) در سال ۲۰۲۸ روانه خیابان‌ها کند. مدیران ریویان معتقدند که فناوری خودران، عامل اصلی تمایز محصول، محرک سهم بازار و خالق ارزش بلندمدت برای این برند خواهد بود. با این وجود، موفقیت در این مسیر تضمین‌شده نیست. رقیب دیرینه و قدرتمند ریویان یعنی تسلا (Tesla)، با سیستم رانندگی تمام‌خودران نظارت‌شده (Full Self-Driving) خود در بیش از ۱.۷ میلیون خودروی فعال، فاصله نجومی و پیشتازی بزرگی دارد. تلاش برای رقابت با قابلیت‌های کمک‌راننده تسلا، آن هم در شرایطی که ریویان هم‌زمان باید تراشه‌های اختصاصی خود را طراحی کند، حسگرهای گران‌قیمت لیدار (Lidar) بخرد و هزینه‌های سرسام‌آور پردازش هوش مصنوعی را تأمین کند، یک ریسک مالی بسیار سنگین به شمار می‌رود. این چالش‌ها در حالی مطرح می‌شود که ریویان هنوز برای تولید و فروش انبوه خودروهای آر۲ (R2) در مقیاس تجاری تلاش می‌کند. از سوی دیگر، درآمد بخش نرم‌افزار و خدمات ریویان در سه‌ماهه سوم سال ۲۰۲۶ با رشد ۴۵ درصدی نسبت به سال گذشته به ۶۰۵ میلیون دلار رسیده و سود این بخش نیز با حاشیه سود قوی ۴۲ درصدی همراه بوده است. با این حال، هزینه‌های سرسام‌آور خرید تراشه‌های رایانه‌ای، حافظه و تجهیزات الکترونیکی ممکن است سود حاصل از فروش خودروها را تحت‌الشعاع قرار دهد. مدیران ریویان اذعان کرده‌اند که استفاده از پردازنده‌های متعدد و حسگرهای گران‌قیمت در برخی مدل‌های آر۲ (R2) می‌تواند حاشیه سود پیش‌بینی‌شده را کاهش دهد. در نهایت، دو سال آینده مشخص خواهد کرد که آیا قمار بزرگ ریویان روی فناوری خودران به موفقیت می‌انجامد یا این شرکت را در اجرای اهداف تولید انبوه دچار مشکل می‌سازد. چالش‌های فنی رانندگی شهری، مسائل حقوقی احتمالی و رقابت فشرده با شرکت‌هایی نظیر تسلا (Tesla) و وایمو (Waymo)، روزهای پرمخاطره‌ای را برای آینده این خودروساز الکتریکی رقم زده است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2277183149.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:56f001a8cf9734e5b9cb4947d1579f293a4499f60a67e9724aed499fdb6b624f",
+      "url": "https://www.theverge.com/gadgets/1022794/vizio-mini-led-quantum-tv-65-inch-walmart-deal-sale",
+      "title": "Vizio’s discounted Mini LED TV lets you skip the sign-ups and smarts",
+      "summary": "Modern smart TVs let you skip the streaming device, which is convenient, but they also come with their own issues, including privacy concerns and frequent updates. The Vizio Mini LED Quantum TV lets you cut out the rigamarole and just get straight to the HDMI ports. And right now, it’s discounted at Walmart, with the [&#8230;]",
+      "display_title": "تلویزیون اقتصادی مینی‌ال‌ای‌دی ویزیو با قابلیت دور زدن سیستم‌عامل هوشمند و تخفیف ویژه",
+      "display_summary": "تلویزیون مینی‌ال‌ای‌دی کوانتوم ساخت شرکت ویزیو به کاربران امکان می‌دهد تا از تنظیمات پیچیده و سیستم‌عامل‌های هوشمند با قابلیت ردیابی داده‌ها صرف‌نظر کنند. این محصول اقتصادی در فروشگاه والمارت با تخفیف‌های جذاب برای مدل‌های مختلف عرضه شده است.",
+      "message": "<b>📰 تلویزیون اقتصادی مینی‌ال‌ای‌دی ویزیو با قابلیت دور زدن سیستم‌عامل هوشمند و تخفیف ویژه</b>\n\nتلویزیون مینی‌ال‌ای‌دی کوانتوم ساخت شرکت ویزیو به کاربران امکان می‌دهد تا از تنظیمات پیچیده و سیستم‌عامل‌های هوشمند با قابلیت ردیابی داده‌ها صرف‌نظر کنند. این محصول اقتصادی در فروشگاه والمارت با تخفیف‌های جذاب برای مدل‌های مختلف عرضه شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>تلویزیون‌های هوشمند امروزی راحتی استفاده بدون نیاز به دستگاه‌های پخش جانبی را به ارمغان می‌آورند، اما این امر معمولاً با چالش‌هایی نظیر نگرانی‌های حریم خصوصی و به‌روزرسانی‌های مداوم سیستم‌عامل همراه است. اکنون تلویزیون جدید مینی‌ال‌ای‌دی کوانتوم (Mini LED Quantum TV) ساخت شرکت ویزیو (Vizio) به کاربران اجازه می‌دهد تا این مراحل دردسرساز را دور زده و مستقیماً از درگاه‌های ارتباطی اچ‌دی‌ام‌آی (HDMI) استفاده کنند. این تلویزیون مقرون‌به‌صرفه در فروشگاه والمارت (Walmart) مشمول تخفیف شده است؛ به طوری که مدل ۶۵ اینچی آن با قیمت ۳۵۸ دلار (۴۰ دلار تخفیف) و مدل ۸۵ اینچی آن با قیمت ۶۹۸ دلار (۱۰۰ دلار تخفیف) به فروش می‌رسد. اگرچه این تلویزیون مینی‌ال‌ای‌دی به طور پیش‌فرض با سیستم‌عامل انحصاری شرکت ویزیو یعنی ویزیو اواس (Vizio OS) عرضه می‌شود، اما کاربران می‌توانند در جریان راه‌اندازی اولیه، توافق‌نامه‌ها و هشدارهای سازنده را رد کنند. با چشم‌پوشی از اخطارهای شرکت سازنده درباره از دست رفتن ویژگی‌های هوشمند، امکان غیرفعال کردن سیستم‌عامل داخلی وجود دارد. این ویژگی به خریداران اجازه می‌دهد تا از دستگاه‌های پخش مستقل خود مانند روکو (Roku) یا اپل تی‌وی فورکی (Apple TV 4K) بهره ببرند و دغدغه‌ای بابت جمع‌آوری داده‌ها توسط شرکت‌های ویزیو و والمارت نداشته باشند. از نظر مشخصات فنی، این تلویزیون به فناوری نقاط کوانتومی برای تولید رنگ‌های زنده و شفاف مجهز شده و بر اساس بررسی‌ها، پنل مینی‌ال‌ای‌دی آن می‌تواند به روشنایی ۹۳۶ نیت دست پیدا کند. البته با توجه به قیمت پایین، برخی سازش‌ها نیز در نظر گرفته شده است؛ از جمله اینکه پنل آی‌پی‌اس (IPS) آن عمیق‌ترین سطح رنگ مشکی را ارائه نمی‌دهد و در صحنه‌های سریع مقداری تاری حرکت مشاهده می‌شود که ممکن است برای گیمرها چندان ایده‌آل نباشد. همچنین این دستگاه دارای سه درگاه اچ‌دی‌ام‌آی نسخه ۲.۰ است، اما از آنجا که صفحه نمایش حداکثر از رزولوشن فورکی (4K) با نرخ ۶۰ هرتز پشتیبانی می‌کند، این موضوع تاثیر منفی چندانی بر تجربه کاربری نخواهد گذاشت. در مجموع، تلویزیون جدید شرکت ویزیو (Vizio) گزینه‌ای مناسب برای کسانی است که به دنبال یک نمایشگر باکیفیت و ارزان‌قیمت هستند و ترجیح می‌دهند کنترل کامل حریم خصوصی و ابزارهای پخش صوتی و تصویری خود را حفظ کنند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268611_Vizio_Mini_LED_Quantum_TV_JHiggins_0009.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:ea24213794ccd50873cf3badf79e19b9b61a1e1d4b1324c9464a3f3e89c1b508",
+      "url": "https://www.engadget.com/2301498/lenovo-googlebook-15-review/",
+      "title": "Lenovo Googlebook 15 review: Your Android phone's new best friend",
+      "summary": "Despite Lenovo providing excellent hardware for Google's new laptop platform, Googlebook OS will only impress Android die-hards.",
+      "display_title": "بررسی لپ‌تاپ گوگل‌بوک ۱۵ ساخت لنوو؛ پلتفرم جدید گوگل و قابلیت‌های آن",
+      "display_summary": "لپ‌تاپ گوگل‌بوک ۱۵ (Googlebook 15) ساخته شرکت لنوو (Lenovo) با سخت‌افزاری پریمیوم و نمایشگر خیره‌کننده OLED عرضه شده است. با این حال، سیستم‌عامل جدید گوگل‌بوک (Googlebook OS) به‌عنوان یک نرم‌افزار نسل اولی همچنان نیازمند بهینه‌سازی و رفع باگ‌های سازگاری برنامه‌ها است.",
+      "message": "<b>📰 بررسی لپ‌تاپ گوگل‌بوک ۱۵ ساخت لنوو؛ پلتفرم جدید گوگل و قابلیت‌های آن</b>\n\nلپ‌تاپ گوگل‌بوک ۱۵ (Googlebook 15) ساخته شرکت لنوو (Lenovo) با سخت‌افزاری پریمیوم و نمایشگر خیره‌کننده OLED عرضه شده است. با این حال، سیستم‌عامل جدید گوگل‌بوک (Googlebook OS) به‌عنوان یک نرم‌افزار نسل اولی همچنان نیازمند بهینه‌سازی و رفع باگ‌های سازگاری برنامه‌ها است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>عرضه یک سیستم‌عامل جدید همواره با چالش‌ها و فرصت‌های فراوانی برای تحول در وضعیت موجود همراه است. شرکت گوگل (Google) با معرفی نسل جدید رایانه‌های شخصی خود موسوم به گوگل‌بوک (Googlebook)، تلاش کرده است تا بهترین ویژگی‌های سیستم‌عامل اندروید (Android) و کروم‌اواس (Chrome OS) را در قالب دستگاهی هوشمندتر، کاربرپسندتر و سازگار با تجهیزات همراه ترکیب کند. در همین راستا، شرکت لنوو (Lenovo) با ساخت لپ‌تاپ گوگل‌بوک ۱۵ (Googlebook 15) وظیفه تامین سخت‌افزار را به بهترین شکل انجام داده، اما پلتفرم نرم‌افزاری جدید گوگل هنوز با دردهای زایمان نرم‌افزارهای نسل اول دست‌وپنجه نرم می‌کند. برای طرفداران سرسخت اندروید (Android)، برخی از این نواقص ممکن است به خاطر همگام‌سازی عالی میان گوشی و لپ‌تاپ قابل اغماض باشد، اما سایر کاربران بهتر است پیش از خرید، منتظر نسخه‌ای بالغ‌تر از سیستم‌عامل گوگل‌بوک (Googlebook OS) بمانند. طراحی و نمایشگر؛ سخت‌افزاری پریمیوم و باکیفیت کیفیت ساخت و طراحی سخت‌افزاری این دستگاه به حدی مطلوب است که تحسین کارشناسان را برانگیخته است. این لپ‌تاپ مجهز به یک نمایشگر ۱۵.۳ اینچی OLED با نرخ تازه‌سازی ۱۲۰ هرتز، روشنایی عمومی ۵۰۰ نیت و گواهی HDR True Black 1000 است که تصویری روشن، رنگارنگ و ایده‌آل ارائه می‌دهد. شاسی دستگاه از ترکیب پلاستیک، فیبر کربن و آلیاژ منیزیم-آلومینیوم ساخته شده و با پوششی ابریشمی پوشانده شده است که حس لوکسی مشابه ظروف چینی بدون لعاب را تداعی می‌کند و اثر انگشت را کمتر جذب می‌کند. با وجود صفحه نمایش بزرگ‌تر، این مدل حتی از مک‌بوک پرو (MacBook Pro) چهارده اینچی نیز سبک‌تر است. از دیگر ویژگی‌های سخت‌افزاری می‌توان به بلندگوهای چهارتایی قدرتمند با فناوری دالبی اتموس (Dolby Atmos)، پورت‌های متنوع شامل USB-C، USB-A، HDMI و جک ۳.۵ میلی‌متری صدا، تاچ‌پد بزرگ لمسی (Haptic Touchpad) و دوربین مجهز به شاتر فیزیکی و حسگر اثر انگشت با قابلیت تشخیص چهره اشاره کرد. همچنین یک نوار نوری (Lightbar) روی درب دستگاه تعبیه شده که وضعیت شارژ یا فعالیت دستیار هوش مصنوعی جمنای (Gemini) را با رنگ‌های مختلف نشان می‌دهد. عملکرد پردازشی؛ فراتر از نیازهای روزمره یکی از نقاط قوت پلتفرم گوگل‌بوک (Googlebook) الزام گوگل به استفاده از حداقل ۱۶ گیگابایت حافظه رم در تمامی دستگاه‌های شرکت‌کننده است. ترکیب این حافظه با تراشه اینتل کور اولترا ۵ (Intel Core Ultra 5 325) و ۲۵۶ گیگابایت حافظه داخلی پایه، سیستمی کاملاً توانمند برای کارهای محاسباتی ایجاد کرده است. با این حال، از آنجا که کاربران تشویق به استفاده از برنامه‌های نسخه موبایل می‌شوند، گاهی توان پردازشی دستگاه فراتر از بهینه‌سازی نرم‌افزاری اپلیکیشن‌ها است. به عنوان مثال، نسخه فتوشاپ (Photoshop) موجود در فروشگاه پلی‌استر (Play Store) نسخه موبایلی است و نه نسخه کامل دسکتاپ که روی ویندوز یا مک‌اواس نصب می‌شود. همچنین معماری پردازنده‌های مبتنی بر x86 در مقایسه با تراشه‌های آرم (ARM) گاهی موجب بروز خطاهای جزئی در اجرای اپلیکیشن‌های اندرویدی می‌شود. نرم‌افزار؛ گام بعدی تکامل کروم‌اواس رابط کاربری گوگل‌بوک‌اواس (Googlebook OS) برای کاربران اندروید (Android) و کروم‌اواس (Chrome OS) کاملاً آشنا و کاربرپسند است. اعلان‌ها، تنظیمات سریع و نوار وظیفه به راحتی در دسترس هستند و قابلیت‌هایی مانند چندوظیفگی (Multitasking) و تقسیم صفحه با کشیدن پنجره‌ها به طرفین به سادگی انجام می‌شود. یکی از بزرگ‌ترین سلاح‌های پلتفرم جدید، قابلیت اشتراک‌گذاری بین دستگاهی موسوم به «بهتر در کنار هم» (Better Together) است که به کاربران سامسونگ (Samsung) و سایر گوشی‌های اندرویدی اجازه می‌دهد با اسکن یک کد QR، فایل‌ها را با کشیدن و رها کردن منتقل کنند، برنامه‌ها را از گوشی روی لپ‌تاپ پخش کنند یا اعلان‌ها را همگام‌سازی کنند؛ قابلیتی که شباهت زیادی به اکوسیستم یکپارچه اپل (Apple) میان آیفون (iPhone) و مک (Mac) دارد. با این حال، محدودیت‌هایی نیز وجود دارد؛ از جمله محدودیت انتقال فایل‌های زیر ۲۰۰ مگابایت یا افت فریم جزئی هنگام استریم کردن بازی‌ها از گوشی به لپ‌تاپ. ابزارهای هوش مصنوعی جمنای (Gemini) و ابزار رونویسی صوتی رامبلر (Rambler) نیز از دیگر ویژگی‌های برجسته این دستگاه هستند. با این وجود، مشکل اصلی سیستم‌عامل، پیچیدگی سطوح سازگاری اپلیکیشن‌هاست. برنامه‌های فروشگاه پلی‌استر (Play Store) با برچسب‌های متفاوتی از جمله «ساخته شده برای دسکتاپ» یا «ساخته شده برای موبایل» دسته‌بندی می‌شوند که گاهی کاربر را با خطاهای نمایشی یا عدم امکان تمام‌صفحه کردن پنجره‌ها مواجه می‌کند. باتری و نتیجه‌گیری باتری ۷۰ وات‌ساعتی لپ‌تاپ گوگل‌بوک ۱۵ (Googlebook 15) با توجه به نمایشگر بزرگ خود، در تست پخش ویدیوی محلی توانست حدود هشت ساعت و نیم دوام بیاورد که عملکردی قابل قبول در استفاده روزمره کاری ارائه می‌دهد، هرچند از برخی رقبا در دنیای ویندوز عقب‌تر است. در مجموع، لپ‌تاپ گوگل‌بوک ۱۵ (Googlebook 15) محصولی دوگانه است؛ سخت‌افزار شاهکار و طراحی بی‌نظیر شرکت لنوو (Lenovo) در کنار نمایشگر ۱۲۰ هرتز OLED تحسین‌برانگیز است، اما سیستم‌عامل گوگل‌بوک (Googlebook OS) هنوز نیازمند زمان و توسعه بیشتر از سوی برنامه‌نویسان است. برای کاربران سرسخت اندروید (Android)، یکپارچگی دستگاه جذابیت بالایی دارد، اما سایر کاربران ممکن است ترجیح دهند تا رفع ایرادات اولیه نسخه نسل اول، منتظر بمانند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/lenovo-googlebook-15-review-your-android-phones-new-best-friend/l-intro-1793300409.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -8984,194 +9096,116 @@
       ]
     },
     {
-      "item_id": "1634b01ed7ac79cc0dd1a5881e50cf082c6429fe085ffb4734796f5dbcf0031f",
-      "title": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
-      "url": "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x",
-      "summary": "Waymo announced today that when it launches a robotaxi service in Tokyo in 2027, it will use Toyota bZ4X electric vehicles that are assembled in Japan. The news builds on the strategic partnership between Waymo and Toyota which was first announced in April 2025. The robotaxis will be built entirely under one roof at Toyota's [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/unnamed-1.webp?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-30T13:52:14+00:00",
-      "categories": [
-        "Autonomous Cars",
-        "Cars",
-        "News",
-        "Toyota",
-        "Transportation",
-        "Waymo"
-      ]
-    },
-    {
-      "item_id": "ea24213794ccd50873cf3badf79e19b9b61a1e1d4b1324c9464a3f3e89c1b508",
-      "title": "Lenovo Googlebook 15 review: Your Android phone's new best friend",
-      "url": "https://www.engadget.com/2301498/lenovo-googlebook-15-review/",
-      "summary": "Despite Lenovo providing excellent hardware for Google's new laptop platform, Googlebook OS will only impress Android die-hards.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/lenovo-googlebook-15-review-your-android-phones-new-best-friend/l-intro-1793300409.jpg",
-      "published_at": "2026-10-30T12:00:00+00:00",
-      "categories": [
-        "Laptops & PCs"
-      ]
-    },
-    {
-      "item_id": "6c74fdc14f7b9f0ed26e87a32bf8142325d30d4428ab74efe12331afd9f5c186",
-      "title": "Senators are looking into 'serious privacy risks' with Meta's AI glasses",
-      "url": "https://www.engadget.com/2301968/senators-looking-into-serious-privacy-risks-with-meta-ai-glasses/",
-      "summary": "US senators have asked Meta to explain how it's mitigating 'serious' privacy risks with its AI glasses.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/senators-are-looking-into-serious-privacy-risks-with-metas-ai-glasses/l-intro-1793354694.jpg",
-      "published_at": "2026-10-30T10:08:13+00:00",
-      "categories": [
-        "Social Media"
-      ]
-    },
-    {
-      "item_id": "6a975b6faee5b0cca3a6483709d20cf29cbacdaa28f903b18a6d02e9f1c8d433",
-      "title": "Meta settles another social media addiction case just before trial",
-      "url": "https://www.engadget.com/2302956/meta-settles-another-social-media-addiction-case-just-before-trial/",
-      "summary": "Snap is now the only defendant in the case.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/meta-settles-another-social-media-addiction-case-just-before-trial/l-intro-1793391515.jpg",
-      "published_at": "2026-10-30T20:21:28+00:00",
-      "categories": [
-        "Social Media",
-        "Meta"
-      ]
-    },
-    {
-      "item_id": "4ffb410c7716cf775e91a576c224b1b04d904a4a54076448902d46fc0d293874",
-      "title": "Everything you need to know about Googlebooks",
-      "url": "https://www.engadget.com/2302681/everything-you-need-to-know-about-googlebooks/",
-      "summary": "Despite good initial hardware, the Googlebook OS still needs a lot of work.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/despite-good-initial-hardware-the-googlebook-os-is-holding-the-platform-back/l-intro-1793383802.jpg",
-      "published_at": "2026-10-30T19:00:00+00:00",
-      "categories": [
-        "Laptops",
-        "Buying Guides",
-        "Google"
-      ]
-    },
-    {
-      "item_id": "b05b5bca654aa87af8d94c0d966ff41ad6794d844498d19678abf4c05cfd18ec",
-      "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
-      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-30T18:21:38+00:00",
+      "item_id": "24479b6cb7bac8d2dc6f54c34d33e8d2730a40d3ef7604a4c36d348d1e9c96f6",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-30T22:56:13+00:00",
       "categories": [
         "AI",
-        "Google",
+        "Apps",
+        "Startups",
+        "AI assistant",
+        "ollie"
+      ]
+    },
+    {
+      "item_id": "e0baf32edc1f889957584d4d4f170c4ecde72f2311bebfd427278e079d858398",
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-10-30T22:32:53+00:00",
+      "categories": [
+        "AI",
+        "Apple",
+        "iOS",
         "News",
-        "Science",
-        "Space",
         "Tech"
       ]
     },
     {
-      "item_id": "d75fccee0d04d7377fbd3411924c50b76e02b5152c9a44a69efc35d12bf7f02e",
-      "title": "Satlyt takes another step toward turning satellites into space data centers",
-      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
-      "summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+      "item_id": "728ac979f057f40747536dd2728d3a61edaca48616033832579afac234f53010",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-10-30T18:01:24+00:00",
+      "published_at": "2026-10-30T21:54:34+00:00",
       "categories": [
-        "Space",
-        "Startups",
         "AI",
-        "data centers",
-        "satlyt"
+        "Enterprise",
+        "TC",
+        "Intel"
       ]
     },
     {
-      "item_id": "097d58a929222f46b0d15deef3c3eb2d045032bcbd59be3fcb5b4a0275b10742",
-      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
-      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "item_id": "1e1ba33e66d72f6a884e551fb8e8e8493a0d3d142f9b953c8d55cb86b051dc21",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-10-30T17:47:12+00:00",
+      "published_at": "2026-10-30T21:52:03+00:00",
       "categories": [
         "AI",
-        "Startups",
-        "AI agents",
-        "dining",
-        "zest"
+        "Anthropic",
+        "In Brief",
+        "IPO"
       ]
     },
     {
-      "item_id": "3adf93b942e686c780fd0a22be6d3b7d5048176a467bb302be9d5f9af8ce59dd",
-      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
-      "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-30T17:38:04+00:00",
-      "categories": [
-        "AI",
-        "News"
-      ]
-    },
-    {
-      "item_id": "c8d8d8f58a4585abb2f1f9168cf11d54c33c1ebbc5fa405a0714dbaa949e85fb",
-      "title": "The delightfully messy state of Apple gadgets",
-      "url": "https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets",
-      "summary": "The iPhone has more screens! The MacBook has a touchscreen! The HomeView does CarPlay apps! For the first time in a long time, Apple is in a period of unabashed gadget experimentation, and while the final results aren't always perfect, it's fun to watch the most successful product maker try some new things again. Even [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_1030_SiteB.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-30T17:25:20+00:00",
-      "categories": [
-        "Apple",
-        "Gadgets",
-        "Podcasts",
-        "Tech",
-        "Vergecast"
-      ]
-    },
-    {
-      "item_id": "f8bade2eb5bc57c5750ba27fa97dda2f9f8c45aaf5e1de7d8698c695c63391fc",
-      "title": "Rivian’s autonomy gamble faces its first real test",
-      "url": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
-      "summary": "During an hourlong earnings call last night, Rivian CEO RJ Scaringe spent less time talking about the production ramp of the all-important R2 SUV than he did hyping the company's still-unproven autonomous vehicle ambitions. But the company faces a crucial test later this year, when it rolls out its point-to-point hands-free driving feature - first [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2277183149.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-30T17:16:09+00:00",
-      "categories": [
-        "Autonomous Cars",
-        "Electric Cars",
-        "News",
-        "Transportation"
-      ]
-    },
-    {
-      "item_id": "3a0247a7c1b5dacbd31e9a6ec0dcc8bb9e2012dcad4078c7ea830fd5e738fb60",
-      "title": "Vizio’s discounted Mini LED TV lets you skip the sign-ups and smarts",
-      "url": "https://www.theverge.com/gadgets/1022794/vizio-mini-led-quantum-tv-65-inch-walmart-deal-sale",
-      "summary": "Modern smart TVs let you skip the streaming device, which is convenient, but they also come with their own issues, including privacy concerns and frequent updates. The Vizio Mini LED Quantum TV lets you cut out the rigamarole and just get straight to the HDMI ports. And right now, it’s discounted at Walmart, with the [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268611_Vizio_Mini_LED_Quantum_TV_JHiggins_0009.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-10-30T17:01:07+00:00",
-      "categories": [
-        "Deals",
-        "Gadgets",
-        "Verge Shopping"
-      ]
-    },
-    {
-      "item_id": "bbbe0e91a754296e1445947b0218480b0c5a5d35ddc372415dfb849a967590d7",
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "item_id": "f1663b5266c6caad9cc0b2c58408f97af2cc4260927ed999ca579c0b10dca935",
+      "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
+      "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+      "summary": "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-10-30T17:00:00+00:00",
+      "published_at": "2026-10-30T21:48:53+00:00",
+      "categories": [
+        "Security",
+        "applebee's",
+        "cybersecurity",
+        "dine brands",
+        "Exclusive"
+      ]
+    },
+    {
+      "item_id": "688915b634e7d986f862cca17ca6e3f5653536c1742e9da03c9941248a9859d8",
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-30T21:26:59+00:00",
+      "categories": [
+        "TC",
+        "Media & Entertainment",
+        "AI",
+        "Halloween"
+      ]
+    },
+    {
+      "item_id": "7ce21b27af459e058bcca816cde59f7b5eddc10edf4ff2dba3bfa40137dbbcc9",
+      "title": "Cracks are emerging in the AI spending boom",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-10-30T21:17:40+00:00",
       "categories": [
         "AI",
-        "Space",
-        "Exclusive",
+        "Enterprise",
+        "ai infrastructure",
+        "Alphabet",
+        "Amazon",
+        "big tech",
         "Google",
-        "space data centers"
+        "Meta",
+        "Microsoft"
       ]
     }
   ]
