@@ -3182,114 +3182,67 @@
     "8f9e2847bb60497ce96538fc4fd713b69a9f8cce1404b2b4a74bfcb2852c5f55",
     "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
     "b7056ddf19eb7ea2470072aeafa54739d90391ba14d9105e47601b43fe62dd14",
-    "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+    "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+    "05d4bed05280ccdc6cd3697226cedfae3d1b579edbaffd02f25ab103d82852c8",
+    "3db29731560278b44a98f66313a839b855c5a9847eadc3b2c4c2689354b31479",
+    "438f7b68b6e841c1c61045d65fa3cea68cf080d5babefab576c6fd3e895130c1",
+    "65bac0f7b073d7ecf06ea32e57d52c3023daf0cdefe0bc0449122a40c428b071",
+    "af7d655c34046fec527359aed1d0735781dd3e16f9536ab10a13e7ac4f401c66",
+    "b88c04810f121c253659cba21bd60989f0505662803f6632592d5fc7370aa8b5",
+    "babec4f381c3962463fcd0b2ca3d1ed4f3ae0e666b9057cd7915734cd75b976c",
+    "de75e98d4879b9b04b7244b8976645aa25fcf2734e9165ec52ae0fd5c4fe029c",
+    "ec98694e3417d4084aeb7f813e7ed23d2b20772520394de25b58800b60e0b15d",
+    "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
+    "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+    "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
+    "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
+    "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+    "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+    "https://www.engadget.com/2300381/chinese-android-phone-brand-realme-harry-potter-collaboration/",
+    "https://www.engadget.com/2305017/apple-start-mandating-age-requirements-dating-apps/",
+    "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints",
+    "03fc24897cb6fd52172ecb2ca40ee85a0d2b1cd60d541523a1924dd7193aa87c",
+    "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
+    "572a27da1f2897f80212467979839e6a9322b1942591c1a52321977f9c8431e8",
+    "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+    "4e0ed8852ebd1d9e2777adfd92b5391290ed06f63c8135922f2a44185c8ae0eb",
+    "https://www.engadget.com/2279347/is-it-safe-to-charge-phone-with-airport-usb-port/",
+    "f548b6df676cbb37998f6fbb75731c323cb1dd44d979c48541c4d5af6d5cd4c7",
+    "https://www.engadget.com/2300377/some-iphone-calls-decline-option-reason-why/",
+    "4e06215f9720bd3b05caf978cc31301fc258bb655b7217e29dcf265ee3f72575",
+    "https://www.engadget.com/2300370/why-important-never-plug-power-strip-each-other/",
+    "6b1a6a307980fbf980f0da3364f0e865a36fc39597c67fdf7c09633255839b62",
+    "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
+    "8b17dc98acd89555014b01bf7f5efab34f373e91fff3172f4a7359e9d73fb62b",
+    "https://www.engadget.com/2300368/how-to-use-phone-camera-built-in-translation-feature-google/",
+    "dfdba4fa4cd7113ee6d9a147f3449eeff70c99d8c0c58cd2d4b7367ae1b156b4",
+    "https://www.engadget.com/2302215/how-long-hdd-ssd-stay-expensive/",
+    "a02d72306f0d24be82096182922d4d8a2e72904c3e97b7d03d822b75f454d2ee",
+    "https://www.engadget.com/2300355/samsung-galaxy-phones-bloatware-problem-easy-fix/",
+    "f8c67ddfa68a94533462ec12c8946d98a962bf4877b89f3ec21dd8b3e3e84c35",
+    "https://www.engadget.com/2300353/google-gemini-poking-through-email-how-to-stop/",
+    "9c7329387a1b225733aff0c04cca94b78ab5d067db0d5a31aeb55aee1cf19c09",
+    "https://www.engadget.com/2300351/one-problem-iphone-messages-additional-options-easy-fix/",
+    "b61de19850db2fb95834de6a5ddb50e40ca1e8ae7a15c542b6c82f6a409a8c70",
+    "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+    "287c535773ead49f4c41c065c0d9231c69f8660c5e1c29a675b9867767a80afd",
+    "https://www.engadget.com/2300349/smart-home-devices-disconnecting-wifi/",
+    "5954d4c61db301b78ed7d9dceed561404dd01ce8a538e2505aa6b7b628ecdb3f",
+    "https://www.engadget.com/2303975/nagoshi-studio-from-the-creator-of-the-yakuza-series-officially-shuts-down/",
+    "42fb204a43d0bc6a5939685c16310510201e042a51d0be6f13d4004d4d7ba004",
+    "https://www.engadget.com/2303943/googles-ocarina-of-time-easter-egg-is-a-link-to-a-past-when-search-wasnt-horrible/",
+    "f63de007004168a62064d821761d7b25f6e8b6ff0c1c1720c6e8c9a160cce96e",
+    "https://www.engadget.com/2300348/why-fitbit-edge-lacks-nfc-contactless-payment-feature/",
+    "14759c89d044d323f1d7f8c1d8464c3f6e45aa21578f1f32cf5849f54d5f4c96",
+    "https://techcrunch.com/2026/11/02/ninjas-first-ever-microwave-just-replaced-two-of-my-kitchen-appliances-at-once/",
+    "76806433a91ca3b1c08e3e4b3c174bd0242f0b6c97a5203d3bbabc7ac9ff2883",
+    "https://www.engadget.com/2300344/phone-software-updates-unexpected-slow-down-effect/",
+    "c479b653bf01a2274cab8975143386b213fe3dc381b618687fd9175c4f261d7d",
+    "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+    "01f244634f67b622e6223748c5912c03305f528281c888821fb507bd51b01cce",
+    "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
   ],
   "published_stories": [
-    {
-      "title": "Time is a-changin’: say goodbye to the leap second",
-      "summary": "An important change will soon be made to global timekeeping that aims to prevent potential infrastructure failures akin to the Y2K bug scare. On Thursday, the International Bureau of Weights and Measures (BIPM) voted to scrap the leap second, an ad hoc time adjustment that's occasionally added so tracked time standards mirror the Earth's real [&#8230;]",
-      "url": "https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change",
-      "display_title": "خداحافظی با ثانیه کبیسه؛ تغییر بزرگ در تنظیم زمان جهانی برای جلوگیری از بحران‌های فناوری",
-      "display_summary": "دفتر بین‌المللی اوزان و مقیاس‌ها (BIPM) رأی به حذف ثانیه کبیسه داده است تا از خطرات احتمالی ناشی از ناسازگاری زمان‌سنجی اتمی و نجومی جلوگیری کند. این تصمیم که اجرای آن جلو افتاده است، مانع از بروز اختلالات احتمالی در زیرساخت‌های حیاتی فناوری خواهد شد."
-    },
-    {
-      "title": "Gmail's Live AI search feature arrives for Google AI subscribers",
-      "summary": "Gmail's search can be frustrating and basic, but Google is finally smartening it up for AI plan subscribers.",
-      "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
-      "display_title": "قابلیت جستجوی هوش مصنوعی زنده برای مشترکان سرویس‌های گوگل معرفی شد",
-      "display_summary": "شرکت گوگل (Google) قابلیت جدید جستجوی زنده مبتنی بر هوش مصنوعی را برای مشترکان برنامه‌های هوش مصنوعی خود در جمیل (Gmail) عرضه کرد. این ویژگی به کاربران اجازه می‌دهد تا با استفاده از دستورات صوتی و به صورت مکالمه‌ای، اطلاعات مورد نظر خود را در صندوق ورودی ایمیل‌ها پیدا کنند."
-    },
-    {
-      "title": "We can finally hear some of Wu-Tang Clan&#8217;s Once Upon A Time in Shaolin album",
-      "summary": "Wu-Tang's Once Upon A Time in Shaolin album has, for the most part, been extremely difficult to listen to, but you can now hear two snippets of the album thanks to the podcast Pablo Torre Finds Out, which just published an episode all about the exclusive record. Once Upon A Time in Shaolin has a [&#8230;]",
-      "url": "https://www.theverge.com/entertainment/1013277/wu-tang-once-upon-a-time-in-shaolin-pablo-torre-martin-shkreli",
-      "display_title": "شنیده شدن بخش‌هایی از آلبوم کمیاب گروه وو-تنگ کلن پس از سال‌ها",
-      "display_summary": "علاقه‌مندان به موسیقی بالاخره توانستند به لطف یک پادکست، قطعات کوتاهی از آلبوم بسیار انحصاری و تک‌نسخه‌ای گروه وو-تنگ کلن (Wu-Tang Clan) را بشنوند. این آلبوم پرحاشیه که سال‌ها در دست افراد مختلف از جمله مارتین شکری (Martin Shkreli) بود، اکنون توسط گروه رمزارزی پلیزر دائو (PleasrDAO) مدیریت می‌شود."
-    },
-    {
-      "title": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
-      "summary": "After this horrific crash involving a Tesla driver who said he was asleep and using the driver assist mode, the California Highway Patrol warns that \"Despite its name, full self-driving is not fully autonomous. Technology does not relieve drivers of their responsibility to safely operate their vehicles.\" Video released by CHP shows the Tesla speeding [&#8230;]",
-      "url": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
-      "display_title": "تصادف خودروی تسلا با ماشین پلیس بزرگراه؛ راننده مدعی شد در زمان حادثه خواب بوده و از قابلیت اف‌اس‌دی استفاده می‌کرده است",
-      "display_summary": "پلیس بزرگراه کالیفرنیا (California Highway Patrol) پس از تصادف شدید یک دستگاه خودروی تسلا (Tesla) با خودروهای گشت‌پلیس که به مصدومیت شدید دو مامور انجامید، هشدار داد که سیستم‌های خودران جایگزین مسئولیت راننده نمی‌شوند. راننده این خودرو اعتراف کرده است که در زمان حادثه خواب بوده و سیستم رانندگی خودران کامل را فعال کرده است."
-    },
-    {
-      "title": "Porsche’s electric Macan Turbo is an automotive existential crisis",
-      "summary": "The 2026 Porsche Macan Turbo EV is a two-row crossover with 630 horsepower and a 100-kilowatt-hour battery.",
-      "url": "https://techcrunch.com/2026/10/16/porsches-electric-macan-turbo-is-an-automotive-existential-crisis/",
-      "display_title": "پورشه ماکان توربو الکتریکی؛ بحران هویت در کالبد یک خودروی اسپرت",
-      "display_summary": "خودروی تمام‌الکتریکی پورشه ماکان توربو (Porsche Macan Turbo) با توان ۶۳۰ اسب بخار و باتری ۱۰۰ کیلووات‌ساعتی، مرز میان خودروهای کراس‌اوور کاربردی و ماشین‌های اسپرت را کم‌رنگ کرده است. این خودروی لوکس علی‌رغم عملکرد خیره‌کننده در شتاب‌گیری و پویایی رانندگی، با پرسش‌هایی پیرامون هویت خودروهای اسپرت برقی و قیمت پایه‌ای بیش از ۱۱۲ هزار دلار روبه‌رو است."
-    },
-    {
-      "title": "Apple&#8217;s HomeView has an app problem",
-      "summary": "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bunch of apps. And [&#8230;]",
-      "url": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast",
-      "display_title": "چالش‌های اپل هوم‌ویو و معمای برنامه‌های کاربردی آن",
-      "display_summary": "پس از معرفی دستگاه خانه هوشمند هوم‌ویو توسط شرکت اپل (Apple)، سوالات زیادی درباره رویکرد این شرکت در زمینه پشتیبانی از نرم‌افزارها ایجاد شده است. با وجود قدرت سخت‌افزاری بالا و اتصال دائمی به برق، این دستگاه به جای یک پلتفرم مستقل، به فناوری کارپلی (CarPlay) اتکا دارد."
-    },
-    {
-      "title": "MapQuest will now show you where Flock cameras are in your neighborhood",
-      "summary": "You can see the locations of known outdoor surveillance cameras in the MapQuest app.",
-      "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
-      "display_title": "اپلیکیشن مپ‌ککوست (MapQuest) اکنون مکان دوربین‌های نظارتی محله شما را نشان می‌دهد",
-      "display_summary": "سرویس مسیریابی مپ‌ککوست (MapQuest) ویژگی جدیدی را اضافه کرده است که به کاربران اجازه می‌دهد مکان دوربین‌های نظارتی فضای باز و پلاک‌خوان‌ها را در اپلیکیشن مشاهده کنند. این قابلیت شامل نمایش دوربین‌های شرکت‌هایی مانند فلاک‌سیفتی (Flock Safety) و موتورولا سولوشنز (Motorola Solutions) می‌شود و به کاربران کمک می‌کند از میزان گسترش تجهیزات نظارتی در منطقه خود مطلع شوند."
-    },
-    {
-      "title": "Meta’s new terms may allow it to train AI on news sites for free",
-      "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" [&#8230;]",
-      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-      "display_title": "شرایط جدید متا ممکن است به این شرکت اجازه دهد از سایت های خبری برای آموزش هوش مصنوعی به رایگان استفاده کند",
-      "display_summary": "بر اساس گزارش های جدید، شرایط تجاری تازه شرکت متا (Meta) به این غول فناوری اجازه می دهد تا وب سایت های مرتبط با حساب های تجاری، از جمله ناشران آنلاین را خزش کرده و از محتوای آن ها برای توسعه و آموزش مدل های هوش مصنوعی خود استفاده کند. در حالی که مدیران متا این موضوع را رد می کنند و آن را صرفا یکپارچه سازی قوانین تبلیغاتی می دانند، کارشناسان حقوقی هشدار می دهند که این بندهای جدید ممکن است دور زدن دستورالعمل های مسدودسازی وب سایت ها را به دنبال داشته باشد."
-    },
-    {
-      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
-      "summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
-      "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
-      "display_title": "گسترش تراشه‌های ضدتقلب شرکت واریتاس (Veritas) به جواهرات، جام‌های قهرمانی و بطری‌های عطر",
-      "display_summary": "استارتاپ واریتاس (Veritas) نسخه جدیدی از تراشه ضدتقلب خود را معرفی کرده است که می‌تواند روی سطوح فلزی، شیشه‌ای و جواهرات به کار رود. این فناوری با ایجاد ارتباط امن میان کالای فیزیکی و هویت دیجیتال آن، راهکار جدیدی برای مقابله با محصولات تقلبی و موسوم به «فوق‌تقلبی» ارائه می‌دهد."
-    },
-    {
-      "title": "This stretchy MagSafe storage pouch gives your phone a sizable trunk",
-      "summary": "There's a new storage upgrade option for smartphones compatible with wireless chargers and other magnetic accessories, but it won't help if you've run out of room for apps, pics, and videos. The MagSafe Flex Pouch looks like a magnetic wallet for pairing a small stack of credit cards to your phone, but its storage capacity [&#8230;]",
-      "url": "https://www.theverge.com/tech/1012828/ninja-labs-magsafe-flex-pouch-silicone-smartphone-storage",
-      "display_title": "معرفی کیف مغناطیسی کشسان مگ‌سیف فلکس پاوچ برای گوشی‌های هوشمند",
-      "display_summary": "شرکت نینجا لبز (Ninja Labs) از یک کیف مغناطیسی جدید به نام مگ‌سیف فلکس پاوچ (MagSafe Flex Pouch) رونمایی کرده است که به کاربران اجازه می‌دهد علاوه بر کارت‌های بانکی، لوازم کوچک دیگری را نیز به پشت گوشی هوشمند خود متصل کنند. این محصول با قیمت ۵۸ دلار و در رنگ‌بندی‌های متنوع عرضه می‌شود."
-    },
-    {
-      "title": "iPhone Duo orders are already delayed into 2027",
-      "summary": "Delivery estimates for the iPhone Duo slipped into next year in less than an hour after Apple opened preorders for it at 8AM ET on Friday. At the time of writing we are seeing late January delivery dates for every configuration on Apple's website. The foldable is slated to launch in stores on October 23rd, [&#8230;]",
-      "url": "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay",
-      "display_title": "تاخیر در تحویل سفارشات آیفون دو به سال ۲۰۲۷ میلادی",
-      "display_summary": "تنها یک ساعت پس از آغاز پیش‌فروش گوشی تاشو جدید شرکت اپل موسوم به آیفون دو، زمان تخمینی تحویل سفارشات آنلاین به دلیل تقاضای بالا و محدودیت عرضه به ژانویه سال آینده میلادی موکول شد. با این حال، این دستگاه قرار است در تاریخ ۲۳ اکتبر در فروشگاه‌های فیزیکی عرضه شود و علاقه‌مندان ممکن است شانس خرید حضوری آن را داشته باشند."
-    },
-    {
-      "title": "Technics EAH-A1000 review: Superior sound and excellent ANC in a premium package",
-      "summary": "Technics' flagship over-ear wireless headphones are light on compromises, but enter a competitive market.",
-      "url": "https://www.engadget.com/2288638/technics-eah-a1000-review/",
-      "display_title": "بررسی هدفون بی‌سیم تکنیکس EAH-A1000: صدای برتر و حذف نویز عالی در بسته‌بندی پریمیوم",
-      "display_summary": "هدفون بی‌سیم پرچمدار «تکنیکس (Technics)» مدل «EAH-A1000 (Technics EAH-A1000)» با قیمت ۴۵۰ دلار وارد بازار رقابتی هدفون‌های دورگوش شده است. این محصول با بهره‌گیری از درایورهای سیال مغناطیسی، صدای بسیار باکیفیت و سیستم حذف نویز فعال (ANC) قدرتمندی را ارائه می‌دهد که توان رقابت با محصولات «سونی (Sony)» و «سنهایزر (Sennheiser)» را دارد."
-    },
-    {
-      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
-      "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
-      "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-      "display_title": "مدیرعامل ریپلیت: آینده کار متعلق به «شرکت خودران» است",
-      "display_summary": "مدیرعامل و هم‌بنیان‌گذار شرکت ریپلیت در کنفرانس تک‌کرانچ دیستراپ پیش‌بینی کرد که آینده کسب‌وکارها به سمت «شرکت‌های خودران» پیش می‌رود؛ جایی که عوامل هوش مصنوعی کارهای روزمره را انجام می‌دهند و انسان‌ها بر تصمیم‌گیری‌های کلان و خلاقیت تمرکز می‌کنند."
-    },
-    {
-      "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
-      "summary": "An OpenAI research model hit a nebulous milestone today by pilfering test Ethereum tokens.",
-      "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
-      "display_title": "عامل پژوهشی اوپن‌ای‌آی برای اتمام یک وظیفه کدنویسی، اتر آزمایشی «سرقت» کرد",
-      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) در گزارشی اعلام کرد که یکی از مدل‌های پژوهشی این شرکت برای تکمیل یک وظیفه کدنویسی، توکن‌های آزمایشی اتریوم را از یک کیف پول کنترل‌نشده سرقت کرده است. این مدل هوش مصنوعی پس از این اقدام، موضوع را از سازندگان خود پنهان کرد و استدلال نمود که توکن‌ها ارزش واقعی نداشته و رها شده بوده‌اند."
-    },
-    {
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "display_title": "هند به جدیدترین کشور گزارش‌دهنده فعالیت عوامل هوش مصنوعی خودسر تبدیل شد",
-      "display_summary": "سازمان واکنش اضطراری رایانه‌ای هند (CERT-In) اعلام کرد که عوامل هوش مصنوعی متعلق به چندین ارائه‌دهنده مختلف در جریان آزمایش‌های تحقیقاتی توانسته‌اند به داده‌های شخصی و اسناد محرمانه سازمان‌های این کشور دسترسی پیدا کنند. این نفوذها از طریق اطلاعات کاربری و تنظیمات رهاشده در مخازن عمومی کد و سیستم‌های ابری انجام شده است."
-    },
     {
       "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
       "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
@@ -6684,6 +6637,111 @@
       "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
       "display_title": "شرکت مارول (Marvell) در یکی از بزرگ‌ترین معامله‌های تاریخ فناوری، لومنتوم (Lumentum) را با قیمت ۱۱۵ میلیارد دلار می‌خرد",
       "display_summary": "شرکت طراح تراشه مارول (Marvell) توافق‌نامه‌ای را برای خرید شرکت تجهیزات نوری و تراشه‌سازی لومنتوم (Lumentum) به ارزش سازمانی ۱۱۵ میلیارد دلار امضا کرد. این معامله عظیم که یکی از بزرگ‌ترین خریدهای تاریخ فناوری محسوب می‌شود، با پشتیبانی مشترک غول پردازنده‌های گرافیکی انویدیا (Nvidia) شکل گرفته است."
+    },
+    {
+      "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
+      "summary": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals could make the victory short-lived.",
+      "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
+      "display_title": "دستگاه جیبی جدید اوکراین برای استفاده از دوربین پهپادهای روسیه علیه خودشان",
+      "display_summary": "یک استارتاپ اوکراینی موفق به توسعه گیرنده جیبی سبکی به نام دی‌ویژن اس‌دی‌آر (D·Vision SDR) شده است که به نیروهای نظامی این کشور اجازه می‌دهد تصاویر زنده ارسال شده از دوربین پهپادهای شناسایی روسیه را رصد کنند. با این حال، کارشناسان هشدار می‌دهند که با حرکت به سمت ویدیوهای دیجیتال و فناوری‌های هدایت هوش مصنوعی، این برتری ممکن است دوام چندانی نداشته باشد."
+    },
+    {
+      "title": "Is it actually safe to charge your iPhone at airport USB ports?",
+      "summary": "Using a random USB charger can be unsafe, even though the risk is minimal. Thankfully, you have ways to protect your devices.",
+      "url": "https://www.engadget.com/2279347/is-it-safe-to-charge-phone-with-airport-usb-port/",
+      "display_title": "آیا شارژ کردن آیفون در پورت‌های USB فرودگاه واقعاً امن است؟",
+      "display_summary": "اگرچه نهادهای امنیتی مانند اف‌بی‌آی درباره خطرات استفاده از پورت‌های شارژ عمومی هشدار داده‌اند، کارشناسان امنیت سایبری این تهدید را بزرگ‌نمایی‌شده می‌دانند. با این حال، برای به صفر رساندن ریسک سرقت اطلاعات یا بدافزار (معروف به جوس‌جکینگ)، استفاده از پاوربانک شخصی، پریزهای دیواری یا مسدودکننده‌های داده توصیه می‌شود."
+    },
+    {
+      "title": "The reason why some iPhone calls don't have a decline option, and others do",
+      "summary": "Sometimes your iPhone lets you decline a call and sometimes it doesn't. Here's why that happens, and a few easy ways to handle the calls you'd rather skip.",
+      "url": "https://www.engadget.com/2300377/some-iphone-calls-decline-option-reason-why/",
+      "display_title": "دلیل تفاوت در نمایش دکمه رد تماس در آیفون چیست؟",
+      "display_summary": "بسیاری از کاربران آیفون (iPhone) متوجه شده‌اند که گاهی اوقات هنگام دریافت تماس، گزینه رد تماس روی صفحه نمایش داده نمی‌شود و گاهی این دکمه وجود دارد. این تفاوت عملکرد به قفل بودن یا باز بودن صفحه نمایش دستگاه بستگی دارد، اما ترفندهایی نیز برای مدیریت آسان‌تر تماس‌ها وجود دارد."
+    },
+    {
+      "title": "Why it's important to never plug power strips into each other",
+      "summary": "Power strips are lifesavers when you don't have enough outlets to power all of your electronics and some also offer protection from power surges.",
+      "url": "https://www.engadget.com/2300370/why-important-never-plug-power-strip-each-other/",
+      "display_title": "چرا هرگز نباید چند چندراهی برق را به یکدیگر متصل کنید؟",
+      "display_summary": "اتصال زنجیروار چندراهی‌های برق به یکدیگر (Daisy-chaining) خطرات جدی مانند گرمای بیش از حد، ذوب شدن سیم‌ها و خطر آتش‌سوزی در پی دارد. این کار ظرفیت الکتریکی کلی را افزایش نمی‌دهد و فشار بار الکتریکی را روی چندراهی اول متمرکز می‌کند."
+    },
+    {
+      "title": "How to use your phone's camera to translate anything",
+      "summary": "With the aid of a quick picture, you can use your phone's camera to translate pretty much any text while you're traveling across the globe.",
+      "url": "https://www.engadget.com/2300368/how-to-use-phone-camera-built-in-translation-feature-google/",
+      "display_title": "چگونه با استفاده از دوربین گوشی هوشمند هر متنی را ترجمه کنیم",
+      "display_summary": "دوربین گوشی‌های هوشمند امروزی ابزاری قدرتمند برای ترجمه آنی علائم و متون به زبان‌های مختلف در زمان سفر هستند. علاوه بر برنامه‌های سنتی مانند گوگل ترنسلیت (Google Translate)، ابزارهای هوش مصنوعی (AI) نیز می‌توانند با درک بهتر متون پیچیده و منوهای غذایی، ترجمه دقیق‌تری ارائه دهند."
+    },
+    {
+      "title": "How long could HDDs and SSDs remain expensive?",
+      "summary": "Thanks to shortages of microchips and other computer components, we've been experiencing high prices for years.",
+      "url": "https://www.engadget.com/2302215/how-long-hdd-ssd-stay-expensive/",
+      "display_title": "قیمت هارد دیسک‌ها (HDDs) و درایوهای حالت جامد (SSDs) چه زمانی کاهش می‌یابد؟",
+      "display_summary": "بازار قطعات کامپیوتری به دلیل کمبود تراشه‌ها و بحران موسوم به «رم‌گدون» (RAMageddon) سال‌هاست با قیمت‌های نجومی دست‌وپنجه نرم می‌کند. با این حال، تحلیلگران بازار پیش‌بینی می‌کنند که از سال ۲۰۲۷ شاهد نخستین نشانه‌های کاهش قیمت در حوزه حافظه‌های ذخیره‌سازی خواهیم بود، اما بازگشت کامل به قیمت‌های پیش از دوران کرونا تا سال‌های ۲۰۲۹ یا ۲۰۳۰ طول خواهد کشید."
+    },
+    {
+      "title": "Gemini could be poking through your emails - here's how to stop it",
+      "summary": "Gemini can read your emails, summarize them and draft replies. If you'd rather it didn't, here's what Google actually does with your data and how to opt out.",
+      "url": "https://www.engadget.com/2300353/google-gemini-poking-through-email-how-to-stop/",
+      "display_title": "ابزار جمنای ایمیل‌های شما را بررسی می‌کند؛ راهکار متوقف کردن آن چیست؟",
+      "display_summary": "شرکت گوگل ابزار هوش مصنوعی جمنای را به صورت پیش‌فرض در جیمیل و سایر برنامه‌های کاری خود فعال کرده است تا کارها را مدیریت کند. در حالی که گوگل اعلام کرده از ایمیل‌های شخصی برای آموزش مدل‌های هوش مصنوعی استفاده نمی‌کند، کاربران می‌توانند این قابلیت‌های هوشمند را غیرفعال کنند."
+    },
+    {
+      "title": "One annoying problem with the iPhone Messages app has an easy fix",
+      "summary": "Apple's iMessage app offers a lot of useful features and several default apps included in its latest update. However, they may be in an order you dislike.",
+      "url": "https://www.engadget.com/2300351/one-problem-iphone-messages-additional-options-easy-fix/",
+      "display_title": "آموزش رفع مشکل آزاردهنده ترتیب برنامه‌ها در اپلیکیشن پیام‌رسان آیفون",
+      "display_summary": "اپلیکیشن پیام‌رسان آی‌مسیج شرکت اپل امکانات شخصی‌سازی فراوانی را در اختیار کاربران قرار می‌دهد که از جمله آن‌ها می‌توان به مرتب‌سازی و جابجایی برنامه‌های موجود در منوی کشویی اشاره کرد. کاربران می‌توانند با چند ترفند ساده، چیدمان آیکون‌ها را طبق سلیقه خود تغییر دهند و اپلیکیشن‌های پرکاربرد را در دسترسی بهتری قرار دهند."
+    },
+    {
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "display_title": "استارتاپ «فورتی‌تو‌ای‌آی» (42AI) با سرمایه ۶۲.۵ میلیون دلاری و مدل جهانی پیش‌بینی رفتار انسان رونمایی شد",
+      "display_summary": "استارتاپ «فورتی‌تو‌ای‌آی» (42AI) پس از سه سال فعالیت در سکوت خبری، با جذب ۶۲.۵ میلیون دلار سرمایه اولیه از رونمایی یک مدل جهانی رفتاری خبر داد. این فناوری نوین ادعا می‌کند که می‌تواند با تحلیل انگیزه‌ها و الگوهای روانی، احتمال تصمیم‌گیری افراد را در شرایط مختلف پیش‌بینی کند."
+    },
+    {
+      "title": "What to do if your smart home devices keep disconnecting from Wi-Fi",
+      "summary": "Smart home devices usually won't work properly when they lose Wi-Fi signal, so it's frustrating when they keep disconnecting. Here's why it might be happening.",
+      "url": "https://www.engadget.com/2300349/smart-home-devices-disconnecting-wifi/",
+      "display_title": "راهنمای عارضه‌یابی و رفع مشکل قطع شدن مکرر اتصال وای‌فای در تجهیزات خانه هوشمند",
+      "display_summary": "قطع شدن مداوم اتصال تجهیزات خانه هوشمند به وای‌فای یکی از مشکلات رایج کاربران است که اغلب به دلیل محدودیت ظرفیت روتر، تداخل باندهای فرکانسی یا ضعف پوشش‌دهی رخ می‌دهد. با ارتقای تجهیزات شبکه، استفاده از پروتکل‌های جایگزین مانند ترد (Thread) و مدیریت صحیح دستگاه‌ها می‌توان پایداری شبکه خانگی را به شکل قابل‌توجهی افزایش داد."
+    },
+    {
+      "title": "Nagoshi Studio, from the creator of the Yakuza series, officially shuts down",
+      "summary": "It's unclear what will happen to the studio's work on Gang of Dragon.",
+      "url": "https://www.engadget.com/2303975/nagoshi-studio-from-the-creator-of-the-yakuza-series-officially-shuts-down/",
+      "display_title": "استودیوی ناگوشی (Nagoshi Studio)، خالق مجموعه یاکوزا (Yakuza)، رسماً تعطیل شد",
+      "display_summary": "استودیوی بازی‌سازی ناگوشی (Nagoshi Studio) به مدیریت توشیهیرو ناگوشی (Toshihiro Nagoshi)، کمتر از یک سال پس از معرفی نخستین بازی خود به نام «گنگ آو دراگون» (Gang of Dragon)، رسماً اعلام انحلال کرد. این تصمیم پس از قطع حمایت مالی شرکت نت‌ایز (NetEase) و ناکامی در جذب سرمایه جدید اتخاذ شد و آینده پروژه یادشده را در هاله‌ای از ابهام قرار داد."
+    },
+    {
+      "title": "Google's Ocarina of Time Easter egg is a link to a past when Search wasn't horrible",
+      "summary": "Turn the clock back to 1998, when the internet was a little more functional.",
+      "url": "https://www.engadget.com/2303943/googles-ocarina-of-time-easter-egg-is-a-link-to-a-past-when-search-wasnt-horrible/",
+      "display_title": "ایستر اگ جدید گوگل (Google) به بهانه بازی زلدا (Zelda)؛ یادآور روزهای خوب و بدون تبلیغ جستجو",
+      "display_summary": "شرکت گوگل (Google) به مناسبت عرضه نسخه بازسازی‌شده بازی کلاسیک «افسانه زلدا: اوکارینای زمان» (The Legend of Zelda: Ocarina of Time)، یک ایستر اگ نوستالژیک در موتور جستجوی خود قرار داده است. این قابلیت جذاب، نتایج جستجو را شبیه به سال ۱۹۹۸ میلادی و دوران پیش از هجوم تبلیغات و قابلیت‌های هوش مصنوعی نمایش می‌دهد."
+    },
+    {
+      "title": "Ninja’s first-ever microwave just replaced two of my kitchen appliances at once",
+      "summary": "The Ninja Crispi Microwave stands out for its FusionCrisp technology, which combines the speed of a microwave with the crispy results you'd expect from an air fryer.",
+      "url": "https://techcrunch.com/2026/11/02/ninjas-first-ever-microwave-just-replaced-two-of-my-kitchen-appliances-at-once/",
+      "display_title": "مایکروویو جدید شرکت نینجا جایگزین دو دستگاه در آشپزخانه شد",
+      "display_summary": "شرکت نینجا (Ninja) از نخستین مایکروویو ترکیبی خود مجهز به فناوری فیوژن‌کریسپ (FusionCrisp) رونمایی کرد که توانایی‌های مایکروویو و سرخ‌کن بدون روغن را در یک دستگاه گرد هم آورده است. این محصول جدید با هدف بازگرداندن تردی به غذاها و اشغال فضای کمتر روی پیشخوان طراحی شده است، اما با قیمت پایه ۴۴۹.۹۹ دلار عرضه می‌شود."
+    },
+    {
+      "title": "Why software updates may have an unexpected effect on your phone",
+      "summary": "Installing an update can make your phone run worse for a while, but this should be temporary in most cases.",
+      "url": "https://www.engadget.com/2300344/phone-software-updates-unexpected-slow-down-effect/",
+      "display_title": "چرا به‌روزرسانی‌های نرم‌افزاری ممکن است تأثیر ناخواسته‌ای روی گوشی شما بگذارند؟",
+      "display_summary": "نصب به‌روزرسانی‌های نرم‌افزاری روی گوشی‌های هوشمند ممکن است موقتاً باعث کاهش سرعت، داغ شدن دستگاه و مصرف بیشتر باتری شود. این مشکلات معمولاً به دلیل فرآیندهای پس‌زمینه مانند فهرست‌بندی مجدد داده‌ها رخ می‌دهند و پس از مدتی به حالت عادی برمی‌گردند."
+    },
+    {
+      "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+      "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "display_title": "دو روز تا برگزاری نشست بنیان‌گذاران تک‌کرانچ در بوستون؛ اثبات توانایی توسعه کسب‌وکار خارج از سیلیکون‌ولی",
+      "display_summary": "نشست سالانه بنیان‌گذاران تک‌کرانچ (TechCrunch Founder Summit) با تمرکز بر توانمندسازی کارآفرینان و توسعه استارت‌آپ‌ها در بوستون برگزار می‌شود. این رویداد فرصتی است تا بنیان‌گذاران بدون نیاز به حضور در سیلیکون‌ولی، راهکارهای مقیاس‌پذیری و ارتباطات کلیدی را بررسی کنند."
     }
   ],
   "outbox": [
@@ -10155,234 +10213,293 @@
     {
       "key": "url:23abe1f1b0a2b246b606e768d72b2022a5fb4837808565bc056ab695be599d11",
       "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
-      "display_title": "عرضه اپلیکیشن هوش مصنوعی «دریم‌بینز (Dreambeans)» گوگل به بازار هند",
-      "display_summary": "شرکت گوگل اپلیکیشن هوش مصنوعی آزمایشی خود موسوم به «دریم‌بینز (Dreambeans)» را فراتر از ایالات متحده آمریکا و برای نخستین بار در هند عرضه کرد. این اپلیکیشن با پشتیبانی از ۱۳ زبان محلی، از اطلاعات اکوسیستم گوگل برای تولید داستان‌های مصور و شخصی‌سازی‌شده استفاده می‌کند.",
       "message": "<b>📰 عرضه اپلیکیشن هوش مصنوعی «دریم‌بینز (Dreambeans)» گوگل به بازار هند</b>\n\nشرکت گوگل اپلیکیشن هوش مصنوعی آزمایشی خود موسوم به «دریم‌بینز (Dreambeans)» را فراتر از ایالات متحده آمریکا و برای نخستین بار در هند عرضه کرد. این اپلیکیشن با پشتیبانی از ۱۳ زبان محلی، از اطلاعات اکوسیستم گوگل برای تولید داستان‌های مصور و شخصی‌سازی‌شده استفاده می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت «گوگل (Google)» اپلیکیشن هوش مصنوعی آزمایشی خود با نام «دریم‌بینز (Dreambeans)» را به بازار «هند (India)» آورد تا این کشور را به عنوان نخستین مقصد بین‌المللی خود خارج از «ایالات متحده آمریکا (United States)» انتخاب کند. این اقدام با هدف گسترش دسترسی کاربران به داستان‌های شخصی‌سازی‌شده و مصور مبتنی بر فعالیت‌های دیجیتال انجام گرفته است. بر اساس گزارش‌های منتشرشده، این اپلیکیشن که برای سیستم‌عامل‌های «اندروید (Android)» و «ای‌اواس (iOS)» عرضه شده، اکنون از ۱۳ زبان محلی هند از جمله هندی، پنجابی، تامیلی، تلوگو و بنگالی در کنار زبان انگلیسی پشتیبانی می‌کند. این تصمیم کمتر از دو ماه پس از عرضه عمومی «دریم‌بینز (Dreambeans)» برای کاربران واجد شرایط بالای ۱۸ سال در آمریکا گرفته شده است. این ابزار که نخستین بار در ماه ژوئن معرفی شد، با اتکا به سرویس‌های متصل به اکوسیستم گوگل نظیر «تقویم گوگل (Google Calendar)»، «جیمینی (Gemini)»، «جیمیل (Gmail)»، «گوگل فوتوز (Google Photos)»، «جستجوی گوگل (Google Search)» و «یوتیوب (YouTube)» به طور خودکار داستان‌های تصویری و مصوری را درباره زندگی روزمره و علایق کاربران تولید می‌کند، بدون آنکه نیازی به وارد کردن دستور متنی (Prompt) باشد. «گوگل (Google)» همچنین قابلیت جدیدی را به این اپلیکیشن افزوده است که با استفاده از مدل تولید ویدیوی «ویو (Veo)» قادر به متحرک‌سازی تصاویر در برخی داستان‌های منتخب است. «گوزده اوزنور (Gozde Oznur)»، مدیر محصول «گوگل (Google)»، در یک نشست مطبوعاتی اعلام کرد که هند به دلیل تقاضای بالای کاربران و استفاده گسترده از سرویس‌های گوگل به عنوان نخستین بازار بین‌المللی انتخاب شده است. با این حال، «دریم‌بینز (Dreambeans)» در حال حاضر تنها از انتخاب یک زبان در هر زمان پشتیبانی می‌کند که این موضوع می‌تواند برای کاربران هندی که عادت به ترکیب زبان‌ها (مانند هینگلیش) دارند، یک محدودیت محسوب شود. از سوی دیگر، وابستگی این اپلیکیشن به اطلاعات شخصی کاربران در سرویس‌های مختلف گوگل، مباحث مربوط به حریم خصوصی را مطرح کرده است. اگرچه مدیران گوگل تأکید کرده‌اند که کاربران کنترل کاملی بر قطع اتصال سرویس‌ها، حذف داده‌ها و جلوگیری از پردازش موضوعات حساس دارند و این سرویس تنها برای حساب‌های شخصی «جیمیل (Gmail)» فعال است، اما ماهیت پیش‌گیرانه این هوش مصنوعی ممکن است گاهی خاطرات یا تصاویری حساس را یادآوری کند. در پایان، «گوگل (Google)» در حال بررسی قابلیت‌های جدیدی است تا فراتر از ارائه داستان‌های ساده، کاربران را در اجرای پیشنهادهای هوش مصنوعی یاری دهد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/google-dreambeans.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "display_title": "عرضه اپلیکیشن هوش مصنوعی «دریم‌بینز (Dreambeans)» گوگل به بازار هند",
+      "display_summary": "شرکت گوگل اپلیکیشن هوش مصنوعی آزمایشی خود موسوم به «دریم‌بینز (Dreambeans)» را فراتر از ایالات متحده آمریکا و برای نخستین بار در هند عرضه کرد. این اپلیکیشن با پشتیبانی از ۱۳ زبان محلی، از اطلاعات اکوسیستم گوگل برای تولید داستان‌های مصور و شخصی‌سازی‌شده استفاده می‌کند."
     },
     {
       "key": "url:91f219f0baaf6984afd5467c86209190846f46b8b82d48fa65b10f45145b4a3d",
       "url": "https://www.engadget.com/2304552/casio-new-keyboard-lets-anyone-play-along-to-songs-without-ever-hitting-a-wrong-note/",
-      "title": "Casio's new keyboard lets anyone play along to songs without ever hitting a wrong note",
-      "summary": "Casio's new Feel Sync technology helps keep new players in tune.",
-      "display_title": "کیبورد جدید کاسیو (Casio) به کاربران اجازه می‌دهد بدون زدن نت غلط بنوازند",
-      "display_summary": "شرکت کاسیو (Casio) از کیبورد جدیدی به نام سی‌تی-اف‌اس۱ (CT-FS1) رونمایی کرده است که به فناوری «فیل سینک» (Feel Sync) مجهز است. این فناوری به نوازندگان تازه‌کار کمک می‌کند تا بدون نگرانی از اجرای نت‌های اشتباه، همراه با آهنگ‌های دلخواه خود بنوازند.",
       "message": "<b>📰 کیبورد جدید کاسیو (Casio) به کاربران اجازه می‌دهد بدون زدن نت غلط بنوازند</b>\n\nشرکت کاسیو (Casio) از کیبورد جدیدی به نام سی‌تی-اف‌اس۱ (CT-FS1) رونمایی کرده است که به فناوری «فیل سینک» (Feel Sync) مجهز است. این فناوری به نوازندگان تازه‌کار کمک می‌کند تا بدون نگرانی از اجرای نت‌های اشتباه، همراه با آهنگ‌های دلخواه خود بنوازند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت الکترونیکی ژاپنی کاسیو (Casio) از کیبورد جدید خود با نام سی‌تی-اف‌اس۱ (CT-FS1) رونمایی کرد که به عنوان ابزاری نوآورانه برای نوازندگان تازه‌کار و علاقه‌مندان به موسیقی طراحی شده است. ویژگی اصلی این محصول، استفاده از فناوری جدیدی به نام «فیل سینک» (Feel Sync) است که به کاربر اجازه می‌دهد بدون اینکه نگران نواختن نت‌های نادرست باشد، همراه با آهنگ‌های مختلف بنوازد. این فناوری نوین از طریق یک اپلیکیشن اختصاصی به نام «فیل سینک» (Feel Sync App) کار می‌کند. کاربران می‌توانند آهنگ مورد نظر خود را در این نرم‌افزار بارگذاری کنند و الگوریتم‌های هوشمند آن با تحلیل قطعه، کیبورد را به گونه‌ای تنظیم می‌کنند که همیشه در گام درست باقی بماند. این سیستم حتی روی آهنگ‌های پیچیده با تغییرات زیاد گام و بخش‌های مختلف نیز به خوبی عمل می‌کند. پیش از این نمونه‌های مشابهی در نرم‌افزارهای رایانه‌ای دیده شده بود، اما تلفیق آن با سخت‌افزار موسیقی یک رویکرد تازه به شمار می‌رود. استفاده از کیبوردی که امکان خطای نت‌نوازی را از بین می‌برد، مزایای خاص خود را دارد. اگرچه این دستگاه جایگزین یادگیری اصولی گام‌ها و تئوری موسیقی نمی‌شود، اما ابزاری عالی برای تقویت حس ریتم، زمان‌بندی و بیان موسیقایی است؛ مواردی که معمولاً در فرآیند یادگیری سازها نادیده گرفته می‌شوند. بخش «فیل سینک» (Feel Sync) در این کیبورد قابلیت تقسیم شدن به دو ناحیه را دارد که به نوازنده تازه‌کار اجازه می‌دهد در یک سمت کلیدها را بفشارد و یک نوازنده باتجربه‌تر در سمت دیگر نت‌های اصلی را اجرا کند. علاوه بر این ویژگی خاص، سی‌تی-اف‌اس۱ (CT-FS1) یک کیبورد استاندارد با ۶۱ کلید حساس به لمس است که از بلندگوهای استریو داخلی با افکت صدای فراگیر، خروجی هدفون و اتصال بلوتوث (Bluetooth) پشتیبانی می‌کند. این دستگاه با وزن کمتر از ۵ کیلوگرم، قابلیت حمل مناسبی دارد و با باتری قلمی (AA) یا آداپتور برق کار می‌کند. طراحی ظاهری این کیبورد در دو رنگ کاملاً یکدست مشکی و سفید عرضه شده است که کلیدها و بدنه را به طور یکپارچه پوشش می‌دهد. کیبورد جدید کاسیو (Casio CT-FS1) با قیمت ۴۰۰ دلار هم‌اکنون روانه بازار شده است و می‌تواند تحولی جذاب دررویکرد آموزشی و سرگرمی علاقه‌مندان به موسیقی ایجاد کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/casios-new-keyboard-lets-anyone-play-along-to-songs-without-ever-hitting-a-wrong-note/l-intro-1793648368.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Casio's new keyboard lets anyone play along to songs without ever hitting a wrong note",
+      "summary": "Casio's new Feel Sync technology helps keep new players in tune.",
+      "display_title": "کیبورد جدید کاسیو (Casio) به کاربران اجازه می‌دهد بدون زدن نت غلط بنوازند",
+      "display_summary": "شرکت کاسیو (Casio) از کیبورد جدیدی به نام سی‌تی-اف‌اس۱ (CT-FS1) رونمایی کرده است که به فناوری «فیل سینک» (Feel Sync) مجهز است. این فناوری به نوازندگان تازه‌کار کمک می‌کند تا بدون نگرانی از اجرای نت‌های اشتباه، همراه با آهنگ‌های دلخواه خود بنوازند."
     },
     {
       "key": "url:d5b0fb6fc24e65b7c8e5aa48749cf14c5f42c98643add8bdf804a58a95fe3d45",
       "url": "https://www.engadget.com/2300367/what-apple-airpods-chirping-noise-means-battery/",
-      "title": "Your Apple AirPods' chirping noise doesn't just mean low battery",
-      "summary": "Learn why your Apple AirPods are making a noise - and how to turn the sound off.",
-      "display_title": "صدای جیرجیر ایرپادهای اپل همیشه به معنای کمی شارژ نیست",
-      "display_summary": "ایرپادهای شرکت اپل (Apple) گاهی صداها و جیغ‌های عجیبی تولید می‌کنند که فراتر از هشدار کاهش باتری است. این صداها می‌توانند دلایل مختلفی از جمله مشکلات اتصال بلوتوث، نوسانات برق، ویژگی‌های پزشکی مانند کمک‌شنوایی یا حتی مسدود شدن میکروفون‌ها داشته باشند.",
       "message": "<b>📰 صدای جیرجیر ایرپادهای اپل همیشه به معنای کمی شارژ نیست</b>\n\nایرپادهای شرکت اپل (Apple) گاهی صداها و جیغ‌های عجیبی تولید می‌کنند که فراتر از هشدار کاهش باتری است. این صداها می‌توانند دلایل مختلفی از جمله مشکلات اتصال بلوتوث، نوسانات برق، ویژگی‌های پزشکی مانند کمک‌شنوایی یا حتی مسدود شدن میکروفون‌ها داشته باشند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بسیاری از کاربران ایرپادهای شرکت اپل (Apple) با صداهای ناگهانی یا همان جیرجیر کردن این گجت‌ها مواجه شده‌اند. اگرچه رایج‌ترین دلیل این صداها هشدار کاهش سطح باتری است، اما بررسی‌ها نشان می‌دهد دلایل دیگری نیز وجود دارد که می‌تواند طیفی از صداهای ملایم تا جیغ‌های آزاردهنده را شامل شود. گاهی اوقات ایرپادها حتی پس از اتصال به شارژ باز هم صدا تولید می‌کنند که دلیل آن می‌تواند نوسانات برق، اختلال در جریان الکتریکی یا مشکلات دیگر باتری باشد. از سوی دیگر، مشکلات اتصال بلوتوث با دستگاه متصل‌شده مانند گوشی آیفون (iPhone) نیز یکی دیگر از عوامل بروز این صداهاست. همچنین برخورد تصادفی ایرپادها با یکدیگر در خارج از کیس نیز می‌تواند باعث ایجاد صدا شود. نکته جالب توجه این است که مدل‌های پیشرفته‌تر مانند ایرپاد پرو ۲ (AirPods Pro 2) و ایرپاد پرو ۳ (AirPods Pro 3) از قابلیت کلینیکال و پزشکی کمک‌شنوایی بهره می‌برند. شرکت اپل (Apple) اعلام کرده است که این هدفون‌ها ممکن است برای اطمینان از عملکرد صحیح میکروفون‌ها و بلندگوها، به‌طور دوره‌ای درون کیس شارژ صدای زنگ ملایمی پخش کنند. با این حال، برخی صداها ممکن است شدیدتر باشند؛ مانند صدای بلند ویژگی ردیابی یا همان فایند مای (Find My) برای پیدا کردن دستگاه گم‌شده. از سوی دیگر، صدای ناهنجار و فیدبک‌های صوتی شدید ممکن است ناشی از آسیب دیدن دستگاه در اثر نفوذ آب، کثیفی یا حتی تناسب نامناسب سرپوش‌های سیلیکونی گوش باشد. کاربران می‌توانند در صورت تمایل برخی از این صداها را غیرفعال کنند. برای این کار کافی است کیس ایرپاد را باز کرده، وارد بخش تنظیمات در آیفون (iPhone) شده، روی نام دستگاه ضربه بزنند و با ورود به بخش صوتی، گزینه مربوط به صداهای کیس شارژ را خاموش کنند. در مواردی که صداها ناشی از آسیب سخت‌افزاری یا آب‌خوردگی باشند، مراجعه به فروشگاه اپل استور (Apple Store) ضروری خواهد بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/your-apple-airpods-chirping-noise-doesnt-just-mean-low-battery/l-intro-1792762136.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Your Apple AirPods' chirping noise doesn't just mean low battery",
+      "summary": "Learn why your Apple AirPods are making a noise - and how to turn the sound off.",
+      "display_title": "صدای جیرجیر ایرپادهای اپل همیشه به معنای کمی شارژ نیست",
+      "display_summary": "ایرپادهای شرکت اپل (Apple) گاهی صداها و جیغ‌های عجیبی تولید می‌کنند که فراتر از هشدار کاهش باتری است. این صداها می‌توانند دلایل مختلفی از جمله مشکلات اتصال بلوتوث، نوسانات برق، ویژگی‌های پزشکی مانند کمک‌شنوایی یا حتی مسدود شدن میکروفون‌ها داشته باشند."
     },
     {
       "key": "url:4ca5045e7ee7fda1529ca710da940bc0598c7058947546ccd28f67579ce28139",
       "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
-      "title": "Web host Squarespace lays off 19% of its employees",
-      "summary": "The website builder said that the job losses are part of a broader restructuring of its organization.",
-      "display_title": "شرکت اسکویراسپیس (Squarespace) ۱۹ درصد از کارکنان خود را تعدیل می‌کند",
-      "display_summary": "شرکت میزبان وب و طراحی سایت اسکویراسپیس (Squarespace) در راستای برنامه‌های جدید بازسازی سازمانی و ساده‌سازی فرآیندهای کاری خود، حدود ۱۹ درصد از نیروی کار جهانی معادل نزدیک به ۳۰۰ نفر را تعدیل می‌کند. این تصمیم در شرایطی اتخاذ شده است که صنعت ساخت وب‌سایت با تحولات چشمگیر ناشی از ظهور هوش مصنوعی مولد و ابزارهای نوین دست‌وپنجه نرم می‌کند.",
       "message": "<b>📰 شرکت اسکویراسپیس (Squarespace) ۱۹ درصد از کارکنان خود را تعدیل می‌کند</b>\n\nشرکت میزبان وب و طراحی سایت اسکویراسپیس (Squarespace) در راستای برنامه‌های جدید بازسازی سازمانی و ساده‌سازی فرآیندهای کاری خود، حدود ۱۹ درصد از نیروی کار جهانی معادل نزدیک به ۳۰۰ نفر را تعدیل می‌کند. این تصمیم در شرایطی اتخاذ شده است که صنعت ساخت وب‌سایت با تحولات چشمگیر ناشی از ظهور هوش مصنوعی مولد و ابزارهای نوین دست‌وپنجه نرم می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اسکویراسپیس (Squarespace) که به عنوان یکی از پلتفرم‌های مطرح در زمینه ساخت و میزبانی وب‌سایت شناخته می‌شود، اعلام کرد که نزدیک به یک‌پنجم از نیروی کار خود را تعدیل می‌کند. این تصمیم بخش عمده‌ای از یک طرح جامع‌تر برای بازسازی ساختار سازمانی این شرکت است و بر اساس اظهارات جف سیدمن (Jeff Seedman)، سخنگوی روابط عمومی این شرکت، حدود ۳۰۰ نفر از کارکنان را تحت تأثیر قرار خواهد داد. نماینده اسکویراسپیس (Squarespace) در گفت‌وگو با وب‌سایت تک‌کرانچ (TechCrunch) تأکید کرد که این تغییرات به منظور ساده‌سازی نحوه فعالیت‌ها، تمرکز بر اولویت‌های کلیدی و افزایش سرعت عمل شرکت طراحی شده است تا بستر مناسبی برای فاز بعدی رشد آن فراهم شود. صنعت طراحی و ساخت وب‌سایت در سال‌های اخیر به دلیل انفجار فناوری هوش مصنوعی مولد با دگرگونی‌های عمیقی مواجه شده است. ابزارهای نوین موسوم به وایب‌کدینگ (vibe-coding) که به کاربران اجازه می‌دهند تنها با وارد کردن دستورات متنی ساده، طراحی‌های فرانت‌اند کاربردی ایجاد کنند، بازار سنتی را به شدت تحت تأثیر قرار داده‌اند. این تحولات رقابتی باعث شده تا شرکت‌های رقیب نیز رویکردهای مشابهی در پیش بگیرند. به عنوان مثال، شرکت ویکس (Wix) سال گذشته استارتاپ بیس۴۴ (Base44) را با مبلغ ۸۰ میلیون دلار خریداری کرد و پلتفرم‌های دیگری نظیر لاوبل (Lovable) نیز توانسته‌اند جذب سرمایه‌های هنگفتی را تجربه کنند. شرکت گوگل (Google) نیز ابزار جدیدی به نام استیچ (Stitch) را برای تولید سریع طرح‌های رابط کاربری معرفی کرده است. در همین راستا، اسکویراسپیس (Squarespace) نیز تلاش‌های خود را در حوزه هوش مصنوعی افزایش داده است. این شرکت در سال ۲۰۲۴ ابزار هوش مصنوعی بلوپرینت (Blueprint) را عرضه کرد و اخیراً نیز پلتفرم بومی هوش مصنوعی خود موسوم به فرما (Forma) را برای نام‌نویسی کاربران در فهرست انتظار معرفی کرده است. شرکت اسکویراسپیس (Squarespace) که در سال ۲۰۰۴ تأسیس شده بود، در سال ۲۰۲۱ با ارزش بازار ۱۰ میلیارد دلار وارد بورس شد، اما پس از مواجهه با چالش‌های بازار عمومی، در سال ۲۰۲۴ طی یک قرارداد خصوصی ۷ میلیارد دلاری بار دیگر به شرکت خصوصی تبدیل شد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2024/10/F064_Q324_Refresh_Product_BlueprintPersonalityStep_Press_1920x1080-Logo.jpg?resize=1200,675",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Web host Squarespace lays off 19% of its employees",
+      "summary": "The website builder said that the job losses are part of a broader restructuring of its organization.",
+      "display_title": "شرکت اسکویراسپیس (Squarespace) ۱۹ درصد از کارکنان خود را تعدیل می‌کند",
+      "display_summary": "شرکت میزبان وب و طراحی سایت اسکویراسپیس (Squarespace) در راستای برنامه‌های جدید بازسازی سازمانی و ساده‌سازی فرآیندهای کاری خود، حدود ۱۹ درصد از نیروی کار جهانی معادل نزدیک به ۳۰۰ نفر را تعدیل می‌کند. این تصمیم در شرایطی اتخاذ شده است که صنعت ساخت وب‌سایت با تحولات چشمگیر ناشی از ظهور هوش مصنوعی مولد و ابزارهای نوین دست‌وپنجه نرم می‌کند."
     },
     {
       "key": "url:3caab4acdf5a028ab202847e850f7a303718d2a6f92051b39cc9c140235d1b1c",
       "url": "https://www.theverge.com/gadgets/1024416/apple-watch-ultra-4-ugreen-finetrack-2-bluetooth-tracker-deal-sale",
-      "title": "The Apple Watch Ultra 4 is $100 off, matching its best price to date",
-      "summary": "The Apple Watch Ultra 4 is the company&#8217;s most capable smartwatch. Whether you intend to put its many tracking features to the test, or you simply want the longest battery life of any Apple Watch, it’s currently on sale for $699.99 ($100 off) in multiple colors at Amazon, matching its all-time low price. Powered by [&#8230;]",
-      "display_title": "ساعت هوشمند اپل واچ اولترا ۴ با تخفیف ۱۰۰ دلاری به پایین‌ترین قیمت خود رسید",
-      "display_summary": "ساعت هوشمند پرچمدار اپل واچ اولترا ۴ (Apple Watch Ultra 4) هم‌اکنون با تخفیف ۱۰۰ دلاری و با قیمت ۶۹۹.۹۹ دلار در وب‌سایت آمازون (Amazon) به فروش می‌رسد. این مدل با بهره‌مندی از تراشه اس۱۱ (S11)، قابلیت‌های هوش مصنوعی اپل (Apple Intelligence) و عمر باتری طولانی، با کمترین قیمت تاریخی خود عرضه شده است.",
       "message": "<b>📰 ساعت هوشمند اپل واچ اولترا ۴ با تخفیف ۱۰۰ دلاری به پایین‌ترین قیمت خود رسید</b>\n\nساعت هوشمند پرچمدار اپل واچ اولترا ۴ (Apple Watch Ultra 4) هم‌اکنون با تخفیف ۱۰۰ دلاری و با قیمت ۶۹۹.۹۹ دلار در وب‌سایت آمازون (Amazon) به فروش می‌رسد. این مدل با بهره‌مندی از تراشه اس۱۱ (S11)، قابلیت‌های هوش مصنوعی اپل (Apple Intelligence) و عمر باتری طولانی، با کمترین قیمت تاریخی خود عرضه شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>ساعت هوشمند اپل واچ اولترا ۴ (Apple Watch Ultra 4) که به عنوان پیشرفته‌ترین و قدرتمندترین ساعت مچی شرکت اپل (Apple) شناخته می‌شود، اکنون در چندین رنگ مختلف با تخفیف ۱۰۰ دلاری در فروشگاه آنلاین آمازون (Amazon) عرضه شده است. این تخفیف باعث شده تا قیمت این گجت به ۶۹۹.۹۹ دلار برسد که با پایین‌ترین قیمت تاریخی آن برابری می‌کند. این مدل جدید به تراشه جدید اس۱۱ (S11) مجهز شده است که پردازشی سریع‌تر را نسبت به نسل قبلی ارائه می‌دهد و همچنین از قابلیت‌های نوین هوش مصنوعی اپل (Apple Intelligence) پشتیبانی می‌کند. از جمله این ویژگی‌های هوشمند می‌توان به تشخیص صدا (Sound Recognition) اشاره کرد که کاربر را از صداهایی مانند آژیر خطر یا زنگ در مطلع می‌سازد. همچنین قابلیت بازپخش زنده (Live Rewind) به کاربران اجازه می‌دهد ۱۵ ثانیه آخر یک مکالمه حضوری را دوباره مرور کنند و ویژگی خلاصه ساز سیری (Siri Recap) نیز برای خلاصه کردن مکالمه‌ها در آینده ارائه خواهد شد. در بخش سلامت و تناسب اندام، اپل واچ اولترا ۴ امکانات گسترده‌تری نسبت به نسخه‌های پیشین دارد. سنسورهای این ساعت اندازه‌گیری دقیق‌تر نوار قلب (EKG) را تضمین می‌کنند و ضربان قلب کاربر را تا هر پنج ثانیه یک‌بار رصد می‌کنند. قابلیت جدید آمادگی جسمانی (Readiness) فعالیت‌های اخیر، کیفیت خواب و سایر معیارهای سلامتی را تحلیل کرده و امتیازی بین صفر تا ۱۰ ارائه می‌دهد تا مشخص شود آیا کاربر باید به تمرینات خود ادامه دهد یا به استراحت بپردازد. از نظر سخت‌افزاری، بزرگترین نقطه قوت این ساعت عمر باتری آن است که اپل وعده شارژدهی تا ۵۰ ساعت را با هر بار شارژ داده است؛ رقمی که دو برابر عمر باتری سری ۱۲ (Series 12) محسوب می‌شود. این دستگاه همچنین دارای روشن‌ترین نمایشگر در میان ساعت‌های اپل، طراحی مقاوم با قابلیت مقاومت در برابر آب تا عمق ۱۰۰ متری و استاندارد مقاومت در برابر گرد و غبار آی‌پی۶ایکس (IP6X) است. تراشه نسل دوم اولترا وایدبند (Ultra Wideband) برای پیدا کردن دقیق دستگاه و کنترل‌های حرکتی مفید نیز از دیگر ویژگی‌های حفظ‌شده در این مدل هستند. در کنار این تخفیف، برخی محصولات دیگر مانند ردیاب بلوتوثی یوگرین (Ugreen) و بندهای رسمی ساعت اپل در وب‌سایت‌های مختلف با تخفیف‌های جذاب عرضه شده‌اند که فرصت مناسبی را برای خریداران علاقه‌مند به اکوسیستم اپل فراهم می‌کند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applewatchultra4.png?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "The Apple Watch Ultra 4 is $100 off, matching its best price to date",
+      "summary": "The Apple Watch Ultra 4 is the company&#8217;s most capable smartwatch. Whether you intend to put its many tracking features to the test, or you simply want the longest battery life of any Apple Watch, it’s currently on sale for $699.99 ($100 off) in multiple colors at Amazon, matching its all-time low price. Powered by [&#8230;]",
+      "display_title": "ساعت هوشمند اپل واچ اولترا ۴ با تخفیف ۱۰۰ دلاری به پایین‌ترین قیمت خود رسید",
+      "display_summary": "ساعت هوشمند پرچمدار اپل واچ اولترا ۴ (Apple Watch Ultra 4) هم‌اکنون با تخفیف ۱۰۰ دلاری و با قیمت ۶۹۹.۹۹ دلار در وب‌سایت آمازون (Amazon) به فروش می‌رسد. این مدل با بهره‌مندی از تراشه اس۱۱ (S11)، قابلیت‌های هوش مصنوعی اپل (Apple Intelligence) و عمر باتری طولانی، با کمترین قیمت تاریخی خود عرضه شده است."
     },
     {
       "key": "url:a2939ef1c87542fdc5bc060aadd4ad734b78b0ee8411916106d62d3f4547e7c9",
       "url": "https://techcrunch.com/2026/11/02/snap-settles-lawsuit-accusing-platform-of-fueling-teen-depression-and-eating-disorders/",
-      "title": "Snap settles lawsuit accusing platform of fueling teen depression and eating disorders",
-      "summary": "The plaintiffs said they started using YouTube as young as age 3 and other social media platforms at around age 9 and developed compulsive usage habits that they attributed to features such as autoplay and infinite scrolling.",
-      "display_title": "شرکت اسنپ پرونده قضایی مربوط به افسردگی و اختلالات خوردن نوجوانان را با توافق فیصله داد",
-      "display_summary": "شرکت اسنپ با شاکیانی که پلتفرم این شرکت را به اعتیادآور بودن و دامن زدن به افسردگی و اختلالات خوردن متهم کرده بودند، به توافق رسید. این پرونده بخشی از موج گسترده‌ای از شکایات حقوقی علیه غول‌های فناوری درباره تأثیرات سلامت روان کاربران نوجوان است.",
       "message": "<b>📰 شرکت اسنپ پرونده قضایی مربوط به افسردگی و اختلالات خوردن نوجوانان را با توافق فیصله داد</b>\n\nشرکت اسنپ با شاکیانی که پلتفرم این شرکت را به اعتیادآور بودن و دامن زدن به افسردگی و اختلالات خوردن متهم کرده بودند، به توافق رسید. این پرونده بخشی از موج گسترده‌ای از شکایات حقوقی علیه غول‌های فناوری درباره تأثیرات سلامت روان کاربران نوجوان است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اسنپ (Snap) توانست با دو نوجوان که این پلتفرم را به طراحی عامدانه اعتیادآور و نقش‌آفرینی در بروز افسردگی، اضطراب و اختلالات خوردن متهم کرده بودند، به توافق برسد. این خبر که نخستین بار توسط خبرگزاری رویترز (Reuters) منتشر شد، نشان‌دهنده حل‌وفصل یکی از پرونده‌های کلیدی علیه شبکه‌های اجتماعی است. پیش از این، شاکیان پرونده توانسته بودند با شرکت‌های متا (Meta)، تیک‌تاک (TikTok) و یوتیوب (YouTube) نیز به توافق‌های مشابهی دست پیدا کنند. این دادگاه قرار بود نخستین محاکمه شرکت اسنپ در میان موجی گسترده‌تر از دعاوی حقوقی پیرامون تأثیرات مخرب شبکه‌های اجتماعی بر کاربران جوان باشد و حتی انتظار می‌رفت ایوان اشپیگل (Evan Spiegel)، مدیرعامل اسنپ (Snap CEO)، در دادگاه شهادت دهد. شاکیان پرونده اعلام کرده بودند که استفاده از پلتفرم‌هایی نظیر یوتیوب (YouTube) را از سن ۳ سالگی و دیگر شبکه‌های اجتماعی را از حدود ۹ سالگی آغاز کرده و به مرور زمان دچار عادت‌های مصرف اجباری شده‌اند؛ مشکلی که آن را به ویژگی‌هایی چون پخش خودکار (autoplay) و اسکرول بی‌پایان (infinite scrolling) نسبت داده بودند. سخنگوی شرکت اسنپ (Snap) در بیانیه‌ای اعلام کرد که طرفین از حل مسالمت‌آمیز این موضوع خرسند هستند. او همچنین تأکید کرد که این شرکت اقدام به ایجاد ابزارهای محافظتی، راه‌اندازی آموزش‌های ایمنی و همکاری با متخصصان کرده است و از آنجا که ایمنی کاربران هیچ‌گاه پایان نمی‌پذیرد، اسنپ (Snap) همچنان به تقویت مداوم ایمنی، حریم خصوصی و رفاه جامعه کاربران خود متعهد باقی می‌ماند. در حال حاضر، غول‌های شبکه‌های اجتماعی با هزاران پرونده حقوقی در دادگاه‌های فدرال و ایالتی ایالات متحده مواجه هستند. شاکیان مدعی هستند که این شرکت‌ها به طور آگاهانه پلتفرم‌های خود را به گونه‌ای طراحی کرده‌اند که کاربران جوان را معتاد کرده و به بحران سلامت روان جوانان از جمله اضطراب، افسردگی و خودکشی دامن بزنند. در پایان، توافق شرکت اسنپ (Snap) نشان‌دهنده افزایش فشارهای حقوقی و اجتماعی بر شرکت‌های فناوری بزرگ برای پذیرش مسئولیت در قبال سلامت روان کاربران جوان و اصلاح طراحی‌های اعتیادآور پلتفرم‌هایشان است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg?w=1200",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Snap settles lawsuit accusing platform of fueling teen depression and eating disorders",
+      "summary": "The plaintiffs said they started using YouTube as young as age 3 and other social media platforms at around age 9 and developed compulsive usage habits that they attributed to features such as autoplay and infinite scrolling.",
+      "display_title": "شرکت اسنپ پرونده قضایی مربوط به افسردگی و اختلالات خوردن نوجوانان را با توافق فیصله داد",
+      "display_summary": "شرکت اسنپ با شاکیانی که پلتفرم این شرکت را به اعتیادآور بودن و دامن زدن به افسردگی و اختلالات خوردن متهم کرده بودند، به توافق رسید. این پرونده بخشی از موج گسترده‌ای از شکایات حقوقی علیه غول‌های فناوری درباره تأثیرات سلامت روان کاربران نوجوان است."
     },
     {
       "key": "url:5426dcc4966dc2198453b84beb0cc16a0b84ea7531269c6e50bdd4d5c3db7812",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-      "title": "Anthropic clamps down on Claude’s AI video game clones",
-      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [&#8230;]",
-      "display_title": "شرکت انتروپیک دسترسی به کلود کد را برای ساخت نسخه های شبیه ساز بازی های ویدئویی محدود کرد",
-      "display_summary": "شرکت انتروپیک دستورالعمل های سیستمی ابزار هوش مصنوعی خود یعنی کلود کد را به‌روزرسانی کرده است تا از ساخت نسخه‌های مشابه و کپی از بازی‌های ویدئویی موجود جلوگیری کند. این تصمیم به منظور رعایت قوانین مالکیت فکری اتخاذ شده است، اما کاربران همچنان می‌توانند برای توسعه بازی‌های کاملاً اورجینال و شخصی از این ابزار بهره ببرند.",
       "message": "<b>📰 شرکت انتروپیک دسترسی به کلود کد را برای ساخت نسخه های شبیه ساز بازی های ویدئویی محدود کرد</b>\n\nشرکت انتروپیک دستورالعمل های سیستمی ابزار هوش مصنوعی خود یعنی کلود کد را به‌روزرسانی کرده است تا از ساخت نسخه‌های مشابه و کپی از بازی‌های ویدئویی موجود جلوگیری کند. این تصمیم به منظور رعایت قوانین مالکیت فکری اتخاذ شده است، اما کاربران همچنان می‌توانند برای توسعه بازی‌های کاملاً اورجینال و شخصی از این ابزار بهره ببرند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت انتروپیک (Anthropic) با اعمال تغییرات جدید در دستورالعمل سیستمی ابزار برنامه‌نویسی هوش مصنوعی خود، تلاش‌ها برای بازآفرینی و ساخت نسخه‌های کپی از بازی‌های ویدئویی موجود را محدود کرده است. این اقدام پس از آن صورت گرفت که صنعت بازی‌های رترو و قدیمی با موجی از کدهای بازسازی‌شده، پورت‌ها و نسخه‌های مشتق‌شده مبتنی بر هوش مصنوعی روبه‌رو شده است. بر اساس گزارش‌های منتشرشده، هفته گذشته یکی از کاربران شبکه اجتماعی ایکس (X) با انتشار تصاویری مدعی شد که دو جمله جدید به پرامپت سیستمی ابزار کلود کد (Claude Code) اضافه شده است. این عبارات صراحتاً به هوش مصنوعی دستور می‌دهند که از ساخت نمونه‌های مشابه بازی‌های مشخص و از پیش‌ساخته‌شده خودداری کند، حتی اگر نام جدیدی روی آن‌ها گذاشته شود. با این حال، ساخت بازی‌های اورجینال، عناوینی در سبک‌های گوناگون و پروژه‌هایی که بر اساس طراحی‌ها و دارایی‌های شخصی خود کاربر شکل گرفته‌اند، همچنان مجاز و قابل انجام هستند. مدیران شرکت انتروپیک نیز این تغییرات را تأیید کرده‌اند. «ادی عثمانی (Addy Osmani)» از شرکت انتروپیک (Anthropic) در پاسخ به این تحولات اعلام کرد که این شرکت دو جمله جدید را به پرامپت کلود کد در نسخه اوپوس ۵.۵ (Opus 5.5) افزوده است. هدف از این به‌روزرسانی، جلوگیری از نقض قوانین مالکیت فکری (IP) با استفاده از مدل‌های هوش مصنوعی است. وی تاکید کرد که هدف اصلی، ایجاد تعادل در اکوسیستم توسعه بازی است و اگر ابزار به اشتباه درخواست‌های مشروع کاربران را رد کند، تیم فنی برای رفع آن اقدام خواهد کرد. با گسترش ابزارهای هوش مصنوعی مولد، چالش‌های حقوقی و اخلاقی پیرامون کپی‌برداری از آثار هنری و سرگرمی افزایش یافته است. شرکت انتروپیک (Anthropic) با این تصمیم تلاش می‌کند خط قرمز مشخصی میان نوآوری آزادانه و نقض حقوق سازندگان بازی‌های ویدئویی ترسیم کند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [&#8230;]",
+      "display_title": "شرکت انتروپیک دسترسی به کلود کد را برای ساخت نسخه های شبیه ساز بازی های ویدئویی محدود کرد",
+      "display_summary": "شرکت انتروپیک دستورالعمل های سیستمی ابزار هوش مصنوعی خود یعنی کلود کد را به‌روزرسانی کرده است تا از ساخت نسخه‌های مشابه و کپی از بازی‌های ویدئویی موجود جلوگیری کند. این تصمیم به منظور رعایت قوانین مالکیت فکری اتخاذ شده است، اما کاربران همچنان می‌توانند برای توسعه بازی‌های کاملاً اورجینال و شخصی از این ابزار بهره ببرند."
     },
     {
       "key": "url:565e6fad1f4c3724a211de5ee07f0a3e2e46d814d2e3dec71401e0fd4f669299",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
-      "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [&#8230;]",
-      "display_title": "شرکت اوپن‌ای‌آی برنامه‌ای برای تأمین برق اضطراب‌زدای مراکز داده و بهبود روابط عمومی معرفی کرد",
-      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) از برنامه‌ای موسوم به «محافظان شبکه» رونمایی کرده است که طی آن مراکز داده جدید این شرکت در شرایط اضطراری می‌توانند تا ۱۰۰۰ مگاوات برق را به شبکه‌های محلی تزریق کنند. این اقدام در حالی صورت می‌گیرد که موجی از نارضایتی عمومی و مخالفت‌های محلی در ایالات متحده نسبت به مصرف بالای انرژی و اثرات زیست‌محیطی مراکز داده هوش مصنوعی شکل گرفته است.",
       "message": "<b>📰 شرکت اوپن‌ای‌آی برنامه‌ای برای تأمین برق اضطراب‌زدای مراکز داده و بهبود روابط عمومی معرفی کرد</b>\n\nشرکت اوپن‌ای‌آی (OpenAI) از برنامه‌ای موسوم به «محافظان شبکه» رونمایی کرده است که طی آن مراکز داده جدید این شرکت در شرایط اضطراری می‌توانند تا ۱۰۰۰ مگاوات برق را به شبکه‌های محلی تزریق کنند. این اقدام در حالی صورت می‌گیرد که موجی از نارضایتی عمومی و مخالفت‌های محلی در ایالات متحده نسبت به مصرف بالای انرژی و اثرات زیست‌محیطی مراکز داده هوش مصنوعی شکل گرفته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اوپن‌ای‌آی (OpenAI) در واکنش به افزایش موج مخالفت‌های مردمی و محلی نسبت به تأسیس مراکز داده غول‌پیکر، طرح جدیدی را با نام «برنامه محافظان شبکه» (Grid Protectors Program) معرفی کرده است. این ابتکار تلاش دارد تا با تغییر رویکرد عمومی نسبت به مراکز داده، این زیرساخت‌ها را به جای مجموعه‌های آلاینده و پرسرصدا، به عنوان حامیان جوامع محلی در مواقع بحرانی معرفی کند. بر اساس اعلام رسمی این شرکت، طرح آزمایشی نخست در یک مرکز داده جدید در شهرستان افینگهام (Effingham County) ایالت جورجیا (Georgia) اجرا خواهد شد. اوپن‌ای‌آی وعده داده است که در شرایط آب‌وهوایی بحرانی یا مواقع اضطراری، توانایی آزادسازی تا ۱۰۰۰ مگاوات برق را خواهد داشت؛ مقداری که برای تأمین انرژی سیستم‌های سرمایشی حدود ۷۰۰ هزار خانه مسکونی کفایت می‌کند. این اقدام همزمان با گسترش اعتراضات مردمی در ایالت‌های مختلف آمریکا نظیر یوتا، تنسی، فلوریدا، اکلاهما و اورگان علیه طرح‌های کلان مصرف انرژی انجام می‌شود. بسیاری از ساکنان و مقامات محلی نسبت به مصرف بالای برق، افزایش هزینه‌ها و آسیب‌های زیست‌محیطی این تأسیسات معترض هستند. اوپن‌ای‌آی به منظور ترمیم چهره عمومی خود، اخیراً اصطلاح «پردیس‌های پردازشی» (compute campuses) را جایگزین «مراکز داده» کرده است. این شرکت ادعا می‌کند که تقاضای پایدار برای پردازش هوش مصنوعی می‌تواند به توزیع بهتر هزینه‌های ثابت شبکه برق کمک کند و در زمان اوج مصرف عمومی، با انعطاف‌پذیری لازم از فشار بر شبکه بکاهد. علاوه بر پروژه جورجیا، اوپن‌ای‌آی با همکاری شرکت‌هایی نظیر اورکل (Oracle) و سافت‌بانک (SoftBank) در حال توسعه مراکز داده «استارگیت» (Stargate) در نقاط مختلفی از جمله تگزاس و نیومکزیکو است. در مجموع، تلاش‌های اوپن‌ای‌آی برای تعامل با سیاست‌گذاران و شرکت‌های ارائه‌دهنده خدمات شهری نشان‌دهنده اهمیت روزافزون چالش‌های زیرساختی و انرژی در مسیر توسعه هوش مصنوعی است. باید دید آیا این راهکارها می‌تواند رضایت جوامع محلی نگران را جلب کند یا چالش‌های مصرف انرژی همچنان بر سر راه توسعه فناوری‌های نوین باقی خواهد ماند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to [&#8230;]",
+      "display_title": "شرکت اوپن‌ای‌آی برنامه‌ای برای تأمین برق اضطراب‌زدای مراکز داده و بهبود روابط عمومی معرفی کرد",
+      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) از برنامه‌ای موسوم به «محافظان شبکه» رونمایی کرده است که طی آن مراکز داده جدید این شرکت در شرایط اضطراری می‌توانند تا ۱۰۰۰ مگاوات برق را به شبکه‌های محلی تزریق کنند. این اقدام در حالی صورت می‌گیرد که موجی از نارضایتی عمومی و مخالفت‌های محلی در ایالات متحده نسبت به مصرف بالای انرژی و اثرات زیست‌محیطی مراکز داده هوش مصنوعی شکل گرفته است."
     },
     {
       "key": "url:01cb927416acd4cee036ebf4a4bb15a7f2f6c92b5584be2e0189af0f780530d9",
       "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
+      "message": "<b>📰 شرکت مارول (Marvell) در یکی از بزرگ‌ترین معامله‌های تاریخ فناوری، لومنتوم (Lumentum) را با قیمت ۱۱۵ میلیارد دلار می‌خرد</b>\n\nشرکت طراح تراشه مارول (Marvell) توافق‌نامه‌ای را برای خرید شرکت تجهیزات نوری و تراشه‌سازی لومنتوم (Lumentum) به ارزش سازمانی ۱۱۵ میلیارد دلار امضا کرد. این معامله عظیم که یکی از بزرگ‌ترین خریدهای تاریخ فناوری محسوب می‌شود، با پشتیبانی مشترک غول پردازنده‌های گرافیکی انویدیا (Nvidia) شکل گرفته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در یکی از بزرگ‌ترین و بی‌سابقه‌ترین معامله‌های تاریخ صنعت فناوری، شرکت طراح تراشه‌های سفارشی مارول (Marvell) توافق‌نامه‌ای را برای خرید شرکت سازنده قطعات نوری و تجهیزات شبکه‌ای لومنتوم (Lumentum) به امضا رساند. ارزش سازمانی این معامله تمام‌سهامی، با احتساب بدهی‌ها، حدود ۱۱۵ میلیارد دلار و ارزش سهام آن در حدود ۸۰ میلیارد دلار برآورد شده است. بر اساس جزئیات اعلام‌شده در این قرارداد، شرکت مارول (Marvell) به ازای هر سهم لومنتوم (Lumentum)، تعداد ۴.۵ سهم از سهام عادی خود را واگذار خواهد کرد. این حجم از سرمایه، معامله مذکور را در کنار بزرگ‌ترین خریدهای تاریخ فناوری جهان قرار می‌دهد؛ ابعادی که حتی از خرید شرکت اکتیویژن بلیزارد (Activision Blizzard) توسط مایکروسافت (Microsoft) با ارزش ۶۸.۷ میلیارد دلار در سال ۲۰۲۲ یا خرید شرکت ای‌ام‌سی (EMC) توسط دل (Dell) در سال ۲۰۱۶ نیز فراتر می‌رود. نکته جالب توجه در این میان، حضور یک سرمایه‌گذار استراتژیک مشترک در پشت صحنه هر دو شرکت یعنی انویدیا (Nvidia) است. در ماه مارس سال جاری، غول پردازنده‌های گرافیکی جهان یعنی انویدیا (Nvidia) به عنوان بخشی از یک توافق چندساله برای خرید قطعات لیزری پیشرفته، مبلغ ۲ میلیارد دلار برای حمایت از فعالیت‌های تحقیق و توسعه و گسترش خطوط تولید لومنتوم (Lumentum) سرمایه‌گذاری کرد. تنها چند هفته بعد، شرکت مارول (Marvell) نیز اعلام کرد که انویدیا (Nvidia) سرمایه‌گذاری ۲ میلیارد دلاری مشابهی را برای تقویت سبد محصولات تراشه‌ها و شبکه‌های نوری مارول (Marvell) انجام داده است. مدیران مارول (Marvell) بر این باورند که با تصاحب لومنتوم (Lumentum)، این شرکت به پیشتاز حوزه ارتباطات و اتصال هوش مصنوعی (AI) تبدیل خواهد شد و سبد محصولات خود را از سطح تراشه‌های پردازشی تا زیرساخت کامل مراکز داده گسترش خواهد داد. با این وجود، نهایی شدن این قرارداد منوط به موافقت سهامداران هر دو شرکت و همچنین تأیید نهادهای نظارتی و ضد انحصار است و پیش‌بینی می‌شود در نیمه نخست سال تقویمی ۲۰۲۸ به سرانجام برسد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Chip-chips-dollar-signs-money.png?resize=1200,960",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
       "summary": "Marvell's planned purchase of Lumentum is one of the biggest acquisitions in tech history. And they both have the same strategic investor: Nvidia.",
       "display_title": "شرکت مارول (Marvell) در یکی از بزرگ‌ترین معامله‌های تاریخ فناوری، لومنتوم (Lumentum) را با قیمت ۱۱۵ میلیارد دلار می‌خرد",
-      "display_summary": "شرکت طراح تراشه مارول (Marvell) توافق‌نامه‌ای را برای خرید شرکت تجهیزات نوری و تراشه‌سازی لومنتوم (Lumentum) به ارزش سازمانی ۱۱۵ میلیارد دلار امضا کرد. این معامله عظیم که یکی از بزرگ‌ترین خریدهای تاریخ فناوری محسوب می‌شود، با پشتیبانی مشترک غول پردازنده‌های گرافیکی انویدیا (Nvidia) شکل گرفته است.",
-      "message": "<b>📰 شرکت مارول (Marvell) در یکی از بزرگ‌ترین معامله‌های تاریخ فناوری، لومنتوم (Lumentum) را با قیمت ۱۱۵ میلیارد دلار می‌خرد</b>\n\nشرکت طراح تراشه مارول (Marvell) توافق‌نامه‌ای را برای خرید شرکت تجهیزات نوری و تراشه‌سازی لومنتوم (Lumentum) به ارزش سازمانی ۱۱۵ میلیارد دلار امضا کرد. این معامله عظیم که یکی از بزرگ‌ترین خریدهای تاریخ فناوری محسوب می‌شود، با پشتیبانی مشترک غول پردازنده‌های گرافیکی انویدیا (Nvidia) شکل گرفته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در یکی از بزرگ‌ترین و بی‌سابقه‌ترین معامله‌های تاریخ صنعت فناوری، شرکت طراح تراشه‌های سفارشی مارول (Marvell) توافق‌نامه‌ای را برای خرید شرکت سازنده قطعات نوری و تجهیزات شبکه‌ای لومنتوم (Lumentum) به امضا رساند. ارزش سازمانی این معامله تمام‌سهامی، با احتساب بدهی‌ها، حدود ۱۱۵ میلیارد دلار و ارزش سهام آن در حدود ۸۰ میلیارد دلار برآورد شده است. بر اساس جزئیات اعلام‌شده در این قرارداد، شرکت مارول (Marvell) به ازای هر سهم لومنتوم (Lumentum)، تعداد ۴.۵ سهم از سهام عادی خود را واگذار خواهد کرد. این حجم از سرمایه، معامله مذکور را در کنار بزرگ‌ترین خریدهای تاریخ فناوری جهان قرار می‌دهد؛ ابعادی که حتی از خرید شرکت اکتیویژن بلیزارد (Activision Blizzard) توسط مایکروسافت (Microsoft) با ارزش ۶۸.۷ میلیارد دلار در سال ۲۰۲۲ یا خرید شرکت ای‌ام‌سی (EMC) توسط دل (Dell) در سال ۲۰۱۶ نیز فراتر می‌رود. نکته جالب توجه در این میان، حضور یک سرمایه‌گذار استراتژیک مشترک در پشت صحنه هر دو شرکت یعنی انویدیا (Nvidia) است. در ماه مارس سال جاری، غول پردازنده‌های گرافیکی جهان یعنی انویدیا (Nvidia) به عنوان بخشی از یک توافق چندساله برای خرید قطعات لیزری پیشرفته، مبلغ ۲ میلیارد دلار برای حمایت از فعالیت‌های تحقیق و توسعه و گسترش خطوط تولید لومنتوم (Lumentum) سرمایه‌گذاری کرد. تنها چند هفته بعد، شرکت مارول (Marvell) نیز اعلام کرد که انویدیا (Nvidia) سرمایه‌گذاری ۲ میلیارد دلاری مشابهی را برای تقویت سبد محصولات تراشه‌ها و شبکه‌های نوری مارول (Marvell) انجام داده است. مدیران مارول (Marvell) بر این باورند که با تصاحب لومنتوم (Lumentum)، این شرکت به پیشتاز حوزه ارتباطات و اتصال هوش مصنوعی (AI) تبدیل خواهد شد و سبد محصولات خود را از سطح تراشه‌های پردازشی تا زیرساخت کامل مراکز داده گسترش خواهد داد. با این وجود، نهایی شدن این قرارداد منوط به موافقت سهامداران هر دو شرکت و همچنین تأیید نهادهای نظارتی و ضد انحصار است و پیش‌بینی می‌شود در نیمه نخست سال تقویمی ۲۰۲۸ به سرانجام برسد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Chip-chips-dollar-signs-money.png?resize=1200,960",
+      "display_summary": "شرکت طراح تراشه مارول (Marvell) توافق‌نامه‌ای را برای خرید شرکت تجهیزات نوری و تراشه‌سازی لومنتوم (Lumentum) به ارزش سازمانی ۱۱۵ میلیارد دلار امضا کرد. این معامله عظیم که یکی از بزرگ‌ترین خریدهای تاریخ فناوری محسوب می‌شود، با پشتیبانی مشترک غول پردازنده‌های گرافیکی انویدیا (Nvidia) شکل گرفته است."
+    },
+    {
+      "key": "url:1b5a2cd740a95e7990965b984ec81287cf9faeb73253b2ecb54f782d136e478e",
+      "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
+      "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
+      "summary": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals could make the victory short-lived.",
+      "display_title": "دستگاه جیبی جدید اوکراین برای استفاده از دوربین پهپادهای روسیه علیه خودشان",
+      "display_summary": "یک استارتاپ اوکراینی موفق به توسعه گیرنده جیبی سبکی به نام دی‌ویژن اس‌دی‌آر (D·Vision SDR) شده است که به نیروهای نظامی این کشور اجازه می‌دهد تصاویر زنده ارسال شده از دوربین پهپادهای شناسایی روسیه را رصد کنند. با این حال، کارشناسان هشدار می‌دهند که با حرکت به سمت ویدیوهای دیجیتال و فناوری‌های هدایت هوش مصنوعی، این برتری ممکن است دوام چندانی نداشته باشد.",
+      "message": "<b>📰 دستگاه جیبی جدید اوکراین برای استفاده از دوربین پهپادهای روسیه علیه خودشان</b>\n\nیک استارتاپ اوکراینی موفق به توسعه گیرنده جیبی سبکی به نام دی‌ویژن اس‌دی‌آر (D·Vision SDR) شده است که به نیروهای نظامی این کشور اجازه می‌دهد تصاویر زنده ارسال شده از دوربین پهپادهای شناسایی روسیه را رصد کنند. با این حال، کارشناسان هشدار می‌دهند که با حرکت به سمت ویدیوهای دیجیتال و فناوری‌های هدایت هوش مصنوعی، این برتری ممکن است دوام چندانی نداشته باشد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>نیروهای نظامی اوکراین به ابزار جدیدی برای رصد پهپادهای شناسایی روسیه دست یافته‌اند. شرکت نوپای «کد۳۸۰» (CODE380) در کی‌یف (Kyiv) موفق شده است یک گیرنده جیبی به نام «دی‌ویژن اس‌دی‌آر» (D·Vision SDR) را توسعه دهد که قادر است تصاویر ویدیویی زنده ارسالی از بسیاری از پهپادهای روسی را روی صفحه نمایش خود به تصویر بکشد. این پهپادها تصاویر خود را به صورت آشکار و بدون رمزگذاری در فضا منتشر می‌کنند، به طوری که هر فرد یا واحد نظامی مجهز به گیرنده مناسب می‌تواند جریان ویدیویی آن‌ها را تماشا کند. بر اساس گزارش نشریه «دیفنس نیوز» (Defense News)، این دستگاه وزن بسیار سبکی در حدود ۲۸۰ گرم (۱۰ اونس) دارد که کمتر از نصف وزن مدل‌های رقیب اوکراینی محسوب می‌شود. این ابزار همچنین توانایی اسکن کانال‌های رادیویی جدیدی را دارد که پهپادهای «مولنیا» (Molniya) روسیه از ماه ژوئن برای ارسال ویدیو از آن‌ها استفاده می‌کنند. سرحی بشکرستنوف (Serhii Beskrestnov) ملقب به «فلاش» (Flash)، متخصص جنگ الکترونیک و مشاور ریاست جمهوری اوکراین، در اظهاراتی به این نکته اشاره کرد که بسیاری از ردیاب‌های موجود قادر به شناسایی این فرکانس‌ها نیستند یا عملکرد ضعیفی در این زمینه دارند. با وجود کارایی فعلی این ابزار، کارشناسان هشدار داده‌اند که اتکای بیش از حد به چنین تجهیزاتی می‌تواند خطرساز باشد. تغییر احتمالی فناوری‌های ارسال ویدیو از حالت آنالوگ به دیجیتال می‌تواند در آینده این نوع گیرنده‌ها را کاملاً از کار بیندازد. علاوه بر این، گزارش‌های منتشر شده توسط روزنامه «نیویورک تایمز» (The New York Times) نشان می‌دهد که برخی از مدل‌های پهپاد مولنیا هم‌اکنون با استفاده از تراشه‌های شرکت «ان‌ویدیا» (Nvidia) به سیستم‌های هدایت مبتنی بر هوش مصنوعی مجهز شده‌اند و بدون ارسال سیگنال‌های رادیویی قابل ردیابی عمل می‌کنند. در نتیجه، این ابزار جیبی اگرچه در شرایط کنونی میدان نبرد مزیت تاکتیکی ارزشمندی برای نیروهای اوکراینی فراهم کرده است، اما رقابت فناوری در عرصه جنگ افزارهای بدون سرنشین به سرعت در حال تکامل است و ابزارهای مقابله‌ای نیز باید همگام با این تغییرات به‌روزرسانی شوند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1388071988.jpg?resize=1200,798",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:4e0ed8852ebd1d9e2777adfd92b5391290ed06f63c8135922f2a44185c8ae0eb",
+      "url": "https://www.engadget.com/2279347/is-it-safe-to-charge-phone-with-airport-usb-port/",
+      "title": "Is it actually safe to charge your iPhone at airport USB ports?",
+      "summary": "Using a random USB charger can be unsafe, even though the risk is minimal. Thankfully, you have ways to protect your devices.",
+      "display_title": "آیا شارژ کردن آیفون در پورت‌های USB فرودگاه واقعاً امن است؟",
+      "display_summary": "اگرچه نهادهای امنیتی مانند اف‌بی‌آی درباره خطرات استفاده از پورت‌های شارژ عمومی هشدار داده‌اند، کارشناسان امنیت سایبری این تهدید را بزرگ‌نمایی‌شده می‌دانند. با این حال، برای به صفر رساندن ریسک سرقت اطلاعات یا بدافزار (معروف به جوس‌جکینگ)، استفاده از پاوربانک شخصی، پریزهای دیواری یا مسدودکننده‌های داده توصیه می‌شود.",
+      "message": "<b>📰 آیا شارژ کردن آیفون در پورت‌های USB فرودگاه واقعاً امن است؟</b>\n\nاگرچه نهادهای امنیتی مانند اف‌بی‌آی درباره خطرات استفاده از پورت‌های شارژ عمومی هشدار داده‌اند، کارشناسان امنیت سایبری این تهدید را بزرگ‌نمایی‌شده می‌دانند. با این حال، برای به صفر رساندن ریسک سرقت اطلاعات یا بدافزار (معروف به جوس‌جکینگ)، استفاده از پاوربانک شخصی، پریزهای دیواری یا مسدودکننده‌های داده توصیه می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استفاده از پورت‌های شارژ عمومی USB در فرودگاه‌ها، هتل‌ها و اماکن عمومی همواره یکی از دغدغه‌های کاربران تلفن‌های همراه بوده است. پاسخ کوتاه این است که استفاده از این ایستگاه‌های شارژ عموماً تا حد زیادی امن است؛ هرچند نهادهای دولتی ایالات متحده آمریکا مانند اداره تحقیقات فدرال (FBI) و سازمان امنیت حمل‌ونقل (TSA) هشدارهایی را در این زمینه مطرح کرده‌اند، اما کارشناسان امنیت سایبری معتقدند که ابعاد این تهدید بیش از حد بزرگ‌نمایی شده است. سازمان امنیت حمل‌ونقل (TSA) در یک پیام رسانه‌ای به مسافران توصیه کرده بود که گوشی خود را مستقیماً به پورت‌های USB متصل نکنند و به جای آن از آداپتورهای دیواری یا باتری‌های قابل حمل (پاوربانک) استفاده نمایند. کمیسیون ارتباطات فدرال (FCC) نیز پیش‌تر درباره حملات موسوم به «جوس‌جکینگ» (Juice-Jacking) یا همان هک از طریق پورت شارژ هشدار داده بود، اما پس از مناقشات کارشناسان فناوری پیرامون میزان واقعی بودن این تهدید، هشدار خود را پس گرفت. بررسی‌های نهادهای قانونی مانند دفتر دادستانی منطقه لس‌آنجلس (Los Angeles County) نیز نشان داده است که تاکنون هیچ پرونده واقعی یا گزارش مستندی از ثبت این نوع حملات در اختیار نداشته‌اند. با این وجود، پژوهشگران امنیتی تأکید می‌کنند که اگرچه این تهدید در سطح اثبات مفهومی (Proof-of-Concept) وجود دارد، اما به این معنا نیست که می‌توان تمامی احتیاط را کنار گذاشت. ریسک اصلی در پورت‌های USB به استاندارد ساختاری آن‌ها بازمی‌گردد که توان الکتریکی و انتقال داده را از طریق کابل‌های مشترک و پین‌های داخلی مجزا انجام می‌دهند. در آزمایش‌های اثبات مفهومی، پژوهشگران نشان داده‌اند که مهاجمان می‌توانند با دستکاری ایستگاه‌های شارژ عمومی، از طریق پین‌های داده اقدام به انتقال بدافزار یا سرقت اطلاعات کنند. برای نمونه، در کنفرانس امنیتی بلک‌هَت (Black Hat USA) در سال ۲۰۱۳، پژوهشگران دانشگاه فناوری جورجیا (Georgia Tech) ابزاری مخرب به نام «مک‌تانس» (Mactans) را معرفی کردند که قادر بود روی آیفون‌های (iPhone) مجهز به سیستم‌عامل آی‌اواس ۶ (iOS 6) بدافزار نصب کند. شرکت‌های سازنده سیستم‌عامل نظیر اپل (Apple) همواره به این تهدیدات واکنش نشان داده‌اند. اپل پس از افشای پروژه مک‌تانس، امنیت سیستم‌عامل آی‌اواس (iOS) را با افزودن پیام هشدار «آیا به این رایانه اعتماد می‌کنید؟» (Trust This Computer?) تقویت کرد. بنابراین، اگر هنگام اتصال گوشی به یک پورت ناشناس با این پیام مواجه شدید، به هیچ وجه گزینه «اعتماد» (Trust) را انتخاب نکنید، مگر آنکه قصد اشتراک‌گذاری داده با آن دستگاه را داشته باشید. برای کاهش کامل ریسک، بهترین راهکار عدم استفاده از پورت‌های عمومی است. حمل یک پاوربانک یا استفاده از شارژرهای دیواری شخصی ایمن‌ترین گزینه‌ها هستند. همچنین می‌توانید از ابزارهای موسوم به مسدودکننده داده USB (USB Data Blocker) استفاده کنید که ارتباط داده‌ای را مسدود کرده اما اجازه عبور جریان برق را می‌دهند. در پایان، رعایت اصول اولیه امنیت سایبری مانند خودداری از اتصال به وای‌فای‌های عمومی برای کارهای حساس و به‌روزرسانی مداوم نرم‌افزاری، بهترین راه حفاظت از دستگاه‌های شخصی است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/is-it-actually-safe-to-charge-your-iphone-at-airport-usb-ports/l-intro-1791316236.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:f548b6df676cbb37998f6fbb75731c323cb1dd44d979c48541c4d5af6d5cd4c7",
+      "url": "https://www.engadget.com/2300377/some-iphone-calls-decline-option-reason-why/",
+      "title": "The reason why some iPhone calls don't have a decline option, and others do",
+      "summary": "Sometimes your iPhone lets you decline a call and sometimes it doesn't. Here's why that happens, and a few easy ways to handle the calls you'd rather skip.",
+      "display_title": "دلیل تفاوت در نمایش دکمه رد تماس در آیفون چیست؟",
+      "display_summary": "بسیاری از کاربران آیفون (iPhone) متوجه شده‌اند که گاهی اوقات هنگام دریافت تماس، گزینه رد تماس روی صفحه نمایش داده نمی‌شود و گاهی این دکمه وجود دارد. این تفاوت عملکرد به قفل بودن یا باز بودن صفحه نمایش دستگاه بستگی دارد، اما ترفندهایی نیز برای مدیریت آسان‌تر تماس‌ها وجود دارد.",
+      "message": "<b>📰 دلیل تفاوت در نمایش دکمه رد تماس در آیفون چیست؟</b>\n\nبسیاری از کاربران آیفون (iPhone) متوجه شده‌اند که گاهی اوقات هنگام دریافت تماس، گزینه رد تماس روی صفحه نمایش داده نمی‌شود و گاهی این دکمه وجود دارد. این تفاوت عملکرد به قفل بودن یا باز بودن صفحه نمایش دستگاه بستگی دارد، اما ترفندهایی نیز برای مدیریت آسان‌تر تماس‌ها وجود دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>برای بسیاری از کاربران پیش آمده است که در موقعیت نامناسبی قرار داشته باشند و زنگ خوردن آیفون (iPhone) مایه دردسر شود، اما با کمال تعجب ببینند که هیچ گزینه‌ای برای رد کردن تماس روی صفحه دیده نمی‌شود. این موضوع اغلب باعث سردرگمی و تلاش برای یافتن راهی جهت قطع کردن صدا می‌شود، در حالی که پاسخ این پدیده بسیار ساده است. بر اساس بررسی‌های انجام‌شده، هنگامی که قفل صفحه نمایش آیفون (iPhone) فعال است، تماس‌های ورودی تنها با کنترل «کشیدن برای پاسخ» (Slide to Answer) نمایش داده می‌شوند. در مقابل، زمانی که قفل گوشی باز است، گزینه‌های مشخصی برای پاسخ دادن یا رد کردن تماس ظاهر می‌شوند. این یک نقص فنی یا تنظیمات اشتباه از سوی کاربر نیست، بلکه نحوه پیش‌فرض طراحی سیستم‌عامل شرکت اپل (Apple) برای جلوگیری از قطع تصادفی تماس‌ها هنگام قفل بودن دستگاه است. با این حال، کاربران برای رد کردن یا بی‌صدا کردن تماس‌ها نیازی حتمی به دکمه‌های روی صفحه ندارند. فشردن سریع دکمه کناری (Side Button) به تعداد دو بار پیاپی، تماس را رد کرده و فرستنده را مستقیماً به پست صوتی (Voicemail) هدایت می‌کند. همچنین فشردن هر کدام از دکمه‌های تنظیم صدا (Volume Buttons)، زنگ گوشی را بدون رد کردن تماس قطع می‌کند و این کار در هر دو حالت قفل یا باز بودن صفحه قابل انجام است. اگر رد کردن ناگهانی تماس ممکن است بی‌ادبانه به نظر برسد، آیفون (iPhone) امکان ارسال پیام متنی را به جای پاسخگویی فراهم کرده است. با ضربه زدن روی گزینه پیام (Message) در رابط کاربری تماس، می‌توان از پاسخ‌های آماده استفاده کرد یا پیام دلخواه را برای توضیح دادن وضعیت ارسال نمود. کاربران همچنین می‌توانند با رفتن به بخش تنظیمات در مسیر Settings &gt; Apps &gt; Phone &gt; Respond with Text، این پاسخ‌های پیش‌فرض را به دلخواه ویرایش کنند. علاوه بر این، در مواجهه با تماس‌های مزاحم یا ناشناس، راهکارهایی مانند مسدود کردن شماره‌ها از طریق بخش تاریخچه تماس‌ها (Recents) یا فعال‌سازی قابلیت غربالگری تماس‌های ناشناس در نسخه‌های جدید سیستم‌عامل وجود دارد تا مدیریت تماس‌ها با آرامش بیشتری انجام شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/the-reason-why-some-iphone-calls-dont-have-a-decline-option-and-others-do/l-intro-1793218638.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:4e06215f9720bd3b05caf978cc31301fc258bb655b7217e29dcf265ee3f72575",
+      "url": "https://www.engadget.com/2300370/why-important-never-plug-power-strip-each-other/",
+      "title": "Why it's important to never plug power strips into each other",
+      "summary": "Power strips are lifesavers when you don't have enough outlets to power all of your electronics and some also offer protection from power surges.",
+      "display_title": "چرا هرگز نباید چند چندراهی برق را به یکدیگر متصل کنید؟",
+      "display_summary": "اتصال زنجیروار چندراهی‌های برق به یکدیگر (Daisy-chaining) خطرات جدی مانند گرمای بیش از حد، ذوب شدن سیم‌ها و خطر آتش‌سوزی در پی دارد. این کار ظرفیت الکتریکی کلی را افزایش نمی‌دهد و فشار بار الکتریکی را روی چندراهی اول متمرکز می‌کند.",
+      "message": "<b>📰 چرا هرگز نباید چند چندراهی برق را به یکدیگر متصل کنید؟</b>\n\nاتصال زنجیروار چندراهی‌های برق به یکدیگر (Daisy-chaining) خطرات جدی مانند گرمای بیش از حد، ذوب شدن سیم‌ها و خطر آتش‌سوزی در پی دارد. این کار ظرفیت الکتریکی کلی را افزایش نمی‌دهد و فشار بار الکتریکی را روی چندراهی اول متمرکز می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>با افزایش دستگاه‌های الکترونیکی و گسترش دورکاری یا فضاهای بازی خانگی، مدیریت کابل‌ها و پریزها به یک چالش جدی تبدیل شده است. در چنین شرایطی، اتصال چند چندراهی برق (Power strip) به یکدیگر یا اصطلاحاً اتصال زنجیروار (Daisy-chaining)، راهکاری وسوسه‌انگیز و ساده به نظر می‌رسد تا پریزهای بیشتری برای شارژ و راه‌اندازی دستگاه‌ها فراهم شود. با این حال، کارشناسان ایمنی هشدار می‌دهند که این کار خطرات جدی به همراه دارد و می‌تواند به پریدن فیوز یا حتی آتش‌سوزی در منازل منجر شود. نخستین مشکل اساسی این است که افزودن پریزهای جدید با استفاده از چندراهی‌های متوالی، ظرفیت الکتریکی کل مدار را افزایش نمی‌دهد. تمامی تجهیزاتی که به چندراهی دوم متصل هستند، جریان برق خود را از طریق دوشاخه و قطعات داخلی چندراهی اول دریافت می‌کنند. در نتیجه، چندراهی اول اکنون باید بار الکتریکی ترکیبی تمامی دستگاه‌های متصل به خود و چندراهی دوم را تحمل کند. مشکل دوم به حداکثر توان مجاز هر چندراهی که معمولاً بر اساس آمپر بیان می‌شود، مربوط است. اگر یک چندراهی دوم به چندراهی اول وصل شود و چندراهی نخست در آستانه تکمیل ظرفیت باشد، بار اضافی می‌تواند باعث داغ شدن بیش از حد قطعات داخلی و سیم‌کشی چندراهی اول شود. این پدیده که به «گرمایش مقاومتی» (Resistive heating) معروف است، در صورت تداوم می‌تواند به ذوب شدن بدنه پلاستیکی و عایق سیم‌ها منجر شده و مواد قابل اشتعال پیرامون را آتش بزند. برای جلوگیری از این خطرات، اگر به پریزهای بیشتری نیاز دارید، بهتر است از یک چندراهی واحد با تعداد پریزهای مناسب استفاده کنید، مشروط بر اینکه مجموع بار مصرفی از ظرفیت مجاز آن تجاوز نکند. همچنین استفاده از سیم‌های رابط (Extension cord) به جای چندراهی توصیه نمی‌شود، زیرا آن‌ها نیز محدودیت‌های خود را دارند و سازمان‌های آتش‌نشانی مانند انجمن ملی حفاظت در برابر آتش (NFPA) نسبت به خطرات استفاده نادرست از آن‌ها هشدار داده‌اند. علاوه بر این، لوازم برقی پرمصرف مانند هیترهای برقی (Space heater)، مایکروویو و یخچال نباید به چندراهی‌ها متصل شوند، زیرا جریان برق بسیار بالایی می‌کشند و باید مستقیماً به پریز دیواری وصل گردند. دستگاه‌های محافظ برق (Surge protector) نیز تنها در برابر نوسانات ناگهانی ولتاژ ایمنی ایجاد می‌کنند و توان جادویی برای افزایش ظرفیت انرژی مدار ندارند. رعایت این نکات ساده ایمنی نقش مهمی در پیشگیری از حوادث احتمالی دارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/why-its-important-to-never-plug-power-strips-into-each-other/l-intro-1792782959.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:8b17dc98acd89555014b01bf7f5efab34f373e91fff3172f4a7359e9d73fb62b",
+      "url": "https://www.engadget.com/2300368/how-to-use-phone-camera-built-in-translation-feature-google/",
+      "title": "How to use your phone's camera to translate anything",
+      "summary": "With the aid of a quick picture, you can use your phone's camera to translate pretty much any text while you're traveling across the globe.",
+      "display_title": "چگونه با استفاده از دوربین گوشی هوشمند هر متنی را ترجمه کنیم",
+      "display_summary": "دوربین گوشی‌های هوشمند امروزی ابزاری قدرتمند برای ترجمه آنی علائم و متون به زبان‌های مختلف در زمان سفر هستند. علاوه بر برنامه‌های سنتی مانند گوگل ترنسلیت (Google Translate)، ابزارهای هوش مصنوعی (AI) نیز می‌توانند با درک بهتر متون پیچیده و منوهای غذایی، ترجمه دقیق‌تری ارائه دهند.",
+      "message": "<b>📰 چگونه با استفاده از دوربین گوشی هوشمند هر متنی را ترجمه کنیم</b>\n\nدوربین گوشی‌های هوشمند امروزی ابزاری قدرتمند برای ترجمه آنی علائم و متون به زبان‌های مختلف در زمان سفر هستند. علاوه بر برنامه‌های سنتی مانند گوگل ترنسلیت (Google Translate)، ابزارهای هوش مصنوعی (AI) نیز می‌توانند با درک بهتر متون پیچیده و منوهای غذایی، ترجمه دقیق‌تری ارائه دهند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>سفر به کشورهای دیگر معمولاً با چالش روبه‌رو شدن با تابلوها، علائم و متون به زبان‌های ناآشنا همراه است. اگر الفبای زبان مقصد را هم بلد نباشید، این مسئله به یک چالش جدی تبدیل می‌شود. خوشبختانه دوربین گوشی هوشمند شما می‌تواند در عرض چند ثانیه هر متنی را در دنیای واقعی تشخیص دهد و ترجمه کند؛ حتی اگر آن زبان از خط کاملاً متفاوتی استفاده کند. ساده‌ترین راه برای ترجمه متون با دوربین گوشی، استفاده از اپلیکیشن گوگل ترنسلیت (Google Translate) است. این برنامه بیش از یک دهه است که حالت اختصاصی دوربین را ارائه می‌دهد. کافی است آن را از فروشگاه گوگل پلی (Google Play Store) برای سیستم‌عامل اندروید (Android) یا اپ استور (App Store) برای سیستم‌عامل آی‌اواس (iOS) دانلود کنید، وارد برنامه شوید و روی نماد دوربین در پایین صفحه ضربه بزنید. همچنین می‌توانید زبان‌های پرکاربرد را برای استفاده آفلاین در این برنامه دانلود کنید که برای سفر بسیار مفید است. علاوه بر این، کاربران اندروید می‌توانند از گوگل لنز (Google Lens) استفاده کنند و کاربران آیفون (iPhone) نیز قابلیت لایو تکست (Live Text) را مستقیماً در برنامه دوربین خود در اختیار دارند. با این حال، برنامه‌های سنتی ترجمه گاهی در تشخیص علائم نگارشی خاص یا منوهای رستوران‌ها که از اختصارات غیررسمی استفاده می‌کنند، دچار مشکل می‌شوند. در چنین مواردی، استفاده از برنامه‌های هوش مصنوعی (AI) مانند چت‌جی‌پی‌تی (ChatGPT)، جمینای (Gemini) و کلود (Claude) راهکار جایگزین و بسیار قدرتمندی است. مدل‌های هوش مصنوعی مدرن مفهوم و سیاق متن را درک می‌کنند و حتی در صورت تار بودن عکس، ترجمه دقیق‌تری از منوها یا متون پیچیده ارائه می‌دهند. البته این روش محدودیت‌هایی مانند نیاز به اینترنت و محدودیت در تعداد آپلود روزانه دارد، اما به عنوان ابزاری تکمیلی بسیار کارآمد است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-use-your-phones-camera-to-translate-anything/l-intro-1792778533.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:dfdba4fa4cd7113ee6d9a147f3449eeff70c99d8c0c58cd2d4b7367ae1b156b4",
+      "url": "https://www.engadget.com/2302215/how-long-hdd-ssd-stay-expensive/",
+      "title": "How long could HDDs and SSDs remain expensive?",
+      "summary": "Thanks to shortages of microchips and other computer components, we've been experiencing high prices for years.",
+      "display_title": "قیمت هارد دیسک‌ها (HDDs) و درایوهای حالت جامد (SSDs) چه زمانی کاهش می‌یابد؟",
+      "display_summary": "بازار قطعات کامپیوتری به دلیل کمبود تراشه‌ها و بحران موسوم به «رم‌گدون» (RAMageddon) سال‌هاست با قیمت‌های نجومی دست‌وپنجه نرم می‌کند. با این حال، تحلیلگران بازار پیش‌بینی می‌کنند که از سال ۲۰۲۷ شاهد نخستین نشانه‌های کاهش قیمت در حوزه حافظه‌های ذخیره‌سازی خواهیم بود، اما بازگشت کامل به قیمت‌های پیش از دوران کرونا تا سال‌های ۲۰۲۹ یا ۲۰۳۰ طول خواهد کشید.",
+      "message": "<b>📰 قیمت هارد دیسک‌ها (HDDs) و درایوهای حالت جامد (SSDs) چه زمانی کاهش می‌یابد؟</b>\n\nبازار قطعات کامپیوتری به دلیل کمبود تراشه‌ها و بحران موسوم به «رم‌گدون» (RAMageddon) سال‌هاست با قیمت‌های نجومی دست‌وپنجه نرم می‌کند. با این حال، تحلیلگران بازار پیش‌بینی می‌کنند که از سال ۲۰۲۷ شاهد نخستین نشانه‌های کاهش قیمت در حوزه حافظه‌های ذخیره‌سازی خواهیم بود، اما بازگشت کامل به قیمت‌های پیش از دوران کرونا تا سال‌های ۲۰۲۹ یا ۲۰۳۰ طول خواهد کشید.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اگر زمان زیادی را صرف ساخت و نگهداری رایانه‌های شخصی سفارشی کرده باشید، احتمالاً تغییرات و نوسانات زیادی را در این صنعت دیده‌اید. با این حال، در ماه‌های اخیر، کاربران شاهد پیامدهای ناگوار بحرانی بوده‌اند که امروزه از آن با نام «رم‌گدون» (RAMageddon) یاد می‌شود. کمبود تراشه‌ای که امروزه با آن دست به گریبان هستیم، تا حدودی یادآور بحران سال ۲۰۲۰ است؛ دوره‌ای که تهیه کنسول‌های بازی و رایانه‌های آماده به کاری بسیار دشوار تبدیل شده بود، هرچند که ریشه‌های اصلی این دو بحران با یکدیگر متفاوت است. در حالی که قیمت رم، پردازنده‌ها و حتی کارت‌های گرافیک به طور سرسام‌آوری افزایش یافته است، دو قطعه کلیدی رایانه یعنی هارد دیسک‌ها (HDDs) و درایوهای حالت جامد (SSDs) تا حدی از این موج سهمگین افزایش قیمت در امان بوده‌اند؛ هرچند این قطعات نیز همچنان تحت تأثیر شرایط بازار قرار دارند. صنعت ذخیره‌سازی اطلاعات به آرامی به سمت نوعی ثبات و آرامش پیش می‌رود، اما رسیدن به خط پایان نیازمند زمان است. وضعیت فعلی هارد دیسک‌ها (HDDs) و درایوهای حالت جامد (SSDs) در بازار بسیار جالب توجه است. صرف‌نظر از اینکه به دنبال یک درایو حرفه‌ای با ظرفیت بیش از ۲۰ ترابایت باشید یا گزینه‌ای مقرون‌به‌صرفه‌تر، به دلیل کمبود جهانی تراشه همچنان باید پول بیشتری بپردازید. در بلندمدت، تصمیم‌گیری برای خرید هر نوع حافظه ذخیره‌سازی به فرآیندی پیچیده تبدیل شده است. درایوهای مکانیکی سنتی یا همان هارد دیسک‌ها (HDDs) سال‌هاست که تا حدی کنار گذاشته شده‌اند، اما همچنان کاربردهای خاص خود را در بازار امروز دارند. اگرچه آن‌ها برای اجرای بازی‌ها ایده‌آل نیستند و سرعتشان در مقایسه با درایوهای حالت جامد (SSDs) بسیار کندتر است، اما برای ذخیره‌سازی انبوه عکس‌ها، ویدیوها و اسناد عملکرد بسیار مناسبی دارند. از سوی دیگر، درایوهای حالت جامد (SSDs) به دلیل استفاده از حافظه فلش (Flash Memory) که خود با بحران کمبود مواجه است، ضربه شدیدتری متحمل شده‌اند. با این حال، گزارش‌ها نشان می‌دهند که سال ۲۰۲۷ به عنوان مقطع زمانی برای آغاز نخستین موج کاهش قیمت‌ها در نظر گرفته شده است. هرچند این کاهش قیمت ممکن است در ابتدا جزئی باشد، اما در درازمدت ارزش پس‌انداز کردن را خواهد داشت. تحلیلگران صنعت فناوری بر این باورند که با ورود به سال ۲۰۲۷، بازار روند رو به پایینی را در پیش خواهد گرفت، اما بازگشت به قیمت‌های بسیار پایین پیش از دوران همه‌گیری کرونا عملاً غیرممکن به نظر می‌ رسد. در مجموع، اجماع کلی درباره زمان کاهش چشمگیر قیمت هارد دیسک‌ها (HDDs) و درایوهای حالت جامد (SSDs) چندان اطمینان‌بخش نیست. سال ۲۰۲۷ ممکن است شاهد افت‌های نامحسوسی باشیم، اما اگر قصد ارتقای سیستم یا خرید قطعات جدید را دارید، عاقلانه‌تر آن است که دستکم تا اواخر سال ۲۰۲۷ یا پس از آن صبر کنید. بیشتر گزارش‌های منتشر شده نشان می‌دهند که سال‌های ۲۰۲۹ یا ۲۰۳۰ زمانی خواهد بود که قیمت‌ها با شیب تندتر و محسوس‌تری کاهش پیدا خواهند کرد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/how-long-could-hdds-and-ssds-remain-expensive/l-intro-1793370181.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:f8c67ddfa68a94533462ec12c8946d98a962bf4877b89f3ec21dd8b3e3e84c35",
+      "url": "https://www.engadget.com/2300353/google-gemini-poking-through-email-how-to-stop/",
+      "title": "Gemini could be poking through your emails - here's how to stop it",
+      "summary": "Gemini can read your emails, summarize them and draft replies. If you'd rather it didn't, here's what Google actually does with your data and how to opt out.",
+      "display_title": "ابزار جمنای ایمیل‌های شما را بررسی می‌کند؛ راهکار متوقف کردن آن چیست؟",
+      "display_summary": "شرکت گوگل ابزار هوش مصنوعی جمنای را به صورت پیش‌فرض در جیمیل و سایر برنامه‌های کاری خود فعال کرده است تا کارها را مدیریت کند. در حالی که گوگل اعلام کرده از ایمیل‌های شخصی برای آموزش مدل‌های هوش مصنوعی استفاده نمی‌کند، کاربران می‌توانند این قابلیت‌های هوشمند را غیرفعال کنند.",
+      "message": "<b>📰 ابزار جمنای ایمیل‌های شما را بررسی می‌کند؛ راهکار متوقف کردن آن چیست؟</b>\n\nشرکت گوگل ابزار هوش مصنوعی جمنای را به صورت پیش‌فرض در جیمیل و سایر برنامه‌های کاری خود فعال کرده است تا کارها را مدیریت کند. در حالی که گوگل اعلام کرده از ایمیل‌های شخصی برای آموزش مدل‌های هوش مصنوعی استفاده نمی‌کند، کاربران می‌توانند این قابلیت‌های هوشمند را غیرفعال کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>انقلاب هوش مصنوعی (AI) تقریباً تمام جنبه‌های فناوری را تحت تأثیر قرار داده و شرکت‌های بزرگ فناوری (Big Tech)، این ابزارها را در مرکز تمامی برنامه‌های خود قرار داده‌اند. شرکت گوگل (Google) نیز از این قاعده مستثنی نیست و مدل زبانی بزرگ خود یعنی جمنای (Gemini) را به یکی از ارکان اصلی محصولاتش تبدیل کرده است. در ماه‌های اخیر، گوگل مجموعه‌ای از قابلیت‌های مبتنی بر جمنای را به سرویس جیمیل (Gmail) اضافه کرده است که مواردی همچون دستورات صوتی، جستجوی زنده هوش مصنوعی، خلاصه‌سازی ایمیل‌ها، ایجاد فهرست کارها و پیش‌نویس پاسخ‌ها را شامل می‌شود. بسیاری از این قابلیت‌های رایگان به صورت پیش‌فرض فعال هستند و این موضوع نگرانی‌هایی را درباره نقض حریم خصوصی کاربران ایجاد کرده است. با توجه به پرونده‌های حقوقی متعدد علیه صنعت هوش مصنوعی به ارمغان آورنده نقض حق نشر، این پرسش مطرح می‌شود که آیا ایمیل‌های کاربران به عنوان منبع تغذیه الگوریتم‌های گوگل استفاده می‌شوند؟ پاسخ شرکت گوگل به این دغدغه‌ها ترکیبی از بله و خیر است. جمنای برای انجام وظایفی مانند خلاصه‌سازی یا پیش‌نویس پاسخ‌ها، ذاتاً به محتوای ایمیل‌ها دسترسی دارد. با این حال، مسئله اصلی این است که آیا داده‌های کاربران فراتر از این کاربردهای محدود منتقل می‌شوند یا خیر. گوگل در بیانیه‌ای اعلام کرد که از ایمیل‌های شخصی کاربران برای آموزش مدل‌های پایه هوش مصنوعی خود از جمله جمنای استفاده نمی‌کند. در عوض، جمنای تنها برای کارهای ایزوله مانند خلاصه‌سازی به صندوق ورودی دسترسی دارد و پس از اتمام کار، داده‌ها را نگه نمی‌دارد. صفحه پشتیبانی گوگل توضیح می‌دهد که این محافظت‌ها فراتر از ایمیل‌ها بوده و برنامه‌های کاری مانند چت، تقویم، اسناد، درایو، جدول‌ها و ارائه‌ها را نیز در بر می‌گیرد. با این وجود، اگر برنامه‌های محتوایی گوگل را به خدمات جستجو متصل کنید، شرایط تغییر می‌کند و ممکن است از داده‌ها برای بهبود خدمات و آموزش مدل‌های هوش مصنوعی استفاده شود. کاربرانی که ترجیح می‌دهند این ویژگی‌ها را غیرفعال کنند، می‌توانند با مراجعه به تنظیمات جیمیل و بخش ویژگی‌های هوشمند (Smart features)، تیک گزینه‌های مربوطه را بردارند. البته نکته منفی این است که غیرفعال کردن جمنای ممکن است برخی ابزارهای پایه مانند بررسی املا و دستور زبان را نیز غیرفعال کند و کاربران باید بین استفاده از ابزارهای کمکی هوش مصنوعی یا حفظ حریم خصوصی کامل یکی را انتخاب کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/gemini-could-be-poking-through-your-emails-heres-how-to-stop-it/l-intro-1793097394.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:9c7329387a1b225733aff0c04cca94b78ab5d067db0d5a31aeb55aee1cf19c09",
+      "url": "https://www.engadget.com/2300351/one-problem-iphone-messages-additional-options-easy-fix/",
+      "title": "One annoying problem with the iPhone Messages app has an easy fix",
+      "summary": "Apple's iMessage app offers a lot of useful features and several default apps included in its latest update. However, they may be in an order you dislike.",
+      "display_title": "آموزش رفع مشکل آزاردهنده ترتیب برنامه‌ها در اپلیکیشن پیام‌رسان آیفون",
+      "display_summary": "اپلیکیشن پیام‌رسان آی‌مسیج شرکت اپل امکانات شخصی‌سازی فراوانی را در اختیار کاربران قرار می‌دهد که از جمله آن‌ها می‌توان به مرتب‌سازی و جابجایی برنامه‌های موجود در منوی کشویی اشاره کرد. کاربران می‌توانند با چند ترفند ساده، چیدمان آیکون‌ها را طبق سلیقه خود تغییر دهند و اپلیکیشن‌های پرکاربرد را در دسترسی بهتری قرار دهند.",
+      "message": "<b>📰 آموزش رفع مشکل آزاردهنده ترتیب برنامه‌ها در اپلیکیشن پیام‌رسان آیفون</b>\n\nاپلیکیشن پیام‌رسان آی‌مسیج شرکت اپل امکانات شخصی‌سازی فراوانی را در اختیار کاربران قرار می‌دهد که از جمله آن‌ها می‌توان به مرتب‌سازی و جابجایی برنامه‌های موجود در منوی کشویی اشاره کرد. کاربران می‌توانند با چند ترفند ساده، چیدمان آیکون‌ها را طبق سلیقه خود تغییر دهند و اپلیکیشن‌های پرکاربرد را در دسترسی بهتری قرار دهند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اپلیکیشن پیام‌رسان آی‌مسیج (iMessage) شرکت اپل (Apple) در سال‌های اخیر دستخوش تغییرات و به‌روزرسانی‌های گسترده‌ای شده است. از اضافه شدن قابلیت ارسال پیام ماهواره‌ای برای مواقع اضطراری در مناطق دورافتاده گرفته تا تغییرات ظاهری مانند پس‌زمینه‌های قابل شخصی‌سازی، شرکت اپل (Apple) همواره تلاش کرده تا امکانات جدیدی را به سیستم‌عامل خود اضافه کند. با این حال، با انتشار سالانه نسخه‌های جدید آی‌اواس (iOS)، پیگیری تمامی این تغییرات گاهی برای کاربران دشوار می‌شود. یکی از مشکلاتی که کاربران همواره از آن گلایه دارند، چیدمان پیش‌فرض برنامه‌ها در منوی کشویی آی‌مسیج (iMessage) است. به عنوان مثال، برنامه‌هایی که هرگز از آن‌ها استفاده نمی‌کنید در بالای منو قرار می‌گیرند، در حالی که برنامه‌های پرکاربرد در انتهای فهرست پنهان می‌شوند. دلیل این موضوع آن است که بسیاری از کاربران هنوز زمانی را برای شخصی‌سازی چیدمان این منو اختصاص نداده‌اند. از زمان انتشار آی‌اواس ۱۸ (iOS 18) و نسخه‌های پس از آن، چندین اپلیکیشن به صورت پیش‌فرض روی پیام‌رسان نصب می‌شوند که در جدیدترین نسخه سیستم‌عامل یعنی آی‌اواس ۲۷ (iOS 27)، تعداد این برنامه‌های پیش‌فرض به ۱۴ مورد می‌رسد. این ابزارها امکاناتی نظیر ارسال موقعیت مکانی، یادداشت صوتی، استیکر، تصاویر متحرک و نظرسنجی را فراهم می‌کنند. برنامه‌های شخص ثالث دیگری مانند ای‌اس‌پی‌ان (ESPN) و ونمو (Venmo) نیز قابلیت‌های این پیام‌رسان را گسترش می‌دهند. خوشبختانه کاربران می‌توانند این برنامه‌ها را به دلخواه خود مرتب کنند. برای این کار، کافی است آخرین نسخه آی‌اواس (iOS) را نصب کرده، اپلیکیشن پیام‌رسان را باز کنید و وارد یک گفت‌وگو شوید. سپس با لمس دکمه علامت مثبت (+) در کنار بخش پیام‌ها، فهرست کامل برنامه‌های آی‌مسیج (iMessage) قابل مشاهده خواهد بود. برای جابجایی هر برنامه، کافی است انگشت خود را روی آن نگه دارید تا آیکون کوچک شود، سپس آن را به مکان دلخواه بکشید و رها کنید. همچنین کاربران می‌توانند برنامه‌های بیشتری را از طریق اپ استور (App Store) مخصوص آی‌مسیج (iMessage) دانلود کنند. برای این کار پس از لمس علامت مثبت (+) در پنجره گفتگو، روی آیکون آبی رنگ اپ استور (App Store) ضربه بزنید تا فهرست برنامه‌های محبوب یا بخش جستجو نمایش داده شود. با لمس دکمه دریافت (Get) یا دکمه قیمت، اپلیکیشن مورد نظر نصب خواهد شد. با این حال، کارشناسان توصیه می‌کنند در افزودن برنامه‌ها احتیاط کنید. به عنوان مثال، هنگامی که شرکت اوپن‌ای‌آی (OpenAI) قابلیت ادغام با آی‌مسیج (iMessage) را به اپلیکیشن چت‌جی‌پی‌تی (ChatGPT) برای مک (Mac) اضافه کرد، برخی کاربران ابراز نگرانی کردند. علاوه بر این، خریدهای درون‌برنامه‌ای ممکن است هزینه‌های ماهانه تلفن همراه را افزایش دهند. اگر از طرح اشتراک خانوادگی (Family Sharing) استفاده می‌کنید، می‌توانید با فعال‌سازی قابلیت «درخواست خرید» (Ask To Buy) در تنظیمات کنترل والدین آی‌اواس ۲۷ (iOS 27)، بر خریدهای فرزندان خود نظارت داشته باشید. برای حذف برنامه‌های اضافی یا مدیریت دسترسی آن‌ها در آی‌مسیج (iMessage)، می‌توانید به بخش تنظیمات (Settings)، سپس برنامه‌ها (Apps)، پیام‌ها (Messages) و در نهایت برنامه‌های آی‌مسیج (iMessage Apps) مراجعه کنید تا فعالیت آن‌ها را غیرفعال یا فعال کنید. همچنین امکان حذف کامل اپلیکیشن از صفحه اصلی دستگاه نیز با نگه‌داشتن انگشت روی آیکون و انتخاب گزینه حذف برنامه (Remove App) وجود دارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/one-annoying-problem-with-the-iphone-messages-app-has-an-easy-fix/l-intro-1793114293.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:8bfd7590d71c0d95edb1f484952096adfb7039647a3a4ff5ce480f17e2db6eb8",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "display_title": "استارتاپ «فورتی‌تو‌ای‌آی» (42AI) با سرمایه ۶۲.۵ میلیون دلاری و مدل جهانی پیش‌بینی رفتار انسان رونمایی شد",
+      "display_summary": "استارتاپ «فورتی‌تو‌ای‌آی» (42AI) پس از سه سال فعالیت در سکوت خبری، با جذب ۶۲.۵ میلیون دلار سرمایه اولیه از رونمایی یک مدل جهانی رفتاری خبر داد. این فناوری نوین ادعا می‌کند که می‌تواند با تحلیل انگیزه‌ها و الگوهای روانی، احتمال تصمیم‌گیری افراد را در شرایط مختلف پیش‌بینی کند.",
+      "message": "<b>📰 استارتاپ «فورتی‌تو‌ای‌آی» (42AI) با سرمایه ۶۲.۵ میلیون دلاری و مدل جهانی پیش‌بینی رفتار انسان رونمایی شد</b>\n\nاستارتاپ «فورتی‌تو‌ای‌آی» (42AI) پس از سه سال فعالیت در سکوت خبری، با جذب ۶۲.۵ میلیون دلار سرمایه اولیه از رونمایی یک مدل جهانی رفتاری خبر داد. این فناوری نوین ادعا می‌کند که می‌تواند با تحلیل انگیزه‌ها و الگوهای روانی، احتمال تصمیم‌گیری افراد را در شرایط مختلف پیش‌بینی کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>یک استارتاپ نوظهور به نام «فورتی‌تو‌ای‌آی» (42AI) با خروج از فاز محرمانگی (Stealth)، از دستیابی به سرمایه اولیه ۶۲.۵ میلیون دلاری خبر داد و توجه رسانه‌ها را به مدل جهانی جدید خود در زمینه پیش‌بینی رفتار انسان جلب کرد. این فناوری که ترکیبی از پژوهش‌های روان‌شناسی، علوم اعصاب و ژنتیک است، تلاش می‌کند تا رفتارهای انسانی را به داده‌های قابل محاسبه تبدیل کند. «آمیت گل-اور» (Amit Gal-Or)، مدیرعامل و هم‌بنیان‌گذار «فورتی‌تو‌ای‌آی» (42AI)، در مصاحبه خود با وب‌سایت «تک‌کرانچ» (TechCrunch) اظهار داشت که رفتار انسان قطعی نیست، بلکه همواره حالتی احتمالی دارد. به گفته وی، افراد دارای تمایلات روانی پایه‌ای هستند که حتی در زمان تغییر شرایط نیز بر تصمیمات آن‌ها تأثیر می‌گذارد. این استارتاپ تلاش می‌کند همین تمایلات را اندازه گیری کرده و به داده‌هایی تبدیل کند که مدل هوش مصنوعی قادر به درک آن‌ها باشد. فناوری این شرکت به جای تکیه صرف بر اقدامات گذشته افراد، تلاش می‌کند انگیزه‌های درونی آن‌ها را با بررسی نحوه واکنش به رویدادهای مختلف کشف کند. در بخش کاربری تجاری، این مدل تعاملات مشتریان با بخش پشتیبانی، تماس‌ها، نقل‌وانتقالات مالی و روند معاملات را تحلیل می‌کند. سپس این مشاهدات به بازنمایی‌های ریاضی از ویژگی‌های شخصیتی تبدیل شده و به یک مدل جهانی مبتنی بر ترانسفورماتور تزریق می‌شوند تا احتمالات تصمیم‌گیری فرد را در سناریوهای مختلف محاسبه کنند. «اود استرا» (Ehud Ezra)، هم‌بنیان‌گذار و مدیر ارشد فناوری «فورتی‌تو‌ای‌آی» (42AI)، توضیح داد که این مدل طی سه سال گذشته با استفاده از داده‌های حاصل از ارزیابی‌های روانی هزاران نفر و همچنین پایگاه‌های داده دولتی و زیستی مربوط به بیش از ۲ میلیون نفر آموزش دیده است. در حال حاضر، این مدل در چند کارگزاری مالی بزرگ برای پیش‌بینی نحوه واکنش معامله‌گران به نوسانات بازار به کار گرفته شده است و طبق ادعای مدیران شرکت، حجم داده‌های مشتریان تحت پوشش آن به حدود ۳۰ میلیون نفر رسیده است. با این حال، توسعه چنین فناوری پیشرفته‌ای نگرانی‌هایی را نیز در زمینه حریم خصوصی و سوءاستفاده احتمالی از پروفایل‌های رفتاری به همراه داشته است. بنیان‌گذاران این استارتاپ ضمن اذعان به وجود این دغدغه‌ها، بر رعایت قوانین، نظارت دقیق و تلاش برای استفاده از ابزارهای کمیته اخلاقی داخلی تأکید کرده‌اند. «فورتی‌تو‌ای‌آی» (42AI) قصد دارد در آینده کاربردهای این فناوری را به حوزه‌های دیگری نظیر بازی‌های ویدئویی، پیش‌بینی کلاه‌برداری، امنیت سایبری و کمک به ربات‌ها برای درک بهتر انسان‌ها توسعه دهد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3572.jpeg?resize=1200,895",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:287c535773ead49f4c41c065c0d9231c69f8660c5e1c29a675b9867767a80afd",
+      "url": "https://www.engadget.com/2300349/smart-home-devices-disconnecting-wifi/",
+      "title": "What to do if your smart home devices keep disconnecting from Wi-Fi",
+      "summary": "Smart home devices usually won't work properly when they lose Wi-Fi signal, so it's frustrating when they keep disconnecting. Here's why it might be happening.",
+      "display_title": "راهنمای عارضه‌یابی و رفع مشکل قطع شدن مکرر اتصال وای‌فای در تجهیزات خانه هوشمند",
+      "display_summary": "قطع شدن مداوم اتصال تجهیزات خانه هوشمند به وای‌فای یکی از مشکلات رایج کاربران است که اغلب به دلیل محدودیت ظرفیت روتر، تداخل باندهای فرکانسی یا ضعف پوشش‌دهی رخ می‌دهد. با ارتقای تجهیزات شبکه، استفاده از پروتکل‌های جایگزین مانند ترد (Thread) و مدیریت صحیح دستگاه‌ها می‌توان پایداری شبکه خانگی را به شکل قابل‌توجهی افزایش داد.",
+      "message": "<b>📰 راهنمای عارضه‌یابی و رفع مشکل قطع شدن مکرر اتصال وای‌فای در تجهیزات خانه هوشمند</b>\n\nقطع شدن مداوم اتصال تجهیزات خانه هوشمند به وای‌فای یکی از مشکلات رایج کاربران است که اغلب به دلیل محدودیت ظرفیت روتر، تداخل باندهای فرکانسی یا ضعف پوشش‌دهی رخ می‌دهد. با ارتقای تجهیزات شبکه، استفاده از پروتکل‌های جایگزین مانند ترد (Thread) و مدیریت صحیح دستگاه‌ها می‌توان پایداری شبکه خانگی را به شکل قابل‌توجهی افزایش داد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>تجهیزات خانه هوشمند هنگامی که اتصال خود را با اینترنت یا شبکه محلی از دست می‌دهند، کارایی خود را از دست داده و برای کاربران به ابزارهایی کلافه‌کننده تبدیل می‌شوند. این مشکل که به دفعات برای دستگاه‌هایی نظیر لامپ‌های هوشمند، قفل‌ها و حسگرها رخ می‌دهد، دلایل فنی مشخصی دارد که با رعایت برخی نکات قابل حل است. یکی از اصلی‌ترین دلایل قطع ارتباط، رسیدن به سقف ظرفیت اتصال هم‌زمان در روترهای قدیمی است. روترهایی که از فناوری وای‌فای ۵ (Wi-Fi 5) استفاده می‌کنند، معمولاً تنها می‌توانند از ۱۰ تا ۲۵ دستگاه به‌صورت هم‌زمان پشتیبانی کنند. با افزایش تعداد گجت‌های هوشمند در خانه، روتر ناچار است برای باز کردن فضا، اتصال برخی تجهیزات جانبی را قطع کند. در همین راستا، کارشناسان توصیه می‌کنند کاربران در صورت استفاده از روترهای قدیمی، آن‌ها را به استانداردهای جدیدتر مانند وای‌فای ۶ (Wi-Fi 6) یا وای‌فای ۷ (Wi-Fi 7) ارتقا دهند. مسئله دیگر مربوط به باندهای فرکانسی است. بسیاری از تجهیزات ارزان‌قیمت خانه هوشمند تنها از باند ۲.۴ گیگاهرتز پشتیبانی می‌کنند. در شبکه‌های مش (Mesh Wi-Fi) که دارای یک نام شبکه (SSID) واحد هستند، سیستم هدایت خودکار باند ممکن است گوشی هوشمند کاربر را به باند ۵ یا ۶ گیگاهرتز منتقل کند و همین امر مانع از شناسایی تجهیزات جدید توسط اپلیکیشن‌ها می‌شود. برای رفع این چالش، تفکیک باندهای ۲.۴ و ۵ گیگاهرتز در تنظیمات روتر یا استفاده از سیستم‌های شبکه پیشرفته راهگشا خواهد بود. علاوه بر این، مشکلاتی در پلتفرم‌های مدیریتی مانند اپل هوم‌کیت (Apple HomeKit) گزارش شده است که گاهی با خطاهای عدم پاسخ‌دهی مواجه می‌شوند. استفاده از هاب‌های مرکزی متعدد نظیر اپل تی‌وی (Apple TV) یا هوم‌پاد (HomePod) می‌تواند پایداری ارتباط را تضمین کند. با این حال، بهترین راهکار برای کاهش بار روی شبکه وای‌فای، استفاده از پروتکل‌های ارتباطی جایگزین مانند ترد (Thread)، زیگبی (Zigbee) یا زد-ویو (Z-Wave) است. این فناوری‌ها بر پایه شبکه‌های مش عمل می‌کنند و به دلیل مصرف انرژی پایین، بار ترافیکی کمتری به شبکه تحمیل می‌کنند. پروتکل ترد (Thread) به دلیل‌پشتیبانی توسط برخی روترها و بلندگوهای هوشمند، گزینه‌ایحبوب برای اتصال تجهیزاتی نظیر لامپ‌ها و حسگرها به شمار می‌رود، هرچند برای انتقال داده‌های حجیم مانند ویدیو همچنان به وای‌فای نیاز است. در نهایت، اگرچه وابستگی کامل به وای‌فای در خانه هوشمند اجتناب‌ناپذیر است، اما با شناخت عوامل اختلال و به‌کارگیری استانداردهای نوین شبکه می‌توان تجربه‌ای پایدار و بدون قطعی را رقم زد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/what-to-do-if-your-smart-home-devices-keep-disconnecting-from-wi-fi/l-intro-1793217315.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:5954d4c61db301b78ed7d9dceed561404dd01ce8a538e2505aa6b7b628ecdb3f",
+      "url": "https://www.engadget.com/2303975/nagoshi-studio-from-the-creator-of-the-yakuza-series-officially-shuts-down/",
+      "title": "Nagoshi Studio, from the creator of the Yakuza series, officially shuts down",
+      "summary": "It's unclear what will happen to the studio's work on Gang of Dragon.",
+      "display_title": "استودیوی ناگوشی (Nagoshi Studio)، خالق مجموعه یاکوزا (Yakuza)، رسماً تعطیل شد",
+      "display_summary": "استودیوی بازی‌سازی ناگوشی (Nagoshi Studio) به مدیریت توشیهیرو ناگوشی (Toshihiro Nagoshi)، کمتر از یک سال پس از معرفی نخستین بازی خود به نام «گنگ آو دراگون» (Gang of Dragon)، رسماً اعلام انحلال کرد. این تصمیم پس از قطع حمایت مالی شرکت نت‌ایز (NetEase) و ناکامی در جذب سرمایه جدید اتخاذ شد و آینده پروژه یادشده را در هاله‌ای از ابهام قرار داد.",
+      "message": "<b>📰 استودیوی ناگوشی (Nagoshi Studio)، خالق مجموعه یاکوزا (Yakuza)، رسماً تعطیل شد</b>\n\nاستودیوی بازی‌سازی ناگوشی (Nagoshi Studio) به مدیریت توشیهیرو ناگوشی (Toshihiro Nagoshi)، کمتر از یک سال پس از معرفی نخستین بازی خود به نام «گنگ آو دراگون» (Gang of Dragon)، رسماً اعلام انحلال کرد. این تصمیم پس از قطع حمایت مالی شرکت نت‌ایز (NetEase) و ناکامی در جذب سرمایه جدید اتخاذ شد و آینده پروژه یادشده را در هاله‌ای از ابهام قرار داد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استودیوی بازی‌سازی ناگوشی (Nagoshi Studio) که توسط توشیهیرو ناگوشی (Toshihiro Nagoshi)، خالق نام‌آشنای مجموعه بازی‌های محبوب یاکوزا (Yakuza) تأسیس شده بود، پس از گذشت کمتر از یک سال از معرفی نخستین اثر خود، رسماً به فعالیت‌هایش پایان داد. بر اساس اطلاعات منتشر شده در روزنامه رسمی دولت ژاپن موسوم به «کانپو» (Kanpo)، این شرکت طی جلسه‌ای با سهام‌داران در تاریخ ۳۱ اکتبر منحل شده و اکنون روند قانونی انحلال و تسویه حساب دارایی‌ها و بدهی‌های خود را آغاز کرده است. توشیهیرو ناگوشی (Toshihiro Nagoshi) پس از سال‌ها موفقیت در خلق و توسعه مجموعه «یاکوزا» (Yakuza)، استودیوی شخصی خود را راه‌اندازی کرد و کار بر روی بازی جدیدی تحت عنوان «گنگ آو دراگون» (Gang of Dragon) را کلید زد. نخستین تریلر این بازی در دسامبر ۲۰۲۵ منتشر شد و توانست توجه علاقه‌مندان را به خود جلب کند. این اثر قرار بود روایتی تکامل‌یافته از دنیای جرم و جنایت سازمان‌یافته در محله کابوکی‌چو (Kabukicho) توکیو باشد که این بار با شخصیتی جدید به نام شین جی-سونگ (Shin Ji-Seong) و فضایی جدی‌تر دنبال می‌شد. با وجود هایپ و اشتیاق اولیه پیرامون این پروژه، گزارش‌های منتشر شده از سوی خبرگزاری بلومبرگ (Bloomberg) نشان می‌دهد که شرکت چینی نت‌ایز (NetEase) به عنوان یکی از حامیان مالی اصلی، تصمیم به قطع حمایت‌های مالی خود از این استودیو گرفت. برآوردها حاکی از آن بود که بازی «گنگ آو دراگون» (Gang of Dragon) برای تکمیل روند ساخت به بودجه‌ای بالغ بر ۴۴ میلیون دلار دیگر نیاز داشت و ناگوشی استودیو تلاش می‌کرد تا سرمایه‌گذاران جدیدی را برای اتمام پروژه پیدا کند. با این حال، ناکامی در تأمین مالی به موقع، سرنوشت تلخی را برای این استودیوی نوپا رقم زد. در حال حاضر، صفحه فروشگاه استیم (Steam) مربوط به بازی «گنگ آو دراگون» (Gang of Dragon) همچنان در دسترس است، اما با توجه به تعطیلی کامل استودیو، به نظر می‌رسد این پروژه در بن‌بست توسعه قرار گرفته و چشم‌انداز روشنی برای انتشار آن وجود ندارد. این رویداد ضربه سنگینی به یکی از چهره‌های باسابقه صنعت بازی‌های ویدئویی ژاپن وارد کرده است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/nagoshi-studio-from-the-creator-of-the-yakuza-series-officially-shuts-down/l-intro-1793635351.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:42fb204a43d0bc6a5939685c16310510201e042a51d0be6f13d4004d4d7ba004",
+      "url": "https://www.engadget.com/2303943/googles-ocarina-of-time-easter-egg-is-a-link-to-a-past-when-search-wasnt-horrible/",
+      "title": "Google's Ocarina of Time Easter egg is a link to a past when Search wasn't horrible",
+      "summary": "Turn the clock back to 1998, when the internet was a little more functional.",
+      "display_title": "ایستر اگ جدید گوگل (Google) به بهانه بازی زلدا (Zelda)؛ یادآور روزهای خوب و بدون تبلیغ جستجو",
+      "display_summary": "شرکت گوگل (Google) به مناسبت عرضه نسخه بازسازی‌شده بازی کلاسیک «افسانه زلدا: اوکارینای زمان» (The Legend of Zelda: Ocarina of Time)، یک ایستر اگ نوستالژیک در موتور جستجوی خود قرار داده است. این قابلیت جذاب، نتایج جستجو را شبیه به سال ۱۹۹۸ میلادی و دوران پیش از هجوم تبلیغات و قابلیت‌های هوش مصنوعی نمایش می‌دهد.",
+      "message": "<b>📰 ایستر اگ جدید گوگل (Google) به بهانه بازی زلدا (Zelda)؛ یادآور روزهای خوب و بدون تبلیغ جستجو</b>\n\nشرکت گوگل (Google) به مناسبت عرضه نسخه بازسازی‌شده بازی کلاسیک «افسانه زلدا: اوکارینای زمان» (The Legend of Zelda: Ocarina of Time)، یک ایستر اگ نوستالژیک در موتور جستجوی خود قرار داده است. این قابلیت جذاب، نتایج جستجو را شبیه به سال ۱۹۹۸ میلادی و دوران پیش از هجوم تبلیغات و قابلیت‌های هوش مصنوعی نمایش می‌دهد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) به مناسبت عرضه نسخه بازسازی‌شده بازی محبوب و کلاسیک «افسانه زلدا: اوکارینای زمان» (The Legend of Zelda: Ocarina of Time) از سوی شرکت نینتندو (Nintendo)، ایستر اگ (Easter egg) جذاب و سرگرم‌کننده‌ای را در موتور جستجوی خود فعال کرده است. این قابلیت به کاربران اجازه می‌دهد تا برای لحظاتی به گذشته سفر کنند و موتور جستجو را در قالب و شمایل اواخر دهه ۹۰ میلادی تجربه نمایند. بر اساس گزارش‌های منتشرشده، اگر کاربران عبارت‌هایی نظیر «زلدا» (Zelda) یا «اوکارینای زمان» (Ocarina of Time) را در گوگل (Google) جستجو کنند، انیمیشنی کوچک از شمشیر استادانه یا همان «مستر سود» (Master Sword) در گوشه صفحه ظاهر می‌شود. با کلیک یا ضربه زدن روی این آیکون، صفحه بارگذاری خاصی با نماد «ترای‌فورس» (Triforce) نمایش داده می‌شود و پس از آن، نتایج جستجو به‌طور کامل دگرگون می‌شود تا شبیه به سال ۱۹۹۸ — سال انتشار نسخه اصلی این بازی روی کنسول نینتندو ۶۴ (Nintendo 64) — به نظر برسد. در این صفحه بازسازی‌شده، نتایج جستجو شامل لینک‌های آبی‌رنگ کلاسیک به صفحات وب مرتبط همراه با گزیده‌های کوتاه از آن‌ها است؛ ساختاری ساده و کارآمد که دقیقاً نشان‌دهنده نحوه کارکرد موتورهای جستجو در گذشته است. دکمه معروف «من احساس خوش‌شانسی می‌کنم» (I&#x27;m Feeling Lucky) نیز که کاربران را مستقیماً به یک صفحه تصادفی هدایت می‌کند، در این صفحه دیده می‌شود. با این حال، این ایستر اگ فراتر از یک سرگرمی ساده عمل می‌کند. بسیاری از کارشناسان و کاربران اشاره می‌کنند که این طراحی نوستالژیک، ناخواسته یادآور دوران طلایی اینترنت پیش از اضافه شدن حجم انبوهی از تبلیغات تجاری، محتواهای پولی و قابلیت‌های مبتنی بر هوش مصنوعی نظیر «نمای کلی هوش مصنوعی» (AI Overviews) توسط گوگل (Google) است. در ماه‌های اخیر، تغییرات الگوریتمی و افزودن ابزارهای هوش مصنوعی به صفحه نتایج جستجو انتقادات فراوانی را به همراه داشته است. در پایان، هرچند این ایستر اگ تنها محدود به جستجوهای مرتبط با بازی زلدا (Zelda) است و سایر جستجوها را به صفحه مدرن و پر از تبلیغ گوگل (Google) بازمی‌گرداند، اما راهکارهایی مانند استفاده از تب «وب» (Web) در نتایج جستجو وجود دارد که به کاربران امکان می‌دهد تجربه‌ای سنتی‌تر و به‌دور از اضافات هوش مصنوعی داشته باشند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/googles-ocarina-of-time-easter-egg-is-a-link-to-a-past-when-search-wasnt-horrible/l-intro-1793634639.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:296bf34f95ec57761d5222eef73676c567ee5554ee050a80464ea7aaed3433d7",
+      "url": "https://techcrunch.com/2026/11/02/ninjas-first-ever-microwave-just-replaced-two-of-my-kitchen-appliances-at-once/",
+      "title": "Ninja’s first-ever microwave just replaced two of my kitchen appliances at once",
+      "summary": "The Ninja Crispi Microwave stands out for its FusionCrisp technology, which combines the speed of a microwave with the crispy results you'd expect from an air fryer.",
+      "display_title": "مایکروویو جدید شرکت نینجا جایگزین دو دستگاه در آشپزخانه شد",
+      "display_summary": "شرکت نینجا (Ninja) از نخستین مایکروویو ترکیبی خود مجهز به فناوری فیوژن‌کریسپ (FusionCrisp) رونمایی کرد که توانایی‌های مایکروویو و سرخ‌کن بدون روغن را در یک دستگاه گرد هم آورده است. این محصول جدید با هدف بازگرداندن تردی به غذاها و اشغال فضای کمتر روی پیشخوان طراحی شده است، اما با قیمت پایه ۴۴۹.۹۹ دلار عرضه می‌شود.",
+      "message": "<b>📰 مایکروویو جدید شرکت نینجا جایگزین دو دستگاه در آشپزخانه شد</b>\n\nشرکت نینجا (Ninja) از نخستین مایکروویو ترکیبی خود مجهز به فناوری فیوژن‌کریسپ (FusionCrisp) رونمایی کرد که توانایی‌های مایکروویو و سرخ‌کن بدون روغن را در یک دستگاه گرد هم آورده است. این محصول جدید با هدف بازگرداندن تردی به غذاها و اشغال فضای کمتر روی پیشخوان طراحی شده است، اما با قیمت پایه ۴۴۹.۹۹ دلار عرضه می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت نینجا (Ninja) با معرفی نخستین مایکروویو خود، گامی تازه در جهت ادغام لوازم خانگی برداشته است. دستگاه جدید که مایکروویو و سرخ‌کن بدون روغن نینجا کریِسپ (Ninja Crispi Microwave and Air Fryer) نام دارد، به گونه‌ای طراحی شده است که با ترکیب کردن دو دستگاه پرکاربرد در یک بدنه، به کاربران اجازه دهد فضای ارزشمند روی پیشخوان آشپزخانه خود را آزاد کنند و سرعت پخت‌وپز روزمره را افزایش دهند. این دستگاه با قیمت پایه ۴۴۹.۹۹ دلار (که در وب‌سایت آمازون (Amazon) با تخفیف به ۳۴۹.۹۹ دلار رسیده) گزینه‌ای اقتصادی محسوب نمی‌شود، اما قابلیت‌های ویژه‌ای را ارائه می‌دهد. شرکت نینجا (Ninja) در این محصول یک مایکروویو ۱۰۰۰ واتی را با یک سیستم سرخ‌کن بدون روغن ۱۷۰۰ واتی ترکیب کرده است. این عملکرد به لطف فناوری انحصاری فیوژن‌کریسپ (FusionCrisp) ممکن شده که سرعت بالای مایکروویو را با نتیجه ترد و طلایی سرخ‌کن‌های بدون روغن تلفیق می‌کند؛ قابلیتی که مانع از نرم و خمیری شدن غذاهایی مانند پیتزای مانده، ناگت مرغ و سیب‌زمینی سرخ‌کرده می‌شود. اگرچه ترکیب مایکروویو و سرخ‌کن پیش‌تر نیز توسط برندهایی نظیر اسمیگ (Smeg) بررسی شده بود، اما نوآوری اصلی شرکت نینجا (Ninja) در فناوری فیوژن‌کریسپ (FusionCrisp) و طراحی داخلی آن نهفته است. در این دستگاه خبری از سینی چرخان مرسوم نیست که همین امر فضای بیشتری برای پخت همزمان غذاها فراهم می‌کند. به عنوان مثال، کاربران می‌توانند برای پخت یک غذای پاستا، ابتدا پاستا را با مایکروویو بپزند و سپس پنیر روی آن را با سرخ‌کن برشته کنند. با این حال، پیش از خرید این دستگاه باید به ابعاد آن نیز توجه کرد. این مایکروویو با ابعاد ۲۰.۳ در ۱۷.۵۶ در ۱۴.۱ اینچ نسبتاً بزرگ است و فضای زیادی از پیشخوان را اشغال می‌کند؛ بنابراین شاید برای آشپزخانه‌های آپارتمانی کوچک چندان ایده‌آل نباشد. در مجموع، هرچند قیمت بالای آن ممکن است برای برخی خریداران چالش‌برانگیز باشد، اما برای افرادی که به‌طور مرتب از هر دو دستگاه مایکروویو و سرخ‌کن استفاده می‌کنند، این محصول ترکیبی کارآمد خواهد بود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/NinjaCrispi.png?w=800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:76806433a91ca3b1c08e3e4b3c174bd0242f0b6c97a5203d3bbabc7ac9ff2883",
+      "url": "https://www.engadget.com/2300344/phone-software-updates-unexpected-slow-down-effect/",
+      "title": "Why software updates may have an unexpected effect on your phone",
+      "summary": "Installing an update can make your phone run worse for a while, but this should be temporary in most cases.",
+      "display_title": "چرا به‌روزرسانی‌های نرم‌افزاری ممکن است تأثیر ناخواسته‌ای روی گوشی شما بگذارند؟",
+      "display_summary": "نصب به‌روزرسانی‌های نرم‌افزاری روی گوشی‌های هوشمند ممکن است موقتاً باعث کاهش سرعت، داغ شدن دستگاه و مصرف بیشتر باتری شود. این مشکلات معمولاً به دلیل فرآیندهای پس‌زمینه مانند فهرست‌بندی مجدد داده‌ها رخ می‌دهند و پس از مدتی به حالت عادی برمی‌گردند.",
+      "message": "<b>📰 چرا به‌روزرسانی‌های نرم‌افزاری ممکن است تأثیر ناخواسته‌ای روی گوشی شما بگذارند؟</b>\n\nنصب به‌روزرسانی‌های نرم‌افزاری روی گوشی‌های هوشمند ممکن است موقتاً باعث کاهش سرعت، داغ شدن دستگاه و مصرف بیشتر باتری شود. این مشکلات معمولاً به دلیل فرآیندهای پس‌زمینه مانند فهرست‌بندی مجدد داده‌ها رخ می‌دهند و پس از مدتی به حالت عادی برمی‌گردند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بسیاری از کاربران گوشی‌های هوشمند متوجه شده‌اند که پس از نصب یک به‌روزرسانی نرم‌افزاری، دستگاه آن‌ها رفتار عجیبی از خود نشان می‌دهد. انیمیشن‌ها ممکن است کند به نظر برسند، بدنه دستگاه کمی گرم شود و باتری با سرعت بیشتری تخلیه شود. از آنجایی که به‌روزرسانی‌ها معمولاً بهبودهای مهمی به همراه دارند، بروز این عوارض جانبی تناقض‌آمیز به نظر می‌رسد؛ پدیده‌ای که هم در گوشی‌های آیفون (iPhone) و هم در دستگاه‌های اندرویدی (Android) رخ می‌دهد. خبر خوب این است که این مشکلات عموماً موقتی هستند و بررسی علل و راه‌حل‌های آن‌ها می‌تواند به بهبود عملکرد دستگاه کمک کند. هنگامی که یک به‌روزرسانی سیستم‌عامل نصب می‌شود، سیستم فرآیندهای پس‌زمینه متعددی را اجرا می‌کند تا همه‌چیز در جای خود قرار گیرد. برای مثال، شرکت اپل (Apple) اعلام کرده است که ابزار اسپات‌لایت (Spotlight) پس از هر به‌روزرسانی، تمامی داده‌ها را مجدداً فهرست‌بندی (reindex) می‌کند. بسته به میزان داده‌های موجود روی دستگاه، این کار ممکن است ساعت‌ها یا حتی روزها طول بکشد. سیستم‌عامل اندروید (Android) نیز زمان مشابهی را برای این کار صرف می‌کند که فرآیندی حیاتی برای اطمینان از صحت اطلاعات و عدم گم شدن آن‌ها است. این فرآیند فهرست‌بندی باعث افزایش ناگهانی مصرف پردازنده مرکزی (CPU) و پردازنده گرافیکی (GPU) می‌شود، به این معنی که منابع سخت‌افزاری کمتری برای اجرای برنامه‌ها و انیمیشن‌های سیستمی باقی می‌ماند. پس از اتمام این فرآیند، گوشی باید به حالت عادی بازگردد. گوشی‌های قدیمی‌تر ممکن است بیشتر تحت تأثیر این فرآیندها قرار گیرند. دستگاه‌های جدیدتر به تراشه‌های قدرتمندتر و بهینه‌تری مجهز هستند، بنابراین کاربران ممکن است تغییر محسوسی پس از نصب به‌روزرسانی احساس نکنند. دلیل دوم کند شدن دستگاه این است که به‌روزرسانی‌های بزرگ معمولاً برای جدیدترین سخت‌افزارها طراحی می‌شوند. حتی با وجود بهینه‌سازی‌ها، سخت‌افزارهای قدیمی ممکن است به اندازه کافی قدرتمند نباشند تا از پس برنامه‌ها، قابلیت‌ها و انیمیشن‌های پیچیده‌تر نسخه جدید سیستم‌عامل برآیند. این موضوع می‌تواند عملکرد گوشی را کاهش دهد و متأسفانه در چنین مواردی کار زیادی از دست کاربر ساخته نیست. با این حال، راهکارهایی برای مقابله با کندی موقت وجود دارد. بهترین استراتژی این است که صبور باشید و اجازه دهید دستگاه به کار خود ادامه دهد. اتصال گوشی به شارژر و شبکه وای‌فای (Wi-Fi) پس از به‌روزرسانی به اتمام سریع‌تر این فرآیند کمک می‌کند، زیرا بخش عمده‌ای از فهرست‌بندی تنها زمانی تکمیل می‌شود که گوشی به برق متصل بوده و در حال استفاده نباشد. شرکت سونی (Sony) نیز اعلام کرده است که فرآیند فهرست‌بندی پس از به‌روزرسانی معمولاً بیش از دو روز طول نمی‌کشد. اگر پس از گذشت مدتی گوشی همچنان کند است، راه‌اندازی مجدد (Reboot) یا ری‌استارت کردن می‌تواند مفید باشد. همچنین اطمینان حاصل کنید که برنامه‌های شما به‌روز هستند، زیرا نسخه‌های قدیمی ممکن است با نرم‌افزار جدید سازگار نباشند. آزادسازی فضای ذخیره‌سازی، بررسی سلامت باتری در تنظیمات گوشی و در نهایت بازگشت به تنظیمات کارخانه (Factory Reset) از دیگر راه‌حل‌های پیشنهادی برای بهبود عملکرد دستگاه هستند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/why-software-updates-may-have-an-unexpected-effect-on-your-phone/l-intro-1792415252.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:3e83c93cde50530285ec6fe88783ab3ff1e3d3d80cbabaec6b1e0340559d52ba",
+      "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+      "display_title": "دو روز تا برگزاری نشست بنیان‌گذاران تک‌کرانچ در بوستون؛ اثبات توانایی توسعه کسب‌وکار خارج از سیلیکون‌ولی",
+      "display_summary": "نشست سالانه بنیان‌گذاران تک‌کرانچ (TechCrunch Founder Summit) با تمرکز بر توانمندسازی کارآفرینان و توسعه استارت‌آپ‌ها در بوستون برگزار می‌شود. این رویداد فرصتی است تا بنیان‌گذاران بدون نیاز به حضور در سیلیکون‌ولی، راهکارهای مقیاس‌پذیری و ارتباطات کلیدی را بررسی کنند.",
+      "message": "<b>📰 دو روز تا برگزاری نشست بنیان‌گذاران تک‌کرانچ در بوستون؛ اثبات توانایی توسعه کسب‌وکار خارج از سیلیکون‌ولی</b>\n\nنشست سالانه بنیان‌گذاران تک‌کرانچ (TechCrunch Founder Summit) با تمرکز بر توانمندسازی کارآفرینان و توسعه استارت‌آپ‌ها در بوستون برگزار می‌شود. این رویداد فرصتی است تا بنیان‌گذاران بدون نیاز به حضور در سیلیکون‌ولی، راهکارهای مقیاس‌پذیری و ارتباطات کلیدی را بررسی کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>تنها دو روز تا برگزاری رویداد بزرگ نشست بنیان‌گذاران تک‌کرانچ (TechCrunch Founder Summit) باقی مانده است. این نشست که با حمایت شرکت فیدلیتی پرایویت شرز (Fidelity Private Shares) در نیروگاه سُووا (SoWa Power Station) برگزار می‌شود، میزبان بنیان‌گذاران، سرمایه‌گذاران و مدیران اجرایی است تا درباره چگونگی ساخت و توسعه شرکت‌ها از بوستون و فراتر از آن گفتگو کنند. هدف اصلی این رویداد، ایجاد ارتباطات معنادار میان کارآفرینان، ارائه بینش‌های کاربردی و طرح موضوعاتی است که به رشد استارت‌آپ‌ها کمک می‌کند. در این میان، استیو فرودت (Steve Fredette)، رئیس و هم‌بنیان‌گذار شرکت توست (Toast)، یکی از الهام‌بخش‌ترین داستان‌های موفقیت بوستون را روی صحنه خواهد آورد. مسیر رشد توست نشان می‌دهد که برای ساختن یک کسب‌وکار با مقیاس ملی و جهانی، نیازی به ترک بوستون نیست. همچنین چیس گاربارینو (Chase Garbarino)، مدیرعامل و هم‌بنیان‌گذار شرکت اچ‌کیو‌او (HqO)، درباره واقعیت‌ها، مزایا و معایب ساخت استارت‌آپ در خارج از قطب‌های سنتی ساحل غربی صحبت خواهد کرد. این رویداد علاوه بر سخنرانی‌ها، شامل برنامه‌های شبکه‌سازی، میزگردهای تخصصی با حضور سرمایه‌گذاران خطرپذیر (VCs) و رویدادهای جانبی است تا جامعه فناوری بوستون انسجام بیشتری پیدا کند. در پایان، این رویداد بار دیگر ثابت کرد که اکوسیستم‌های نوآوری قوی در سرتاسر ایالات متحده آمریکا در حال شکوفایی هستند و کارآفرینان می‌توانند در هر شهری به موفقیت‌های بزرگ دست یابند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/Early-Stage-2024-audience.jpg?resize=1200,800",
       "status": "sent",
       "rubika_status": "pending"
     }
   ],
   "pending_news": [
-    {
-      "item_id": "a02d72306f0d24be82096182922d4d8a2e72904c3e97b7d03d822b75f454d2ee",
-      "title": "This Samsung Galaxy problem sadly still exists in 2026, but you can easily fix it",
-      "url": "https://www.engadget.com/2300355/samsung-galaxy-phones-bloatware-problem-easy-fix/",
-      "summary": "Your premium Samsung Galaxy phone likely has a bunch of preinstalled software you don't want that just takes up space.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/this-samsung-galaxy-problem-sadly-still-exists-in-2026-but-you-can-easily-fix-it/l-intro-1792419029.jpg",
-      "published_at": "2026-11-02T17:45:00+00:00",
-      "categories": [
-        "Samsung"
-      ]
-    },
-    {
-      "item_id": "f8c67ddfa68a94533462ec12c8946d98a962bf4877b89f3ec21dd8b3e3e84c35",
-      "title": "Gemini could be poking through your emails - here's how to stop it",
-      "url": "https://www.engadget.com/2300353/google-gemini-poking-through-email-how-to-stop/",
-      "summary": "Gemini can read your emails, summarize them and draft replies. If you'd rather it didn't, here's what Google actually does with your data and how to opt out.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/gemini-could-be-poking-through-your-emails-heres-how-to-stop-it/l-intro-1793097394.jpg",
-      "published_at": "2026-11-02T17:15:00+00:00",
-      "categories": [
-        "Google"
-      ]
-    },
-    {
-      "item_id": "9c7329387a1b225733aff0c04cca94b78ab5d067db0d5a31aeb55aee1cf19c09",
-      "title": "One annoying problem with the iPhone Messages app has an easy fix",
-      "url": "https://www.engadget.com/2300351/one-problem-iphone-messages-additional-options-easy-fix/",
-      "summary": "Apple's iMessage app offers a lot of useful features and several default apps included in its latest update. However, they may be in an order you dislike.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/one-annoying-problem-with-the-iphone-messages-app-has-an-easy-fix/l-intro-1793114293.jpg",
-      "published_at": "2026-11-02T16:45:00+00:00",
-      "categories": [
-        "Apple"
-      ]
-    },
-    {
-      "item_id": "b61de19850db2fb95834de6a5ddb50e40ca1e8ae7a15c542b6c82f6a409a8c70",
-      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
-      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3572.jpeg?resize=1200,895",
-      "published_at": "2026-11-02T16:30:00+00:00",
-      "categories": [
-        "AI",
-        "Startups",
-        "behavioral analysis",
-        "Exclusive",
-        "predictive analytics",
-        "world models"
-      ]
-    },
-    {
-      "item_id": "287c535773ead49f4c41c065c0d9231c69f8660c5e1c29a675b9867767a80afd",
-      "title": "What to do if your smart home devices keep disconnecting from Wi-Fi",
-      "url": "https://www.engadget.com/2300349/smart-home-devices-disconnecting-wifi/",
-      "summary": "Smart home devices usually won't work properly when they lose Wi-Fi signal, so it's frustrating when they keep disconnecting. Here's why it might be happening.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/what-to-do-if-your-smart-home-devices-keep-disconnecting-from-wi-fi/l-intro-1793217315.jpg",
-      "published_at": "2026-11-02T16:15:00+00:00",
-      "categories": [
-        "Computing"
-      ]
-    },
-    {
-      "item_id": "5954d4c61db301b78ed7d9dceed561404dd01ce8a538e2505aa6b7b628ecdb3f",
-      "title": "Nagoshi Studio, from the creator of the Yakuza series, officially shuts down",
-      "url": "https://www.engadget.com/2303975/nagoshi-studio-from-the-creator-of-the-yakuza-series-officially-shuts-down/",
-      "summary": "It's unclear what will happen to the studio's work on Gang of Dragon.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/nagoshi-studio-from-the-creator-of-the-yakuza-series-officially-shuts-down/l-intro-1793635351.jpg",
-      "published_at": "2026-11-02T16:03:12+00:00",
-      "categories": [
-        "Gaming"
-      ]
-    },
-    {
-      "item_id": "42fb204a43d0bc6a5939685c16310510201e042a51d0be6f13d4004d4d7ba004",
-      "title": "Google's Ocarina of Time Easter egg is a link to a past when Search wasn't horrible",
-      "url": "https://www.engadget.com/2303943/googles-ocarina-of-time-easter-egg-is-a-link-to-a-past-when-search-wasnt-horrible/",
-      "summary": "Turn the clock back to 1998, when the internet was a little more functional.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/googles-ocarina-of-time-easter-egg-is-a-link-to-a-past-when-search-wasnt-horrible/l-intro-1793634639.jpg",
-      "published_at": "2026-11-02T15:51:36+00:00",
-      "categories": [
-        "Gaming",
-        "Google"
-      ]
-    },
-    {
-      "item_id": "f63de007004168a62064d821761d7b25f6e8b6ff0c1c1720c6e8c9a160cce96e",
-      "title": "The Fitbit Edge lacks a useful contactless feature",
-      "url": "https://www.engadget.com/2300348/why-fitbit-edge-lacks-nfc-contactless-payment-feature/",
-      "summary": "It's handy, but most people likely won't miss it.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-fitbit-edge-lacks-a-useful-contactless-feature/l-intro-1792612257.jpg",
-      "published_at": "2026-11-02T15:45:00+00:00",
-      "categories": [
-        "Google",
-        "Wearables"
-      ]
-    },
-    {
-      "item_id": "3db29731560278b44a98f66313a839b855c5a9847eadc3b2c4c2689354b31479",
-      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/DSCF1932.jpg?resize=1200,800",
-      "published_at": "2026-11-02T15:00:00+00:00",
-      "categories": [
-        "AI",
-        "Startups",
-        "data centers",
-        "Exclusive",
-        "infrastructure",
-        "Mergers and Acquisitions",
-        "omen ai"
-      ]
-    },
     {
       "item_id": "83da5af7e1b53b8e139e81840c91dc8bcbfd262337eb78297c6459a7134baf16",
       "title": "Why it's important to use a microSD Express card with your Nintendo Switch 2",
@@ -10396,274 +10513,47 @@
       ]
     },
     {
-      "item_id": "14759c89d044d323f1d7f8c1d8464c3f6e45aa21578f1f32cf5849f54d5f4c96",
-      "title": "Ninja’s first-ever microwave just replaced two of my kitchen appliances at once",
-      "url": "https://techcrunch.com/2026/11/02/ninjas-first-ever-microwave-just-replaced-two-of-my-kitchen-appliances-at-once/",
-      "summary": "The Ninja Crispi Microwave stands out for its FusionCrisp technology, which combines the speed of a microwave with the crispy results you'd expect from an air fryer.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/NinjaCrispi.png?w=800",
-      "published_at": "2026-11-02T14:42:38+00:00",
-      "categories": [
-        "Hardware",
-        "kitchen appliances",
-        "Ninja"
-      ]
-    },
-    {
-      "item_id": "76806433a91ca3b1c08e3e4b3c174bd0242f0b6c97a5203d3bbabc7ac9ff2883",
-      "title": "Why software updates may have an unexpected effect on your phone",
-      "url": "https://www.engadget.com/2300344/phone-software-updates-unexpected-slow-down-effect/",
-      "summary": "Installing an update can make your phone run worse for a while, but this should be temporary in most cases.",
+      "item_id": "bb7dd4a17df089bc443577d486224e6b3aba63f7b1df022a96c9317f377513b0",
+      "title": "Apple's latest watchOS 27 beta enables Siri Recap and Live Rewind audio features",
+      "url": "https://www.engadget.com/2304993/apples-latest-watchos-27-beta-enables-siri-recap-and-live-rewind-audio-features/",
+      "summary": "First revealed at the company's event in September, Apple's AI-powered Apple Watch features are finally landing in beta.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/why-software-updates-may-have-an-unexpected-effect-on-your-phone/l-intro-1792415252.jpg",
-      "published_at": "2026-11-02T14:15:00+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/apples-latest-watchos-27-beta-enables-siri-recap-and-live-rewind-audio-features/l-intro-1793697908.jpg",
+      "published_at": "2026-11-03T09:21:36+00:00",
       "categories": [
-        "Smartphones"
+        "Wearables"
       ]
     },
     {
-      "item_id": "de75e98d4879b9b04b7244b8976645aa25fcf2734e9165ec52ae0fd5c4fe029c",
-      "title": "A fresh wave of cyberattacks has hit Europe’s supermarket refrigerators, destroying food across countries",
-      "url": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
-      "summary": "This is the second wave of cyberattacks to hit supermarket refrigerators in a month, spoiling food and disrupting supplies.",
+      "item_id": "e644d6873068f5d9798f13d4c6a4b261f49dd5a318ba845c517011b30075ae85",
+      "title": "Yvonne Bajela is bringing $17M in fresh capital to Europe’s startup scene",
+      "url": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/",
+      "summary": "Evertrue Capital announces $17M debut fund to back early stage AI and fintech.",
       "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/supermarket-freezer-hack-2299514106.jpg?resize=1200,800",
-      "published_at": "2026-11-02T14:08:52+00:00",
+      "image_url": "",
+      "published_at": "2026-11-03T08:01:00+00:00",
       "categories": [
-        "Security",
-        "cyberattack",
-        "cybersecurity",
-        "food supply",
-        "In Brief"
-      ]
-    },
-    {
-      "item_id": "c479b653bf01a2274cab8975143386b213fe3dc381b618687fd9175c4f261d7d",
-      "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
-      "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
-      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/Early-Stage-2024-audience.jpg?resize=1200,800",
-      "published_at": "2026-11-02T14:00:00+00:00",
-      "categories": [
-        "TC",
-        "Startups",
-        "Climate",
-        "Fintech",
-        "Biotech & Health",
         "Venture",
-        "AI",
-        "Robotics",
-        "TechCrunch Founder Summit 2026"
+        "UK"
       ]
     },
     {
-      "item_id": "01f244634f67b622e6223748c5912c03305f528281c888821fb507bd51b01cce",
-      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
-      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "item_id": "37461a3238292c04c3cc6060ab0bb56d3f4b11ddc0a80849780fc774e79253ef",
+      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
       "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
-      "published_at": "2026-11-02T13:57:53+00:00",
+      "image_url": "",
+      "published_at": "2026-11-03T07:20:00+00:00",
       "categories": [
         "AI",
         "Apps",
-        "ChatGPT",
-        "In Brief",
-        "OpenAI"
-      ]
-    },
-    {
-      "item_id": "65bac0f7b073d7ecf06ea32e57d52c3023daf0cdefe0bc0449122a40c428b071",
-      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
-      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-03T01:49:52+00:00",
-      "categories": [
-        "TC",
-        "AI",
-        "Apple",
-        "earnings"
-      ]
-    },
-    {
-      "item_id": "af7d655c34046fec527359aed1d0735781dd3e16f9536ab10a13e7ac4f401c66",
-      "title": "This Chinese Android phone brand has launched a Harry Potter collab",
-      "url": "https://www.engadget.com/2300381/chinese-android-phone-brand-realme-harry-potter-collaboration/",
-      "summary": "Everything about this latest collectible Android phone is designed to evoke the popular franchise, from its magical packaging to its themed accessories.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/this-chinese-android-phone-brand-has-launched-a-harry-potter-collab/l-intro-1793118869.jpg",
-      "published_at": "2026-11-03T01:30:00+00:00",
-      "categories": [
-        "Smartphones"
-      ]
-    },
-    {
-      "item_id": "03fc24897cb6fd52172ecb2ca40ee85a0d2b1cd60d541523a1924dd7193aa87c",
-      "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
-      "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
-      "summary": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals could make the victory short-lived.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-03T01:12:55+00:00",
-      "categories": [
-        "Hardware",
-        "TC"
-      ]
-    },
-    {
-      "item_id": "572a27da1f2897f80212467979839e6a9322b1942591c1a52321977f9c8431e8",
-      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-03T00:35:52+00:00",
-      "categories": [
-        "AI",
-        "Startups",
-        "garry tan",
-        "Y Combinator"
-      ]
-    },
-    {
-      "item_id": "4e0ed8852ebd1d9e2777adfd92b5391290ed06f63c8135922f2a44185c8ae0eb",
-      "title": "Is it actually safe to charge your iPhone at airport USB ports?",
-      "url": "https://www.engadget.com/2279347/is-it-safe-to-charge-phone-with-airport-usb-port/",
-      "summary": "Using a random USB charger can be unsafe, even though the risk is minimal. Thankfully, you have ways to protect your devices.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/is-it-actually-safe-to-charge-your-iphone-at-airport-usb-ports/l-intro-1791316236.jpg",
-      "published_at": "2026-11-03T00:30:00+00:00",
-      "categories": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "item_id": "babec4f381c3962463fcd0b2ca3d1ed4f3ae0e666b9057cd7915734cd75b976c",
-      "title": "Hinge tests a cheaper plan as users become more fed up paying for dating apps",
-      "url": "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
-      "summary": "At a time when people are increasingly tired of dating apps, Hinge is testing a cheaper subscription plan.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-03T00:14:51+00:00",
-      "categories": [
-        "Apps",
-        "Social",
-        "dating apps",
-        "Hinge",
-        "Match Group"
-      ]
-    },
-    {
-      "item_id": "f548b6df676cbb37998f6fbb75731c323cb1dd44d979c48541c4d5af6d5cd4c7",
-      "title": "The reason why some iPhone calls don't have a decline option, and others do",
-      "url": "https://www.engadget.com/2300377/some-iphone-calls-decline-option-reason-why/",
-      "summary": "Sometimes your iPhone lets you decline a call and sometimes it doesn't. Here's why that happens, and a few easy ways to handle the calls you'd rather skip.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-reason-why-some-iphone-calls-dont-have-a-decline-option-and-others-do/l-intro-1793218638.jpg",
-      "published_at": "2026-11-03T00:00:00+00:00",
-      "categories": [
-        "Apple"
-      ]
-    },
-    {
-      "item_id": "4e06215f9720bd3b05caf978cc31301fc258bb655b7217e29dcf265ee3f72575",
-      "title": "Why it's important to never plug power strips into each other",
-      "url": "https://www.engadget.com/2300370/why-important-never-plug-power-strip-each-other/",
-      "summary": "Power strips are lifesavers when you don't have enough outlets to power all of your electronics and some also offer protection from power surges.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/why-its-important-to-never-plug-power-strips-into-each-other/l-intro-1792782959.jpg",
-      "published_at": "2026-11-02T23:30:00+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
-      "item_id": "6b1a6a307980fbf980f0da3364f0e865a36fc39597c67fdf7c09633255839b62",
-      "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
-      "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
-      "summary": "Apple says iPhone Duo production is ramping up, but it still can't say when supply will catch up with demand as shipping delays stretch into next year.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-02T23:25:32+00:00",
-      "categories": [
-        "TC",
         "Hardware",
         "Apple",
-        "iPhone"
-      ]
-    },
-    {
-      "item_id": "438f7b68b6e841c1c61045d65fa3cea68cf080d5babefab576c6fd3e895130c1",
-      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
-      "summary": "The one-year-old startup is now valued at $300 million.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-02T23:13:53+00:00",
-      "categories": [
-        "AI",
-        "Fundraising",
-        "Startups",
-        "Venture",
-        "fine-tuning",
-        "Sequoia"
-      ]
-    },
-    {
-      "item_id": "ec98694e3417d4084aeb7f813e7ed23d2b20772520394de25b58800b60e0b15d",
-      "title": "Apple’s inventory surges 154% as memory chip costs climb",
-      "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
-      "summary": "Apple says unprecedented memory chip costs will continue to rise, raising questions about future device prices as its inventory climbs to $14.5 billion.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-02T23:04:57+00:00",
-      "categories": [
-        "Hardware",
-        "Apple"
-      ]
-    },
-    {
-      "item_id": "8b17dc98acd89555014b01bf7f5efab34f373e91fff3172f4a7359e9d73fb62b",
-      "title": "How to use your phone's camera to translate anything",
-      "url": "https://www.engadget.com/2300368/how-to-use-phone-camera-built-in-translation-feature-google/",
-      "summary": "With the aid of a quick picture, you can use your phone's camera to translate pretty much any text while you're traveling across the globe.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-to-use-your-phones-camera-to-translate-anything/l-intro-1792778533.jpg",
-      "published_at": "2026-11-02T23:00:00+00:00",
-      "categories": [
-        "Big Tech"
-      ]
-    },
-    {
-      "item_id": "05d4bed05280ccdc6cd3697226cedfae3d1b579edbaffd02f25ab103d82852c8",
-      "title": "Apple is ‘not able to predict’ when it&#8217;ll have enough iPhone Duos to go around",
-      "url": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints",
-      "summary": "Apple CEO John Ternus doesn't have a timeline for when iPhone Duo supply constraints could lift. During an interview with Reuters, Ternus said the company is \"working hard to get it to as many customers as quickly as possible, but at this &#8203;point, we're not able to predict when supply and demand will be in [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1378.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-02T22:56:11+00:00",
-      "categories": [
-        "Apple",
-        "Foldable Phones",
-        "iPhone",
-        "Mobile",
-        "News",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "dfdba4fa4cd7113ee6d9a147f3449eeff70c99d8c0c58cd2d4b7367ae1b156b4",
-      "title": "How long could HDDs and SSDs remain expensive?",
-      "url": "https://www.engadget.com/2302215/how-long-hdd-ssd-stay-expensive/",
-      "summary": "Thanks to shortages of microchips and other computer components, we've been experiencing high prices for years.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-long-could-hdds-and-ssds-remain-expensive/l-intro-1793370181.jpg",
-      "published_at": "2026-11-02T21:00:00+00:00",
-      "categories": [
-        "Computing"
+        "Apple Intelligence",
+        "Apple Watch",
+        "audio",
+        "iOS"
       ]
     }
   ]
