@@ -3484,7 +3484,17 @@
     "b6bfab50d66d69a0b58e05a1f29322710429e962bf5a7d3d864b19c676c37adf",
     "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
     "365eac885d52ca46e7b7df116d1b4f46f8adf2a6b814ea81e90f6bd121c928f9",
-    "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/"
+    "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+    "28551cdae75c63aedbf7993751e360d040d84e4d378d862c596bbba3bb65e544",
+    "4e30ad93be788e25637c5563db7635330492f0c3f9057820025390f650fb8192",
+    "9953ec2616ae9984d2e0897d795f2fa0879382ed3d53191855d00e864c923c1a",
+    "9dcdd9831bd0be61f0eed634e712677e6ca9048f21614d627454c95d5da03be6",
+    "af4088a5f54f8c7f48725c0dce852be21089271d6286cfd958bf3d2cb02c0962",
+    "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+    "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
+    "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi",
+    "https://www.theverge.com/tech/1026570/apple-macbook-pro-proled-xdr-display-review",
+    "https://www.theverge.com/tech/1027426/nasa-experimental-x-70-fractal-aircraft"
   ],
   "published_stories": [
     {
@@ -11333,50 +11343,50 @@
     {
       "key": "url:bd044bc53c19f14dcbd41f3ba93999dccade4ddff8d1afe30da0d2a797797546",
       "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "title": "OpenAI is already trying to shape the 2028 election",
-      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
-      "display_title": "تلاش زودهنگام اوپن‌ای‌آی برای شکل‌دهی به انتخابات ریاست‌جمهوری ۲۰۲۸",
-      "display_summary": "مدیر ارشد امور جهانی شرکت اوپن‌ای‌آی (OpenAI) مقاله‌ای منتشر کرده و با مقایسه تاثیر هوش مصنوعی با طرح «نیو دیل» (New Deal)، خواستار تدوین سیاست‌های جدیدی برای همگرایی منافع عمومی و اهداف تجاری این صنعت در آستانه انتخابات ۲۰۲۸ شده است. با این حال، منتقدان این پیشنهادها را ابزاری برای تثبیت قدرت شرکت‌های بزرگ و فرار از مسئولیت‌های قانونی می‌دانند.",
       "message": "<b>📰 تلاش زودهنگام اوپن‌ای‌آی برای شکل‌دهی به انتخابات ریاست‌جمهوری ۲۰۲۸</b>\n\nمدیر ارشد امور جهانی شرکت اوپن‌ای‌آی (OpenAI) مقاله‌ای منتشر کرده و با مقایسه تاثیر هوش مصنوعی با طرح «نیو دیل» (New Deal)، خواستار تدوین سیاست‌های جدیدی برای همگرایی منافع عمومی و اهداف تجاری این صنعت در آستانه انتخابات ۲۰۲۸ شده است. با این حال، منتقدان این پیشنهادها را ابزاری برای تثبیت قدرت شرکت‌های بزرگ و فرار از مسئولیت‌های قانونی می‌دانند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اوپن‌ای‌آی (OpenAI) از هم‌اکنون به دنبال تاثیرگذاری بر فضای سیاسی و اقتصادی منتهی به انتخابات ریاست‌جمهوری سال ۲۰۲۸ آمریکا است. «کریس لِهان» (Chris Lehane)، مدیر ارشد امور جهانی اوپن‌ای‌آی، در مقاله جدیدی استدلال کرده است که انتخابات آینده می‌تواند نقطه عطفی سرنوشت‌ساز برای فناوری هوش مصنوعی باشد و سیاستمداران باید به جای مخالفت‌های سطحی با فناوری یا مراکز داده، به دغدغه‌های واقعی شهروندان رسیدگی کنند. «لِهان» در این مقاله، تحولات ناشی از هوش مصنوعی را با برنامه «نیو دیل» (New Deal) - مجموعه برنامه‌های فدرال «فرانکلین دلانو روزولت» (Franklin D. Roosevelt) در دهه ۱۹۳۰ برای عبور از بحران اقتصادی بزرگ - مقایسه کرده است. او هشدار می‌دهد که امروزه نیز شهروندان آمریکایی نسبت به آینده اقتصادی خود نگرانند و سیاستمداران باید «مسیر سومی» را بیابند که به مردم اجازه دهد از مزایای هوش مصنوعی بهره‌مند شوند. او پنج اولویت سیاستی از جمله حفاظت از کارگران، آموزش، ایمنی هوش مصنوعی و توسعه زیرساخت مراکز داده را پیشنهاد کرده است. این مقاله پس از پیروزی دموکرات‌ها در انتخابات میان‌دوره‌ای کنگره منتشر شده است؛ انتخاباتی که در آن رای‌دهندگان به شدت نگران هزینه‌های زندگی بودند. «کیت برنان» (Kate Brennan)، از موسسه «آی‌ناو» (AI Now Institute)، معتقد است که رویکرد جدید اوپن‌ای‌آی تغییر محسوسی نسبت به سال گذشته نشان می‌دهد که تمرکز آن صرفاً بر شتاب‌دهی توسعه و رفع موانع مقرراتی بود. بسیاری از پیشنهادهای مطرح شده توسط «لِهان» در راستای تشویق پذیرش گسترده‌تر هوش مصنوعی و حمایت از گسترش زیرساخت‌های مورد نیاز شرکت‌هایی مانند اوپن‌ای‌آی است. منتقدان بر این باورند که استعاره «نیو دیل» برای اهداف شرکت‌های خصوصی مناسب نیست، زیرا طرح اصلی دولت آمریکا برای مهار قدرت شرکت‌های بزرگ و حمایت از کارگران طراحی شده بود، در حالی که پیشنهادهای فعلی راهکاری ملموس برای جلوگیری از انباشت ثروت در دست معدودی از شرکت‌های ثروتمند ارائه نمی‌دهند. «برنان» اشاره می‌کند که این سیاست‌ها پیش‌فرض را بر پذیرش توده‌ای هوش مصنوعی می‌گذارند بدون اینکه خسارات احتمالی ناشی از جابجایی شغلی کارگران را جبران کنند. با این حال، «لِهان» موضوعاتی همچون ایمنی کودکان، آموزش و استانداردهای قابل اجرای ایمنی شامل ارزیابی‌های مستقل و مکانیسم‌های توقف اضطراب‌آور (Kill Switch) را نیز در دستور کار پیشنهادی خود قرار داده است. با این وجود، منتقدان سابقه اوپن‌ای‌آی در مخالفت با قوانین ایمنی ایالتی مانند لایحه «اس‌بی ۱۰۴۷» (SB 1047) کالیفرنیا را یادآور شده و این مواضع را تناقض‌آمیز می‌دانند. در مجموع، در حالی که اوپن‌ای‌آی تلاش می‌کند خود را به عنوان پیشران رفاه و عاملیت اقتصادی میان‌طبقه معرفی کند، کارشناسان نگرانند که این سیاست‌ها بیش از آنکه قدرت را میان جامعه توزیع کند، به تثبیت جایگاه شرکت‌های بزرگ فناوری منجر شود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+      "display_title": "تلاش زودهنگام اوپن‌ای‌آی برای شکل‌دهی به انتخابات ریاست‌جمهوری ۲۰۲۸",
+      "display_summary": "مدیر ارشد امور جهانی شرکت اوپن‌ای‌آی (OpenAI) مقاله‌ای منتشر کرده و با مقایسه تاثیر هوش مصنوعی با طرح «نیو دیل» (New Deal)، خواستار تدوین سیاست‌های جدیدی برای همگرایی منافع عمومی و اهداف تجاری این صنعت در آستانه انتخابات ۲۰۲۸ شده است. با این حال، منتقدان این پیشنهادها را ابزاری برای تثبیت قدرت شرکت‌های بزرگ و فرار از مسئولیت‌های قانونی می‌دانند."
     },
     {
       "key": "url:b8f71cf239fbbddb6bf373f724b7ab68580149541c554482db0051d96e08639f",
       "url": "https://techcrunch.com/2026/11/04/hackers-stole-dreamhost-customer-files-and-inboxes-during-months-long-attack/",
-      "title": "Hackers stole DreamHost customer files and inboxes during months-long attack",
-      "summary": "The web host said hackers exploited a vulnerability to access customer emails and files during a \"deliberate attack.\"",
-      "display_title": "هکرها در جریان یک حمله چندماهه به فایل‌ها و صندوق‌های ایمیل مشتریان شرکت دریم‌هاست (DreamHost) دستبرد زدند",
-      "display_summary": "شرکت میزبانی وب دریم‌هاست (DreamHost) تایید کرد که هکرها در جریان یک حمله سایبری چندماهه توانسته‌اند به ایمیل‌ها، توکن‌های نشست و فایل‌های مشتریان دسترسی پیدا کنند. این نفوذ که از ماه اوت آغاز شده بود، پس از قطعی چند روزه خدمات این شرکت و بازنشانی رمزهای عبور افشا شد.",
       "message": "<b>📰 هکرها در جریان یک حمله چندماهه به فایل‌ها و صندوق‌های ایمیل مشتریان شرکت دریم‌هاست (DreamHost) دستبرد زدند</b>\n\nشرکت میزبانی وب دریم‌هاست (DreamHost) تایید کرد که هکرها در جریان یک حمله سایبری چندماهه توانسته‌اند به ایمیل‌ها، توکن‌های نشست و فایل‌های مشتریان دسترسی پیدا کنند. این نفوذ که از ماه اوت آغاز شده بود، پس از قطعی چند روزه خدمات این شرکت و بازنشانی رمزهای عبور افشا شد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت میزبانی وب دریم‌هاست (DreamHost) تایید کرد که هکرها موفق شده‌اند طی یک حمله سایبری چندماهه، به ایمیل‌ها، اطلاعات حساب و فایل‌های مشتریان این شرکت دسترسی پیدا کنند و آن‌ها را به سرقت ببرند. این مسئله زنگ خطری جدی برای امنیت داده‌های کاربران به شمار می‌رود. بر اساس اطلاعیه امنیتی ارسال‌شده به دادستان کل ایالت کالیفرنیا (California Attorney General)، این حمله سایبری از ماه اوت آغاز شده بود. مهاجمان در این حمله توانسته‌اند توکن‌های نشست (Session Tokens) کاربران را به دست آورند. این توکن‌ها به کاربران اجازه می‌دهند پس از ورود رمز عبور، در حساب خود باقی بمانند؛ به این ترتیب، هکرها توانسته‌اند با استفاده از این توکن‌های سرقت‌شده، درست مانند کاربران واقعی وارد سیستم‌ها شوند. شرکت دریم‌هاست (DreamHost) اعلام کرد که هکرها از یک آسیب‌پذیری نامشخص در بخش مدیریت فایل این شرکت سوءاستفاده کرده‌اند. با این حال، سخنگوی این شرکت از ارائه توضیح درباره دلیل عدم کشف این نفوذ تا هفته گذشته خودداری کرد و دلیل آن را در جریان بودن تحقیقات دانست. همچنین وی تاکید کرد که این آسیب‌پذیری ارتباطی با نقص‌های امنیتی اخیر نرم‌افزار وب پی‌اچ‌پی (PHP) ندارد. این نفوذ امنیتی پس از آن آشکار شد که اختلال و قطعی چند روزه‌ای در خدمات دریم‌هاست (DreamHost) رخ داد و این شرکت را مجبور به بازنشانی برخی از رمزهای عبور مشتریان کرد. اگرچه سخنگوی این شرکت تعداد کاربران آسیب‌دیده را «به طور قابل توجهی کمتر از ۱۰ درصد» کل مشتریان عنوان کرد، اما از ارائه آمار دقیق خودداری نمود. شرکت دریم‌هاست (DreamHost) در حال حاضر میزبان حدود ۴۰۰ هزار مشتری پرداختی در شبکه خود است. این رویداد بار دیگر اهمیت امنیت در خدمات میزبانی وب و حفاظت از داده‌های کاربران را برجسته می‌کند. کارشناسان امنیتی به کاربران توصیه می‌کنند که به طور مرتب فعالیت‌های حساب‌های آنلاین خود را رصد کرده و در صورت امکان از احراز هویت چندمرحله‌ای استفاده کنند تا خطرات ناشی از سرقت توکن و اطلاعات ورود به حداقل برسد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2249547675.jpg?w=1024",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Hackers stole DreamHost customer files and inboxes during months-long attack",
+      "summary": "The web host said hackers exploited a vulnerability to access customer emails and files during a \"deliberate attack.\"",
+      "display_title": "هکرها در جریان یک حمله چندماهه به فایل‌ها و صندوق‌های ایمیل مشتریان شرکت دریم‌هاست (DreamHost) دستبرد زدند",
+      "display_summary": "شرکت میزبانی وب دریم‌هاست (DreamHost) تایید کرد که هکرها در جریان یک حمله سایبری چندماهه توانسته‌اند به ایمیل‌ها، توکن‌های نشست و فایل‌های مشتریان دسترسی پیدا کنند. این نفوذ که از ماه اوت آغاز شده بود، پس از قطعی چند روزه خدمات این شرکت و بازنشانی رمزهای عبور افشا شد."
     },
     {
       "key": "url:97689e4470033f7c3c03177808ba07b8df5f854c2b8cc35eab1cff74cff33b97",
       "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "title": "Gemini for Home now plugs into AT&#038;T’s smart security system",
-      "summary": "AT&#38;T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide [&#8230;]",
-      "display_title": "ادغام دستیار هوش مصنوعی جمنای برای خانه با سیستم امنیتی هوشمند شرکت ای‌تی‌اندتی",
-      "display_summary": "سیستم امنیتی هوشمند «کانکتد لایف» (Connected Life) شرکت «ای‌تی‌اندتی» (AT&T) اکنون به قابلیت‌های هوش مصنوعی «جمنای برای خانه» (Gemini for Home) مجهز شده است. این یکپارچه‌سازی امکاناتی نظیر جستجوی زبان طبیعی در ویدیوهای ضبط‌شده و خلاصه‌سازی رویدادهای خانه را برای کاربران فراهم می‌کند.",
       "message": "<b>📰 ادغام دستیار هوش مصنوعی جمنای برای خانه با سیستم امنیتی هوشمند شرکت ای‌تی‌اندتی</b>\n\nسیستم امنیتی هوشمند «کانکتد لایف» (Connected Life) شرکت «ای‌تی‌اندتی» (AT&amp;T) اکنون به قابلیت‌های هوش مصنوعی «جمنای برای خانه» (Gemini for Home) مجهز شده است. این یکپارچه‌سازی امکاناتی نظیر جستجوی زبان طبیعی در ویدیوهای ضبط‌شده و خلاصه‌سازی رویدادهای خانه را برای کاربران فراهم می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>سیستم امنیتی هوشمند خانگی شرکت «ای‌تی‌اندتی» (AT&amp;T) موسوم به «کانکتد لایف» (Connected Life)، به‌روزرسانی مهمی را دریافت کرده که قابلیت‌های هوش مصنوعی «جمنای برای خانه» (Gemini for Home) را به آن اضافه می‌کند. این شرکت اعلام کرده است که سیستم امنیتی‌اش به عنوان نخستین محصول در این حوزه با سرویس «گوگل هوم پریموم» (Google Home Premium) یکپارچه می‌شود تا امکانات پیشرفته مبتنی بر مدل هوش مصنوعی «جمنای» (Gemini) در اختیار کاربران قرار گیرد. با این به‌روزرسانی جدید، کاربران می‌توانند توصیفات بسیار دقیق و مشروحی درباره رویدادهای ثبت‌شده توسط دوربین‌های امنیتی خود دریافت کنند. برای نمونه، این سیستم قادر است جزئیاتی مانند زمان تحویل بسته پستی توسط پیک و تعداد دقیق اقلام رها شده را گزارش دهد. همچنین امکان جستجو در میان تصاویر و ویدیوهای ضبط‌شده با استفاده از پرسش‌های زبان طبیعی فراهم شده است؛ بنابراین کاربران می‌توانند سوالاتی مانند «دیشب چه چیزی باغچه را حفر کرد؟» یا «چه کسی درها را برای سگ‌ها باز کرد؟» را مطرح کرده و پاسخ دریافت کنند. دریافت خلاصه‌های روزانه از فعالیت‌های درون و پیرامون خانه از دیگر ویژگی‌های این سرویس است. این امکانات پیشرفته تنها برای مشترکانی در دسترس است که طرح نظارتی حرفه‌ای و ماهانه ۲۹.۹۹ دلاری «کانکتد لایف» (Connected Life) را تهیه کنند. افزون بر این، «ای‌تی‌اندتی» (AT&amp;T) ویژگی جدیدی را اضافه کرده است که به سیستم اجازه می‌دهد بر اساس دوری یا نزدیکی کاربر به منزل، خان را به طور خودکار مسلح یا خلع سلاح کند. شرکت «ای‌تی‌اندتی» (AT&amp;T) سیستم «کانکتد لایف» (Connected Life) را در ماه دسامبر گذشته با همکاری شرکت‌های «گوگل» (Google) و «ابود» (Abode) راه‌اندازی کرده بود. اکنون این سرویس با بهره‌گیری از رابط‌های برنامه‌نویسی کاربردی (API) خانگی مبتنی بر «جمنای» (Gemini) شرکت «گوگل» (Google)، به برندهای خانه هوشمند اجازه می‌دهد تا قابلیت‌های هوش مصنوعی را در دستگاه‌های خود توسعه دهند. شرکت «ای‌دی‌تی» (ADT) نیز پیش‌تر به احتمال افزودن قابلیت‌های «جمنای برای خانه» (Gemini for Home) به سیستم‌های امنیتی خود اشاره کرده بود. در مجموع، این همکاری گامی رو به جلو در جهت هوشمندتر شدن خانه‌ها و بهبود امنیت کاربران با استفاده از فناوری‌های نوین پردازش زبان طبیعی و بینایی ماشین به شمار می‌رود.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Gemini for Home now plugs into AT&#038;T’s smart security system",
+      "summary": "AT&#38;T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide [&#8230;]",
+      "display_title": "ادغام دستیار هوش مصنوعی جمنای برای خانه با سیستم امنیتی هوشمند شرکت ای‌تی‌اندتی",
+      "display_summary": "سیستم امنیتی هوشمند «کانکتد لایف» (Connected Life) شرکت «ای‌تی‌اندتی» (AT&T) اکنون به قابلیت‌های هوش مصنوعی «جمنای برای خانه» (Gemini for Home) مجهز شده است. این یکپارچه‌سازی امکاناتی نظیر جستجوی زبان طبیعی در ویدیوهای ضبط‌شده و خلاصه‌سازی رویدادهای خانه را برای کاربران فراهم می‌کند."
     },
     {
       "key": "url:5112f3d519822a572a0230ce7a1fdd5ffb10d5fdb4797c91ad2cbeed304d986a",
       "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up?&#160; On this episode of [&#8230;]",
-      "display_title": "رشد انفجاری هوش مصنوعی متن‌باز؛ بررسی مسیرهای سودآوری و رقابت جهانی در گفتگوی با هاگینگ فیس (Hugging Face)",
-      "display_summary": "مدل‌های هوش مصنوعی متن‌باز به لطف مزایایی مانند کاهش هزینه‌ها، انعطاف‌پذیری بیشتر و کنترل بالاتر، به گزینه‌ای محبوب برای شرکت‌ها، دولت‌ها و استارتاپ‌ها تبدیل شده‌اند. در این میان، شرکت هاگینگ فیس (Hugging Face) به بررسی نحوه کسب درآمد و سودآوری از این مدل‌ها و همچنین رقابت فزاینده میان مدل‌های چینی و آمریکایی پرداخته است.",
       "message": "<b>📰 رشد انفجاری هوش مصنوعی متن‌باز؛ بررسی مسیرهای سودآوری و رقابت جهانی در گفتگوی با هاگینگ فیس (Hugging Face)</b>\n\nمدل‌های هوش مصنوعی متن‌باز به لطف مزایایی مانند کاهش هزینه‌ها، انعطاف‌پذیری بیشتر و کنترل بالاتر، به گزینه‌ای محبوب برای شرکت‌ها، دولت‌ها و استارتاپ‌ها تبدیل شده‌اند. در این میان، شرکت هاگینگ فیس (Hugging Face) به بررسی نحوه کسب درآمد و سودآوری از این مدل‌ها و همچنین رقابت فزاینده میان مدل‌های چینی و آمریکایی پرداخته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>هوش مصنوعی متن‌باز در ماه‌های اخیر روند رو به رشدی را تجربه کرده و مدل‌های متن‌باز به جریان اصلی دنیای فناوری تبدیل شده‌اند. شرکت‌ها، نهادهای دولتی و استارتاپ‌های نوپا بیش از پیش به وعده‌های این فناوری یعنی کاهش چشمگیر هزینه‌ها، انعطاف‌پذیری بالا و کنترل بیشتر بر داده‌ها تکیه می‌کنند. با این حال، با فراگیر شدن این مدل‌های پیشرفته، این پرسش اساسی مطرح می‌شود که شرکت‌ها چگونه می‌توانند از این فضا کسب درآمد کنند و ارزش اقتصادی خلق نمایند؟ از سوی دیگر، با پیشرفت قابل توجه مدل‌های متن‌باز چینی، چالش حفظ جایگاه برای بازیگران آمریکایی به دغدغه‌ای جدی تبدیل شده است. در همین راستا، در یکی از تازه‌ترین قسمت‌های پادکست اکویتی (Equity) متعلق به وب‌سایت تک‌کرانچ (TechCrunch)، «ربکا بلان (Rebecca Bellan)» میزبان «ایرنه سلیمان (Irene Solaiman)»، مدیر ارشد سیاست‌گذاری و معاون ارشد استراتژی در شرکت هاگینگ فیس (Hugging Face) بوده است. در این گفتگو، ابعاد مختلف ساخت استارتاپ‌ها بر پایه مدل‌های متن‌باز مورد بحث و بررسی قرار گرفت. محورهای اصلی این گفتگو شامل انتخاب ابزارهای مناسب، زیرساخت‌های ضروری برای توسعه و چالش‌های پیش‌روی آینده هوش مصنوعی متن‌باز بود. کارشناسان بر این باورند که استارتاپ‌ها پیش از ورود به این حوزه باید به دقت میان مزایا و معایب انتخاب‌های مختلف تعادل ایجاد کنند. رشد مدل‌های متن‌باز از یک سو دسترسی به فناوری‌های پیشرفته را دموکراتیک‌تر کرده و از سوی دیگر رقابت را در سطح جهانی، به ویژه با حضور قدرتمند بازیگران آسیایی، فشرده‌تر ساخته است. در نتیجه، بازار هوش مصنوعی متن‌باز در حالی به مسیر توسعه خود ادامه می‌دهد که فعالان این حوزه ناچارند استراتژی‌های نوآورانه‌ای برای کسب درآمد و حفظ مزیت رقابتی در برابر رقبای بین‌المللی اتخاذ کنند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Open source AI is booming. Hugging Face explains who profits.",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up?&#160; On this episode of [&#8230;]",
+      "display_title": "رشد انفجاری هوش مصنوعی متن‌باز؛ بررسی مسیرهای سودآوری و رقابت جهانی در گفتگوی با هاگینگ فیس (Hugging Face)",
+      "display_summary": "مدل‌های هوش مصنوعی متن‌باز به لطف مزایایی مانند کاهش هزینه‌ها، انعطاف‌پذیری بیشتر و کنترل بالاتر، به گزینه‌ای محبوب برای شرکت‌ها، دولت‌ها و استارتاپ‌ها تبدیل شده‌اند. در این میان، شرکت هاگینگ فیس (Hugging Face) به بررسی نحوه کسب درآمد و سودآوری از این مدل‌ها و همچنین رقابت فزاینده میان مدل‌های چینی و آمریکایی پرداخته است."
     }
   ],
   "pending_news": [
@@ -11463,63 +11473,16 @@
       ]
     },
     {
-      "item_id": "af4088a5f54f8c7f48725c0dce852be21089271d6286cfd958bf3d2cb02c0962",
-      "title": "Google’s Pixel 11 phones are up to 27 percent off",
-      "url": "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
-      "summary": "You can save a heck of lot of money on Google’s Pixel 11 phones through November 8th, whether you want the best-for-the-least Pixel 11, or the slightly pricier Pixel 11 Pro that takes better photos. Even the big Pixel 11 Pro XL with a longer-lasting battery is hundreds off its original price. The Pixel 11 [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-review-photos-5.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-04T19:00:00+00:00",
-      "categories": [
-        "Deals",
-        "Gadgets",
-        "Google",
-        "Google Pixel",
-        "Tech",
-        "Verge Shopping"
-      ]
-    },
-    {
-      "item_id": "4e30ad93be788e25637c5563db7635330492f0c3f9057820025390f650fb8192",
-      "title": "Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time",
-      "url": "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi",
-      "summary": "The Ocarina of Time remake on the Switch 2 smashes together the past and present. The game retains much of the original N64 experience while updating it with modern graphics and gameplay that make it feel contemporary. But the mingling of time periods also extends to the development team. While Ocarina's remake was led by [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/NS2_TheLegendofZeldaOcarinaofTime_scrn_15_dce060.png?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-05T05:00:00+00:00",
-      "categories": [
-        "Entertainment",
-        "Gaming",
-        "Interview",
-        "Nintendo",
-        "Report"
-      ]
-    },
-    {
       "item_id": "c295d1d97f468fdc2df81013566823a10449e51f79d7d3173a9ab9743d486b01",
       "title": "Apple is reportedly cutting budgets for its internal AI usage",
       "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
       "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
       "published_at": "2026-11-05T01:26:22+00:00",
       "categories": [
         "AI",
         "TC"
-      ]
-    },
-    {
-      "item_id": "28551cdae75c63aedbf7993751e360d040d84e4d378d862c596bbba3bb65e544",
-      "title": "After the midterms, a bigger clash over data centers could be coming",
-      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-05T01:02:14+00:00",
-      "categories": [
-        "AI",
-        "Government & Policy",
-        "data centers"
       ]
     },
     {
@@ -11534,6 +11497,260 @@
         "News",
         "Tech",
         "Twitter - X"
+      ]
+    },
+    {
+      "item_id": "2efa2fd015bd74182bca85f2d009d7b24e6390f67f35855cee29ef1b4946ef63",
+      "title": "Tech is about to get hammered in Congress",
+      "url": "https://www.theverge.com/policy/1027430/democratic-control-congress-tech-policy",
+      "summary": "Tech CEO hearings. Tougher AI and data center guardrails. Investigations of Elon Musk's DOGE cuts. The gates are open for Democrats once they regain control of committee gavels come January after a historic win of majorities in both the House and Senate on Tuesday. \"LAWYER UP,\" the top Democrat on the House Oversight Committee wrote [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T14:11:27+00:00",
+      "categories": [
+        "Analysis",
+        "Elon Musk",
+        "Policy",
+        "Politics",
+        "Report",
+        "Tech",
+        "US Elections"
+      ]
+    },
+    {
+      "item_id": "3e7aad2e1d1751fb4c27bfa1f3d4a202b0688014cb69a83d7c88768504fdbb57",
+      "title": "RadianX promises solar-powered devices that never need charging",
+      "url": "https://techcrunch.com/2026/11/05/radianx-promises-solar-powered-devices-that-never-need-charging/",
+      "summary": "Today’s portable devices are too hungry to run on traditional solar panels, but RadianX says its perovskite cells promise to make charging obsolete in some cases.",
+      "source": "TechCrunch",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/02/iphone-usb-lighting-charging-cable.jpg?resize=1200,800",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "Climate",
+        "Gadgets",
+        "Batteries",
+        "Solar Power"
+      ]
+    },
+    {
+      "item_id": "18605acc9d0666b087444f6a03d319ca960410e0def7cdb5e180669eb3e2cec9",
+      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "summary": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
+      "source": "TechCrunch",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1178603809.jpg?w=1024",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "AI",
+        "Box",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "7ae901d59dc48ad324889b116bb26deea085e58817473afb83dcee1dd22b2ea6",
+      "title": "The new iMac is a good desktop computer that needs a redesign",
+      "url": "https://www.theverge.com/tech/1027177/2026-imac-m6-review",
+      "summary": "I'm a simple guy. I usually work from my MacBook Neo wherever I end up sitting in my house. And while I have monitors, mice, and keyboards to plug it into, I often end up leaning over the MacBook and doing none of that. I rarely even sit at my office desk, which has done [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/MON09145-Edit.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "Apple",
+        "Reviews",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "da5e39826e788f8159bfa6036a6665d82b5e527209f3218ed73e09c67dfaf0d4",
+      "title": "The M6 MacBook Pro is probably the last of its kind",
+      "url": "https://www.theverge.com/tech/1027250/m6-macbook-pro-review",
+      "summary": "On November 6th, Apple will release an all-new MacBook Pro. It's thinner and lighter and has a beautiful OLED touchscreen. It is very likely what every new MacBook Pro will look like in a couple of years. The M6 MacBook Pro, which is also out on the 6th, is not that laptop. Instead, it's a [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/M6_MBP_hero2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "Apple",
+        "Gadgets",
+        "Laptop Reviews",
+        "Laptops",
+        "macOS",
+        "Reviews",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "fb02ae9a47c34cc5e4378f485b31b868834bb306995ad23b1413d08f8b587330",
+      "title": "2027 Chevrolet Silverado 1500 First Drive: Big displays meet big V8s",
+      "url": "https://www.engadget.com/2304128/2027-chevrolet-silverado-1500-first-drive/",
+      "summary": "Chevy's new Silverado needs a few updates before it's ready for prime time.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/2027-chevrolet-silverado-1500-first-drive-big-displays-meet-big-v8s/l-intro-1793639408.jpg",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "Reviews"
+      ]
+    },
+    {
+      "item_id": "8f243f6fad837f3fb859f184f592e41a1b19d3cbf3308e4917b1f4a3db6abfe2",
+      "title": "Apple iMac M6 review: Faster, more expensive and deeply in need of a refresh",
+      "url": "https://www.engadget.com/2307246/apple-imac-m6-review/",
+      "summary": "Most buyers would be better off with a Mac mini and a bigger external display.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apple-imac-m6-review-faster-more-expensive-and-deeply-in-need-of-a-refresh/l-intro-1793827192.jpg",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "Laptops & PCs",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "3244b06ae88d6852b0cac02d4cec77c0de93e84b1411fd212e06eef33b27fa52",
+      "title": "MacBook Pro with PROLED XDR Display review: Lighter, brighter, but the touchscreen doesn't add much",
+      "url": "https://www.engadget.com/2307215/apple-macbook-pro-with-proled-xdr-display-review/",
+      "summary": "Apple's touchscreen laptop is a notable evolution of the MacBook Pro at a much higher price.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/macbook-pro-with-proled-xdr-review-lighter-brighter-but-the-touchscreen-doesnt-add-much/l-intro-1793826205.jpg",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "Laptops & PCs",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "444a17fdbaf0e749ccdb76f575df1ae8c4b45369d7d3c5a3390e630314c693ce",
+      "title": "MacBook Pro M6 review: A slight upgrade, but still the most accessible MacBook Pro",
+      "url": "https://www.engadget.com/2307614/apple-macbook-pro-m6-review/",
+      "summary": "The M6 MacBook Pro is more of the same, but that's still pretty great.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/macbook-pro-m6-review-a-slight-upgrade-but-still-the-most-accessible-macbook-pro/l-intro-1793884787.jpg",
+      "published_at": "2026-11-05T14:00:00+00:00",
+      "categories": [
+        "Laptops & PCs",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "cefc669c139c41ca08b6bca930e7a6772c7dfb0513dfadf7b79dfc501c30ff18",
+      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T13:00:00+00:00",
+      "categories": [
+        "AI",
+        "Exclusive"
+      ]
+    },
+    {
+      "item_id": "9df8ca713dfa5fa75b39ca48b2d487eda95dd5303f7f6906d1c886a1b72fc6b0",
+      "title": "Spotify is coming to United Airlines seatbacks — with help from Starlink",
+      "url": "https://www.theverge.com/transportation/1026472/united-seatback-spotify-app-starlink-wifi",
+      "summary": "United has built a custom, native Spotify app for seatback displays, allowing passengers to log directly in to their personal accounts and stream their own libraries, playlists, and video podcasts while flying 35,000 feet in the air. The new integration is being powered by Starlink's satellite Wi-Fi, which is currently being installed throughout United's entire [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Image-4.jpg.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T13:00:00+00:00",
+      "categories": [
+        "Aviation",
+        "Entertainment",
+        "News",
+        "Science",
+        "Space",
+        "SpaceX",
+        "Spotify",
+        "Transportation"
+      ]
+    },
+    {
+      "item_id": "e823793f5791803cfcb7b4d5e1a759e664572765a02a1235bca30d88216064ee",
+      "title": "Spotify is coming to United's seatback screens",
+      "url": "https://www.engadget.com/2307393/spotify-is-coming-to-uniteds-seatback-screens/",
+      "summary": "The streaming service's entire library of content will be available in the air.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/spotify-is-coming-to-uniteds-seatback-screens/l-intro-1793835172.jpg",
+      "published_at": "2026-11-05T13:00:00+00:00",
+      "categories": [
+        "EVs and Transportation",
+        "Streaming"
+      ]
+    },
+    {
+      "item_id": "8c088903ca4c517ea4155e73e4512683b4bd502b9454e50fb1650fb9226e2583",
+      "title": "OpenAI says it will protect local resources and report on the impact of its data centers",
+      "url": "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers/",
+      "summary": "OpenAI claims its new pledges were in the works before Americans voted strongly against the data center boom.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers/l-intro-1793882053.jpg",
+      "published_at": "2026-11-05T12:37:38+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "a819a48af1ad70c6cd32377be1321559546f9419e8ab4532c3ed5f2718b8d2b1",
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+      "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T12:00:00+00:00",
+      "categories": [
+        "AI",
+        "Robotics"
+      ]
+    },
+    {
+      "item_id": "b2b6d59ccc0b2b97d9051d5bd8ba815f8d3100eb7ec5cd787a05f65369c3402b",
+      "title": "Amazon ditches GrubHub, taps Uber Eats for Prime",
+      "url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime/",
+      "summary": "Amazon has made Uber Eats its official restaurant delivery partner for Prime members in the United States.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T11:00:00+00:00",
+      "categories": [
+        "Apps",
+        "Commerce",
+        "Transportation",
+        "Amazon",
+        "food delivery",
+        "grubhub",
+        "Uber Eats"
+      ]
+    },
+    {
+      "item_id": "881784427cda3c8e0bdee3a7b93b19f28f3ac3aaa204fa2a5e33d707a8967a76",
+      "title": "Amazon teams with Uber Eats for new Prime perks",
+      "url": "https://www.engadget.com/2307194/amazon-teams-with-uber-eats-for-new-prime-perks/",
+      "summary": "Order on Amazon's platforms and (sometimes) skip the delivery fees.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/amazon-teams-with-uber-eats-for-new-prime-perks/l-intro-1793825798.jpg",
+      "published_at": "2026-11-05T11:00:00+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "945e25f8c7dffb37b47362cf070a995464d6443a9e80acfa626adbe5cd3af356",
+      "title": "Switch 2 sales fell by almost 40 percent after Nintendo increased prices",
+      "url": "https://www.engadget.com/2307555/switch-2-sales-fell-by-almost-40-percent-nintendo-increased-prices/",
+      "summary": "Nintendo reports higher profit but substantially lower Switch 2 sales after it increased console prices.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/switch-2-sales-fell-by-almost-40-percent-after-nintendo-increased-prices/l-intro-1793875392.jpg",
+      "published_at": "2026-11-05T10:44:43+00:00",
+      "categories": [
+        "Nintendo"
+      ]
+    },
+    {
+      "item_id": "af4ed4d5fa25be2c6caa338ae3797ee50cdf481b7d1f9b65e6d65324ecd9504e",
+      "title": "Sony is selling more PS5 games but still struggling to meet console demand",
+      "url": "https://www.engadget.com/2307531/sony-earnings-report-2026-selling-more-ps5-games-console-demand/",
+      "summary": "Despite market conditions making PS5 consoles expensive and hard to get, Sony's gaming division had a solid quarter.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/sony-is-selling-more-ps5-games-but-still-struggling-to-meet-console-demand/l-intro-1793870612.jpg",
+      "published_at": "2026-11-05T09:25:11+00:00",
+      "categories": [
+        "PlayStation"
       ]
     }
   ]
