@@ -3494,16 +3494,19 @@
     "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
     "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi",
     "https://www.theverge.com/tech/1026570/apple-macbook-pro-proled-xdr-display-review",
-    "https://www.theverge.com/tech/1027426/nasa-experimental-x-70-fractal-aircraft"
+    "https://www.theverge.com/tech/1027426/nasa-experimental-x-70-fractal-aircraft",
+    "302b35b3f5e29e049295c22881ec425e8a2dfc8fcf0b526d2a23933d3fb45850",
+    "9df8ca713dfa5fa75b39ca48b2d487eda95dd5303f7f6906d1c886a1b72fc6b0",
+    "b2b6d59ccc0b2b97d9051d5bd8ba815f8d3100eb7ec5cd787a05f65369c3402b",
+    "c5a5486e6951c768e412f7bc17c7a4016e2492244992e7db73053f79e7519e0e",
+    "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime/",
+    "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+    "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
+    "https://www.theverge.com/transportation/1026472/united-seatback-spotify-app-starlink-wifi",
+    "85c7d152dab8e123816249a752b36c878a00f802fad27d3568e07760d9faefea",
+    "https://www.engadget.com/2308419/tiktok-just-released-a-standalone-shop-app-but-its-not-in-america-just-yet/"
   ],
   "published_stories": [
-    {
-      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
-      "summary": "Today, I’m talking with Illinois Governor JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming [&#8230;]",
-      "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
-      "display_title": "جی‌بی پریتزکر: هوش مصنوعی می‌تواند عمر ما را به ۱۰۰ سال برساند یا مانند بمب اتمی تهدیدمان کند",
-      "display_summary": "جی‌بی پریتزکر (JB Pritzker)، فرماندار ایالت ایلینوی (Illinois)، در گفتگو با پادکست دیکودر (Decoder) درباره چالش‌های فناوری‌های نوین، حریم خصوصی و هوش مصنوعی سخن گفت. او معتقد است دولت‌ها باید در برابر شرکت‌های بزرگ فناوری نقش محافظت‌کننده از شهروندان را ایفا کنند و خطرات اقتصادی و امنیتی هوش مصنوعی را جدی بگیرند."
-    },
     {
       "title": "Elon Musk promises to give one SpaceX share to every child in the US",
       "summary": "Elon Musk says he plans to give one of his SpaceX shares to every child in the US starting next year. With around 72 million children in the US as of July 2025, Musk would be giving away about $10.5 billion worth of shares, according to a report from CNBC. Musk, who runs SpaceX and [&#8230;]",
@@ -6996,6 +6999,13 @@
       "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
       "display_title": "رشد انفجاری هوش مصنوعی متن‌باز؛ بررسی مسیرهای سودآوری و رقابت جهانی در گفتگوی با هاگینگ فیس (Hugging Face)",
       "display_summary": "مدل‌های هوش مصنوعی متن‌باز به لطف مزایایی مانند کاهش هزینه‌ها، انعطاف‌پذیری بیشتر و کنترل بالاتر، به گزینه‌ای محبوب برای شرکت‌ها، دولت‌ها و استارتاپ‌ها تبدیل شده‌اند. در این میان، شرکت هاگینگ فیس (Hugging Face) به بررسی نحوه کسب درآمد و سودآوری از این مدل‌ها و همچنین رقابت فزاینده میان مدل‌های چینی و آمریکایی پرداخته است."
+    },
+    {
+      "title": "TikTok just released a standalone Shop app, but it's not in America just yet",
+      "summary": "It offers exclusive deals and other goodies.",
+      "url": "https://www.engadget.com/2308419/tiktok-just-released-a-standalone-shop-app-but-its-not-in-america-just-yet/",
+      "display_title": "تیک‌تاک اپلیکیشن مستقل «تیک‌تاک شاپ» را عرضه کرد، اما فعلاً در آمریکا در دسترس نیست",
+      "display_summary": "پلتفرم «تیک‌تاک (TikTok)» اپلیکیشن مستقل خرید خود را برای سیستم‌عامل‌های آی‌اواس (iOS) و اندروید (Android) در برخی کشورهای آسیایی منتشر کرد. این برنامه شامل پیشنهادهای انحصاری، خرید از طریق ویدیوهای زنده و کوتاه‌مدت و پرداخت امن است."
     }
   ],
   "outbox": [
@@ -11387,6 +11397,18 @@
       "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up?&#160; On this episode of [&#8230;]",
       "display_title": "رشد انفجاری هوش مصنوعی متن‌باز؛ بررسی مسیرهای سودآوری و رقابت جهانی در گفتگوی با هاگینگ فیس (Hugging Face)",
       "display_summary": "مدل‌های هوش مصنوعی متن‌باز به لطف مزایایی مانند کاهش هزینه‌ها، انعطاف‌پذیری بیشتر و کنترل بالاتر، به گزینه‌ای محبوب برای شرکت‌ها، دولت‌ها و استارتاپ‌ها تبدیل شده‌اند. در این میان، شرکت هاگینگ فیس (Hugging Face) به بررسی نحوه کسب درآمد و سودآوری از این مدل‌ها و همچنین رقابت فزاینده میان مدل‌های چینی و آمریکایی پرداخته است."
+    },
+    {
+      "key": "url:85c7d152dab8e123816249a752b36c878a00f802fad27d3568e07760d9faefea",
+      "url": "https://www.engadget.com/2308419/tiktok-just-released-a-standalone-shop-app-but-its-not-in-america-just-yet/",
+      "title": "TikTok just released a standalone Shop app, but it's not in America just yet",
+      "summary": "It offers exclusive deals and other goodies.",
+      "display_title": "تیک‌تاک اپلیکیشن مستقل «تیک‌تاک شاپ» را عرضه کرد، اما فعلاً در آمریکا در دسترس نیست",
+      "display_summary": "پلتفرم «تیک‌تاک (TikTok)» اپلیکیشن مستقل خرید خود را برای سیستم‌عامل‌های آی‌اواس (iOS) و اندروید (Android) در برخی کشورهای آسیایی منتشر کرد. این برنامه شامل پیشنهادهای انحصاری، خرید از طریق ویدیوهای زنده و کوتاه‌مدت و پرداخت امن است.",
+      "message": "<b>📰 تیک‌تاک اپلیکیشن مستقل «تیک‌تاک شاپ» را عرضه کرد، اما فعلاً در آمریکا در دسترس نیست</b>\n\nپلتفرم «تیک‌تاک (TikTok)» اپلیکیشن مستقل خرید خود را برای سیستم‌عامل‌های آی‌اواس (iOS) و اندروید (Android) در برخی کشورهای آسیایی منتشر کرد. این برنامه شامل پیشنهادهای انحصاری، خرید از طریق ویدیوهای زنده و کوتاه‌مدت و پرداخت امن است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پلتفرم محبوب اشتراک‌گذاری ویدیو، «تیک‌تاک (TikTok)»، به‌تازگی اپلیکیشن مستقل «تیک‌تاک شاپ (TikTok Shop)» را برای سیستم‌عامل‌های موبایل یعنی «آی‌اواس (iOS)» و «اندروید (Android)» عرضه کرده است. این اقدام براین نخستین بار توسط مشاور رسانه‌های اجتماعی، «مت ناوارا (Matt Navarra)» شناسایی شد. در حال حاضر، این اپلیکیشن خرید مستقل در چندین منطقه جهان از جمله سنگاپور، مالزی، تایلند و فیلیپین دردسترس کاربران قرار دارد. از آنجا که خرید آنلاین و تجارت الکترونیک به بخش بسیار بزرگی از تجربه کاربری در «تیک‌تاک (TikTok)» تبدیل شده است، توسعه و عرضه یک اپلیکیشن اختصاصی برای این حوزه گامی منطقی و رو به جلو محسوب می‌شود. بر اساس گزارش‌های منتشرشده، ظاهر این اپلیکیشن جدید مشابه نسخه ساده‌تر و بهینه‌شده‌ای از پلتفرم خرید درون‌برنامه‌ای فعلی است. این برنامه قابلیت‌هایی نظیر پیشنهادهای شخصی‌سازی‌شده کالاها، امکان خرید از طریق پخش زنده (Live streams) و ویدیوهای کوتاه را به کاربران ارائه می‌دهد. همچنین تخفیف‌ها و پیشنهادهای انحصاری درون‌برنامه‌ای، از جمله ارسال رایگان و سیستم پرداخت امن برای تسویه حساب، از دیگر ویژگی‌های کلیدی این اپلیکیشن تازه معرفی‌شده به شمار می‌روند. عرضه این اپلیکیشن مستقل نشان می‌دهد که «تیک‌تاک (TikTok)» قصد دارد به‌طور جدی‌تر و مستقیم‌تری با غول‌های تجارت الکترونیک رقابت کند. با این حال، بزرگ‌ترین پرسش باقی‌مانده این است که شرکت سازنده چه زمانی قصد دارد این برنامه را در سایر مناطق جهان عرضه کند و آیا کاربران در ایالات متحده آمریکا نیز به آن دسترسی پیدا خواهند کرد یا خیر. باید توجه داشت که ساختار بخش آمریکایی «تیک‌تاک (TikTok)» به عنوان یک شرکت مستقل از نسخه جهانی آن فعالیت می‌کند و همین امر ممکن است روند عرضه آن را تحت تأثیر قرار دهد. در همین حال، نسخه آمریکایی این پلتفرم نیز قابلیت‌های تازه‌ای نظیر ارسال نظرات صوتی و خدمات رزرو سفر درون‌برنامه‌ای را به امکانات خود اضافه کرده است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/tiktok-just-released-a-standalone-shop-app-but-its-not-in-america-just-yet/l-intro-1793908543.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
     }
   ],
   "pending_news": [
@@ -11635,30 +11657,11 @@
       "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
       "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/discoverd-materials.jpg?resize=1200,800",
       "published_at": "2026-11-05T13:00:00+00:00",
       "categories": [
         "AI",
         "Exclusive"
-      ]
-    },
-    {
-      "item_id": "9df8ca713dfa5fa75b39ca48b2d487eda95dd5303f7f6906d1c886a1b72fc6b0",
-      "title": "Spotify is coming to United Airlines seatbacks — with help from Starlink",
-      "url": "https://www.theverge.com/transportation/1026472/united-seatback-spotify-app-starlink-wifi",
-      "summary": "United has built a custom, native Spotify app for seatback displays, allowing passengers to log directly in to their personal accounts and stream their own libraries, playlists, and video podcasts while flying 35,000 feet in the air. The new integration is being powered by Starlink's satellite Wi-Fi, which is currently being installed throughout United's entire [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Image-4.jpg.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-05T13:00:00+00:00",
-      "categories": [
-        "Aviation",
-        "Entertainment",
-        "News",
-        "Science",
-        "Space",
-        "SpaceX",
-        "Spotify",
-        "Transportation"
       ]
     },
     {
@@ -11692,29 +11695,11 @@
       "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
       "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Agility_Digit5_01.png?resize=900,1200",
       "published_at": "2026-11-05T12:00:00+00:00",
       "categories": [
         "AI",
         "Robotics"
-      ]
-    },
-    {
-      "item_id": "b2b6d59ccc0b2b97d9051d5bd8ba815f8d3100eb7ec5cd787a05f65369c3402b",
-      "title": "Amazon ditches GrubHub, taps Uber Eats for Prime",
-      "url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime/",
-      "summary": "Amazon has made Uber Eats its official restaurant delivery partner for Prime members in the United States.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-05T11:00:00+00:00",
-      "categories": [
-        "Apps",
-        "Commerce",
-        "Transportation",
-        "Amazon",
-        "food delivery",
-        "grubhub",
-        "Uber Eats"
       ]
     },
     {
@@ -11751,6 +11736,550 @@
       "published_at": "2026-11-05T09:25:11+00:00",
       "categories": [
         "PlayStation"
+      ]
+    },
+    {
+      "item_id": "cd7cbf5ce63d9d8fa7d1dd26c2d78b431a61045a74e50595c3cf47fc6d30ee3a",
+      "title": "Google is ditching Firebase Studio soon, and it wants you to use its newer AI tools instead",
+      "url": "https://www.engadget.com/2308541/google-is-ditching-firebase-studio-soon-and-it-wants-you-to-use-its-newer-ai-tools-instead/",
+      "summary": "The company is going all-in on Antigravity and Google AI Studio and hopes developers will do the same.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-is-ditching-firebase-studio-soon-and-it-wants-you-to-use-its-newer-ai-tools-instead/l-intro-1793825592.jpg",
+      "published_at": "2026-11-05T21:01:28+00:00",
+      "categories": [
+        "Google"
+      ]
+    },
+    {
+      "item_id": "3ce6ed25750e6d0ff678ecc8a1a27def428e703a58ea84c1ff7cbcf302711d0e",
+      "title": "A BioWare documentary is set to arrive next year",
+      "url": "https://www.engadget.com/2308483/a-bioware-documentary-is-set-to-arrive-next-year/",
+      "summary": "Massive Effect: The BioWare Story started filming two years before EA shut down the studio.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/a-bioware-documentary-is-set-to-arrive-next-year/l-intro-1793910593.jpg",
+      "published_at": "2026-11-05T20:33:13+00:00",
+      "categories": [
+        "Entertainment"
+      ]
+    },
+    {
+      "item_id": "5d1f7927983bf9bd0116a3d871a94ba059034776181ce04817ed256a5f7e8daa",
+      "title": "The Xbox PC app is getting a speed boost",
+      "url": "https://www.engadget.com/2308407/the-xbox-pc-app-is-getting-a-speed-boost/",
+      "summary": "The updated app, rolling out to Xbox Insiders first, launches up to 60 percent faster.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-xbox-pc-app-is-getting-a-speed-boost/l-intro-1793908196.jpg",
+      "published_at": "2026-11-05T19:52:39+00:00",
+      "categories": [
+        "Xbox"
+      ]
+    },
+    {
+      "item_id": "a38e6d034f69cb842e4eacf62d574f92eaad2f0535c9fbfb05821f72cac75b06",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "source": "TechCrunch",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+      "published_at": "2026-11-05T19:48:28+00:00",
+      "categories": [
+        "AI",
+        "Meta",
+        "muse"
+      ]
+    },
+    {
+      "item_id": "4624e607f01192dbcd38ac42f63c6fd0ce6b158bc648841d89a8a7a27c047447",
+      "title": "Warby Parker seemingly spilled the beans on Google's Android XR smart glasses launch",
+      "url": "https://www.engadget.com/2308376/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/",
+      "summary": "\"Intelligent Eyewear\" is apparently only a week away.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/l-intro-1793907386.jpg",
+      "published_at": "2026-11-05T19:39:01+00:00",
+      "categories": [
+        "Google",
+        "Wearables"
+      ]
+    },
+    {
+      "item_id": "f5c23f948808a1a2f8a4eab95e0899276f6363cecded638090a02526770c1efb",
+      "title": "The FAA is finally phasing out floppy disks from air traffic control",
+      "url": "https://www.engadget.com/2308330/the-faa-is-finally-phasing-out-floppy-disks-from-air-traffic-control/",
+      "summary": "Seems about time for an upgrade.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-faa-is-finally-phasing-out-floppy-disks-from-air-traffic-control/l-intro-1793906146.jpg",
+      "published_at": "2026-11-05T19:16:43+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "135deecf1e691459daace88bbf89996941e934a9edcee44a15d71058831935dc",
+      "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+      "summary": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual price, and just $50 higher than the lowest we’ve seen. Considering the device only launched a few months ago, you’re saving [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/samsung-galaxy-z-fold-8-roundup.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T19:12:58+00:00",
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Phones",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "ae576fae340e3840225c87edef78ba25f38e16784cee17c9bd770f98f49e4af4",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T19:12:39+00:00",
+      "categories": [
+        "AI",
+        "data centers",
+        "Meta"
+      ]
+    },
+    {
+      "item_id": "902b5ae96b9b8d21bf20ddd1af90a11e2878803e0d3d422e0b373889a6e4e8b2",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T19:06:12+00:00",
+      "categories": [
+        "AI",
+        "cybersecurity",
+        "OpenAI"
+      ]
+    },
+    {
+      "item_id": "ed6f87642a5a61cd93164d59918973c168ff7c9f6f8836c4b1652f291ed0f2d1",
+      "title": "Muse has a voice mode now",
+      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T19:03:04+00:00",
+      "categories": [
+        "AI",
+        "Meta",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "0ebd7754e259747fd8fe54a5b6023aa21679620b4ee0a618b2045c179f26a7a1",
+      "title": "Google, Meta and TikTok are all suing California to block social media law intended to help kids",
+      "url": "https://www.engadget.com/2308280/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids/",
+      "summary": "Assembly Bill 1709 demands that platforms remove \"psychologically exploitative features.\"",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids/l-intro-1793904752.jpg",
+      "published_at": "2026-11-05T18:58:07+00:00",
+      "categories": [
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "d52032b00bdd5187874f9939e5c5240d29054ca25d0b65ad9f4e1b28c6ba6ad9",
+      "title": "US government warns of ‘ongoing cyber threat’ amid mass hacks of industrial retail and military freezers",
+      "url": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
+      "summary": "A joint U.S. government statement says the hacks are affecting the food, transportation, and healthcare industries after reports of global mass hacks.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T18:48:34+00:00",
+      "categories": [
+        "Security",
+        "cyberattacks",
+        "cybersecurity",
+        "military"
+      ]
+    },
+    {
+      "item_id": "c709e6211c3e98c7f9b9051324305a9f8886432f479208262ab2cf8396a13d40",
+      "title": "EA is bringing 25 classic PC games to Steam",
+      "url": "https://www.theverge.com/games/1023553/ea-classic-pc-games-steam-anniversary-edition",
+      "summary": "Electronic Arts is launching 25 classic games on Steam, including \"Anniversary Editions\" of the motorcycle racer Road Rash and six Wing Commander titles. These Anniversary Editions preserve \"the original look, feel and creative intent of the game\" but also have quality-of-life updates to support modern systems and controls and improve performance, according to EA. The [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ROAD_RASH.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T18:30:00+00:00",
+      "categories": [
+        "Entertainment",
+        "Gaming",
+        "News",
+        "PC Gaming"
+      ]
+    },
+    {
+      "item_id": "ac6abf0dbe779715509858eab6276385121ca3d01e9fb7dc47c2e0f21abf8e17",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "summary": "OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T18:02:27+00:00",
+      "categories": [
+        "AI",
+        "OpenAI"
+      ]
+    },
+    {
+      "item_id": "2487d9b329ec9d64d84fd658ed4c57d5e250cd1d96d5629e437486f5c7ee668d",
+      "title": "The ex-Secret Service agent who flipped a hacker is now raising a second $250M cybersecurity fund",
+      "url": "https://techcrunch.com/2026/11/05/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
+      "summary": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T18:00:00+00:00",
+      "categories": [
+        "Venture",
+        "brightmind",
+        "cybersecurtiy",
+        "venture firms"
+      ]
+    },
+    {
+      "item_id": "4d613e799753b77efe8ba669bdd05b0fb76a133ebb10a18f50d212a01eebf20a",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T18:00:00+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Anthropic",
+        "Claude"
+      ]
+    },
+    {
+      "item_id": "2da55708c84bed75c708d5d12ed214d403b163f0e673b5e1c7b9bb7072983313",
+      "title": "Claude AI can plug directly into your bank account",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Personal-Finance-in-Claude-hed.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T18:00:00+00:00",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "News"
+      ]
+    },
+    {
+      "item_id": "fc286077eb2965602d94ea42e5c9030711db0fa60e16b1c905ecce14ced17411",
+      "title": "Now Claude can help with your finances too",
+      "url": "https://www.engadget.com/2307936/now-claude-can-help-with-your-finances-too/",
+      "summary": "But just like with ChatGPT, should you?",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/now-claude-can-help-with-your-finances-too/l-intro-1793895674.jpg",
+      "published_at": "2026-11-05T18:00:00+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "a07430019a31c9903b9a009cf3229e4b5d73d7605985a1ac408474f65dfa1918",
+      "title": "iPhone Duo just got a new accessibility feature in iOS 27.3 beta",
+      "url": "https://www.engadget.com/2308154/iphone-duo-new-accessibility-feature-ios-27-3-beta-reachability/",
+      "summary": "Reachability helps make it easier to use the foldable with one hand.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/iphone-duo-just-got-a-new-accessibility-feature-in-ios-27-3-beta/l-intro-1793901496.jpg",
+      "published_at": "2026-11-05T17:59:50+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "506d64737bba0938d41a0951fed62075f40c2dcc1a2959041d8a42067bfc8a84",
+      "title": "Harbinger raises $240M after expanding into defense",
+      "url": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/",
+      "summary": "The Los Angeles-based startup has now raised more than $650 million, and is working on electric trucks, emergency vehicles, and a driverless platform for the military.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T17:52:44+00:00",
+      "categories": [
+        "Fundraising",
+        "Startups",
+        "Transportation",
+        "autonomous vehicles",
+        "electric trucks",
+        "Harbinger",
+        "In Brief"
+      ]
+    },
+    {
+      "item_id": "a6192077540d3a8de5c731a059566b2f40201181cd6f6c635f6964e2a317dac7",
+      "title": "‘Total repudiation’: The blue wave is about to hit AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+      "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK423_ELECTIONS2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T17:51:52+00:00",
+      "categories": [
+        "AI",
+        "Policy",
+        "Politics",
+        "Report",
+        "US Elections"
+      ]
+    },
+    {
+      "item_id": "9717a42f7a9a37701817ee9801791e45001bb6cec475e30b83065a9e7d7dec0f",
+      "title": "Ember’s smallest self-heating mug is on sale for just $33",
+      "url": "https://www.theverge.com/gadgets/1027689/ember-cup-6-ounce-woot-kitchen-sale-deal",
+      "summary": "We’ve been fans of Ember’s temperature-controlled mugs for years, though given the price tag, we admit that they’re somewhat of a luxury purchase. Thankfully, if you&#8217;ve been looking for a more affordable option, Woot is selling the Ember Cup in black for $32.99 ($67 off) with a 90-day warranty through November 7th. You can potentially [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/embercupsixouncewithtea_c325e7.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T17:34:23+00:00",
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "1194bdebfc054dadd26cf114e06cc808efc0b5c0132ce4d8137b9fc1ed967e73",
+      "title": "TikTok launched a dedicated TikTok Shop app",
+      "url": "https://www.theverge.com/tech/1027772/tiktok-shop-app",
+      "summary": "TikTok has released a standalone app for TikTok Shop in a few countries, as spotted by social media consultant Matt Navarra. According to its App Store listing, the TikTok Shop app offers: - Personalized picks inspired by your interests - LIVE streams &#38; short videos to see products in action - App-only deals, free shipping [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/unnamed-4.png?quality=90&strip=all&crop=0,21.560786106033,100,38.439126001969",
+      "published_at": "2026-11-05T17:27:36+00:00",
+      "categories": [
+        "Apps",
+        "Creators",
+        "News",
+        "Online Shopping",
+        "Tech",
+        "TikTok"
+      ]
+    },
+    {
+      "item_id": "8f603e6f4ae935c1ff545359a86edf7e86585879afb5b7fc1d60710f06927a0e",
+      "title": "Nintendo says it’s not planning another Switch 2 price hike",
+      "url": "https://www.theverge.com/games/1027757/nintendo-switch-2-price-hike-plans-ram",
+      "summary": "Nintendo president Shuntaro Furukawa said during the company's latest earnings call that it's \"not considering additional changes\" to the Switch 2's price, Reuters reports. The Switch 2 got a $50 price hike earlier this year, bringing its starting price up to $499. Nintendo said in Thursday's earnings report that Switch 2 sales have dropped 37.4 [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/257769_Switch_2_AKrales_0175.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T17:24:39+00:00",
+      "categories": [
+        "Gaming",
+        "News",
+        "Nintendo",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "05f3cbaa12784ab0d017c91cd5f4ab756790d9cf39eaa11b554c9f2663e344e0",
+      "title": "The FAA is finally ditching floppy disks",
+      "url": "https://www.theverge.com/transportation/1027511/faa-floppy-disks-sean-duffy-air-traffic-control-eids",
+      "summary": "It's the year 2026 and the Federal Aviation Administration is still running critical pieces of American airspace on 3.5-inch magnetic floppy disks. But those technology artifacts could be headed for the dustbin after Transportation Secretary Sean Duffy announced an effort to ditch floppy disks in favor of a new digital system. Duffy announced Thursday that [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2277873855.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-05T17:13:42+00:00",
+      "categories": [
+        "Aviation",
+        "News",
+        "Policy",
+        "Transportation"
+      ]
+    },
+    {
+      "item_id": "f77dedc17840cfb31ac7120f56808cfed4312288e5044fd35fb7f33a4db375c2",
+      "title": "Food delivery startup Wonder files for IPO as it explores its next big bite",
+      "url": "https://techcrunch.com/2026/11/05/food-delivery-startup-wonder-files-for-ipo-as-it-explores-its-next-big-bite/",
+      "summary": "Following years of fundraising, acquisitions, and expansion, food delivery startup Wonder is moving closer to becoming a publicly traded company.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T17:11:48+00:00",
+      "categories": [
+        "Startups",
+        "food delivery",
+        "initial public offering",
+        "IPO",
+        "Marc Lore",
+        "wonder"
+      ]
+    },
+    {
+      "item_id": "8351313799451de55481720c33c5f2a69efa93b951c6db04e167fac44adc1b75",
+      "title": "Lyft's new subscription bundles in DoorDash's DashPass for $10 per month",
+      "url": "https://www.engadget.com/2307946/lyfts-new-subscription-bundles-in-doordashs-dashpass-for-dollar10-per-month/",
+      "summary": "DashPass members can get Lyft Go at no extra cost.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/lyfts-new-subscription-bundles-in-doordashs-dashpass-for-10-per-month/l-intro-1793896135.jpg",
+      "published_at": "2026-11-05T16:29:38+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "ec4ef3ed342c756c69797480a80747043512820bd6f1e55acb6792dfd14a0c0f",
+      "title": "Axiom Math wants to keep AI slop out of mathematics",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T16:16:45+00:00",
+      "categories": [
+        "AI",
+        "Startups",
+        "agents",
+        "math"
+      ]
+    },
+    {
+      "item_id": "0a87d89677666b263b14539dd3ba698c93b990eadf07f25c9af88d997626a220",
+      "title": "Sony's MDR-3R wired headphones are steeped in retro aesthetics",
+      "url": "https://www.engadget.com/2304149/sony-mdr-3r-wired-headphones-are-steeped-in-retro-aesthetics/",
+      "summary": "Sony has refreshed a headphone design that dates back to 1979.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/sonys-mdr-3r-wired-headphones-are-soaked-in-retro-aesthetics/l-intro-1793639704.jpg",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "categories": [
+        "Entertainment"
+      ]
+    },
+    {
+      "item_id": "f537b70656e49337f0ea33d321fcd303744415cc3755de374790bb56afa8cbe7",
+      "title": "Instagram's Edits is now on desktop as a Mac app",
+      "url": "https://www.engadget.com/2307169/instagrams-edits-is-now-on-desktop-as-a-mac-app/",
+      "summary": "Meta's CapCut competitor already has more than 50 million users.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/instagrams-edits-is-now-on-desktop-as-a-mac-app/l-intro-1793825322.jpg",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "categories": [
+        "Meta"
+      ]
+    },
+    {
+      "item_id": "8166969253507d4d264a49aafa3bf57f8652cad292254f289c6fc92785fcdc24",
+      "title": "Bluesky hit peak usage for the year on election night",
+      "url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night/",
+      "summary": "Bluesky CEO Toni Schneider said posts and likes doubled during to the U.S. midterm elections on Tuesday.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T15:44:58+00:00",
+      "categories": [
+        "Social",
+        "Bluesky",
+        "In Brief"
+      ]
+    },
+    {
+      "item_id": "3b40a7ab579cc0992b9bfe7a6aca8084e71c748045769630fd49c0d3dd21c409",
+      "title": "Zipline hits $21.5B valuation as Walmart expands bet on drone delivery",
+      "url": "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/",
+      "summary": "Zipline raised $1.5 billion and ramped up its partnership with Walmart.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T15:40:34+00:00",
+      "categories": [
+        "Startups",
+        "Transportation",
+        "drone",
+        "drone delivery",
+        "e-commerce",
+        "Walmart",
+        "zipline"
+      ]
+    },
+    {
+      "item_id": "7e3a8262eea318688d491bf694b55361285375cffa9815353f19a2ea02fe9253",
+      "title": "TikTok quietly launches a stand-alone TikTok Shop app",
+      "url": "https://techcrunch.com/2026/11/05/tiktok-quietly-launches-a-standalone-tiktok-shop-app/",
+      "summary": "The app will offer personalized product recommendations, shopping through livestreams and short-form videos, app-exclusive deals, in-app checkout, order tracking, and customer support.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T15:33:58+00:00",
+      "categories": [
+        "Apps",
+        "Commerce",
+        "e-commerce",
+        "TikTok",
+        "TikTok Shop"
+      ]
+    },
+    {
+      "item_id": "d80a0119ea28b8805f2a095fdf4c58c330e965cbf0b78a918c8d0a80d3c7f1af",
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T15:19:05+00:00",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "cloud storage",
+        "Dropbox",
+        "Mergers and Acquisitions",
+        "Tigris Data"
+      ]
+    },
+    {
+      "item_id": "8e6e5fc6911ef46c18a8d67524fa4f6c8cbd16d0061c4d3629e1d8bbaf224294",
+      "title": "Instagram brings Edits to desktop to take on CapCut",
+      "url": "https://techcrunch.com/2026/11/05/instagram-brings-edits-to-desktop-to-take-on-capcut/",
+      "summary": "The move puts Edits in more direct competition with ByteDance's CapCut, the video-editing app Meta sought to challenge when it launched Edits last year.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T15:00:00+00:00",
+      "categories": [
+        "Apps",
+        "Instagram",
+        "short-form video"
+      ]
+    },
+    {
+      "item_id": "0ed28b94dfb8014ad4897910da4c538a02fac925e68243c9a44b17e327bccb9e",
+      "title": "ElevenLabs now lets users publish AI-generated music directly on SoundCloud",
+      "url": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
+      "summary": "ElevenLabs said more than 25 million tracks have been generated using its music models.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T15:00:00+00:00",
+      "categories": [
+        "Apps",
+        "ai music",
+        "ElevenLabs",
+        "soundcloud"
+      ]
+    },
+    {
+      "item_id": "7682294ab74214a4173141321959fca37bbffee99fe7ddda0e452b5045d7b85a",
+      "title": "WhatsApp is taking on Partiful with expanded Events feature",
+      "url": "https://www.engadget.com/2307395/whatsapp-is-taking-on-partiful-with-expanded-events-feature/",
+      "summary": "The change will allow invites to be sent to guests without WhatsApp accounts.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/whatsapp-is-taking-on-partiful-with-expanded-events-feature/l-intro-1793835609.jpg",
+      "published_at": "2026-11-05T15:00:00+00:00",
+      "categories": [
+        "Apps",
+        "Meta"
+      ]
+    },
+    {
+      "item_id": "6c432df0d3d23765610065c1838d6063085ad7953bb08a3c01c69a3c1435e2d1",
+      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-05T14:42:00+00:00",
+      "categories": [
+        "AI",
+        "Gadgets",
+        "Hardware",
+        "Startups",
+        "AI agents",
+        "smart ring",
+        "wearables"
       ]
     }
   ]
