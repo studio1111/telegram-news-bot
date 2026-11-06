@@ -3636,107 +3636,51 @@
     "7682294ab74214a4173141321959fca37bbffee99fe7ddda0e452b5045d7b85a",
     "https://www.engadget.com/2307395/whatsapp-is-taking-on-partiful-with-expanded-events-feature/",
     "3244b06ae88d6852b0cac02d4cec77c0de93e84b1411fd212e06eef33b27fa52",
-    "https://www.engadget.com/2307215/apple-macbook-pro-with-proled-xdr-display-review/"
+    "https://www.engadget.com/2307215/apple-macbook-pro-with-proled-xdr-display-review/",
+    "1e563eb874a6f2f33b6fd61f82464e6009e7597c6cd2f3809626c949332e8574",
+    "2c335e403d8126053f89e5e5aa58bc48e42775552748a919d8370fd9ea34d39a",
+    "https://www.engadget.com/2308852/the-new-york-times-company-reportedly-trying-to-buy-letterboxd/",
+    "https://www.engadget.com/2308875/tesla-is-winding-down-cybertruck-production-at-its-texas-gigafactory/",
+    "9b9db893e803076968ccce5a06c4e4618259f0902ac7edee027d5abc92a02d0f",
+    "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+    "d5c6ef00ef0ec14801d05d60184c1a2b656d9159780f913658e0ffb715e9456b",
+    "https://www.engadget.com/2309176/eufys-clever-outdoor-security-camera-that-lives-inside-is-now-available-to-buy/",
+    "103ad17f573f9240348174f8d723fb6e046c77772ca69e2dba89fcd13944f778",
+    "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
+    "4d35c9d506991b0d64fda89f71d5066e8b67715e568fc44ee06f2c812774a674",
+    "https://www.theverge.com/tech/1028663/apple-ios-keyboard-blocked-words-autocomplete",
+    "617b4bd2b746254de3b2641bb8b6f6baa4fbbcac6d41a90be97565b908450276",
+    "https://www.engadget.com/2309011/anker-soundcore-space-2-pro-review/",
+    "cc0374f225869f7b0320ddb277c1ff1fdb5cbd2695451369b2a97a938c04d05c",
+    "https://www.theverge.com/entertainment/1028608/other-worlds-a-stranger-things-adventure-netflix-announce-trailer",
+    "2a116711fbe935d8934cf41353edd5219978b21cf67a551ea1f3db61c15c0386",
+    "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+    "cca2bbd0b8159d7160d8cad1a7bb1d7b6ebec51948c03dbb923ec46999ed9c67",
+    "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
+    "4f5854c09315985af30b9c9a33061f28dae549eadf790ae7af41f09d57c207cf",
+    "https://www.engadget.com/2308903/googles-find-hub-can-finally-notify-you-if-youve-left-a-tracker-behind/",
+    "38ce2a3ec10225a9fa227e6947a6d490da2a37aaaff7d2990573eb24415bb8d2",
+    "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+    "72d2d83356e3b2ad09a2fb1a8d44a476b89d1330ed4396838bcfdc46fb8886dc",
+    "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+    "529444f0e2cf909c33138fb4dadbb95d7940f80f3c18342730d567e886379e90",
+    "a1a3811d50b2df0473b72e62e8b79697ba71e0f24faa6e3a757d2654cf1c6177",
+    "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+    "https://www.engadget.com/2306413/samsung-galaxy-watch-ultra-2-review-2026/",
+    "d08f26bc24f97ca8311ecbf32bb1edb434a2e3c4659ae0aa898b7df638bd45df",
+    "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
+    "6c432df0d3d23765610065c1838d6063085ad7953bb08a3c01c69a3c1435e2d1",
+    "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+    "3e7aad2e1d1751fb4c27bfa1f3d4a202b0688014cb69a83d7c88768504fdbb57",
+    "https://techcrunch.com/2026/11/05/radianx-promises-solar-powered-devices-that-never-need-charging/",
+    "8f243f6fad837f3fb859f184f592e41a1b19d3cbf3308e4917b1f4a3db6abfe2",
+    "https://www.engadget.com/2307246/apple-imac-m6-review/",
+    "444a17fdbaf0e749ccdb76f575df1ae8c4b45369d7d3c5a3390e630314c693ce",
+    "https://www.engadget.com/2307614/apple-macbook-pro-m6-review/",
+    "e823793f5791803cfcb7b4d5e1a759e664572765a02a1235bca30d88216064ee",
+    "https://www.engadget.com/2307393/spotify-is-coming-to-uniteds-seatback-screens/"
   ],
   "published_stories": [
-    {
-      "title": "Why your expensive Wi-Fi 7 router could be delivering slower speeds",
-      "summary": "Don't tuck your router away in a corner, even if it is a bit of an eyesore.",
-      "url": "https://www.engadget.com/2288083/wifi-7-router-delivering-lower-speeds-reasons/",
-      "display_title": "چ چرا روتر گران‌قیمت وای‌فای ۷ شما سرعت کمتری ارائه می‌دهد؟",
-      "display_summary": "بسیاری از کاربران با وجود خرید روترهای گران‌قیمت وای‌فای ۷ (Wi-Fi 7) از سرعت پایین اینترنت خود گلایه دارند. کارشناسان معتقدند مواردی نظیر مکان‌یابی نامناسب دستگاه، تداخل امواج و تعداد بالای دستگاه‌های متصل از اصلی‌ترین دلایل این افت سرعت هستند."
-    },
-    {
-      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
-      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-      "display_title": "مایکروسافت: مدل‌های پیشرفته هوش مصنوعی قابل اعتماد نیستند و باید مانند تهدیدات داخلی با آن‌ها رفتار کرد",
-      "display_summary": "شرکت مایکروسافت (Microsoft) هشدار داد که عوامل هوش مصنوعی (AI agents) به دلیل غیرقابل پیش‌بینی بودن می‌توانند خطری مشابه تهدیدات داخلی برای سازمان‌ها باشند. این شرکت ابزارهای امنیتی جدیدی را برای نظارت و کنترل این عوامل معرفی کرده است تا استقلال نظارت بر هوش مصنوعی حفظ شود."
-    },
-    {
-      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-      "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
-      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-      "display_title": "شرکت تنستورنت (Tenstorrent) با جذب سرمایه ۱.۵ میلیارد دلاری به ارزش ۶.۲ میلیارد دلار رسید",
-      "display_summary": "استارتاپ تولید تراشه تنستورنت (Tenstorrent) پس از رد پیشنهادهای خرید از سوی غول‌های فناوری، موفق شد در دور جدید جذب سرمایه ۱.۵ میلیارد دلار سرمایه جذب کند. این سرمایه‌گذاری ارزش شرکت را به ۶.۲ میلیارد دلار رسانده و با هدف توسعه تراشه‌های بهینه برای مدل‌های هوش مصنوعی متن‌باز (Open-Weight) انجام شده است."
-    },
-    {
-      "title": "Why your USB device keeps disconnecting (and how to fix it)",
-      "summary": "If your USB peripheral is on the fritz, it's worth doing some troubleshooting with the port itself. Give these steps a try.",
-      "url": "https://www.engadget.com/2287812/usb-device-disconnecting-reasons/",
-      "display_title": "دلایل قطع و وصل شدن مکرر درگاه‌های یو‌اس‌بی (USB) و روش‌های رفع آن",
-      "display_summary": "قطع و وصل شدن مکرر دستگاه‌های متصل به درگاه یو‌اس‌بی (USB) می‌تواند مشکلات زیادی در کار با رایانه ایجاد کند. این راهنما به بررسی روش‌های عیب‌یابی از جمله بررسی کابل‌ها، پورت‌ها و تنظیمات سیستم‌عامل ویندوز (Windows) برای حل این مشکل می‌پردازد."
-    },
-    {
-      "title": "Amazon is funding a new nuclear plant in Indiana",
-      "summary": "Amazon has signed an agreement with X-energy and American Electric Power (AEP) to fund the building of a new nuclear energy facility in Indiana. The proposed plant, which would replace the now defunct coal-fueled Breed Generating Station in Fairbanks, Sullivan County, aims to provide up to 960 megawatts of carbon-free energy for both the regional [&#8230;]",
-      "url": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
-      "display_title": "سرمایه‌گذاری آمازون برای ساخت یک نیروگاه هسته‌ای جدید در ایندیانا",
-      "display_summary": "شرکت آمازون (Amazon) با امضای توافقی با شرکت‌های اکس‌انرژی (X-energy) و امریکن الکتریک پاور (American Electric Power - AEP)، قصد دارد ساخت یک تأسیسات انرژی هسته‌ای جدید را در ایالت ایندیانا (Indiana) تأمین مالی کند. این نیروگاه جدید قرار است انرژی پاک و بدون کربن مورد نیاز برای مراکز داده آمازون و شبکه برق منطقه‌ای را تأمین کند."
-    },
-    {
-      "title": "TP-Link moves to assemble routers in the US following an import ban",
-      "summary": "Routers could start rolling off a Missouri production line as soon as early 2027.",
-      "url": "https://www.engadget.com/2290313/tp-link-moves-to-assemble-routers-in-the-us-following-an-import-ban/",
-      "display_title": "شرکت تی‌پی-لینک (TP-Link) برای دور زدن ممنوعیت واردات، روترهای خود را در ایالات متحده مونتاژ می‌کند",
-      "display_summary": "شرکت تی‌پی-لینک (TP-Link) پس از ممنوعیت دولت ایالات متحده آمریکا برای فروش تجهیزات مخابراتی خارجی، برنامه‌ریزی برای راه‌اندازی خط تولید روتر در داخل این کشور را آغاز کرده است. بر اساس توافق اولیه با شرکت کی ترونیک (Key Tronic)، تولید این محصولات ممکن است از اوایل سال ۲۰۲۷ میلادی در ایالت می‌سی‌سی‌پی آغاز شود."
-    },
-    {
-      "title": "Don't throw away your old USB charging cables — Repurpose them instead",
-      "summary": "The charger from your three-generations-ago phone can still be useful. Here are several ways to use old cables, both indoors and out.",
-      "url": "https://www.engadget.com/2287681/dont-throw-away-old-usb-charging-cables-repurpose-instead/",
-      "display_title": "کابل‌های شارژ قدیمی یو‌اس‌بی (USB) را دور نیندازید؛ راهکارهایی برای استفاده مجدد",
-      "display_summary": "کابل‌های شارژ قدیمی و گمشده در کشوی میز شما لزوماً بی‌فایده نیستند و می‌توانند دوباره به کار گرفته شوند. از راه‌اندازی ایستگاه‌های شارژ اختصاصی گرفته تا پروژه‌های هنری و باغبانی، روش‌های خلاقانه‌ای برای بازگرداندن این لوازم جانبی به چرخه استفاده وجود دارد."
-    },
-    {
-      "title": "One of the rarest GameCube consoles sells for thousands of dollars today",
-      "summary": "While the GameCube came in several colors, a few of the most elusive variations command thousands from game collectors.",
-      "url": "https://www.engadget.com/2287670/rarest-gamecube-console-sells-for-thousands-dollars-today/",
-      "display_title": "نسخه‌های بسیار کمیاب کنسول گیم‌کیوب با قیمت‌های نجومی معامله می‌شوند",
-      "display_summary": "برخی از کمیاب‌ترین و انحصاری‌ترین نسخه‌های کنسول بازی گیم‌کیوب (GameCube) که در تعداد محدود و به عنوان جوایز مسابقات عرضه شده بودند، امروزه در بازار کلکسیونرها با قیمت‌هایی بین چند هزار تا بیش از ۱۵ هزار دلار به فروش می‌رسند. این مدل‌های خاص شامل نسخه‌های سفارشی بازی‌های محبوب و برندهای تجاری مختلف هستند که ارزش تاریخی و مالی بالایی پیدا کرده‌اند."
-    },
-    {
-      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
-      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
-      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
-      "display_title": "قابلیت جدید اپلیکیشن یلپ (Yelp) برای برقراری تماس تلفنی هوش مصنوعی به منظور بررسی زمان انتظار رستوران‌ها",
-      "display_summary": "شرکت یلپ (Yelp) از قابلیت‌های جدید مبتنی بر هوش مصنوعی رونمایی کرده است که به کاربران اجازه می‌دهد از یک عامل صوتی برای تماس با رستوران‌ها و استعلام زمان انتظار استفاده کنند. این به‌روزرسانی همچنین شامل بهبود دستیار هوش مصنوعی، شخصی‌سازی بهتر و قابلیت‌های جدید برای مدیریت فهرست‌ها است."
-    },
-    {
-      "title": "Some Google Home Speakers caught downloading hundreds of gigs of data",
-      "summary": "Some Google Home Speaker owners are currently experiencing an issue in which hundreds of gigabytes of data are being continuously downloaded to their device in the background. The bug, reported by 9to5Google and several Reddit users over the last week, may be caused by the speakers failing to correctly download and install a firmware update, [&#8230;]",
-      "url": "https://www.theverge.com/tech/1014209/google-home-speaker-bug-continuous-download",
-      "display_title": "برخی از اسپیکرهای گوگل هوم حجم عظیمی از اینترنت را در پس‌زمینه مصرف می‌کنند",
-      "display_summary": "بر اساس گزارش‌های اخیر کاربران در وب‌سایت ردیت (Reddit) و رسانه ناین‌تو‌فایو‌گوگل (9to5Google)، برخی از اسپیکرهای هوشمند گوگل هوم (Google Home Speaker) دچار باگی شده‌اند که باعث دانلود مداوم و بی‌رویه صدها گیگابایت داده در پس‌زمینه می‌شود. شرکت گوگل (Google) اعلام کرده است که از این مشکل آگاهی دارد و در حال انتشار یک بسته اصلاحی برای رفع آن است."
-    },
-    {
-      "title": "Walmart’s Flipkart is quietly building a food delivery challenger in India",
-      "summary": "Flipkart has expanded access to its food-delivery service to thousands of employees ahead of its public launch.",
-      "url": "https://techcrunch.com/2026/10/19/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-india/",
-      "display_title": "شرکت فلای‌پیکارت وابسته به والمارت در حال آماده‌سازی سرویس تحویل غذا در هند است",
-      "display_summary": "شرکت تجارت الکترونیک فلای‌پیکارت (Flipkart) تحت مالکیت والمارت (Walmart)، در حال آزمایش داخلی سرویس تحویل غذا در هند است تا بازار انحصاری زوماتو (Zomato) و سوئیگی (Swiggy) را به چالش بکشد. این شرکت قصد دارد با کمیسیون‌های پایین‌تر و با تکیه بر زیرساخت‌های تجارت سریع خود، این خدمات را به‌زودی به‌صورت عمومی راه‌اندازی کند."
-    },
-    {
-      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
-      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-      "display_title": "شهردار نیویورک: دولت فدرال در قبال هوش مصنوعی کوتاهی کرده است",
-      "display_summary": "زوهران مامدانی (Zohran Mamdani)، شهردار نیویورک، در نشستی اعلام کرد که شهروندان نباید تسلط اجباری هوش مصنوعی را بپذیرند. او از انفعال دولت فدرال در زمینه قانون‌گذاری انتقاد کرد و خواستار مسئولیت‌پذیری شرکت‌های سازنده فناوری شد."
-    },
-    {
-      "title": "Don't put your phone in the TSA bin — do this instead",
-      "summary": "Let's be honest, TSA bins are just gross.",
-      "url": "https://www.engadget.com/2288969/why-shouldnt-put-phone-tsa-bin/",
-      "display_title": "چرا نباید گوشی خود را مستقیماً در سبد بازرسی امنیتی فرودگاه قرار دهید؟",
-      "display_summary": "سبدهای بازرسی اداره امنیت حمل‌ونقل (TSA) در فرودگاه‌ها محل تجمع آلودگی‌ها و باکتری‌ها هستند. کارشناسان توصیه می‌کنند برای حفظ بهداشت و جلوگیری از گم شدن، گوشی هوشمند خود را پیش از رسیدن به گیت بازرسی در کیف دستی یا جیب کاپشن قرار دهید."
-    },
-    {
-      "title": "You can build your own mechanical keyboard, but is it worth the price?",
-      "summary": "If you have both the time and money, building a keyboard can be a fun hobby.",
-      "url": "https://www.engadget.com/2288961/build-keyboard-why-worth-it/",
-      "display_title": "ساخت کیبورد مکانیکی سفارشی؛ آیا هزینه و وقت صرف‌شده ارزشش را دارد؟",
-      "display_summary": "ساخت کیبورد مکانیکی شخصی‌سازی‌شده می‌تواند سرگرمی جذاب اما پرهزینه‌ و زمان‌بری باشد. در این گزارش به بررسی مزایا، هزینه‌ها و گزینه‌های جایگزین مانند کیبوردهای دارای قابلیت تعویض آسان کلید (Hot-swappable) پرداخته‌ایم."
-    },
     {
       "title": "Streaming guide JustWatch becomes a streamer itself",
       "summary": "JustWatch, the popular streaming search guide used by 50 million people, is launching its own streaming service, offering free, ad-supported movies and shows alongside a $3.99-per-month ad-free tier and movie rentals.",
@@ -7138,6 +7082,104 @@
       "url": "https://www.engadget.com/2307395/whatsapp-is-taking-on-partiful-with-expanded-events-feature/",
       "display_title": "قابلیت رویدادها در واتس‌اپ با امکان دعوت از افراد فاقد حساب کاربری گسترش یافت",
       "display_summary": "پیام‌رسان واتس‌اپ (WhatsApp) قابلیت رویدادهای خود را به‌روزرسانی کرده و امکان دعوت از کاربران فاقد حساب کاربری را فراهم کرده است. این تغییرات واتس‌اپ (WhatsApp) را به رقابت مستقیم با پلتفرم‌هایی مانند پارتی‌فول (Partiful) ترغیب می‌کند."
+    },
+    {
+      "title": "All the latest updates on AI data centers",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead [&#8230;]",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "display_title": "موج گسترده مخالفت با مراکز داده هوش مصنوعی در ایالات متحده و چالش‌های انرژی آن",
+      "display_summary": "گسترش سریع مراکز داده وابسته به هوش مصنوعی به یک چالش جدی سیاسی و اجتماعی در ایالات متحده تبدیل شده است. این مراکز با مصرف بالای انرژی و آب، اعتراضات گسترده مردمی و موضع‌گیری‌های دوحزبی را به همراه داشته‌اند و شرکت‌های بزرگی مانند اوپن‌ای‌آی (OpenAI) و آمازون (Amazon) را وادار به تغییر رویکرد کرده‌اند."
+    },
+    {
+      "title": "Eufy's clever outdoor security camera that lives inside is now available to buy",
+      "summary": "The $80 Window Camera E10 sticks to your window, pointed outwards.",
+      "url": "https://www.engadget.com/2309176/eufys-clever-outdoor-security-camera-that-lives-inside-is-now-available-to-buy/",
+      "display_title": "دوربین امنیتی هوشمند جدید شرکت یوپی (Eufy) برای نصب پشت پنجره عرضه شد",
+      "display_summary": "شرکت یوپی (Eufy) زیرمجموعه انکر (Anker)، دوربین امنیتی جدیدی به نام «ویندوز کمرا ای‌۱۰» (Window Camera E10) را با قیمت ۸۰ دلار به بازار عرضه کرده است. این دوربین که در داخل خانه نصب می شود و به سمت بیرون قرار می گیرد، نیاز به سوراخ کاری و نصب پیچیده ندارد."
+    },
+    {
+      "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
+      "summary": "Buying the 4K Blu-ray disc version of KPop Demon Hunters was already going to be a wise idea for some people, especially those who primarily keep their $26.99 Netflix Premium subscription just to watch the hit animated flick in 4K. But at just $24.99 from Barnes and Noble instead of its original $49.95 price, it’s [&#8230;]",
+      "url": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
+      "display_title": "نسخه دیسک بلوری انیمیشن «شکارچیان اهریمن کی‌پاپ» ارزان‌تر از اشتراک ماهانه نتفلیکس شد",
+      "display_summary": "نسخه کلکسیونی و کیفیت بلوری ۴کی انیمیشن محبوب «شکارچیان اهریمن کی‌پاپ» (KPop Demon Hunters) با تخفیف ویژه در فروشگاه‌های «بارنز اند نوبل» (Barnes and Noble) و «آمازون» (Amazon) به قیمت ۲۴.۹۹ دلار به فروش می‌رسد. این قیمت حتی از هزینه اشتراک ماهانه سرویس «نتفلیکس پرمیوم» (Netflix Premium) نیز کمتر است."
+    },
+    {
+      "title": "Apple has a secret list of banned autocomplete phrases including ‘dictator Trump’ and ‘covid is a hoax’",
+      "summary": "A researcher found over 100,000 words and phrases in \"every major language\" that are blocked from autocomplete and swipe-type in iOS, Reuters reports. The researcher, Derik Kauffman, says you can still type the words on the blocklist one letter at a time. But they won't pop up as predictive text suggestions and iOS's keyboard may [&#8230;]",
+      "url": "https://www.theverge.com/tech/1028663/apple-ios-keyboard-blocked-words-autocomplete",
+      "display_title": "فهرست مخفی اپل از عبارات مسدودشده در قابلیت پیش‌بینی متن آی‌اواس",
+      "display_summary": "یک پژوهشگر امنیت توانسته است به فهرست مخفی و گسترده‌ای بیش از ۱۰۰ هزار کلمه و عبارت دست پیدا کند که شرکت اپل (Apple) آن‌ها را از سیستم پیشنهاد خودکار متن و تایپ حرکتی در سیستم‌عامل آی‌اواس (iOS) مسدود کرده است. این فهرست شامل اصطلاحات توهین‌آمیز، مسائل جنسی و مواد مخدر و همچنین برخی عبارات سیاسی و جنجالی است."
+    },
+    {
+      "title": "Anker Soundcore Space 2 Pro review: Big bang for fewer bucks",
+      "summary": "The Space 2 Pro is a set of slightly above average headphones with exceptional voice clarity.",
+      "url": "https://www.engadget.com/2309011/anker-soundcore-space-2-pro-review/",
+      "display_title": "بررسی هدفون انکر ساندکور اسپیس ۲ پرو: کیفیت بی‌نظیر با قیمت مقرون‌به‌صرفه",
+      "display_summary": "شرکت انکر (Anker) با معرفی هدفون ساندکور اسپیس ۲ پرو (Soundcore Space 2 Pro) نشان داد که می‌توان کیفیتی رقابتی با برندهای گران‌قیمت را با نصف قیمت ارائه داد. این محصول با قیمت ۲۰۰ دلار از طراحی پریمیوم، وضوح صدای عالی در مکالمات و شارژدهی مطلوب ۳۰ ساعته بهره می‌برد."
+    },
+    {
+      "title": "Stranger Things is getting a live-action spinoff called Other Worlds",
+      "summary": "Netflix isn't done with Hawkins, Indiana just yet. The streamer just announced a live-action spinoff of Stranger Things which is expected to debut in 2028. It's called Other Worlds: A Stranger Things Adventure. There aren't a lot of details, but the show will be going back in time quite a bit. According to Netflix, Other [&#8230;]",
+      "url": "https://www.theverge.com/entertainment/1028608/other-worlds-a-stranger-things-adventure-netflix-announce-trailer",
+      "display_title": "ساخت سریال فرعی و لایو اکشن «چیزهای عجیب» با نام «جهان‌های دیگر»",
+      "display_summary": "شرکت نتفلیکس از ساخت یک سریال فرعی و لایو اکشن جدید در جهان مجموعه محبوب «چیزهای عجیب» خبر داد. این اثر پیش‌درآمد که «جهان‌های دیگر: ماجراجویی چیزهای عجیب» نام دارد، در دهه ۱۹۵۰ میلادی جریان خواهد داشت و طبق برنامه‌ریزی‌ها قرار است در سال ۲۰۲۸ پخش شود."
+    },
+    {
+      "title": "TikTok&#8217;s For You page needs to change, says the EU",
+      "summary": "The European Commission claims TikTok broke its online platform rules by offering a recommendation algorithm that creates a \"rabbit hole effect\" on users. In an announcement on Friday, the regulators allege TikTok's algorithm can harm users with \"endless and repeated exposure\" to content related to sadness, isolation, or body image. The findings come months after [&#8230;]",
+      "url": "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
+      "display_title": "کمیسیون اروپا: الگوریتم توصیه گر تیک تاک باید تغییر کند",
+      "display_summary": "کمیسیون اروپا اعلام کرد که تیک تاک با ارائه یک الگوریتم توصیه گر که اثر «حلقه گمشدنی» ایجاد می کند، قوانین پلتفرم های آنلاین را نقض کرده است. مقامات رگولاتوری هشدار داده اند که این پلتفرم باید طراحی بخش فید خود را تغییر دهد وگرنه با جریمه های سنگینی مواجه خواهد شد."
+    },
+    {
+      "title": "Underdog shows off a 32MB speech model in new demo",
+      "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "display_title": "رونمایی از مدل صوتی ۳۲ مگابایتی و سبک توسط شرکت اندرداگ (Underdog)",
+      "display_summary": "شرکت اندرداگ (Underdog) مدل صوتی جدید و سبک خود به نام ووف (Woof) را با حجم تنها ۳۲ مگابایت معرفی کرد که توانایی تولید گفتار و موسیقی را به صورت محلی دارد. این مدل به کاربران اجازه می‌دهد بدون وابستگی به اینترنت و سرویس‌های ابری، از قابلیت‌های هوش مصنوعی (AI) روی دستگاه‌های شخصی خود بهره‌مند شوند."
+    },
+    {
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "display_title": "استارتاپ فیزیکل (Physicl) برای توسعه رباتیک ۱۰ میلیون دلار جذب سرمایه کرد",
+      "display_summary": "استارتاپ فیزیکل (Physicl) با جذب ۱۰ میلیون دلار سرمایه اولیه، قصد دارد از فناوری‌های رندرینگ سه‌بعدی برای ساخت شبیه‌سازی‌های واقع‌گرایانه فیزیکی جهت آموزش هوش مصنوعی و ربات‌ها استفاده کند. این شرکت با ابزار جدید خود موسوم به استودیو (Studio)، به توسعه‌دهندگان کمک می‌کند تا چالش‌های مربوط به شکاف میان شبیه‌سازی و دنیای واقعی را برطرف کنند."
+    },
+    {
+      "title": "Perplexity's 'teammates' are the company's AI agents for daily work tasks",
+      "summary": "Perplexity launches personal AI agents that can act as your 'teammates.'",
+      "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
+      "display_title": "معرفی همکاران هوش مصنوعی شرکت پرپلکسیتی برای مدیریت وظایف روزانه کاری",
+      "display_summary": "شرکت پرپلکسیتی (Perplexity) از نسل جدیدی از عوامل هوش مصنوعی خود تحت عنوان «همکاران» (Teammates) رونمایی کرد که قادرند به صورت خودکار و شبانه‌روزی وظایف پیچیده و چندمرحله‌ای کاری را انجام دهند. این ابزار جدید که بر بستر سیستم ابری «کامپیوتر پرپلکسیتی» (Perplexity Computer) فعالیت می‌کند، در حال حاضر به صورت انحصاری برای مشترکین طرح «پرپلکسیتی مکس» (Perplexity Max) با هزینه ماهانه ۲۰۰ دلار در دسترس قرار گرفته است."
+    },
+    {
+      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "display_title": "معرفی حلقه هوشمند «آینا» با صفحه نمایش، جوی‌استیک و میکروفون برای تعامل با عوامل هوش مصنوعی",
+      "display_summary": "استارتاپ «آینا (Aina)» از یک حلقه هوشمند جدید با قیمت ۳۹۹ دلار رونمایی کرد که مجهز به صفحه نمایش، جوی‌استیک، میکروفون و بلندگو است. این گجت پوشیدنی به کاربران اجازه می‌دهد تا با عوامل هوش مصنوعی تعامل داشته باشند، یادداشت‌برداری کنند، تماس تلفنی برقرار کنند و برنامه‌های مختلف را کنترل نمایند."
+    },
+    {
+      "title": "RadianX promises solar-powered devices that never need charging",
+      "summary": "Today’s portable devices are too hungry to run on traditional solar panels, but RadianX says its perovskite cells promise to make charging obsolete in some cases.",
+      "url": "https://techcrunch.com/2026/11/05/radianx-promises-solar-powered-devices-that-never-need-charging/",
+      "display_title": "استارتاپ رادیان‌اکس (RadianX) وعده ساخت دستگاه‌های خورشیدی بدون نیاز به شارژ را داد",
+      "display_summary": "استارتاپ رادیان‌اکس (RadianX) با جذب سرمایه ۹ میلیون دلاری قصد دارد نسل جدیدی از پنل‌های خورشیدی مبتنی بر پرووسکایت (Perovskite) را توسعه دهد. این فناوری جدید توانایی جذب نور در فضاهای داخلی را دو برابر افزایش داده و نوید ساخت گجت‌هایی را می‌دهد که هرگز به شارژ مجدد نیاز ندارند."
+    },
+    {
+      "title": "Apple iMac M6 review: Faster, more expensive and deeply in need of a refresh",
+      "summary": "Most buyers would be better off with a Mac mini and a bigger external display.",
+      "url": "https://www.engadget.com/2307246/apple-imac-m6-review/",
+      "display_title": "بررسی آی‌مک ام۶ اپل: سریع‌تر، گران‌تر و به‌ شدت نیازمند بازطراحی",
+      "display_summary": "رایانه همه‌کاره آی‌مک ام۶ اپل (Apple iMac M6) با پردازنده قدرتمند جدید و بهبودهای چشمگیر در پردازش هوش مصنوعی و گرافیک معرفی شد. با این حال، طراحی تکراری، ابعاد کوچک نمایشگر و افزایش قیمت پایه باعث شده است تا بسیاری از کارشناسان خرید مک مینی (Mac Mini) همراه با یک نمایشگر جداگانه بزرگ‌تر را گزینه اقتصادی‌تر و منطقی‌تری بدانند."
+    },
+    {
+      "title": "Spotify is coming to United's seatback screens",
+      "summary": "The streaming service's entire library of content will be available in the air.",
+      "url": "https://www.engadget.com/2307393/spotify-is-coming-to-uniteds-seatback-screens/",
+      "display_title": "اسپاتیفای روی نمایشگرهای صندلی‌های هواپیماهای یونایتد ایرلاینز عرضه می‌شود",
+      "display_summary": "شرکت اسپاتیفای (Spotify) در همکاری جدید با شرکت هواپیمایی یونایتد ایرلاینز (United Airlines) امکان دسترسی به آرشیو کامل محتوای صوتی و تصویری خود را از طریق نمایشگرهای پشتی صندلی در هواپیماهای مجهز به اینترنت ماهواره‌ای استارلینک (Starlink) فراهم می‌کند. مسافران می‌توانند با اتصال رایگان به وای‌فای پرواز و اسکن بارکد دوبعدی (QR code)، به پروفایل و پلی‌لیست‌های شخصی خود روی نمایشگر دسترسی پیدا کنند."
     }
   ],
   "outbox": [
@@ -11821,12 +11863,180 @@
     {
       "key": "url:7682294ab74214a4173141321959fca37bbffee99fe7ddda0e452b5045d7b85a",
       "url": "https://www.engadget.com/2307395/whatsapp-is-taking-on-partiful-with-expanded-events-feature/",
+      "message": "<b>📰 قابلیت رویدادها در واتس‌اپ با امکان دعوت از افراد فاقد حساب کاربری گسترش یافت</b>\n\nپیام‌رسان واتس‌اپ (WhatsApp) قابلیت رویدادهای خود را به‌روزرسانی کرده و امکان دعوت از کاربران فاقد حساب کاربری را فراهم کرده است. این تغییرات واتس‌اپ (WhatsApp) را به رقابت مستقیم با پلتفرم‌هایی مانند پارتی‌فول (Partiful) ترغیب می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پیام‌رسان واتس‌اپ (WhatsApp) با ارائه به‌روزرسانی جدیدی برای قابلیت رویدادها (Events)، گام مهمی در جهت رقابت با پلتفرم برنامه‌ریزی مهمانی پارتی‌فول (Partiful) برداشته است. این قابلیت جدید به کاربران اجازه می‌دهد تا برنامه‌ها و قرار ملاقات‌های خود را به صورت متمرکز مدیریت کرده و به تمامی رویدادهای گذشته و آینده به همراه وضعیت پاسخ‌ها (RSVP) دسترسی داشته باشند. بر اساس اعلام شرکت متا (Meta)، این ویژگی طی هفته‌های آینده برای تمامی کاربران عرضه خواهد شد. میزبانان می‌توانند رویدادهای خود را با افزودن عکس سربرگ (Header photo) شخصی‌سازی کرده و یادآورهای سفارشی را برای مهمانان ارسال نمایند. یکی از ویژگی‌های برجسته این به‌روزرسانی، امکان دعوت از افرادی است که حساب کاربری واتس‌اپ (WhatsApp) ندارند؛ این افراد می‌توانند بدون نیاز به ثبت‌نام یا استفاده از برنامه، جزئیات رویداد را مشاهده کرده و به دعوت‌نامه پاسخ دهند. از نظر حریم خصوصی، واتس‌اپ (WhatsApp) تمهیداتی در نظر گرفته است تا شماره تلفن میزبان به مهمانانی که او را نمی‌شناسند نمایش داده نشود. همچنین، کاربرانی که حساب کاربری ندارند، تا پیش از اعلام حضور (RSVP) قادر به مشاهده آدرس دقیق رویداد نخواهند بود. این به‌روزرسانی در حالی ارائه می‌شود که واتس‌اپ (WhatsApp) اخیراً تلاش‌های خود را برای ارتباط با افراد خارج از این شبکه افزایش داده است. ماه گذشته نیز این پیام‌رسان امکان پیوستن افراد بدون حساب کاربری به تماس‌های ویدیویی را فراهم کرده بود. افزون بر این، افزودن قابلیت نام‌های کاربری (Usernames) در سال جاری به افراد اجازه می‌دهد بدون به اشتراک گذاشتن شماره تلفن خود از سرویس استفاده کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/whatsapp-is-taking-on-partiful-with-expanded-events-feature/l-intro-1793835609.jpg",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "WhatsApp is taking on Partiful with expanded Events feature",
       "summary": "The change will allow invites to be sent to guests without WhatsApp accounts.",
       "display_title": "قابلیت رویدادها در واتس‌اپ با امکان دعوت از افراد فاقد حساب کاربری گسترش یافت",
-      "display_summary": "پیام‌رسان واتس‌اپ (WhatsApp) قابلیت رویدادهای خود را به‌روزرسانی کرده و امکان دعوت از کاربران فاقد حساب کاربری را فراهم کرده است. این تغییرات واتس‌اپ (WhatsApp) را به رقابت مستقیم با پلتفرم‌هایی مانند پارتی‌فول (Partiful) ترغیب می‌کند.",
-      "message": "<b>📰 قابلیت رویدادها در واتس‌اپ با امکان دعوت از افراد فاقد حساب کاربری گسترش یافت</b>\n\nپیام‌رسان واتس‌اپ (WhatsApp) قابلیت رویدادهای خود را به‌روزرسانی کرده و امکان دعوت از کاربران فاقد حساب کاربری را فراهم کرده است. این تغییرات واتس‌اپ (WhatsApp) را به رقابت مستقیم با پلتفرم‌هایی مانند پارتی‌فول (Partiful) ترغیب می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پیام‌رسان واتس‌اپ (WhatsApp) با ارائه به‌روزرسانی جدیدی برای قابلیت رویدادها (Events)، گام مهمی در جهت رقابت با پلتفرم برنامه‌ریزی مهمانی پارتی‌فول (Partiful) برداشته است. این قابلیت جدید به کاربران اجازه می‌دهد تا برنامه‌ها و قرار ملاقات‌های خود را به صورت متمرکز مدیریت کرده و به تمامی رویدادهای گذشته و آینده به همراه وضعیت پاسخ‌ها (RSVP) دسترسی داشته باشند. بر اساس اعلام شرکت متا (Meta)، این ویژگی طی هفته‌های آینده برای تمامی کاربران عرضه خواهد شد. میزبانان می‌توانند رویدادهای خود را با افزودن عکس سربرگ (Header photo) شخصی‌سازی کرده و یادآورهای سفارشی را برای مهمانان ارسال نمایند. یکی از ویژگی‌های برجسته این به‌روزرسانی، امکان دعوت از افرادی است که حساب کاربری واتس‌اپ (WhatsApp) ندارند؛ این افراد می‌توانند بدون نیاز به ثبت‌نام یا استفاده از برنامه، جزئیات رویداد را مشاهده کرده و به دعوت‌نامه پاسخ دهند. از نظر حریم خصوصی، واتس‌اپ (WhatsApp) تمهیداتی در نظر گرفته است تا شماره تلفن میزبان به مهمانانی که او را نمی‌شناسند نمایش داده نشود. همچنین، کاربرانی که حساب کاربری ندارند، تا پیش از اعلام حضور (RSVP) قادر به مشاهده آدرس دقیق رویداد نخواهند بود. این به‌روزرسانی در حالی ارائه می‌شود که واتس‌اپ (WhatsApp) اخیراً تلاش‌های خود را برای ارتباط با افراد خارج از این شبکه افزایش داده است. ماه گذشته نیز این پیام‌رسان امکان پیوستن افراد بدون حساب کاربری به تماس‌های ویدیویی را فراهم کرده بود. افزون بر این، افزودن قابلیت نام‌های کاربری (Usernames) در سال جاری به افراد اجازه می‌دهد بدون به اشتراک گذاشتن شماره تلفن خود از سرویس استفاده کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/whatsapp-is-taking-on-partiful-with-expanded-events-feature/l-intro-1793835609.jpg",
+      "display_summary": "پیام‌رسان واتس‌اپ (WhatsApp) قابلیت رویدادهای خود را به‌روزرسانی کرده و امکان دعوت از کاربران فاقد حساب کاربری را فراهم کرده است. این تغییرات واتس‌اپ (WhatsApp) را به رقابت مستقیم با پلتفرم‌هایی مانند پارتی‌فول (Partiful) ترغیب می‌کند."
+    },
+    {
+      "key": "url:f8fe21ba7f368ed10ce0a3c0e1659178f895d9eae8a89112274a09de130c90c2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "title": "All the latest updates on AI data centers",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead [&#8230;]",
+      "display_title": "موج گسترده مخالفت با مراکز داده هوش مصنوعی در ایالات متحده و چالش‌های انرژی آن",
+      "display_summary": "گسترش سریع مراکز داده وابسته به هوش مصنوعی به یک چالش جدی سیاسی و اجتماعی در ایالات متحده تبدیل شده است. این مراکز با مصرف بالای انرژی و آب، اعتراضات گسترده مردمی و موضع‌گیری‌های دوحزبی را به همراه داشته‌اند و شرکت‌های بزرگی مانند اوپن‌ای‌آی (OpenAI) و آمازون (Amazon) را وادار به تغییر رویکرد کرده‌اند.",
+      "message": "<b>📰 موج گسترده مخالفت با مراکز داده هوش مصنوعی در ایالات متحده و چالش‌های انرژی آن</b>\n\nگسترش سریع مراکز داده وابسته به هوش مصنوعی به یک چالش جدی سیاسی و اجتماعی در ایالات متحده تبدیل شده است. این مراکز با مصرف بالای انرژی و آب، اعتراضات گسترده مردمی و موضع‌گیری‌های دوحزبی را به همراه داشته‌اند و شرکت‌های بزرگی مانند اوپن‌ای‌آی (OpenAI) و آمازون (Amazon) را وادار به تغییر رویکرد کرده‌اند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>رشد انفجاری هوش مصنوعی و نیاز روزافزون آن به زیرساخت‌های فیزیکی، موجی از مخالفت‌ها و تنش‌های اجتماعی را در سراسر ایالات متحده رقم زده است. مراکز داده عظیم که به عنوان پایه و اساس پردازش‌های سنگین شرکت‌های فناوری عمل می‌کنند، به دلیل مصرف سرسام‌آور برق و آب، تأثیر منفی بر شبکه انرژی و محیط زیست، به یکی از جنجالی‌ترین موضوعات روز تبدیل شده‌اند. بر اساس گزارش‌های اخیر، رأی‌دهندگان و جوامع محلی در ایالات مختلف نظیر تگزاس، اوهایو و مین به شدت با ساخت‌وساز بی‌رویه این تأسیسات مخالفت کرده‌اند. این نارضایتی عمومی در انتخابات میان‌دوره‌ای نیز بازتاب یافت و نامزدهای حامی محدودسازی یا توقف موقت توسعه مراکز داده توانستند آرای قابل توجهی کسب کنند. منتقدان نگرانند که افزایش تقاضای برق توسط این مراکز، شبکه انرژی را تحت فشار قرار داده و شرکت‌های سازنده را به استفاده بیشتر از سوخت‌های فسیلی و نیروگاه‌های گازسوز وادار کند که این امر دستاوردهای زیست‌محیطی دهه‌های اخیر را تهدید می‌کند. در پاسخ به این فشارهای فزاینده، غول‌های فناوری و هوش مصنوعی ناچار به بازنگری در سیاست‌های خود شده‌اند. شرکت اوپن‌ای‌آی (OpenAI) اعلام کرده است که استفاده از توافق‌نامه‌های عدم افشا (NDA) با مقامات محلی را محدود کرده و تلاش می‌کند با برنامه‌هایی مانند «پروژه محافظان شبکه» (Grid Protectors Program) بخشی از انرژی مورد نیاز را در شرایط بحرانی به شبکه محلی بازگرداند. همچنین این شرکت‌ها کوشیده‌اند با تغییر نام این مراکز به «پردیس‌های پردازشی» (Compute Campuses) از حساسیت‌های عمومی بکاهند. با این وجود، چالش‌های مربوط به تأمین انرژی، افزایش هزینه‌های آب و برق و مقاومت جوامع محلی همچنان به عنوان یکی از موانع اصلی بر سر راه توسعه صنعت هوش مصنوعی باقی مانده است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:d5c6ef00ef0ec14801d05d60184c1a2b656d9159780f913658e0ffb715e9456b",
+      "url": "https://www.engadget.com/2309176/eufys-clever-outdoor-security-camera-that-lives-inside-is-now-available-to-buy/",
+      "title": "Eufy's clever outdoor security camera that lives inside is now available to buy",
+      "summary": "The $80 Window Camera E10 sticks to your window, pointed outwards.",
+      "display_title": "دوربین امنیتی هوشمند جدید شرکت یوپی (Eufy) برای نصب پشت پنجره عرضه شد",
+      "display_summary": "شرکت یوپی (Eufy) زیرمجموعه انکر (Anker)، دوربین امنیتی جدیدی به نام «ویندوز کمرا ای‌۱۰» (Window Camera E10) را با قیمت ۸۰ دلار به بازار عرضه کرده است. این دوربین که در داخل خانه نصب می شود و به سمت بیرون قرار می گیرد، نیاز به سوراخ کاری و نصب پیچیده ندارد.",
+      "message": "<b>📰 دوربین امنیتی هوشمند جدید شرکت یوپی (Eufy) برای نصب پشت پنجره عرضه شد</b>\n\nشرکت یوپی (Eufy) زیرمجموعه انکر (Anker)، دوربین امنیتی جدیدی به نام «ویندوز کمرا ای‌۱۰» (Window Camera E10) را با قیمت ۸۰ دلار به بازار عرضه کرده است. این دوربین که در داخل خانه نصب می شود و به سمت بیرون قرار می گیرد، نیاز به سوراخ کاری و نصب پیچیده ندارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>دوربین های امنیتی فضای باز ابزارهای بسیار مفیدی برای محافظت از منازل هستند، اما نصب آن ها همیشه به دلیل محدودیت های ساختمانی، قوانین اجاره خانه یا دشواری های کار با دریل و ابزارآلات برای همه کاربران امکان پذیر نیست. شرکت انکر (Anker) از طریق زیرمجموعه خود یعنی یوپی (Eufy)، راه حل تازه ای برای این مشکل ارائه کرده است. دوربین امنیتی جدید این شرکت با نام «ویندوز کمرا ای‌۱۰» (Window Camera E10) که نخستین بار در نمایشگاه ایفا (IFA) معرفی شده بود، هم اکنون در بازار ایالات متحده آمریکا قابل خریداری است. این محصول در واقع یک دوربین داخلی (Indoor Camera) است که کاربران می توانند آن را به کمک چسب بدون اثر باقی گذار مکنده یا مخصوص، مستقیماً روی شیشه پنجره بچسبانند به طوری که لنز آن به سمت بیرون خانه باشد. این روش نصب کاملاً بدون نیاز به ابزار انجام می شود. علاوه بر این، دستگاه «ویندوز کمرا ای‌۱۰» (Window Camera E10) مجهز به یک مکانیسم چرخش دستی با قابلیت تنظیم زاویه تا ۲۵ درجه به سمت پایین است تا کاربران بتوانند بهترین زاویه دید را برای نظارت بر محیط بیرون تنظیم کنند. از نظر مشخصات فنی، این دوربین از کیفیت تصویر ۲.۵K، زوم دیجیتال تا ۸ برابر و فناوری دید در شب رنگی موسوم به «مکس‌کالر نایت ویژن» (MaxColor Night Vision) برای ضبط تصاویر در تاریکی شب بهره می برد. ویدیوها روی کارت حافظه میکرو اس‌دی (microSD) با ظرفیت حداکثر ۲۵۶ گیگابایت ذخیره می شوند، البته این کارت حافظه به صورت جداگانه فروخته می شود و درون جعبه دستگاه وجود ندارد. ضبط تصویر از پشت شیشه پنجره معمولاً به دلیل بازتاب نور با چالش هایی همراه است، اما شرکت انکر (Anker) اعلام کرده که با طراحی لنز هم سطح با شیشه، توانسته است مشکل بازتاب نور پس زمینه را حل کند. طبق اعلام این شرکت، شیشه های شفاف تک جداره یا دوجداره بهترین عملکرد را دارند. با این حال، اگر پنجره ها بسیار ضخیم باشند یا چراغ های روشن در داخل خانه بازتاب ایجاد کنند، ممکن است تصویر با خیرگی نور مواجه شود. همچنین استفاده از این دوربین روی شیشه های مات یا طرح دار امکان پذیر نیست و برای آپارتمان های واقع در طبقات بسیار بالا نیز به دلیل نقاط کور زیاد توصیه نمی شود. این دوربین مجهز به میکروفون داخلی برای ضبط صداهای محیطی است، هرچند کیفیت ضبط صدا به ضخامت شیشه بستگی دارد. «ویندوز کمرا ای‌۱۰» (Window Camera E10) از وای‌فای (Wi-Fi) دو بانده ۲.۴ و ۵ گیگاهرتز پشتیبانی می کند و قابلیت ضبط شبانه روزی (۲۴/۷) را دارد. قابلیت تشخیص هوش مصنوعی (AI) برای شناسایی انسان ها، حیوانات خانگی و وسایل نقلیه نیز در این دستگاه تعبیه شده است و کاربران برای استفاده از حافظه محلی نیازی به پرداخت حق اشتراک ماهانه ندارند. تنها چالش احتمالی برای برخی خانه ها، نیاز به تامین برق دوربین از طریق کابل یو‌اس‌بی تایپ-سی (USB-C) است، زیرا تمام دوربین های داخلی نیاز به پریز برق دارند و ممکن است همه پنجره ها در نزدیکی پریز برق نباشند؛ این دستگاه مدل باتری‌خور ندارد. دوربین امنیتی «ویندوز کمرا ای‌۱۰» (Window Camera E10) هم اکنون با قیمت ۸۰ دلار در دسترس علاقه مندان قرار دارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/eufys-clever-outdoor-security-camera-that-lives-inside-is-now-available-to-buy/l-intro-1793981717.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:c4fe188e8afc7714ccb13291dabfb2b4054d1e436fe0c251fe9916128b77131d",
+      "url": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
+      "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
+      "summary": "Buying the 4K Blu-ray disc version of KPop Demon Hunters was already going to be a wise idea for some people, especially those who primarily keep their $26.99 Netflix Premium subscription just to watch the hit animated flick in 4K. But at just $24.99 from Barnes and Noble instead of its original $49.95 price, it’s [&#8230;]",
+      "display_title": "نسخه دیسک بلوری انیمیشن «شکارچیان اهریمن کی‌پاپ» ارزان‌تر از اشتراک ماهانه نتفلیکس شد",
+      "display_summary": "نسخه کلکسیونی و کیفیت بلوری ۴کی انیمیشن محبوب «شکارچیان اهریمن کی‌پاپ» (KPop Demon Hunters) با تخفیف ویژه در فروشگاه‌های «بارنز اند نوبل» (Barnes and Noble) و «آمازون» (Amazon) به قیمت ۲۴.۹۹ دلار به فروش می‌رسد. این قیمت حتی از هزینه اشتراک ماهانه سرویس «نتفلیکس پرمیوم» (Netflix Premium) نیز کمتر است.",
+      "message": "<b>📰 نسخه دیسک بلوری انیمیشن «شکارچیان اهریمن کی‌پاپ» ارزان‌تر از اشتراک ماهانه نتفلیکس شد</b>\n\nنسخه کلکسیونی و کیفیت بلوری ۴کی انیمیشن محبوب «شکارچیان اهریمن کی‌پاپ» (KPop Demon Hunters) با تخفیف ویژه در فروشگاه‌های «بارنز اند نوبل» (Barnes and Noble) و «آمازون» (Amazon) به قیمت ۲۴.۹۹ دلار به فروش می‌رسد. این قیمت حتی از هزینه اشتراک ماهانه سرویس «نتفلیکس پرمیوم» (Netflix Premium) نیز کمتر است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>با تخفیف جدید اعمال شده روی نسخه بلوری ۴کی (4K Blu-ray) انیمیشن پرطرفدار «شکارچیان اهریمن کی‌پاپ» (KPop Demon Hunters)، علاقه‌مندان به سینما می‌توانند این اثر را با بهای کمتری نسبت به یک ماه اشتراک سرویس‌های استریم تهیه کنند. این مجموعه که توسط مجموعه معتبر «کریترون کالکشن» (The Criterion Collection) عرضه شده، در حال حاضر با تخفیف ۵۰ درصدی و با قیمت ۲۴.۹۹ دلار به‌جای قیمت اصلی ۴۹.۹۵ دلار در فروشگاه‌های بزرگی نظیر «آمازون» (Amazon) و «بارنز اند نوبل» (Barnes and Noble) قابل خریداری است. این تخفیف چشمگیر، خرید نسخه فیزیکی این انیمیشن را برای کسانی که پیش‌تر به خاطر کیفیت تصویر بالا اشتراک ۲۶.۹۹ دلاری «نتفلیکس پرمیوم» (Netflix Premium) را حفظ کرده بودند، به گزینه‌ای بسیار به‌صرفه تبدیل می‌کند. این بسته ویژه علاوه بر دیسک دیجیتال ۴کی مجهز به فناوری‌های «دالبی ویژن اچ‌دی‌ار» (Dolby Vision HDR) و صدای «دالبی اتموس» (Dolby Atmos)، شامل دو دیسک بلوری استاندارد ۱۰۸۰پی (1080p) نیز می‌شود که یکی حاوی فیلم اصلی و دیگری دربردارنده محتواهای اضافه‌تری نظیر مستند پشت صحنه و ویدیوهای موزیکال است. علاوه بر کیفیت بالای فنی، این مجموعه شامل اقلام فیزیکی کلکسیونی از جمله کارت‌پستال‌های اختصاصی و مقاله‌ای به قلم «کارن هان» (Karen Han) از وب‌سایت «پولیگان» (Polygon) است. با توجه به نزدیک شدن به فصل تعطیلات، این تخفیف فرصتی استثنایی برای طرفداران سینما و جمع‌آوری‌کنندگان دیسک‌های فیزیکی فراهم کرده است تا یکی از آثار برجسته انیمیشنی را با بهایی مناسب به مجموعه خود اضافه کنند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/KpopDemonHunters_ProRes422HQ_SDR_2ch_20250424.01_04_39_22.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:ceea0ea6bf6daa8eff1414566968d6bc3c047e7e5be57938703bf4e784686dc1",
+      "url": "https://www.theverge.com/tech/1028663/apple-ios-keyboard-blocked-words-autocomplete",
+      "title": "Apple has a secret list of banned autocomplete phrases including ‘dictator Trump’ and ‘covid is a hoax’",
+      "summary": "A researcher found over 100,000 words and phrases in \"every major language\" that are blocked from autocomplete and swipe-type in iOS, Reuters reports. The researcher, Derik Kauffman, says you can still type the words on the blocklist one letter at a time. But they won't pop up as predictive text suggestions and iOS's keyboard may [&#8230;]",
+      "display_title": "فهرست مخفی اپل از عبارات مسدودشده در قابلیت پیش‌بینی متن آی‌اواس",
+      "display_summary": "یک پژوهشگر امنیت توانسته است به فهرست مخفی و گسترده‌ای بیش از ۱۰۰ هزار کلمه و عبارت دست پیدا کند که شرکت اپل (Apple) آن‌ها را از سیستم پیشنهاد خودکار متن و تایپ حرکتی در سیستم‌عامل آی‌اواس (iOS) مسدود کرده است. این فهرست شامل اصطلاحات توهین‌آمیز، مسائل جنسی و مواد مخدر و همچنین برخی عبارات سیاسی و جنجالی است.",
+      "message": "<b>📰 فهرست مخفی اپل از عبارات مسدودشده در قابلیت پیش‌بینی متن آی‌اواس</b>\n\nیک پژوهشگر امنیت توانسته است به فهرست مخفی و گسترده‌ای بیش از ۱۰۰ هزار کلمه و عبارت دست پیدا کند که شرکت اپل (Apple) آن‌ها را از سیستم پیشنهاد خودکار متن و تایپ حرکتی در سیستم‌عامل آی‌اواس (iOS) مسدود کرده است. این فهرست شامل اصطلاحات توهین‌آمیز، مسائل جنسی و مواد مخدر و همچنین برخی عبارات سیاسی و جنجالی است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بر اساس گزارش خبرگزاری رویترز (Reuters)، یک پژوهشگر امنیتی موفق شده است فهرست مخفیانه‌ای حاوی بیش از ۱۰۰ هزار واژه و عبارت را در «تمامی زبان‌های اصلی» کشف کند که در سیستم‌عامل آی‌اواس (iOS) شرکت اپل (Apple) برای قابلیت‌های پیش‌بینی متن (Autocomplete) و تایپ حرکتی (Swipe-type) مسدود شده‌اند. این پژوهشگر که «دریک کافمن (Derik Kauffman)» نام دارد، اعلام کرده است که کاربران همچنان می‌توانند این کلمات مسدودشده را به صورت دستی و حرف به حرف تایپ کنند، اما این واژه‌ها به عنوان پیشنهادهای متن پیش‌بینی‌کننده ظاهر نخواهند شد. همچنین کیبورد آی‌اواس (iOS) ممکن است هنگام تایپ حرکتی، این عبارات را به طور خودکار تغییر دهد؛ برای نمونه، عبارت «توطئه جناح چپ» (left wing conspiracy) را به «توطئه اشتباه جناح چپ» (left wrong conspiracy) تبدیل می‌کند. کافمن با استفاده از ابزارهای هوش مصنوعی شرکت اوپن‌ای‌آی (OpenAI) یعنی مدل کُدکس (Codex) و ابزار کلاود کد (Claude Code) از شرکت آنتروپیک (Anthropic)، توانسته است این فهرست را که به صورت جدول هش (Hash table) در اعماق سیستم‌عامل آی‌اواس (iOS) ذخیره شده بود، استخراج کرده و به متن تبدیل کند. پژوهشگر دیگری نیز تأیید کرده که توانسته به طور مستقل به همین فهرست دسترسی پیدا کند. بخش عمده‌ای از این واژه‌ها و عبارات مسدودشده شامل اصطلاحات توهین‌آمیز، ناسزاها و موضوعاتی پیرامون مسائل جنسی و مواد مخدر است. با این حال، در میان آن‌ها عبارات سیاسی جنجالی مانند «مهاجر غیرقانونی» (illegal immigrant)، «ترامپ دیکتاتور» (dictator Trump)، «جو خوابالو» (sleepy Joe)، «کووید یک توطئه بود» (covid was a hoax) و همچنین عبارت نسبتاً بی‌خطرتر «بابانوئل واقعی نیست» (Santa isn&#x27;t real) و «آی‌مسیج کار نمی‌کند» (iMessage isn&#x27;t working) نیز به چشم می‌خورد. بررسی‌ها نشان داده است که برخی تناقض‌ها نیز در این فهرست وجود دارد؛ مثلاً عبارت «دختر بد» (bad girl) مسدود شده اما عبارت متناظر آن یعنی «پسر بد» (bad boy) مسدود نشده است. شرکت اپل (Apple) در واکنش به این موضوع اعلام کرده است که صفحه کلید این شرکت به گونه‌ای طراحی شده تا از ارائه پیشنهادهای به‌طور بالقوه نامناسب یا توهین‌آمیز جلوگیری کند، با این حال کاربران آیفون (iPhone) همچنان آزادی دارند تا هر چه می‌خواهند را تایپ کرده یا پیشنهادهای متن پیش‌بینی‌کننده را نادیده بگیرند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/DSC_2327.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:617b4bd2b746254de3b2641bb8b6f6baa4fbbcac6d41a90be97565b908450276",
+      "url": "https://www.engadget.com/2309011/anker-soundcore-space-2-pro-review/",
+      "title": "Anker Soundcore Space 2 Pro review: Big bang for fewer bucks",
+      "summary": "The Space 2 Pro is a set of slightly above average headphones with exceptional voice clarity.",
+      "display_title": "بررسی هدفون انکر ساندکور اسپیس ۲ پرو: کیفیت بی‌نظیر با قیمت مقرون‌به‌صرفه",
+      "display_summary": "شرکت انکر (Anker) با معرفی هدفون ساندکور اسپیس ۲ پرو (Soundcore Space 2 Pro) نشان داد که می‌توان کیفیتی رقابتی با برندهای گران‌قیمت را با نصف قیمت ارائه داد. این محصول با قیمت ۲۰۰ دلار از طراحی پریمیوم، وضوح صدای عالی در مکالمات و شارژدهی مطلوب ۳۰ ساعته بهره می‌برد.",
+      "message": "<b>📰 بررسی هدفون انکر ساندکور اسپیس ۲ پرو: کیفیت بی‌نظیر با قیمت مقرون‌به‌صرفه</b>\n\nشرکت انکر (Anker) با معرفی هدفون ساندکور اسپیس ۲ پرو (Soundcore Space 2 Pro) نشان داد که می‌توان کیفیتی رقابتی با برندهای گران‌قیمت را با نصف قیمت ارائه داد. این محصول با قیمت ۲۰۰ دلار از طراحی پریمیوم، وضوح صدای عالی در مکالمات و شارژدهی مطلوب ۳۰ ساعته بهره می‌برد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت انکر (Anker) بار دیگر با عرضه هدفون جدید ساندکور اسپیس ۲ پرو (Soundcore Space 2 Pro) ثابت کرد که برای داشتن یک تجربه صوتی باکیفیت و پریمیوم، نیازی به پرداخت هزینه‌های سنگین ۳۵۰ تا ۵۰۰ دلاری برای برندهایی نظیر اپل (Apple)، بوز (Bose) یا سونی (Sony) نیست. این مدل جدید که با برچسب قیمتی ۲۰۰ دلار روانه بازار شده، فراتر از یک جایگزین اقتصادی عمل می‌کند و به عنوان یک رقیب جدی در بازار شناخته می‌شود. طراحی و کیفیت ساخت اسپیس ۲ پرو (Space 2 Pro) بسیار فراتر از رده قیمتی خود ظاهر شده است. نسخه خاکستری این محصول دارای بدگاهی سبک، جذاب و باکیفیت است که از ترکیب پلاستیک مرغوب، لولاهای فلزی و چرم نرم برای هدبند و بالشتک‌های گوش استفاده می‌کند. در بخش عملکرد صوتی، درایورهای ۳۵ میلی‌متری این هدفون توانسته‌اند بیس عمیق و وضوح بالای فرکانس‌های بالا را به خوبی ترکیب کنند. خروجی صدا در سبک‌های مختلف صوتی، از جمله موسیقی‌های آکوستیک و راک، جزئیات دقیق و تفکیک مناسبی را ارائه می‌دهد. یکی از نقاط قوت برجسته این محصول که انکر (Anker) به آن بالیده، رکورد جهانی گینس برای «واضح‌ترین هدفون روی گوش (Over-ear) برای مکالمه» است. بهره‌گیری از تراشه صوتی جدید به نام داس (Thus) و آرایش ۶ میکروفونی باعث شده تا صدای کاربر در هنگام مکالمه باکیفیت و طبیعی منتقل شود، بدون آنکه حالت دیجیتالی یا رباتیک پیدا کند. همچنین در بخش باتری، این هدفون با فعال بودن قابلیت حذف نویز فعال (ANC) توانسته به وعده ۳۰ ساعته خود جامه عمل بپوشاند. با این حال، اسپیس ۲ پرو (Space 2 Pro) خالی از ضعف نیست. برخی ویژگی‌های صوتی تکمیلی مانند سیستم سفارشی‌سازی صدا موسوم به هیر آی‌دی (Hear ID) یا قابلیت‌های صوتی فضایی، تفاوت چشمگیری در کیفیت کلی ایجادچندان نمی‌کنند. عملکرد سیستم حذف نویز فعال تطبیقی (Adaptive ANC) نیز اگرچه در حذف صداهای یکنواخت مانند کیبورد موفق است، اما در برابر نویزهای مداوم عملکردی در حد متوسط دارد. در مجموع، هدفون ساندکور اسپیس ۲ پرو (Soundcore Space 2 Pro) با طراحی جذاب، راحتی استفاده، شارژدهی واقعی و وضوح فوق‌العاده در مکالمات، ارزش خرید بالایی دارد. انکر (Anker) با این محصولنشان داد که محصولات اقتصادی این شرکت می‌توانند شانه‌به‌شانه پرچمداران بازار حرکت کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/anker-soundcore-space-2-pro-review-big-bang-for-less-bucks/l-intro-1793975820.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:fb8298988cb30a3cbbea20dc21331eceb5b93a4233e6c72996e522d9b568ab1a",
+      "url": "https://www.theverge.com/entertainment/1028608/other-worlds-a-stranger-things-adventure-netflix-announce-trailer",
+      "title": "Stranger Things is getting a live-action spinoff called Other Worlds",
+      "summary": "Netflix isn't done with Hawkins, Indiana just yet. The streamer just announced a live-action spinoff of Stranger Things which is expected to debut in 2028. It's called Other Worlds: A Stranger Things Adventure. There aren't a lot of details, but the show will be going back in time quite a bit. According to Netflix, Other [&#8230;]",
+      "display_title": "ساخت سریال فرعی و لایو اکشن «چیزهای عجیب» با نام «جهان‌های دیگر»",
+      "display_summary": "شرکت نتفلیکس از ساخت یک سریال فرعی و لایو اکشن جدید در جهان مجموعه محبوب «چیزهای عجیب» خبر داد. این اثر پیش‌درآمد که «جهان‌های دیگر: ماجراجویی چیزهای عجیب» نام دارد، در دهه ۱۹۵۰ میلادی جریان خواهد داشت و طبق برنامه‌ریزی‌ها قرار است در سال ۲۰۲۸ پخش شود.",
+      "message": "<b>📰 ساخت سریال فرعی و لایو اکشن «چیزهای عجیب» با نام «جهان‌های دیگر»</b>\n\nشرکت نتفلیکس از ساخت یک سریال فرعی و لایو اکشن جدید در جهان مجموعه محبوب «چیزهای عجیب» خبر داد. این اثر پیش‌درآمد که «جهان‌های دیگر: ماجراجویی چیزهای عجیب» نام دارد، در دهه ۱۹۵۰ میلادی جریان خواهد داشت و طبق برنامه‌ریزی‌ها قرار است در سال ۲۰۲۸ پخش شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت نتفلیکس (Netflix) قصد ندارد به این زودی‌ها با شهر هاوکینز در ایالت ایندیانا و دنیای مرموز آن خداحافظی کند. این پلتفرم استریم بزرگ به‌تازگی از ساخت یک سریال فرعی و لایو اکشن جدید بر اساس مجموعه پرطرفدار «چیزهای عجیب» (Stranger Things) خبر داده است که انتظار می‌رود در سال ۲۰۲۸ میلادی روی آنتن برود. این پروژه جدید که «جهان‌های دیگر: ماجراجویی چیزهای عجیب» (Other Worlds: A Stranger Things Adventure) نام گرفته است، به بررسی رویدادهای گذشته می‌پردازد. بر اساس اطلاعات منتشر شده توسط نتفلیکس (Netflix)، این اثر یک پیش‌درآمد است که در دهه ۱۹۵۰ میلادی روایت می‌شود؛ یعنی دورانی بسیار پیش‌تر از وقایع اصلی سریال «چیزهای عجیب» (Stranger Things) و حتی پیش از نمایش تئاتر «چیزهای عجیب: سایه نخستین» (Stranger Things: The First Shadow). برادران دافر (Duffers) که خالقان اصلی این فرنچایز محسوب می‌شوند، بار دیگر به‌عنوان تهیه‌کننده در این پروژه حضور دارند و کیت ترفری (Kate Trefry)، از نویسندگان کهنه‌کار مجموعه «چیزهای عجیب» (Stranger Things)، به‌عنوان شوآرنر (مدیر اجرایی تولید) فعالیت خواهد کرد. همچنین جو رایت (Joe Wright)، کارگردان بریتانیایی، وظیفه کارگردانی سه قسمت نخست این سریال را بر عهده خواهد داشت. برادران دافر (Duffers) در بیانیه‌ای پیرامون این پروژه اظهار داشتند که این سریال در عین حفظ اصالت «چیزهای عجیب» (Stranger Things)، فضایی بسیار تازه، هیجان‌انگیز، با محیطی نو، قهرمانان و شروران جدید به مخاطبان ارائه خواهد داد. با به پایان رسیدن سریال اصلی «چیزهای عجیب» (Stranger Things) در فصل پایانی خود، مشخص بود که نتفلیکس (Netflix) به دنبال راه‌هایی برای زنده نگه داشتن یکی از ارزشمندترین دارایی‌های سرگرمی خود است. پیش از این، تلاش‌هایی مانند انیمیشن فرعی «قصه‌های سال ۸۵» (Tales From ‘85) نیز معرفی شده بود، اما ساخت یک سریال لایو اکشن پرجزییات نشان‌دهنده عزم جدی‌تر این شرکت برای گسترش جهان این فرنچایز محبوب است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Other_Worlds_Logo_v37_16x9.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:8315cc8736b7c55f5e36d233ccdef48f4dd0395c6363bed0d75431b60e781317",
+      "url": "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
+      "title": "TikTok&#8217;s For You page needs to change, says the EU",
+      "summary": "The European Commission claims TikTok broke its online platform rules by offering a recommendation algorithm that creates a \"rabbit hole effect\" on users. In an announcement on Friday, the regulators allege TikTok's algorithm can harm users with \"endless and repeated exposure\" to content related to sadness, isolation, or body image. The findings come months after [&#8230;]",
+      "display_title": "کمیسیون اروپا: الگوریتم توصیه گر تیک تاک باید تغییر کند",
+      "display_summary": "کمیسیون اروپا اعلام کرد که تیک تاک با ارائه یک الگوریتم توصیه گر که اثر «حلقه گمشدنی» ایجاد می کند، قوانین پلتفرم های آنلاین را نقض کرده است. مقامات رگولاتوری هشدار داده اند که این پلتفرم باید طراحی بخش فید خود را تغییر دهد وگرنه با جریمه های سنگینی مواجه خواهد شد.",
+      "message": "<b>📰 کمیسیون اروپا: الگوریتم توصیه گر تیک تاک باید تغییر کند</b>\n\nکمیسیون اروپا اعلام کرد که تیک تاک با ارائه یک الگوریتم توصیه گر که اثر «حلقه گمشدنی» ایجاد می کند، قوانین پلتفرم های آنلاین را نقض کرده است. مقامات رگولاتوری هشدار داده اند که این پلتفرم باید طراحی بخش فید خود را تغییر دهد وگرنه با جریمه های سنگینی مواجه خواهد شد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>کمیسیون اروپا (European Commission) اعلام کرد که شبکه اجتماعی تیک تاک (TikTok) با ارائه یک الگوریتم توصیه گر که پدیده ای موسوم به «اثر حلقه گمشدنی» یا «سوراخ خرگوش» (rabbit hole effect) را روی کاربران ایجاد می کند، قوانین مربوط به پلتفرم های آنلاین را زیر پا گذاشته است. بر اساس اعلام نهادهای رگولاتوری، الگوریتم این پلتفرم می تواند با قرار دادن مکرر و بی پایان کاربران در معرض محتوای مرتبط با افسردگی، انزوا یا تصویر بدنی نامناسب، آسیب جدی به سلامت روان آن ها وارد کند. این یافته ها چند ماه پس از آن منتشر می شود که کمیسیون اروپا طراحی پلتفرم تیک تاک (TikTok) را بیش از حد «اعتیادآور» توصیف کرده بود. با وجود اینکه تیک تاک (TikTok) اقداماتی را برای کاهش اثرات منفی این الگوریتم پیاده سازی کرده است، اما کمیسیون اروپا اعلام کرده که بررسی های اولیه نشان می دهد این راهکارها اثربخشی لازم را نداشته اند. اکنون این شرکت موظف است طراحی فید محتوایی خود موسوم به صفحه برای شما (For You page) را تغییر دهد، در غیر این صورت با جریمه هایی تا سقف ۶ درصد از گردش مالی سالانه جهانی خود روبه رو خواهد شد. این پلتفرم همچنین در ایالات متحده آمریکا (United States) نیز تحت فشار شدید قرار دارد و قانون گذاران و پرونده های حقوقی متعددی نگرانی های جدی را درباره امنیت کودکان مطرح کرده اند. از زمان اجرای قانون خدمات دیجیتال (Digital Services Act) در سال ۲۰۲۳ – مجموعه ای از قوانین که شرکت های فناوری را در قبال تأثیراتشان بر کاربران پاسخگو می کند – کمیسیون اروپا شرکت های بزرگ دیگری نظیر اکس (X)، متا (Meta)، تمو (Temu) و علی اکسپرس (AliExpress) را نیز به نقض این مقررات متهم کرده است. این نخستین بار است که کمیسیون اروپا به طور مشخص یک الگوریتم توصیه گر را به عنوان دلیل اصلی تخلف یک پلتفرم ذکر می کند. هنا ویرکونن (Henna Virkkunen)، معاون اجرایی کمیسیون اروپا در امور حاکمیت فناوری، امنیت و دموکراسی، در بیانیه ای مطبوعاتی گفت: «هر بار که کاربری در تیک تاک (TikTok) ویدیویی را لایک می کند یا به تماشای آن ادامه می دهد، الگوریتم محتوای مشابه بیشتری را ارائه می دهد و کاربران را به درون حلقه‌هایی هدایت می‌کند که به راحتی نمی توانند از آن ها خارج شوند. یافته های اولیه امروز بار دیگر نشان می دهد که تیک تاک (TikTok) باید تلاش های خود را برای محافظت از رفاه کاربران، به ویژه افراد زیر سن قانونی، افزایش دهد.» این تصمیم نقطه عطفی در نظارت نهادهای اروپایی بر نحوه عملکرد سیستم های هوش مصنوعی و الگوریتم های کلان داده در شبکه های اجتماعی به شمار می رود و می تواند پیامدهای گسترده ای برای سایر شرکت های فناوری داشته باشد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK051_VRG_Illo_N_Barclay_9_tiktok.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:76d77f901fa0710485d89bff7682af12efe2bd63d8a269dec005f096f27b0b0e",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "title": "Underdog shows off a 32MB speech model in new demo",
+      "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
+      "display_title": "رونمایی از مدل صوتی ۳۲ مگابایتی و سبک توسط شرکت اندرداگ (Underdog)",
+      "display_summary": "شرکت اندرداگ (Underdog) مدل صوتی جدید و سبک خود به نام ووف (Woof) را با حجم تنها ۳۲ مگابایت معرفی کرد که توانایی تولید گفتار و موسیقی را به صورت محلی دارد. این مدل به کاربران اجازه می‌دهد بدون وابستگی به اینترنت و سرویس‌های ابری، از قابلیت‌های هوش مصنوعی (AI) روی دستگاه‌های شخصی خود بهره‌مند شوند.",
+      "message": "<b>📰 رونمایی از مدل صوتی ۳۲ مگابایتی و سبک توسط شرکت اندرداگ (Underdog)</b>\n\nشرکت اندرداگ (Underdog) مدل صوتی جدید و سبک خود به نام ووف (Woof) را با حجم تنها ۳۲ مگابایت معرفی کرد که توانایی تولید گفتار و موسیقی را به صورت محلی دارد. این مدل به کاربران اجازه می‌دهد بدون وابستگی به اینترنت و سرویس‌های ابری، از قابلیت‌های هوش مصنوعی (AI) روی دستگاه‌های شخصی خود بهره‌مند شوند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در حالی که بسیاری از شرکت‌های فعال در حوزه هوش مصنوعی (AI) در سراسر جهان بر ساخت مدل‌های عظیم‌الجثه با نیاز پردازشی بالا تمرکز کرده‌اند، برخی پژوهشگران و استارتاپ‌ها رویکرد متفاوتی را در پیش گرفته‌اند. شرکت نوپای اندرداگ (Underdog) به تازگی از مدل صوتی جدیدی با حجم فقط ۳۲ مگابایت پرده برداشته که می‌تواند تحولی در اجرای هوش مصنوعی روی لبه شبکه یا دستگاه‌های شخصی ایجاد کند. این مدل جدید که ووف (Woof) نام دارد، در قالب یک بازی ویدیویی با فضای رترو و الهام‌گرفته از فناوری‌های قدیمی معرفی شده است. در این بازی، کاربران می‌توانند با استفاده از صفحه کلید روی یک ماشین‌تحریر دیجیتال تایپ کنند و مدل صوتی ووف (Woof) متن را بلافاصله به گفتار تبدیل کند. همچنین امکان چرخاندن یک تنظیم‌کننده برای تولید ژانرهای مختلف موسیقی نیز در این محیط فراهم شده است. تمام این پردازش‌ها مستقیماً درون مرورگر و بدون نیاز به اتصال اینترنت انجام می‌شود. مدل ووف (Woof) تنها دارای ۳۱ میلیون پارامتر است و برای دانلود عمومی در دسترس قرار گرفته است. اگرچه مدل‌های به این کوچکی جایگزین مدل‌های بزرگ و قدرتمند ابری نخواهند شد، اما برای پیاده‌سازی دستیارهای صوتی محلی یا تولید پادکست‌های شخصی‌سازی‌شده گزینه‌ای کارآمد به شمار می‌روند. این دستاورد چند هفته پس از معرفی مدل تبدیل گفتار به متن بارک (Bark) با حجم ۱۶۷ مگابایت توسط همین شرکت ارائه شده است. سیگیل ون (Sigil Wen)، بنیان‌گذار اندرداگ (Underdog)، در گفت‌وگو با تک‌کرانچ (TechCrunch) اشاره کرد که هدف از توسعه این سیستم‌ها، فراهم کردن امکان مالکیت داده‌ها برای کاربران و استفاده از هوش مصنوعی (AI) محلی بدون اتکا به شرکت‌های ابری است. او ابراز امیدواری کرد که طی ماه‌های آینده قابلیت اجرای قدرتمندترین مدل‌های روز روی دستگاه‌های شخصی موجود فراهم شود. در نهایت، این رویکرد نشان می‌دهد که توسعه مدل‌های سبک و کارآمد می‌تواند آینده دسترسی به هوش مصنوعی (AI) را متحول کند و حریم خصوصی کاربران را بهبود بخشد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-7.02.34-PM.jpg?resize=1200,542",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:a3dde5726f36f95f41238edd145b6f3cf4bf08c26e4471758439d57170bcf0d4",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "display_title": "استارتاپ فیزیکل (Physicl) برای توسعه رباتیک ۱۰ میلیون دلار جذب سرمایه کرد",
+      "display_summary": "استارتاپ فیزیکل (Physicl) با جذب ۱۰ میلیون دلار سرمایه اولیه، قصد دارد از فناوری‌های رندرینگ سه‌بعدی برای ساخت شبیه‌سازی‌های واقع‌گرایانه فیزیکی جهت آموزش هوش مصنوعی و ربات‌ها استفاده کند. این شرکت با ابزار جدید خود موسوم به استودیو (Studio)، به توسعه‌دهندگان کمک می‌کند تا چالش‌های مربوط به شکاف میان شبیه‌سازی و دنیای واقعی را برطرف کنند.",
+      "message": "<b>📰 استارتاپ فیزیکل (Physicl) برای توسعه رباتیک ۱۰ میلیون دلار جذب سرمایه کرد</b>\n\nاستارتاپ فیزیکل (Physicl) با جذب ۱۰ میلیون دلار سرمایه اولیه، قصد دارد از فناوری‌های رندرینگ سه‌بعدی برای ساخت شبیه‌سازی‌های واقع‌گرایانه فیزیکی جهت آموزش هوش مصنوعی و ربات‌ها استفاده کند. این شرکت با ابزار جدید خود موسوم به استودیو (Studio)، به توسعه‌دهندگان کمک می‌کند تا چالش‌های مربوط به شکاف میان شبیه‌سازی و دنیای واقعی را برطرف کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استارتاپ نوپای فیزیکل (Physicl) موفق شد در دور تأمین مالی بذر (Seed) مبلغ ۱۰ میلیون دلار سرمایه جذب کند تا به طراحان مدل‌های جهان و سازندگان ربات کمک کند یکی از پیچیده‌ترین مشکلات آموزشی یعنی شبیه‌سازی واقع‌گرایانه فیزیکی را حل کنند. این دور از سرمایه‌گذاری با رهبری شرکت اینوویا کپیتال (Inovia Capital) انجام شده است. بنیان‌گذار و مدیرعامل این استارتاپ، الکس دو ویگان (Alex de Vigan)، بیش از یک دهه از فعالیت حرفه‌ای خود را صرف ساخت پلتفرمی به نام انفاینایت (nfinite) کرده بود که به خرده‌فروشان اجازه می‌داد مدل‌های سه‌بعدی محصولات خود را برای بازاریابی آنلاین ایجاد کنند. با ظهور مدل‌های هوش مصنوعی مبتنی بر ترنسفورمر (Transformer)، تمرکز شرکت قبلی به سمت تصاویر مولد تغییر یافت؛ اما دو ویگان متوجه کاربرد جدیدی برای پشته فناوری (Technology Stack) تیم خود شد. به گفته مدیرعامل فیزیکل (Physicl)، در حالی که هوش مصنوعی در حال جایگزینی بسیاری از فرآیندهای سه‌بعدی بود، اما همچنان در درک، تعامل و دستکاری فضا و اجسام کاستی داشت. محققانی که روی هوش مصنوعی فیزیکی (Physical AI) کار می‌کنند تا ربات‌ها را برای انجام وظایف پیچیده توانا سازند، مدت‌هاست با محدودیت‌های آموزش از روی ویدیو و هزینه‌های بالای جمع‌آوری داده‌ها از راه دور دست‌وپنجه نرم می‌کنند. شبیه‌سازی دیجیتال راه‌حل امیدوارکننده‌ای است، اما اطمینان از تطابق این محیط‌های مجازی با فیزیک دنیای واقعی کار دشواری بوده است. این استارتاپ محصولی به نام استودیو (Studio) را عرضه کرده که شامل ۱۰ هزار محیط سه‌بعدی و ۱۰۰ هزار دارایی دیجیتال از اشیاء مختلف است. این ابزار به کاربران اجازه می‌دهد صحنه‌هایی را برای تولید داده‌های مصنوعی (Synthetic Data) جهت آموزش ربات‌ها در مواجهه با سناریوهای دشوار ایجاد کنند. برای نمونه، این ابزار می‌تواند به رباتی که در تشخیص یک فنجان در آشپزخانه شلوغ یا سایه‌دار دچار مشکل است، کمک کند. استارتاپ اسپیشیال (SpAItial) که در حوزه ساخت مدل‌های جهان (World Model) فعالیت می‌کند، به عنوان یکی از مشتریان اولیه با فیزیکل (Physicl) همکاری کرده است. ماتیاس نیسنر (Matthias Niessner)، بنیان‌گذار اسپیشیال (SpAItial) و استاد رباتیک در دانشگاه فنی مونیخ (Technical University of Munich)، معتقد است قابلیت تولید خودکار داده‌ها متناسب با وضعیت آموزش مدل، یک پیشرفت بسیار جذاب و کارآمد در این صنعت به شمار می‌رود. بازار ابزارها و داده‌های آموزشی برای رباتیک بسیار نوپا و پویاست و شرکت‌های مختلفی برای ارائه راهکارهای بهبود عملکرد هوش مصنوعی با یکدیگر رقابت می‌کنند. با این حال، فیزیکل (Physicl) امیدوار است با تبدیل اطلاعات ناهمگون دنیای واقعی به بازنمایی‌های سه‌بعدی باکیفیت، نقش کلیدی در زنجیره ابزارهای نسل جدید رباتیک ایفا کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/physicl-studio-hero-kitchen-16x9-1.jpg?resize=1200,675",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:d08f26bc24f97ca8311ecbf32bb1edb434a2e3c4659ae0aa898b7df638bd45df",
+      "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
+      "title": "Perplexity's 'teammates' are the company's AI agents for daily work tasks",
+      "summary": "Perplexity launches personal AI agents that can act as your 'teammates.'",
+      "display_title": "معرفی همکاران هوش مصنوعی شرکت پرپلکسیتی برای مدیریت وظایف روزانه کاری",
+      "display_summary": "شرکت پرپلکسیتی (Perplexity) از نسل جدیدی از عوامل هوش مصنوعی خود تحت عنوان «همکاران» (Teammates) رونمایی کرد که قادرند به صورت خودکار و شبانه‌روزی وظایف پیچیده و چندمرحله‌ای کاری را انجام دهند. این ابزار جدید که بر بستر سیستم ابری «کامپیوتر پرپلکسیتی» (Perplexity Computer) فعالیت می‌کند، در حال حاضر به صورت انحصاری برای مشترکین طرح «پرپلکسیتی مکس» (Perplexity Max) با هزینه ماهانه ۲۰۰ دلار در دسترس قرار گرفته است.",
+      "message": "<b>📰 معرفی همکاران هوش مصنوعی شرکت پرپلکسیتی برای مدیریت وظایف روزانه کاری</b>\n\nشرکت پرپلکسیتی (Perplexity) از نسل جدیدی از عوامل هوش مصنوعی خود تحت عنوان «همکاران» (Teammates) رونمایی کرد که قادرند به صورت خودکار و شبانه‌روزی وظایف پیچیده و چندمرحله‌ای کاری را انجام دهند. این ابزار جدید که بر بستر سیستم ابری «کامپیوتر پرپلکسیتی» (Perplexity Computer) فعالیت می‌کند، در حال حاضر به صورت انحصاری برای مشترکین طرح «پرپلکسیتی مکس» (Perplexity Max) با هزینه ماهانه ۲۰۰ دلار در دسترس قرار گرفته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت پرپلکسیتی (Perplexity) گام جدیدی در حوزه اتوماسیون کارهای اداری و سازمانی برداشته و از دستیارهای هوش مصنوعی جدید خود با نام «همکاران» (Teammates) رونمایی کرده است. این سیستم جدید به کاربران اجازه می‌دهد تا وظایف مداوم و طولانی‌مدت کاری خود را با حداقل نظارت مستقیم به عوامل هوشمند واگذار کنند. بر اساس اطلاعات منتشر شده، این «همکاران» بر روی پلتفرم ابری و عامل‌محور این شرکت موسوم به «کامپیوتر پرپلکسیتی» (Perplexity Computer) توسعه یافته‌اند و قابلیت‌های پیشرفته‌ای برای مدیریت پروژه‌های مقیاس‌پذیر ارائه می‌دهند. کاربران می‌توانند نقش‌ها یا وظایف مشخصی را به هر یک از این عوامل محول کنند تا آن‌ها به صورت همزمان به انجام امور بپردازند. ویژگی برجسته این فناوری، توانایی همکاری عوامل مختلف با یکدیگر است؛ به طوری که حتی می‌توانند مدیریت سایر عوامل هوش مصنوعی را بر عهده بگیرند، وظایف نیروی‌های جدید را برنامه‌ریزی کنند و در صورت افزایش حجم کار، عوامل دیگری را نیز به روند پروژه اضافه نمایند. این همکاران به صورت شبانه‌روزی و در پس‌زمینه فعالیت می‌کنند و تنها در زمان نیاز به تصمیم‌گیری‌های کلیدی، به کاربر اطلاع‌رسانی خواهند کرد. تمامی این عوامل دارای پنل اختصاصی در نوار کناری محیط «کامپیوتر پرپلکسیتی» (Perplexity Computer) هستند و کاربران می‌توانند روند پیشرفت کارها، وظایف تکمیل‌شده، وضعیت جاری را بررسی کنند، مسیر اجرای پروژه را تغییر دهند یا وظایف جدیدی را به آن‌ها محول نمایند. در حال حاضر، این قابلیت به صورت انحصاری برای مشترکین طرح گران‌قیمت «پرپلکسیتی مکس» (Perplexity Max) روی نسخه وب و سیستم‌عامل «آی‌اواس» (iOS) ارائه شده است. هزینه اشتراک این طرح ۲۰۰ دلار در ماه یا ۲۰۰۰ دلار در سال تعیین شده است که آن را به گزینه‌ای اختصاصی برای کاربران حرفه‌ای و سازمانی تبدیل می‌کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/perplexitys-teammates-are-its-ai-agents-for-ongoing-work/l-intro-1793962197.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:e79288c48dc9eade2335d1a82596ffc515c39a4ed6ed42c55e0453f67f0b7141",
+      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "display_title": "معرفی حلقه هوشمند «آینا» با صفحه نمایش، جوی‌استیک و میکروفون برای تعامل با عوامل هوش مصنوعی",
+      "display_summary": "استارتاپ «آینا (Aina)» از یک حلقه هوشمند جدید با قیمت ۳۹۹ دلار رونمایی کرد که مجهز به صفحه نمایش، جوی‌استیک، میکروفون و بلندگو است. این گجت پوشیدنی به کاربران اجازه می‌دهد تا با عوامل هوش مصنوعی تعامل داشته باشند، یادداشت‌برداری کنند، تماس تلفنی برقرار کنند و برنامه‌های مختلف را کنترل نمایند.",
+      "message": "<b>📰 معرفی حلقه هوشمند «آینا» با صفحه نمایش، جوی‌استیک و میکروفون برای تعامل با عوامل هوش مصنوعی</b>\n\nاستارتاپ «آینا (Aina)» از یک حلقه هوشمند جدید با قیمت ۳۹۹ دلار رونمایی کرد که مجهز به صفحه نمایش، جوی‌استیک، میکروفون و بلندگو است. این گجت پوشیدنی به کاربران اجازه می‌دهد تا با عوامل هوش مصنوعی تعامل داشته باشند، یادداشت‌برداری کنند، تماس تلفنی برقرار کنند و برنامه‌های مختلف را کنترل نمایند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استارتاپ سخت‌افزاری «آینا (Aina)» از حلقه هوشمند جدیدی رونمایی کرده است که با برخورداری از صفحه نمایش، جوی‌استیک و میکروفون، امکان تعامل مستقیم با عوامل هوش مصنوعی (AI agents) و ثبت یادداشت‌ها را فراهم می‌کند. این حلقه که با قیمت اولیه ۳۹۹ دلار عرضه می‌شود، به یک بلندگو نیز مجهز است تا کاربران بتوانند از آن برای پاسخگویی به تماس‌های تلفنی استفاده کنند. استارتاپ «آینا (Aina)» که توانسته بود در ماه ژوئن مبلغ ۵.۵ میلیون دلار سرمایه جذب کند، این گجت را به عنوان ابزاری کنترلی برای مدیریت برنامه‌های مبتنی بر هوش مصنوعی و نرم‌افزارهای معمولی معرفی کرده است. این شرکت پیش‌تر محصولی به نام «میراژ (Mirage)» را تولید کرده بود؛ یک کنترلر سه کلیدی که به کاربران اجازه می‌داد کلیدهای میانبر را بر اساس برنامه فعال روی صفحه نمایش رایانه «مک (Mac)» خود سفارشی‌سازی کنند. تجربیات حاصل از توسعه آن محصول، اکنون در طراحی حلقه جدید که شرکت آن را به سادگی «حلقه هوشمند» می‌نامد، به کار گرفته شده است. با استفاده از میکروفون تعبیه‌شده در این دستگاه، کاربران می‌توانند یادداشت‌برداری کنند، دستورات متنی را به عوامل هوش مصنوعی ارسال کنند، یادآور تنظیم نمایند و با استفاده از ابزارهایی مانند «ویسپر فلو (Wispr Flow)» یا موتور دیکته‌سنج اختصاصی این استارتاپ، یادداشت‌های خود را روی رایانه «مک (Mac)» دیکته کنند. بازار حلقه‌های هوشمند پیش‌تر شاهد حضور محصولاتی نظیر «پبل ایندکس ۰۱ (Pble Index 01)»، «سندبار استریم (Sandbar Stream)»، «اوآسیس (Oasis)» و «ناتورا (Natura)» بوده است و به همین دلیل، «آینا (Aina)» امکانات کنترلی و قابلیت‌های پیشرفته‌تری را برای متمایز شدن در بازار افزوده است. این حلقه علاوه بر نمایش اعلان‌های تلفن همراه، از کنترل‌های حرکتی نیز پشتیبانی می‌کند تا بتواند بر اساس محتوای روی صفحه نمایش «مک (Mac)» یا گوشی، عملکردهای مختلفی را فعال کند. همچنین کاربران می‌توانند از این گجت برای کنترل موسیقی یا تجهیزات خانه هوشمند مانند «اپل تی‌وی (Apple TV)» بهره ببرند. «آپورو شانکار (Apoorv Shankar)»، بنیان‌گذار «آینا (Aina)»، در مصاحبه‌ای اعلام کرد که صفحه‌نمایش تلفن‌های همراه و لپ‌تاپ‌ها برای عصر مرور وب طراحی شده‌اند، اما برای تعامل با عوامل هوش مصنوعی پیش‌فعال به رابط کاربری بهتری نیاز است و این گجت با همین هدف طراحی شده است. شرکت‌های مختلفی در تلاشند با ارائه سخت‌افزارهای تخصصی، نیاز برنامه‌نویسان و علاقه‌مندان به هوش مصنوعی را برآورده کنند؛ از جمله تلاش‌های مشابه می‌توان به کیبورد آزمایشی «اوپن‌ای‌آی (OpenAI)» و دستگاه کنترلی شرکت «رَبیت (Rabbit)» اشاره کرد. پیش‌فروش حلقه «آینا (Aina)» از روز پنج‌شنبه با قیمت ویژه ۳۹۹ دلار آغاز می‌شود و شرکت برنامه‌ریزی کرده است ارسال این دستگاه را از ماه ژانویه ۲۰۲۷ آغاز کند. پس از پایان دوره تخفیف اولیه، قیمت این حلقه به ۴۹۹ دلار افزایش خواهد یافت.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Aina-Ring-Hands.jpeg?resize=1200,805",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:a9ee74baaf2a5ba0ed3616dbeeab378378e35d2ea05cb11f2f54f6e0a4d75117",
+      "url": "https://techcrunch.com/2026/11/05/radianx-promises-solar-powered-devices-that-never-need-charging/",
+      "title": "RadianX promises solar-powered devices that never need charging",
+      "summary": "Today’s portable devices are too hungry to run on traditional solar panels, but RadianX says its perovskite cells promise to make charging obsolete in some cases.",
+      "display_title": "استارتاپ رادیان‌اکس (RadianX) وعده ساخت دستگاه‌های خورشیدی بدون نیاز به شارژ را داد",
+      "display_summary": "استارتاپ رادیان‌اکس (RadianX) با جذب سرمایه ۹ میلیون دلاری قصد دارد نسل جدیدی از پنل‌های خورشیدی مبتنی بر پرووسکایت (Perovskite) را توسعه دهد. این فناوری جدید توانایی جذب نور در فضاهای داخلی را دو برابر افزایش داده و نوید ساخت گجت‌هایی را می‌دهد که هرگز به شارژ مجدد نیاز ندارند.",
+      "message": "<b>📰 استارتاپ رادیان‌اکس (RadianX) وعده ساخت دستگاه‌های خورشیدی بدون نیاز به شارژ را داد</b>\n\nاستارتاپ رادیان‌اکس (RadianX) با جذب سرمایه ۹ میلیون دلاری قصد دارد نسل جدیدی از پنل‌های خورشیدی مبتنی بر پرووسکایت (Perovskite) را توسعه دهد. این فناوری جدید توانایی جذب نور در فضاهای داخلی را دو برابر افزایش داده و نوید ساخت گجت‌هایی را می‌دهد که هرگز به شارژ مجدد نیاز ندارند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>باتری‌ها صنعت الکترونیک را متحول کرده و تلفن‌های هوشمند، تبلت‌ها، کتابخوان‌های الکترونیکی و ساعت‌های هوشمند قدرتمندی را به ما هدیه داده‌اند. با این حال، هر باتری سرانجام روزی تمام می‌شود. اما این وضعیت ممکن است به زودی تغییر کند. یک استارتاپ به نام رادیان‌اکس (RadianX) جهانی را متصور شده است که در آن دستگاه‌های قابل حمل و لبه شبکه (Edge Devices) می‌توانند بدون تمام شدن شارژ، کابل‌های برق را برای همیشه کنار بگذارند. کلید اصلی این تحول، نسل بهبودیافته‌ای از پنل‌های خورشیدی است. استارتاپ رادیان‌اکس (RadianX) نوع جدیدی از ماده خورشیدی را از خانواده‌ای به نام پرووسکایت‌ها (Perovskites) توسعه داده است. این ماده در محیط‌های باز عملکردی مشابه پنل‌های خورشیدی موجود دارد، اما توانایی آن در جذب نور در محیط‌های سرپوشیده دو برابر بیشتر است. جاش داگلاس (Josh Douglas)، هم‌بنیان‌گذار و مدیر ارشد عملیاتی این شرکت، در مصاحبه با وب‌سایت تک‌کرانچ (TechCrunch) گفت: «ما می‌توانیم هر نوع فوتونی، چه در فضای باز و چه در محیط سرپوشیده را جذب کنیم و دستگاه را برای مدت طولانی‌تر یا حتی برای همیشه روشن نگه داریم.» کارایی در محیط‌های داخلی می‌تواند کلید تحقق مفهومی باشد که این شرکت آن را «انرژی لبه شبکه» (Edge Energy) می‌نامد. تصور کنید یک کتابخوان الکترونیکی هرگز به شارژ نیاز نداشته باشد یا یک حسگر اینترنت اشیاء (IoT) بی‌نیاز از تعویض باتری کار کند. مانند هر رده فناوری جدیدی، کاربردهای پیش‌بینی‌نشده‌ای نیز ممکن است پدیدار شوند؛ از جمله روبات‌های با عمر باتری طولانی‌مدت یا گجت‌های پوشیدنی که تاکنون به دلیل محدودیت توان باتری توسعه نیافته بودند. برای تأمین مالی خط تولید در مقیاس تجاری، استارتاپ رادیان‌اکس (RadianX) اخیراً موفق به جذب ۵ میلیون دلار سرمایه در دور مقدماتی (Seed Round) به رهبری اس‌اواس‌وی (SOSV) و توینام (Twynam) شده است. سایر سرمایه‌گذاران این طرح شامل وان اسمال پلنت (One Small Planet)، ساکسن ونچرز (Sachsen Ventures)، آویلا وی‌سی (Avila VC)، صندوق نوآوری کالیفرنیا (California Innovation Fund)، کوانتوم‌اج (quantumEDGE)، رایسبرگ ونچرز (Riceberg Ventures) و آلومنای ونچرز (Alumni Ventures) بوده‌اند. علاوه بر این سرمایه، شرکت تولید دقیق فناوری پاسیفیک یونیون (Pacific Union Technology Precision Manufacturing) نیز مبلغ ۴ میلیون دلار سرمایه‌گذاری غیرسهامی برای ساخت یک خط تولید اختصاصی به این استارتاپ تزریق کرده است. این ایده کاملاً جدید نیست؛ ماشین‌حساب‌های خورشیدی دهه‌هاست که وجود دارند، اما اخیراً مورد غفلت قرار گرفته‌اند زیرا میزان تقاضای انرژی در دستگاه‌های مدرن از ظرفیت پنل‌های خورشیدی سنتی فراتر رفته است. ویویان کو (Vivian Qu)، هم‌بنیان‌گذار و مدیرعامل رادیان‌اکس (RadianX)، در این باره گفت: «مسئله اصلی چگالی توان است. دلیل جذابیت بالای پرووسکایت‌ها، چگالی توان بالای آن‌هاست.» پرووسکایت‌ها نیز ایده جدیدی نیستند، اگرچه این دسته از مواد برای تثبیت جایگاه خود با چالش‌هایی مواجه بوده‌اند. این مواد هنوز از پنل‌های خورشیدی مبتنی بر سیلیکون (Silicon) گران‌تر هستند و دوام کمتری دارند، هرچند در سال‌های اخیر پیشرفت‌هایی داشته‌اند. با این حال، کارایی رادیان‌اکس (RadianX) این کاستی‌ها را جبران می‌کند؛ برای مثال، پنل ۱.۲ در ۰.۶ متری این شرکت نور را با بازدهی ۲۲.۳۳ درصد جذب می‌کند که به گفته این شرکت، بالاترین رکورد ثبت‌شده است. برای رادیان‌اکس (RadianX)، مسئله دوام نیز دغدغه کمتری است. این شرکت توانسته است به استانداردهای کلیدی صنعت در زمینه دوام دست یابد و با تمرکز بر دستگاه‌های خانگی و داخلی، پنل‌های آن در معرض فرسایش کمتری قرار می‌گیرند. این پنل‌ها که ضخامت آن‌ها به ۰.۷ میلی‌متر می‌رسد، می‌توانند در اندازه‌های مختلف برای تناسب با دستگاه‌ها برش بخورند. رادیان‌اکس (RadianX) برای استخراج انرژی بیشتر از این پنل‌ها، در حال توسعه قطعات الکترونیکی توان متناسب با پرووسکایت‌ها نیز هست. بیشتر تجهیزات الکترونیکی موجود برای پنل‌های سیلیکونی تنظیم شده‌اند، در حالی که سیلیکون ویژگی‌های متفاوتی در جذب نور دارد. برخلاف بسیاری از شرکت‌های خورشیدی، این استارتاپ قصد ندارد صرفاً پنل‌های خام بفروشد، بلکه به دنبال ارائه یک بسته کامل به سازندگان دستگاه‌ها است. در نهایت، مدیران رادیان‌اکس (RadianX) امیدوارند بسته‌های انرژی آن‌ها راه خود را به کتابخوان‌های الکترونیکی، حسگرهای کارخانه‌ای و احتمالاً حوزه‌های جدید دیگری که هنوز تصور نکرده‌اند، باز کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/02/iphone-usb-lighting-charging-cable.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:8f243f6fad837f3fb859f184f592e41a1b19d3cbf3308e4917b1f4a3db6abfe2",
+      "url": "https://www.engadget.com/2307246/apple-imac-m6-review/",
+      "title": "Apple iMac M6 review: Faster, more expensive and deeply in need of a refresh",
+      "summary": "Most buyers would be better off with a Mac mini and a bigger external display.",
+      "display_title": "بررسی آی‌مک ام۶ اپل: سریع‌تر، گران‌تر و به‌ شدت نیازمند بازطراحی",
+      "display_summary": "رایانه همه‌کاره آی‌مک ام۶ اپل (Apple iMac M6) با پردازنده قدرتمند جدید و بهبودهای چشمگیر در پردازش هوش مصنوعی و گرافیک معرفی شد. با این حال، طراحی تکراری، ابعاد کوچک نمایشگر و افزایش قیمت پایه باعث شده است تا بسیاری از کارشناسان خرید مک مینی (Mac Mini) همراه با یک نمایشگر جداگانه بزرگ‌تر را گزینه اقتصادی‌تر و منطقی‌تری بدانند.",
+      "message": "<b>📰 بررسی آی‌مک ام۶ اپل: سریع‌تر، گران‌تر و به‌ شدت نیازمند بازطراحی</b>\n\nرایانه همه‌کاره آی‌مک ام۶ اپل (Apple iMac M6) با پردازنده قدرتمند جدید و بهبودهای چشمگیر در پردازش هوش مصنوعی و گرافیک معرفی شد. با این حال، طراحی تکراری، ابعاد کوچک نمایشگر و افزایش قیمت پایه باعث شده است تا بسیاری از کارشناسان خرید مک مینی (Mac Mini) همراه با یک نمایشگر جداگانه بزرگ‌تر را گزینه اقتصادی‌تر و منطقی‌تری بدانند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اپل (Apple) با معرفی محصولات جدیدی مانند مدل‌های مجهز به صفحه نمایش لمسی مک‌بوک پرو (MacBook Pro) و آیفون دو (iPhone Duo)، به‌دنبال ایجاد تغییرات اساسی در سبد محصولات خود است. با این حال، رایانه همه‌کاره آی‌مک ام۶ (Apple iMac M6) که زمانی یکی از انقلابی‌ترین محصولات این شرکت به شمار می‌رفت، سهم چندانی از این رویکرد جدید نبرده است. این دستگاه به لطف تراشه جدید ام۶ (M6) و حافظه به‌روزرسانی‌شده، سریع‌تر از همیشه عمل می‌کند؛ اما طراحی آن که از سال ۲۰۲۱ و مدل آی‌مک ام۱ (iMac M1) دست‌نخورده باقی مانده، اکنون کهنه و قدیمی به نظر می‌رسد. نمایشگر ۲۴ اینچی این دستگاه نیز با توجه به اینکه مانیتورهای ۲۷ و ۳۲ اینچی امروزه به استاندارد بازار تبدیل شده‌اند، بیش از پیش کوچک به نظر می‌رسد. اگرچه این رایانه همچنان گزینه‌ای مناسب برای کاربران عادی و تجاری محسوب می‌شود، اما با قیمت پایه ۱۴۹۹ دلاری که ۲۰۰ دلار نسبت به نسل قبل افزایش یافته است، انتخاب‌های بهتری از جمله سایر رایانه‌های مک (Mac) در بازار وجود دارد. تراشه جدید ام۶ (M6) دو هسته اضافی به پردازنده مرکزی و گرافیکی اضافه کرده و پهنای باند حافظه را به حداکثر ۱۷۰ گیگابایت بر ثانیه رسانده است. همچنین این مدل به آخرین تراشه بی سیم ان۱ (N1) اپل مجهز شده که از وای-فای ۷ (Wi-Fi 7) و بلوتوث ۶ (Bluetooth 6) پشتیبانی می‌کند. با وجود حفظ ظاهر پیشین و رنگ‌بندی‌های متنوع، این رایانه در بنچمارک‌ها جهش عملکردی قابل‌توجهی را ثبت کرده است؛ به طوری که در بخش گرافیک و پردازش هوش مصنوعی نتایج بسیار بهتری نسبت به نسل قبل ارائه می‌دهد. با این حال، محدودیت حافظه رم (RAM) که در مدل‌های پایه به ۱۶ گیگابایت محدود می‌شود، در کارهای سنگین خلاقانه و اجرای مدل‌های هوش مصنوعی چالش‌برانگیز است. در زمینه بازی‌های ویدیویی نیز این دستگاه عملکرد محدودی دارد و برای رزولوشن ۱۰۸۰پی مناسب است. در نهایت، با در نظر گرفتن قیمت مدل‌های مجهزتر و هزینه‌های جانبی، خرید یک مک مینی (Mac Mini) به همراه یک مانیتور بزرگ‌تر و باکیفیت‌تر از برندهایی مانند ال‌جی (LG)، ارزش خرید بالاتری را برای بیشتر کاربران به ارمغان می‌آورد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/apple-imac-m6-review-faster-more-expensive-and-deeply-in-need-of-a-refresh/l-intro-1793827192.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:e823793f5791803cfcb7b4d5e1a759e664572765a02a1235bca30d88216064ee",
+      "url": "https://www.engadget.com/2307393/spotify-is-coming-to-uniteds-seatback-screens/",
+      "title": "Spotify is coming to United's seatback screens",
+      "summary": "The streaming service's entire library of content will be available in the air.",
+      "display_title": "اسپاتیفای روی نمایشگرهای صندلی‌های هواپیماهای یونایتد ایرلاینز عرضه می‌شود",
+      "display_summary": "شرکت اسپاتیفای (Spotify) در همکاری جدید با شرکت هواپیمایی یونایتد ایرلاینز (United Airlines) امکان دسترسی به آرشیو کامل محتوای صوتی و تصویری خود را از طریق نمایشگرهای پشتی صندلی در هواپیماهای مجهز به اینترنت ماهواره‌ای استارلینک (Starlink) فراهم می‌کند. مسافران می‌توانند با اتصال رایگان به وای‌فای پرواز و اسکن بارکد دوبعدی (QR code)، به پروفایل و پلی‌لیست‌های شخصی خود روی نمایشگر دسترسی پیدا کنند.",
+      "message": "<b>📰 اسپاتیفای روی نمایشگرهای صندلی‌های هواپیماهای یونایتد ایرلاینز عرضه می‌شود</b>\n\nشرکت اسپاتیفای (Spotify) در همکاری جدید با شرکت هواپیمایی یونایتد ایرلاینز (United Airlines) امکان دسترسی به آرشیو کامل محتوای صوتی و تصویری خود را از طریق نمایشگرهای پشتی صندلی در هواپیماهای مجهز به اینترنت ماهواره‌ای استارلینک (Starlink) فراهم می‌کند. مسافران می‌توانند با اتصال رایگان به وای‌فای پرواز و اسکن بارکد دوبعدی (QR code)، به پروفایل و پلی‌لیست‌های شخصی خود روی نمایشگر دسترسی پیدا کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اسپاتیفای (Spotify) در راستای گسترش خدمات خود، همکاری جدیدی را با شرکت هواپیمایی یونایتد ایرلاینز (United Airlines) آغاز کرده است که به موجب آن، مسافران این خط هواپیمایی می‌توانند به تمامی محتوای صوتی و تصویری این پلتفرم روی نمایشگرهای پشتی صندلی‌ها دسترسی داشته باشند. این امکان جدید شامل دسترسی کامل به کتابخانه موسیقی، پادکست‌ها و کتاب‌های صوتی اسپاتیفای (Spotify) همراه با صفحه اصلی و پلی‌لیست‌های شخصی‌سازی‌شده کاربران خواهد بود. بر اساس جزئیات اعلام‌شده، برای استفاده از این قابلیت، مسافران باید گوشی هوشمند خود را به اینترنت وای‌فای داخل پرواز (Inflight Wi-Fi) متصل کرده و سپس بارکد دوبعدی (QR code) نمایش‌داده‌شده روی صفحه پشتی صندلی را اسکن کنند. پس از این مرحله، کاربر به صفحه ورود هدایت می‌شود و در صورتی که از قبل در اپلیکیشن اسپاتیفای (Spotify) خود لاگین کرده باشد، پروفایل کاربری او به طور خودکار روی نمایشگر بارگذاری خواهد شد. نکته قابل توجه این است که اتصال به وای‌فای برای استفاده از اسپاتیفای (Spotify) رایگان خواهد بود و مسافران نیازی به خرید بسته اینترنت پرواز نخواهند داشت. اگرچه برخی شرکت‌های هواپیمایی دیگر مانند امریکن ایرلاینز (American Airlines) نیز خدمات استریم موسیقی را به مسافران ارائه می‌دهند، اما مزیت اصلی یکپارچه‌سازی جدید اسپاتیفای (Spotify) این است که مسافران می‌توانند به جای استفاده از تلفن همراه، از نمایشگر بزرگ‌تر صندلی برای تماشای پادکست‌های ویدیویی یا موزیک‌ویدیوها استفاده کنند. همچنین این قابلیت مسافران را از دانلود کردن از پیشِ پلی‌لیست‌ها و پادکست‌ها پیش از سوار شدن به هواپیما بی‌نیاز می‌کند. شرکت هواپیمایی یونایتد ایرلاینز (United Airlines) از اوایل سال ۲۰۲۵ میلادی آزمایش اینترنت ماهواره‌ای استارلینک (Starlink) را روی پروازهای خود آغاز کرد و در حال حاضر اعلام کرده است که حدود نیمی از پروازهای روزانه این شرکت از این فناوری اینترنتی بهره می‌برند. مسافرانی که به طور منظم با این ایرلاین سفر می‌کنند، می‌توانند وضعیت مجهز بودن پرواز خود به اینترنت استارلینک (Starlink) را از طریق ابزار ردیابی وای‌فای یونایتد (United&#x27;s Starlink Wi-Fi Tracker) بررسی کنند. این همکاری گامی تازه در جهت ارتقای تجربه سرگرمی حین پرواز به شمار می‌رود و نشان‌دهنده روند رو به رشد ادغام خدمات دیجیتال پیشرفته با صنایع حمل‌ونقل هوایی است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/spotify-is-coming-to-uniteds-seatback-screens/l-intro-1793835172.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -11901,21 +12111,6 @@
       ]
     },
     {
-      "item_id": "3e7aad2e1d1751fb4c27bfa1f3d4a202b0688014cb69a83d7c88768504fdbb57",
-      "title": "RadianX promises solar-powered devices that never need charging",
-      "url": "https://techcrunch.com/2026/11/05/radianx-promises-solar-powered-devices-that-never-need-charging/",
-      "summary": "Today’s portable devices are too hungry to run on traditional solar panels, but RadianX says its perovskite cells promise to make charging obsolete in some cases.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2025/02/iphone-usb-lighting-charging-cable.jpg?resize=1200,800",
-      "published_at": "2026-11-05T14:00:00+00:00",
-      "categories": [
-        "Climate",
-        "Gadgets",
-        "Batteries",
-        "Solar Power"
-      ]
-    },
-    {
       "item_id": "18605acc9d0666b087444f6a03d319ca960410e0def7cdb5e180669eb3e2cec9",
       "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
       "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
@@ -11960,32 +12155,6 @@
       ]
     },
     {
-      "item_id": "8f243f6fad837f3fb859f184f592e41a1b19d3cbf3308e4917b1f4a3db6abfe2",
-      "title": "Apple iMac M6 review: Faster, more expensive and deeply in need of a refresh",
-      "url": "https://www.engadget.com/2307246/apple-imac-m6-review/",
-      "summary": "Most buyers would be better off with a Mac mini and a bigger external display.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/apple-imac-m6-review-faster-more-expensive-and-deeply-in-need-of-a-refresh/l-intro-1793827192.jpg",
-      "published_at": "2026-11-05T14:00:00+00:00",
-      "categories": [
-        "Laptops & PCs",
-        "Apple"
-      ]
-    },
-    {
-      "item_id": "444a17fdbaf0e749ccdb76f575df1ae8c4b45369d7d3c5a3390e630314c693ce",
-      "title": "MacBook Pro M6 review: A slight upgrade, but still the most accessible MacBook Pro",
-      "url": "https://www.engadget.com/2307614/apple-macbook-pro-m6-review/",
-      "summary": "The M6 MacBook Pro is more of the same, but that's still pretty great.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/macbook-pro-m6-review-a-slight-upgrade-but-still-the-most-accessible-macbook-pro/l-intro-1793884787.jpg",
-      "published_at": "2026-11-05T14:00:00+00:00",
-      "categories": [
-        "Laptops & PCs",
-        "Apple"
-      ]
-    },
-    {
       "item_id": "cefc669c139c41ca08b6bca930e7a6772c7dfb0513dfadf7b79dfc501c30ff18",
       "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
       "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
@@ -11996,19 +12165,6 @@
       "categories": [
         "AI",
         "Exclusive"
-      ]
-    },
-    {
-      "item_id": "e823793f5791803cfcb7b4d5e1a759e664572765a02a1235bca30d88216064ee",
-      "title": "Spotify is coming to United's seatback screens",
-      "url": "https://www.engadget.com/2307393/spotify-is-coming-to-uniteds-seatback-screens/",
-      "summary": "The streaming service's entire library of content will be available in the air.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/spotify-is-coming-to-uniteds-seatback-screens/l-intro-1793835172.jpg",
-      "published_at": "2026-11-05T13:00:00+00:00",
-      "categories": [
-        "EVs and Transportation",
-        "Streaming"
       ]
     },
     {
@@ -12061,229 +12217,251 @@
       ]
     },
     {
-      "item_id": "6c432df0d3d23765610065c1838d6063085ad7953bb08a3c01c69a3c1435e2d1",
-      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Aina-Ring-Hands.jpeg?resize=1200,805",
-      "published_at": "2026-11-05T14:42:00+00:00",
-      "categories": [
-        "AI",
-        "Gadgets",
-        "Hardware",
-        "Startups",
-        "AI agents",
-        "smart ring",
-        "wearables"
-      ]
-    },
-    {
-      "item_id": "d5c6ef00ef0ec14801d05d60184c1a2b656d9159780f913658e0ffb715e9456b",
-      "title": "Eufy's clever outdoor security camera that lives inside is now available to buy",
-      "url": "https://www.engadget.com/2309176/eufys-clever-outdoor-security-camera-that-lives-inside-is-now-available-to-buy/",
-      "summary": "The $80 Window Camera E10 sticks to your window, pointed outwards.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/eufys-clever-outdoor-security-camera-that-lives-inside-is-now-available-to-buy/l-intro-1793981717.jpg",
-      "published_at": "2026-11-06T16:16:20+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
-      "item_id": "103ad17f573f9240348174f8d723fb6e046c77772ca69e2dba89fcd13944f778",
-      "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
-      "url": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
-      "summary": "Buying the 4K Blu-ray disc version of KPop Demon Hunters was already going to be a wise idea for some people, especially those who primarily keep their $26.99 Netflix Premium subscription just to watch the hit animated flick in 4K. But at just $24.99 from Barnes and Noble instead of its original $49.95 price, it’s [&#8230;]",
+      "item_id": "278d0f77409176049cf04d215cfe1db620d3e7b5653e2d00434a8b0b2d0515f3",
+      "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
+      "url": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
+      "summary": "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than its usual price, and just a few dollars [&#8230;]",
       "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/KpopDemonHunters_ProRes422HQ_SDR_2ch_20250424.01_04_39_22.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-06T15:27:09+00:00",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/shure-mv7-plus-breakout.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-06T19:47:02+00:00",
       "categories": [
         "Deals",
-        "Entertainment",
         "Gadgets",
         "Verge Shopping"
       ]
     },
     {
-      "item_id": "4d35c9d506991b0d64fda89f71d5066e8b67715e568fc44ee06f2c812774a674",
-      "title": "Apple has a secret list of banned autocomplete phrases including ‘dictator Trump’ and ‘covid is a hoax’",
-      "url": "https://www.theverge.com/tech/1028663/apple-ios-keyboard-blocked-words-autocomplete",
-      "summary": "A researcher found over 100,000 words and phrases in \"every major language\" that are blocked from autocomplete and swipe-type in iOS, Reuters reports. The researcher, Derik Kauffman, says you can still type the words on the blocklist one letter at a time. But they won't pop up as predictive text suggestions and iOS's keyboard may [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/DSC_2327.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-06T15:10:28+00:00",
-      "categories": [
-        "Apple",
-        "iOS",
-        "News",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "617b4bd2b746254de3b2641bb8b6f6baa4fbbcac6d41a90be97565b908450276",
-      "title": "Anker Soundcore Space 2 Pro review: Big bang for less bucks",
-      "url": "https://www.engadget.com/2309011/anker-soundcore-space-2-pro-review/",
-      "summary": "The Space 2 Pro is a set of slightly above average headphones with exceptional voice clarity.",
+      "item_id": "c26c0380808142b517c055bca0196e070cd44dcef19c0c3b6c9ed1aa3f8657cb",
+      "title": "Google's eyewear partners can't keep a lid on its smart glasses plans",
+      "url": "https://www.engadget.com/2309631/googles-eyewear-partners-cant-keep-a-lid-on-its-smart-glasses-plans/",
+      "summary": "Gentle Monster shared that its \"Intelligent Eyewear\" will be available to pre-order on November 12.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/anker-soundcore-space-2-pro-review-big-bang-for-less-bucks/l-intro-1793975820.jpg",
-      "published_at": "2026-11-06T15:00:00+00:00",
-      "categories": [
-        "Headphones"
-      ]
-    },
-    {
-      "item_id": "cc0374f225869f7b0320ddb277c1ff1fdb5cbd2695451369b2a97a938c04d05c",
-      "title": "Stranger Things is getting a live-action spinoff called Other Worlds",
-      "url": "https://www.theverge.com/entertainment/1028608/other-worlds-a-stranger-things-adventure-netflix-announce-trailer",
-      "summary": "Netflix isn't done with Hawkins, Indiana just yet. The streamer just announced a live-action spinoff of Stranger Things which is expected to debut in 2028. It's called Other Worlds: A Stranger Things Adventure. There aren't a lot of details, but the show will be going back in time quite a bit. According to Netflix, Other [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Other_Worlds_Logo_v37_16x9.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-06T14:25:48+00:00",
-      "categories": [
-        "Entertainment",
-        "Netflix",
-        "News",
-        "Streaming",
-        "TV Shows"
-      ]
-    },
-    {
-      "item_id": "2a116711fbe935d8934cf41353edd5219978b21cf67a551ea1f3db61c15c0386",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-06T14:10:00+00:00",
-      "categories": [
-        "AI",
-        "Commerce",
-        "AI agents",
-        "Amazon",
-        "eCommerce"
-      ]
-    },
-    {
-      "item_id": "cca2bbd0b8159d7160d8cad1a7bb1d7b6ebec51948c03dbb923ec46999ed9c67",
-      "title": "TikTok&#8217;s For You page needs to change, says the EU",
-      "url": "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
-      "summary": "The European Commission claims TikTok broke its online platform rules by offering a recommendation algorithm that creates a \"rabbit hole effect\" on users. In an announcement on Friday, the regulators allege TikTok's algorithm can harm users with \"endless and repeated exposure\" to content related to sadness, isolation, or body image. The findings come months after [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK051_VRG_Illo_N_Barclay_9_tiktok.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-06T14:00:49+00:00",
-      "categories": [
-        "Creators",
-        "Policy",
-        "Social Media",
-        "Tech",
-        "TikTok"
-      ]
-    },
-    {
-      "item_id": "4f5854c09315985af30b9c9a33061f28dae549eadf790ae7af41f09d57c207cf",
-      "title": "Google's Find Hub can finally notify you if you've left a tracker behind",
-      "url": "https://www.engadget.com/2308903/googles-find-hub-can-finally-notify-you-if-youve-left-a-tracker-behind/",
-      "summary": "Google has rolled out 'Notify when left behind' separation alerts for your tracking devices.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/googles-find-hub-can-finally-notify-you-if-youve-left-a-tracker-behind/l-intro-1793970258.jpg",
-      "published_at": "2026-11-06T13:05:16+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/googles-eyewear-partners-cant-keep-a-lid-on-its-smart-glasses-plans/l-intro-1793994268.jpg",
+      "published_at": "2026-11-06T19:45:23+00:00",
       "categories": [
         "Google"
       ]
     },
     {
-      "item_id": "38ce2a3ec10225a9fa227e6947a6d490da2a37aaaff7d2990573eb24415bb8d2",
-      "title": "Underdog shows off a 32MB speech model in new demo",
-      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-      "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
+      "item_id": "d59915f58c67bdab1cf978bad05cbca757856a76247350126d1245a6bf77f6de",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-11-06T13:02:16+00:00",
+      "published_at": "2026-11-06T18:44:38+00:00",
       "categories": [
         "AI",
-        "local AI",
-        "underdog"
+        "Security",
+        "cybersecurity",
+        "cyberattack",
+        "artex"
       ]
     },
     {
-      "item_id": "72d2d83356e3b2ad09a2fb1a8d44a476b89d1330ed4396838bcfdc46fb8886dc",
-      "title": "Physicl raises $10M to make the digital world real enough for robots",
-      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
-      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "item_id": "dc3dd806aba67b25b49e2707fedd5fe7eb7616a4eff9c88684a5bb1130250072",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-11-06T13:00:00+00:00",
+      "published_at": "2026-11-06T18:44:20+00:00",
       "categories": [
         "AI",
-        "Fundraising",
-        "Robotics",
-        "physical ai",
-        "world models"
+        "agents",
+        "Mark Zuckerberg",
+        "Meta",
+        "muse"
       ]
     },
     {
-      "item_id": "a1a3811d50b2df0473b72e62e8b79697ba71e0f24faa6e3a757d2654cf1c6177",
-      "title": "Samsung Galaxy Watch Ultra 2 review: The new standard for smartwatch battery life",
-      "url": "https://www.engadget.com/2306413/samsung-galaxy-watch-ultra-2-review-2026/",
-      "summary": "With its bright display and battery life, the Galaxy Watch Ultra 2 hits the sweet spot for smartwatch hardware.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/samsung-galaxy-watch-ultra-2-review-the-new-standard-for-smartwatch-battery-life/l-intro-1793802591.jpg",
-      "published_at": "2026-11-06T13:00:00+00:00",
+      "item_id": "3ee635cd8577c55417f06bcafa3120363df483012129ea4a7eeebdaef6898687",
+      "title": "Lame-duck Congress might actually do something: speed up energy projects",
+      "url": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
+      "summary": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while it could be a catalyst for lots of clean energy, it could also speed up polluting projects and limit oversight of new data centers. With data centers demanding [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268857_cutting_red_tape_to_build_more_powerlines__CVirginia-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-06T18:42:30+00:00",
       "categories": [
-        "Wearables",
-        "Samsung"
+        "Climate",
+        "Energy",
+        "Environment",
+        "Policy",
+        "Politics",
+        "Science"
       ]
     },
     {
-      "item_id": "529444f0e2cf909c33138fb4dadbb95d7940f80f3c18342730d567e886379e90",
-      "title": "Tesla will stop making the Cybertruck in 2027",
-      "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
-      "summary": "Elon Musk said the company will use the factory space to make more Cybercabs.",
+      "item_id": "dabae33feafffcd1d7a0286ddc460ae4b66907f4b6ebeface5047c0c8ba3dc86",
+      "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-muse-spaces.png?quality=90&strip=all&crop=8.0752843063528,0,91.924715693647,74.471659887186",
+      "published_at": "2026-11-06T18:10:10+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Meta",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "cbcfbfde53ca28b82de2971ac25bd7e73b03109e44467a9794f0922aab5cd07e",
+      "title": "Amazon is now making a Melania Trump TV series",
+      "url": "https://www.theverge.com/tech/1028854/amazon-melania-the-series-mgm-studios-prime-video",
+      "summary": "Following the Melania documentary movie that premiered earlier this year, Amazon is now planning to release a two-part Prime Video series focusing on the first lady. The show, Melania: The Series, is set to debut on November 20th. \"MELANIA, The Series reveals never-before-told stories, offering unprecedented insight into Melania Trump's life, including the extraordinary days [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303179993.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-06T17:56:58+00:00",
+      "categories": [
+        "Amazon",
+        "Entertainment",
+        "News",
+        "Streaming",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "b8f952f40572522e922a716f3f50c14a87e12168613854b6fd987fab246ca589",
+      "title": "Just about anyone can rent access to White House IP addresses",
+      "url": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+      "summary": "Someone at the White House appears to be running software that could enable outsiders to rent access on the presidential network for just \"a few dollars,\" as reported by Krebs on Security and The Register. That's according to findings from the security firms Layer3 Intel and Synthient, which discovered residential proxy activity on the White [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-06T17:40:06+00:00",
+      "categories": [
+        "News",
+        "Policy",
+        "Security",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "a28a64d1948ff62461fb2e797bfd845c4d9f72167125e915f79a03f616a4b377",
+      "title": "Kobo will soon let you upload and sync your own ebooks across devices, for a price",
+      "url": "https://www.theverge.com/tech/1028715/kobo-stack-cloud-sync-ebooks-epub-pdf-email-files",
+      "summary": "Kobo is launching a new monthly subscription service called Stack that lets you upload your own ebooks and documents to the company's servers where they'll be synced across multiple devices and apps, including your reading progress, highlights, and annotations. Kobo Stack is similar to Amazon's Send to Kindle feature that allows users to upload a [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/kobo1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-06T17:32:16+00:00",
+      "categories": [
+        "Gadgets",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "0737bb4ad09cc56e136eef3b2760662a05ee7748c1e7d2d21bfbd23cc392140a",
+      "title": "The iPhone Duo has more than 100,000 optimized apps, Apple says",
+      "url": "https://www.theverge.com/tech/1028813/apple-iphone-duo-optimized-apps",
+      "summary": "Apple's iPhone Duo has been officially on sale for two weeks, and the company said today that the App Store now has over 100,000 apps that are built for the foldable. \"It's been wonderful to see how quickly developers have embraced iPhone Duo, and we're grateful for their creativity and innovation,\" Susan Prescott, Apple's VP [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1188.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-06T17:24:36+00:00",
+      "categories": [
+        "Apple",
+        "Foldable Phones",
+        "iPhone",
+        "Mobile",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "49d728a69cd065daf2581ad959d8a7dc59e7531512ba2f0bdb31571d61c079d4",
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a [&#8230;]",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-11-06T11:50:10+00:00",
+      "published_at": "2026-11-06T17:23:52+00:00",
       "categories": [
-        "Transportation",
-        "Cybertruck",
-        "Elon Musk",
-        "tela"
+        "AI",
+        "Government & Policy",
+        "CrowdStrike",
+        "data center",
+        "midterms",
+        "OpenAI"
       ]
     },
     {
-      "item_id": "1e563eb874a6f2f33b6fd61f82464e6009e7597c6cd2f3809626c949332e8574",
-      "title": "Tesla is 'winding down' Cybertruck production at its Texas Gigafactory",
-      "url": "https://www.engadget.com/2308875/tesla-is-winding-down-cybertruck-production-at-its-texas-gigafactory/",
-      "summary": "Tesla Cybertruck production will wind down in the middle of 2027 to make room for the Cybercab robotaxi.",
+      "item_id": "347ce50cbef404736d84ce44419fc8a9082428008e69524bbdd68b110d3fa250",
+      "title": "Fox wraps up its $22 billion Roku deal",
+      "url": "https://www.engadget.com/2309307/fox-wraps-up-its-dollar22-billion-roku-deal/",
+      "summary": "No Hannity on your home screen, at least for now.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/tesla-is-winding-down-cybertruck-production-at-its-texas-gigafactory/l-intro-1793979105.jpg",
-      "published_at": "2026-11-06T11:40:53+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/fox-wraps-up-its-22-billion-roku-deal/l-intro-1793985540.jpg",
+      "published_at": "2026-11-06T17:20:32+00:00",
       "categories": [
-        "EVs and Transportation"
+        "Streaming"
       ]
     },
     {
-      "item_id": "d08f26bc24f97ca8311ecbf32bb1edb434a2e3c4659ae0aa898b7df638bd45df",
-      "title": "Perplexity's 'teammates' are the company's AI agents for daily work tasks",
-      "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
-      "summary": "Perplexity launches personal AI agents that can act as your 'teammates.'",
+      "item_id": "32fde216c192eebbb3cb82f677e8eaad8021dde287a89595488c092eb65840bc",
+      "title": "The EU accuses TikTok's 'rabbit hole' algorithm of breaching its content rules",
+      "url": "https://www.engadget.com/2309300/the-eu-accuses-tiktoks-rabbit-hole-algorithm-of-breaching-its-content-rules/",
+      "summary": "The bloc said the platform needs to change how the For You page works to help protect users' mental health.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/perplexitys-teammates-are-its-ai-agents-for-ongoing-work/l-intro-1793962197.jpg",
-      "published_at": "2026-11-06T11:18:59+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/the-eu-accuses-tiktoks-rabbit-hole-algorithm-of-breaching-its-content-rules/l-intro-1793985365.jpg",
+      "published_at": "2026-11-06T17:17:14+00:00",
+      "categories": [
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "2ab4aecc02dcf118a3acd56fdbb09849028d736c31507a96e9bb4c14c7599605",
+      "title": "You'll soon be able to text Alexa to shop on Amazon",
+      "url": "https://www.engadget.com/2309285/youll-soon-be-able-to-text-alexa-to-shop-on-amazon/",
+      "summary": "The latest Alexa for shopping feature is initially available by invite in the US.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/youll-soon-be-able-to-text-alexa-to-shop-on-amazon/l-intro-1793985022.jpg",
+      "published_at": "2026-11-06T17:11:10+00:00",
+      "categories": [
+        "Amazon"
+      ]
+    },
+    {
+      "item_id": "5fc36de99f2c56dd66e8a7c978b1dee2293cd712e66d72fe151a2cd1c678af23",
+      "title": "AI is the new dating dealbreaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268841_When_it_comes_to_dating_is_AI_the_new_politics__CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-06T17:00:00+00:00",
+      "categories": [
+        "AI",
+        "Culture",
+        "Entertainment",
+        "Internet Culture"
+      ]
+    },
+    {
+      "item_id": "95bfe27657638d1fb06b3cca7ef02be4674596cb034a9d777b947b869d5657b3",
+      "title": "DOJ just launched something called the Super Intelligence Task Force",
+      "url": "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
+      "summary": "The unit is tasked with ensuring that the technology is not \"manipulated by bad actors at home or abroad.\"",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/doj-just-launched-something-called-the-super-intelligence-task-force/l-intro-1793984119.jpg",
+      "published_at": "2026-11-06T16:56:52+00:00",
       "categories": [
         "AI"
       ]
     },
     {
-      "item_id": "2c335e403d8126053f89e5e5aa58bc48e42775552748a919d8370fd9ea34d39a",
-      "title": "The New York Times Company is reportedly trying to buy Letterboxd for $330 million",
-      "url": "https://www.engadget.com/2308852/the-new-york-times-company-reportedly-trying-to-buy-letterboxd/",
-      "summary": "The New York Times Company declined to comment on The New York Times' story.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-new-york-times-company-is-reportedly-trying-to-buy-letterboxd-for-330-million/l-intro-1793960053.jpg",
-      "published_at": "2026-11-06T10:17:23+00:00",
+      "item_id": "017e691a5b3a5c17c5457099bd612cbc6e830c4462903c93d5b428bd263dee24",
+      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
+      "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+      "summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-06T16:50:01+00:00",
       "categories": [
-        "Social Media"
+        "Climate",
+        "Government & Policy",
+        "battery materials",
+        "department of defense",
+        "In Brief"
       ]
     }
   ]
