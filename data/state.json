@@ -3724,44 +3724,31 @@
     "https://www.engadget.com/2307194/amazon-teams-with-uber-eats-for-new-prime-perks/",
     "https://www.engadget.com/2307531/sony-earnings-report-2026-selling-more-ps5-games-console-demand/",
     "c295d1d97f468fdc2df81013566823a10449e51f79d7d3173a9ab9743d486b01",
-    "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+    "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+    "fb19b29f5bd7fa915e2d4b1f63a25561452901fc5da841c3c06bb3ce5374bf40",
+    "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+    "847e80ae4cf85eb9b126a8ccc7815eaa6acf39019c0e998cf1bf3526dce85208",
+    "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "35d2b548f0054feb53e850b4e7bf66d0d415183fafae10f3fc72bfc815e61af7",
+    "3ff994716ff816b371be3282d10c5127c8cae21dd34390b1feedce81e468d6d5",
+    "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+    "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+    "a28a64d1948ff62461fb2e797bfd845c4d9f72167125e915f79a03f616a4b377",
+    "https://www.theverge.com/tech/1028715/kobo-stack-cloud-sync-ebooks-epub-pdf-email-files",
+    "18605acc9d0666b087444f6a03d319ca960410e0def7cdb5e180669eb3e2cec9",
+    "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+    "fb02ae9a47c34cc5e4378f485b31b868834bb306995ad23b1413d08f8b587330",
+    "https://www.engadget.com/2304128/2027-chevrolet-silverado-1500-first-drive/",
+    "cefc669c139c41ca08b6bca930e7a6772c7dfb0513dfadf7b79dfc501c30ff18",
+    "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+    "ffd79905e5c0d042a17b9865d4913a3869da44465eb41b1947b5823114a26eff",
+    "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+    "0a87b142b81c3fad481036bf19fb9361a1f599812588b40ceaf83a6fb2bbfaf2",
+    "https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case",
+    "5a7f531d55ddfc3ea08c8d02ba395f6686f68142c25b8acfb43eefdca4758b18",
+    "https://www.theverge.com/tech/1025659/rian-johnson-chromagraph-camera-interview"
   ],
   "published_stories": [
-    {
-      "title": "RAM prices are crazy high, but do not settle for an 8GB laptop",
-      "summary": "An 8GB laptop can seem like the solution to rising computer prices, but that's a mistake that will cost you for years.",
-      "url": "https://www.engadget.com/2288833/ram-prices-high-do-not-settle-8-gb-laptop/",
-      "display_title": "افزایش سرسام‌آور قیمت رم؛ چرا نباید لپ‌تاپ‌های ۸ گیگابایتی بخریم؟",
-      "display_summary": "با وجود افزایش چشمگیر قیمت تراشه‌های حافظه رم، خرید لپ‌تاپ‌های دارای ۸ گیگابایت رم اشتباهی است که کارایی سیستم را به شدت کاهش می‌دهد. شرکت‌های سازنده مانند دل (Dell) و اپل (Apple) برای حفظ قیمت پایه‌ای محصولات، نسخه‌های ۸ گیگابایتی عرضه می‌کنند، اما بررسی‌ها نشان می‌دهد که این مقدار حافظه برای کارهای روزمره ناکافی است."
-    },
-    {
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and [&#8230;]",
-      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-      "display_title": "شرکت اسپاتیفای بیش از ۵۰ میلیون قطعه موسیقی اسپم و هوش مصنوعی را از بخش پیشنهادات خود حذف کرد",
-      "display_summary": "شرکت اسپاتیفای اعلام کرد که طی سال گذشته بیش از ۵۰ میلیون آهنگ تولید شده با هوش مصنوعی یا هرزنامه را از سیستم پیشنهادات کاربران پاکسازی کرده است. این شرکت همچنین تغییراتی را در الگوریتم خود اعمال کرده تا آثار هنرمندان انسانی بیشتر دیده شوند."
-    },
-    {
-      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
-      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data.",
-      "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
-      "display_title": "دیلان فیلد، هم‌بنیان‌گذار فیگما: پروتکل مدل کانتکست بی‌نقص نیست",
-      "display_summary": "دیلان فیلد (Dylan Field)، هم‌بنیان‌گذار و مدیرعامل شرکت فیگما (Figma)، ضمن ابراز نگرانی درباره کاستی‌های پروتکل مدل کانتکست (MCP)، از افزوده شدن ۲۰ شریک جدید به اکوسیستم این پلتفرم خبر داد. با وجود انتقادات فیلد به نحوه اشتراک‌گذاری متقارن داده‌ها و منافع آزمایشگاه‌های پیشرو هوش مصنوعی، فیگما همچنان به توسعه پشتیبانی خود از استانداردهای باز ادامه می‌دهد."
-    },
-    {
-      "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
-      "summary": "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt.",
-      "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
-      "display_title": "استارتاپ هوانوردی ریلِیبل رباتیکس (Reliable Robotics) با جذب سرمایه ۱۱۵ میلیون دلاری به ارزش بیش از یک میلیارد دلار رسید",
-      "display_summary": "استارتاپ هوانوردی ریلِیبل رباتیکس (Reliable Robotics) که توسط مهศندسان سابق شرکت اسپیس‌اکس (SpaceX) تأسیس شده، موفق شد در دور جدید تأمین مالی ۱۱۵ میلیون دلار سرمایه جذب کند. این جذب سرمایه، ارزش کل استارتاپ را از مرز یک میلیارد دلار عبور داد و مسیر دریافت تاییدیه‌های سازمان هوانوردی فدرال (FAA) را هموارتر ساخت."
-    },
-    {
-      "title": "How to stop fake virus pop-ups on your Windows PC",
-      "summary": "Blaring security alerts that urge you to call a number or download a scanner are bogus, and you can shut them up easily.",
-      "url": "https://www.engadget.com/2288676/how-to-stop-fake-virus-pop-up-windows-pc/",
-      "display_title": "چگونه پنجره‌های پاپ‌آپ جعلی ویروس را در کامپیوترهای ویندوزی مسدود کنیم؟",
-      "display_summary": "بسیاری از هشدارهای امنیتی ناخواسته روی رایانه‌های ویندوزی که ادعا می‌کنند سیستم شما آلوده شده است، در واقع کلاهبرداری‌هایی به نام ترس‌افزار (scareware) هستند. این هشدارها با هدف سرقت اطلاعات یا نصب بدافزار طراحی شده‌اند و کاربران می‌توانند با روش‌های ساده‌ای مانند استفاده از مدیریت وظایف (Task Manager) و تنظیمات مرورگر از شر آن‌ها خلاص شوند."
-    },
     {
       "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
       "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or [&#8230;]",
@@ -7226,6 +7213,41 @@
       "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
       "display_title": "کاهش بودجه و محدودیت‌های مالی شرکت اپل (Apple) برای استفاده داخلی از هوش مصنوعی",
       "display_summary": "شرکت اپل (Apple) سقف بودجه روزانه تیم‌های مهندسی خود برای استفاده از ابزارهای هوش مصنوعی را کاهش داده است. این اقدام نشان‌دهنده چرخش شرکت‌های فناوری به سمت کنترل هزینه‌ها و سهمیه‌بندی توکن‌ها پس از یک دوره استفاده بی‌رویه است."
+    },
+    {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "display_title": "گزارش‌ها از جذب سرمایه ۱۱ میلیارد دلاری دیگر توسط اوپن‌ای‌آی با ارزش‌گذاری ۱.۲۵ تریلیون دلاری حکایت دارند",
+      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) در جریان یک دور تأمین مالی جدید که هنوز به پایان نرسیده است، موفق به جذب ۱۱ میلیارد دلار سرمایه شد. این دور سرمایه‌گذاری که ارزش‌گذاری این شرکت هوش مصنوعی را به ۱.۲۵ تریلیون دلار می‌رساند، ممکن است در هفته‌های آینده به رقم کلی نزدیک به ۲۰ میلیارد دلار برسد."
+    },
+    {
+      "title": "Kobo will soon let you upload and sync your own ebooks across devices, for a price",
+      "summary": "Kobo is launching a new monthly subscription service called Stack that lets you upload your own ebooks and documents to the company's servers where they'll be synced across multiple devices and apps, including your reading progress, highlights, and annotations. Kobo Stack is similar to Amazon's Send to Kindle feature that allows users to upload a [&#8230;]",
+      "url": "https://www.theverge.com/tech/1028715/kobo-stack-cloud-sync-ebooks-epub-pdf-email-files",
+      "display_title": "کوبو سرویس اشتراکی جدیدی برای آپلود و همگام‌سازی کتاب‌های الکترونیکی معرفی کرد",
+      "display_summary": "شرکت کوبو سرویس ماهانه جدیدی به نام استک را معرفی کرده است که به کاربران امکان آپلود، ذخیره‌سازی و همگام‌سازی کتاب‌های الکترونیکی و اسناد شخصی را در میان دستگاه‌های مختلف می‌دهد. این سرویس برخلاف قابلیت رایگان ارسال به کیندل آمازون، با دریافت هزینه‌ای ماهانه و در کنار به‌روزرسانی نسخه ۶.۰ نرم‌افزار کتاب‌خوان‌های کوبو عرضه می‌شود."
+    },
+    {
+      "title": "2027 Chevrolet Silverado 1500 First Drive: Big displays meet big V8s",
+      "summary": "Chevy's new Silverado needs a few updates before it's ready for prime time.",
+      "url": "https://www.engadget.com/2304128/2027-chevrolet-silverado-1500-first-drive/",
+      "display_title": "بررسی اولیه شورولت سیلورادو ۱۵۰۰ مدل ۲۰۲۷: ترکیب نمایشگرهای بزرگ با موتورهای قدرتمند وی۸",
+      "display_summary": "شرکت شورولت (Chevrolet) از مدل ۲۰۲۷ وانت سیلورادو ۱۵۰۰ (Silverado 1500) با پیشرانه‌های جدید قدرتمند وی۸ و کابینی مجهز به فناوری‌های پیشرفته رونمایی کرده است. این خودرو اگرچه از قابلیت‌های حرکتی و تکنولوژیکی برجسته‌ای برخوردار است، اما برای رسیدن به پایداری کامل به به‌روزرسانی‌های نرم‌افزاری نیاز دارد."
+    },
+    {
+      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+      "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "display_title": "استارتاپ دیسکاورد متریالز جایزه یک میلیون دلاری برای حل معضلات علم مواد به هوش مصنوعی اختصاص داد",
+      "display_summary": "استارتاپ نوپای دیسکاورد متریالز (Discovered Materials) که از شتاب‌دهنده وای کامبیناتور (Y Combinator) برخاسته است، جایزه‌ای یک میلیون دلاری برای حل پنج مسئله پیچیده و حل‌نشده در حوزه علم مواد توسط مدل‌های هوش مصنوعی تعیین کرد. این ابتکار با هدف ارزیابی و ارتقای توانایی هوش مصنوعی در درک فیزیک پیچیده و ساخت مواد پیشرفته برای صنایع نیمه‌هادی راه‌اندازی شده است."
+    },
+    {
+      "title": "How I learned to love an obnoxious phone grip",
+      "summary": "Much like a great recipe, it started with a stick of butter. This wasn't real butter; it was a friend's new phone grip, complemented by a phone case with bold stripes. Butter is in vogue now, or at least that's what a 12-year-old told me a few months ago. This stick of butter was labeled [&#8230;]",
+      "url": "https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case",
+      "display_title": "چگونه به نگهدارنده‌های عجیب و سرگرم‌کننده گوشی علاقه‌مند شدم",
+      "display_summary": "با بزرگ‌تر شدن ابعاد گوشی‌های هوشمند، استفاده از تجهیزات جانبی مغناطیسی و نگهدارنده‌های فانتزی به روندی محبوب تبدیل شده است. این لوازم جانبی رنگارنگ و خلاقانه، علاوه بر راحتی در دست گرفتن گوشی، حس شخصی‌سازی و سرگرمی را به کاربران هدیه می‌دهند."
     }
   ],
   "outbox": [
@@ -12089,307 +12111,239 @@
     {
       "key": "url:5f3f5f973e436c6f6b0b4b2f49dece88cf8bac51ef76b823e6fecec390530a6f",
       "url": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
-      "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
-      "summary": "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than its usual price, and just a few dollars [&#8230;]",
-      "display_title": "تخفیف ۵۰ دلاری برای میکروفون محبوب پادکست و استریم شرکت شور",
-      "display_summary": "میکروفون محبوب شرکت شور (Shure) مدل ام‌وی۷ پلاس (MV7 Plus) که در میان استریمرها و پادکسترها طرفداران زیادی دارد، هم‌اکنون با تخفیف حدود ۵۰ دلاری و با قیمت ۲۵۵ دلار در فروشگاه‌های مختلف عرضه می‌شود. این دستگاه با کیفیت صدای شفاف و قابلیت‌های پیشرفته صوتی، گزینه‌ای مناسب برای ضبط حرفه‌ای و جلسات آنلاین به شمار می‌رود.",
       "message": "<b>📰 تخفیف ۵۰ دلاری برای میکروفون محبوب پادکست و استریم شرکت شور</b>\n\nمیکروفون محبوب شرکت شور (Shure) مدل ام‌وی۷ پلاس (MV7 Plus) که در میان استریمرها و پادکسترها طرفداران زیادی دارد، هم‌اکنون با تخفیف حدود ۵۰ دلاری و با قیمت ۲۵۵ دلار در فروشگاه‌های مختلف عرضه می‌شود. این دستگاه با کیفیت صدای شفاف و قابلیت‌های پیشرفته صوتی، گزینه‌ای مناسب برای ضبط حرفه‌ای و جلسات آنلاین به شمار می‌رود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>میکروفون محبوب پادکست و استریم شرکت شور (Shure) یعنی مدل ام‌وی۷ پلاس (MV7 Plus) در حال حاضر با تخفیفی چشمگیر در دسترس علاقه‌مندان قرار گرفته است. این محصول که همواره مورد توجه تولیدکنندگان محتوا، استریمرها و پادکسترها بوده، اکنون با قیمتی حدود ۵۰ دلار کمتر از نرخ معمول خود به فروش می‌رسد. بر اساس گزارش‌های منتشر شده، این میکروفون با کیفیت در فروشگاه‌های مختلفی از جمله آمازون (Amazon)، گیتار سنتر (Guitar Center) و همچنین وب‌سایت رسمی شرکت شور (Shure) با قیمت ۲۵۵ دلار عرضه می‌شود که بسیار نزدیک به پایین‌ترین قیمت ثبت‌شده آن در آمازون است. همچنین برای کاربرانی که فاقد پایه‌اند، بسته‌های ویژه‌ای شامل میکروفون و پایه رومیزی با قیمت ۲۶۹ دلار از سوی آمازون و شور ارائه شده است و نسخه سفیدرنگ این دستگاه نیز تخفیف خورده است. میکروفون ام‌وی۷ پلاس (MV7 Plus) نسخه به‌روزرسانی‌شده‌ای از میکروفون‌های محبوب یواس‌بی (USB) این شرکت محسوب می‌شود که از درگاه یواس‌بی نوع سی (USB-C)، پنل نورپردازی ال‌ای‌دی (LED) قابل‌حساسیت و تنظیم، و قابلیت‌های نرم‌افزاری متنوع در اپلیکیشن موتیو میکس (Motiv Mix) بهره می‌برد. کارشناسان حوزه فناوری و تجهیزات صوتی همواره این مدل را به دلیل شفافیت بالای صدا، سیستم خودکار تنظیم سطح صدا و قابلیت حذف نویز برای مصاحبه‌ها و جلسات آنلاین در پلتفرم‌هایی مانند دیسکورد (Discord) پیشنهاد کرده‌اند. طراحی و ساختار صوتی این میکروفون از مدل حرفه‌ای‌تری به نام شور اس‌ام۷بی (Shure SM7B) الهام گرفته است که آن نیز در حال حاضر شامل تخفیف شده است. مدل ام‌وی۷ پلاس (MV7 Plus) به عنوان گزینه‌ای مقرون‌به‌صرفه‌تر برای تولیدکنندگان محتوا طراحی شده و دارای خروجی‌های دوگانه ایکس‌ال‌آر (XLR) و یواس‌بی نوع سی (USB-C) است تا کاربران بتوانند آن را هم به کارت‌های صدا و هم به طور مستقیم به رایانه متصل کنند. در مجموع، این تخفیف ویژه فرصتی مناسب برای افرادی است که به دنبال ارتقای کیفیت صدای خود در پادکست‌ها، استریم‌ها و تماس‌های کاری هستند و می‌خواهند تجهیزات حرفه‌ای‌تری را با هزینه کمتری تهیه کنند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/shure-mv7-plus-breakout.png?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
+      "summary": "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than its usual price, and just a few dollars [&#8230;]",
+      "display_title": "تخفیف ۵۰ دلاری برای میکروفون محبوب پادکست و استریم شرکت شور",
+      "display_summary": "میکروفون محبوب شرکت شور (Shure) مدل ام‌وی۷ پلاس (MV7 Plus) که در میان استریمرها و پادکسترها طرفداران زیادی دارد، هم‌اکنون با تخفیف حدود ۵۰ دلاری و با قیمت ۲۵۵ دلار در فروشگاه‌های مختلف عرضه می‌شود. این دستگاه با کیفیت صدای شفاف و قابلیت‌های پیشرفته صوتی، گزینه‌ای مناسب برای ضبط حرفه‌ای و جلسات آنلاین به شمار می‌رود."
     },
     {
       "key": "url:c262b9961ff71dc31ad1bfdb83f412787152c234f4b6021b7a76e985e8a298f1",
       "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "display_title": "کشف صدها ابزار هک هوش مصنوعی «آرتکس» با دسترسی عمومی و بدون رمز عبور در اینترنت",
-      "display_summary": "پژوهشگران امنیت سایبری موفق به شناسایی بیش از ۸۰۰ سرور حاوی ابزار هوش مصنوعی تست نفوذ «آرتکس» شدند که به طور خطرناکی روی اینترنت باز و بدون حفاظت رها شده‌اند. این ابزار که منشا چینی دارد، پیش‌تر در حملات سایبری متعددی علیه بخش‌های مالی، بازی‌سازی و فناوری اطلاعات مورد سوءاستفاده قرار گرفته است.",
       "message": "<b>📰 کشف صدها ابزار هک هوش مصنوعی «آرتکس» با دسترسی عمومی و بدون رمز عبور در اینترنت</b>\n\nپژوهشگران امنیت سایبری موفق به شناسایی بیش از ۸۰۰ سرور حاوی ابزار هوش مصنوعی تست نفوذ «آرتکس» شدند که به طور خطرناکی روی اینترنت باز و بدون حفاظت رها شده‌اند. این ابزار که منشا چینی دارد، پیش‌تر در حملات سایبری متعددی علیه بخش‌های مالی، بازی‌سازی و فناوری اطلاعات مورد سوءاستفاده قرار گرفته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پژوهشگران حوزه امنیت سایبری در تازه‌ترین بررسی‌های خود هشدار دادند که صدها نسخه از یک ابزار هک مبتنی بر هوش مصنوعی ساخت کشور چین به نام «آرتکس (Artex)» بر روی بستر اینترنت به صورت عمومی و بدون هیچ‌گونه رمز عبوری رها شده‌اند. این موضوع به هر فردی اجازه می‌دهد تا به ابزارهای پیشرفته نفوذ دسترسی پیدا کرده و احتمال وقوع حملات سایبری جدید را به شدت افزایش دهد. نرم‌افزار «آرتکس (Artex)» یک ابزار متن‌باز برای تست نفوذ خودکار است؛ به این معنا که می‌تواند به طور خودکار سیستم‌های کامپیوتری را برای یافتن آسیب‌پذیری‌ها اسکن کند. از زمان عرضه عمومی این نرم‌افزار در ماه ژوئیه، نام آن در پرونده چندین حمله سایبری بزرگ مطرح شده است. از آنجا که این پروژه متن‌باز است، دانلود و اجرای آن روی سرورهای شخصی رایگان بوده و به گزینه‌ای محبوب برای افرادی تبدیل شده که به پیشرفته‌ترین مدل‌های هوش مصنوعی شرکت‌های «آنتروپیک (Anthropic)» یا «اوپن‌ای‌آی (OpenAI)» برای کشف باگ‌های امنیتی دسترسی ندارند. شرکت «مایکروسافت (Microsoft)» پیش‌تر «آرتکس (Artex)» را به عنوان سیستمی توصیف کرده بود که شامل عوامل هوش مصنوعی برای انجام حملات سایبری از مرحله شناسایی تا سرقت داده‌ها با حداقل نیاز به دخالت انسانی است. در همین راستا، شرکت امنیت سایبری «سنسیس (Censys)» که به پایش سیستم‌های آسیب‌پذیر در اینترنت می‌پردازد، در وبلاگ خود اعلام کرد که بیش از ۸۰۰ نمونه مجزا از «آرتکس (Artex)» را شناسایی کرده که بدون نیاز به ورود رمز عبور از طریق وب قابل دسترس هستند. «سیلاس کاتلر (Silas Cutler)»، پژوهشگر ارشد امنیت در شرکت «سنسیس (Censys)»، خاطرنشان کرد که همه نمونه‌های کشف‌شده الزماً به صورت مخرب اداره نمی‌شوند و برخی توسط تست‌کنندگان مجاز مورد استفاده قرار می‌گیرند؛ با این حال، دلیل این که چرا صدها مورد از این سامانه‌ها روی اینترنت باز مانده‌اند نامشخص است، زیرا ساختار نرم‌افزار نیازی به دسترسی مستقیم از طریق وب ندارد. یافته‌های اخیر نشان می‌دهد چگونه حتی ابزارهای قدرتمند هک نیز ممکن است به دلیل پیکربندی نادرست در دسترس عموم قرار گیرند. این دسترسی‌های ناخواسته، ابزارهای مخربی مانند بدافزارهای پنهان برای حفظ دسترسی پایدار به شبکه قربانیان را نیز در معرض دید قرار می‌دهند. شرکت‌های امنیتی پیش‌تر استفاده از «آرتکس (Artex)» را به حملات گسترده‌ای نسبت داده بودند؛ از جمله حمله ماه سپتامبر به صنعت مالی کره جنوبی که غول امنیت سایبری «کراداسترایک (CrowdStrike)» آن را به هکرهای چینی منتسب کرد. همچنین این ابزار در ماه اکتبر در حمله به غول پشتیبانی فناوری اطلاعات «کانکت‌وایز (ConnectWise)» نیز به کار گرفته شده بود. با توجه به این مشکلات، توسعه‌دهندگان «آرتکس (Artex)» اعلام کرده‌اند که این پروژه از حالت متن‌باز خارج شده و به سیستمی بسته تبدیل خواهد شد تا انتشار آن به مشتریان پرداخت‌کننده محدود شود. با این وجود، کدهای این ابزار همچنان در وب‌سایت‌های اشتراک‌گذاری کد قابل دسترسی است و خطرات ناشی از سوءاستفاده‌های احتمالی همچنان باقی است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "display_title": "کشف صدها ابزار هک هوش مصنوعی «آرتکس» با دسترسی عمومی و بدون رمز عبور در اینترنت",
+      "display_summary": "پژوهشگران امنیت سایبری موفق به شناسایی بیش از ۸۰۰ سرور حاوی ابزار هوش مصنوعی تست نفوذ «آرتکس» شدند که به طور خطرناکی روی اینترنت باز و بدون حفاظت رها شده‌اند. این ابزار که منشا چینی دارد، پیش‌تر در حملات سایبری متعددی علیه بخش‌های مالی، بازی‌سازی و فناوری اطلاعات مورد سوءاستفاده قرار گرفته است."
     },
     {
       "key": "url:b035143e2aa925bb9c80544b62a84563f1e233bd0a3a2af81f7ed19026c97c23",
       "url": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
-      "title": "Lame-duck Congress might actually do something: speed up energy projects",
-      "summary": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while it could be a catalyst for lots of clean energy, it could also speed up polluting projects and limit oversight of new data centers. With data centers demanding [&#8230;]",
-      "display_title": "کنگره آمریکا به دنبال تصویب لایحه جنجالی اصلاح صدور مجوزها برای تسریع پروژه‌های انرژی و مراکز داده",
-      "display_summary": "کنگره ایالات متحده در حال بررسی یک لایحه دوحزبی بزرگ برای اصلاح قوانین صدور مجوز است که هدف آن سرعت بخشیدن به پروژه‌های انرژی و کاهش هزینه‌های قبض خانوارها است. با این حال، این طرح با نگرانی‌هایی از سوی فعالان محیط زیست درباره تضعیف نظارت‌ها بر مراکز داده هوش مصنوعی و سوخت‌های فسیلی مواجه شده است.",
       "message": "<b>📰 کنگره آمریکا به دنبال تصویب لایحه جنجالی اصلاح صدور مجوزها برای تسریع پروژه‌های انرژی و مراکز داده</b>\n\nکنگره ایالات متحده در حال بررسی یک لایحه دوحزبی بزرگ برای اصلاح قوانین صدور مجوز است که هدف آن سرعت بخشیدن به پروژه‌های انرژی و کاهش هزینه‌های قبض خانوارها است. با این حال، این طرح با نگرانی‌هایی از سوی فعالان محیط زیست درباره تضعیف نظارت‌ها بر مراکز داده هوش مصنوعی و سوخت‌های فسیلی مواجه شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>کنگره ایالات متحده در دوره گذار خود (Lame-duck session) در حال بررسی یک لایحه دوحزبی بزرگ و جنجالی به نام «قانون مقرون‌به‌صرفه بودن و مشاغل آمریکا (Bipartisan American Affordability and Jobs Act)» یا به اختصار BAAJA است که می‌تواند روند راه‌اندازی پروژه‌های انرژی را به شکل چشمگیری تسریع کرده و هزینه‌های آب و برق شهروندان را کاهش دهد. این لایحه که توسط سناتورهایی از هر دو حزب از جمله «شلی مور کاپیتو (Shelley Moore Capito)»، «شلدون وایتهاوس (Sheldon Whitehouse)»، «مایک لی (Mike Lee)» و «مارتین هاینریش (Martin Heinrich)» معرفی شده، تلاشی برای پاسخ به یکی از دغدغه‌های اصلی رأی‌دهندگان آمریکایی یعنی افزایش هزینه‌های انرژی و گسترش بی‌رویه مراکز داده در جوامع محلی است. از یک سو، حامیان این قانون معتقدند که قوانین کهنه و بروکراسی پیچیده فعلی، مانع اصلی توسعه زیرساخت‌های انرژی پاک و انتقال برق به شهرهای بزرگ است. بر اساس مدل‌سازی‌های انجام‌شده توسط سازمان‌هایی مانند «منابع برای آینده (Resources for the Future)» و شرکت پژوهشی «رودیوم گروپ (Rhodium Group)»، این لایحه می‌تواند با سرعت بخشیدن به ساخت خطوط انتقال نیرو و توسعه منابع انرژی تجدیدپذیر، انتشار گازهای گلخانه‌ای را کاهش داده و میانگین هزینه‌های سالانه برق خانوارهای آمریکایی را تا سال ۲۰۴۰ میلادی به میزان قابل توجهی کاهش دهد. همچنین این طرح شرکت‌های توسعه‌دهنده مراکز داده را مجبور می‌کند تا سهم عادلانه‌تری از هزینه‌های زیرساختی و انتقال برق را بپردازند. از سوی دیگر، این لایحه نگرانی‌های شدیدی را در میان گروه‌های محیط زیستی مانند «شورای دفاع از منابع طبیعی (NRDC)» و سازمان «ارث‌جاستیس اکشن (Earthjustice Action)» برانگیخته است. منتقدان هشدار می‌دهند که این طرح سرعت را فدای احتیاط کرده و با محدود کردن بررسی‌های زیست‌محیطی و تعیین مهلت‌های سخت‌گیرانه برای اعتراضات قانونی، به شرکت‌های بزرگ اجازه می‌دهد تا فرآیندهای نظارتی را دور بزنند. با افزایش تقاضای سرسام‌آور مراکز داده مرتبط با هوش مصنوعی برای مصرف برق، نگرانی‌هایی وجود دارد که این اصلاحات به توسعه سریع‌تر پروژه‌های سوخت فسیلی و خطوط لوله گاز برای تأمین انرژی این مراکز منجر شود. این لایحه همچنین محدودیت‌های تازه‌ای برای شکایت‌های مردمی و قضایی علیه پروژه‌های بزرگ تعیین می‌کند و اختیارات دادگاه‌ها را در متوقف کردن پروژه‌های مخرب کاهش می‌دهد. با این حال، با توجه به حمایت نهادهای صنعتی و تمایل دولت «دونالد ترامپ (Donald Trump)» به رفع موانع مقرراتی برای ساخت‌وساز زیرساخت‌ها، آینده این لایحه در کنگره و تعاملات میان دموکرات‌ها و جمهوری‌خواهان به یکی از موضوعات داغ سیاسی تبدیل شده است. در نهایت، این طرح به آزمونی برای توانایی قانون‌گذاران آمریکایی در حل بحران‌های انرژی و موازنه میان توسعه فناوری‌های نوین و حفاظت از محیط زیست بدل شده است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268857_cutting_red_tape_to_build_more_powerlines__CVirginia-1.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Lame-duck Congress might actually do something: speed up energy projects",
+      "summary": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while it could be a catalyst for lots of clean energy, it could also speed up polluting projects and limit oversight of new data centers. With data centers demanding [&#8230;]",
+      "display_title": "کنگره آمریکا به دنبال تصویب لایحه جنجالی اصلاح صدور مجوزها برای تسریع پروژه‌های انرژی و مراکز داده",
+      "display_summary": "کنگره ایالات متحده در حال بررسی یک لایحه دوحزبی بزرگ برای اصلاح قوانین صدور مجوز است که هدف آن سرعت بخشیدن به پروژه‌های انرژی و کاهش هزینه‌های قبض خانوارها است. با این حال، این طرح با نگرانی‌هایی از سوی فعالان محیط زیست درباره تضعیف نظارت‌ها بر مراکز داده هوش مصنوعی و سوخت‌های فسیلی مواجه شده است."
     },
     {
       "key": "url:8d7ae5b310e8fdceb3d9f152eeb142ad4eb67dab35ffddd118dfc9f04fd37ae2",
       "url": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
-      "title": "Just about anyone can rent access to White House IP addresses",
-      "summary": "Someone at the White House appears to be running software that could enable outsiders to rent access on the presidential network for just \"a few dollars,\" as reported by Krebs on Security and The Register. That's according to findings from the security firms Layer3 Intel and Synthient, which discovered residential proxy activity on the White [&#8230;]",
-      "display_title": "امکان اجاره دسترسی به آدرس‌های آی‌پی کاخ سفید با هزینه‌ای اندک",
-      "display_summary": "پژوهشگران امنیت سایبری کشف کرده‌اند که فعالیت پروکسی‌های مسکونی در شبکه کاخ سفید به افراد خارجی اجازه می‌دهد با پرداخت مبلغی ناچیز، ترافیک اینترنت خود را از طریق شبکه ریاست‌جمهوری ایالات متحده هدایت کنند. این مشکل احتمالا ناشی از نصب نرم‌افزارها یا ابزارهای جانبی حاوی کیت‌های توسعه نرم‌افزاری (SDK) روی دستگاه‌های کاربران حاضر در این شبکه است.",
       "message": "<b>📰 امکان اجاره دسترسی به آدرس‌های آی‌پی کاخ سفید با هزینه‌ای اندک</b>\n\nپژوهشگران امنیت سایبری کشف کرده‌اند که فعالیت پروکسی‌های مسکونی در شبکه کاخ سفید به افراد خارجی اجازه می‌دهد با پرداخت مبلغی ناچیز، ترافیک اینترنت خود را از طریق شبکه ریاست‌جمهوری ایالات متحده هدایت کنند. این مشکل احتمالا ناشی از نصب نرم‌افزارها یا ابزارهای جانبی حاوی کیت‌های توسعه نرم‌افزاری (SDK) روی دستگاه‌های کاربران حاضر در این شبکه است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بر اساس گزارش‌های منتشرشده توسط شرکت‌های امنیتی «لیرتری اینتل (Layer3 Intel)» و «سینتینت (Synthient)»، بررسی‌ها نشان می‌دهد که فعالیت پروکسی‌های مسکونی روی شبکه کاخ سفید (White House) وجود دارد. این وضعیت به افراد خارج از مجموعه اجازه می‌دهد تا با پرداخت تنها چند دلار، به آدرس‌های پروتکل اینترنت یا همان آی‌پی (IP) کاخ سفید دسترسی پیدا کرده و ترافیک اینترنتی خود را از طریق آن هدایت کنند. پروکسی مسکونی ابزاری است که به کاربران امکان می‌دهد ترافیک خود را از طریق یک آدرس آی‌پی متعلق به اینترنت خانگی عبور دهند و هویت یا موقعیت واقعی خود را پنهان سازند. طبق بررسی‌های شرکت امنیت سایبری «اسپور (Spur)»، اگرچه از این فناوری گاهی برای مواردی مانند بررسی تبلیغات استفاده می‌شود، اما بازیگران مخرب نیز از آن برای دور کردن محدودیت‌های جغرافیایی، دور زدن فیلترهای دفاعی، ایجاد بات‌نت‌ها (Botnets) و حتی ربودن حساب‌های کاربری بهره می‌برند. شرکت «لیرتری اینتل (Layer3 Intel)» اعلام کرده است که بین ۵ اکتبر تا ۳ نوامبر، ۲۸ سرویس پروکسی مسکونی ترافیک خود را از شبکه کاخ سفید خارج کرده‌اند. الگوی زمانی این فعالیت‌ها که معمولاً بین ساعت ۵ عصر تا نیمه‌شب رخ داده، نشان می‌دهد که این موضوع احتمالاً مربوط به یک فرد حاضر در شبکه است که دستگاهش به یک کیت توسعه نرم‌افزاری (SDK) آلوده شده است، نه شبکه وای‌فای عمومی مهمان. از سوی دیگر، شرکت «سینتینت (Synthient)» این فعالیت را به اپلیکیشنی به نام «ریو (Rave)» مرتبط دانسته که بسته‌های پروکسی متعددی را در خود جای داده است. این شرکت توانسته دستگاه‌های مجهز به سیستم‌عامل‌های ویندوز ۱۰ (Windows 10) و ویندوز ۱۱ (Windows 11) را در شبکه کاخ سفید شناسایی کند که با ارائه‌دهندگان پروکسی مانند «جیونود (Geonode)»، «اینفاتیکا (Infatica)» و «ملوتل (Mellowtel)» در ارتباط بوده‌اند. طبق گزارش رسانه «کربز آن سیکوریتی (Krebs on Security)»، شرکت «اینفاتیکا (Infatica)» توسط «ولادیمیر فومنکو (Vladimir Fomenko)» اداره می‌شود که پیش‌تر مالک شرکت «کینگ سرورز (King Servers)» بوده و نام آن در حملات سایبری سال ۲۰۱۶ به سیستم‌های انتخاباتی ایالت‌های ایلینوی و آریزونا مطرح شده بود. کارشناسان هشدار می‌دهند که این دسترسی عمومی به شبکه کاخ سفید می‌تواند خطرات امنیتی جدی به همراه داشته باشد، زیرا هر فردی می‌تواند با ثبت‌نام در سرویس‌های پروکسی عمومی و پرداخت مبلغی اندک، از این بستر استفاده کند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Just about anyone can rent access to White House IP addresses",
+      "summary": "Someone at the White House appears to be running software that could enable outsiders to rent access on the presidential network for just \"a few dollars,\" as reported by Krebs on Security and The Register. That's according to findings from the security firms Layer3 Intel and Synthient, which discovered residential proxy activity on the White [&#8230;]",
+      "display_title": "امکان اجاره دسترسی به آدرس‌های آی‌پی کاخ سفید با هزینه‌ای اندک",
+      "display_summary": "پژوهشگران امنیت سایبری کشف کرده‌اند که فعالیت پروکسی‌های مسکونی در شبکه کاخ سفید به افراد خارجی اجازه می‌دهد با پرداخت مبلغی ناچیز، ترافیک اینترنت خود را از طریق شبکه ریاست‌جمهوری ایالات متحده هدایت کنند. این مشکل احتمالا ناشی از نصب نرم‌افزارها یا ابزارهای جانبی حاوی کیت‌های توسعه نرم‌افزاری (SDK) روی دستگاه‌های کاربران حاضر در این شبکه است."
     },
     {
       "key": "url:347ce50cbef404736d84ce44419fc8a9082428008e69524bbdd68b110d3fa250",
       "url": "https://www.engadget.com/2309307/fox-wraps-up-its-dollar22-billion-roku-deal/",
-      "title": "Fox wraps up its $22 billion Roku deal",
-      "summary": "No Hannity on your home screen, at least for now.",
-      "display_title": "شرکت فاکس معامله ۲۲ میلیارد دلاری خرید شرکت روکو را نهایی کرد",
-      "display_summary": "شرکت فاکس کورپوریشن (Fox Corporation) رسماً مالکیت پلتفرم پخش استریم روکو (Roku) را در معامله‌ای کلان به ارزش ۲۲ میلیارد دلار تکمیل کرد. این توافق پس از بررسی‌های وزارت دادگستری ایالات متحده آمریکا (US Department of Justice) نهایی شد و کنترل یکی از بزرگترین دروازه‌های پخش خانگی را به این غول رسانه‌ای سپرد.",
       "message": "<b>📰 شرکت فاکس معامله ۲۲ میلیارد دلاری خرید شرکت روکو را نهایی کرد</b>\n\nشرکت فاکس کورپوریشن (Fox Corporation) رسماً مالکیت پلتفرم پخش استریم روکو (Roku) را در معامله‌ای کلان به ارزش ۲۲ میلیارد دلار تکمیل کرد. این توافق پس از بررسی‌های وزارت دادگستری ایالات متحده آمریکا (US Department of Justice) نهایی شد و کنترل یکی از بزرگترین دروازه‌های پخش خانگی را به این غول رسانه‌ای سپرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت فاکس کورپوریشن (Fox Corporation) معامله عظیم ۲۲ میلیارد دلاری خود برای خرید شرکت روکو (Roku) را به‌طور رسمی نهایی کرد. این توافق که نخستین بار در ماه ژوئن اعلام شده بود، طی تنها پنج ماه به سرانجام رسید که زمان بسیار کوتاهی برای ادغامی در این ابعاد محسوب می‌شود. وزارت دادگستری ایالات متحده آمریکا (US Department of Justice) پس از بررسی‌های لازم، این معامله را تأیید و مسیر را برای نهایی شدن آن هموار کرد. پلتفرم روکو (Roku) در بیش از ۱۰۰ میلیون خانوار در سراسر جهان حضور دارد و به‌عنوان دروازه‌ای کلیدی برای دسترسی به خدمات پخش مهمی مانند نتفلیکس (Netflix)، یوتیوب تی‌وی (YouTube TV) و دیزنی‌پلاس (Disney+) عمل می‌کند. این شرکت علاوه بر فروش تبلیغات و بسته‌های اشتراکی، مالک سرویس استریم دیگری به نام توبی (Tubi) نیز هست. جالب اینجاست که شرکت فاکس (Fox) در سال ۲۰۲۰ سهام خود در روکو را فروخته بود تا به تأمین مالی خرید سرویس توبی (Tubi) کمک کند. این معامله در شرایطی نهایی می‌شود که آمارها از کاهش ۲۷ درصدی مخاطبان شبکه خبری فاکس‌نیوز (Fox News) در ماه اکتبر نسبت به مدت مشابه سال گذشته حکایت دارند. در مقایسه، میزان بینندگان شبکه سی‌ان‌ان (CNN) معادل ۳ درصد و شبکه ام‌اس‌ناو (MS NOW) حدود ۱۶ درصد رشد داشته است؛ با این حال، مجموع مخاطبان فاکس‌نیوز (Fox News) همچنان از مجموع بینندگان سی‌ان‌ان (CNN) و ام‌اس‌ناو (MS NOW) بیشتر است. به عنوان بخشی از این تغییرات، آنتونی وود (Anthony Wood)، بنیان‌گذار روکو (Roku)، به هیئت مدیره فاکس (Fox) ملحق خواهد شد. او به طور مشترک رهبری بخش جدیدی به نام پلتفرم‌های دیجیتال فاکس (Fox Digital Platforms) را بر عهده خواهد گرفت که نظارت بر روکو (Roku)، توبی (Tubi)، فاکس وان (Fox One) و سایر برندهای دیجیتال را در بر می‌گیرد. هنوز به‌طور دقیق مشخص نیست این معامله چه تأثیری بر کاربران فعلی دستگاه‌های روکو (Roku) خواهد گذاشت. با توجه به رویکرد سیاسی شناخته‌شده این امپراتوری رسانه‌ای، برخی کارشناسان ابراز نگرانی کرده‌اند که ممکن است از روکو (Roku) به عنوان ابزاری تبلیغاتی استفاده شود. از سوی دیگر، شرکت فاکس (Fox) اعلام کرده است که روکو (Roku) همچنان به عنوان یک «پلتفرم باز» برای تمامی شرکای محتوایی به کار خود ادامه خواهد داد، اما دغدغه اصلی ناظران، نحوه ارتقا و پیشنهاد محتوا در صفحه اصلی (Home Screen) این دستگاه‌ها است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/fox-wraps-up-its-22-billion-roku-deal/l-intro-1793985540.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Fox wraps up its $22 billion Roku deal",
+      "summary": "No Hannity on your home screen, at least for now.",
+      "display_title": "شرکت فاکس معامله ۲۲ میلیارد دلاری خرید شرکت روکو را نهایی کرد",
+      "display_summary": "شرکت فاکس کورپوریشن (Fox Corporation) رسماً مالکیت پلتفرم پخش استریم روکو (Roku) را در معامله‌ای کلان به ارزش ۲۲ میلیارد دلار تکمیل کرد. این توافق پس از بررسی‌های وزارت دادگستری ایالات متحده آمریکا (US Department of Justice) نهایی شد و کنترل یکی از بزرگترین دروازه‌های پخش خانگی را به این غول رسانه‌ای سپرد."
     },
     {
       "key": "url:2ab4aecc02dcf118a3acd56fdbb09849028d736c31507a96e9bb4c14c7599605",
       "url": "https://www.engadget.com/2309285/youll-soon-be-able-to-text-alexa-to-shop-on-amazon/",
-      "title": "You'll soon be able to text Alexa to shop on Amazon",
-      "summary": "The latest Alexa for shopping feature is initially available by invite in the US.",
-      "display_title": "قابلیت جدید آمازون؛ امکان ارسال پیام متنی به الکسا برای خرید آنلاین",
-      "display_summary": "شرکت آمازون (Amazon) قابلیت جدیدی را برای دستیار صوتی خود، الکسا (Alexa)، معرفی کرده است که به کاربران اجازه می‌دهد از طریق پیام متنی و ارسال تصویر، اقلام مورد نیاز خود را خریداری کنند. این ویژگی در حال حاضر به صورت آزمایشی و با دعوت‌نامه برای کاربران منتخب در ایالات متحده آمریکا عرضه شده است.",
       "message": "<b>📰 قابلیت جدید آمازون؛ امکان ارسال پیام متنی به الکسا برای خرید آنلاین</b>\n\nشرکت آمازون (Amazon) قابلیت جدیدی را برای دستیار صوتی خود، الکسا (Alexa)، معرفی کرده است که به کاربران اجازه می‌دهد از طریق پیام متنی و ارسال تصویر، اقلام مورد نیاز خود را خریداری کنند. این ویژگی در حال حاضر به صورت آزمایشی و با دعوت‌نامه برای کاربران منتخب در ایالات متحده آمریکا عرضه شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت آمازون (Amazon) در راستای توسعه قابلیت‌های هوش مصنوعی (AI) خود، از ویژگی جدیدی برای دستیار هوشمند الکسا (Alexa) رونمایی کرد که به کاربران امکان می‌دهد درخواست‌های خرید خود را به صورت پیام متنی به این دستیار ارسال کنند. این قابلیت جدید که با نام «الکسا برای خرید» (Alexa for Shopping) شناخته می‌شود، تجربه خرید آنلاین را وارد مرحله‌ای تازه و تعاملی‌تر می‌کند. بر اساس اطلاعات منتشر شده، این ویژگی جدید در حال حاضر به صورت آزمایشی و از طریق دعوت‌نامه برای مشتریان منتخب در ایالات متحده آمریکا (United States) در دسترس قرار گرفته است و انتظار می‌رود در هفته‌های آینده روند عرضه آن گسترش یابد. کاربران پیش از این نیز می‌توانستند فهرست خریدهای خواربار خود را در اپلیکیشن خرید آمازون (Amazon Shopping) یا وب‌سایت آن وارد کنند، اما شرکت آمازون اعلام کرده است که قابلیت پیام‌رسانی جدید، راحت‌ترین راهکار ارائه‌شده تاکنون برای مدیریت خریدها به شمار می‌رود. با استفاده از این امکان جدید، کاربران می‌توانند سفارش هفتگی خواربار خود را درخواست کنند، به دنبال هدیه مناسب بگردند یا به هوش مصنوعی اطلاع دهند که برای تکرار خرید کالایی که در حال تمام شدن است، نیاز به اقدام سریع دارند. علاوه بر دستورات متنی، الکسا قادر است به تصاویر ارسالی کاربران نیز پاسخ دهد و با اسکن کردن فروشگاه برای یافتن موارد مشابه، پیشنهادهای خود را در قالب پیام برگرداند. این سیستم همچنین می‌تواند اقلام تأییدشده را به سبد خرید کاربر اضافه کرده و فرآیند نهایی‌سازی سفارش را تکمیل کند. آمازون تأکید کرده است که هوش مصنوعی این دستیار با گذشت زمان و با یادگیری عادت‌ها و سلیقه‌های مختلف خرید کاربران، توصیه‌های مفیدتری را ارائه خواهد داد. افزون بر این، کاربران می‌توانند درباره محصولاتی که تمایل دارند در زمان تخفیف خریداری کنند به الکسا پیام دهند و هشدارهایی برای آینده تنظیم کنند، یا تاریخچه قیمت یک کالا را تا یک سال کامل بررسی نمایند. پیگیری وضعیت سفارش‌ها و تحویل مرسولات نیز از طریق ارسال پیام به الکسا امکان‌پذیر است و تمامی درخواست‌ها به صورت هماهنگ با اپلیکیشن خرید آمازون (Amazon Shopping) و وب‌سایت آن همگام‌سازی می‌شوند تا کاربران در صورت تمایل به بررسی بیشتر، به راحتی به آن‌ها دسترسی داشته باشند. برای پیوستن به این طرح آزمایشی، کاربران باید شماره تلفن خود را متصل کنند و در صورت پذیرفته شدن، مخاطب «الکسا شاپینگ» (Alexa Shopping) را در فهرست مخاطبان خود مشاهده خواهند کرد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/youll-soon-be-able-to-text-alexa-to-shop-on-amazon/l-intro-1793985022.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "You'll soon be able to text Alexa to shop on Amazon",
+      "summary": "The latest Alexa for shopping feature is initially available by invite in the US.",
+      "display_title": "قابلیت جدید آمازون؛ امکان ارسال پیام متنی به الکسا برای خرید آنلاین",
+      "display_summary": "شرکت آمازون (Amazon) قابلیت جدیدی را برای دستیار صوتی خود، الکسا (Alexa)، معرفی کرده است که به کاربران اجازه می‌دهد از طریق پیام متنی و ارسال تصویر، اقلام مورد نیاز خود را خریداری کنند. این ویژگی در حال حاضر به صورت آزمایشی و با دعوت‌نامه برای کاربران منتخب در ایالات متحده آمریکا عرضه شده است."
     },
     {
       "key": "url:84e924c4ab2b73c17e2de193bf0642daa04464e28ba17c90c18d2f60ac7771ae",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-      "title": "AI is the new dating dealbreaker",
-      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where [&#8230;]",
-      "display_title": "هوش مصنوعی؛ معیار جدید و خط قرمز برای شروع رابطه عاشقانه در سانفرانسیسکو",
-      "display_summary": "در شهر سانفرانسیسکو، پیشرفت سریع فناوری هوش مصنوعی به معیاری جدی برای ارزیابی شریک عاطفی تبدیل شده است. در حالی که برخی افراد شاغل در این حوزه به دلیل ثروت و پایداری شغلی طرفداران زیادی دارند، گروهی دیگر به دلیل دغدغه‌های اخلاقی و نگرانی درباره آینده، ارتباط با فعالان هوش مصنوعی یا استفاده از چت‌بات‌ها را خط قرمز خود می‌دانند.",
       "message": "<b>📰 هوش مصنوعی؛ معیار جدید و خط قرمز برای شروع رابطه عاشقانه در سانفرانسیسکو</b>\n\nدر شهر سانفرانسیسکو، پیشرفت سریع فناوری هوش مصنوعی به معیاری جدی برای ارزیابی شریک عاطفی تبدیل شده است. در حالی که برخی افراد شاغل در این حوزه به دلیل ثروت و پایداری شغلی طرفداران زیادی دارند، گروهی دیگر به دلیل دغدغه‌های اخلاقی و نگرانی درباره آینده، ارتباط با فعالان هوش مصنوعی یا استفاده از چت‌بات‌ها را خط قرمز خود می‌دانند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>با گسترش روزافزون فناوری‌های نوین در زندگی روزمره، هوش مصنوعی (AI) به یک فاکتور تعیین‌کننده و گاه خط قرمز در روابط عاطفی افراد تبدیل شده است. در شهر سانفرانسیسکو که به عنوان قلب تپنده فناوری شناخته می‌شود، این موضوع ابعاد تازه‌ای به خود گرفته است و کاربران برنامه‌های دوست‌یابی با چالش‌ها و دیدگاه‌های متفاوتی در این زمینه مواجه هستند. بر اساس گزارش‌های میدانی، برخی از کاربران در پروفایل‌های خود در اپلیکیشن‌هایی مانند «هینج (Hinge)» صراحتاً اعلام می‌کنند که تمایلی به برقراری ارتباط با افرادی که در حوزه هوش مصنوعی فعالیت دارند یا از آن استفاده می‌کنند، ندارند. در مقابل، شاغلان و مهندسان این حوزه به لطف حقوق‌های بالا و بازار کار پر رونق، از مزیت اقتصادی قابل‌توجهی برخوردارند. گزارش‌های شرکت مشاوره املاک و مستغلات «سی‌بی‌ارئی (CBRE)» نشان می‌دهد که ده‌ها هزار شغل جدید در حوزه هوش مصنوعی در منطقه خلیج سانفرانسیسکو ایجاد شده است و میانگین درآمد پژوهشگران این حوزه به رقم‌های چشمگیری می‌رسد. با این حال، دغدغه‌های اخلاقی و وجود نگرانی‌های آخرالزمانی درباره آینده بشریت در میان برخی فعالان این صنعت، روی روابط عاطفی آن‌ها نیز سایه اندکاه است. برخی پژوهشگران ایمنی هوش مصنوعی معتقدند که توسعه شتاب‌زده این فناوری آینده بلندمدت بشر را تهدید می‌کند و همین امر برنامه‌ریزی برای تشکیل خانواده و بچه‌دار شدن را برای آن‌ها دشوار ساخته است. از سوی دیگر، استفاده از دستیاران هوش مصنوعی و چت‌بات‌ها برای تنظیم روابط یا خودکارسازی فرآیند دوست‌یابی توسط برخی مهندسان جوان، بحث‌های داغی را درباره اصالت عواطف انسانی ایجاد کرده است. بررسی‌های موسسه «کینسی (Kinsey Institute)» نشان می‌دهد که درصد قابل‌توجهی از افراد مجرد در ایالات متحده از ابزارهای هوش مصنوعی برای بهبود تجربه‌های عاطفی خود استفاده می‌کنند. در مجموع، در حالی که برخی افراد به چشم فرصت اقتصادی به شاغلان این صنعت نگاه می‌کنند، گروهی دیگر با برگزاری تجمع‌های اعتراضی و ابراز تردید نسبت به پیامدهای اجتماعی فناوری، ترجیح می‌دهند به دنبال روابط انسانی و سنتی‌تر باشند. این دوگانگی نشان می‌دهد که هوش مصنوعی فراتر از یک ابزار فنی، اکنون به بخشی از هویت اجتماعی و معیارهای گزینش شریک زندگی تبدیل شده است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268841_When_it_comes_to_dating_is_AI_the_new_politics__CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "AI is the new dating dealbreaker",
+      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where [&#8230;]",
+      "display_title": "هوش مصنوعی؛ معیار جدید و خط قرمز برای شروع رابطه عاشقانه در سانفرانسیسکو",
+      "display_summary": "در شهر سانفرانسیسکو، پیشرفت سریع فناوری هوش مصنوعی به معیاری جدی برای ارزیابی شریک عاطفی تبدیل شده است. در حالی که برخی افراد شاغل در این حوزه به دلیل ثروت و پایداری شغلی طرفداران زیادی دارند، گروهی دیگر به دلیل دغدغه‌های اخلاقی و نگرانی درباره آینده، ارتباط با فعالان هوش مصنوعی یا استفاده از چت‌بات‌ها را خط قرمز خود می‌دانند."
     },
     {
       "key": "url:95bfe27657638d1fb06b3cca7ef02be4674596cb034a9d777b947b869d5657b3",
       "url": "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
-      "title": "DOJ just launched something called the Super Intelligence Task Force",
-      "summary": "The unit is tasked with ensuring that the technology is not \"manipulated by bad actors at home or abroad.\"",
-      "display_title": "وزارت دادگستری ایالات متحده «کارگروه هوش فوق‌العاده» را برای امنیت فناوری تأسیس کرد",
-      "display_summary": "وزارت دادگستری ایالات متحده (DOJ) نهاد جدیدی تحت عنوان «کارگروه هوش فوق‌العاده» (Super Intelligence Task Force) را برای مقابله با تهدیدات و سوءاستفاده‌های داخلی و خارجی از فناوری‌های پیشرفته راه اندازی کرده است. این اقدام در شرایطی صورت می‌گیرد که دولت همچنان بر استفاده از واژه ابداعی «هوش فوق‌العاده» (Super Intelligence) به جای اصطلاح رایج هوش مصنوعی اصرار دارد.",
       "message": "<b>📰 وزارت دادگستری ایالات متحده «کارگروه هوش فوق‌العاده» را برای امنیت فناوری تأسیس کرد</b>\n\nوزارت دادگستری ایالات متحده (DOJ) نهاد جدیدی تحت عنوان «کارگروه هوش فوق‌العاده» (Super Intelligence Task Force) را برای مقابله با تهدیدات و سوءاستفاده‌های داخلی و خارجی از فناوری‌های پیشرفته راه اندازی کرده است. این اقدام در شرایطی صورت می‌گیرد که دولت همچنان بر استفاده از واژه ابداعی «هوش فوق‌العاده» (Super Intelligence) به جای اصطلاح رایج هوش مصنوعی اصرار دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>وزارت دادگستری ایالات متحده (Department of Justice) ملقب به (DOJ) رسماً از تشکیل واحد جدیدی به نام «کارگروه هوش فوق‌العاده» (Super Intelligence Task Force) که به اختصار (DOJ-SITF) نیز نامیده می‌شود، خبر داد. هدف اصلی این کارگروه، محافظت از زیرساخت‌ها و فناوری‌های پیشرفته مرتبط با هوش مصنوعی در برابر تهدیدات ناشی از بازیگران مخرب داخلی و خارجی، سازمان‌های جنایی فراملی و جرایم شرکتی عنوان شده است. بر اساس بیانیه رسمی منتشر شده، هدایت این واحد جدید را «استنلی وودوارد» (Stanley Woodward) و «استفن وایس» (Stephen Weiss) بر عهده دارند که هر دو به «تاد بلانچ» (Todd Blanche)، دادستان کل ایالات متحده، گزارش می‌دهند. این تصمیم در شرایطی اتخاذ شده که بحث و جدل پیرامون نام‌گذاری این فناوری‌ها نیز همچنان ادامه دارد. دولت ایالات متحده و شخص «دونالد ترامپ» (Donald Trump)، رئیس‌جمهور این کشور، بر استفاده از اصطلاح «هوش فوق‌العاده» (Super Intelligence) به جای اصطلاح جهانی و جاافتاده «هوش مصنوعی» (Artificial Intelligence) اصرار دارند و حتی از رسانه‌ها خواسته‌اند این تغییر نام را بپذیرند، موضوعی که با واکنش‌های متفاوتی در میان اهالی رسانه و صنعت فناوری روبرو شده است. از سوی دیگر، شرکت‌های بزرگ فناوری مانند «گوگل» (Google)، «اپل» (Apple)، و «متا» (Meta) با چالش‌های پیچیده‌ای در تعامل با دولت جدید مواجه هستند. این شرکت‌ها از یک‌سو برای حفظ قراردادهای کلان دولتی و منافع تجاری خود نیازمند همراهی با سیاست‌های دولت هستند و از سوی دیگر، با نظارت‌ها و تحقیقات احتمالی از سوی مخالفان سیاسی و نهادهای نظارتی روبرو هستند. تحلیلگران بر این باورند که کارگروه جدید «کارگروه هوش فوق‌العاده» (Super Intelligence Task Force) فراتر از جنبه‌های امنیتی، می‌تواند به ابزاری برای اعمال فشار بیشتر بر صنعت فناوری تبدیل شود. در مجموع، تأسیس این کارگروه نشان‌دهنده تمرکز فزاینده دولت بر امنیت فناوری‌های نوین و کنترل ریسک‌های ناشی از توسعه سریع سیستم‌های پیشرفته است. با این حال، موفقیت این نهاد و میزان همراهی شرکت‌های بزرگ فناوری با رویکردهای دستوری دولت، از جمله استفاده از واژگان جدید، همچنان در هاله‌ای از ابهام قرار دارد و تحولات آینده این حوزه را رقم خواهد زد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/doj-just-launched-something-called-the-super-intelligence-task-force/l-intro-1793984119.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "DOJ just launched something called the Super Intelligence Task Force",
+      "summary": "The unit is tasked with ensuring that the technology is not \"manipulated by bad actors at home or abroad.\"",
+      "display_title": "وزارت دادگستری ایالات متحده «کارگروه هوش فوق‌العاده» را برای امنیت فناوری تأسیس کرد",
+      "display_summary": "وزارت دادگستری ایالات متحده (DOJ) نهاد جدیدی تحت عنوان «کارگروه هوش فوق‌العاده» (Super Intelligence Task Force) را برای مقابله با تهدیدات و سوءاستفاده‌های داخلی و خارجی از فناوری‌های پیشرفته راه اندازی کرده است. این اقدام در شرایطی صورت می‌گیرد که دولت همچنان بر استفاده از واژه ابداعی «هوش فوق‌العاده» (Super Intelligence) به جای اصطلاح رایج هوش مصنوعی اصرار دارد."
     },
     {
       "key": "url:f6ef0a569aa9b8a1164739a852098f854ae75016d345396fd6ec8e2a70510c2d",
       "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
-      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
-      "summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process.",
-      "display_title": "وام ۲۵۰ میلیون دلاری پنتاگون به استارتاپ باتری‌سازی سیکس‌کی (6K) برای احداث کارخانه در ایالات متحده",
-      "display_summary": "وزارت دفاع ایالات متحده آمریکا (Department of Defense) موافقت اصولی خود را با اعطای یک وام ۲۵۰ میلیون دلاری به استارتاپ سیکس‌کی (6K) اعلام کرد. هدف از این اقدام، توسعه فناوری تولید مواد باتری با استفاده از پلاسما و کاهش وابستگی زنجیره تأمین به چین است.",
       "message": "<b>📰 وام ۲۵۰ میلیون دلاری پنتاگون به استارتاپ باتری‌سازی سیکس‌کی (6K) برای احداث کارخانه در ایالات متحده</b>\n\nوزارت دفاع ایالات متحده آمریکا (Department of Defense) موافقت اصولی خود را با اعطای یک وام ۲۵۰ میلیون دلاری به استارتاپ سیکس‌کی (6K) اعلام کرد. هدف از این اقدام، توسعه فناوری تولید مواد باتری با استفاده از پلاسما و کاهش وابستگی زنجیره تأمین به چین است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>وزارت دفاع ایالات متحده آمریکا (Department of Defense)، معروف به پنتاگون، با اعطای یک وام کلان ۲۵۰ میلیون دلاری به صورت مشروط به استارتاپ سیکس‌کی (6K) موافقت کرد. این استارتاپ دوازده ساله که دفتر مرکزی آن در شهر نورث اندوور (North Andover) ایالت ماساچوست (Massachusetts) قرار دارد، قصد دارد با استفاده از این تسهیلات مالی، یک کارخانه پیشرفته تولید مواد اولیه باتری در ایالت تنسی (Tennessee) احداث کند. اهمیت این پروژه از آن روست که باتری‌ها امروزه به یکی از ارکان حیاتی تجهیزات مدرن، از جمله ادوات نظامی، تبدیل شده‌اند و دولت ایالات متحده آمریکا (United States) به دنبال تقویت ظرفیت تولید داخلی خود است. فرآیند تولیدی استارتاپ سیکس‌کی (6K) مبتنی بر فناوری مایکروویو است که طی آن فلزات تا حد تبدیل شدن به پلاسما حرارت دیده‌اند و سپس بر روی سطوح مختلف رسوب داده می‌شوند. این روش نوین تعداد مراحل ساخت مواد کاتدی را که یکی از اجزای کلیدی باتری محسوب می‌شوند به طور قابل توجهی کاهش می‌دهد. به گفته مسئولان شرکت، این فناوری منحصربه‌فرد توانایی کار بر روی انواع گوناگون باتری‌ها، از جمله باتری‌های لیتیوم آهن فسفات (Lithium Iron Phosphate) را داراست و می‌تواند به کاهش چشمگیر وابستگی به تأمین‌کنندگان چینی کمک کند. شایان ذکر است که این استارتاپ پیش‌تر نیز مبالغی را به عنوان کمک‌هزینه از وزارت انرژی ایالات متحده آمریکا (Department of Energy) دریافت کرده بود، اما تحولات سیاسی و تغییرات دولت باعث لغو برخی از این حمایت‌ها و ایجاد توقف در برنامه‌ریزی‌های شرکت شده بود. با تأیید وام جدید از سوی پنتاگون (Pentagon)، مسیر برای ازسرگیری و توسعه این پروژه صنعتی هموارتر شده است. در مجموع، اعطای این تسهیلات نشان‌دهنده تمرکز فزاینده نهادهای نظامی و دولتی آمریکا بر امنیت زنجیره تأمین فناوری‌های استراتژیک مانند باتری است. انتظار می‌رود با راه‌اندازی این کارخانه جدید، گام بلندی در جهت خودکفایی صنعتی و توسعه زیرساخت‌های فناوری پاک و دفاعی در ایالات متحده آمریکا برداشته شود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2157883094.jpeg?resize=1200,742",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
+      "summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process.",
+      "display_title": "وام ۲۵۰ میلیون دلاری پنتاگون به استارتاپ باتری‌سازی سیکس‌کی (6K) برای احداث کارخانه در ایالات متحده",
+      "display_summary": "وزارت دفاع ایالات متحده آمریکا (Department of Defense) موافقت اصولی خود را با اعطای یک وام ۲۵۰ میلیون دلاری به استارتاپ سیکس‌کی (6K) اعلام کرد. هدف از این اقدام، توسعه فناوری تولید مواد باتری با استفاده از پلاسما و کاهش وابستگی زنجیره تأمین به چین است."
     },
     {
       "key": "url:86c146bd7f606cc4b783b8c7ac4c74fb97735fd15a266681c65e77bbe7f082fd",
       "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
-      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-      "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
-      "display_title": "شرکت «اجیلیتی رباتیکس» به عنوان نخستین سازنده خالص ربات‌های انسان‌نما وارد بورس شد",
-      "display_summary": "شرکت رباتیک «اجیلیتی رباتیکس» (Agility Robotics) از طریق یک ادغام معکوس به عنوان نخستین شرکت کاملاً تخصصی در زمینه ربات‌های انسان‌نما در بازار سهام «نزدک» (Nasdaq) پذیرفته شد و موفق به جذب سرمایه جدید شد. این شرکت تمرکز خود را بر انجام کارهای سخت و تکراری انبارداری معطوف کرده و نسل جدید ربات خود موسوم به «دیجیت ۵» (Digit 5) را در دستور کار دارد.",
       "message": "<b>📰 شرکت «اجیلیتی رباتیکس» به عنوان نخستین سازنده خالص ربات‌های انسان‌نما وارد بورس شد</b>\n\nشرکت رباتیک «اجیلیتی رباتیکس» (Agility Robotics) از طریق یک ادغام معکوس به عنوان نخستین شرکت کاملاً تخصصی در زمینه ربات‌های انسان‌نما در بازار سهام «نزدک» (Nasdaq) پذیرفته شد و موفق به جذب سرمایه جدید شد. این شرکت تمرکز خود را بر انجام کارهای سخت و تکراری انبارداری معطوف کرده و نسل جدید ربات خود موسوم به «دیجیت ۵» (Digit 5) را در دستور کار دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت «اجیلیتی رباتیکس» (Agility Robotics) با انجام یک معامله ادغام معکوس از طریق یک شرکت با اهداف خاص خرید (SPAC)، رسماً وارد بازار سهام «نزدک» (Nasdaq) شد تا به عنوان نخستین شرکت کاملاً تخصصی در حوزه ساخت ربات‌های انسان‌نما در بازار سهام شناخته شود. این شرکت در جریان ورود به بورس موفق شد ۴۶۵ میلیون دلار سرمایه جدید از طریق سرمایه‌گذاران خرد و تأمین مالی خصوصی جذب کند. برخلاف بسیاری از رقیبان که نمایش‌هایی از رقصیدن یا پشتک زدن ربات‌ها ارائه می‌دهند، «پگی جانسون» (Peggy Johnson)، مدیرعامل «اجیلیتی رباتیکس» (Agility Robotics)، بر استراتژی عملیاتی شرکت تأکید کرد و گفت که تمرکز آن‌ها روی کارهای دستی، بسیار تکراری و طاقت‌فرسایی است که یافتن نیروی انسانی برای انجام آن‌ها دشوار است. این شرکت که در سال ۲۰۱۵ به عنوان انشعابی از «دانشگاه ایالتی اورگان» (Oregon State University) آغاز به کار کرد، در حال حاضر ربات‌های «دیجیت» (Digit) خود را در محیط‌های صنعتی ۹ مشتری مختلف از جمله «شفلر» (Schaeffler)، «جی‌اکس‌او» (GXO)، «تویوتا موتور مانیوفکچورینگ کانادا» (Toyota Motor Manufacturing Canada) و «مرکادو لیبره» (Mercado Libre) به کار گرفته است. ربات‌های «دیجیت» (Digit) تاکنون در جابجایی بسته‌های سنگین فعال بوده‌اند؛ برای نمونه، بیش از ۱۰۰ هزار بسته را در یک مرکز لجستیکی شرکت «جی‌اکس‌او» (GXO) جابجا کرده‌اند. با این حال، با وجود اینکه ربات‌های «اجیلیتی» (Agility) در مقایسه با محصولات شرکت‌هایی مانند «فیگور ای‌آی» (Figure AI)، «تسلا» (Tesla)، «وان‌اِکس» (1X) یا «بوستون داینامیکس» (Boston Dynamics) کندتر به نظر می‌رسند، اما در عمل مشغول کار واقعی و کسب درآمد هستند. این در حالی است که «اجیلیتی» (Agility) در نیمه نخست سال ۲۰۲۶ میلادی حدود ۳۶۲ میلیون دلار زیان ثبت کرده بود و اکنون باید با تزریق سرمایه جدید، به سودآوری نزدیک شود. امید اصلی شرکت به قراردادهای برنامه‌ریزی‌شده ۳۰۰ میلیون دلاری با ۳۰ مشتری برای نسل جدید ربات خود یعنی «دیجیت ۵» (Digit 5) است. به گفته مدیرعامل شرکت، این مدل جدید برخلاف نسخه پیشین می‌تواند با ایمنی کامل در کنار انسان‌ها فعالیت کند. «اجیلیتی» (Agility) قصد دارد نمونه‌های اولیه «دیجیت ۵» (Digit 5) را در نمایشگاه «سی‌ئی‌اس ۲۰۲۷» (CES 2027) به نمایش بگذارد. مدل کسب‌وکار این شرکت بر پایه مدل «ربات به عنوان خدمات» (Robot-as-a-Service) استوار است که طبق ادعای مدیران، می‌تواند سالانه ۱۰۰ هزار دلار برای شرکت‌ها صرفه‌جویی به همراه داشته باشد. در پایان، موفقیت بلندمدت «اجیلیتی رباتیکس» (Agility Robotics) به سرعتِ جذب مشتریان جدید، ارتقای توانمندی‌های حرکتی و حل چالش‌های مربوط به وظایف پیچیده دستکاری اشیاء بستگی دارد. با این وجود، این شرکت با استقرار واقعی محصولات خود در محیط‌های کاری، گامی جلوتر از بسیاری از رقبا در صنعت رباتیک فیزیکی قرار دارد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Agility_Digit5_01.png?resize=900,1200",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+      "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
+      "display_title": "شرکت «اجیلیتی رباتیکس» به عنوان نخستین سازنده خالص ربات‌های انسان‌نما وارد بورس شد",
+      "display_summary": "شرکت رباتیک «اجیلیتی رباتیکس» (Agility Robotics) از طریق یک ادغام معکوس به عنوان نخستین شرکت کاملاً تخصصی در زمینه ربات‌های انسان‌نما در بازار سهام «نزدک» (Nasdaq) پذیرفته شد و موفق به جذب سرمایه جدید شد. این شرکت تمرکز خود را بر انجام کارهای سخت و تکراری انبارداری معطوف کرده و نسل جدید ربات خود موسوم به «دیجیت ۵» (Digit 5) را در دستور کار دارد."
     },
     {
       "key": "url:ad1030df5ce46710e212924e1881d256e4d0201ba8e5545b371146cfeca6d709",
       "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "message": "<b>📰 کاهش بودجه و محدودیت‌های مالی شرکت اپل (Apple) برای استفاده داخلی از هوش مصنوعی</b>\n\nشرکت اپل (Apple) سقف بودجه روزانه تیم‌های مهندسی خود برای استفاده از ابزارهای هوش مصنوعی را کاهش داده است. این اقدام نشان‌دهنده چرخش شرکت‌های فناوری به سمت کنترل هزینه‌ها و سهمیه‌بندی توکن‌ها پس از یک دوره استفاده بی‌رویه است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اپل (Apple) در راستای رویکرد جدید خود برای مدیریت هزینه‌ها، سقف بودجه روزانه تیم‌های مهندسی‌اش را برای استفاده داخلی از هوش مصنوعی کاهش داده است. این تغییر رویکرد نشان‌دهنده واکنشی تازه از سوی غول‌های فناوری به هزینه‌های سنگین پردازش و اجرای مدل‌های هوش مصنوعی است. بر اساس گزارش‌های منتشرشده، شرکت اپل (Apple) در ماه اکتبر سقف بودجه روزانه تیم‌های مهندسی خود را از ۳۰۰ دلار به ۲۰۰ دلار کاهش داده است. منابع آگاه گزارش داده‌اند که کاهش‌های بیشتری نیز در راه است و سقف بودجه برخی از بخش‌ها ممکن است تا ۱۰۰ دلار در روز کاهش یابد. همچنین ارزیابی‌ها نشان می‌دهد که برای بخش‌های غیرمهندسی، این سقف حتی می‌تواند تا ۲۵ دلار در روز پایین آورده شود. در ماه‌های گذشته، بسیاری از شرکت‌های فناوری کارکنان خود را تشویق می‌کردند تا از هوش مصنوعی در تمامی امور روزمره استفاده کنند تا بهره‌وری افزایش یابد. با این حال، با رسیدن صورت‌حساب‌های سنگین مربوط به مصرف توکن و روشن شدن هزینه‌های واقعی زیرساخت‌های هوش مصنوعی، بسیاری از سازمان‌ها به سمت کنترل هزینه‌ها و جیره‌بندی توکن‌ها روی آورده‌اند. کارشناسان بر این باورند که این اقدام اپل (Apple) نشانه واضحی از چالش موجود میان هزینه‌های گزاف توسعه و نگهداری هوش مصنوعی و میزان بهره‌وری واقعی آن در محیط‌های کاری است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "Apple is reportedly cutting budgets for its internal AI usage",
       "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
       "display_title": "کاهش بودجه و محدودیت‌های مالی شرکت اپل (Apple) برای استفاده داخلی از هوش مصنوعی",
-      "display_summary": "شرکت اپل (Apple) سقف بودجه روزانه تیم‌های مهندسی خود برای استفاده از ابزارهای هوش مصنوعی را کاهش داده است. این اقدام نشان‌دهنده چرخش شرکت‌های فناوری به سمت کنترل هزینه‌ها و سهمیه‌بندی توکن‌ها پس از یک دوره استفاده بی‌رویه است.",
-      "message": "<b>📰 کاهش بودجه و محدودیت‌های مالی شرکت اپل (Apple) برای استفاده داخلی از هوش مصنوعی</b>\n\nشرکت اپل (Apple) سقف بودجه روزانه تیم‌های مهندسی خود برای استفاده از ابزارهای هوش مصنوعی را کاهش داده است. این اقدام نشان‌دهنده چرخش شرکت‌های فناوری به سمت کنترل هزینه‌ها و سهمیه‌بندی توکن‌ها پس از یک دوره استفاده بی‌رویه است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اپل (Apple) در راستای رویکرد جدید خود برای مدیریت هزینه‌ها، سقف بودجه روزانه تیم‌های مهندسی‌اش را برای استفاده داخلی از هوش مصنوعی کاهش داده است. این تغییر رویکرد نشان‌دهنده واکنشی تازه از سوی غول‌های فناوری به هزینه‌های سنگین پردازش و اجرای مدل‌های هوش مصنوعی است. بر اساس گزارش‌های منتشرشده، شرکت اپل (Apple) در ماه اکتبر سقف بودجه روزانه تیم‌های مهندسی خود را از ۳۰۰ دلار به ۲۰۰ دلار کاهش داده است. منابع آگاه گزارش داده‌اند که کاهش‌های بیشتری نیز در راه است و سقف بودجه برخی از بخش‌ها ممکن است تا ۱۰۰ دلار در روز کاهش یابد. همچنین ارزیابی‌ها نشان می‌دهد که برای بخش‌های غیرمهندسی، این سقف حتی می‌تواند تا ۲۵ دلار در روز پایین آورده شود. در ماه‌های گذشته، بسیاری از شرکت‌های فناوری کارکنان خود را تشویق می‌کردند تا از هوش مصنوعی در تمامی امور روزمره استفاده کنند تا بهره‌وری افزایش یابد. با این حال، با رسیدن صورت‌حساب‌های سنگین مربوط به مصرف توکن و روشن شدن هزینه‌های واقعی زیرساخت‌های هوش مصنوعی، بسیاری از سازمان‌ها به سمت کنترل هزینه‌ها و جیره‌بندی توکن‌ها روی آورده‌اند. کارشناسان بر این باورند که این اقدام اپل (Apple) نشانه واضحی از چالش موجود میان هزینه‌های گزاف توسعه و نگهداری هوش مصنوعی و میزان بهره‌وری واقعی آن در محیط‌های کاری است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+      "display_summary": "شرکت اپل (Apple) سقف بودجه روزانه تیم‌های مهندسی خود برای استفاده از ابزارهای هوش مصنوعی را کاهش داده است. این اقدام نشان‌دهنده چرخش شرکت‌های فناوری به سمت کنترل هزینه‌ها و سهمیه‌بندی توکن‌ها پس از یک دوره استفاده بی‌رویه است."
+    },
+    {
+      "key": "url:b19a52adc818672926aaedfb74dc898533f4effc0e7f8bb834cd16643e418704",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "display_title": "گزارش‌ها از جذب سرمایه ۱۱ میلیارد دلاری دیگر توسط اوپن‌ای‌آی با ارزش‌گذاری ۱.۲۵ تریلیون دلاری حکایت دارند",
+      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) در جریان یک دور تأمین مالی جدید که هنوز به پایان نرسیده است، موفق به جذب ۱۱ میلیارد دلار سرمایه شد. این دور سرمایه‌گذاری که ارزش‌گذاری این شرکت هوش مصنوعی را به ۱.۲۵ تریلیون دلار می‌رساند، ممکن است در هفته‌های آینده به رقم کلی نزدیک به ۲۰ میلیارد دلار برسد.",
+      "message": "<b>📰 گزارش‌ها از جذب سرمایه ۱۱ میلیارد دلاری دیگر توسط اوپن‌ای‌آی با ارزش‌گذاری ۱.۲۵ تریلیون دلاری حکایت دارند</b>\n\nشرکت اوپن‌ای‌آی (OpenAI) در جریان یک دور تأمین مالی جدید که هنوز به پایان نرسیده است، موفق به جذب ۱۱ میلیارد دلار سرمایه شد. این دور سرمایه‌گذاری که ارزش‌گذاری این شرکت هوش مصنوعی را به ۱.۲۵ تریلیون دلار می‌رساند، ممکن است در هفته‌های آینده به رقم کلی نزدیک به ۲۰ میلیارد دلار برسد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت هوش مصنوعی اوپن‌ای‌آی (OpenAI) بر اساس گزارش‌های منتشرشده موفق شده است در جریان یک دور جدید تأمین مالی، مبلغ ۱۱ میلیارد دلار سرمایه دیگر جذب کند. این مبلغ، ارزش‌گذاری این آزمایشگاه هوش مصنوعی را به ۱.۲۵ تریلیون دلار رسانده است. خبرگزاری بلومبرگ (Bloomberg) روز جمعه با استناد به منابع آگاه این خبر را اعلام کرد. این ۱۱ میلیارد دلار بخشی از یک دور تأمین مالی بزرگ‌تر است که در حال حاضر تکمیل نشده و انتظار می‌رود طی هفته‌های آینده نهایی شود. یک منبع آگاه به بلومبرگ اعلام کرده است که کل مبلغ این دور از سرمایه‌گذاری ممکن است در نهایت به حدود ۲۰ میلیارد دلار بالغ شود. این در حالی است که پیش‌تر در اواخر ماه سپتامبر، گزارش‌هایی مبنی بر تلاش اوپن‌ای‌آی (OpenAI) برای جذب ۳۰ میلیارد دلار در این دور منتشر شده بود که ارقام فعلی فاصله‌ای چشمگیر با آن هدف اولیه دارند. رسانه تک‌کرانچ (TechCrunch) برای دریافت پاسخ و اظهار نظر با اوپن‌ای‌آی (OpenAI) تماس گرفته است. این خبر تنها چند ساعت پس از آن منتشر شد که بلومبرگ گزارش دیگری درباره رقیب اصلی اوپن‌ای‌آی (OpenAI)، یعنی شرکت انتروپیک (Anthropic)، منتشر کرد. بر اساس این گزارش، خریداران بالقوه سهام در عرضه اولیه عمومی انتروپیک (Anthropic) به دنبال ارزش‌گذاری بسیار پایین‌تری نسبت به هدف‌گذاری قبلی این شرکت هستند. برخی خریداران بر این باورند که ارزش انتروپیک (Anthropic) ممکن است تا ۱.۱ تریلیون دلار کاهش یابد، در حالی که سرمایه‌گذاران تا حدود یک ماه پیش انتظار رقمی در حدود ۲ تریلیون دلار را داشتند. اوپن‌ای‌آی (OpenAI) پیش‌تر به‌طور ضمنی اعلام کرده بود که در سال جاری میلادی عرضه اولیه عمومی (IPO) خود را برگزار خواهد کرد، اما بعداً برنامه‌های خود را به تعویق انداخت. اکنون گمانه‌زنی‌ها حاکی از آن است که این شرکت در مقطعی از سال آینده وارد بازار سهام خواهد شد. بازار هوش مصنوعی در شرایط حساسی قرار دارد و تحولات سیاسی اخیر در ایالات متحده آمریکا و نگرانی‌های عمومی پیرامون مراکز داده (Data Centers)، موجی از احتیاط را در بازار ایجاد کرده است و بسیاری خود را برای چالش‌های احتمالی رگولاتوری در آینده آماده می‌کنند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:8b90275c42b5ae4db8b056065233a2675d680d91935f28c1aa6f55a074c120f5",
+      "url": "https://www.theverge.com/tech/1028715/kobo-stack-cloud-sync-ebooks-epub-pdf-email-files",
+      "title": "Kobo will soon let you upload and sync your own ebooks across devices, for a price",
+      "summary": "Kobo is launching a new monthly subscription service called Stack that lets you upload your own ebooks and documents to the company's servers where they'll be synced across multiple devices and apps, including your reading progress, highlights, and annotations. Kobo Stack is similar to Amazon's Send to Kindle feature that allows users to upload a [&#8230;]",
+      "display_title": "کوبو سرویس اشتراکی جدیدی برای آپلود و همگام‌سازی کتاب‌های الکترونیکی معرفی کرد",
+      "display_summary": "شرکت کوبو سرویس ماهانه جدیدی به نام استک را معرفی کرده است که به کاربران امکان آپلود، ذخیره‌سازی و همگام‌سازی کتاب‌های الکترونیکی و اسناد شخصی را در میان دستگاه‌های مختلف می‌دهد. این سرویس برخلاف قابلیت رایگان ارسال به کیندل آمازون، با دریافت هزینه‌ای ماهانه و در کنار به‌روزرسانی نسخه ۶.۰ نرم‌افزار کتاب‌خوان‌های کوبو عرضه می‌شود.",
+      "message": "<b>📰 کوبو سرویس اشتراکی جدیدی برای آپلود و همگام‌سازی کتاب‌های الکترونیکی معرفی کرد</b>\n\nشرکت کوبو سرویس ماهانه جدیدی به نام استک را معرفی کرده است که به کاربران امکان آپلود، ذخیره‌سازی و همگام‌سازی کتاب‌های الکترونیکی و اسناد شخصی را در میان دستگاه‌های مختلف می‌دهد. این سرویس برخلاف قابلیت رایگان ارسال به کیندل آمازون، با دریافت هزینه‌ای ماهانه و در کنار به‌روزرسانی نسخه ۶.۰ نرم‌افزار کتاب‌خوان‌های کوبو عرضه می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت کوبو (Kobo) از راه‌اندازی یک سرویس اشتراکی ماهیانه جدید به نام کوبو استک (Kobo Stack) خبر داده است که به کاربران اجازه می‌دهد کتاب‌های الکترونیکی و اسناد شخصی خود را روی سرورهای این شرکت آپلود کرده و آن‌ها را در میان دستگاه‌ها و اپلیکیشن‌های مختلف همگام‌سازی کنند. این قابلیت شامل همگام‌سازی پیشرفت مطالعه، هایلایت‌ها و یادداشت‌ها نیز می‌شود. این سرویس شباهت زیادی به ویژگی ارسال به کیندل (Send to Kindle) از شرکت آمازون (Amazon) دارد که به کاربران امکان می‌دهد فایل‌های متنوعی را به‌طور رایگان به کتابخانه خود ارسال کنند، اما کوبو برای سرویس خود هزینه ماهانه‌ای دریافت خواهد کرد. سرویس کوبو استک (Kobo Stack) به عنوان بخشی از به‌روزرسانی بزرگ نسخه ۶.۰ برای نرم‌افزار کتاب‌خوان‌های این شرکت معرفی شده است که در حال حاضر به عنوان نسخه بتای اختیاری پیش از انتشار رسمی و عمومی در دسترس قرار دارد. اسناد پشتیبانی‌شده شامل فرمت‌های ای‌پاب (EPUB) و پی‌دی‌اف (PDF) با حجمی حداکثر تا ۲۰۰ مگابایت هستند. کاربران می‌توانند این فایل‌ها را از طریق رابط کاربری وب‌سایت کوبو (Kobo) کشیدن و رها کنند یا به آدرس ایمیل اختصاصی خود که پس از اشتراک در این سرویس دریافت می‌کنند، ارسال نمایند. اسناد آپلودشده در هر مکانی که کاربر به حساب کاربری کوبو (Kobo) خود وارد شده باشد، از جمله اپلیکیشن‌های آی‌او‌اس (iOS) و اندروید (Android)، وب‌سایت کوبو و کتاب‌خوان‌های الکترونیکی این شرکت، در دسترس و همگام‌سازی‌شده خواهند بود. پشتیبانی از کتاب‌خوان‌ها در حال حاضر به دستگاه‌های جدیدتری مانند کلارا بی‌وای (Clara BW)، کلارا کالر (Clara Colour)، لیبرا کالر (Libra Colour) و الیپسا تو‌ای (Elipsa 2E) محدود است، اما به گفته وب‌سایت کوبو، پشتیبانی از دستگاه‌های قدیمی‌تر ساخته‌شده بین سال‌های ۲۰۱۸ تا ۲۰۲۴ به زودی اضافه خواهد شد. مرحلۀ اولیه عرضه کوبو استک (Kobo Stack) طبق گفته‌های مایکل تامبلین (Michael Tamblyn)، مدیرعامل کوبو، در شبکه اجتماعی تردز (Threads)، تنها به کشورهای کانادا، ایرلند، استرالیا، نیوزیلند، بریتانیا و اسپانیا محدود است و ایالات متحده را در بر نمی‌گیرد. هزینه اشتراک ماهیانه در کانادا ۳.۹۹ دلار و در بریتانیا ۲.۹۹ پوند تعیین شده است. کوبو یک دوره آزمایشی رایگان ۹۰ روزه برای کاربران علاقه‌مند در نظر گرفته و یک مهلت ۶۰ روزه نیز برای لغو اشتراک پیش‌بینی کرده است تا کاربران بتوانند فایل‌های خود را دانلود یا پشتیبان‌گیری کنند. علاوه بر این سرویس، به‌روزرسانی جدید میان‌افزار کوبو ویژگی‌های دیگری نظیر قابلیت افزودن چندین کارت کتابخانه برای امانت گرفتن کتاب از کتابخانه‌های مختلف از طریق لیبی (Libby)، کاهش تأخیر قلم در دستگاه‌های دارای پشتیبانی از استایوس (Stylus)، بهبود دسترسی‌پذیری با گزینه‌های فونت بزرگ‌تر و پشتیبانی از فایل‌های ای‌پاب (EPUB) محافظت‌شده با مدیریت حقوق دیجیتال ال‌سی‌پی (LCP DRM) را به همراه دارد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/kobo1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:fb02ae9a47c34cc5e4378f485b31b868834bb306995ad23b1413d08f8b587330",
+      "url": "https://www.engadget.com/2304128/2027-chevrolet-silverado-1500-first-drive/",
+      "title": "2027 Chevrolet Silverado 1500 First Drive: Big displays meet big V8s",
+      "summary": "Chevy's new Silverado needs a few updates before it's ready for prime time.",
+      "display_title": "بررسی اولیه شورولت سیلورادو ۱۵۰۰ مدل ۲۰۲۷: ترکیب نمایشگرهای بزرگ با موتورهای قدرتمند وی۸",
+      "display_summary": "شرکت شورولت (Chevrolet) از مدل ۲۰۲۷ وانت سیلورادو ۱۵۰۰ (Silverado 1500) با پیشرانه‌های جدید قدرتمند وی۸ و کابینی مجهز به فناوری‌های پیشرفته رونمایی کرده است. این خودرو اگرچه از قابلیت‌های حرکتی و تکنولوژیکی برجسته‌ای برخوردار است، اما برای رسیدن به پایداری کامل به به‌روزرسانی‌های نرم‌افزاری نیاز دارد.",
+      "message": "<b>📰 بررسی اولیه شورولت سیلورادو ۱۵۰۰ مدل ۲۰۲۷: ترکیب نمایشگرهای بزرگ با موتورهای قدرتمند وی۸</b>\n\nشرکت شورولت (Chevrolet) از مدل ۲۰۲۷ وانت سیلورادو ۱۵۰۰ (Silverado 1500) با پیشرانه‌های جدید قدرتمند وی۸ و کابینی مجهز به فناوری‌های پیشرفته رونمایی کرده است. این خودرو اگرچه از قابلیت‌های حرکتی و تکنولوژیکی برجسته‌ای برخوردار است، اما برای رسیدن به پایداری کامل به به‌روزرسانی‌های نرم‌افزاری نیاز دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار خودروهای سنگین و وانت‌ها بار دیگر شاهد رقابت سنگینی است و شرکت شورولت (Chevrolet) با معرفی مدل ۲۰۲۷ شورولت سیلورادو ۱۵۰۰ (2027 Chevrolet Silverado 1500) تلاش کرده تا استانداردهای جدیدی را در این رده ارائه دهد. این وانت غول‌پیکر در حالی راهی بازار می‌شود که از سوی شرکت سازنده به پیشرانه‌های قدرتمندتر و کابینی مملو از نمایشگرهای دیجیتال مجهز شده است، هرچند که بررسی‌های اولیه نشان می‌دهد برخی بخش‌های آن هنوز نیاز به پویایی و بهینه‌سازی بیشتر دارد. در بخش پیشرانه، شورولت گزینه‌های متنوعی را پیش روی خریداران قرار داده است. کوچک‌ترین موتور این مجموعه یک نمونه ۲.۷ لیتری توربوشارژ است که ۳۵۰ اسب بخار قدرت تولید می‌کند. علاوه بر این، یک موتور جدید ۵.۷ لیتری وی۸ (V8) با توان ۴۰۲ اسب بخار جایگزین مدل قبلی شده و قدرتمندترین گزینه بنزینی نیز موتور ۶.۶ لیتری وی۸ با توان ۴۸۱ اسب بخار است. نسخه دیزلی توربو دورامکس (Duramax) نیز با گشتاور بالا همچنان در دسترس خریداران قرار دارد تا نیازهای مختلف بکسل و باربری را پوشش دهد. یکی از مهم‌ترین تغییرات مدل ۲۰۲۷ در داخل کابین رخ داده است. یک نمایشگر مرکزی بزرگ ۱۶.۳ اینچی به همراه پشت‌آمپر دیجیتال ۱۲.۲ اینچی، پنل داشبورد را تسخیر کرده‌اند. همچنین شورولت امکان سفارش یک نمایشگر ۱۱.۵ اینچی اختصاصی برای سرنشین جلو را فراهم کرده که با داشتن فیلتر حریم خصوصی به سرنشین اجازه می‌دهد به تماشای سرویس‌های استریم مانند دیزنی‌پلاس (Disney+)، هولو (Hulu) و یوتیوب (YouTube) بپردازد. برخلاف بسیاری از خودروهای الکتریکی که این ویژگی را حذف کرده‌اند، شورولت پشتیبانی کامل از سیستم‌های اندروید اتو (Android Auto) و اپل کارپلی (Apple CarPlay) را به صورت بی‌سیم حفظ کرده است. با این حال، فناوری‌های نوین این خودرو بی‌نقص نیستند. سیستم رانندگی خودکار بدون دخالت دست سوپر کروز (Super Cruise) که برای بکسل بهینه‌سازی شده، در برخی تست‌های جاده‌ای با خطاهایی مواجه شد و نیاز به توجه راننده داشت. همچنین، منوهای تنظیمات خودرو در رابط کاربری اندروید (Android) گاهی پشت آیکون‌های بسیار کوچک پنهان شده‌اند که کار با آن‌ها را در حین رانندگی دشوار می‌کند. در مجموع، شورولت سیلورادو ۱۵۰۰ مدل ۲۰۲۷ با طراحی ظاهری جذاب‌تر، کابین بسیار جادار و موتورهای قدرتمند، گزینه‌ای قدرتمند در بازار وانت‌ها به شمار می‌رود، اما رفع نواقص نرم‌افزاری و بهبود عملکرد سیستم‌های کمکی راننده کلید اصلی موفقیت آن خواهد بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/2027-chevrolet-silverado-1500-first-drive-big-displays-meet-big-v8s/l-intro-1793639408.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:44f488c59aa9e3a6dd20daed5bc63eb4281e1d4156f7c3483038dcbd17f075fb",
+      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+      "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+      "display_title": "استارتاپ دیسکاورد متریالز جایزه یک میلیون دلاری برای حل معضلات علم مواد به هوش مصنوعی اختصاص داد",
+      "display_summary": "استارتاپ نوپای دیسکاورد متریالز (Discovered Materials) که از شتاب‌دهنده وای کامبیناتور (Y Combinator) برخاسته است، جایزه‌ای یک میلیون دلاری برای حل پنج مسئله پیچیده و حل‌نشده در حوزه علم مواد توسط مدل‌های هوش مصنوعی تعیین کرد. این ابتکار با هدف ارزیابی و ارتقای توانایی هوش مصنوعی در درک فیزیک پیچیده و ساخت مواد پیشرفته برای صنایع نیمه‌هادی راه‌اندازی شده است.",
+      "message": "<b>📰 استارتاپ دیسکاورد متریالز جایزه یک میلیون دلاری برای حل معضلات علم مواد به هوش مصنوعی اختصاص داد</b>\n\nاستارتاپ نوپای دیسکاورد متریالز (Discovered Materials) که از شتاب‌دهنده وای کامبیناتور (Y Combinator) برخاسته است، جایزه‌ای یک میلیون دلاری برای حل پنج مسئله پیچیده و حل‌نشده در حوزه علم مواد توسط مدل‌های هوش مصنوعی تعیین کرد. این ابتکار با هدف ارزیابی و ارتقای توانایی هوش مصنوعی در درک فیزیک پیچیده و ساخت مواد پیشرفته برای صنایع نیمه‌هادی راه‌اندازی شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استارتاپ دیسکاورد متریالز (Discovered Materials) که چند ماهی بیش از تأسیس آن در شهر سانفرانسیسکو (San Francisco) نمی‌گذرد و از حمایت شتاب‌دهنده وای کامبیناتور (Y Combinator) بهره می‌برد، از یک مسابقه با جایزه یک میلیون دلاری خبر داد. این چالش برای مدل‌های هوش مصنوعی طراحی شده است تا بتوانند پنج مسئله کلیدی و حل‌نشده در حوزه علم مواد را رمزگشایی کنند. اگرچه مدل‌های پیشرفته هوش مصنوعی در حوزه‌هایی مانند ریاضیات و علوم زیستی پیشرفت‌های چشمگیری داشته‌اند، اما هنوز در درک فیزیک پیچیده حاکم بر مواد پیشرفته با چالش جدی روبه‌رو هستند. آدِوایت سریدار (Advaith Sridhar)، یکی از هم‌بنیان‌گذاران دیسکاورد متریالز که شرکتش در دوره بهار ۲۰۲۶ وای کامبیناتور حضور داشته، در این زمینه گفت که تعیین دقیق مسائل در علم مواد برخلاف ریاضیات کار ساده‌ای نیست و این حوزه پاسخ‌های بله یا خیر صریحی ندارد. با کمک گروهی از استادان دانشگاه‌های برجسته جهان، این استارتاپ پنج مسئله باز را تدوین کرده و در مجموع یک میلیون دلار جایزه برای حل آن‌ها در نظر گرفته است. این پنج مسئله شامل ارائه نظریه‌ای برای توضیح ابررسانایی کوپرات (Cuprate superconductivity)، روش‌های عددی برای پیش‌بینی ساختار اشتراک میان سیلیکون و دی‌اکسید سیلیکون در نیمه‌هادی‌ها، نگاشت ساختار دانه‌ای به ویژگی‌های حرارتی جهت بهبود دفع گرما، پیش‌بینی رفتار نوری مواد در رابطه با ابررسانایی، و بهبود نظریه تابعی چگالی (Density functional theory) برای مدل‌سازی اتم‌ها و مولکول‌ها است. فلیپه خورنادا (Felipe Jornada)، استاد دانشگاه استنفورد (Stanford University) که در طراحی این چالش‌ها مشارکت داشته، معتقد است که پاسخ به این پرسش‌ها نه تنها درک فیزیک را عمیق‌تر می‌کند، بلکه مستقیماً بر نحوه ساخت تجهیزات الکترونیکی، ذخیره‌سازی انرژی و تولید مواد آینده تأثیر خواهد گذاشت. پیش از اعلام رسمی این رقابت، استارتاپ دیسکاورد متریالز آزمایش‌هایی را روی مدل‌های پیشرفته آزمایشگاهی انجام داد و به آن‌ها اجازه داد تا روزها به صورت خودکار روی این مسائل کار کنند، هرچند این مدل‌ها پیشرفت چشمگیری نداشتند. با این حال، هدف از این چالش ایجاد یک معیار استاندارد برای سنجش توانایی‌های آینده هوش مصنوعی در درک رفتار مواد پیرامون ماست. فعالیت اصلی دیسکاورد متریالز توسعه مواد نوین برای صنعت نیمه‌هادی است و این شرکت با غول‌های تراشه‌سازی همکاری می‌کند. سریدار پیش‌تر ابراز امیدواری کرده بود که مواد صنعتی مفید ظرف یک سال آینده کشف شوند، اما اکنون برآورد می‌کند که این جدول زمانی شتاب بیشتری به خود گرفته و زودتر از موعد مقرر به نتیجه خواهد رسید.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/discoverd-materials.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:bb7264ac37ad757523b100501f0c866788c6fbff40d4ec1660e2e6fbf71ce98d",
+      "url": "https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case",
+      "title": "How I learned to love an obnoxious phone grip",
+      "summary": "Much like a great recipe, it started with a stick of butter. This wasn't real butter; it was a friend's new phone grip, complemented by a phone case with bold stripes. Butter is in vogue now, or at least that's what a 12-year-old told me a few months ago. This stick of butter was labeled [&#8230;]",
+      "display_title": "چگونه به نگهدارنده‌های عجیب و سرگرم‌کننده گوشی علاقه‌مند شدم",
+      "display_summary": "با بزرگ‌تر شدن ابعاد گوشی‌های هوشمند، استفاده از تجهیزات جانبی مغناطیسی و نگهدارنده‌های فانتزی به روندی محبوب تبدیل شده است. این لوازم جانبی رنگارنگ و خلاقانه، علاوه بر راحتی در دست گرفتن گوشی، حس شخصی‌سازی و سرگرمی را به کاربران هدیه می‌دهند.",
+      "message": "<b>📰 چگونه به نگهدارنده‌های عجیب و سرگرم‌کننده گوشی علاقه‌مند شدم</b>\n\nبا بزرگ‌تر شدن ابعاد گوشی‌های هوشمند، استفاده از تجهیزات جانبی مغناطیسی و نگهدارنده‌های فانتزی به روندی محبوب تبدیل شده است. این لوازم جانبی رنگارنگ و خلاقانه، علاوه بر راحتی در دست گرفتن گوشی، حس شخصی‌سازی و سرگرمی را به کاربران هدیه می‌دهند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در دنیای امروز که گوشی‌های هوشمند روزبه‌روز بزرگ‌تر و حجیم‌تر می‌شوند، پیدا کردن راهی راحت برای در دست گرفتن آن‌ها به یک دغدغه تبدیل شده است. سال‌ها بود که بسیاری از کاربران ترجیح می‌دادند از قاب‌های مینیمال استفاده کنند یا حتی قید قاب گوشی را بزنند تا طراحی اصلی دستگاه حفظ شود. اما با ورود مدل‌های بزرگی مانند پیکسل ۱۰ پرو فولد (Pixel 10 Pro Fold) شرکت گوگل (Google)، نیاز به ابزارهای کمکی بیشتر از همیشه احساس شد. اینجاست پای نگهدارنده‌های مغناطیسی و لوازم جانبی فانتزی به میان می‌آید. روند استفاده از نگهدارنده‌های گوشی که به شکل اقلام مختلف مثل قالب‌های کره، هات‌داگ یا میگو طراحی شده‌اند، امروزه با استقبال گسترده‌ای روبه‌رو شده است. شرکت‌هایی نظیر پاپ‌سوکت (PopSocket) و طراحانی مانند بیلی هیکاوا (Bailey Hikawa) با همکاری شرکت‌هایی چون اپل (Apple)، محصولات رنگارنگ و خیره‌کننده‌ای را روانه بازار کرده‌اند. این لوازم جانبی علاوه بر کمک به کاربرانی که به خاطر شرایط جسمانی به گرفتن متفات گوشی نیاز دارند، فضایی شاداب‌تر و دور از یکنواختی را ایجاد می‌کنند. بسیاری از تولیدکنندگان بزرگ گوشی‌های هوشمند، محصولات خود را با رنگ‌های خسته‌کننده و یکنواخت به بازار عرضه می‌کنند و همین امر باعث واکنش طراحان لوازم جانبی شده است. استقبال کاربران از رنگ‌های شاد و طرح‌های خلاقانه در پلتفرم‌هایی مانند تیک‌تاک (TikTok) و آمازون (Amazon) نشان می‌دهد که افراد به دنبال تزریق کمی شادی و شخصیت به وسایل روزمره خود هستند. قابلیت اتصال مغناطیسی این نگهدارنده‌ها همچنین به کاربران اجازه می‌دهد هر زمان که خواستند ظاهر رسمی‌تری به گوشی خود ببخشند. در نهایت، این موج جدید نشان می‌دهد که لوازم جانبی موبایل دیگر فقط ابزاری کاربردی نیستند، بلکه به راهی برای ابراز شخصيت و طبع شوخ‌طبعی کاربران تبدیل شده‌اند. اگرچه فراموش کردن یا جا گذاشتن این نگهدارنده‌های جذاب ممکن است گاهی دردسرساز شود، اما شادی بصری و راحتی که به ارمغان می‌آورند ارزش این دردسر کوچک را دارد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IMG_1326_edit.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
       "rubika_status": "pending"
     }
   ],
   "pending_news": [
     {
-      "item_id": "5a7f531d55ddfc3ea08c8d02ba395f6686f68142c25b8acfb43eefdca4758b18",
-      "title": "Rian Johnson explains why he had to build his own iPhone camera app",
-      "url": "https://www.theverge.com/tech/1025659/rian-johnson-chromagraph-camera-interview",
-      "summary": "Rian Johnson is an analog photography devotee. The director of Knives Out and The Last Jedi can often be spotted on set with a Leica M6 at his side, documenting production on film. But sometimes, it's still easier to reach for a phone. So Johnson started wondering if the photos from his iPhone could be [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Rian-Johnson-Portrait.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-04T16:10:05+00:00",
-      "categories": [
-        "Apps",
-        "Cameras",
-        "Entertainment",
-        "Gadgets",
-        "Podcasts",
-        "Tech",
-        "Vergecast"
-      ]
-    },
-    {
-      "item_id": "ffd79905e5c0d042a17b9865d4913a3869da44465eb41b1947b5823114a26eff",
-      "title": "17 better ways Elon Musk could have wasted $446 million",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
-      "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268859_How_the_tech_right_could_have_spent_all_the_money_they_burned_on_the_midterms_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-04T21:45:00+00:00",
-      "categories": [
-        "AI",
-        "Electric Cars",
-        "Elon Musk",
-        "Policy",
-        "Politics",
-        "Science",
-        "Space",
-        "SpaceX",
-        "Tech",
-        "Tesla",
-        "Transportation",
-        "xAI"
-      ]
-    },
-    {
-      "item_id": "0a87b142b81c3fad481036bf19fb9361a1f599812588b40ceaf83a6fb2bbfaf2",
-      "title": "How I learned to love an obnoxious phone grip",
-      "url": "https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case",
-      "summary": "Much like a great recipe, it started with a stick of butter. This wasn't real butter; it was a friend's new phone grip, complemented by a phone case with bold stripes. Butter is in vogue now, or at least that's what a 12-year-old told me a few months ago. This stick of butter was labeled [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IMG_1326_edit.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-04T21:30:00+00:00",
-      "categories": [
-        "Gadgets",
-        "Mobile",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "18605acc9d0666b087444f6a03d319ca960410e0def7cdb5e180669eb3e2cec9",
-      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
-      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
-      "summary": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1178603809.jpg?w=1024",
-      "published_at": "2026-11-05T14:00:00+00:00",
-      "categories": [
-        "AI",
-        "Box",
-        "nvidia"
-      ]
-    },
-    {
-      "item_id": "fb02ae9a47c34cc5e4378f485b31b868834bb306995ad23b1413d08f8b587330",
-      "title": "2027 Chevrolet Silverado 1500 First Drive: Big displays meet big V8s",
-      "url": "https://www.engadget.com/2304128/2027-chevrolet-silverado-1500-first-drive/",
-      "summary": "Chevy's new Silverado needs a few updates before it's ready for prime time.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/2027-chevrolet-silverado-1500-first-drive-big-displays-meet-big-v8s/l-intro-1793639408.jpg",
-      "published_at": "2026-11-05T14:00:00+00:00",
-      "categories": [
-        "Reviews"
-      ]
-    },
-    {
-      "item_id": "cefc669c139c41ca08b6bca930e7a6772c7dfb0513dfadf7b79dfc501c30ff18",
-      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
-      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-      "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/discoverd-materials.jpg?resize=1200,800",
-      "published_at": "2026-11-05T13:00:00+00:00",
-      "categories": [
-        "AI",
-        "Exclusive"
-      ]
-    },
-    {
-      "item_id": "a28a64d1948ff62461fb2e797bfd845c4d9f72167125e915f79a03f616a4b377",
-      "title": "Kobo will soon let you upload and sync your own ebooks across devices, for a price",
-      "url": "https://www.theverge.com/tech/1028715/kobo-stack-cloud-sync-ebooks-epub-pdf-email-files",
-      "summary": "Kobo is launching a new monthly subscription service called Stack that lets you upload your own ebooks and documents to the company's servers where they'll be synced across multiple devices and apps, including your reading progress, highlights, and annotations. Kobo Stack is similar to Amazon's Send to Kindle feature that allows users to upload a [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/kobo1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-06T17:32:16+00:00",
-      "categories": [
-        "Gadgets",
-        "News",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "fb19b29f5bd7fa915e2d4b1f63a25561452901fc5da841c3c06bb3ce5374bf40",
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-06T23:00:44+00:00",
-      "categories": [
-        "AI",
-        "News",
-        "Nvidia",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "847e80ae4cf85eb9b126a8ccc7815eaa6acf39019c0e998cf1bf3526dce85208",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "item_id": "a00a448f69da4c5918d69f79c158f6efe66b7165d846e42c1845dc78d1865d45",
+      "title": "Sequoia shutting down its Scouts program marks the end of an era",
+      "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
+      "summary": "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the model has reached limits in its current form.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-11-06T22:53:46+00:00",
+      "published_at": "2026-11-07T05:01:54+00:00",
       "categories": [
-        "AI",
-        "Anthropic",
-        "fundraising",
-        "In Brief",
-        "OpenAI"
+        "Venture",
+        "scout programs",
+        "Sequoia Capital"
       ]
     },
     {
-      "item_id": "35d2b548f0054feb53e850b4e7bf66d0d415183fafae10f3fc72bfc815e61af7",
-      "title": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
-      "url": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
-      "summary": "SpaceX has declared that it&#8217;s going to make Starlink Mobile a &#8220;major&#8221; mobile carrier. The Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but its next big challenge is building out its 5G network here on Earth. As part of its plans to rival AT&#38;T, Verizon, and T-Mobile, SpaceX has inked a deal [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-06T22:45:43+00:00",
-      "categories": [
-        "Elon Musk",
-        "Mobile",
-        "Science",
-        "Space",
-        "SpaceX",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "3ff994716ff816b371be3282d10c5127c8cae21dd34390b1feedce81e468d6d5",
-      "title": "The Duo apps are coming, says Apple",
-      "url": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
-      "summary": "There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily.",
+      "item_id": "bdb6890a0a55d0c4c45d445fc6c67960bc824044cf3da7274738298d75b4d473",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "summary": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-11-06T21:38:05+00:00",
+      "published_at": "2026-11-07T04:16:43+00:00",
       "categories": [
-        "Apps",
-        "Apple",
-        "developers",
-        "foldable",
-        "iPhone"
+        "TC",
+        "Government & Policy",
+        "AI"
+      ]
+    },
+    {
+      "item_id": "73b9c8b61b1e6aac6568205634e160dc4068545ae373a470fd4f7028ddfeaff5",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-07T01:40:28+00:00",
+      "categories": [
+        "AI",
+        "ai infrastructure",
+        "crusoe",
+        "datacenter",
+        "Google"
       ]
     }
   ]
