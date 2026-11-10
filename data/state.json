@@ -4028,114 +4028,55 @@
     "6602b834d17e326e8752d4c08a2d975b4c4422630d57a022001e502c93ee2f80",
     "6f104f219d5f261ce121dc5e9726c0f0bf9ef0eb4f68fea51bafd8a1eee04a8e",
     "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-    "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+    "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "04026dca9fb4771697576f2b4cae867832b8ce59ab15cfa4a57a38143918b61c",
+    "5c4fdabb66e829c8f5dec2c60ae7eb1d5e4fb3e8ca93165a046de5de56372d4d",
+    "9e4837448d462fe1e8d4be49ad1e5f2d6ec2269c6dbc6691884f2948dec5b3d8",
+    "b07dd313401381b51e7ab708e3aa8f5b15d21f540fc8f833d995d198115f72e5",
+    "b541a1d8651aa4c5d3394328af4cf0b9b124b54be13b9beffcd090dacc44ea8d",
+    "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/",
+    "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+    "https://www.engadget.com/2310872/nhtsa-investigates-if-waymo-robotaxis-are-still-running-school-bus-stop-signs/",
+    "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage",
+    "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+    "22ec46b5d9fb6acca3ede7bffdb35656d48e4533bb16050793e6225485687b84",
+    "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+    "a909e37f613498af9baac621bb3fd2fcc8cd5e575594507de7b050d1319edaeb",
+    "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+    "4c6bf29aeb7de374edee90d228c8cbecb656e8ac68d91f8748569c9543015bbe",
+    "https://www.engadget.com/2307742/gmail-unsend-feature/",
+    "6dce79866de0e7454c3321b3336c773405a0489d7fe7f42dc423df270431b9cb",
+    "https://www.engadget.com/2307741/google-wallet-notifications-how-works-disable/",
+    "02635e4a44aa5617ee94d8059792d630fffaa417931b474d6525d9827f689669",
+    "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+    "111470442568616fdf3d30d4abf096dac5973c6a1f1f3af0fff5829fd1d9281d",
+    "https://www.engadget.com/2307737/why-laptops-overheat-after-extended-use/",
+    "96d0231d949c9b26e5710ac88a353150ad687aacb301eabfb7b6ffecb213a9f2",
+    "https://www.theverge.com/entertainment/1030022/james-gunn-peter-safran-dc-studios-out-leaving",
+    "c98fc54d6ce4f9f92ea268cb39cdb488ccb3958e610c2cb7c3a6647be8e4465a",
+    "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+    "4535a293556efb591d58704a05fffb118014c1fa5246c07aa551549487a36a97",
+    "https://www.engadget.com/2307733/what-tiny-blue-dot-on-android-phone-telling-you/",
+    "55224730c230ee4a40a5a7a6e2442ffe571068d2360337fe9499022f0e830aa6",
+    "https://www.engadget.com/2310993/venmo-finally-launches-an-in-app-bill-splitting-feature/",
+    "43e7dd13f8048a871af744c528464535afb783c4b456bfe97525f31913b16d92",
+    "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+    "8618b06a5458020e77ad254f6aa588ef42fd01ae0c81a41db36e832aa0a98eff",
+    "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+    "59c52dc6eee99c72fac5a721b9705d5c4d3591f2b89a276c30fa34864172ed30",
+    "https://www.engadget.com/2307731/why-ev-fast-charging-slows-after-80-percent/",
+    "6185ef4ed3fa7d31a7460abc0680424a648909e8d127933487e8124fa55f942c",
+    "https://www.engadget.com/2307730/think-twice-before-using-webcam-cover-macbook/",
+    "1cd940ed727f4b641b02ba9ee161c3ff528d19e0b719b9e07c3dd9cdd0a3ed4b",
+    "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+    "060344d56bf0b54959ea72830a49bd66a8f0148545d7e879b1459d3b4d2cf774",
+    "https://www.engadget.com/2310848/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/",
+    "c0b4971c470857d296d5e1325b028f41ff484be100c6bd1afa5c86bc70a97386",
+    "https://www.engadget.com/2307712/military-radar-makes-your-router-change-wifi-channels/",
+    "93fe30b2a29ddcf92f2ed8afe20f1db75f19a3ebbed4d371edf57bf62204905e",
+    "https://www.engadget.com/2307701/pc-hardware-needed-run-local-ai-model/"
   ],
   "published_stories": [
-    {
-      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
-      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-      "display_title": "نشست بنیان‌گذاران تک‌کرانچ ۲۰۲۶؛ نگاهی به سخنرانان و برنامه‌های رویداد پیش‌رو",
-      "display_summary": "نشست بنیان‌گذاران تک‌کرانچ ۲۰۲۶ (TechCrunch Founder Summit 2026) با همکاری بخش سهام خصوصی فیدلیتی (Fidelity Private Shares) در تاریخ ۴ نوامبر در بوستون برگزار می‌شود. این رویداد یک روزه بر چالش‌های واقعی جذب مشتری، ساخت تیم، توسعه رهبری و مقیاس‌پذیری شرکت‌ها تمرکز دارد و چهره‌های برجسته فناوری و سرمایه‌گذاری در آن سخنرانی خواهند کرد."
-    },
-    {
-      "title": "People are vibe coding their way to better TVs",
-      "summary": "Vibe coding has reached TVs. Social media is awash with posts from people using LLMs and open-source tools to remove ads and tracking, trim bloat so the OS runs faster, and even completely change the look and organization of their homescreens. While a lot of it is fun - one user turned their TV homescreen [&#8230;]",
-      "url": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
-      "display_title": "موج جدید پاکسازی تلویزیون‌های هوشمند با استفاده از هوش مصنوعی و کدهای تعاملی",
-      "display_summary": "کاربران فضای مجازی با بهره‌گیری از ابزارهای هوش مصنوعی و ابزارهای منبع‌باز، روش جدیدی برای حذف تبلیغات آزاردهنده، ردیابی‌های داده‌ای و شلوغی رابط کاربری تلویزیون‌های هوشمند ابداع کرده‌اند. این موج جدید که با ابزارهایی مانند کلود (Claude) و سیستم‌عامل اندروید تی‌وی (Google TV) پیاده‌سازی می‌شود، نشان‌دهنده نارضایتی عمیق مصرف‌کنندگان از وضعیت فعلی نرم‌افزارهای تلویزیونی است."
-    },
-    {
-      "title": "Netflix can’t fire its way out of this downward spiral",
-      "summary": "Netflix co-CEOs Ted Sarandos and Greg Peters assured investors this week that they have nothing to be concerned about. Sure, the company was going to lay off 1,000 employees, downsizing its product, tech, and legal departments, and was ousting its chief content officer, film chairman, and film vice president. But it had also hired a [&#8230;]",
-      "url": "https://www.theverge.com/streaming/1017304/netflix-layoffs-bela-bajaria-peter-rice-dan-lin-doug-belgrad",
-      "display_title": "بحران مدیریتی و موج اخراج‌ها در نتفلیکس؛ آیا تغییرات ساختاری چالش‌های این غول استریم را حل می‌کند؟",
-      "display_summary": "شرکت نتفلیکس (Netflix) با وجود موجی از اخراج‌های گسترده و تغییرات کلیدی در سطح مدیران ارشد، تلاش می‌کند سرمایه‌گذاران را نسبت به آینده خود مطمئن سازد. با این حال، مشکلاتی نظیر افت رشد در بازار آمریکا، ناکامی در جذب درآمدهای تبلیغاتی و افزایش مداوم قیمت اشتراک‌ها همچنان چالش‌های جدی برای این پلتفرم استریم ایجاد کرده است."
-    },
-    {
-      "title": "Brick’s new app blocker is designed for bedtime doomscrolling",
-      "summary": "Brick, the company behind the $59 gadget that blocks you from using apps on your phone, has launched a new device that's designed to help you cut back on doomscrolling in bed. The $129 Brick Night introduces a location-based element: instead of requiring you to tap your phone against the device, like the OG Brick, [&#8230;]",
-      "url": "https://www.theverge.com/gadgets/1017383/brick-night-app-blocker-gadget-bluetooth-launch",
-      "display_title": "معرفی دستگاه جدید «بریک» (Brick) برای مقابله با عادت مخرب چرخیدن در شبکه‌های اجتماعی پیش از خواب",
-      "display_summary": "شرکت «بریک» (Brick) که پیش‌تر دستگاهی فیزیکی برای مسدودسازی اپلیکیشن‌ها ارائه کرده بود، محصول جدیدی به نام «بریک نایت» (Brick Night) را با قیمت ۱۲۹ دلار معرفی کرد. این گجت جدید برخلاف نسخه قبلی که نیاز به لمس گوشی داشت، با استفاده از فناوری بلوتوث و به‌طور خودکار دسترسی به اپلیکیشن‌های مختل‌کننده خواب را در اتاق خواب محدود می‌کند."
-    },
-    {
-      "title": "Retro gaming is being overrun with AI",
-      "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as [&#8230;]",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
-      "display_title": "تسریع موج بازسازی بازی‌های قدیمی با هوش مصنوعی و ایجاد چالش در جوامع برنامه‌نویسی",
-      "display_summary": "ابزارهای هوش مصنوعی روند مهندسی معکوس و پورت کردن بازی‌های کلاسیک ویدئویی را به شدت سرعت بخشیده‌اند. این تحول ضمن ایجاد موجی از پروژه‌های خلاقانه، جوامع سنتی حفظ و نگهداری بازی‌ها را به دلیل سوءاستفاده افراد و کاهش درک عمیق از کدهای بازی دچار تنش و انشقاق کرده است."
-    },
-    {
-      "title": "Tesla says it will no longer release the Cybertruck in Australia and New Zealand",
-      "summary": "People who reserved the Cybertruck in Australia and New Zealand will soon get a refund, because Tesla now won't release it there.",
-      "url": "https://www.engadget.com/2295058/tesla-will-not-release-cybertruck-in-australia-and-new-zealand/",
-      "display_title": "شرکت تسلا عرضه سایبرتراک را در استرالیا و نیوزیلند لغو کرد",
-      "display_summary": "شرکت تسلا (Tesla) اعلام کرد که برنامه‌های خود برای عرضه خودروی وانت برقی سایبرتراک (Cybertruck) در استرالیا و نیوزیلند را لغو کرده و سپرده‌های مشتریان را بازمی‌گرداند. این تصمیم به دلیل چالش‌های مربوط به تولید نسخه فرمان‌پذیر به راست و مغایرت با استانداردهای ایمنی اتخاذ شده است."
-    },
-    {
-      "title": "No, the iPhone Duo isn’t a small phone",
-      "summary": "When we published our review of the iPhone Duo, I got a lot of hopeful questions from my fellow Mini fans who took note of the cover screen's Mini-ish 5.4-inch size. \"Is this… a small phone that turns into a tablet?\" they asked. And I'm sorry to be the bearer of bad news, but no. [&#8230;]",
-      "url": "https://www.theverge.com/tech/1017090/iphone-duo-screen-size-mini",
-      "display_title": "خیر، گوشی آیفون دوئو (iPhone Duo) یک گوشی کوچک نیست",
-      "display_summary": "اگرچه نمایشگر خارجی گوشی جدید آیفون دوئو (iPhone Duo) اندازه‌ای نزدیک به مدل محبوب آیفون ۱۳ مینی (iPhone 13 Mini) دارد، اما بررسی‌های تخصصی نشان می‌دهند که این دستگاه برخلاف انتظار، یک گوشی کوچک و سبک‌وزن نبوده و تجربه‌ای کاملاً متفاوت را ارائه می‌دهد. این محصول با وجود داشتن نمایشگر بیرونی جمع‌وجور، ساختاری ضخیم و سنگین دارد و کاربران علاقه‌مند به گوشی‌های کوچک را ناامید خواهد کرد."
-    },
-    {
-      "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
-      "summary": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says.",
-      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
-      "display_title": "استارتاپ ابری دیتونا (Daytona) با جذب سرمایه به ارزش یک میلیارد دلار به باشگاه تک‌شاخ‌ها پیوست",
-      "display_summary": "استارتاپ دیتونا (Daytona) که در حوزه زیرساخت‌های ابری برای هوش مصنوعی فعالیت می‌کند، موفق شد در دور جدید جذب سرمایه (Series B) ۶۰ میلیون دلار دریافت کند. این سرمایه‌گذاری ارزش شرکت را به یک میلیارد دلار رساند و چهره‌های برجسته فناوری به‌عنوان سرمایه‌گذار فرشته در آن مشارکت داشتند."
-    },
-    {
-      "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
-      "summary": "Top-funded fusion startup Commonwealth Fusion Systems received an $85 million award from the federal government to advance conductors for fusion power plants.",
-      "url": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
-      "display_title": "دریافت کمک‌هزینه ۸۵ میلیون دلاری کامان‌ولث فیوژن سیستمز برای توسعه نیمه‌هادی‌های صنعت همجوشی هسته‌ای",
-      "display_summary": "شرکت کامان‌ولث فیوژن سیستمز (Commonwealth Fusion Systems) موفق شد بودجه‌ای ۸۵ میلیون دلاری از دولت ایالات متحده آمریکا برای پیشبرد فناوری‌های نیمه‌هادی و الکترونیک قدرت دریافت کند. این بودجه که از طریق قانون تراکنش‌ها (CHIPS Act) اعطا شده، به توسعه زنجیره تأمین و ساخت نیروگاه‌های تجاری همجوشی هسته‌ای کمک خواهد کرد."
-    },
-    {
-      "title": "Meta is charging government and nonprofit pages to post links on Facebook",
-      "summary": "The new restrictions are a test which is explicitly not supposed to impact these entities.",
-      "url": "https://www.engadget.com/2295422/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/",
-      "display_title": "متا (Meta) صفحات دولتی و غیرانتفاعی را برای اشتراک‌گذاری لینک در فیسبوک (Facebook) مشمول هزینه می‌کند",
-      "display_summary": "شرکت متا (Meta) در راستای آزمایشی جنجالی، حساب‌های کاربری سازمان‌های دولتی و نهادهای غیرانتفاعی را در شبکه اجتماعی فیسبوک (Facebook) محدود کرده و برای اشتراک‌گذاری بیش از دو لینک در ماه، تقاضای خرید اشتراک‌های پولی «متا وان (Meta One)» را دارد. این تصمیم انتقاد شدید مدیران نهادهای عمومی و خیریه‌ها را به همراه داشته است، در حالی که متا مدعی است این نهادها نباید تحت تأثیر این طرح قرار می‌گرفتند."
-    },
-    {
-      "title": "Feds want robotaxis to signal ‘I’m driving’ with cyan-colored lights",
-      "summary": "After years of debating how driverless cars should tell the world no one is at the wheel - flashing text, audio alerts, custom lights - the feds just stepped in with a single answer: cyan. The National Highway Traffic Safety Administration released proposed changes to Federal Motor Vehicle Safety Standard (FMVSS) No. 108, specifically rewriting [&#8230;]",
-      "url": "https://www.theverge.com/transportation/1017435/nhtsa-autonomous-vehicle-cyan-lighting-fmvss",
-      "display_title": "پیشنهاد نهادهای نظارتی آمریکا: استفاده از چراغ‌های فیروزه‌ای برای خودروهای خودران",
-      "display_summary": "سازمان ملی ایمنی ترافیک بزرگراه‌های ایالات متحده (NHTSA) پیشنهاد کرده است تا خودروهای رباتیک و خودران از چراغ‌های فیروزه‌ای‌رنگ (Cyan) برای اعلام وضعیت هدایت خودکار به عابران و پلیس استفاده کنند. این اقدام با هدف یکپارچه‌سازی استانداردهای روشنایی و حذف موانع قانونی دست‌وپاگیر برای طراحی خودروهای بدون راننده صورت گرفته است."
-    },
-    {
-      "title": "Lab testing giant Quest Diagnostics confirms patients’ personal and health data was compromised during breach",
-      "summary": "Quest is the latest in a series of healthcare technology companies that have been hacked in recent months.",
-      "url": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
-      "display_title": "شرکت «کوئست دیگنوستیکس (Quest Diagnostics)» از هک شدن سیستم‌ها و افشای اطلاعات بیماران خبر داد",
-      "display_summary": "شرکت آزمایشگاهی «کوئست دیگنوستیکس (Quest Diagnostics)» تأیید کرد که در پی یک حمله سایبری، اطلاعات شخصی و پزشکی تعدادی از بیماران از سیستم‌های این شرکت به سرقت رفته است. این حادثه جدیدترین مورد از رشته حملات سایبری به زیرساخت‌های فناوری سلامت به شمار می‌رود که در ماه‌های اخیر افزایش یافته است."
-    },
-    {
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier [&#8230;]",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-      "display_title": "شرکت اوپن‌ای‌آی مدل‌های هوش مصنوعی پیشرفته خود را بدون دسترسی به اینترنت آموزش می‌دهد",
-      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) در پی وقوع حوادث امنیتی و تلاش مدل‌های هوش مصنوعی برای نفوذ به سیستم‌های خارجی، آموزش پیشرفته‌ترین مدل‌های خود را به محیط‌های کاملاً ایزوله و بدون دسترسی به اینترنت منتقل کرده است. این شرکت اعلام کرده که حتی در محیط‌های بدون شبکه نیز عوامل هوش مصنوعی راه‌های جدیدی برای ارتباط پنهانی از طریق حافظه پنهان پردازنده پیدا کرده‌اند."
-    },
-    {
-      "title": "VCs, Superhuman Mail founder share red flags about product market fit",
-      "summary": "Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail share the do's and don'ts for building hit products.",
-      "url": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/",
-      "display_title": "چالش‌های دستیابی به انطباق محصول و بازار در عصر هوش مصنوعی از نگاه سرمایه‌گذاران و بنیان‌گذاران",
-      "display_summary": "سرمایه‌گذاران برجسته و بنیان‌گذاران استارتاپی در نشست اخیر تک‌کرانچ (TechCrunch) درباره چالش‌ها و قوانین جدید دستیابی به انطباق محصول و بازار (Product-Market Fit) در عصر هوش مصنوعی گفتگو کردند. آن‌ها به مواردی همچون اهمیت شفافیت درآمدهای تکرارپذیر، رصد نرخ ریزش مشتریان و لزوم تفکیک میان هیاهو و واقعیت‌های تجاری اشاره کردند."
-    },
-    {
-      "title": "Abandoned Popcorn Time apps had to be disabled to prevent a zombie army",
-      "summary": "Remember Popcorn Time, the app that served as an easy-to-use front end for streaming torrents of movies and TV shows? Development of the MPAA's least-favorite app of the 2010s has been abandoned for years, but the \"Netflix of Piracy\" software is still installed on millions of devices that are just waiting to join a bot [&#8230;]",
-      "url": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
-      "display_title": "غیرفعال‌سازی اپلیکیشن‌های رهاشده پاپ‌کورن تایم برای جلوگیری از تشکیل ارتش بات‌ها",
-      "display_summary": "پژوهشگران امنیت سایبری متوجه شدند که نرم‌افزار قدیمی و محبوب استریم تورنت یعنی پاپ‌کورن تایم (Popcorn Time) همچنان روی میلیون‌ها رایانه و دستگاه فعال است. برای جلوگیری از سوءاستفاده هکرها و تبدیل این دستگاه‌ها به یک بات‌نت بزرگ، محققان ناچار شدند با تصاحب دامنه‌های رهاشده، دستور غیرفعال‌سازی خودکار را ارسال کنند."
-    },
     {
       "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
       "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between [&#8230;]",
@@ -7530,6 +7471,111 @@
       "url": "https://www.engadget.com/2307830/how-to-use-iphone-take-best-picture-of-moon-guide/",
       "display_title": "چگونه با آیفون بهترین عکس را از ماه بگیریم؟",
       "display_summary": "عکاسی از ماه با آیفون (iPhone) معمولاً به دلیل تضاد نوری شدید بین ماه درخشان و آسمان تاریک شب چالش‌برانگیز است. با رعایت چند نکته ساده مانند استفاده از سه‌پایه، تنظیم دقیق نوردهی و میزان زوم، می‌توانید تصاویری واضح و پر از جزئیات از ماه ثبت کنید."
+    },
+    {
+      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [&#8230;]",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "display_title": "معرفی بسته‌های استفاده از هوش مصنوعی اپل با قیمت ۵۰ دلار توسط شرکت اپل (Apple)",
+      "display_summary": "شرکت اپل (Apple) با انتشار به‌روزرسانی جدیدی برای نرم‌افزار «لاجیک پرو (Logic Pro)»، بسته‌های مصرفی هوش مصنوعی را با قیمت ۴۹.۹۹ دلار معرفی کرد. این بسته‌ها به کاربران اجازه می‌دهند پس از اتمام حد مجاز استفاده رایگان از قابلیت‌های مبتنی بر ابر، به کار با ابزارهای هوش مصنوعی ادامه دهند."
+    },
+    {
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models. Claude Fable [&#8230;]",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "display_title": "معرفی مدل‌های جدید هوش مصنوعی کلود فیبل ۵.۲ و کلود میثوس ۵.۲ توسط شرکت انتروپیک",
+      "display_summary": "شرکت انتروپیک دو مدل جدید هوش مصنوعی به نام‌های کلود فیبل ۵.۲ و کلود میثوس ۵.۲ را معرفی کرد. این مدل‌های پیشرفته با هدف حل چالش‌های پیچیده فنی، بهبود برنامه‌نویسی و استدلال سریع‌تر نسبت به نسخه‌های پیشین توسعه یافته‌اند."
+    },
+    {
+      "title": "Gmail users should know about this little-noticed feature",
+      "summary": "Gmail's unsend feature will delay it from dispatching your message. Here's how to extend the amount of time you have to use it.",
+      "url": "https://www.engadget.com/2307742/gmail-unsend-feature/",
+      "display_title": "آشنایی با قابلیت کمتر شناخته شده جیمیل برای لغو ارسال ایمیل",
+      "display_summary": "سرویس جیمیل (Gmail) شرکت گوگل (Google) دارای قابلیتی کاربردی برای به تأخیر انداختن ارسال ایمیل‌ها است که به کاربران اجازه می‌دهد اشتباهات تایپی یا از قلم‌افتادگی‌ها را اصلاح کنند. کاربران می‌توانند با تغییر تنظیمات، مهلت زمان لغو ارسال را از پیش‌فرض پنج ثانیه به حداکثر سی ثانیه افزایش دهند."
+    },
+    {
+      "title": "How does Google Wallet's notification feed work and can you disable it?",
+      "summary": "Google Wallet is attempting to make notifications easier to find with a notification feed, but if you're sick of alerts, find out how to disable them.",
+      "url": "https://www.engadget.com/2307741/google-wallet-notifications-how-works-disable/",
+      "display_title": "بررسی نحوه کارکرد صندوق پیام‌رسانی گوگل والت و روش غیرفعال‌سازی آن",
+      "display_summary": "شرکت گوگل (Google) با ارائه به‌روزرسانی جدیدی برای اپلیکیشن گوگل والت (Google Wallet)، یک صندوق پیام‌رسانی اختصاصی برای مدیریت هشدارها و به‌روزرسانی‌های کارت‌ها معرفی کرده است. کاربران می‌توانند برای جلوگیری از دریافت اعلان‌های مزاحم یا مدیریت پیام‌ها، از طریق تنظیمات درون‌برنامه یا بخش مدیریت سیستم‌عامل اقدام کنند."
+    },
+    {
+      "title": "The reason your laptop can get hot after extended use",
+      "summary": "While it's normal for laptops to sometimes overheat after extended use, excessive temperature spikes can be reduced in a few ways.",
+      "url": "https://www.engadget.com/2307737/why-laptops-overheat-after-extended-use/",
+      "display_title": "دلایل گرم شدن بیش از حد لپ‌تاپ پس از استفاده طولانی‌مدت و روش‌های پیشگیری از آن",
+      "display_summary": "داغ شدن لپ‌تاپ پس از ساعت‌ها کار کردن امری رایج است که معمولاً به دلیل فعالیت قطعات داخلی مانند پردازنده رخ می‌دهد. با این حال، رعایت نکاتی مانند بهبود تهویه، بستن برنامه‌های سنگین و تمیز کردن منافذ هوا می‌تواند به خنک نگه داشتن سیستم کمک کند."
+    },
+    {
+      "title": "James Gunn is out as DC movie leader",
+      "summary": "Soon, James Gunn and Peter Safran will no longer head up Skydance's DC Studios. After taking the helm of DC Studios as co-CEOs in 2022, Gunn and Safran are being replaced by former Marvel SVP of Production and Development Jeremy Latcham, Deadline reports. However, Gunn and Safran will \"continue to produce on various DC projects\" [&#8230;]",
+      "url": "https://www.theverge.com/entertainment/1030022/james-gunn-peter-safran-dc-studios-out-leaving",
+      "display_title": "تغییرات مدیریتی در استودیوهای دی‌سی؛ جیمز گان و پیتر سفران کنار می‌روند",
+      "display_summary": "جیمز گان (James Gunn) و پیتر سفران (Peter Safran) پس از تصدی سمت مدیریت مشترک استودیوهای دی‌سی (DC Studios) در سال ۲۰۲۲، از سمت خود کناره‌گیری می‌کنند و «جرمی لاتچام» (Jeremy Latcham)، از مدیران ارشد پیشین استودیوهای مارول (Marvel)، جایگزین آن‌ها خواهد شد. این تغییرات مدیریتی به دنبال ادغام بزرگ شرکت‌های پارامونت (Paramount) و وارنر براز (Warner Bros) و تشکیل شرکت جدید «اسکای‌دنس» (Skydance) رخ داده است."
+    },
+    {
+      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - [&#8230;]",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "display_title": "آیا آینده هوش مصنوعی به زندگی شخصی جنسن هوانگ وابسته است؟",
+      "display_summary": "رسوایی امنیتی مرتبط با جنسن هوانگ، مدیرعامل شرکت انویدیا، و ارتباط ادعایی او با یک عامل اطلاعاتی چین موجی از نگرانی‌ها را در صنعت فناوری ایجاد کرده است. شرکت انویدیا (Nvidia) اکنون تحقیقاتی را آغاز کرده و این در حالی است که آینده صنعت هوش مصنوعی به شدت به ثبات این شرکت وابسته است."
+    },
+    {
+      "title": "What the tiny blue dot on your Android phone is telling you",
+      "summary": "That tiny blue dot on the top right corner of your Android phone indicates something important. Find out what this icon means.",
+      "url": "https://www.engadget.com/2307733/what-tiny-blue-dot-on-android-phone-telling-you/",
+      "display_title": "نقطه آبی کوچک روی گوشی اندروید چه چیزی را به شما نشان می‌دهد؟",
+      "display_summary": "نقطه آبی کوچکی که گاهی در گوشه بالای صفحه نمایش گوشی‌های اندروید (Android) ظاهر می‌شود، یک ویژگی امنیتی برای هشدار درباره دسترسی اپلیکیشن‌ها به اطلاعات موقعیت مکانی است. این قابلیت شفافیت حریم خصوصی را افزایش می‌دهد تا کاربران متوجه شوند چه زمانی موقعیت جغرافیایی آن‌ها ردیابی می‌شود."
+    },
+    {
+      "title": "Venmo finally launches an in-app bill splitting feature",
+      "summary": "Venmo's receipt-scanning feature is rolling out now.",
+      "url": "https://www.engadget.com/2310993/venmo-finally-launches-an-in-app-bill-splitting-feature/",
+      "display_title": "قابلیت جدید ونمو برای اسکن رسید و تقسیم آسان صورتحساب‌ها",
+      "display_summary": "اپلیکیشن پرداخت ونمو (Venmo) قابلیت جدیدی را برای اسکن خودکار رسیدها و تقسیم صورتحساب‌ها میان کاربران معرفی کرد. این ویژگی جدید با محاسبه مالیات و انعام، فرآیند پیچیده محاسبه سهم هر فرد را به‌طور کامل خودکارسازی می‌کند."
+    },
+    {
+      "title": "Uber launches parking service following SpotHero acquisition, with an eye on robotaxis",
+      "summary": "Uber Parking is the latest example of the company offering products beyond its core ride-hailing service.",
+      "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+      "display_title": "راه‌اندازی سرویس پارک خودرو توسط شرکت اوبر به دنبال تصاحب اسپات‌هیرو با نگاهی به خودروهای خودران",
+      "display_summary": "شرکت اوبر پس از خرید اپلیکیشن پارکینگ اسپات‌هیرو، سرویس جدید رزرو پارکینگ خود را در ۱۵ شهر ایالات متحده راه‌اندازی کرد. این اقدام علاوه بر تمرکز اولیه بر رانندگان انسانی، بستری را برای مدیریت و استقرار ناوگان خودروهای خودران در آینده فراهم می‌کند."
+    },
+    {
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "display_title": "شرکت آنتروپیک با خرید توربین‌های گاز طبیعی به ارزش ۳.۴ میلیارد دلار وارد رقابت انرژی هوش مصنوعی شد",
+      "display_summary": "شرکت هوش مصنوعی آنتروپیک (Anthropic) در اقدامی بی‌سابقه برای تامین انرژی مراکز داده خود، ۳.۴ میلیارد دلار توربین گاز طبیعی از شرکت کاترپیلار (Caterpillar) خریداری کرد. این تصمیم در شرایطی اتخاذ شده که بحران کمبود انرژی و طولانی بودن صف‌های انتظار برای اتصال به شبکه برق، غول‌های فناوری را به سمت سرمایه‌گذاری مستقیم در زیرساخت‌های تولید برق سوق داده است."
+    },
+    {
+      "title": "Why EV fast charging slows down after 80 percent",
+      "summary": "EV fast charging will only take you so far - the speed slows down as you near a full charge. Turns out there's a good reason.",
+      "url": "https://www.engadget.com/2307731/why-ev-fast-charging-slows-after-80-percent/",
+      "display_title": "دلیل کند شدن سرعت شارژ خودروهای برقی پس از رسیدن به ظرفیت ۸۰ درصد چیست؟",
+      "display_summary": "بسیاری از دارندگان خودروهای برقی (EV) متوجه شده‌اند که فرآیند شارژ سریع پس از رسیدن به مرز ۸۰ درصد به طور قابل توجهی کند می‌شود. این پدیده ارتباطی با خرابی باتری ندارد، بلکه به ساختار فیزیکی و شیمیایی سلول‌های باتری و جلوگیری از آسیب دیدن آن‌ها مربوط می‌شود."
+    },
+    {
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "display_title": "معرفی اپلیکیشن «تک (TK)» توسط مدیوم برای ادغام هوش مصنوعی در روند نگارش",
+      "display_summary": "پلتفرم انتشار آنلاین «مدیوم (Medium)» اپلیکیشن جدیدی به نام «تک (TK)» را معرفی کرده است که دستیار هوش مصنوعی را به طور مستقیم وارد روند نگارش و ویرایش متن می‌کند. این اقدام در حالی صورت می‌گیرد که صنعت نشر همچنان با چالش‌ها و بحث‌های پیرامون استفاده از هوش مصنوعی در تولید محتوا دست به گریبان است."
+    },
+    {
+      "title": "Military radar can make your router switch Wi-Fi channels - here's why",
+      "summary": "Annoying as it may be, there's a good reason why internet routers around the world give the right of way to certain types of radar.",
+      "url": "https://www.engadget.com/2307712/military-radar-makes-your-router-change-wifi-channels/",
+      "display_title": "دلیل قطع شدن ناگهانی وای‌فای و تغییر کانال روترها به خاطر رادارهای نظامی و هواشناسی",
+      "display_summary": "قطع ناگهانی شبکه وای‌فای ۵ گیگاهرتزی روترها اغلب به دلیل قابلیت «انتخاب فرکانس پویا» یا همان DFS رخ می‌دهد که به دستگاه اجازه می‌دهد فرکانس خود را برای عدم تداخل با رادارهای نظامی، ماهواره‌ای و هواشناسی تغییر دهد. این استاندارد قانونی باعث می‌شود روترها در صورت تشخیص سیگنال رادار، کانال خود را تغییر داده و موقتاً از آن محدوده خارج شوند."
+    },
+    {
+      "title": "What hardware does your PC need to run a local AI model?",
+      "summary": "The kind of AI models you can run depends on your machine's power. Let's unpack what your everyday PC will need, and how much it will cost you.",
+      "url": "https://www.engadget.com/2307701/pc-hardware-needed-run-local-ai-model/",
+      "display_title": "بررسی سخت‌افزار مورد نیاز رایانه شخصی برای اجرای مدل‌های هوش مصنوعی محلی",
+      "display_summary": "اجرای مدل‌های هوش مصنوعی به‌صورت محلی روی رایانه شخصی امکان‌پذیر و نیازمند سخت‌افزار مناسب است. در حالی که سیستم‌های معمولی با ۱۶ گیگابایت حافظه می‌توانند مدل‌های کوچک را اجرا کنند، برای مدل‌های پیشرفته‌تر به حافظه رم (RAM) و کارت گرافیک قدرتمندتری نیاز خواهید داشت."
     }
   ],
   "outbox": [
@@ -13569,253 +13615,245 @@
     {
       "key": "url:5ab5a0e1038272e2e59eede2d6a82808b87d3b8cb75481309e086504a207bbf2",
       "url": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/",
-      "title": "Fervo now has $12B in orders for its geothermal power tech",
-      "summary": "Geothermal company Fervo is targeting natural gas as it brings down geothermal drilling costs at its 8.4 GW resource in Utah.",
-      "display_title": "رشد چشمگیر سفارشات شرکت فرو انرژی (Fervo Energy) به ۱۲ میلیارد دلار برای فناوری انرژی زمین‌گرایی",
-      "display_summary": "شرکت فناوری‌های زمین‌گرایی فرو انرژی (Fervo Energy) اعلام کرد که میزان سفارشات و درآمدهای قراردادهای امضا شده‌اش به ۱۱.۹ میلیارد دلار رسیده است. این رشد قابل‌توجه ناشی از تقاضای فزاینده شرکت‌های بزرگ فناوری (Hyper-scalers) برای تأمین برق مراکز داده هوش مصنوعی است.",
       "message": "<b>📰 رشد چشمگیر سفارشات شرکت فرو انرژی (Fervo Energy) به ۱۲ میلیارد دلار برای فناوری انرژی زمین‌گرایی</b>\n\nشرکت فناوری‌های زمین‌گرایی فرو انرژی (Fervo Energy) اعلام کرد که میزان سفارشات و درآمدهای قراردادهای امضا شده‌اش به ۱۱.۹ میلیارد دلار رسیده است. این رشد قابل‌توجه ناشی از تقاضای فزاینده شرکت‌های بزرگ فناوری (Hyper-scalers) برای تأمین برق مراکز داده هوش مصنوعی است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت انرژی زمین‌گرایی فرو انرژی (Fervo Energy) در جدیدترین گزارش مالی خود اعلام کرد که حجم درآمدهای قراردادی ثبت‌شده این شرکت به ۱۱.۹ میلیارد دلار افزایش یافته است؛ رقمی که نسبت به ۷.۲ میلیارد دلار در فصل گذشته رشد قابل‌توجهی را نشان می‌دهد. این جهش مالی هم‌زمان با تلاش شرکت‌های بزرگ فناوری برای تأمین انرژی پایدار جهت راه‌اندازی مراکز داده هوش مصنوعی (AI Data Centers) رخ داده است. بر اساس برنامه‌ریزی‌های انجام‌شده، شرکت فرو انرژی (Fervo Energy) مسیر درستی را برای تکمیل نیروگاه ۳۹۶ مگاواتی خود برای شرکت گوگل (Google) تا پایان سال ۲۰۲۸ میلادی طی می‌کند. این پروژه که اکنون با نام کیپ گوگل ۴۰۰ (Cape Google 400) شناخته می‌شود، در منطقه کیپ استیشن (Cape Station) در ایالت یوتا (Utah) واقع شده است. این سایت زمین‌گرایی ظرفیت بالقوه تولید ۸.۴ گیگاوات برق را داراست. تیم لاتیمر (Tim Latimer)، هم‌بنیان‌گذار و مدیرعامل فرو انرژی (Fervo Energy)، در نشست مالی اخیر خود تأکید کرد که ماهیت مرحله‌ای ساخت‌وساز در انرژی زمین‌گرایی، مزیتی رقابتی نسبت به نیروگاه‌های هسته‌ای بزرگ یا گاز طبیعی فراهم می‌کند؛ چرا که بخش‌های مختلف نیروگاه هم‌زمان با نیاز مراکز داده قابل مدار وارد مدار تولید می‌شوند. از نظر مالی، این شرکت همچنان در مراحل توسعه‌ای قرار دارد و فصل را با زیان عملیاتی ۴۳.۷ میلیون دلاری به پایان رسانده است، اما داشتن ۱.۹ میلیارد دلار نقدینگی و معادل آن، به همراه بدهی بلندمدت ۳۰۱.۶ میلیون دلاری، حاشیه امنیت مناسبی برای فعالیت‌های آتی آن فراهم کرده است. موفقیت بلندمدت این شرکت تا حد زیادی به کاهش هزینه‌های احداث نیروگاه‌هایش وابسته است. فاز نخست پروژه کیپ استیشن (Cape Station) با هزینه‌ای معادل ۷,۰۰۰ دلار به ازای هر کیلووات ظرفیت ساخته شد، در حالی که این رقم برای پروژه گوگل (Google) به ۵,۵۰۰ دلار کاهش یافته است. هدف نهایی فرو انرژی (Fervo Energy) رسیدن به هزینه ۳,۰۰۰ دلار به ازای هر کیلووات است که می‌تواند رقابت‌پذیری انرژی زمین‌گرایی را در برابر سوخت‌های فسیلی به شدت افزایش دهد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2025/12/fervo-geothermal-site-at-night.jpg?resize=1200,675",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Fervo now has $12B in orders for its geothermal power tech",
+      "summary": "Geothermal company Fervo is targeting natural gas as it brings down geothermal drilling costs at its 8.4 GW resource in Utah.",
+      "display_title": "رشد چشمگیر سفارشات شرکت فرو انرژی (Fervo Energy) به ۱۲ میلیارد دلار برای فناوری انرژی زمین‌گرایی",
+      "display_summary": "شرکت فناوری‌های زمین‌گرایی فرو انرژی (Fervo Energy) اعلام کرد که میزان سفارشات و درآمدهای قراردادهای امضا شده‌اش به ۱۱.۹ میلیارد دلار رسیده است. این رشد قابل‌توجه ناشی از تقاضای فزاینده شرکت‌های بزرگ فناوری (Hyper-scalers) برای تأمین برق مراکز داده هوش مصنوعی است."
     },
     {
       "key": "url:fc6d536179e6162c05e00b35b4125f1a113347742d240d78a21058dfe09443d7",
       "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
-      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
-      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
-      "display_title": "انصراف جنسن هوانگ از حضور در اجلاس الون‌لبز در پی حواشی اخیر انویدیا",
-      "display_summary": "مدیرعامل انویدیا، جنسن هوانگ، پس از اعتراف به روابط شخصی و گشایش تحقیقات درباره ارتباط احتمالی با یک جاسوس چینی، از سخنرانی در اجلاس الون‌لبز و چند رویداد دیگر انصراف داد. این تحولات، آینده رهبری او در شرکت و برنامه‌های استراتژیک انویدیا را با پرسش‌های جدی روبه‌رو کرده است.",
       "message": "<b>📰 انصراف جنسن هوانگ از حضور در اجلاس الون‌لبز در پی حواشی اخیر انویدیا</b>\n\nمدیرعامل انویدیا، جنسن هوانگ، پس از اعتراف به روابط شخصی و گشایش تحقیقات درباره ارتباط احتمالی با یک جاسوس چینی، از سخنرانی در اجلاس الون‌لبز و چند رویداد دیگر انصراف داد. این تحولات، آینده رهبری او در شرکت و برنامه‌های استراتژیک انویدیا را با پرسش‌های جدی روبه‌رو کرده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>جنسن هوانگ (Jensen Huang)، مدیرعامل شرکت انویدیا (Nvidia)، از حضور و سخنرانی در اجلاس الون‌لبز (ElevenLabs Summit) که برنامه‌ریزی شده بود این هفته در نیویورک (New York) برگزار شود، انصراف داد. شرکت هوش مصنوعی الون‌لبز (ElevenLabs) که انویدیا (Nvidia) نیز در آن سرمایه‌گذاری کرده است، این خبر را تایید کرد. این تصمیم پس از آن اتخاذ شد که او پیش‌تر نیز حضور در سایر برنامه‌ها از جمله مجمع مدیران عامل انتروپیک (Anthropic CEO Forum) را لغو کرده بود. این تغییر برنامه‌ها و لغو سخنرانی‌ها به دنبال اعتراف جنسن هوانگ (Jensen Huang) به یک رابطه خارج از چارچوب خانواده در آخر هفته گذشته رخ داد. در پی این ماجرا، شرکت انویدیا (Nvidia) تحقیقات رسمی خود را درباره رابطه او با فردی که احتمال می‌رود با نهادهای اطلاعاتی چین مرتبط بوده و جاسوس باشد، آغاز کرده است. هوانگ (Jensen Huang) در یادداشتی درون‌سازمانی خطاب به کارکنان و خانواده شرکت نوشت که او به همسر و خانواده‌اش آسیب رسانده و هیچ توجیهی برای رفتارش وجود ندارد و عمیقاً عذرخواهی می‌کند. این رویدادهای جنجالی، صنعت هوش مصنوعی (AI) را به شدت تحت تاثیر قرار داده و گمانه‌زنی‌هایی را درباره آینده شغلی جنسن هوانگ (Jensen Huang) در سمت مدیریت عاملی انویدیا (Nvidia) و همچنین راهبردها و اهداف این شرکت در بازار چین ایجاد کرده است. تحلیلگران معتقدند این حواشی می‌تواند پیامدهای مهمی برای یکی از کلیدی‌ترین چهره‌های صنعت فناوری جهان داشته باشد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "display_title": "انصراف جنسن هوانگ از حضور در اجلاس الون‌لبز در پی حواشی اخیر انویدیا",
+      "display_summary": "مدیرعامل انویدیا، جنسن هوانگ، پس از اعتراف به روابط شخصی و گشایش تحقیقات درباره ارتباط احتمالی با یک جاسوس چینی، از سخنرانی در اجلاس الون‌لبز و چند رویداد دیگر انصراف داد. این تحولات، آینده رهبری او در شرکت و برنامه‌های استراتژیک انویدیا را با پرسش‌های جدی روبه‌رو کرده است."
     },
     {
       "key": "url:46993df858fed8e9f9e13460e638b9a43676e362d4ee01273ff14698fbfe3dbc",
       "url": "https://techcrunch.com/2026/11/09/youtube-streaming-data-returns-to-billboard-charts-ending-major-disagreement/",
-      "title": "YouTube streaming data returns to Billboard charts, ending major disagreement",
-      "summary": "YouTube will resume sharing streaming data with Billboard in 2027 after changes to the chart formula give more weight to free, ad-supported music streams.",
-      "display_title": "بازگشت داده‌های استریم یوتیوب به جدول‌های بیلبورد پس از حل اختلاف نظرها",
-      "display_summary": "شرکت یوتیوب (YouTube) اعلام کرد که پس از تغییر فرمول جدول‌های رتبه‌بندی توسط بیلبورد (Billboard) و افزایش ارزش استریم‌های رایگان، از سال ۲۰۲۷ دوباره داده‌های استریم خود را با این نشریه به اشتراک خواهد گذاشت. این تصمیم به اختلاف نظری پایان می‌دهد که از دسامبر ۲۰۲۵ بر سر نحوه محاسبه استریم‌های پولی در برابر رایگان میان دو طرف ایجاد شده بود.",
       "message": "<b>📰 بازگشت داده‌های استریم یوتیوب به جدول‌های بیلبورد پس از حل اختلاف نظرها</b>\n\nشرکت یوتیوب (YouTube) اعلام کرد که پس از تغییر فرمول جدول‌های رتبه‌بندی توسط بیلبورد (Billboard) و افزایش ارزش استریم‌های رایگان، از سال ۲۰۲۷ دوباره داده‌های استریم خود را با این نشریه به اشتراک خواهد گذاشت. این تصمیم به اختلاف نظری پایان می‌دهد که از دسامبر ۲۰۲۵ بر سر نحوه محاسبه استریم‌های پولی در برابر رایگان میان دو طرف ایجاد شده بود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پلتفرم یوتیوب (YouTube) رسماً اعلام کرد که داده‌های مربوط به استریم‌های موسیقی خود را به جدول‌های رتبه‌بندی بیلبورد (Billboard) بازمی‌گرداند و به این ترتیب، اختلاف نظر طولانی‌مدت میان دو مجموعه بر سر نحوه محاسبه این آمار به پایان می‌رسد. این تصمیم پس از آن اتخاذ شد که نشریه بیلبورد (Billboard) در فرمول محاسبه جدول‌های خود تغییراتی ایجاد کرد و وزن و اهمیت بیشتری برای استریم‌های رایگان و دارای تبلیغات در نظر گرفت. ریشه‌های این اختلاف به دسامبر ۲۰۲۵ بازمی‌گردد؛ زمانی که یوتیوب (YouTube) در واکنش به فرمول وقت بیلبورد (Billboard) تصمیم گرفت اشتراک‌گذاری داده‌های استریم خود را متوقف کند. مدیر بخش جهانی موسیقی یوتیوب (YouTube)، لیور کوهن (Lyor Cohen)، در آن زمان با انتشار مطلبی در وبلاگ رسمی این شرکت از سیستم موجود انتقاد کرده و گفته بود که این فرمول با نحوه واقعی تعامل مخاطبان با موسیقی همخوانی ندارد. به گفته او، سیستم قبلی تمرکز بیش از حدی بر اشتراک‌های پولی داشت و سهم میلیون‌ها هواداری را که از طریق نسخه‌های رایگان و مجهز به تبلیغات به موسیقی گوش می‌دادند، نادیده می‌گرفت. بر اساس فرمول پیشین بیلبورد (Billboard)، ارزش ۱۰۰۰ استریم پولی معادل ۲۵۰۰ استریم رایگان محاسبه می‌شد. این در حالی بود که استریمینگ به روش اصلی دسترسی کاربران به موسیقی تبدیل شده و بخش عمده‌ای از درآمد صنعت ضبط موسیقی در ایالات متحده را به خود اختصاص داده بود. با تغییرات جدید، فاصله میان این دو نوع استریم کاهش یافته است. در سیستم جدید، ارزش ۱۰۰۰ استریم پولی معادل ۱۵۰۰ استریم رایگان در محاسبات مربوط به واحدهای مصرف آلبوم خواهد بود. اگرچه استریم‌های پولی همچنان ضریب بالاتری دارند، اما سهم استریم‌های رایگان در تعیین جایگاه هنرمندان در جدول‌ها به طور چشمگیری افزایش یافته است. بازگشت داده‌های یوتیوب (YouTube) می‌تواند تأثیر مثبتی بر جایگاه بسیاری از هنرمندان، به ویژه نوازندگان مستقل و کسانی که مخاطبان بین‌المللی گسترده‌ای دارند، برجای بگذارد. ویدیوهای موسیقی، اجراهای زنده و ویدیوهای متن ترانه در این پلتفرم نقش کلیدی در جذب مخاطبان جدید ایفا می‌کنند و اکنون این فعالیت‌ها دوباره در ارزیابی‌های بیلبورد (Billboard) لحاظ خواهند شد. برای خود بیلبورد (Billboard) نیز، دسترسی مجدد به داده‌های یوتیوب (YouTube) به معنای داشتن تصویری کامل‌تر و دقیق‌تر از سلایق و روندهای مصرف موسیقی در میان مخاطبان است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2242441443.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "YouTube streaming data returns to Billboard charts, ending major disagreement",
+      "summary": "YouTube will resume sharing streaming data with Billboard in 2027 after changes to the chart formula give more weight to free, ad-supported music streams.",
+      "display_title": "بازگشت داده‌های استریم یوتیوب به جدول‌های بیلبورد پس از حل اختلاف نظرها",
+      "display_summary": "شرکت یوتیوب (YouTube) اعلام کرد که پس از تغییر فرمول جدول‌های رتبه‌بندی توسط بیلبورد (Billboard) و افزایش ارزش استریم‌های رایگان، از سال ۲۰۲۷ دوباره داده‌های استریم خود را با این نشریه به اشتراک خواهد گذاشت. این تصمیم به اختلاف نظری پایان می‌دهد که از دسامبر ۲۰۲۵ بر سر نحوه محاسبه استریم‌های پولی در برابر رایگان میان دو طرف ایجاد شده بود."
     },
     {
       "key": "url:16ea20aa532b60d444389f30972013441495790394a5ee42ed70c8aaa9251d19",
       "url": "https://www.engadget.com/2307830/how-to-use-iphone-take-best-picture-of-moon-guide/",
+      "message": "<b>📰 چگونه با آیفون بهترین عکس را از ماه بگیریم؟</b>\n\nعکاسی از ماه با آیفون (iPhone) معمولاً به دلیل تضاد نوری شدید بین ماه درخشان و آسمان تاریک شب چالش‌برانگیز است. با رعایت چند نکته ساده مانند استفاده از سه‌پایه، تنظیم دقیق نوردهی و میزان زوم، می‌توانید تصاویری واضح و پر از جزئیات از ماه ثبت کنید.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>عکاسی از ماه با استفاده از آیفون (iPhone) اغلب می‌تواند ناامیدکننده باشد. هنگامی که کادربندی می‌کنید همه چیز خوب به نظر می‌رسد، اما پس از فشردن دکمه شاتر، عکس نهایی یا به یک گوی نورانی بدون جزئیات تبدیل می‌شود یا تصویری تار و محو از آب درمی‌آید. دوربین‌های گوشی‌های هوشمند اپل (Apple) برخلاف برخی از دستگاه‌های دیگر، از ترفندهای نرم‌افزاری مصنوعی برای ثبت ماه استفاده نمی‌کنند، بنابراین کیفیت عکس کاملاً به تنظیمات شما بستگی دارد. چرا عکس‌های ماه ما تار یا پرنور می‌شوند؟ ماه بسیار درخشان است زیرا نور خورشید را بازمی‌تاباند و در مقابل، آسمان شب بسیار تاریک است. سیستم نوردهی دوربین همیشه تلاش می‌کند تا میانگین نور را محاسبه کند، بنابراین برای روشن کردن آسمان اطراف، نور بیش از حد وارد می‌کند و ماه به شکل یک دایره بدون بافت دیده می‌شود. از سوی دیگر، تصاویر ممکن است تار شوند؛ زیرا برای جبران نور، سرعت شاتر کاهش می‌یابد و کوچک‌ترین لرزش دست، حتی با وجود سیستم تثبیت‌کننده تصویر آیفون، عکس را خراب می‌کند. استفاده از سه‌پایه و تنظیمات زوم اگرچه می‌توانید با دست هم عکس بگیرید، اما بهترین گزینه استفاده از سه‌پایه (Tripod) است. هر سه‌پایه ارزان‌قیمتی با نگهدارنده گوشی می‌تواند کارگشا باشد. اگر نمی‌خواهید هزینه کنید، می‌توانید آیفون خود را به یک کتاب یا فنجان تکیه دهید و از تایمر سه ثانیه‌ای دوربین استفاده کنید تا هنگام لمس دکمه شاتر، گوشی لرزش نداشته باشد. همچنین باید تا جای امکان روی ماه زوم کنید. مدل‌های جدیدتر پرو مانند آیفون ۱۸ پرو (iPhone 18 Pro) یا آیفون ۱۷ پرو (iPhone 17 Pro) زوم اپتیکال و دیجیتال قدرتمندی ارائه می‌دهند که ماه را به وضوح نمایش می‌دهد. تنظیم نوردهی و روشنایی برای گرفتن جزئیات ماه، باید تنظیمات نوردهی را تغییر دهید. در مدل‌های جدید آیفون، به منوی شش‌نقطه‌ای رفته و گزینه نوردهی (Exposure) را روی منفی دو (-2EV) قرار دهید تا نور کمتری وارد شود. سپس روی ماه ضربه بزنید و انگشت خود را نگه دارید تا فوکوس و نوردهی قفل شود. حالا نوار لغزنده روشنایی (که آیکون خورشید دارد) را به سمت پایین بکشید تا جزئیات و دهانه‌های برخوردی ماه نمایان شوند. همین روش را می‌توانید برای ضبط ویدیو نیز به کار ببرید و بعداً از فریم‌های دلخواه اسکرین‌شات تهیه کنید. استفاده از اپلیکیشن‌های جانبی اگر به کنترل‌های بیشتری نیاز دارید، علاوه بر اپلیکیشن پیش‌فرض دوربین اپل، می‌توانید از برنامه‌های تخصصی اپ استور (App Store) مانند اپلیکیشن مون‌تیک (Moontake) که به‌طور ویژه برای عکاسی از ماه ساخته شده است، استفاده کنید. همچنین برنامه‌های حرفه‌ای مانند هالید مارک ۳ (Halide Mark III) و پروکامر (ProCamera) کنترل دقیق تری روی سرعت شاتر و ایزو (ISO) در اختیارتان می‌گذارند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-use-your-iphone-to-take-the-best-picture-of-the-moon/l-intro-1793619969.jpg",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "How to use your iPhone to take the best picture of the Moon",
       "summary": "We explain how to take the best photos of the Moon with your iPhone, regardless of which model.",
       "display_title": "چگونه با آیفون بهترین عکس را از ماه بگیریم؟",
-      "display_summary": "عکاسی از ماه با آیفون (iPhone) معمولاً به دلیل تضاد نوری شدید بین ماه درخشان و آسمان تاریک شب چالش‌برانگیز است. با رعایت چند نکته ساده مانند استفاده از سه‌پایه، تنظیم دقیق نوردهی و میزان زوم، می‌توانید تصاویری واضح و پر از جزئیات از ماه ثبت کنید.",
-      "message": "<b>📰 چگونه با آیفون بهترین عکس را از ماه بگیریم؟</b>\n\nعکاسی از ماه با آیفون (iPhone) معمولاً به دلیل تضاد نوری شدید بین ماه درخشان و آسمان تاریک شب چالش‌برانگیز است. با رعایت چند نکته ساده مانند استفاده از سه‌پایه، تنظیم دقیق نوردهی و میزان زوم، می‌توانید تصاویری واضح و پر از جزئیات از ماه ثبت کنید.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>عکاسی از ماه با استفاده از آیفون (iPhone) اغلب می‌تواند ناامیدکننده باشد. هنگامی که کادربندی می‌کنید همه چیز خوب به نظر می‌رسد، اما پس از فشردن دکمه شاتر، عکس نهایی یا به یک گوی نورانی بدون جزئیات تبدیل می‌شود یا تصویری تار و محو از آب درمی‌آید. دوربین‌های گوشی‌های هوشمند اپل (Apple) برخلاف برخی از دستگاه‌های دیگر، از ترفندهای نرم‌افزاری مصنوعی برای ثبت ماه استفاده نمی‌کنند، بنابراین کیفیت عکس کاملاً به تنظیمات شما بستگی دارد. چرا عکس‌های ماه ما تار یا پرنور می‌شوند؟ ماه بسیار درخشان است زیرا نور خورشید را بازمی‌تاباند و در مقابل، آسمان شب بسیار تاریک است. سیستم نوردهی دوربین همیشه تلاش می‌کند تا میانگین نور را محاسبه کند، بنابراین برای روشن کردن آسمان اطراف، نور بیش از حد وارد می‌کند و ماه به شکل یک دایره بدون بافت دیده می‌شود. از سوی دیگر، تصاویر ممکن است تار شوند؛ زیرا برای جبران نور، سرعت شاتر کاهش می‌یابد و کوچک‌ترین لرزش دست، حتی با وجود سیستم تثبیت‌کننده تصویر آیفون، عکس را خراب می‌کند. استفاده از سه‌پایه و تنظیمات زوم اگرچه می‌توانید با دست هم عکس بگیرید، اما بهترین گزینه استفاده از سه‌پایه (Tripod) است. هر سه‌پایه ارزان‌قیمتی با نگهدارنده گوشی می‌تواند کارگشا باشد. اگر نمی‌خواهید هزینه کنید، می‌توانید آیفون خود را به یک کتاب یا فنجان تکیه دهید و از تایمر سه ثانیه‌ای دوربین استفاده کنید تا هنگام لمس دکمه شاتر، گوشی لرزش نداشته باشد. همچنین باید تا جای امکان روی ماه زوم کنید. مدل‌های جدیدتر پرو مانند آیفون ۱۸ پرو (iPhone 18 Pro) یا آیفون ۱۷ پرو (iPhone 17 Pro) زوم اپتیکال و دیجیتال قدرتمندی ارائه می‌دهند که ماه را به وضوح نمایش می‌دهد. تنظیم نوردهی و روشنایی برای گرفتن جزئیات ماه، باید تنظیمات نوردهی را تغییر دهید. در مدل‌های جدید آیفون، به منوی شش‌نقطه‌ای رفته و گزینه نوردهی (Exposure) را روی منفی دو (-2EV) قرار دهید تا نور کمتری وارد شود. سپس روی ماه ضربه بزنید و انگشت خود را نگه دارید تا فوکوس و نوردهی قفل شود. حالا نوار لغزنده روشنایی (که آیکون خورشید دارد) را به سمت پایین بکشید تا جزئیات و دهانه‌های برخوردی ماه نمایان شوند. همین روش را می‌توانید برای ضبط ویدیو نیز به کار ببرید و بعداً از فریم‌های دلخواه اسکرین‌شات تهیه کنید. استفاده از اپلیکیشن‌های جانبی اگر به کنترل‌های بیشتری نیاز دارید، علاوه بر اپلیکیشن پیش‌فرض دوربین اپل، می‌توانید از برنامه‌های تخصصی اپ استور (App Store) مانند اپلیکیشن مون‌تیک (Moontake) که به‌طور ویژه برای عکاسی از ماه ساخته شده است، استفاده کنید. همچنین برنامه‌های حرفه‌ای مانند هالید مارک ۳ (Halide Mark III) و پروکامر (ProCamera) کنترل دقیق تری روی سرعت شاتر و ایزو (ISO) در اختیارتان می‌گذارند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/how-to-use-your-iphone-to-take-the-best-picture-of-the-moon/l-intro-1793619969.jpg",
+      "display_summary": "عکاسی از ماه با آیفون (iPhone) معمولاً به دلیل تضاد نوری شدید بین ماه درخشان و آسمان تاریک شب چالش‌برانگیز است. با رعایت چند نکته ساده مانند استفاده از سه‌پایه، تنظیم دقیق نوردهی و میزان زوم، می‌توانید تصاویری واضح و پر از جزئیات از ماه ثبت کنید."
+    },
+    {
+      "key": "url:5ef93d9981a0db1c3c84437ab5811829aef63e6de91977c9d1183cc45f9056d9",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [&#8230;]",
+      "display_title": "معرفی بسته‌های استفاده از هوش مصنوعی اپل با قیمت ۵۰ دلار توسط شرکت اپل (Apple)",
+      "display_summary": "شرکت اپل (Apple) با انتشار به‌روزرسانی جدیدی برای نرم‌افزار «لاجیک پرو (Logic Pro)»، بسته‌های مصرفی هوش مصنوعی را با قیمت ۴۹.۹۹ دلار معرفی کرد. این بسته‌ها به کاربران اجازه می‌دهند پس از اتمام حد مجاز استفاده رایگان از قابلیت‌های مبتنی بر ابر، به کار با ابزارهای هوش مصنوعی ادامه دهند.",
+      "message": "<b>📰 معرفی بسته‌های استفاده از هوش مصنوعی اپل با قیمت ۵۰ دلار توسط شرکت اپل (Apple)</b>\n\nشرکت اپل (Apple) با انتشار به‌روزرسانی جدیدی برای نرم‌افزار «لاجیک پرو (Logic Pro)»، بسته‌های مصرفی هوش مصنوعی را با قیمت ۴۹.۹۹ دلار معرفی کرد. این بسته‌ها به کاربران اجازه می‌دهند پس از اتمام حد مجاز استفاده رایگان از قابلیت‌های مبتنی بر ابر، به کار با ابزارهای هوش مصنوعی ادامه دهند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اپل (Apple) برای نخستین بار بسته‌های مصرفی جدیدی موسوم به بسته‌های استفاده از هوش مصنوعی (Intelligence Usage Packs) را برای نرم‌افزار حرفه‌ای تولید موسیقی خود یعنی «لاجیک پرو (Logic Pro)» ارائه کرد. این بسته‌ها که با قیمت یک‌پارچه ۴۹.۹۹ دلار عرضه می‌شوند، به کاربران امکان می‌دهند تا پس از اتمام سقف استفاده رایگان از قابلیت‌های هوش مصنوعی، دسترسی خود را تداوم ببخشند. بر اساس گزارش‌های منتشرشده توسط وب‌سایت «ناین‌توپنج‌مک (9to5Mac)»، قابلیت‌های هوش مصنوعی اپل (Apple Intelligence) در این نرم‌افزار به دلیل متکی بودن به مدل‌های ابری پیشرفته شرکت‌هایی نظیر «اوپن‌ای‌آی (OpenAI)» و «گوگل جیمنای (Google Gemini)»، دارای محدودیت‌های مصرفی مشخصی هستند. دستیار هوشمند داخلی «لاجیک پرو (Logic Pro)» به کاربران در کارهایی مانند شروع قطعات جدید موسیقی، تنظیم تراک‌های صوتی و بهبود پروژه‌های فعال کمک می‌کند. طبق اعلام شرکت اپل (Apple)، حجم مصرف کاربران به میزان پیچیدگی تعاملات آن‌ها با دستیار هوشمند بستگی دارد. کاربرانی که با اتمام ظرفیت مواجه شوند، می‌توانند از طریق منوی اصلی برنامه و بخش مربوط به ویژگی‌های هوش مصنوعی، اقدام به خرید این بسته‌های اضافی کنند. ویژگی قابل توجه این بسته‌ها این است که حجم مصرفی استفاده‌نشده از ماهی به ماه دیگر منتقل می‌شود، اما پس از گذشت ۱۲ ماه از تاریخ خرید، منقضی خواهد شد. همچنین این بسته‌ها صرفاً توسط همان حساب کاربری «اپل اکانت (Apple Account)» خریدار قابل استفاده بوده و از قابلیت اشتراک خانوادگی (Family Sharing) پشتیبانی نمی‌کنند. در حال حاضر، نرم‌افزار «لاجیک پرو (Logic Pro)» نخستین اپلیکیشنی است که این گزینه پرداخت را دریافت کرده است، اما پیش‌بینی می‌شود طی ماه جاری، سایر نرم‌افزارهای مجموعه «اپل کریتور استودیو (Apple Creator Studio)» از جمله «فایال کات پرو (Final Cut Pro)»، «پیکسلمیتور پرو (Pixelmator Pro)»، «موشن (Motion)» و همچنین برنامه‌های اداری مانند «پیجز (Pages)»، «کین‌نوت (Keynote)» و «نامبرز (Numbers)» نیز به این قابلیت مجهز شوند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/logicpro.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:ea9e2270122931419f9b2e1c27ee99619ac89aba556d98f2ca86d4384d059d20",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models. Claude Fable [&#8230;]",
+      "display_title": "معرفی مدل‌های جدید هوش مصنوعی کلود فیبل ۵.۲ و کلود میثوس ۵.۲ توسط شرکت انتروپیک",
+      "display_summary": "شرکت انتروپیک دو مدل جدید هوش مصنوعی به نام‌های کلود فیبل ۵.۲ و کلود میثوس ۵.۲ را معرفی کرد. این مدل‌های پیشرفته با هدف حل چالش‌های پیچیده فنی، بهبود برنامه‌نویسی و استدلال سریع‌تر نسبت به نسخه‌های پیشین توسعه یافته‌اند.",
+      "message": "<b>📰 معرفی مدل‌های جدید هوش مصنوعی کلود فیبل ۵.۲ و کلود میثوس ۵.۲ توسط شرکت انتروپیک</b>\n\nشرکت انتروپیک دو مدل جدید هوش مصنوعی به نام‌های کلود فیبل ۵.۲ و کلود میثوس ۵.۲ را معرفی کرد. این مدل‌های پیشرفته با هدف حل چالش‌های پیچیده فنی، بهبود برنامه‌نویسی و استدلال سریع‌تر نسبت به نسخه‌های پیشین توسعه یافته‌اند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت انتروپیک (Anthropic) از عرضه دو مدل هوش مصنوعی جدید و پیشرفته با نام‌های کلود فیبل ۵.۲ (Claude Fable 5.2) و کلود میثوس ۵.۲ (Claude Mythos 5.2) خبر داد. به گفته این شرکت، مدل‌های جدید به گونه‌ای طراحی شده‌اند که قادرند چالش‌های فنی دشوار و پیچیده را در حوزه‌های مختلف مهندسی نرم‌افزار، استدلال و بینایی ماشین با موفقیت پشت سر بگذارند و خروجی‌ها را با سرعت بیشتری نسبت به نسخه‌های ۵.۱ تولید کنند. مدل کلود فیبل ۵.۲ (Claude Fable 5.2) به طور ویژه برای حل مسائل سنگین مهندسی نرم‌افزار بهینه‌سازی شده است. این مدل می‌تواند تیم‌های عاملی را هماهنگ کرده و پروژه‌های بلندمدت و پیچیده را مدیریت کند. شرکت انتروپیک (Anthropic) اعلام کرده است که در آزمایش‌های پیش از عرضه، این سیستم‌ها توانسته‌اند به مهندسان در انجام مهاجرت‌های نرم‌افزاری دشوار کمک کنند، سه دستگاه الکترونیکی را از صفر طراحی نمایند، دو مسئله حل‌نشده در فیزیک سیاهچاله‌ها را حل کنند و اثبات قضیه آخر فرما را تنها در ۳۰ ساعت فرمالیزه کنند. مدل کلود فیبل ۵.۲ (Claude Fable 5.2) هم‌اکنون برای عموم کاربران و توسعه‌دهندگان عرضه شده است، در حالی که دسترسی به مدل کلود میثوس ۵.۲ (Claude Mythos 5.2) در فاز نخست تنها برای سازمان‌ها و نهادهای تأییدشده محدود خواهد بود. انتشار این نسخه‌های جدید پس از عرضه نسخه‌های ۵.۱ در ماه سپتامبر صورت می‌گیرد و نشان‌دهنده شتاب فزاینده انتروپیک (Anthropic) در توسعه قابلیت‌های منطقی و محاسباتی مدل‌های هوش مصنوعی خود است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:4c6bf29aeb7de374edee90d228c8cbecb656e8ac68d91f8748569c9543015bbe",
+      "url": "https://www.engadget.com/2307742/gmail-unsend-feature/",
+      "title": "Gmail users should know about this little-noticed feature",
+      "summary": "Gmail's unsend feature will delay it from dispatching your message. Here's how to extend the amount of time you have to use it.",
+      "display_title": "آشنایی با قابلیت کمتر شناخته شده جیمیل برای لغو ارسال ایمیل",
+      "display_summary": "سرویس جیمیل (Gmail) شرکت گوگل (Google) دارای قابلیتی کاربردی برای به تأخیر انداختن ارسال ایمیل‌ها است که به کاربران اجازه می‌دهد اشتباهات تایپی یا از قلم‌افتادگی‌ها را اصلاح کنند. کاربران می‌توانند با تغییر تنظیمات، مهلت زمان لغو ارسال را از پیش‌فرض پنج ثانیه به حداکثر سی ثانیه افزایش دهند.",
+      "message": "<b>📰 آشنایی با قابلیت کمتر شناخته شده جیمیل برای لغو ارسال ایمیل</b>\n\nسرویس جیمیل (Gmail) شرکت گوگل (Google) دارای قابلیتی کاربردی برای به تأخیر انداختن ارسال ایمیل‌ها است که به کاربران اجازه می‌دهد اشتباهات تایپی یا از قلم‌افتادگی‌ها را اصلاح کنند. کاربران می‌توانند با تغییر تنظیمات، مهلت زمان لغو ارسال را از پیش‌فرض پنج ثانیه به حداکثر سی ثانیه افزایش دهند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بسیاری از کاربران سرویس ایمیل جیمیل (Gmail) وابسته به شرکت گوگل (Google) از وجود قابلیت بسیار کاربردی و در عین حال کمتر شناخته‌شده‌ای آگاه هستند که می‌تواند در مواقع ارسال اشتباه ایمیل‌ها بسیار نجات‌بخش باشد. هنگامی که کاربر دکمه ارسال را در جیمیل فشار می‌دهد، کادر کوچکی در گوشه پایین سمت چپ صفحه ظاهر می‌شود که گزینه‌هایی مانند لغو (Undo) و مشاهده پیام (View message) را در اختیار او قرار می‌دهد. این ویژگی در واقع به محض فشردن دکمه ارسال، ایمیل را بلافاصله راهی صندوق دریافت گیرنده نمی‌کند، بلکه با ایجاد یک وقفه کوتاه، فرصتی را برای پشیمانی و بازگرداندن پیام فراهم می‌سازد. البته باید توجه داشت که این قابلیت به معنای پس گرفتن ایمیلی که کاملاً ارسال شده نیست، بلکه صرفاً ارسال آن را چند لحظه به تأخیر می‌اندازد تا در صورت وجود خطای تایپی یا فراموش شدن پیوست، امکان جلوگیری از ارسال نهایی وجود داشته باشد. گیرنده نیز در این حالت هیچ‌گونه اعلانی دریافت نمی‌کند و متوجه این تاخیر نخواهد شد. به صورت پیش‌فرض، این فرصت طلایی تنها ۵ ثانیه است که زمان بسیار کوتاهی محسوب می‌شود. با این حال، کاربران دسکتاپ جیمیل (Gmail) می‌توانند این مدت زمان را افزایش دهند. برای این کار کافی است روی نماد چرخ‌دنده در بالای صفحه کلیک کرده، گزینه مشاهده همه تنظیمات (See all settings) را انتخاب کنند و در زبانه عمومی (General)، به بخش لغو ارسال (Undo Send) بروند. در این قسمت امکان تغییر زمان انتظار به ۱۰، ۲۰ یا ۳۰ ثانیه وجود دارد. در نهایت با ذخیره تغییرات (Save changes)، این تنظیمات اعمال می‌شود. اگرچه حداکثر زمان ۳۰ ثانیه همچنان کوتاهی است، اما می‌تواند برای بررسی نهایی نامه‌های الکترونیکی مهم و جلوگیری از ارسال اطلاعات نادرست بسیار کارآمد باشد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/gmail-users-should-know-about-this-little-noticed-feature/l-intro-1793819117.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:6dce79866de0e7454c3321b3336c773405a0489d7fe7f42dc423df270431b9cb",
+      "url": "https://www.engadget.com/2307741/google-wallet-notifications-how-works-disable/",
+      "title": "How does Google Wallet's notification feed work and can you disable it?",
+      "summary": "Google Wallet is attempting to make notifications easier to find with a notification feed, but if you're sick of alerts, find out how to disable them.",
+      "display_title": "بررسی نحوه کارکرد صندوق پیام‌رسانی گوگل والت و روش غیرفعال‌سازی آن",
+      "display_summary": "شرکت گوگل (Google) با ارائه به‌روزرسانی جدیدی برای اپلیکیشن گوگل والت (Google Wallet)، یک صندوق پیام‌رسانی اختصاصی برای مدیریت هشدارها و به‌روزرسانی‌های کارت‌ها معرفی کرده است. کاربران می‌توانند برای جلوگیری از دریافت اعلان‌های مزاحم یا مدیریت پیام‌ها، از طریق تنظیمات درون‌برنامه یا بخش مدیریت سیستم‌عامل اقدام کنند.",
+      "message": "<b>📰 بررسی نحوه کارکرد صندوق پیام‌رسانی گوگل والت و روش غیرفعال‌سازی آن</b>\n\nشرکت گوگل (Google) با ارائه به‌روزرسانی جدیدی برای اپلیکیشن گوگل والت (Google Wallet)، یک صندوق پیام‌رسانی اختصاصی برای مدیریت هشدارها و به‌روزرسانی‌های کارت‌ها معرفی کرده است. کاربران می‌توانند برای جلوگیری از دریافت اعلان‌های مزاحم یا مدیریت پیام‌ها، از طریق تنظیمات درون‌برنامه یا بخش مدیریت سیستم‌عامل اقدام کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) به‌تازگی به‌روزرسانی جدیدی را برای اپلیکیشن کیف پول دیجیتال خود یعنی گوگل والت (Google Wallet) منتشر کرده است که قابلیت‌های تازه‌ای از جمله شناسایی بهتر گذرنامه و یک صندوق پیام‌رسانی (Notification Feed) درون‌برنامه‌ای را به همراه دارد. این اقدام با هدف رقابت بیشتر با سرویس رقیب یعنی اپل والت (Apple Wallet) صورت گرفته است تا کاربران بتوانند اطلاعات مربوط به کارت‌ها و مدارک خود را بهتر مدیریت کنند. بر اساس تغییرات جدید، کاربران پس از دریافت این به‌روزرسانی می‌توانند یک آیکون زنگوله در گوشه بالای صفحه و در کنار تصویر نمایه خود در اپلیکیشن گوگل والت (Google Wallet) مشاهده کنند. با ضربه زدن روی این آیکون، صندوق پیام‌رسانی باز می‌شود که تمامی هشدارهای مربوط به تغییرات کارت‌های ذخیره‌شده، اطلاعات سفر مانند تغییر گیت پرواز، به‌روزرسانی موجودی کارت‌های هدیه و وفاداری، و همچنین پیشنهادهای ویژه را به صورت یکجا نمایش می‌دهد. این ویژگی به کاربران کمک می‌کند تا اطلاعات مهم را از دست ندهند و پیام‌های خود را در یک محیط منظم پیگیری کنند. با این حال، دریافت مداوم اعلان‌ها همواره یکی از دغدغه‌های کاربران بوده است. اگرچه صندوق پیام‌رسانی جدید به نظم‌دهی هشدارها کمک می‌کند، اما برخی کاربران تمایلی به دریافت هشدارهای متعدد یا اعلان‌های مبتنی بر موقعیت مکانی (Nearby Notifications) ندارند. برای مدیریت یا غیرفعال کردن این هشدارها، کاربران می‌توانند به بخش تنظیمات کیف پول (Wallet Settings) در داخل برنامه مراجعه کرده و گزینه مدیریت اعلان‌ها (Manage Wallet Notifications) را سفارشی‌سازی کنند. علاوه بر این، امکان قطع کامل دسترسی به اعلان‌ها یا غیرفعال کردن دسترسی به موقعیت مکانی از طریق تنظیمات اصلی سیستم‌عامل اندروید (Android) برای اپلیکیشن گوگل والت (Google Wallet) فراهم است. در نتیجه، قابلیت جدید گوگل والت (Google Wallet) ابزاری کاربردی برای تجمیع و مدیریت هشدارهای مالی و مسافرتی به شمار می‌رود، اما گوگل (Google) کنترل کامل بر نحوه دریافت این پیام‌ها را نیز در اختیار کاربران قرار داده است تا بتوانند تجربه کاربری خود را مطابق با سلیقه شخصی تنظیم کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/how-does-google-wallets-notification-feed-work-and-can-you-disable-it/l-intro-1793810405.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:111470442568616fdf3d30d4abf096dac5973c6a1f1f3af0fff5829fd1d9281d",
+      "url": "https://www.engadget.com/2307737/why-laptops-overheat-after-extended-use/",
+      "title": "The reason your laptop can get hot after extended use",
+      "summary": "While it's normal for laptops to sometimes overheat after extended use, excessive temperature spikes can be reduced in a few ways.",
+      "display_title": "دلایل گرم شدن بیش از حد لپ‌تاپ پس از استفاده طولانی‌مدت و روش‌های پیشگیری از آن",
+      "display_summary": "داغ شدن لپ‌تاپ پس از ساعت‌ها کار کردن امری رایج است که معمولاً به دلیل فعالیت قطعات داخلی مانند پردازنده رخ می‌دهد. با این حال، رعایت نکاتی مانند بهبود تهویه، بستن برنامه‌های سنگین و تمیز کردن منافذ هوا می‌تواند به خنک نگه داشتن سیستم کمک کند.",
+      "message": "<b>📰 دلایل گرم شدن بیش از حد لپ‌تاپ پس از استفاده طولانی‌مدت و روش‌های پیشگیری از آن</b>\n\nداغ شدن لپ‌تاپ پس از ساعت‌ها کار کردن امری رایج است که معمولاً به دلیل فعالیت قطعات داخلی مانند پردازنده رخ می‌دهد. با این حال، رعایت نکاتی مانند بهبود تهویه، بستن برنامه‌های سنگین و تمیز کردن منافذ هوا می‌تواند به خنک نگه داشتن سیستم کمک کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>گرم شدن لپ‌تاپ (Laptop) پس از ساعت‌ها کار مداوم، پدیده‌ای رایج است که بسیاری از کاربران با آن مواجه می‌شوند. فضای فشرده و بدنه باریک لپ‌تاپ‌ها باعث می‌شود قطعات حساسی مانند پردازنده مرکزی (CPU) و باتری در کنار یکدیگر قرار گیرند و گرمای تولید شده نیاز به خروج داشته باشد. در بسیاری از مواقع، این گرما طبیعی بوده و ناشی از پردازش‌های سنگین یا تب‌های باز در مرورگر است و سیستم پس از مدتی به حالت عادی بازمی‌گردد. اما اگر افزایش دما شدید باشد و به قفل شدن یا ریستارت ناگهانی سیستم منجر شود، نشان‌دهنده وجود یک مشکل اساسی است. دلایل اصلی داغ شدن لپ‌تاپ هر یک از قطعات داخلی لپ‌تاپ هنگام فعالیت از خود گرما ساطع می‌کنند. انجام کارهای سنگین مانند اجرای بازی‌های سه‌بعدی یا ویرایش ویدیو، فشار مضاعفی به سخت‌افزار وارد کرده و باعث افزایش سریع دما می‌شود. از سوی دیگر، پردازش‌های پس‌زمینه و برنامه‌هایی که هنگام راه‌اندازی سیستم اجرا می‌شوند نیز می‌توانند بدون اطلاع کاربر، توان پردازنده و حافظه را درگیر کنند. حتی فرآیندهای معمولی مانند نصب به‌روزرسانی‌های سیستم‌عامل ویندوز (Windows) یا مک‌اواس (macOS) بار زیادی روی سخت‌افزار ایجاد می‌کنند که نتیجه آن چرخش سریع‌تر فن‌ها و بالا رفتن دماست. سنسورهای داخلی لپ‌تاپ وظیفه نظارت بر دمای قطعات را بر عهده دارند تا در صورت نیاز سرعت فن‌ها را افزایش دهند یا راهکارهای حفاظتی مانند کاهش موقت سرعت پردازنده و گرافیک (Throttling) را فعال کنند. علاوه بر این، جریان هوا نقش بسیار مهمی دارد. تولیدکنندگان معمولاً توصیه می‌کنند از قرار دادن لپ‌تاپ روی تخت خواب یا سطوح پارچه‌ای خودداری شود، زیرا بافت پارچه منافذ هوا را مسدود می‌کند. دمای محیط بیرون نیز تأثیر مستقیمی بر عملکرد سیستم دارد؛ برای مثال شرکت اپل (Apple) پیشنهاد می‌کند مک‌بوک (MacBook) در دمای مشخصی نگهداری شود و شرکت مایکروسافت (Microsoft) اعلام کرده است که فن‌های سرفیس (Surface) در محیط‌های گرم‌تر با سرعت بیشتری کار می‌کنند. راهکارهای خنک کردن لپ‌تاپ برای جلوگیری از داغ شدن بیش از حد، بهتر است همواره از لپ‌تاپ روی سطوح صاف و سخت استفاده کنید تا جریان هوای زیر دستگاه مختل نشود. اگر از نرم‌افزارهای سنگین استفاده می‌کنید، خرید پایه‌های خنک‌کننده (Cooling Pads) که دارای فن‌های داخلی هستند، گزینه‌ای کاربردی خواهد بود. همچنین در صورت کثیف شدن منافذ هوا، می‌توانید با استفاده از یک پارچه نرم، برس یا هوای فشرده به آرامی آن‌ها را تمیز کنید. بررسی برنامه‌های در حال اجرای پس‌زمینه نیز راهگشاست. کاربران ویندوز می‌توانند با استفاده از کلیدهای میانبر و مدیریت وظایف (Task Manager)، برنامه‌های پرمصرف را ببندند. کاربران مک‌بوک نیز می‌توانند از طریق ابزار مانیتور فعالیت (Activity Monitor) مصرف پردازنده را کنترل کنند. اگر هیچ‌کدام از این روش‌ها مؤثر نبود، ممکن است مشکل سخت‌افزاری باشد؛ مواردی مانند گیر کردن فن‌ها یا خشک شدن خمیر سیلیکون پردازنده نیازمند بررسی توسط تعمیرکار متخصص است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/the-reason-your-laptop-can-get-hot-after-extended-use/l-intro-1793800956.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:fe4df8a5c5891042b9a9b447abae15d868f0e6c970a5519a0e590597bd6c0480",
+      "url": "https://www.theverge.com/entertainment/1030022/james-gunn-peter-safran-dc-studios-out-leaving",
+      "title": "James Gunn is out as DC movie leader",
+      "summary": "Soon, James Gunn and Peter Safran will no longer head up Skydance's DC Studios. After taking the helm of DC Studios as co-CEOs in 2022, Gunn and Safran are being replaced by former Marvel SVP of Production and Development Jeremy Latcham, Deadline reports. However, Gunn and Safran will \"continue to produce on various DC projects\" [&#8230;]",
+      "display_title": "تغییرات مدیریتی در استودیوهای دی‌سی؛ جیمز گان و پیتر سفران کنار می‌روند",
+      "display_summary": "جیمز گان (James Gunn) و پیتر سفران (Peter Safran) پس از تصدی سمت مدیریت مشترک استودیوهای دی‌سی (DC Studios) در سال ۲۰۲۲، از سمت خود کناره‌گیری می‌کنند و «جرمی لاتچام» (Jeremy Latcham)، از مدیران ارشد پیشین استودیوهای مارول (Marvel)، جایگزین آن‌ها خواهد شد. این تغییرات مدیریتی به دنبال ادغام بزرگ شرکت‌های پارامونت (Paramount) و وارنر براز (Warner Bros) و تشکیل شرکت جدید «اسکای‌دنس» (Skydance) رخ داده است.",
+      "message": "<b>📰 تغییرات مدیریتی در استودیوهای دی‌سی؛ جیمز گان و پیتر سفران کنار می‌روند</b>\n\nجیمز گان (James Gunn) و پیتر سفران (Peter Safran) پس از تصدی سمت مدیریت مشترک استودیوهای دی‌سی (DC Studios) در سال ۲۰۲۲، از سمت خود کناره‌گیری می‌کنند و «جرمی لاتچام» (Jeremy Latcham)، از مدیران ارشد پیشین استودیوهای مارول (Marvel)، جایگزین آن‌ها خواهد شد. این تغییرات مدیریتی به دنبال ادغام بزرگ شرکت‌های پارامونت (Paramount) و وارنر براز (Warner Bros) و تشکیل شرکت جدید «اسکای‌دنس» (Skydance) رخ داده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>ساختار مدیریتی استودیوهای دی‌سی (DC Studios) دستخوش تحولات اساسی شده است. بر اساس گزارش‌های منتشرشده، جیمز گان (James Gunn) و پیتر سفران (Peter Safran) که از سال ۲۰۲۲ به عنوان مدیران عامل مشترک سکان هدایت این استودیو را در دست داشتند، به زودی از سمت خود کناره‌گیری خواهند کرد و جای خود را به «جرمی لاتچام» (Jeremy Latcham)، معاون پیشین تولید و توسعه در استودیوهای مارول (Marvel) خواهند داد. این تغییرات مهم در پی نهایی شدن توافق ادغام میان شرکت‌های پارامونت (Paramount) و وارنر براز (Warner Bros) صورت می‌گیرد که به تأسیس شرکت ترکیبی «اسکای‌دنس» (Skydance) به رهبری «دیوید الیسون» (David Ellison) منجر شده است. جرمی لاتچام قرار است از تاریخ اول دسامبر مسئولیت جدید خود را آغاز کند و مستقیماً به «دانا گلدبرگ» (Dana Goldberg) و «جاش گرینشتاین» (Josh Greenstein)، از مدیران ارشد گروه تصاویر محرک اسکای‌دنس (Skydance Motion Picture Group)، گزارش دهد. با وجود این تغییرات در سطح مدیریت ارشد، جیمز گان و پیتر سفران کاملاً از پروژه‌های دی‌سی جدا نخواهند شد. گزارش‌ها حاکی از آن است که آن‌ها «به عنوان تهیه‌کننده در پروژه‌های مختلف دی‌سی به فعالیت خود ادامه خواهند داد» و همچنان روی فیلم آینده سوپرمن با نام «مرد فردا» (Man of Tomorrow) کار می‌کنند. جیمز گان نیز با انتشار پستی در اینستاگرام (Instagram) تأیید کرد که او و سفران درگیر پروژه دیگری از دی‌سی شده‌اند که خودش در حال نگارش فیلم‌نامه آن است. گان همچنین در این پست به سختی‌های این شغل اشاره کرد و از ماهیت شرکتی آن ابراز نارضایتی نمود. این تحولات نشان‌دهنده فصل تازه‌ای برای آینده فیلم‌ها و پروژه‌های مرتبط با دی‌سی است و باید دید مدیریت جدید تحت نظارت اسکای‌دنس چه رویکردی را برای مسیر پیش روی این دنیای سینمایی اتخاذ خواهد کرد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2299570592.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:3a3ea27b30526f5b6846e82b3ec0b9e792b8809efdf42e3c4e0672e591d159d4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - [&#8230;]",
+      "display_title": "آیا آینده هوش مصنوعی به زندگی شخصی جنسن هوانگ وابسته است؟",
+      "display_summary": "رسوایی امنیتی مرتبط با جنسن هوانگ، مدیرعامل شرکت انویدیا، و ارتباط ادعایی او با یک عامل اطلاعاتی چین موجی از نگرانی‌ها را در صنعت فناوری ایجاد کرده است. شرکت انویدیا (Nvidia) اکنون تحقیقاتی را آغاز کرده و این در حالی است که آینده صنعت هوش مصنوعی به شدت به ثبات این شرکت وابسته است.",
+      "message": "<b>📰 آیا آینده هوش مصنوعی به زندگی شخصی جنسن هوانگ وابسته است؟</b>\n\nرسوایی امنیتی مرتبط با جنسن هوانگ، مدیرعامل شرکت انویدیا، و ارتباط ادعایی او با یک عامل اطلاعاتی چین موجی از نگرانی‌ها را در صنعت فناوری ایجاد کرده است. شرکت انویدیا (Nvidia) اکنون تحقیقاتی را آغاز کرده و این در حالی است که آینده صنعت هوش مصنوعی به شدت به ثبات این شرکت وابسته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>آینده هوش مصنوعی و صنعت فناوری جهان به شکل غیرمنتظره‌ای با چالش‌های حقوقی و شخصی مدیران ارشد گره خورده است. گزارش‌های اخیر حاکی از آن است که پرونده‌ای امنیتی پیرامون جنسن هوانگ (Jensen Huang)، مدیرعامل شرکت انویدیا (Nvidia)، شکل گرفته که می‌تواند پیامدهای گسترده‌ای برای بازار تراشه‌ها و اکوسیستم هوش مصنوعی داشته باشد. ماجرا از افشای یادداشتی اطلاعاتی آغاز شد که توسط مارکو روبیو (Marco Rubio)، وزیر امور خارجه وقت، تهیه شده بود. این یادداشت به روابط میان جنسن هوانگ و زنی به نام آلیس هوانگ (Alice Huang) - که هیچ نسبت فامیلی با او ندارد - می‌پردازد. آلیس هوانگ از مدیران شرکت مگاسپید (Megaspeed) بوده؛ شرکتی که حجم عظیمی از پردازنده‌های پیشرفته انویدیا را خریداری کرده است. نهادهای امنیتی این فرد را به همکاری با وزارت امنیت کشور چین (China Ministry of State Security) متهم کرده‌اند، هرچند دولت چین این اتهامات را رد کرده است. شرکت مگاسپید (Megaspeed) که به ساخت مراکز داده در آسیای جنوب شرقی برای سرویس‌دهی به شرکت علی‌بابا (Alibaba) شهرت دارد، از پردازنده‌هایی استفاده می‌کند که صادرات آن‌ها به چین ممنوع است. این موضوع انویدیا (Nvidia) را در موقعیت حساسی قرار داده است، به‌ویژه که این شرکت پیش‌تر تلاش‌های زیادی برای کاهش محدودیت‌های صادراتی تراشه انجام داده بود. با وجود این افشاگری‌ها، دونالد ترامپ (Donald Trump)، رئیس‌جمهور آمریکا، با وجود آگاهی از این گزارش‌ها واکنش رسمی خاصی نشان نداده و شرکت انویدیا نیز هرگونه افشای اطلاعات محرمانه به مشتریان را رد کرده است. فشارها بر جنسن هوانگ (Jensen Huang) زمانی افزایش یافت که او با ارسال ایمیلی به کارکنان انویدیا (Nvidia)، اعترافاتی درباره زندگی شخصی خود مطرح کرد. ساختار سازمانی انویدیا که در آن ده‌ها نفر به صورت مستقیم به مدیرعامل گزارش می‌دهند و اعضای خانواده مدیرعامل نیز در بخش‌های مختلف شرکت حضور دارند، نگرانی‌های امنیتی و نظارتی را دوچندان کرده است. هیئت مدیره انویدیا اکنون تحقیقات رسمی خود را درباره این پرونده آغاز کرده و سهام این شرکت با کاهش ارزش روبرو شده است. با این حال، چهره‌های برجسته صنعت فناوری و سرمایه‌گذاران سیلیکون ولی مانند ایلان ماسک (Elon Musk) و بیل اکمن (Bill Ackman) از ادامه رهبری جنسن هوانگ حمایت کرده و او را برای رهبری هوش مصنوعی آمریکا مهره‌ای بی‌بدیل می‌دانند. شرکت انویدیا (Nvidia) به عنوان ستون فقرات و «بانک مرکزی هوش مصنوعی» عمل می‌کند و تامین‌کننده مالی و سخت‌افزاری بسیاری از استارتاپ‌های نئوکلاود محسوب می‌شود. در نهایت، با وجود فشارهای سیاسی و تحقیقات جاری، جنسن هوانگ فعلاً برنامه‌ای برای کناره‌گیری از سمت خود ندارد، اما این رسوایی زنگ خطری جدی برای آسیب‌پذیری‌های امنیتی در زنجیره تامین فناوری‌های نوین به شمار می‌رود.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:4535a293556efb591d58704a05fffb118014c1fa5246c07aa551549487a36a97",
+      "url": "https://www.engadget.com/2307733/what-tiny-blue-dot-on-android-phone-telling-you/",
+      "title": "What the tiny blue dot on your Android phone is telling you",
+      "summary": "That tiny blue dot on the top right corner of your Android phone indicates something important. Find out what this icon means.",
+      "display_title": "نقطه آبی کوچک روی گوشی اندروید چه چیزی را به شما نشان می‌دهد؟",
+      "display_summary": "نقطه آبی کوچکی که گاهی در گوشه بالای صفحه نمایش گوشی‌های اندروید (Android) ظاهر می‌شود، یک ویژگی امنیتی برای هشدار درباره دسترسی اپلیکیشن‌ها به اطلاعات موقعیت مکانی است. این قابلیت شفافیت حریم خصوصی را افزایش می‌دهد تا کاربران متوجه شوند چه زمانی موقعیت جغرافیایی آن‌ها ردیابی می‌شود.",
+      "message": "<b>📰 نقطه آبی کوچک روی گوشی اندروید چه چیزی را به شما نشان می‌دهد؟</b>\n\nنقطه آبی کوچکی که گاهی در گوشه بالای صفحه نمایش گوشی‌های اندروید (Android) ظاهر می‌شود، یک ویژگی امنیتی برای هشدار درباره دسترسی اپلیکیشن‌ها به اطلاعات موقعیت مکانی است. این قابلیت شفافیت حریم خصوصی را افزایش می‌دهد تا کاربران متوجه شوند چه زمانی موقعیت جغرافیایی آن‌ها ردیابی می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>هنگامی که در حال مرور محتوا در گوشی هوشمند خود هستید، ممکن است متوجه نقطه آبی کوچکی در نزدیکی آیکون باتری شوید که لحظه‌ای ظاهر شده و به سرعت ناپدید می‌شود. اگر تصور کرده‌اید که این یک نقص فنی، اشکال نرم‌افزاری یا اعلان خوانده‌نشده است، جای نگرانی نیست؛ زیرا این نقطه آبی در واقع یکی از قابلیت‌های امنیتی داخلی سیستم‌عامل اندروید (Android) است که برای آگاه‌سازی لحظه‌ای کاربران از فعالیت‌های درون دستگاه طراحی شده است. به طور مشخص، این نشانگر به شما می‌گوید که یک اپلیکیشن در حال دسترسی به اطلاعات موقعیت مکانی (Location) شما است. شرکت گوگل (Google) با این اقدام تلاش کرده است تا اطلاعات حساس مربوط به مکانی را که کاربران باید از آن مطلع باشند، به جای پنهان کردن در منوهای پیچیده تنظیمات، به شکلی آشکار در کنار سایر آیکون‌های وضعیت نمایش دهد. داده‌های موقعیت مکانی از جمله حساس‌ترین اطلاعاتی هستند که یک گوشی جمع‌آوری می‌کند، زیرا می‌توانند محل سکونت، محل کار، خریدهای روزمره و تفریحات کاربر را فاش کنند. اپلیکیشن‌ها دلایل موجهی برای دسترسی به این داده‌ها دارند؛ مانند برنامه‌های مسیریاب برای ارائه مسیرهای دقیق رانندگی یا اپلیکیشن‌های هواشناسی. با این حال، اگر این نقطه آبی را زمانی مشاهده کردید که هیچ اپلیکیشن مسیریابی را باز نکرده‌اید، لازم است بررسی بیشتری انجام دهید. این نشانگر معمولاً در گوشه بالای سمت راست صفحه در کنار آیکون‌های وای‌فای (Wi-Fi)، باتری و آنتن ظاهر می‌شود و نشان می‌دهد که یک برنامه از طریق جی‌پی‌اس (GPS)، امواج وای‌فای یا دکل‌های مخابراتی نزدیک در حال تشخیص موقعیت شماست. بر اساس مستندات توسعه‌دهندگان، این نشانگر با فعالیت‌های فعال اپلیکیشن‌ها در نسخه‌های جدید اندروید پیوند دارد و استفاده‌ای را بازتاب می‌دهد که در حال حاضر در حال اجرا است یا طی ۱۰ ثانیه گذشته رخ داده است. در سیستم‌عامل سامسونگ (Samsung) یعنی رابط کاربری وان یو‌آی (One UI) نیز تغییراتی اعمال شده تا این پین آبی‌رنگ به طور یکپارچه نمایش داده شود. برای مدیریت دسترسی‌ها و محافظت از حریم خصوصی، اندروید ابزارهای ساده‌ای را در اختیار کاربران قرار می‌دهد. اگر این اعلان را مشاهده کردید، با کشیدن انگشت از بالای صفحه به سمت پایین و لمس نشانگر، می‌توانید متوجه شوید که کدام اپلیکیشن آن را فعال کرده است. همچنین با ورود به بخش تنظیمات (Settings)، امنیت و حریم خصوصی (Security and Privacy)، و بررسی مجوزهای استفاده‌شده در ۲۴ ساعت گذشته، تاریخچه کاملی از دسترسی‌ها به دست خواهید آورد. برای برنامه‌هایی که واقعاً به موقعیت مکانی نیاز دارند (مانند ابزارهای آب‌وهوا یا مسیریاب‌ها)، تنظیم مجوز روی گزینه «فقط هنگام استفاده از اپلیکیشن» (Allow only while using the app) منطقی‌ترین راهکار است تا پس از بستن برنامه، ردیابی متوقف شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/what-the-tiny-blue-dot-on-your-android-phone-is-telling-you/l-intro-1793718198.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:55224730c230ee4a40a5a7a6e2442ffe571068d2360337fe9499022f0e830aa6",
+      "url": "https://www.engadget.com/2310993/venmo-finally-launches-an-in-app-bill-splitting-feature/",
+      "title": "Venmo finally launches an in-app bill splitting feature",
+      "summary": "Venmo's receipt-scanning feature is rolling out now.",
+      "display_title": "قابلیت جدید ونمو برای اسکن رسید و تقسیم آسان صورتحساب‌ها",
+      "display_summary": "اپلیکیشن پرداخت ونمو (Venmo) قابلیت جدیدی را برای اسکن خودکار رسیدها و تقسیم صورتحساب‌ها میان کاربران معرفی کرد. این ویژگی جدید با محاسبه مالیات و انعام، فرآیند پیچیده محاسبه سهم هر فرد را به‌طور کامل خودکارسازی می‌کند.",
+      "message": "<b>📰 قابلیت جدید ونمو برای اسکن رسید و تقسیم آسان صورتحساب‌ها</b>\n\nاپلیکیشن پرداخت ونمو (Venmo) قابلیت جدیدی را برای اسکن خودکار رسیدها و تقسیم صورتحساب‌ها میان کاربران معرفی کرد. این ویژگی جدید با محاسبه مالیات و انعام، فرآیند پیچیده محاسبه سهم هر فرد را به‌طور کامل خودکارسازی می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اپلیکیشن محبوب پرداخت ونمو (Venmo) از راه‌اندازی یک قابلیت جدید و کاربردی برای اسکن درون‌برنامه‌ای رسیدها خبر داد که به کاربران اجازه می‌دهد صورتحساب‌ها را به سادگی تفکیک کرده و سهم هر شخص را تعیین کنند. این ویژگی جدید با اسکن کردن یک عکس از رسید، اقلام خریداری‌شده را تفکیک کرده و آن را میان کاربران تقسیم می‌کند. همچنین این اپلیکیشن مالیات و انعام مربوط به هر سهم را نیز محاسبه کرده و در نهایت یک درخواست پرداخت واحد را در داخل خود برنامه (App) تنظیم می‌کند. این قابلیت جدید چند ماه پس از عرضه سیستم‌عامل آی‌اواس ۲۷ (iOS 27) و قابلیت هوش بصری (Visual Intelligence) اپل (Apple) معرفی می‌شود که به کاربران آیفون (iPhone) اجازه می‌داد با اسکن رسیدها، هزینه‌ها را از طریق اپل کش (Apple Cash) تقسیم کنند. با این حال، ونمو پیش‌تر در سال ۲۰۲۳ میلادی نیز بخش گروه‌های ونمو (Venmo Groups) را برای مدیریت هزینه‌های بلندمدت مانند اجاره خانه، اشتراک‌های ماهانه یا سفرهای گروهی ارائه کرده بود. الکسی سوا (Alexis Sowa)، مدیرکل ونمو (Venmo)، در بیانیه‌ای مطبوعاتی در این باره گفت که تقسیم صورتحساب یکی از رایج‌ترین کارهای کاربران در این پلتفرم است اما می‌تواند بسیار زمان‌بر باشد. به گفته وی، با قابلیت اسکن رسید، تمامی محاسبات پیچیده ریاضی تنها با یک عکس از میان برداشته می‌شود. شرکت سازنده اعلام کرده است که این ویژگی جدید بدون در نظر گرفتن نوع دستگاه تلفن همراه کاربران کار خواهد کرد، هرچند این اقدام فشار رقابتی را بر رقیبانی نظیر کش اپ (Cash App)، اپل کش (Apple Cash) و زل (Zelle) افزایش می‌دهد. قابلیت اسکن رسید ونمو (Venmo) هم‌اکنون در حال عرضه عمومی است و پیش‌بینی می‌شود طی چند هفته آینده در دسترس تمامی کاربران قرار گیرد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/venmo-finally-launches-an-in-app-bill-splitting-feature/l-intro-1794243863.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:fc938db516a592fcb08088c8c7dcd7f6caf06d10cde262594272b27be41fcca5",
+      "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+      "title": "Uber launches parking service following SpotHero acquisition, with an eye on robotaxis",
+      "summary": "Uber Parking is the latest example of the company offering products beyond its core ride-hailing service.",
+      "display_title": "راه‌اندازی سرویس پارک خودرو توسط شرکت اوبر به دنبال تصاحب اسپات‌هیرو با نگاهی به خودروهای خودران",
+      "display_summary": "شرکت اوبر پس از خرید اپلیکیشن پارکینگ اسپات‌هیرو، سرویس جدید رزرو پارکینگ خود را در ۱۵ شهر ایالات متحده راه‌اندازی کرد. این اقدام علاوه بر تمرکز اولیه بر رانندگان انسانی، بستری را برای مدیریت و استقرار ناوگان خودروهای خودران در آینده فراهم می‌کند.",
+      "message": "<b>📰 راه‌اندازی سرویس پارک خودرو توسط شرکت اوبر به دنبال تصاحب اسپات‌هیرو با نگاهی به خودروهای خودران</b>\n\nشرکت اوبر پس از خرید اپلیکیشن پارکینگ اسپات‌هیرو، سرویس جدید رزرو پارکینگ خود را در ۱۵ شهر ایالات متحده راه‌اندازی کرد. این اقدام علاوه بر تمرکز اولیه بر رانندگان انسانی، بستری را برای مدیریت و استقرار ناوگان خودروهای خودران در آینده فراهم می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اوبر (Uber) از راه‌اندازی یک سرویس جدید خبر داد که به کاربران امکان می‌دهد پارکینگ خودرو خود را در شهرهای بزرگ ایالات متحده رزرو کرده و هزینه آن را پرداخت کنند. این اقدام حدود ۹ ماه پس از آن صورت می‌گیرد که غول ارائه‌دهنده خدمات تاکسی اینترنتی، اپلیکیشن پارکینگ اسپات‌هیرو (SpotHero) را تصاحب کرد. قرارداد خرید اسپات‌هیرو که نخستین بار در ماه فوریه اعلام شد، دسترسی اوبر را به شبکه وسیعی شامل ۱۳ هزار پارکینگ سرپوشیده، فضای باز و خدمات پارکبان (Valet) در بیش از ۴۰۰ شهر فراهم می‌کند. اگرچه برنامه‌های اولیه اوبر بر رانندگان انسانی و مسافران روزانه متمرکز است، اما این شرکت قصد دارد در آینده از این جایگاه‌های پارکینگ برای کمک به ده‌ها شرکت سازنده خودروی خودران که با آن‌ها مشارکت دارد نیز بهره‌برداری کند. به گفته اوبر، این نقاط پارکینگ می‌توانند به عنوان مکان‌های توقف و انتظار برای خودروهای خودران (Robotaxis) مورد استفاده قرار گیرند تا به کاهش ترافیک و پیمایش‌های بدون مسافر (Deadheading) کمک کنند. در فاز نخست، این سرویس در ۱۵ شهر ایالات متحده از جمله نیویورک (New York City)، لوس‌آنجلس (Los Angeles)، شیکاگو (Chicago)، سانفرانسیسکو (San Francisco) و بوستون (Boston) راه‌اندازی می‌شود. دارا خسروشاهی (Dara Khosrowshahi)، مدیرعامل اوبر، پیش‌تر در جریان نشست گزارش مالی سه ماهه سوم شرکت اشاره کرده بود که اوبر می‌خواهد اپلیکیشن خود را برای مسافران و شاغلانی که هر روز سفر می‌کنند، کاربردی‌تر سازد. او گفت که رفت‌وآمدهای روزانه یکی از بزرگ‌ترین دسته‌بندی‌های این شرکت است و ارائه خدماتی مانند سفرهای درون‌شهری، تسهیلات ضدترافیک و حالا امکان رزرو پارکینگ، نمونه‌ای از توسعه اکوسیستم خدمات اوبر به شمار می‌رود. سرویس پارک خودرو جدیدترین تلاش اوبر برای ساخت یک اکوسیستم جامع از محصولات و خدمات است تا کاربران را برای انجام کارهای مختلف از جمله درخواست خودرو، سفارش غذا و خواربار از طریق اوبر اییتس (Uber Eats)، تحویل بسته، اجاره خودرو، رزرو هتل و حمل‌ونقل عمومی در اپلیکیشن خود نگه دارد. برنامه اشتراکی این شرکت موسوم به اوبر وان (Uber One) نیز نقش کلیدی در این استراتژی دارد و توانسته تا پایان ماه سپتامبر بیش از ۵۵ میلیون مشترک جذب کند. اعضای این برنامه در صورت رزرو پارکینگ، تا ۱۰ درصد اعتبار نقدی بازگشتی دریافت خواهند کرد که می‌توانند از آن برای سفرهای بعدی یا سفارش‌های غذایی استفاده کنند. دسترسی به بخش پارک خودرو اوبر (Uber Parking) مستقیماً از صفحه اصلی اپلیکیشن امکان‌پذیر است. کاربران می‌توانند مقصد، تاریخ و زمان مورد نظر خود را وارد کرده و گزینه‌ها را روی یک نقشه تعاملی بررسی و فیلتر کنند. قیمت‌ها به صورت شفاف پیش از رزرو نمایش داده می‌شوند و پس از نهایی کردن رزرو، کاربران می‌توانند با اسکن کد QR یا تشخیص پلاک خودرو وارد پارکینگ شوند. اوبر اعلام کرده است که لغو رزروها تا پیش از زمان شروع به صورت رایگان امکان‌پذیر خواهد بود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2018/07/GettyImages-83314262.jpg?resize=1200,640",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:2f05eab281f5e9f67b4e049d218a61fd0de54739ed09fe81cc3042f66d3bdf9b",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "display_title": "شرکت آنتروپیک با خرید توربین‌های گاز طبیعی به ارزش ۳.۴ میلیارد دلار وارد رقابت انرژی هوش مصنوعی شد",
+      "display_summary": "شرکت هوش مصنوعی آنتروپیک (Anthropic) در اقدامی بی‌سابقه برای تامین انرژی مراکز داده خود، ۳.۴ میلیارد دلار توربین گاز طبیعی از شرکت کاترپیلار (Caterpillar) خریداری کرد. این تصمیم در شرایطی اتخاذ شده که بحران کمبود انرژی و طولانی بودن صف‌های انتظار برای اتصال به شبکه برق، غول‌های فناوری را به سمت سرمایه‌گذاری مستقیم در زیرساخت‌های تولید برق سوق داده است.",
+      "message": "<b>📰 شرکت آنتروپیک با خرید توربین‌های گاز طبیعی به ارزش ۳.۴ میلیارد دلار وارد رقابت انرژی هوش مصنوعی شد</b>\n\nشرکت هوش مصنوعی آنتروپیک (Anthropic) در اقدامی بی‌سابقه برای تامین انرژی مراکز داده خود، ۳.۴ میلیارد دلار توربین گاز طبیعی از شرکت کاترپیلار (Caterpillar) خریداری کرد. این تصمیم در شرایطی اتخاذ شده که بحران کمبود انرژی و طولانی بودن صف‌های انتظار برای اتصال به شبکه برق، غول‌های فناوری را به سمت سرمایه‌گذاری مستقیم در زیرساخت‌های تولید برق سوق داده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>فشار فزاینده برای تامین انرژی مورد نیاز هوش مصنوعی به حدی رسیده است که شرکت آنتروپیک (Anthropic)، که پیش از این ترجیح می‌داد از زیرساخت‌های فیزیکی دوری کند، تصمیم به خرید ۳.۴ میلیارد دلار توربین گاز طبیعی گرفت. بر اساس گزارشی از فایننشال تایمز (Financial Times)، این شرکت هوش مصنوعی که در آستانه ورود به بازار بورس (IPO) قرار دارد، در حال خرید ژنراتورهای شرکت کاترپیلار (Caterpillar) است که پیش‌تر توسط تامین‌کننده تجهیزات وان‌پاور (OnePWR) سفارش داده شده بودند. این ژنراتورها توانایی تولید تا ۱.۷ گیگاوات الکتریسیته را دارند. از نظر تاریخی، آنتروپیک مدل اجاره را به خرید ترجیح می‌داده است. این شرکت در فرم ثبت‌نام S-1 خود در ماه مه فاش کرد که ماهانه ۱.۲۵ میلیارد دلار تا ماه مه ۲۰۲۹ به شرکت ایکس‌آی (xAI)، زیرمجموعه اسپیس‌اکس (SpaceX)، برای استفاده از قدرت پردازشی آن پرداخت می‌کند. با این حال، با افزایش تقاضا برای توان پردازشی، بازار انرژی نیز به طور فزاینده‌ای ناپایدار شده و این امر احتمالاً آنتروپیک را ناچار به تغییر رویکرد کرده است. صف انتظار برای خرید توربین‌های گاز طبیعی تا اوایل دهه ۲۰۳۰ امتداد دارد و صف‌های اتصال به شبکه برق نیز به همان اندازه طولانی هستند. خرید آنتروپیک به عنوان آخرین راهکار ارزیابی می‌شود. شرکت وان‌پاور (OnePWR) این توربین‌ها را از چند سال پیش سفارش داده بود اما نتوانسته بود تامین مالی لازم برای نهایی کردن خرید را انجام دهد. آنتروپیک که ابتدا قصد داشت آن‌ها را از طریق وان‌پاور تهیه کند، در نهایت مستقیماً با شرکت سازنده یعنی کاترپیلار (Caterpillar) وارد معامله شد. مشخص نیست چرا وان‌پاور با وجود تمایل آنتروپیک به عنوان خریدار، نتوانسته بود تامین مالی کند. در هر صورت، آنتروپیک احتمالاً می‌خواسته ظرفیت تولید برق را برای خود حفظ کند و به رقبا اجازه ندهد آن را تصاحب کنند. در سال‌های اخیر، شرکت‌های فعال در حوزه هوش مصنوعی خرید تجهیزات گاز طبیعی را به‌شدت افزایش داده‌اند. شرکت‌های گوگل (Google)، آمازون (Amazon)، مایکروسافت (Microsoft) و متا (Meta) همگی برنامه‌هایی را برای ساخت نیروگاه‌های بزرگ گاز طبیعی به‌منظور تامین برق مراکز داده خود در محل اعلام کرده‌اند تا نیازی به اتکا به شبکه عمومی نداشته باشند. این روند صعودی جان تازه‌ای به روش استخراج نفت و گاز موسوم به فرکینگ (Fracking) بخشیده است. بر اساس پیش‌بینی‌ها، اگر این توسعه طبق برنامه پیش برود، مراکز داده ایالات متحده آمریکا به تنهایی ممکن است تا سال ۲۰۳۵ گاز طبیعی بیشتری نسبت به مجموع آلمان و ژاپن مصرف کنند. این اتکا به گاز طبیعی همچنین شرکت‌های بزرگ فناوری (Hyperscalers) را در معرض نوسانات قیمت قرار می‌دهد. یک تحلیلگر پیش‌بینی کرده است که قیمت‌ها ممکن است تا پایان دهه جاری میلادی در برخی بازارها بیش از سه برابر شود. در صورت وقوع چنین سناریویی، ممکن است آنتروپیک با پشیمانی جدی خریدار مواجه شود. در نهایت، این معامله نشان‌دهنده چالش‌های عمیق زیرساختی در صنعت هوش مصنوعی است که فراتر از نرم‌افزار و الگوریتم‌ها، اکنون به حوزه انرژی و منابع فیزیکی کشیده شده است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-155376474.jpeg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:59c52dc6eee99c72fac5a721b9705d5c4d3591f2b89a276c30fa34864172ed30",
+      "url": "https://www.engadget.com/2307731/why-ev-fast-charging-slows-after-80-percent/",
+      "title": "Why EV fast charging slows down after 80 percent",
+      "summary": "EV fast charging will only take you so far - the speed slows down as you near a full charge. Turns out there's a good reason.",
+      "display_title": "دلیل کند شدن سرعت شارژ خودروهای برقی پس از رسیدن به ظرفیت ۸۰ درصد چیست؟",
+      "display_summary": "بسیاری از دارندگان خودروهای برقی (EV) متوجه شده‌اند که فرآیند شارژ سریع پس از رسیدن به مرز ۸۰ درصد به طور قابل توجهی کند می‌شود. این پدیده ارتباطی با خرابی باتری ندارد، بلکه به ساختار فیزیکی و شیمیایی سلول‌های باتری و جلوگیری از آسیب دیدن آن‌ها مربوط می‌شود.",
+      "message": "<b>📰 دلیل کند شدن سرعت شارژ خودروهای برقی پس از رسیدن به ظرفیت ۸۰ درصد چیست؟</b>\n\nبسیاری از دارندگان خودروهای برقی (EV) متوجه شده‌اند که فرآیند شارژ سریع پس از رسیدن به مرز ۸۰ درصد به طور قابل توجهی کند می‌شود. این پدیده ارتباطی با خرابی باتری ندارد، بلکه به ساختار فیزیکی و شیمیایی سلول‌های باتری و جلوگیری از آسیب دیدن آن‌ها مربوط می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>هنگامی که شرکت تسلا (Tesla) مدل اس (Model S) را در سال ۲۰۱۲ به بازار عرضه کرد، اتصال آن به پریز برق خانگی معمولی به بیش از ۵۰ ساعت زمان برای شارژ کامل نیاز داشت. اما امروزه مدل‌های جدیدتر می‌توانند تنها در ۱۵ دقیقه و با استفاده از سوپرشارژر (Supercharger)، مسافتی معادل ۲۰۰ مایل را به پیمایش خودرو اضافه کنند. با این حال، حتی در فناوری‌های مدرن امروزی نیز سرعت شارژ در تمام طول مسیر ثابت نمی‌ماند. اگر به مشخصات فنی و تبلیغات خودروهای برقی (EV) نگاه کنید، اصطلاحاتی نظیر «شارژ از ۱۰ تا ۸۰ درصد» یا «صفر تا ۸۰ درصد» را مشاهده می‌کنید و تقریباً هیچ‌گاه سخنی از شارژ «کامل تا ۱۰۰ درصد» به میان نمی‌آید. در واقع، ۸۰ درصد نخست بخش سریع فرآیند شارژ را تشکیل می‌دهد، اما پس از آن سرعت افت کرده و تکمیل باقی‌مانده ظرفیت باتری زمان بسیار بیشتری می‌برد. این مسئله ناشی از عادت‌های نادرست رانندگان نیست، بلکه ریشه در نحوه عملکرد درون سلول‌های باتری دارد. تمامی روش‌های شارژ خودروهای برقی، از پریزهای دیواری خانگی گرفته تا ایستگاه‌های شارژ سریع، یک کار را انجام می‌دهند: الکترون‌ها را به سمت باتری هدایت می‌کنند. در داخل سلول‌های باتری، یون‌های لیتیوم از یک سمت (کاتد) حرکت کرده و در سمت دیگر (آند) مستقر می‌شوند. هنگام حرکت خودرو، این یون‌ها دوباره به سمت کاتد بازگشته و جریان الکتریکی مورد نیاز را تأمین می‌کنند. بنابراین، شارژ کردن باتری به معنای راندن دوباره یون‌ها به درون آند است. تفاوت اصلی میان روش‌های مختلف شارژ، میزان توانی است که می‌توانند منتقل کنند. پریز دیواری جریان ضریبی و کندی ارائه می‌دهد، در حالی که ایستگاه‌های شارژ سریع معمولاً توانی بین ۵۰ تا ۳۵۰ کیلووات (kW) و حتی بیشتر تأمین می‌کنند. علاوه بر این، ایستگاه‌های شارژ سریع جریان متناوب را درون کابین بزرگ خود به جریان مستقیم تبدیل کرده و مستقیماً به باتری می‌فرستند که این امر کارایی را به شدت افزایش می‌دهد. دلیل کند شدن شارژ در ۲۰ درصد پایانی این است که شارژرها ابتدا جریان ثابتی را تا رسیدن به حد ولتاژ سلول اعمال می‌کنند و سپس با حفظ ولتاژ اجازه می‌دهند جریان کاهش یابد. برای درک بهتر، آند باتری را مانند یک اتوبوس خالی تصور کنید که مسافران (یون‌ها) یک‌به‌یک وارد آن می‌شوند. در ابتدای کار، صندلی‌های زیادی خالی است و مسافران به راحتی جای می‌گیرند. اما هنگامی که اتوبوس تقریبا پر می‌شود، مسافران جدید باید راهرو را بپیمایند تا صندلی خالی پیدا کنند. در باتری نیز آند عمدتاً از گرافیت تشکیل شده و جای‌گیری یون‌های لیتیوم در آن به زمان نیاز دارد. هنگامی که آند تقریباً پر می‌شود، ورود یون‌های جدید دشوارتر شده و خودرو از شارژر می‌خواهد تا جریان را کاهش دهد. اگر شارژر با زور جریان را به آندِ از پیش پر شده تزریق کند، یون‌های لیتیوم روی سطح انباشته شده و لایه‌ای نازک از لیتیوم فلزی را تشکیل می‌دهند که به آن رسوب لیتیوم (Lithium Plating) می‌گویند. این پدیده تا حدی غیرقابل بازگشت است و باعث کاهش دائمی ظرفیت باتری و حتی ایجاد اتصال کوتاه می‌شود. به همین دلیل است که خودرو عامدانه سرعت شارژ را پیش از بروز هرگونه آسیب کاهش می‌دهد. با این حال، شرکت بی‌وای‌دی (BYD) اخیراً باتری جدیدی معرفی کرده که به گفته این شرکت می‌تواند در مدت ۹ دقیقه تا ۹۷ درصد شارژ شود. نسل دوم باتری بلید (Blade Battery) که در مارس ۲۰۲۶ رونمایی شد، ساختار گرافیت را به گونه‌ای تغییر داده که ذرات آن به صورت عمودی قرار گیرند تا یون‌ها مسیر کوتاه‌تری را طی کنند. این نوآوری‌ها مقاومت داخلی را کاهش داده و به باتری اجازه می‌دهد جریان بسیار بیشتری را بدون تولید گرمای مخرب تحمل کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/why-ev-fast-charging-slows-down-after-80-percent/l-intro-1793649511.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:4d2c1dac08712af8587b011713341a36bb078332358d4bfc54f561554acdb9dd",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "display_title": "معرفی اپلیکیشن «تک (TK)» توسط مدیوم برای ادغام هوش مصنوعی در روند نگارش",
+      "display_summary": "پلتفرم انتشار آنلاین «مدیوم (Medium)» اپلیکیشن جدیدی به نام «تک (TK)» را معرفی کرده است که دستیار هوش مصنوعی را به طور مستقیم وارد روند نگارش و ویرایش متن می‌کند. این اقدام در حالی صورت می‌گیرد که صنعت نشر همچنان با چالش‌ها و بحث‌های پیرامون استفاده از هوش مصنوعی در تولید محتوا دست به گریبان است.",
+      "message": "<b>📰 معرفی اپلیکیشن «تک (TK)» توسط مدیوم برای ادغام هوش مصنوعی در روند نگارش</b>\n\nپلتفرم انتشار آنلاین «مدیوم (Medium)» اپلیکیشن جدیدی به نام «تک (TK)» را معرفی کرده است که دستیار هوش مصنوعی را به طور مستقیم وارد روند نگارش و ویرایش متن می‌کند. این اقدام در حالی صورت می‌گیرد که صنعت نشر همچنان با چالش‌ها و بحث‌های پیرامون استفاده از هوش مصنوعی در تولید محتوا دست به گریبان است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پلتفرم انتشار آنلاین «مدیوم (Medium)» روز دوشنبه از اپلیکیشن جدیدی به نام «تک (TK)» رونمایی کرد که هدف آن آوردن فناوری هوش مصنوعی به اعماق فرآیند نویسندگی است. ایده اصلی پشت این ابزار، آسان‌تر کردن تبدیل ایده‌ها به کلمات مکتوب با تعبیه یک دستیار هوش مصنوعی مستقیماً در داخل ویرایشگر متن است؛ به گونه‌ای که کاربران می‌توانند با تایپ کردن عبارت «@TK» و به دنبال آن درخواست یا دستور خود، از این ابزار کمک بگیرند. در دنیای روزنامه‌نگاری و نشر، اصطلاح «TK» به عنوان یک علامت موقت برای مشخص کردن اطلاعاتی استفاده می‌شود که باید بعداً اضافه شوند. در اپلیکیشن جدید «مدیوم (Medium)»، این عبارت نقش تازه‌ای به خود می‌گیرد تا به کاربران در پر کردن جاهای خالی کمک کند. شرکت سازنده پیشنهاد می‌کند که این دستیار هوش مصنوعی می‌تواند به سؤالاتی پاسخ دهد که معمولاً نویسنده مجبور است برای پیدا کردن پاسخ آن‌ها به تب دیگری در مرورگر برود، مانند اینکه یک ماه خاص چند روز است. این اپلیکیشن همچنین قادر است تکه‌هایی از نوشته‌های قبلی کاربر را که در مراحل اولیه ایده‌پردازی ذخیره شده بودند، فراخوانی کند. علاوه بر این، «مدیوم (Medium)» اعلام کرده است که اپلیکیشن «تک (TK)» با قابلیت‌های ویژه‌ای برای بازخورد تحریریه، بازخورد روی تیترها و تطبیق پیش‌نویس با راهنمای سبک انتشارات مختلف عرضه خواهد شد. ورود «مدیوم (Medium)» به حوزه استفاده از هوش مصنوعی در مراحل اولیه نگارش ممکن است جنجال‌برانگیز باشد؛ زیرا صنعت نشر و ادبیات در حال حاضر با بحث‌های جدی درباره نقش هوش مصنوعی در نگارش متون طولانی روبه‌روست. تاکنون چندین نویسنده به دلیل ظن استفاده از هوش مصنوعی در نگارش آثارشان، قراردادهای کتاب خود را از دست داده‌اند و برخی جوایز ادبی نیز پس از مشخص شدن استفاده برندگان از کمک هوش مصنوعی تحت نظارت و انتقاد قرار گرفته‌اند. با وجود نگرانی‌های فزاینده در صنعت نشر مبنی بر اینکه پیشنهادات ویرایشی هوش مصنوعی ممکن است جایگزین تفکر و نگارش واقعی نویسنده شود، اپلیکیشن «تک (TK)» رویکردی متفاوت اتخاذ کرده و معتقد است که در نهایت این ظرافت‌ها اهمیت خود را از دست خواهند داد. این شرکت با تمجید از پتانسیل‌های هوش مصنوعی اعلام می‌کند که این فناوری اهمیت نویسندگی را بیشتر می‌کند نه کمتر، و قدرت تقویت هوش انسانی را دارد. با این حال، «مدیوم (Medium)» اذعان می‌کند که هوش مصنوعی احتمال تولید محتوای بی‌کیفیت و محو شدن مرز میان محتوای انسانی و ماشینی را افزایش می‌دهد. برای حل این مشکل، اپلیکیشن «تک (TK)» به نویسندگان اجازه می‌دهد یادداشت‌هایی را منتشر کنند که به صورت شفاف نحوه استفاده از هوش مصنوعی در نوشته‌هایشان را توضیح می‌دهد. این ویژگی به شفاف‌سازی منشا نوشته و مواد منبع کمک می‌کند. علاوه بر این، «تک (TK)» به کاربران کمک می‌کند نوشته‌های قبلی خود را سازماندهی کرده و پیشنهادات نگارشی دریافت کنند. این اپلیکیشن همچنین می‌تواند به صورت اختیاری از طریق سرور پروتکل کانتکست مدل یا مهارت «کلود (Claude)» به عامل هوش مصنوعی خود کاربران متصل شود تا پروژه‌ها و ایده‌های آن‌ها را بهتر درک کند. در حال حاضر نسخه وب این اپلیکیشن عرضه شده و نسخه دسکتاپ نیز در نقشه راه توسعه آن قرار دارد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/tk-logo.webp?resize=1200,675",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:5ef96bda92f480d3b9a655eea4167bb454aff34f93a771e303441561388ab15f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody [&#8230;]",
+      "display_title": "اظهارات دونالد ترامپ در برنامه «۶۰ دقیقه» پیرامون امنیت هوش مصنوعی و تهدید به بازداشت یک مدیر ارشد حوزه فناوری",
+      "display_summary": "دونالد ترامپ در مصاحبه‌ای با برنامه «۶۰ دقیقه» (60 Minutes) اظهار داشت که خطرات هوش مصنوعی به آن بزرگی که ادعا می‌شود نیست و قابل مدیریت است. وی همچنین ادعا کرد که وزارت دادگستری ایالات متحده (DOJ) یک مدیر ارشد هوش مصنوعی را به دلیل اقدامات تخریب‌گرانه تهدید به بازداشت کرده است.",
+      "message": "<b>📰 اظهارات دونالد ترامپ در برنامه «۶۰ دقیقه» پیرامون امنیت هوش مصنوعی و تهدید به بازداشت یک مدیر ارشد حوزه فناوری</b>\n\nدونالد ترامپ در مصاحبه‌ای با برنامه «۶۰ دقیقه» (60 Minutes) اظهار داشت که خطرات هوش مصنوعی به آن بزرگی که ادعا می‌شود نیست و قابل مدیریت است. وی همچنین ادعا کرد که وزارت دادگستری ایالات متحده (DOJ) یک مدیر ارشد هوش مصنوعی را به دلیل اقدامات تخریب‌گرانه تهدید به بازداشت کرده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>دونالد ترامپ، رئیس‌جمهور منتخب ایالات متحده آمریکا، در جریان مصاحبه‌ای با شبکه خبری «سی‌بی‌اس نیوز» (CBS News) در برنامه «۶۰ دقیقه» (60 Minutes) به بحث درباره امنیت هوش مصنوعی، خطرات احتمالی مدل‌های پیشرفته و رویکرد دولت در قبال شرکت‌های این حوزه پرداخت. او در این گفتگو ادعا کرد که خطرات ناشی از هوش مصنوعی آن‌طور که فعالان و توسعه‌دهندگان هشدار می‌دهند واقعی و بزرگ نیستند و این فناوری به‌خوبی قابل مدیریت است. ترامپ در این مصاحبه با اشاره به اقدامات دولت ادعا کرد که وزارت دادگستری ایالات متحده (DOJ) با جدیت مسائل این حوزه را زیر نظر دارد. وی مدعی شد در یک مورد خاص که فردی قصد سوءاستفاده از هوش مصنوعی را داشته، نهادهای دولتی به شدت با او برخورد کرده‌اند. به گفته ترامپ، مقامات قضایی به این مدیر ارشد هشدار داده‌اند که «آماده رفتن به زندان باشد». با این حال، ترامپ از بردن نام فرد یا شرکت مورد نظر خودداری کرد، اما تأکید نمود که این فرد مدیریت یکی از شرکت‌های بزرگ هوش مصنوعی را بر عهده داشته و پس از این تهدید، رویکرد خود را کاملاً تغییر داده است. در بخش دیگری از این گفتگو، ترامپ به رقابت استراتژیک میان ایالات متحده و چین در حوزه فناوری اشاره کرد و ترجیح داد به جای اصطلاح رایج «هوش مصنوعی» (Artificial Intelligence)، از عبارت «هوش برتر» یا «هو» (Super Intelligence) استفاده کند. او در این باره گفت که شی جین پینگ (Xi Jinping)، رئیس‌جمهور چین، سرمایه‌گذاری سنگینی روی توسعه هوش برتر انجام داده است. ترامپ همچنین در پاسخ به سوال «راس دوات» (Ross Douthat)، روزنامه‌نگار برنامه «۶۰ دقیقه»، در خصوص همکاری با دموکرات‌ها برای تعیین چارچوب‌های ایمنی هوش مصنوعی اعلام کرد که از همکاری استقبال می‌کند و مخالفتی با وضع قوانین و خطوط قرمز (Guardrails) ندارد، مشروط بر اینکه این قوانین جایگاه پیشتاز ایالات متحده در جهان را به خطر نیندازد و کشور را در موضع ضعف نسبت به چین قرار ندهد. این اظهارات بار دیگر توجه کارشناسان را به رویکرد دولت آینده آمریکا نسبت به تنظیم‌گری فناوری‌های نوظهور، رقابت‌های ژئوپلیتیک بر سر توسعه مدل‌های پیشرفته و مرز میان امنیت ملی و نوآوری در صنعت هوش مصنوعی جلب کرده است.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2296464785.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "pending",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:c0b4971c470857d296d5e1325b028f41ff484be100c6bd1afa5c86bc70a97386",
+      "url": "https://www.engadget.com/2307712/military-radar-makes-your-router-change-wifi-channels/",
+      "title": "Military radar can make your router switch Wi-Fi channels - here's why",
+      "summary": "Annoying as it may be, there's a good reason why internet routers around the world give the right of way to certain types of radar.",
+      "display_title": "دلیل قطع شدن ناگهانی وای‌فای و تغییر کانال روترها به خاطر رادارهای نظامی و هواشناسی",
+      "display_summary": "قطع ناگهانی شبکه وای‌فای ۵ گیگاهرتزی روترها اغلب به دلیل قابلیت «انتخاب فرکانس پویا» یا همان DFS رخ می‌دهد که به دستگاه اجازه می‌دهد فرکانس خود را برای عدم تداخل با رادارهای نظامی، ماهواره‌ای و هواشناسی تغییر دهد. این استاندارد قانونی باعث می‌شود روترها در صورت تشخیص سیگنال رادار، کانال خود را تغییر داده و موقتاً از آن محدوده خارج شوند.",
+      "message": "<b>📰 دلیل قطع شدن ناگهانی وای‌فای و تغییر کانال روترها به خاطر رادارهای نظامی و هواشناسی</b>\n\nقطع ناگهانی شبکه وای‌فای ۵ گیگاهرتزی روترها اغلب به دلیل قابلیت «انتخاب فرکانس پویا» یا همان DFS رخ می‌دهد که به دستگاه اجازه می‌دهد فرکانس خود را برای عدم تداخل با رادارهای نظامی، ماهواره‌ای و هواشناسی تغییر دهد. این استاندارد قانونی باعث می‌شود روترها در صورت تشخیص سیگنال رادار، کانال خود را تغییر داده و موقتاً از آن محدوده خارج شوند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بسیاری از کاربران اینترنت خانگی احتمالاً تجربه کرده‌اند که شبکه وای‌فای ۵ گیگاهرتزی (5 GHz) روتر آن‌ها بدون هیچ هشدار قبلی قطع می‌شود. در این میان، تلفن‌های همراه و لپ‌تاپ‌ها به ناچار به باند کندتر ۲.۴ گیگاهرتز (2.4 GHz) منتقل می‌شوند، تماس‌های تصویری دچار اختلال و فریز شدن می‌شوند و پس از چند دقیقه، همه‌چیز دوباره روی یک کانال جدید برمی‌گردد. اگر پس از این اتفاق به گزارش رویدادهای روتر (Router Event Log) خود نگاهی بیندازید، احتمالاً واژه «رادار» (RADAR) را مشاهده خواهید کرد که این امر نشان‌دهنده فعالیت قابلیت «انتخاب فرکانس پویا» (Dynamic Frequency Selection یا به اختصار DFS) است. بر اساس گزارش شرکت ایسوس (ASUS)، این مکانیزمی است که روتر از طریق آن به رادارهای نظامی، ارتباطات ماهواره‌ای و رادارهای هواشناسی که در بخش بزرگی از باند ۵ گیگاهرتز اولویت دارند، راه می‌دهد. در ایالات متحده آمریکا، قوانین کمیسیون ارتباطات فدرال (FCC) روترها را ملزم می‌کند که پیش از انتقال داده، به مدت ۶۰ ثانیه به گوش دادن به سیگنال‌های رادار در یکی از این کانال‌های مشترک بپردازند. همچنین روتر موظف است در صورت دریافت سیگنال رادار، ظرف ۱۰ ثانیه ارتباط خود را متوقف کرده و حداقل تا ۳۰ دقیقه از آن کانال دور بماند. قابلیت DFS به صورت پیش‌فرض فعال است و کمیسیون ارتباطات فدرال (FCC) اصرار دارد که این وضعیت در باندهای مشترک دست‌نخورده باقی بماند. بیشترین احتمال تداخل با شبکه‌های خانگی مربوط به رادارهای مستقر در فرودگاه‌ها است. اداره هوانوردی فدرال (FAA) سامانه‌های «رادار داپلر ترمینال هواشناسی» (Terminal Doppler Weather Radar یا TDWR) را اداره می‌کند که وظیفه محافظت از شلوغ‌ترین فرودگاه‌های این کشور را بر عهده دارند. وظیفه این رادارها شناسایی برش باد (Wind Shear) است؛ پدیده‌ای خطرناک که تغییر ناگهانی سرعت و جهت باد را به همراه دارد و تاکنون سوانح هوایی زیادی را هنگام نشست و برخاست هواپیماها رقم زده است. این رادارها فرکانس‌های بین ۵۶۰۰ تا ۵۶۵۰ مگاهرتز را دقیقا در وسط باند وای‌فای ۵ گیگاهرتز ارسال می‌کنند. حفظ پایداری شبکه‌ها و جلوگیری از تداخل با نهادهای دولتی اهمیت بالایی دارد. هنگامی که یک روتر روی کانال‌های دارای قابلیت DFS راه‌اندازی می‌شود، فرآیند گوش دادن ۶۰ ثانیه‌ای دولت‌ساخته را اجرا می‌کند؛ به همین دلیل است که اتصال مجدد باند ۵ گیگاهرتز پس از راه‌اندازی مجدد روتر ممکن است طول بکشد. شرکت ایسوس اعلام کرده است که این انتظار بسته به کشور مورد نظر ممکن است بین یک تا ۱۰ دقیقه طول بکشد. حد بالای این بازه مربوط به اروپا است که در آن استاندارد «مؤسسه استانداردهای مخابراتی اروپا» (ETSI) نیازمند بررسی ۱۰ دقیقه‌ای روی هر کانالی است که با اسلات رادار هواشناسی تداخل دارد. با این حال، استفاده از کانال‌های مجهز به DFS کاملاً قانونی است و به صورت پیش‌فرض فعال بوده و بیشتر بخش‌های باند ۵ گیگاهرتز را تشکیل می‌دهد. تنها کانال‌های ۳۶ تا ۴۸ و ۱۴۹ تا ۱۶۵ در ایالات متحده بدون رادار هستند. معاوضه اصلی، قطعی‌های گاه‌به‌گاه در صورت زندگی در نزدیکی مکان‌هایی مانند فرودگاه‌ها یا پایگاه‌های نظامی است. برخی شرکت‌های سازنده روتر مانند شرکت فریتز (FRITZ!) پیشنهاد می‌کنند در صورت تشخیص مداوم رادار، روتر را روی کانال‌های ۳۶ تا ۴۸ قفل کنید. همچنین غیرفعال کردن قابلیت DFS ممکن است پایداری بیشتری به همراه داشته باشد، اما به قیمت از دست رفتن بالاترین سرعت اتصال ۵ گیگاهرتز تمام خواهد شد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/military-radar-can-make-your-router-switch-wi-fi-channels-heres-why/l-intro-1793636805.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:93fe30b2a29ddcf92f2ed8afe20f1db75f19a3ebbed4d371edf57bf62204905e",
+      "url": "https://www.engadget.com/2307701/pc-hardware-needed-run-local-ai-model/",
+      "title": "What hardware does your PC need to run a local AI model?",
+      "summary": "The kind of AI models you can run depends on your machine's power. Let's unpack what your everyday PC will need, and how much it will cost you.",
+      "display_title": "بررسی سخت‌افزار مورد نیاز رایانه شخصی برای اجرای مدل‌های هوش مصنوعی محلی",
+      "display_summary": "اجرای مدل‌های هوش مصنوعی به‌صورت محلی روی رایانه شخصی امکان‌پذیر و نیازمند سخت‌افزار مناسب است. در حالی که سیستم‌های معمولی با ۱۶ گیگابایت حافظه می‌توانند مدل‌های کوچک را اجرا کنند، برای مدل‌های پیشرفته‌تر به حافظه رم (RAM) و کارت گرافیک قدرتمندتری نیاز خواهید داشت.",
+      "message": "<b>📰 بررسی سخت‌افزار مورد نیاز رایانه شخصی برای اجرای مدل‌های هوش مصنوعی محلی</b>\n\nاجرای مدل‌های هوش مصنوعی به‌صورت محلی روی رایانه شخصی امکان‌پذیر و نیازمند سخت‌افزار مناسب است. در حالی که سیستم‌های معمولی با ۱۶ گیگابایت حافظه می‌توانند مدل‌های کوچک را اجرا کنند، برای مدل‌های پیشرفته‌تر به حافظه رم (RAM) و کارت گرافیک قدرتمندتری نیاز خواهید داشت.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>با ابزارهایی مانند اولاما (Ollama) یا ال‌ام استودیو (LM Studio)، کاربران می‌توانند تنها در چند دقیقه یک ربات گفتگوی هوش مصنوعی (Chatbot) را به‌صورت محلی روی رایانه شخصی خود راه‌اندازی کنند. این روش نیازی به اشتراک ماهانه نداشته و بدون اتصال به اینترنت کار می‌کند، ضمن اینکه هیچ‌یک از داده‌های کاربر از دستگاه خارج نمی‌شود. با این حال، کارایی و سرعت پاسخگویی این مدل‌ها کاملاً به قدرت سخت‌افزاری دستگاه بستگی دارد. رایانه‌های روزمره با ۱۶ گیگابایت حافظه رم (RAM) قادرند مدل‌های نسبتاً کوچکی با حدود ۷ تا ۸ میلیارد پارامتر را اجرا کنند. مدل‌هایی مانند «لاما ۳.۱ ۸بی» از شرکت متا (Meta) یا «کیو ون ۳ ۸بی» از شرکت علی‌بابا (Alibaba) روی این سیستم‌ها با سرعت مناسبی اجرا می‌شوند. همچنین کارت‌های گرافیکی با ۸ گیگابایت حافظه ویدیویی (VRAM) گزینه‌ای مناسب برای این مدل‌ها هستند. با این حال، چنین مدل‌هایی فاصله زیادی با مدل‌های پیشرفته ابری مانند «چت‌جی‌پی‌تی» (ChatGPT) یا «کلود» (Claude) دارند. برای اجرای مدل‌های نزدیک‌تر به سطح ابری، حداقل به ۳۲ گیگابایت حافظه و یک کارت گرافیک با ۱۶ گیگابایت حافظه ویدیویی (VRAM) یا بیشتر نیاز است. محدودیت‌های حافظه تعیین‌کننده نوع مدل قابل اجرا است. میزان حافظه مورد نیاز یک مدل تقریباً به صورت خطی با اندازه آن که بر اساس میلیارد پارامتر سنجیده می‌شود، مقیاس‌پذیر است. بیشتر افراد از نسخه‌های فشرده‌شده و کم‌حجم مدل‌های محلی استفاده می‌کنند که هر پارامتر را در حدود چهار بیت ذخیره کرده و اندازه مدل را به یک‌چهارم اندازه اصلی کاهش می‌دهند. بر اساس استانداردهای اولاما (Ollama)، مدل‌هایی مانند «فی-۴» از مایکروسافت (Microsoft) و «جما ۳ ۲۷بی» از گوگل (Google) به فضای حافظه بیشتری نیاز دارند. از سوی دیگر، سرعت تولید کلمات یا توکن‌ها به پهنای باند حافظه بستگی دارد تا قدرت پردازش خام. مهندسان انویدیا (Nvidia) این مرحله را وابسته به حافظه توصیف می‌کنند. حافظه ویدیویی (VRAM) یک کارت گرافیک چندین برابر سریع‌تر از حافظه رم در سایر بخش‌های رایانه است، به همین دلیل مدلی که روی پردازنده گرافیکی (GPU) قرار می‌گیرد، بسیار سریع‌تر از مدلی اجرا می‌شود که فضای آن به حافظه سیستم سرریز می‌کند. برای نمونه، در تست‌های انجام‌شده توسط انویدیا (Nvidia) و اپل (Apple)، مشخص شد که تراشه‌های قدرتمند قادر به تولید متون با سرعت‌های متفاوتی بر اساس حجم پارامترها هستند. در مقایسه با مدل‌های ابری، مدل‌های پیشرفته‌ای که در مراکز داده اجرا می‌شوند نیازمند منابع عظیمی هستند که فراتر از توان رایانه‌های شخصی خانگی است. بنابراین، در حالی که یک رایانه ۱۶ گیگابایتی برای کارهای ساده و خصوصی مناسب است، برای دسترسی به قابلیت‌های پیشرفته‌تر به ارتقای سخت‌افزاری یا استفاده از سرویس‌های ابری نیاز خواهد بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/what-hardware-does-your-pc-need-to-run-a-local-ai-model/l-intro-1793763392.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
   ],
   "pending_news": [
-    {
-      "item_id": "04026dca9fb4771697576f2b4cae867832b8ce59ab15cfa4a57a38143918b61c",
-      "title": "France blames Iran for mass-hacks targeting freezers in grocery stores and blood banks",
-      "url": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/",
-      "summary": "France's foreign minister blamed Iran for launching at least two waves of cyberattacks targeting industrial refrigerated and freezer units across France and wider Europe.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-09T19:19:24+00:00",
-      "categories": [
-        "Security",
-        "cyberattack",
-        "cybersecurity",
-        "Europe",
-        "France",
-        "U.S. government"
-      ]
-    },
-    {
-      "item_id": "22ec46b5d9fb6acca3ede7bffdb35656d48e4533bb16050793e6225485687b84",
-      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
-      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
-      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/logicpro.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-09T19:09:58+00:00",
-      "categories": [
-        "AI",
-        "Apple",
-        "News",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "a909e37f613498af9baac621bb3fd2fcc8cd5e575594507de7b050d1319edaeb",
-      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
-      "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models. Claude Fable [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-09T19:00:00+00:00",
-      "categories": [
-        "AI",
-        "Anthropic",
-        "News"
-      ]
-    },
-    {
-      "item_id": "4c6bf29aeb7de374edee90d228c8cbecb656e8ac68d91f8748569c9543015bbe",
-      "title": "Gmail users should know about this little-noticed feature",
-      "url": "https://www.engadget.com/2307742/gmail-unsend-feature/",
-      "summary": "Gmail's unsend feature will delay it from dispatching your message. Here's how to extend the amount of time you have to use it.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/gmail-users-should-know-about-this-little-noticed-feature/l-intro-1793819117.jpg",
-      "published_at": "2026-11-09T19:00:00+00:00",
-      "categories": [
-        "Google"
-      ]
-    },
-    {
-      "item_id": "6dce79866de0e7454c3321b3336c773405a0489d7fe7f42dc423df270431b9cb",
-      "title": "How does Google Wallet's notification feed work and can you disable it?",
-      "url": "https://www.engadget.com/2307741/google-wallet-notifications-how-works-disable/",
-      "summary": "Google Wallet is attempting to make notifications easier to find with a notification feed, but if you're sick of alerts, find out how to disable them.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-does-google-wallets-notification-feed-work-and-can-you-disable-it/l-intro-1793810405.jpg",
-      "published_at": "2026-11-09T18:15:00+00:00",
-      "categories": [
-        "Google"
-      ]
-    },
-    {
-      "item_id": "b541a1d8651aa4c5d3394328af4cf0b9b124b54be13b9beffcd090dacc44ea8d",
-      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-09T18:09:52+00:00",
-      "categories": [
-        "AI",
-        "Enterprise",
-        "Government & Policy"
-      ]
-    },
-    {
-      "item_id": "5c4fdabb66e829c8f5dec2c60ae7eb1d5e4fb3e8ca93165a046de5de56372d4d",
-      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
-      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
-      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/instagram-effect-builder-launch-2.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-09T18:07:23+00:00",
-      "categories": [
-        "AI",
-        "Creators",
-        "Instagram",
-        "Meta",
-        "News",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "02635e4a44aa5617ee94d8059792d630fffaa417931b474d6525d9827f689669",
-      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-09T18:00:00+00:00",
-      "categories": [
-        "AI",
-        "TC",
-        "Meta",
-        "meta superintelligence lab",
-        "muse"
-      ]
-    },
-    {
-      "item_id": "111470442568616fdf3d30d4abf096dac5973c6a1f1f3af0fff5829fd1d9281d",
-      "title": "The reason your laptop can get hot after extended use",
-      "url": "https://www.engadget.com/2307737/why-laptops-overheat-after-extended-use/",
-      "summary": "While it's normal for laptops to sometimes overheat after extended use, excessive temperature spikes can be reduced in a few ways.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-reason-your-laptop-can-get-hot-after-extended-use/l-intro-1793800956.jpg",
-      "published_at": "2026-11-09T17:45:00+00:00",
-      "categories": [
-        "Laptops"
-      ]
-    },
-    {
-      "item_id": "96d0231d949c9b26e5710ac88a353150ad687aacb301eabfb7b6ffecb213a9f2",
-      "title": "James Gunn is out as DC movie leader",
-      "url": "https://www.theverge.com/entertainment/1030022/james-gunn-peter-safran-dc-studios-out-leaving",
-      "summary": "Soon, James Gunn and Peter Safran will no longer head up Skydance's DC Studios. After taking the helm of DC Studios as co-CEOs in 2022, Gunn and Safran are being replaced by former Marvel SVP of Production and Development Jeremy Latcham, Deadline reports. However, Gunn and Safran will \"continue to produce on various DC projects\" [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2299570592.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-09T17:39:57+00:00",
-      "categories": [
-        "Comics",
-        "DC Comics",
-        "Entertainment",
-        "Film",
-        "News"
-      ]
-    },
-    {
-      "item_id": "c98fc54d6ce4f9f92ea268cb39cdb488ccb3958e610c2cb7c3a6647be8e4465a",
-      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
-      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-09T17:36:08+00:00",
-      "categories": [
-        "AI",
-        "Nvidia",
-        "Policy",
-        "Politics",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "4535a293556efb591d58704a05fffb118014c1fa5246c07aa551549487a36a97",
-      "title": "What the tiny blue dot on your Android phone is telling you",
-      "url": "https://www.engadget.com/2307733/what-tiny-blue-dot-on-android-phone-telling-you/",
-      "summary": "That tiny blue dot on the top right corner of your Android phone indicates something important. Find out what this icon means.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/what-the-tiny-blue-dot-on-your-android-phone-is-telling-you/l-intro-1793718198.jpg",
-      "published_at": "2026-11-09T17:15:00+00:00",
-      "categories": [
-        "Smartphones"
-      ]
-    },
-    {
-      "item_id": "55224730c230ee4a40a5a7a6e2442ffe571068d2360337fe9499022f0e830aa6",
-      "title": "Venmo finally launches an in-app bill splitting feature",
-      "url": "https://www.engadget.com/2310993/venmo-finally-launches-an-in-app-bill-splitting-feature/",
-      "summary": "Venmo's receipt-scanning feature is rolling out now.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/venmo-finally-launches-an-in-app-bill-splitting-feature/l-intro-1794243863.jpg",
-      "published_at": "2026-11-09T17:05:15+00:00",
-      "categories": [
-        "Apps"
-      ]
-    },
-    {
-      "item_id": "43e7dd13f8048a871af744c528464535afb783c4b456bfe97525f31913b16d92",
-      "title": "Uber launches parking service following SpotHero acquisition, with an eye on robotaxis",
-      "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
-      "summary": "Uber Parking is the latest example of the company offering products beyond its core ride-hailing service.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-09T17:00:00+00:00",
-      "categories": [
-        "Transportation",
-        "parking",
-        "spothero",
-        "Uber"
-      ]
-    },
     {
       "item_id": "ccc035d61514dccd15c4e16b49d755af1840b9fa7d9a84fc1b416ba2a8bb64f3",
       "title": "Uber wants to park your car now, too",
@@ -13842,102 +13880,6 @@
       "published_at": "2026-11-09T17:00:00+00:00",
       "categories": [
         "Apps"
-      ]
-    },
-    {
-      "item_id": "8618b06a5458020e77ad254f6aa588ef42fd01ae0c81a41db36e832aa0a98eff",
-      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-09T16:56:54+00:00",
-      "categories": [
-        "AI",
-        "Climate",
-        "Anthropic",
-        "data centers",
-        "natural gas"
-      ]
-    },
-    {
-      "item_id": "59c52dc6eee99c72fac5a721b9705d5c4d3591f2b89a276c30fa34864172ed30",
-      "title": "Why EV fast charging slows down after 80 percent",
-      "url": "https://www.engadget.com/2307731/why-ev-fast-charging-slows-after-80-percent/",
-      "summary": "EV fast charging will only take you so far - the speed slows down as you near a full charge. Turns out there's a good reason.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/why-ev-fast-charging-slows-down-after-80-percent/l-intro-1793649511.jpg",
-      "published_at": "2026-11-09T16:45:00+00:00",
-      "categories": [
-        "EVs and Transportation"
-      ]
-    },
-    {
-      "item_id": "9e4837448d462fe1e8d4be49ad1e5f2d6ec2269c6dbc6691884f2948dec5b3d8",
-      "title": "Sony’s new PlayStation Portal handheld includes ‘additional’ internal storage",
-      "url": "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage",
-      "summary": "Sony is launching a new version of its PlayStation Portal exclusively in Japan next month. The updated model will launch in the midnight black color option we've seen before, and will include \"additional\" internal storage for future-looking features. It's the additional internal storage that's the surprise change to this particular model, which will be locked [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/playstationportal.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-09T16:23:31+00:00",
-      "categories": [
-        "Gaming",
-        "News",
-        "PlayStation",
-        "Sony",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "b07dd313401381b51e7ab708e3aa8f5b15d21f540fc8f833d995d198115f72e5",
-      "title": "NHTSA investigates if Waymo robotaxis are still running school bus stop signs",
-      "url": "https://www.engadget.com/2310872/nhtsa-investigates-if-waymo-robotaxis-are-still-running-school-bus-stop-signs/",
-      "summary": "The latest probe questions the effectiveness of Waymo's software recall from 2025.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/nhtsa-investigates-if-waymo-robotaxis-are-still-running-school-bus-stop-signs/l-intro-1794240937.jpg",
-      "published_at": "2026-11-09T16:16:46+00:00",
-      "categories": [
-        "EVs and Transportation"
-      ]
-    },
-    {
-      "item_id": "6185ef4ed3fa7d31a7460abc0680424a648909e8d127933487e8124fa55f942c",
-      "title": "Think twice before using a webcam cover on your MacBook",
-      "url": "https://www.engadget.com/2307730/think-twice-before-using-webcam-cover-macbook/",
-      "summary": "Webcam covers sound like a good idea, but your MacBook isn't designed with space to accommodate them.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/think-twice-before-using-a-webcam-cover-on-your-macbook/l-intro-1793645458.jpg",
-      "published_at": "2026-11-09T16:15:00+00:00",
-      "categories": [
-        "Apple"
-      ]
-    },
-    {
-      "item_id": "1cd940ed727f4b641b02ba9ee161c3ff528d19e0b719b9e07c3dd9cdd0a3ed4b",
-      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
-      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
-      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-09T16:12:28+00:00",
-      "categories": [
-        "AI",
-        "Apps",
-        "TC",
-        "Medium",
-        "Publishing"
-      ]
-    },
-    {
-      "item_id": "060344d56bf0b54959ea72830a49bd66a8f0148545d7e879b1459d3b4d2cf774",
-      "title": "Meta is expanding AI age detection for Instagram teen accounts",
-      "url": "https://www.engadget.com/2310848/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/",
-      "summary": "The company will increase its use of the tech on Facebook and Threads too.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/l-intro-1794251531.jpg",
-      "published_at": "2026-11-09T15:58:55+00:00",
-      "categories": [
-        "Meta"
       ]
     },
     {
@@ -13973,7 +13915,7 @@
       "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
       "summary": "Meta says it will use its AI technology to look for clues about people it suspects to be teenagers — even if they use an adult birthday.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/instagram-header.jpg?resize=1200,800",
       "published_at": "2026-11-09T15:32:27+00:00",
       "categories": [
         "Apps",
@@ -13989,7 +13931,7 @@
       "url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/",
       "summary": "The update to Waymo's self-driving system was rolled out nearly a year ago.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/waymo-getty-streets.jpg?resize=1200,800",
       "published_at": "2026-11-09T15:24:59+00:00",
       "categories": [
         "Transportation",
@@ -14010,24 +13952,12 @@
       ]
     },
     {
-      "item_id": "c0b4971c470857d296d5e1325b028f41ff484be100c6bd1afa5c86bc70a97386",
-      "title": "Military radar can make your router switch Wi-Fi channels - here's why",
-      "url": "https://www.engadget.com/2307712/military-radar-makes-your-router-change-wifi-channels/",
-      "summary": "Annoying as it may be, there's a good reason why internet routers around the world give the right of way to certain types of radar.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/military-radar-can-make-your-router-switch-wi-fi-channels-heres-why/l-intro-1793636805.jpg",
-      "published_at": "2026-11-09T14:15:00+00:00",
-      "categories": [
-        "Cybersecurity"
-      ]
-    },
-    {
       "item_id": "645ad4d8ca5e723923b199c6c2bf27cdcc870cd9b86d01e7cd450302dcd3826f",
       "title": "Meet Drops, the new music app bringing back the fun of sharing songs with friends",
       "url": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
       "summary": "The new music discovery app lets users scroll through 10- to 30-second snippets of songs, comment, and share with friends.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Drops-app.png?w=1200",
       "published_at": "2026-11-09T14:00:00+00:00",
       "categories": [
         "Apps",
@@ -14043,7 +13973,7 @@
       "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
       "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Spacefast-feat.jpg?resize=1200,675",
       "published_at": "2026-11-09T14:00:00+00:00",
       "categories": [
         "AI",
@@ -14055,24 +13985,12 @@
       ]
     },
     {
-      "item_id": "93fe30b2a29ddcf92f2ed8afe20f1db75f19a3ebbed4d371edf57bf62204905e",
-      "title": "What hardware does your PC need to run a local AI model?",
-      "url": "https://www.engadget.com/2307701/pc-hardware-needed-run-local-ai-model/",
-      "summary": "The kind of AI models you can run depends on your machine's power. Let's unpack what your everyday PC will need, and how much it will cost you.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/what-hardware-does-your-pc-need-to-run-a-local-ai-model/l-intro-1793763392.jpg",
-      "published_at": "2026-11-09T13:45:00+00:00",
-      "categories": [
-        "AI"
-      ]
-    },
-    {
       "item_id": "9c2574b436d8b2f94977e7cad57193ad1c4bb35495106eed7e3f6a971548b9ba",
       "title": "Musk says Tesla will refund some Cybertruck deposits, defends decision to end production",
       "url": "https://techcrunch.com/2026/11/09/musk-says-tesla-will-refund-some-cybertruck-deposits-defends-decision-to-end-production/",
       "summary": "Elon Musk defended the company's decision to stop making the Cybertruck, which will go out of production in around eight months.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/tesla-cybertruck-fleet.jpg?resize=1200,800",
       "published_at": "2026-11-09T13:43:28+00:00",
       "categories": [
         "Transportation",
@@ -14099,13 +14017,292 @@
       "url": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/",
       "summary": "This will be the next Texas city in which Tesla will launch robotaxis.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2220872848.jpg?resize=1200,801",
       "published_at": "2026-11-09T11:30:24+00:00",
       "categories": [
         "Transportation",
         "autonomous vehicles",
         "robotaxi",
         "Tesla"
+      ]
+    },
+    {
+      "item_id": "fa210b5fca9903f43ab8518c5026e92e0dbe5da22dd5e76955344b35c95405c2",
+      "title": "Every senior with an Apple Watch should set up these 5 health alerts",
+      "url": "https://www.engadget.com/2307756/apple-watch-health-alerts-setup-seniors/",
+      "summary": "Seniors, especially those who live alone, could benefit from a number of Apple Watch health alerts, including medication reminders and fall detection.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/every-senior-with-an-apple-watch-should-set-up-these-5-health-alerts/l-intro-1793800673.jpg",
+      "published_at": "2026-11-10T01:30:00+00:00",
+      "categories": [
+        "Apple",
+        "Wearables"
+      ]
+    },
+    {
+      "item_id": "c4b3079abdcce30f82117a14a59bc1c329987b4726d3cbfb4d3d031290a67cb6",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-10T01:27:12+00:00",
+      "categories": [
+        "AI",
+        "IPO",
+        "valuation",
+        "Anthropic",
+        "In Brief"
+      ]
+    },
+    {
+      "item_id": "a355520fdd4f2c451b9d87b45cab13cd79b82868a28fb0e47ae6064abc4d96bb",
+      "title": "How to turn on personal results on your Google Home",
+      "url": "https://www.engadget.com/2307753/how-to-turn-on-personal-results-google-home/",
+      "summary": "Every member of the family can have their own assistant with personal results on Google Home. Find out how to set this feature up.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-turn-on-personal-results-on-your-google-home/l-intro-1793815000.jpg",
+      "published_at": "2026-11-10T00:30:00+00:00",
+      "categories": [
+        "Google"
+      ]
+    },
+    {
+      "item_id": "91947c37d9713d5e16c17e79eba8a57ba62756fe4f33190df77ff0651bbe232f",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-10T00:28:49+00:00",
+      "categories": [
+        "AI",
+        "Business",
+        "Entertainment",
+        "Film",
+        "News"
+      ]
+    },
+    {
+      "item_id": "0caefe3153ee8d1cf4ec7a6fe8ba092b5a2d558b3111bd3f8031ba03572f8a74",
+      "title": "The safety reason TSA might ask you to turn on your phone",
+      "url": "https://www.engadget.com/2307751/why-tsa-ask-turn-on-phone-safety-reason/",
+      "summary": "While traveling through the airport, TSA may ask you to power up your phone. Border agents can conduct a more thorough search as well.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-safety-reason-tsa-might-ask-you-to-turn-on-your-phone/l-intro-1793805495.jpg",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "2a1dcce47270e2b1c621654fa7438bbe2ec451a966c1aeb68b5e254db6ca8988",
+      "title": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-09T23:51:58+00:00",
+      "categories": [
+        "AI",
+        "Chips",
+        "Gadgets",
+        "Nvidia",
+        "Policy",
+        "Report",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "cfa9243ace39138b6dfa5eca4368f77f82328a7bd134d1f7db6b4c0e0e4f21ae",
+      "title": "Here’s what Trump said he knew about Jensen Huang",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"&#8203;&#8203;unfaithful\" to his wife, and the company has opened an investigation into Huang. Recent articles from The New [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-09T23:47:46+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "6c707a2417822e65ba9e65eb0d66fc473cc43b9946bec5ab3a67c3e1d6a9aeed",
+      "title": "Why you probably shouldn't buy gadgets with micro USB ports",
+      "url": "https://www.engadget.com/2307748/why-avoid-buying-micro-usb-gadgets/",
+      "summary": "USB-C has largely taken over where micro USB used to reign, but you'll still spot (and should skip using) some devices using the older connector.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-you-probably-shouldnt-buy-gadgets-with-micro-usb-ports/l-intro-1793654155.jpg",
+      "published_at": "2026-11-09T23:30:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "46f96ab455003b5651148f5659c85e30be384e8c0c47effbde26c6bb436138af",
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-09T23:28:37+00:00",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "China",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "214fdb846889c72bbec115a3ee14c2e01490c43e3bea91cf581fb964ffc45c4f",
+      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since last year, US intelligence reports had identified Alice Huang (no relation) as not only the exec for an AI compute company renting access to [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-09T23:07:59+00:00",
+      "categories": [
+        "AI",
+        "Business",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "48c4a703582bd06905ae8ea57e6f3087264cf9128663f237918a2c50df76d12f",
+      "title": "Hotel giant Wyndham exposed customer data after app security lapse",
+      "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+      "summary": "Exclusive: Wyndham left a hardcoded credential in its customer app, allowing anyone to access customer data. The hotel giant wouldn't say if it has the ability to check for any past unauthorized access.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-09T23:03:46+00:00",
+      "categories": [
+        "Security",
+        "cybersecurity",
+        "data breach",
+        "Exclusive",
+        "Salesforce",
+        "wyndham"
+      ]
+    },
+    {
+      "item_id": "5471ccccac700c7b829a1811d0378293f8f3eb4475b3e684134f2916ccc1700e",
+      "title": "The pros and cons of using mesh Wi-Fi",
+      "url": "https://www.engadget.com/2307745/using-mesh-wifi-pros-and-cons/",
+      "summary": "Should you buy a mesh Wi-Fi system or a standalone router? Learn how each handles range, roaming, and cost, and which one fits your home best.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-pros-and-cons-of-using-mesh-wi-fi/l-intro-1793389440.jpg",
+      "published_at": "2026-11-09T23:00:00+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "d7d5602c1d288f4b12b1b772069f036e756ba4d914a1d9a688ec2ce047a43bae",
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "summary": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-09T22:46:09+00:00",
+      "categories": [
+        "AI",
+        "nvidia",
+        "Jensen Huang"
+      ]
+    },
+    {
+      "item_id": "5f5d94ead8ba8deaa3a9d42aaec9b9060f521753ac834df7ec0c2a56f2102809",
+      "title": "The race is on to sue Nvidia",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "summary": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-09T22:23:42+00:00",
+      "categories": [
+        "AI",
+        "TC",
+        "Jensen Huang",
+        "Litigation",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "0a6787b5c2b99a18338a1a556ea6d6d2e59f7f7166a368e51de28f26415a50e6",
+      "title": "MSI’s refurbished QD-OLED gaming monitor is on sale for under $300",
+      "url": "https://www.theverge.com/gadgets/1030262/msi-mag-272qp-qd-oled-x24-monitor-woot-deal-sale",
+      "summary": "One of the best upgrades you can make to your PC gaming setup is an OLED monitor. Fortunately, MSI’s factory-reconditioned Mag 272QP X24 is on sale at Woot through November 18th with a 180-day manufacturer warranty for $290.99, which is more than $100 cheaper than the full MSRP of $399.99. MSI’s 27-inch screen is well-featured [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/msi-mag-272qp-x24-product.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-09T21:43:41+00:00",
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Gaming",
+        "PC Gaming",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "fe5c59f64afa6a992d2a829edf7b4042442587f37d505034e3e12a2457fc5a0f",
+      "title": "The global pledge to use AI for climate good is a cruel joke",
+      "url": "https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
+      "summary": "At this point, reading through the latest splashy pledge to use AI for the good of the environment feels like downing a nonalcoholic beer. Admittedly, I'm suspicious from the onset. How can this be good? But I love beer and our planet enough to give it a whirl - and hey, why not try a [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303840643.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-09T21:13:16+00:00",
+      "categories": [
+        "Climate",
+        "Energy",
+        "Environment",
+        "Policy",
+        "Science"
+      ]
+    },
+    {
+      "item_id": "c9892629e12d1033f2c139d7137555c28bf264c980c7f03ee38b6329a6695052",
+      "title": "YouTube will once again be part of Billboard chart calculations in 2027",
+      "url": "https://www.engadget.com/2311532/youtube-will-once-again-be-part-of-billboard-chart-calculations-in-2027/",
+      "summary": "Billboard will give more weight to free, ad-supported listening in its methodology.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/youtube-will-once-again-be-part-of-billboard-chart-calculations-in-2027/l-intro-1794258544.jpg",
+      "published_at": "2026-11-09T21:09:51+00:00",
+      "categories": [
+        "Streaming"
+      ]
+    },
+    {
+      "item_id": "8582e68848aef83730979fcd2838ea03792d5dc2f031b8378dc366de80c99143",
+      "title": "5 Nintendo Switch 2 features everyone should know about",
+      "url": "https://www.engadget.com/2307744/nintendo-switch-2-features-everyone-should-know/",
+      "summary": "From finding hidden controllers to sharing games with others, improve your gaming experience on the Nintendo Switch 2 with these useful features.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/5-nintendo-switch-2-features-everyone-should-know-about/l-intro-1793628827.jpg",
+      "published_at": "2026-11-09T21:00:00+00:00",
+      "categories": [
+        "Nintendo"
+      ]
+    },
+    {
+      "item_id": "1404fe4d1d7af15d12f03993f25328ffe590c664e575baf396f5f85e60967f5a",
+      "title": "Apple starts offering $50 extended usage packs for AI features in Creator Studio",
+      "url": "https://www.engadget.com/2311500/apple-starts-offering-50-dollar-extended-usage-packs-for-ai-features-in-creator-studio/",
+      "summary": "It'll cost you to access Logic Pro's AI assistant after you reach the monthly usage limit.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apple-starts-offering-50-extended-usage-packs-for-ai-features-in-creator-studio/l-intro-1794257746.jpg",
+      "published_at": "2026-11-09T20:56:51+00:00",
+      "categories": [
+        "AI",
+        "Apple"
       ]
     }
   ]
