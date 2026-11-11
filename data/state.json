@@ -4268,58 +4268,35 @@
     "c96da711ffba7248f4e37e9e8b35c82f1c545472f20490bf76dc6bbe8c0a699c",
     "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
     "3cb9c01826b4e8a1d64af7f6fd0cc168c29706e750c125ff79ab0e542b11b7aa",
-    "https://www.engadget.com/2311413/hoverair-versa-review/"
+    "https://www.engadget.com/2311413/hoverair-versa-review/",
+    "4fb906db3eecae3cc4157f2b4a1515d14c648a52dc7017d79169c3001e197911",
+    "https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/",
+    "ec2e573af1f3d5dc4c6a56051128ee02e20b2b5cd938324e7c481822b2d6c22e",
+    "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+    "2e329dfea6a44459b99b6aa47bf15d94179eac9fe688860ba91006cad523b065",
+    "ac8027b5c8dbb990d23b6a05d54e84056257ca23f2863e73f34025b43caf6866",
+    "b014a2891b53caebd21b36fb9505b421c5ca6dfc99a220699e1d3e2f6ca33e26",
+    "d4dce08449a5e0f365535560cd272acbf2a10af1d45cf667ad00bf7c774c69a0",
+    "f64422682325293bdcaa2e2b0a9685097633b69b500ce8e3b7a23ea62a7c9b5d",
+    "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+    "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+    "https://www.engadget.com/2307770/why-phone-switches-wifi-to-mobile-data/",
+    "https://www.engadget.com/2313059/samsung-gallery-syncs-with-google/",
+    "https://www.engadget.com/2313802/roku-will-stop-selling-smart-home-devices-and-refocus-on-streaming/",
+    "3ef95ad642b8aeef3376ed574f97c2fb8cbcf755bc17253f8ec0a4a2145dff7a",
+    "https://www.engadget.com/2307769/116-underwater-drone-swarm-world-record-china/",
+    "2b02fc9884985ca39a277b52f7b12ea4de256e28e3cd8b8fe75d03d89efbdb02",
+    "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+    "9b3088abddc85c7349f157127bd821b326d2ca49a328b0a0492e49056f6af6b0",
+    "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+    "cd2cef1ae3ffe4ecbf216f63a26e369af33ea91e389d2a117cc0493b6a824353",
+    "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+    "e9373c4ca9e36e1a66a4a16567979cfba66d881accd03ca88766ea4b6977602b",
+    "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
+    "b694787e220227932a08b9e8008c943e8c09bea571ff0063f512f6c36e211cc0",
+    "https://www.engadget.com/2307723/caim-1-camera-fighting-against-ai-photography/"
   ],
   "published_stories": [
-    {
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source [&#8230;]",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "display_title": "انجمن متن‌باز ردیت انتشار پروژه‌های هوش مصنوعی و کاربران غیرانگلیسی‌زبان را ممنوع کرد",
-      "display_summary": "مدیران انجمن متن‌باز (r/opensource) در پلتفرم ردیت (Reddit) با اعمال قوانین جدید، ارسال پروژه‌های مرتبط با هوش مصنوعی و همچنین فعالیت کاربران غیرانگلیسی‌زبان را ممنوع کردند. این تصمیم جنجالی واکنش‌های شدیدی را در جامعه برنامه‌نویسان به همراه داشته و حتی به ایجاد یک انجمن رقیب منجر شده است."
-    },
-    {
-      "title": "Don't throw away your old Chromebook (even if you're getting a Googlebook)",
-      "summary": "There's plenty an old Chromebook can do, even if it's not your main computer.",
-      "url": "https://www.engadget.com/2292939/dont-throw-away-old-chromebook-even-if-getting-googlebook/",
-      "display_title": "دور نینداختن کروم‌بوک قدیمی (Chromebook): راهکارهای کاربردی برای استفاده مجدد",
-      "display_summary": "لپ‌تاپ‌های کروم‌بوک (Chromebook) قدیمی حتی پس از اتمام پشتیبانی یا کاهش کارایی، همچنان قابلیت‌های زیادی دارند. کاربران می‌توانند با استفاده از روش‌هایی مانند تبدیل آن‌ها به مانیتور دوم، ابزار کنترل خانه هوشمند یا سرور رسانه، از انباشت ضایعات الکترونیکی جلوگیری کنند."
-    },
-    {
-      "title": "When AI glasses could be a worthy headphones replacement",
-      "summary": "Smart AI glasses are everywhere, but is the audio any good? It really depends on what you're using them for.",
-      "url": "https://www.engadget.com/2292076/when-ai-glasses-worth-headphones-replacement/",
-      "display_title": "بررسی پتانسیل عینک‌های هوشمند هوش مصنوعی به عنوان جایگزینی برای هدفون‌ها",
-      "display_summary": "عینک‌های هوشمند مجهز به هوش مصنوعی (AI) با بهره‌گیری از بلندگوهای فضای باز و عدم انسداد گوش، امکان گوش دادن به موسیقی و مکالمه را فراهم می‌کنند. اگرچه کیفیت صوتی آن‌ها به پای هدفون‌های حرفه‌ای نمی‌رسد، اما راحتی، دسترسی دائمی و حفظ آگاهی از محیط اطراف، آن‌ها را به گزینه‌ای جذاب تبدیل کرده است."
-    },
-    {
-      "title": "Don't throw away your old speakers — Use them for your TV instead",
-      "summary": "Old speakers often get set aside alongside the device they were used with, but you may still be able to use them with your current tech.",
-      "url": "https://www.engadget.com/2291638/dont-throw-away-old-speakers-use-for-tv-instead/",
-      "display_title": "چگونه با استفاده از باندهای قدیمی، کیفیت صدای تلویزیون خود را ارتقا دهیم؟",
-      "display_summary": "باندهای قدیمی و رهاشده در انبار یا کمد، می‌توانند بدون نیاز به هزینه‌های سنگین و خرید تجهیزات جدید، کیفیت صدای تلویزیون شما را به طور چشمگیری بهبود ببخشند. در این گزارش بررسی می‌کنیم که چه نوع بلندگوهایی با تلویزیون‌های امروزی سازگارند و چگونه می‌توان آن‌ها را به دستگاه متصل کرد."
-    },
-    {
-      "title": "Scott Walker’s The Drift will get under your skin",
-      "summary": "In my mind, Spooky Season music comes in two distinct flavors. There are the fun, occasionally goofy songs like \"The Monster Mash\" and John Carpenter's \"Halloween Theme.\" Then there is the genuinely terrifying: Throbbing Gristle, The Body, or Scott Walker's The Drift. This 2006 album from the singer-songwriter is truly upsetting. On it, Walker explores [&#8230;]",
-      "url": "https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review",
-      "display_title": "آلبوم «درایفت» اثر اسکات واکر؛ تجربه‌ای تاریک و وحشت‌آور در دنیای موسیقی",
-      "display_summary": "آلبوم «درایفت» (The Drift) اثر اسکات واکر (Scott Walker) که در سال ۲۰۰۶ منتشر شد، یکی از تاریک‌ترین و آزاردهنده‌ترین آثار موسیقی شناخته می‌شود. این آلبوم با بهره‌گیری از فضاسازی‌های تجربی و اشعاری درباره مرگ، فجایع تاریخی و تراژدی‌ها، واکنشی فیزیکی و ناخودآگاه در شنونده ایجاد می‌کند."
-    },
-    {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "display_title": "اقتصاددان شرکت آپولو گلوبال مدیریت (Apollo Global Management): هوش مصنوعی هیچ سود مالی برای اکثر شرکت‌ها نداشته است",
-      "display_summary": "بر اساس تحلیل جدید اقتصاددان ارشد شرکت سرمایه‌گذاری آپولو گلوبال مدیریت (Apollo Global Management)، فناوری هوش مصنوعی به‌جز شرکت‌های بزرگ فناوری، هیچ‌گونه بازده مالی ملموسی برای سایر شرکت‌های آمریکایی به همراه نداشته است. این گزارش نشان می‌دهد که حاشیه‌های سود و بهره‌وری نیروی کار در میان سایر شرکت‌های شاخص بازار همچنان بدون تغییر باقی مانده است."
-    },
-    {
-      "title": "Now you can watch Instagram Reels on your Apple TV",
-      "summary": "Instagram is continuing its expansion into living rooms with Instagram for TV, for Apple TV. The company first started testing a version of the platform focused on Reels, live streams, and other video content, blown up for a bigger screen in December of last year. Then, in June, it launched a slew of new features [&#8230;]",
-      "url": "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv",
-      "display_title": "تماشای ویدیوهای ریلز اینستاگرام روی تلویزیون‌های اپل تی‌وی ممکن شد",
-      "display_summary": "شرکت متا اپلیکیشن اینستاگرام را بدون سر و صدای زیاد برای دستگاه‌های اپل تی‌وی عرضه کرد. این اقدام در ادامه تلاش‌های این پلتفرم برای ورود به صفحه نمایش بزرگ‌تر و رقابت در حوزه محتوای ویدیویی و سریال‌های کوتاه انجام شده است."
-    },
     {
       "title": "Don't throw away your old, unsupported Nest gadgets — Do this instead",
       "summary": "If you have a first- or second-generation Nest Learning Thermostat, you may be wondering if it's still worth having.",
@@ -7770,6 +7747,55 @@
       "url": "https://www.engadget.com/2311413/hoverair-versa-review/",
       "display_title": "بررسی هاورایر ورسا: ترکیب هوشمندانه دوربین دستی و پهپاد با برخی سازش‌ها",
       "display_summary": "دستگاه هاورایر ورسا (HoverAir Versa) با قیمت ۵۳۹ دلار تلاش می‌کند تا با ترکیب یک دوربین گیمبال دستی و یک پهپاد کوچک، تجربه‌ای دوکاره را به کاربران ارائه دهد. این گجت با وجود قابلیت‌های خلاقانه و لوازم جانبی متنوع، در هر دو حالت دستی و پروازی با رقبا فاصله دارد و فاقد سیستم اجتناب از موانع است."
+    },
+    {
+      "title": "Peacock is redesigning its mobile app to focus more on vertical videos",
+      "summary": "This is an attempt to \"win another hour per user, per month.\"",
+      "url": "https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/",
+      "display_title": "پلتفرم پیکاک با تمرکز بر ویدیوهای عمودی اپلیکیشن موبایل خود را بازطراحی می‌کند",
+      "display_summary": "شرکت ان‌بی‌سی‌یونیورسال (NBCUniversal) اپلیکیشن موبایل سرویس استریم پیکاک (Peacock) را با هدف افزایش تعامل کاربران و تمرکز ویژه بر ویدیوهای عمودی بازطراحی می‌کند. این تغییرات شامل راه‌اندازی هاب‌های تخصصی هواداران، قابلیت‌های هوش مصنوعی مولد و نمایش مکرودرام‌ها (Microdramas) می‌شود."
+    },
+    {
+      "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+      "summary": "Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make \"your online experience fairer.\" The newly proposed Digital Fairness Act (DFA) published by the EU Commission on Wednesday is designed to tackle practices that exploit consumers into spending more of their time and money online, [&#8230;]",
+      "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+      "display_title": "سرکوب گسترده اتحادیه اروپا علیه جعبه‌های شانس، اینفلئونسرهای رسانه‌های اجتماعی و قابلیت‌های اعتیادآور",
+      "display_summary": "کمیسیون اروپا (EU Commission) پیش‌نویس قانون جامع «عدالت دیجیتال» (Digital Fairness Act) را با هدف مقابله با طراحی‌های اعتیادآور، تبلیغات فریبنده اینفلوئنسرها و استثمار مالی کاربران آنلاین منتشر کرد. این مقررات جدید پلتفرم‌های بازی، شبکه‌های اجتماعی و تجارت الکترونیک را موظف به رعایت شفافیت و حفاظت بیشتر از حقوق مصرف‌کنندگان می‌کند."
+    },
+    {
+      "title": "A Chinese team made a big splash with a drone swarm world record",
+      "summary": "The performance of these underwater drones is much more than a gimmick. It signals serous geopolitical swagger that's turning heads across global sectors.",
+      "url": "https://www.engadget.com/2307769/116-underwater-drone-swarm-world-record-china/",
+      "display_title": "ثبت رکورد جهانی جدید توسط تیم چینی با پهپادهای زیرآبی خودران",
+      "display_summary": "پژوهشگران چینی موفق شدند با به‌کارگیری همزمان ۱۱۶ پهپاد زیرآبی در یک استخر، رکورد بزرگ‌ترین دسته پهپاد زیرآبی جهان را به نام خود ثبت کنند. این دستاورد که با همکاری دانشگاه پلی‌تکنیک نورث‌وستسرن (Northwestern Polytechnical University) و شرکت‌های دفاعی انجام شده، گامی مهم در جهت پیشرفت فناوری‌های هوش مصنوعی و تجهیزات نظامی دریایی به شمار می‌رود."
+    },
+    {
+      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "display_title": "قابلیت‌های جدید به دی‌جی هوش مصنوعی اسپاتیفای اضافه شد: صداها و شخصیت‌های متنوع با امکان کاهش صحبت‌ها",
+      "display_summary": "شرکت اسپاتیفای (Spotify) آپدیت جدیدی برای دی‌جی هوش مصنوعی (AI DJ) خود منتشر کرده که امکان انتخاب صداها و شخصیت‌های مختلف با لهجه‌های گوناگون را برای مشترکین نسخه پریمیوم فراهم می‌کند. همچنین کاربران اکنون می‌توانند میزان صحبت‌های میان آهنگ‌ها را کاهش داده یا آن را به حداقل برسانند."
+    },
+    {
+      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "display_title": "شرکت رینگ بخش رباتیک خود را با معرفی پهپاد امنیتی خانگی و ربات نگهبان افتتاح کرد",
+      "display_summary": "شرکت «رینگ (Ring)» وابسته به «آمازون (Amazon)», از تأسیس بخش رباتیک خود خبر داد و از دو محصول جدید شامل یک پهپاد نظارتی خانگی و یک ربات چرخ‌دار برای امنیت تجاری پرده برداشت. این دستگاه‌ها که با سیستم هوش مصنوعی «ای‌آی پایلوت (AI Pilot)» کار می‌کنند، نگرانی‌های پیرامون حریم خصوصی را نیز به همراه داشته‌اند."
+    },
+    {
+      "title": "Real Motors’ Project Ares is a cyberpunk fantasy made real",
+      "summary": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the results have been occasionally brilliant. I'm a big fan of the vaguely retrofuturistic stylings of the Maeving RM2 and the quirky minimalism of [&#8230;]",
+      "url": "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
+      "display_title": "موتورسیکلت تمام‌برقی «پروژه آرس» (Project Ares)؛ تجسمی از دنیای سایبرپانک در دنیای واقعی",
+      "display_summary": "شرکت نوپای «ریل موتورز» (Real Motors) از موتورسیکلت تمام‌برقی جدید خود با نام «پروژه آرس» (Project Ares) رونمایی کرد که با الهام از طراحی‌های آینده‌نگرانه و بازی‌های ویدیویی ساخته شده است. این محصول با قیمت پایه بیست هزار دلار و مشخصات فنی قدرتمند، ترکیبی از ظاهر متمایز و عملکردی هیجان‌انگیز را به خیابان‌ها می‌آورد."
+    },
+    {
+      "title": "This prototype camera is fighting the good fight against AI photography",
+      "summary": "To push back against an onslaught of deep fakes, this camera embeds cryptographic proof of every photo's origin. Think of it like a silicon fingerprint.",
+      "url": "https://www.engadget.com/2307723/caim-1-camera-fighting-against-ai-photography/",
+      "display_title": "معرفی دوربین جدید برای مقابله با تصاویر جعلی هوش مصنوعی با استفاده از اثبات رمزنگاری",
+      "display_summary": "استارتاپ «کایم‌وان (CAIM1)» در حال توسعه یک دوربین عکاسی پروتوتایپ است که با بهره‌گیری از تراشه‌های امنیتی و فناوری بلاک‌چین، اصالت تصاویر را تضمین می‌کند. این دستگاه با ایجاد اثر انگشت سیلیکونی منحصربه‌فرد برای هر عکس، راهکاری نوین برای مبارزه با گسترش تصاویر جعلی و دیپ‌فیک (Deepfake) ارائه می‌دهد."
     }
   ],
   "outbox": [
@@ -14349,156 +14375,240 @@
     {
       "key": "url:9c124957505aa682072d8d2b70720b8b25e983158b0b89a1edf857214ae2b006",
       "url": "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/",
-      "title": "Apple is shutting down its online Support Community on November 20",
-      "summary": "Apple's Support Community is permanently closing in a few days.",
-      "display_title": "شرکت اپل انجمن پشتیبانی آنلاین خود را در تاریخ ۲۰ نوامبر تعطیل می‌کند",
-      "display_summary": "شرکت اپل (Apple) قصد دارد پس از نزدیک به سه دهه فعالیت، انجمن پشتیبانی آنلاین خود را به طور دائم تعطیل کند. این پلتفرم از تاریخ ۲۰ نوامبر دیگر پست جدیدی نمی‌پذیرد و تنها به صورت خواندنی باقی خواهد ماند.",
       "message": "<b>📰 شرکت اپل انجمن پشتیبانی آنلاین خود را در تاریخ ۲۰ نوامبر تعطیل می‌کند</b>\n\nشرکت اپل (Apple) قصد دارد پس از نزدیک به سه دهه فعالیت، انجمن پشتیبانی آنلاین خود را به طور دائم تعطیل کند. این پلتفرم از تاریخ ۲۰ نوامبر دیگر پست جدیدی نمی‌پذیرد و تنها به صورت خواندنی باقی خواهد ماند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اپل (Apple) تصمیم گرفته است به فعالیت انجمن پشتیبانی آنلاین (Apple Support Community) خود پایان دهد. بر اساس اطلاعات منتشر شده، این انجمن قدیمی که مکانی برای تبادل نظر و حل مشکلات کاربران محصولات اپل (Apple) بود، در تاریخ ۲۰ نوامبر به طور رسمی بسته می‌شود و پس از آن دیگر امکان ارسال پست جدید در آن وجود نخواهد داشت، هرچند محتوای پیشین به صورت آرشیو و خواندنی در دسترس باقی خواهد ماند. این انجمن آنلاین که نخستین بار در سال ۱۹۹۸ میلادی راه‌اندازی شد، در طول سال‌های فعالیت خود تغییرات نام زیادی را تجربه کرد و پیش از این با عنوان بحث‌های اپل (Apple Discussions) شناخته می‌شد. در طول این سال‌ها، پاسخ‌های کاربران در این انجمن اغلب یکی از نخستین نتایجی بود که هنگام جستجوی مشکلات فنی یا روش‌های استفاده از قابلیت‌های مختلف دستگاه‌های اپل (Apple) در موتورهای جستجو ظاهر می‌شد. شرکت اپل (Apple) در اطلاعیه خود به کاربران اطمینان خاطر داده است که همچنان می‌توانند راهنمایی‌ها و پشتیبانی‌های رسمی و مورد اعتماد را از طریق وب‌سایت پشتیبانی اپل (Apple Support) دریافت کنند. همچنین نمایندگان اپل (Apple) در گفت‌وگو با وب‌سایت مک‌رومرز (MacRumors) اعلام کردند که این تصمیم پس از ارزیابی دقیق استراتژی‌ها و نیازهای مشتریان اتخاذ شده است. کارشناسان معتقدند با وجود پلتفرم‌های جایگزین فراوان در شبکه‌های اجتماعی و انجمن‌های گوناگون اینترنتی، پلتفرم‌های سنتی پرسش و پاسخ کارایی پیشین خود را از دست داده‌اند و شرکت اپل (Apple) نیز ترجیح داده است منابع خود را روی کانال‌های ارتباطی دیگر متمرکز کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/apple-is-shutting-down-its-online-support-community-on-november-20/l-intro-1794394269.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Apple is shutting down its online Support Community on November 20",
+      "summary": "Apple's Support Community is permanently closing in a few days.",
+      "display_title": "شرکت اپل انجمن پشتیبانی آنلاین خود را در تاریخ ۲۰ نوامبر تعطیل می‌کند",
+      "display_summary": "شرکت اپل (Apple) قصد دارد پس از نزدیک به سه دهه فعالیت، انجمن پشتیبانی آنلاین خود را به طور دائم تعطیل کند. این پلتفرم از تاریخ ۲۰ نوامبر دیگر پست جدیدی نمی‌پذیرد و تنها به صورت خواندنی باقی خواهد ماند."
     },
     {
       "key": "url:4a59f5e8d711cc9bced0082f265e41358ff6ef8fd61763d99ef6084a8ff780b2",
       "url": "https://www.engadget.com/2313113/lucid-q3-2026-losing-cars/",
-      "title": "Lucid CEO says the company didn't know where its own cars were",
-      "summary": "Tesla rival Lucid has an interesting excuse for its third quarter earnings underperformance.",
-      "display_title": "مدیرعامل لوسید: شرکت حتی نمی‌دانست خودروهای خودش کجا هستند",
-      "display_summary": "شرکت خودروسازی لوسید (Lucid) در گزارش عملکرد سه ماهه سوم خود با چالش‌های جدی لجستیکی مواجه شد و مدیرعامل آن اعتراف کرد که این شرکت گاهی حتی از موقعیت خودروهای خود بی‌خبر بوده است. این آشفتگی در زنجیره تأمین منجر به از دست رفتن سفارش‌ها و تأخیر در تحویل خودرو به مشتریان شد.",
       "message": "<b>📰 مدیرعامل لوسید: شرکت حتی نمی‌دانست خودروهای خودش کجا هستند</b>\n\nشرکت خودروسازی لوسید (Lucid) در گزارش عملکرد سه ماهه سوم خود با چالش‌های جدی لجستیکی مواجه شد و مدیرعامل آن اعتراف کرد که این شرکت گاهی حتی از موقعیت خودروهای خود بی‌خبر بوده است. این آشفتگی در زنجیره تأمین منجر به از دست رفتن سفارش‌ها و تأخیر در تحویل خودرو به مشتریان شد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت لوسید (Lucid)، سازنده خودروهای الکتریکی لوکس و رقیب تسلا (Tesla)، دلیل عجیبی را برای عملکردهای ضعیف مالی خود در سه ماهه سوم سال مطرح کرده است. مدیرعامل این شرکت، سیلویو ناپولی (Silvio Napoli)، در یک نشست اعلام درآمد اعتراف کرد که مشکلات کنترل موجودی باعث شده است تا این خودروساز گاهی اوقات «حتی نداند خودروهایش کجا هستند». این بی‌نظمی در سیستم لجستیک به تأخیرهای دو هفته‌ای در تحویل خودروها انجامید و باعث شد لوسید سفارش‌های بسیاری را از سوی خریداران کم‌حوصله از دست بدهد. این در حالی است که لوسید مانند تسلا (Tesla) با میلیون‌ها خودرو برای پیگیری مواجه نیست؛ این شرکت در سه ماهه گذشته تنها ۲,۹۵۴ دستگاه خودرو تولید و ۳,۸۰۶ دستگاه را تحویل داد که نشان‌دهنده کاهشی هفت درصدی نسبت به سال گذشته است. با وجود تولید کمتر از میزان فروش برای کاهش موجودی، لوسید همچنان تا پایان ماه سپتامبر ۱.۲۲ میلیارد دلار خودرو در انبار داشت. مشکلات زنجیره تأمین لوسید یادآور چالش‌های مشابهی است که تسلا (Tesla) در دوران افزایش تولید مدل ۳ (Model 3) با آن‌ها دست‌وپنجه نرم می‌کرد. ایلان ماسک (Elon Musk) در آن زمان ناچار به اتخاذ تدابیر شدیدی شد، اما رفع مشکلات باعث جهش فروش تسلا گردید. سیلویو ناپولی (Silvio Napoli) ابراز امیدواری کرده است که اصلاحات اخیر در بخش حمل‌ونقل به تیم تجاری اجازه دهد خودروهای آماده تحویل را به موقع به دست مشتریان برسانند. علاوه بر این، لوسید با چالش‌های دیگری نظیر مشکلات کنترل کیفیت و شکایات خدمات مشتریان روبه‌رو است و در سه ماهه گذشته با درآمد ۳۵۰ میلیون دلاری، زیانی معادل ۸۳۱ میلیون دلار ثبت کرد. با این حال، صندوق سرمایه‌گذاری عمومی عربستان سعودی (Public Investment Fund) به عنوان سرمایه‌گذار اصلی، همچنان با تزریق ۱.۷۵ میلیارد دلار دیگر از این شرکت حمایت کرده است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/lucid-ceo-says-the-company-didnt-know-where-its-own-cars-were/l-intro-1794390872.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Lucid CEO says the company didn't know where its own cars were",
+      "summary": "Tesla rival Lucid has an interesting excuse for its third quarter earnings underperformance.",
+      "display_title": "مدیرعامل لوسید: شرکت حتی نمی‌دانست خودروهای خودش کجا هستند",
+      "display_summary": "شرکت خودروسازی لوسید (Lucid) در گزارش عملکرد سه ماهه سوم خود با چالش‌های جدی لجستیکی مواجه شد و مدیرعامل آن اعتراف کرد که این شرکت گاهی حتی از موقعیت خودروهای خود بی‌خبر بوده است. این آشفتگی در زنجیره تأمین منجر به از دست رفتن سفارش‌ها و تأخیر در تحویل خودرو به مشتریان شد."
     },
     {
       "key": "url:27f896233dc6248d0d0ea266b5cbe3afa6fa40307fc5fb06378bf5d1246fb7a8",
       "url": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
-      "title": "X launches its own clipping feature to spur influencer engagement",
-      "summary": "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral.",
-      "display_title": "رونمایی پلتفرم ایکس از ابزار برش ویدیو برای افزایش تعامل اینفلوئنسرها",
-      "display_summary": "پلتفرم ایکس (X) ابزار جدیدی برای برش ویدیوهای طولانی به کلیپ‌های کوتاه معرفی کرده است تا تعامل اینفلوئنسرها و کاربران با محتوا افزایش یابد. این قابلیت جدید همچنین به سازندگان محتوا اجازه می‌دهد از طریق برنامه‌های پاداش‌دهی این پلتفرم درآمد کسب کنند.",
       "message": "<b>📰 رونمایی پلتفرم ایکس از ابزار برش ویدیو برای افزایش تعامل اینفلوئنسرها</b>\n\nپلتفرم ایکس (X) ابزار جدیدی برای برش ویدیوهای طولانی به کلیپ‌های کوتاه معرفی کرده است تا تعامل اینفلوئنسرها و کاربران با محتوا افزایش یابد. این قابلیت جدید همچنین به سازندگان محتوا اجازه می‌دهد از طریق برنامه‌های پاداش‌دهی این پلتفرم درآمد کسب کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پلتفرم اجتماعی ایکس (X) در راستای تلاش‌های مستمر خود برای تبدیل شدن به فضایی جذاب‌تر برای اینفلوئنسرها و تولیدکنندگان محتوا، از ابزار جدیدی برای برش ویدیو رونمایی کرد. این قابلیت به کاربران اجازه می‌دهد ویدیوهای طولانی را به کلیپ‌های کوتاه و مناسب برای شبکه‌های اجتماعی تبدیل کنند. تکنیک برش ویدیو یا اصطلاحاً «کلیپینگ» (Clipping)، یکی از روش‌های محبوب در فضای مجازی است که در آن ویدیوهای طولانی به بخش‌های کوتاه‌تر تقسیم شده و برای جلب توجه بیشتر و افزایش بازدید منتشر می‌شوند. بر اساس اعلام پلتفرم ایکس (X)، هر کلیپ تولید شده با این ابزار دارای برچسبی با عنوان «برش‌خورده از» (Clip from) خواهد بود که مستقیماً به ویدیوی اصلی لینک می‌شود. این ویژگی به مخاطبان کمک می‌کند تا علاوه بر تماشای کلیپ کوتاه، به سازنده اصلی محتوا نیز دسترسی داشته باشند. شرکت ایکس (X) در اطلاعیه خود اعلام کرد که کاربران می‌توانند محبوب‌ترین لحظات هر ویدیویی را انتخاب کرده، نظر خود را به آن اضافه کنند و بدون نیاز به خروج از محیط پلتفرم، آن را به اشتراک بگذارند. علاوه بر این، تولیدکنندگان محتوا و کاربرانی که این کلیپ‌ها را تهیه می‌کنند می‌توانند از طریق برنامه پاداش‌دهی محتوای اورجینال این پلتفرم (Original Content Rewards) بر اساس میزان تعامل مخاطبان، کسب درآمد کنند. این اقدام در ادامه سلسله تلاش‌های پلتفرم ایکس (X) برای رقابت با سایر شبکه‌های اجتماعی صورت می‌گیرد. این شرکت پیش‌تر نیز قابلیت‌هایی نظیر ویدیوهای طولانی، پست‌های متنی بلند برای رقابت با پلتفرم‌هایی مانند ساب‌استک (Substack)، رشته‌توییت‌های اختصاصی (Exclusive Threads) و استودیوی پخش زنده را معرفی کرده بود. ابزار جدید برش ویدیو می‌تواند به رونق بیشتر اقتصاد سازندگان محتوا در ایکس (X) کمک شایانی کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg?resize=1200,675",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "X launches its own clipping feature to spur influencer engagement",
+      "summary": "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral.",
+      "display_title": "رونمایی پلتفرم ایکس از ابزار برش ویدیو برای افزایش تعامل اینفلوئنسرها",
+      "display_summary": "پلتفرم ایکس (X) ابزار جدیدی برای برش ویدیوهای طولانی به کلیپ‌های کوتاه معرفی کرده است تا تعامل اینفلوئنسرها و کاربران با محتوا افزایش یابد. این قابلیت جدید همچنین به سازندگان محتوا اجازه می‌دهد از طریق برنامه‌های پاداش‌دهی این پلتفرم درآمد کسب کنند."
     },
     {
       "key": "url:c6722ada6cfbf7d52d4494e817d4de0e9218e9187e16304e3ba0fac599c4a56c",
       "url": "https://www.engadget.com/2307784/average-lifespan-recordable-blu-ray-discs/",
-      "title": "What is the average lifespan of recordable Blu-ray discs?",
-      "summary": "How long they will last depends on a few factors.",
-      "display_title": "بررسی طول عمر دیسک‌های بلوری قابل ضبط (Recordable Blu-ray Discs) و چالش‌های آرشیو بلندمدت داده‌ها",
-      "display_summary": "دیسک‌های بلوری قابل ضبط (BD-R) با وجود جایگزینی توسط سرویس‌های ابری و حافظه‌های فلش، همچنان گزینه‌ای مقرون‌به‌صرفه برای آرشیو داده‌ها محسوب می‌شوند. با این حال، عوامل متعددی مانند کیفیت ساخت، پدیده پوسیدگی دیسک (Disc Rot) و کاهش پشتیبانی صنعت از سخت‌افزارهای نوری، طول عمر و قابلیت دسترسی بلندمدت به این اطلاعات را تحت تأثیر قرار می‌دهند.",
       "message": "<b>📰 بررسی طول عمر دیسک‌های بلوری قابل ضبط (Recordable Blu-ray Discs) و چالش‌های آرشیو بلندمدت داده‌ها</b>\n\nدیسک‌های بلوری قابل ضبط (BD-R) با وجود جایگزینی توسط سرویس‌های ابری و حافظه‌های فلش، همچنان گزینه‌ای مقرون‌به‌صرفه برای آرشیو داده‌ها محسوب می‌شوند. با این حال، عوامل متعددی مانند کیفیت ساخت، پدیده پوسیدگی دیسک (Disc Rot) و کاهش پشتیبانی صنعت از سخت‌افزارهای نوری، طول عمر و قابلیت دسترسی بلندمدت به این اطلاعات را تحت تأثیر قرار می‌دهند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>دیسک‌های بلوری (Blu-ray) با وجود اینکه امروزه به دلیل رواج دانلود، استریم و حافظه‌های فلش (Flash Storage) به یک فرمت تخصصی تبدیل شده‌اند، اما همچنان به دلیل کیفیت بالای تصویر و صدا، انتخاب اول علاقه‌مندان به سینما به شمار می‌روند. همچنین با افزایش سرسام‌آور قیمت حافظه‌های فلش، دیسک‌های بلوری می‌توانند گزینه‌ای مقرون‌به‌صرفه برای آرشیو بلندمدت فایل‌ها باشند. با این حال، اعتماد به دیسک‌های بلوری قابل ضبط (BD-R) برای نگهداری فایل‌های غیرقابل جایگزین مانند ویدیوهای خانوادگی یا پروژه‌های هنری، نیازمند بررسی دقیق است. به طور کلی، وضعیت ماندگاری این دیسک‌ها مثبت ارزیابی می‌شود، اما عوامل متعددی نظیر کیفیت ساخت و دسترسی به ابزارهای خواندن اطلاعات در سال‌های آینده می‌توانند بر آن تأثیر بگذارند. بزرگترین تهدید برای دیسک‌های بلوری، پدیده‌ای به نام پوسیدگی دیسک (Disc Rot) است که اصطلاحی کلی برای انواعی از زوال فیزیکی و شیمیایی محسوب می‌شود. برای مثال، لایه بازتابنده دیسک ممکن است به مرور زمان دچار اکسیداسیون شود، رطوبت می‌تواند باعث جذب کپک شود یا لایه‌های مختلف دیسک از یکدیگر جدا شوند. علاوه بر این، قرار گرفتن در معرض نور فرابنفش (UV) نیز احتمال محو شدن برچسب‌ها را به همراه دارد. طبق داده‌های مؤسسه حفاظت کانادا (Canadian Conservation Institute)، ارزان‌ترین دیسک‌های BD-R به‌طور میانگین بین ۵ تا ۱۰ سال عمر می‌کنند که برای پروژه‌های آرشیوی توصیه نمی‌شوند؛ زیرا یک درایو حالت جامد خارجی (External SSD) ممکن است عمری به‌مراتب طولانی‌تر داشته باشد. با این حال، کیفیت ساخت تأثیر چشمگیری بر ماندگاری دارد. در دیسک‌های باکیفیت‌تر، لایه ثبت رنگی با آلیاژ سیلیکون و مس جایگزین شده است که رنگ دیسک را به خاکستری تیره یا قهوه‌ای مایل به خاکستری تبدیل می‌کند. همچنین ممکن است در آن‌ها از لایه فلزی طلا استفاده شود که به گفته مؤسسه حفاظت کانادا، طول عمر دیسک را به ۱۰ تا ۲۰ سال افزایش می‌دهد. دیسک‌های بازنویسی‌پذیر بلوری (BD-RE) حتی می‌توانند بین ۲۰ تا ۵۰ سال دوام بیاورند. با وجود این، خطرات فیزیکی مانند خراش برداشتن یا ترک خوردن تصادفی دیسک‌ها همچنان وجود دارد که می‌تواند آن‌ها را غیرقابل خواندن کند. مشکل بزرگ‌تر، کاهش حمایت صنعت فناوری از فرمت بلوری است. درایوهای نوری دیگر به عنوان ویژگی پیش‌فرض در رایانه‌ها وجود ندارند و شرکت‌هایی مانند سونی (Sony) به آرامی در حال خروج از بازار تولید درایوهای خارجی و دیسک‌های BD-R هستند. اگرچه در حال حاضر خرید این سخت‌افزارها از طریق فروشگاه‌های آنلاین ممکن است، اما هیچ تضمینی وجود ندارد که تا ۱۰ یا ۲۰ سال آینده کسی همچنان به تولید این تجهیزات ادامه دهد. حتی ممکن است درایو فعلی شما به دلیل ناسازگاری درایورهای نرم‌افزاری با سیستم‌عامل‌های جدید از کار بیفتد. در نتیجه، کارشناسان توصیه می‌کنند که برای فایل‌های حیاتی تنها به یک رسانه ذخیره‌سازی اکتفا نکنید و همیشه نسخه‌های پشتیبان را در فضای ابری (Cloud) و دستگاه‌های محلی مختلف نگهداری کنید تا در صورت نیاز، امکان انتقال داده‌ها به فرمت‌های جدید وجود داشته باشد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/what-is-the-average-lifespan-of-recordable-blu-ray-discs/l-intro-1793384545.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "What is the average lifespan of recordable Blu-ray discs?",
+      "summary": "How long they will last depends on a few factors.",
+      "display_title": "بررسی طول عمر دیسک‌های بلوری قابل ضبط (Recordable Blu-ray Discs) و چالش‌های آرشیو بلندمدت داده‌ها",
+      "display_summary": "دیسک‌های بلوری قابل ضبط (BD-R) با وجود جایگزینی توسط سرویس‌های ابری و حافظه‌های فلش، همچنان گزینه‌ای مقرون‌به‌صرفه برای آرشیو داده‌ها محسوب می‌شوند. با این حال، عوامل متعددی مانند کیفیت ساخت، پدیده پوسیدگی دیسک (Disc Rot) و کاهش پشتیبانی صنعت از سخت‌افزارهای نوری، طول عمر و قابلیت دسترسی بلندمدت به این اطلاعات را تحت تأثیر قرار می‌دهند."
     },
     {
       "key": "url:23aecff0aa24f8dec4bf3cd2317e3f64b924531a3fd1bb33de5fb6af1d81d7a7",
       "url": "https://www.engadget.com/2307791/why-roku-plugged-into-wrong-hdmi-port/",
-      "title": "Why your Roku might be plugged into the wrong HDMI port",
-      "summary": "A Roku isn't as sensitive to the chosen HDMI port as a game console or sound bar, but you should still choose the right one for the job.",
-      "display_title": "چرا دستگاه‌های استریم روکو (Roku) ممکن است به پورت نامناسبی متصل شده باشند؟",
-      "display_summary": "دستگاه‌های پخش استریم روکو (Roku) برخلاف کنسول‌های بازی حساسیت زیادی به نوع پورت HDMI ندارند، اما انتخاب پورت و کابل مناسب برای بهره‌مندی از بهترین کیفیت تصویر و صدا همچنان حائز اهمیت است. رعایت نکاتی مانند عدم اشغال پورت‌های مخصوص سیستم‌های صوتی و فعال‌سازی تنظیمات پیشرفته می‌تواند تجربه تماشای محتوا را بهبود ببخشد.",
       "message": "<b>📰 چرا دستگاه‌های استریم روکو (Roku) ممکن است به پورت نامناسبی متصل شده باشند؟</b>\n\nدستگاه‌های پخش استریم روکو (Roku) برخلاف کنسول‌های بازی حساسیت زیادی به نوع پورت HDMI ندارند، اما انتخاب پورت و کابل مناسب برای بهره‌مندی از بهترین کیفیت تصویر و صدا همچنان حائز اهمیت است. رعایت نکاتی مانند عدم اشغال پورت‌های مخصوص سیستم‌های صوتی و فعال‌سازی تنظیمات پیشرفته می‌تواند تجربه تماشای محتوا را بهبود ببخشد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>دستگاه‌های پخش استریم مستقل مانند محصولات شرکت روکو (Roku) یا اپل تی‌وی (Apple TV) ابزارهای مفیدی برای ارتقای تجربه سرگرمی خانگی هستند، به‌ویژه زمانی که پردازنده تلویزیون هوشمند توانایی اجرای آخرین اپلیکیشن‌ها را نداشته باشد. با این حال، استفاده بهینه از این تجهیزات مستلزم رعایت نکاتی است که اغلب نادیده گرفته می‌شود؛ از جمله اتصال صحیح کابل‌ها و انتخاب مناسب‌ترین پورت اچ‌دی‌ام‌آی (HDMI). اگرچه دستگاه‌های روکو (Roku) به اندازه کنسول‌های بازی یا ساندبارها (Soundbars) نسبت به پورت HDMI حساس نیستند، اما اتصال آن‌ها به پورت نامناسب می‌تواند کیفیت نهایی صدا و تصویر را تحت‌تأثیر قرار دهد. بیشتر مدل‌های روکو (Roku) نیازی به ویژگی‌های انحصاری استاندارد اچ‌دی‌ام‌آی ۲.۱ (HDMI 2.1) ندارند، زیرا استانداردهایی نظیر کیفیت تصویر ۴کی (4K)، فناوری‌های اچ‌دی‌ار (HDR10+)، دالبی اتمس (Dolby Atmos) و دالبی ویژن (Dolby Vision) روی نسخه قدیمی‌تر یعنی HDMI 2.0 نیز پشتیبانی می‌شوند. نرخ تازه‌سازی تصویر (Refresh Rate) یکی از عواملی است که باید در نظر گرفته شود. اکثر دستگاه‌های روکو (Roku) از جمله مدل رده‌بالای روکو اولترا (Roku Ultra)، حداکثر از نرخ ۶۰ هرتز پشتیبانی می‌کنند که برای تماشای فیلم‌ها با سرعت ۲۴ فریم بر ثانیه، اخبار با سرعت ۳۰ فریم و محتوای پلتفرم‌هایی مانند یوتیوب (YouTube) و توییچ (Twitch) کاملاً کفایت می‌کند. نرخ‌های بالاتر مانند ۱۲۰ هرتز بیشتر مناسب بازی‌های ویدئویی هستند. با این وجود، برخی مدل‌های روکو از قابلیت تعویض سریع رسانه یا کیوکام‌اس (Quick Media Switching - QMS) پشتیبانی می‌کنند که مانع از سیاهی موقت صفحه هنگام تغییر نرخ فریم ویدئوها می‌شود. نکته مهم دیگر، پرهیز از اشغال پورت‌های ای‌آرسی (ARC) یا ای‌ئی‌آرسی (eARC) تلویزیون توسط دستگاه روکو (Roku) است. این پورت‌ها که برای انتقال پیشرفته صدا به ساندبارها و سیستم‌های صوتی طراحی شده‌اند، به‌طور خودکار صدا را از تمامی ورودی‌های HDMI دریافت می‌کنند و نیازی به اتصال مستقیم دستگاه استریم به آن‌ها نیست. همچنین استفاده از کابل‌های سازگار اهمیت دارد تا در صورت پشتیبانی دستگاه از ویژگی‌های جدید، محدودیتی ایجاد نشود. در پایان، اولویت‌بندی پورت‌های پیشرفته HDMI باید به رایانه‌ها و کنسول‌های بازی اختصاص یابد که می‌توانند از نرخ‌ به‌روزرسانی بالا و فناوری نرخ نوسازی متغیر یا وی‌ارآر (VRR) بهره کامل ببرند، در حالی که دستگاه‌های استریم در رتبه بعدی اهمیت قرار دارند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/why-your-roku-might-be-plugged-into-the-wrong-hdmi-port/l-intro-1793648756.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Why your Roku might be plugged into the wrong HDMI port",
+      "summary": "A Roku isn't as sensitive to the chosen HDMI port as a game console or sound bar, but you should still choose the right one for the job.",
+      "display_title": "چرا دستگاه‌های استریم روکو (Roku) ممکن است به پورت نامناسبی متصل شده باشند؟",
+      "display_summary": "دستگاه‌های پخش استریم روکو (Roku) برخلاف کنسول‌های بازی حساسیت زیادی به نوع پورت HDMI ندارند، اما انتخاب پورت و کابل مناسب برای بهره‌مندی از بهترین کیفیت تصویر و صدا همچنان حائز اهمیت است. رعایت نکاتی مانند عدم اشغال پورت‌های مخصوص سیستم‌های صوتی و فعال‌سازی تنظیمات پیشرفته می‌تواند تجربه تماشای محتوا را بهبود ببخشد."
     },
     {
       "key": "url:d55d380527ae1d614b2bda5ec2119345a53bd4edff4732d7df63a91168f49117",
       "url": "https://www.engadget.com/2312296/the-disney-app-on-meta-quest-now-includes-3d-movies/",
-      "title": "The Disney+ app on Meta Quest now includes 3D movies",
-      "summary": "Meta is starting to sell 3D films too.",
-      "display_title": "اضافه شدن فیلم‌های سه‌بعدی به اپلیکیشن دیزنی‌پلاس در هدست‌های متا کوئست",
-      "display_summary": "شرکت‌های دیزنی (Disney) و متا (Meta) با ارائه نسخه جدید اپلیکیشن دیزنی‌پلاس (Disney+) برای هدست‌های متا کوئست (Meta Quest)، امکان تماشای بیش از ۶۰ فیلم سه‌بعدی را با کیفیت‌های پیشرفته فراهم کردند. این به‌روزرسانی همچنین محیط‌های مجازی تعاملی از آثار محبوب سینمایی را برای کاربران به ارمغان می‌آورد.",
       "message": "<b>📰 اضافه شدن فیلم‌های سه‌بعدی به اپلیکیشن دیزنی‌پلاس در هدست‌های متا کوئست</b>\n\nشرکت‌های دیزنی (Disney) و متا (Meta) با ارائه نسخه جدید اپلیکیشن دیزنی‌پلاس (Disney+) برای هدست‌های متا کوئست (Meta Quest)، امکان تماشای بیش از ۶۰ فیلم سه‌بعدی را با کیفیت‌های پیشرفته فراهم کردند. این به‌روزرسانی همچنین محیط‌های مجازی تعاملی از آثار محبوب سینمایی را برای کاربران به ارمغان می‌آورد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت‌های دیزنی (Disney) و متا (Meta) در راستای توسعه تجربه‌های واقعیت مجازی، نسخه به‌روزرسانی‌شده اپلیکیشن دیزنی‌پلاس (Disney+) را روی فروشگاه متا هورایزن (Meta Horizon Store) منتشر کردند. کاربران هدست‌های متا کوئست (Meta Quest) اکنون می‌توانند به بیش از ۶۰ فیلم سه‌بعدی از جمله عناوین شاخصی مانند داستان اسباب‌بازی ۵ (Toy Story 5)، آواتار: آتش و خاکستر (Avatar: Fire and Ash)، انتقام‌جویان (The Avengers) و پلنگ سیاه (Black Panther) دسترسی داشته باشند. این نسخه جدید از فناوری‌های صوتی و تصویری دالبی اتموس (Dolby Atmos) و دالبی ویژن (Dolby Vision) نیز پشتیبانی می‌کند تا تجربه‌ای فراگیرتر را برای مخاطبان رقم بزند. دسترسی به فیلم‌های سه‌بعدی برای مشترکین دیزنی‌پلاس (Disney+) فراهم شده است، اما شرکت‌ها یادآور شده‌اند که میزان دسترسی ممکن است بر اساس منطقه جغرافیایی و نوع اشتراک کاربران متفاوت باشد. علاوه بر فیلم‌ها، این به‌روزرسانی شامل محیط‌های مجازی اختصاصی با الهام از آثار دیزنی (Disney) است که کاربران می‌توانند فیلم‌ها و سریال‌های خود را در آن فضاها تماشا کنند. از جمله این محیط‌های شبیه‌سازی‌شده می‌توان به سیاره تاتوئین (Tatooine) از مجموعه جنگ ستارگان (Star Wars)، طبقه ترس در شرکت سهامی هیولاها (Monsters, Inc) و برج انتقام‌جویان (Avengers Tower) اشاره کرد. همزمان با این تحولات، گزارش‌های تازه نشان می‌دهد که شرکت متا (Meta) فروش و اجاره فیلم‌های سه‌بعدی را در اپلیکیشن تلویزیونی خود نیز آغاز کرده است و اطلاعات فاش‌شده حاکی از احتمال افزودن این محتواها به اشتراک هورایزن‌پلاس (Horizon+) یا همان متا وی‌آر‌پلاس (Meta VR+) در آینده است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/the-disney-app-on-meta-quest-now-includes-3d-movies/l-intro-1794332464.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "The Disney+ app on Meta Quest now includes 3D movies",
+      "summary": "Meta is starting to sell 3D films too.",
+      "display_title": "اضافه شدن فیلم‌های سه‌بعدی به اپلیکیشن دیزنی‌پلاس در هدست‌های متا کوئست",
+      "display_summary": "شرکت‌های دیزنی (Disney) و متا (Meta) با ارائه نسخه جدید اپلیکیشن دیزنی‌پلاس (Disney+) برای هدست‌های متا کوئست (Meta Quest)، امکان تماشای بیش از ۶۰ فیلم سه‌بعدی را با کیفیت‌های پیشرفته فراهم کردند. این به‌روزرسانی همچنین محیط‌های مجازی تعاملی از آثار محبوب سینمایی را برای کاربران به ارمغان می‌آورد."
     },
     {
       "key": "url:db42ca902c0e3783c942124f14c3b4498859185a3b93b2ebcb04c54e46ed7032",
       "url": "https://www.engadget.com/2312487/new-york-will-independently-test-ai-models/",
-      "title": "New York will independently test AI models",
-      "summary": "The state's research center will check AI companies' work instead of taking their word.",
-      "display_title": "ایالت نیویورک مدل‌های هوش مصنوعی را به صورت مستقل ارزیابی و آزمایش می‌کند",
-      "display_summary": "ایالت نیویورک با راه‌اندازی نخستین برنامه دولتی آزمایش هوش مصنوعی در ایالات متحده، فرآیند ارزیابی و راستی‌آزمایی مدل‌های هوش مصنوعی را به پژوهشگران مستقل واگذار می‌کند. این ابتکار عمل با هدف کاهش وابستگی به ادعاهای شرکت‌های فناوری و بررسی دقیق خطرات و کاربردهای مثبت فناوری‌های نوین صورت گرفته است.",
       "message": "<b>📰 ایالت نیویورک مدل‌های هوش مصنوعی را به صورت مستقل ارزیابی و آزمایش می‌کند</b>\n\nایالت نیویورک با راه‌اندازی نخستین برنامه دولتی آزمایش هوش مصنوعی در ایالات متحده، فرآیند ارزیابی و راستی‌آزمایی مدل‌های هوش مصنوعی را به پژوهشگران مستقل واگذار می‌کند. این ابتکار عمل با هدف کاهش وابستگی به ادعاهای شرکت‌های فناوری و بررسی دقیق خطرات و کاربردهای مثبت فناوری‌های نوین صورت گرفته است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در شرایطی که نظارت‌های فدرال بر صنعت هوش مصنوعی با انتقاداتی روبه‌رو است، ایالت نیویورک (New York) آمریکا تصمیم گرفته است تا شخصاً امور نظارتی را در دست بگیرد. «کتی هوکول (Kathy Hochul)»، فرماندار نیویورک، روز سه‌شنبه نخستین برنامه دولتی ارزیابی و آزمایش هوش مصنوعی در سطح این کشور را معرفی کرد. به جای اعتماد صرف به ادعاهای شرکت‌های سازنده هوش مصنوعی، این برنامه جدید بررسی و راستی‌آزمایی مدل‌ها را به پژوهشگران مستقل می‌سپارد. «کتی هوکول (Kathy Hochul)» در بیانیه‌ای رسمی در این رابطه تأکید کرد که خطرات بسیار بالا است و نمی‌توان تنها به گفته‌های شرکت‌های هوش مصنوعی اکتفا کرد. مسئولیت اجرای این آزمایش‌ها بر عهده «مرکز پژوهش و مسئولیت‌پذیری هوش مصنوعی نیویورک (New York Center for AI Responsibility and Research)» در «دانشگاه بینگهمتون (Binghamton University)» خواهد بود. بیش از ۸۰ دانشمند و پژوهشگر اهل نیویورک در این طرح مشارکت خواهند داشت. این تیم پژوهشی از توان پردازشی پروژه «امپایر ای‌آی (Empire AI)» که یک مشارکت عمومی-خصوصی نیم میلیارد دلاری در این ایالت محسوب می‌شود، بهره خواهند برد. دفتر فرماندار نیویورک اعلام کرد که این مرکز وظیفه دارد سیستم‌های پیشرفته هوش مصنوعی را آزمایش کند، خطرات احتمالی آن‌ها را مورد مطالعه قرار دهد و مستندات لازم را برای تصمیم‌گیری مقامات دولتی فراهم سازد. همچنین بررسی نحوه استفاده مسئولانه از هوش مصنوعی در حوزه‌هایی مانند پزشکی و اکتشافات علمی از دیگر وظایف این مرکز خواهد بود. با این حال، یکی از چالش‌های احتمالی این برنامه این است که ارزیابی‌ها به داده‌هایی محدود می‌شود که شرکت‌های هوش مصنوعی به صورت عمومی افشا می‌کنند. قانون موسوم به «قانون رایز (RAISE Act)» که سال گذشته به امضای «کتی هوکول (Kathy Hochul)» رسید، توسعه‌دهندگان بزرگ هوش مصنوعی را ملزم می‌کند تا پیش از تاریخ اول ژانویه سال ۲۰۲۷ در این ایالت ثبت‌نام کنند. از آن زمان به بعد، شرکت‌ها موظف خواهند بود چارچوب‌های ایمنی و گزارش‌های شفافیت خود را منتشر کرده و حوادث بحرانی امنیتی را ظرف مدت ۷۲ ساعت گزارش دهند. اگرچه این قانون ممکن است مدل‌های منتشرنشده را پوشش ندهد، اما دست‌کم شرکت‌ها را ناچار خواهد ساخت اطلاعات و شفافیت بیشتری ارائه کنند. در مجموع، گام تازه نیویورک می‌تواند الگویی جدید برای نظارت‌های ایالتی بر فناوری‌های پیشرفته در ایالات متحده (United States) باشد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/new-york-will-independently-test-ai-models/l-intro-1794338220.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "New York will independently test AI models",
+      "summary": "The state's research center will check AI companies' work instead of taking their word.",
+      "display_title": "ایالت نیویورک مدل‌های هوش مصنوعی را به صورت مستقل ارزیابی و آزمایش می‌کند",
+      "display_summary": "ایالت نیویورک با راه‌اندازی نخستین برنامه دولتی آزمایش هوش مصنوعی در ایالات متحده، فرآیند ارزیابی و راستی‌آزمایی مدل‌های هوش مصنوعی را به پژوهشگران مستقل واگذار می‌کند. این ابتکار عمل با هدف کاهش وابستگی به ادعاهای شرکت‌های فناوری و بررسی دقیق خطرات و کاربردهای مثبت فناوری‌های نوین صورت گرفته است."
     },
     {
       "key": "url:4ea7969a421c523902f6b1f66151e5e9c4ffefa5f2c3516ecbba0d3d58ec94ae",
       "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-      "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
-      "display_title": "شرکت گوگل (Google) سبد سخت‌افزارهای هوش مصنوعی خود را با دو تراشه تخصصی جدید توسعه داد",
-      "display_summary": "شرکت گوگل (Google) دو مدل جدید از تراشه‌های پردازشگر تنسور (TPUs) خود را برای کاربری‌های هوش مصنوعی معرفی کرد. این تراشه‌های جدید با تمرکز بر امنیت داده‌ها و افزایش ظرفیت حافظه طراحی شده‌اند تا وابستگی این شرکت به تامین‌کنندگان خارجی را کاهش دهند.",
       "message": "<b>📰 شرکت گوگل (Google) سبد سخت‌افزارهای هوش مصنوعی خود را با دو تراشه تخصصی جدید توسعه داد</b>\n\nشرکت گوگل (Google) دو مدل جدید از تراشه‌های پردازشگر تنسور (TPUs) خود را برای کاربری‌های هوش مصنوعی معرفی کرد. این تراشه‌های جدید با تمرکز بر امنیت داده‌ها و افزایش ظرفیت حافظه طراحی شده‌اند تا وابستگی این شرکت به تامین‌کنندگان خارجی را کاهش دهند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت گوگل (Google) در ادامه تلاش‌های خود برای کاهش وابستگی به تراشه‌های شرکت‌های دیگر در حوزه رایانش ابری (Cloud Computing)، از دو مدل جدید و تخصصی از واحدهای پردازشگر تنسور (TPUs) رونمایی کرد. این تراشه‌های اختصاصی که برای بارگذاری‌های کاری هوش مصنوعی (AI) توسعه یافته‌اند، سبد سخت‌افزاری این شرکت را برای کاربردهای جدیدی از جمله آموزش محرمانه مدل‌ها و افزایش ظرفیت حافظه گسترش می‌دهند. این دو واحد جدید با نام‌های «تی‌پی‌یو ۸تی‌اکس» (TPU 8tx) و «تی‌پی‌یو ۸آی مکس» (TPU 8i Max)، بخشی از نسل هشتم تراشه‌های گوگل محسوب می‌شوند که نخستین بار در ماه آوریل سال جاری معرفی شدند. تراشه «تی‌پی‌یو ۸تی‌اکس» (TPU 8tx) که با همکاری شرکت ای‌ام‌دی (AMD) طراحی شده، بر اساس تراشه «تی‌پی‌یو ۸تی» (TPU 8t) ساخته شده و به طور ویژه برای آموزش و اجرای امن مدل‌های هوش مصنوعی بهینه‌سازی شده است. گوگل (Google) اعلام کرده است که این تراشه، امنیت را به طور مستقیم در لایه سخت‌افزاری تعبیه می‌کند تا اطلاعات حساس و وزن مدل‌ها حتی در زمان استفاده فعال، محافظت‌شده و ایزوله باقی بمانند. از سوی دیگر، تراشه «تی‌پی‌یو ۸آی مکس» (TPU 8i Max) با ترکیب دو تراشه متمرکز بر استنتاج «تی‌پی‌یو ۸آی» (TPU 8i)، ظرفیت حافظه، قدرت پردازش و پهنای باند را در یک بسته واحد به دو برابر افزایش می‌دهد. این نوآوری به مدل‌های هوش مصنوعی اجازه می‌دهد تا در هنگام پاسخگویی به پرسش‌ها، طیف وسیع‌تری از اطلاعات را پردازش کنند. این اقدام در حالی صورت می‌گیرد که شرکت‌های بزرگ فناوری مانند مایکروسافت (Microsoft)، آمازون (Amazon) و آزمایشگاه‌های پیشرو هوش مصنوعی نظیر اوپن‌ای‌آی (OpenAI) و آنتروپیک (Anthropic) نیز در حال توسعه تراشه‌های اختصاصی خود هستند تا تسلط و وابستگی به شرکت انویدیا (Nvidia) را کاهش دهند. در نتیجه، توسعه سبد سخت‌افزاری گوگل (Google) نشان‌دهنده رقابت فزاینده میان غول‌های فناوری برای به دست آوردن کنترل بیشتر بر زنجیره تأمین سخت‌افزارهای هوش مصنوعی و ارتقای امنیت و کارایی در پردازش‌های سنگین ابری است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-1484622878.jpeg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "display_title": "شرکت گوگل (Google) سبد سخت‌افزارهای هوش مصنوعی خود را با دو تراشه تخصصی جدید توسعه داد",
+      "display_summary": "شرکت گوگل (Google) دو مدل جدید از تراشه‌های پردازشگر تنسور (TPUs) خود را برای کاربری‌های هوش مصنوعی معرفی کرد. این تراشه‌های جدید با تمرکز بر امنیت داده‌ها و افزایش ظرفیت حافظه طراحی شده‌اند تا وابستگی این شرکت به تامین‌کنندگان خارجی را کاهش دهند."
     },
     {
       "key": "url:7c7c725456c95ceec35a0ac098661c8c936662fa67b44eee8d930b7904f89c63",
       "url": "https://www.engadget.com/2310918/reddit-is-sort-of-getting-into-the-product-reviews-business/",
-      "title": "Reddit is (sort of) getting into the product reviews business",
-      "summary": "The platform's new toolset collects and organizes user data on thousands of items.",
-      "display_title": "ورود ردیت (Reddit) به حوزه بررسی و نقد محصولات با ابزار جدید معرفی کالاها",
-      "display_summary": "پلتفرم ردیت (Reddit) با معرفی ابزار جدیدی به نام بررسی‌های ردیت (Reddit Reviews)، وارد حوزه جمع‌آوری و سازماندهی نظرات کاربران درباره محصولات مختلف شده است. این قابلیت الگوریتمی، تجربیات و گفتگوهای واقعی کاربران را دسته‌بندی کرده و خلاصه‌ای روشن از نقاط قوت و ضعف کالاها ارائه می‌دهد.",
       "message": "<b>📰 ورود ردیت (Reddit) به حوزه بررسی و نقد محصولات با ابزار جدید معرفی کالاها</b>\n\nپلتفرم ردیت (Reddit) با معرفی ابزار جدیدی به نام بررسی‌های ردیت (Reddit Reviews)، وارد حوزه جمع‌آوری و سازماندهی نظرات کاربران درباره محصولات مختلف شده است. این قابلیت الگوریتمی، تجربیات و گفتگوهای واقعی کاربران را دسته‌بندی کرده و خلاصه‌ای روشن از نقاط قوت و ضعف کالاها ارائه می‌دهد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پلتفرم اجتماعی ردیت (Reddit) در تازه‌ترین اقدام خود از راه‌اندازی ویژگی جدیدی تحت عنوان بررسی‌های ردیت (Reddit Reviews) خبر داده است که به کاربران در بررسی و شناخت محصولات گوناگون کمک می‌کند. این بخش جدید با هدف سازماندهی نظرات و تجربیات واقعی کاربران در خصوص هزاران محصول مختلف طراحی شده است و به عنوان یک ابزار کمکی در تصمیم‌گیری‌های خرید عمل می‌کند. برخلاف نشریات سنتی و رسانه‌های تخصصی نقد کالا، ردیت (Reddit) تیم مشخصی از نویسندگان یا کارشناسان را برای تست و بررسی محصولات استخدام نکرده است. در عوض، این سیستم جدید بر پایه الگوریتم‌ها و نرم‌افزارهایی توسعه یافته است که داده‌های موجود در انجمن‌های مختلف این پلتفرم را کاوش می‌کنند. ابزار مذکور اطلاعات مربوط به محصولات را جمع‌آوری کرده و آن‌ها را در قالب صفحات اختصاصی برای کاربران قابل جستجو و مطالعه می‌سازد. طبق اعلام رسمی این شرکت، قابلیت جدید به دنبال استخراج مهم‌ترین نکات و بازخوردهای کاربران از سراسر جوامع ردیت (Reddit) است. هر صفحه بررسی شامل یک خلاصه متنی مبتنی بر فناوری‌های هوش مصنوعی است که نشان می‌دهد افراد درباره یک محصول خاص چه نظری دارند. علاوه بر این، یک نمودار بصری نیز در نظر گرفته شده است که نسبت گفتگوهای مثبت، خنثی و منفی پیرامون آن کالا را به نمایش می‌گذارد. کاربران همچنین می‌توانند به منابع اصلی نظرات دسترسی داشته باشند و دیدگاه‌های دقیق کاربران را شخصاً مطالعه کنند. فیلترهای موضوعی مختلفی نیز تعبیه شده است تا جستجوی جزئیات برای خریداران آسان‌تر شود. شرکت ردیت (Reddit) تأکید کرده است که تمامی این اطلاعات مستقیماً از کاربران واقعی گردآوری شده و کسب‌وکارها نمی‌توانند با پرداخت هزینه، محصولات خود را به صورت سفارشی در این بخش برجسته کنند. در فاز نخست، این ویژگی طی هفته‌های آینده روی سیستم‌عامل‌های آی‌اواس (iOS)، اندروید (Android) و نسخه وب عرضه خواهد شد و در ابتدا پوشش‌دهنده ۱۰ هزار محصول پربحث در دسته‌بندی‌های گوناگون خواهد بود. این اقدام بخشی از تغییرات گسترده اخیر در ردیت (Reddit) به شمار می‌رود که پیش‌تر نیز مواردی چون فید برای شما (For You) و ابزارهای تبدیل پست‌ها به محتوای صوتی و تصویری را آزمایش کرده بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/reddit-is-sort-of-getting-into-the-product-reviews-business/l-intro-1794241903.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Reddit is (sort of) getting into the product reviews business",
+      "summary": "The platform's new toolset collects and organizes user data on thousands of items.",
+      "display_title": "ورود ردیت (Reddit) به حوزه بررسی و نقد محصولات با ابزار جدید معرفی کالاها",
+      "display_summary": "پلتفرم ردیت (Reddit) با معرفی ابزار جدیدی به نام بررسی‌های ردیت (Reddit Reviews)، وارد حوزه جمع‌آوری و سازماندهی نظرات کاربران درباره محصولات مختلف شده است. این قابلیت الگوریتمی، تجربیات و گفتگوهای واقعی کاربران را دسته‌بندی کرده و خلاصه‌ای روشن از نقاط قوت و ضعف کالاها ارائه می‌دهد."
     },
     {
       "key": "url:c1a6acfce87b1582eebbcba7950ad21ece18d0bdef781c8378aae9a7fb098fdc",
       "url": "https://techcrunch.com/2026/11/10/new-whatsapp-head-wants-to-make-the-app-easier-to-use-give-its-ai-more-chops/",
-      "title": "New WhatsApp head wants to make the app easier to use, give its AI more chops",
-      "summary": "Kunal Shah said the company wants to make voice notes, groups, stickers, and video \"simpler and more expressive.\"",
-      "display_title": "مدیر جدید واتساپ به دنبال ساده‌سازی رابط کاربری و ارتقای هوش مصنوعی این اپلیکیشن است",
-      "display_summary": "کونال شاه (Kunal Shah)، مدیر جدید بخش توسعه واتساپ (WhatsApp)، در یادداشتی تازه بر لزوم ساده‌سازی قابلیت‌های ارتباطی، گسترش خدمات مالی و بهبود ابزارهای هوش مصنوعی (AI) تأکید کرد. او قصد دارد با همکاری شرکای تجاری، انجام کارهایی نظیر پرداخت قبوض و خرید سیم‌کارت‌های الکترونیکی را درون پیام‌رسان تسهیل کند.",
       "message": "<b>📰 مدیر جدید واتساپ به دنبال ساده‌سازی رابط کاربری و ارتقای هوش مصنوعی این اپلیکیشن است</b>\n\nکونال شاه (Kunal Shah)، مدیر جدید بخش توسعه واتساپ (WhatsApp)، در یادداشتی تازه بر لزوم ساده‌سازی قابلیت‌های ارتباطی، گسترش خدمات مالی و بهبود ابزارهای هوش مصنوعی (AI) تأکید کرد. او قصد دارد با همکاری شرکای تجاری، انجام کارهایی نظیر پرداخت قبوض و خرید سیم‌کارت‌های الکترونیکی را درون پیام‌رسان تسهیل کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>پیام‌رسان واتساپ (WhatsApp) به عنوان یکی از محبوب‌ترین ابزارهای ارتباطی در جهان با بیش از ۳ میلیارد کاربر فعال شناخته می‌شود. با این حال، با رشد روزافزون این پلتفرم و افزوده شدن قابلیت‌های متنوعی نظیر جوامع (Communities)، کانال‌ها، استوری‌ها و ویژگی‌های تجاری، پیمایش و استفاده از بخش‌های مختلف آن برای بسیاری از کاربران پیچیده و دشوار شده است. کونال شاه (Kunal Shah) که اوایل سال جاری جایگزین ویل کاتکارت (Will Cathcart) در رأس مدیریت توسعه واتساپ شد، اکنون در یادداشتی تازه برنامه‌های خود را برای ساده‌سازی اپلیکیشن و تعاملات درون آن تشریح کرده است. او در این یادداشت اشاره کرد که شرکت متا (Meta) قصد دارد پیام‌های صوتی، گروه‌ها، استیکرها و ویدیوها را ساده‌تر و کاربردی‌تر سازد تا کاربران بتوانند احساسات خود را به شکلی پویاتر منتقل کنند. واتساپ طی سال‌های گذشته همواره تلاش کرده است تا اکوسیستمی را فراهم کند که کاربران بتوانند محصولات مورد نیاز خود را جستجو کرده و خریدهایشان را انجام دهند. یادداشت کونال شاه نشان می‌دهد که این روند شتاب بیشتری خواهد گرفت؛ وی به همکاری با شرکت‌های ارائه‌دهنده خدمات مالی و اپراتورهای مخابراتی اشاره کرده است تا امکاناتی نظیر پرداخت قبوض، دریافت وام و خرید سیم‌کارت‌های الکترونیکی (eSIM) مستقیماً از طریق پیام‌رسان میسر شود. بخش دیگری از تمرکز مدیریت جدید واتساپ معطوف به فناوری هوش مصنوعی (AI) است. کونال شاه معتقد است که هوش مصنوعی باید به شکلی کارآمد اطلاعات مهم را استخراج کرده و به کاربران در انجام سریع‌تر امور کمک کند تا هیچ‌گاه قرارهای ملاقات یا رویدادهای مهم را از دست ندهند. در حال حاضر، واتساپ دستیار هوش مصنوعی خود را برای خلاصه‌سازی پیام‌ها و ایجاد پیش‌نویس‌ها عرضه کرده است، اما هنوز به‌طور دقیق مشخص نیست که آیا این شرکت برای یادآوری کارها و تجمیع اطلاعات از عامل هوش مصنوعی موسوم به میوز (Muse) استفاده خواهد کرد یا خیر. کونال شاه در پایان یادداشت خود بر حفظ حریم خصوصی و امنیت کاربران تأکید کرد و یادآور شد که پیام‌ها و تماس‌های شخصی همچنان دارای رمزگذاری سرتاسری (End-to-End Encryption) خواهند بود و اصول بنیادین واتساپ یعنی سادگی، قابلیت اعتماد و حفظ حریم خصوصی دست‌نخورده باقی خواهد ماند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/whatsapp-iphone-icon.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "New WhatsApp head wants to make the app easier to use, give its AI more chops",
+      "summary": "Kunal Shah said the company wants to make voice notes, groups, stickers, and video \"simpler and more expressive.\"",
+      "display_title": "مدیر جدید واتساپ به دنبال ساده‌سازی رابط کاربری و ارتقای هوش مصنوعی این اپلیکیشن است",
+      "display_summary": "کونال شاه (Kunal Shah)، مدیر جدید بخش توسعه واتساپ (WhatsApp)، در یادداشتی تازه بر لزوم ساده‌سازی قابلیت‌های ارتباطی، گسترش خدمات مالی و بهبود ابزارهای هوش مصنوعی (AI) تأکید کرد. او قصد دارد با همکاری شرکای تجاری، انجام کارهایی نظیر پرداخت قبوض و خرید سیم‌کارت‌های الکترونیکی را درون پیام‌رسان تسهیل کند."
     },
     {
       "key": "url:df471993c319e89e31946a9add00bbabc52e2e228b0622a9dcf4963389b7335e",
       "url": "https://www.engadget.com/2307766/hdmi-port-settings-should-change-best-picture-quality/",
-      "title": "The HDMI port settings you should change for the best picture quality",
-      "summary": "To ensure your TV and connected devices are providing the best picture quality possible, turn on these HDMI port settings.",
-      "display_title": "تنظیمات پورت اچ‌دی‌ام‌آی (HDMI) که باید برای بهترین کیفیت تصویر تغییر دهید",
-      "display_summary": "بسیاری از تلویزیون‌های هوشمند و دستگاه‌های متصل به آن‌ها با تنظیمات پیش‌فرض کارخانه‌ای بهترین کیفیت تصویر را ارائه نمی‌دهند. با تغییر برخی گزینه‌ها در بخش پورت‌های اچ‌دی‌ام‌آی (HDMI) مانند فعال‌سازی حالت پیشرفته و تنظیمات عمق رنگ، می‌توانید نهایت توانایی سخت‌افزار خود را آزاد کنید.",
       "message": "<b>📰 تنظیمات پورت اچ‌دی‌ام‌آی (HDMI) که باید برای بهترین کیفیت تصویر تغییر دهید</b>\n\nبسیاری از تلویزیون‌های هوشمند و دستگاه‌های متصل به آن‌ها با تنظیمات پیش‌فرض کارخانه‌ای بهترین کیفیت تصویر را ارائه نمی‌دهند. با تغییر برخی گزینه‌ها در بخش پورت‌های اچ‌دی‌ام‌آی (HDMI) مانند فعال‌سازی حالت پیشرفته و تنظیمات عمق رنگ، می‌توانید نهایت توانایی سخت‌افزار خود را آزاد کنید.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بسیاری از تلویزیون‌های هوشمند امروزی با وجود اینکه برای مصارف خانگی طراحی شده‌اند، اما در حالت پیش‌فرض به صورت بهینه تنظیم نشده‌اند. تولیدکنندگان تلویزیون معمولاً تنظیمات محافظه‌کارانه‌ای را اعمال می‌کنند یا دستگاه را روی حالت‌هایی قرار می‌دهند که شاید در نگاه اول در فروشگاه‌ها جذاب به نظر برسند، اما در عمل کیفیت تصویر را کاهش می‌دهند. این موضوع حتی به پورت‌های اچ‌دی‌ام‌آی (HDMI) نیز تسری پیدا می‌کند. با اینکه تصور می‌شود پورت‌ها به دلیل ماهیت اتصال سریع نیازی به تغییر تنظیمات ندارند، اما واقعیت این است که اگر تاکنون آن‌ها را تغییر نداده‌اید، تلویزیون و دستگاه‌های متصل به آن با تمام توان واقعی خود کار نمی‌کنند. به طور معمول، کافی است گزینه‌ای به نام «پیشرفته» (Enhanced) را برای هر یک از ورودی‌ها فعال کنید، البته سازندگان تلویزیون نام‌گذاری‌های متفاوتی دارند و بهتر است زمانی را برای بررسی منوهای دستگاه اختصاص دهید. ورودی‌های اچ‌دی‌ام‌آی (HDMI) معمولاً به صورت پیش‌فرض روی حالت استاندارد تنظیم می‌شوند تا بیشترین میزان سازگاری را با هر دستگاه متصل داشته باشند. با این حال، این کار باعث ایجاد گلوگاه در سخت‌افزارهای پیشرفته مانند کنسول‌های بازی و پخش‌کننده‌های بلوری (Blu-ray) می‌شود. در بسیاری از تلویزیون‌ها مانند مدل‌های مجهز به سیستم‌عامل گوگل (Google) ساخت شرکت‌های سونی (Sony) و هایسنس (Hisense)، می‌توانید با رفتن به بخش تنظیمات ورودی، حالت هر پورت را روی گزینه «پیشرفته» (Enhanced) یا عناوین مشابه قرار دهید. با این کار، پهنای باند کامل هر پورت آزاد می‌شود که برای اجرای ویژگی‌هایی مانند دالبی ویژن (Dolby Vision) یا نرخ‌های تازه‌سازی تصویر بالاتر از ۶۰ هرتز ضروری است. برخی تلویزیون‌ها حتی ممکن است سطوح مختلفی از حالت پیشرفته را ارائه دهند که در این صورت باید بر اساس دستگاه متصل اولویت‌بندی کنید. رایانه‌های شخصی و کنسول‌های بازی به بالاترین نرخ تازه‌سازی نیاز دارند، در حالی که پخش‌کننده‌های رسانه‌ای بیشتر به فناوری محدوده دینامیکی بالا (HDR) وابسته هستند. علاوه بر این، شرکت‌هایی مانند ال‌جی (LG)، سونی (Sony) و سامسونگ (Samsung) قابلیتی به نام عمق رنگ اچ‌دی‌ام‌آی (HDMI Deep Color) را ارائه می‌دهند که عمق رنگ را به سطح مورد نیاز برای محدوده دینامیکی بالا (HDR) می‌رساند. اگر از رایانه شخصی یا کنسول بازی استفاده می‌کنید، بررسی گزینه‌های نمونه‌برداری فرعی رنگ (Chroma Subsampling) و تنظیم آن روی حالت فشرده‌نشده ۴:۴:۴ نیز می‌تواند به خوانایی بهتر متون کمک شایانی کند. در نتیجه، با صرف تنها چند دقیقه وقت برای بررسی و تغییر تنظیمات پورت‌های اچ‌دی‌ام‌آی (HDMI) تلویزیون خود، می‌توانید تفاوت چشمگیری در وضوح، دقت رنگ و کیفیت کلی تصویر مشاهده کنید و از حداکثر پتانسیل تجهیزات صوتی و تصویری خود بهره‌مند شوید.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/the-hdmi-port-settings-you-should-change-for-the-best-picture-quality/l-intro-1793646448.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "The HDMI port settings you should change for the best picture quality",
+      "summary": "To ensure your TV and connected devices are providing the best picture quality possible, turn on these HDMI port settings.",
+      "display_title": "تنظیمات پورت اچ‌دی‌ام‌آی (HDMI) که باید برای بهترین کیفیت تصویر تغییر دهید",
+      "display_summary": "بسیاری از تلویزیون‌های هوشمند و دستگاه‌های متصل به آن‌ها با تنظیمات پیش‌فرض کارخانه‌ای بهترین کیفیت تصویر را ارائه نمی‌دهند. با تغییر برخی گزینه‌ها در بخش پورت‌های اچ‌دی‌ام‌آی (HDMI) مانند فعال‌سازی حالت پیشرفته و تنظیمات عمق رنگ، می‌توانید نهایت توانایی سخت‌افزار خود را آزاد کنید."
     },
     {
       "key": "url:3739b5b6833681c55fbe66ed5b14c46202b7e8dc50cbd8408d73f9d0996d0c40",
       "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-      "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
-      "display_title": "پس از چالش با اندروید، بنیان‌گذار سایانوژن سیستم‌عامل جدیدی را برای عصر هوش مصنوعی عرضه می‌کند",
-      "display_summary": "شرکت «کورا سیستمز (Kora Systems)» که پیش‌تر با نام «پلی‌ترون (Playtron)» شناخته می‌شد، از یک سیستم‌عامل دسکتاپ مبتنی بر لینوکس (Linux) پرده‌برداری کرد. این سیستم‌عامل جدید که «کورا (Kora)» نام دارد، با هدف رقابت با «مایکروسافت ویندوز (Microsoft Windows)» طراحی شده و مدل‌ها و عاملهای هوش مصنوعی را به‌طور مستقیم در سیستم‌عامل ادغام می‌کند.",
       "message": "<b>📰 پس از چالش با اندروید، بنیان‌گذار سایانوژن سیستم‌عامل جدیدی را برای عصر هوش مصنوعی عرضه می‌کند</b>\n\nشرکت «کورا سیستمز (Kora Systems)» که پیش‌تر با نام «پلی‌ترون (Playtron)» شناخته می‌شد، از یک سیستم‌عامل دسکتاپ مبتنی بر لینوکس (Linux) پرده‌برداری کرد. این سیستم‌عامل جدید که «کورا (Kora)» نام دارد، با هدف رقابت با «مایکروسافت ویندوز (Microsoft Windows)» طراحی شده و مدل‌ها و عاملهای هوش مصنوعی را به‌طور مستقیم در سیستم‌عامل ادغام می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>حدود یک دهه پس از تعطیل شدن فعالیت‌های سیستم‌عامل موبایل «سایانوژن (Cyanogen)» در پی تلاش ناموفق برای شکستن انحصار «گوگل (Google)»، هم‌بنیان‌گذار آن یعنی «کیرت مک‌مستر (Kirt McMaster)» این بار «مایکروسافت (Microsoft)» و سیستم‌عامل «ویندوز (Windows)» را هدف قرار داده است. شرکت تحت مدیریت او یعنی «کورا سیستمز (Kora Systems)» از یک سیستم‌عامل دسکتاپ مبتنی بر لینوکس (Linux) رونمایی کرده که مدل‌های هوش مصنوعی و عامل‌های خودمختار را مستقیماً در تجربه کاربری رایانه ادغام می‌کند. این نرم‌افزار به کاربران اجازه می‌دهد تا در میان برنامه‌های مختلف کار کنند، به فایل‌ها دسترسی داشته باشند و زمینه (کنتکست) را بین وظایف مختلف حفظ کنند. انتظار می‌رود این سیستم‌عامل در سال ۲۰۲۷ به صورت رایگان عرضه شود و از رایانه‌های شخصی موجود مجهز به پردازنده‌های «اینتل (Intel)» و «ای‌ام‌دی (AMD)» و همچنین دستگاه‌های دارای تراشه‌های «کوالکام اسنپدراگون (Qualcomm Snapdragon)» پشتیبانی کند. «کورا (Kora)» این سیستم‌عامل همنام را با تیمی متشکل از حدود ۵۰ مهندس و با تکیه بر ابزارهای برنامه‌نویسی هوش مصنوعی از جمله «کودکس (Codex)» متعلق به «اوپن‌ای‌آی (OpenAI)» و «کلود (Claude)» متعلق به «انتروپیک (Anthropic)» توسعه داده است. به گفته «کیرت مک‌مستر (Kirt McMaster)»، این ابزارها سرعت توسعه را حداقل پنج برابر افزایش داده‌اند. «مایکروسافت (Microsoft)» مدت‌هاست بازار سیستم‌عامل‌های رایانه‌های شخصی را در انحصار خود دارد و سهم بازار «ویندوز (Windows)» در اکتبر حدود ۷۷ درصد بوده است. با این حال، «کیرت مک‌مستر (Kirt McMaster)» معتقد است که «کورا (Kora)» نیازی ندارد با تمام پایگاه کاربران «ویندوز (Windows)» رقابت کند، بلکه تمرکز خود را بر افرادی معطوف کرده که به طور گسترده از هوش مصنوعی استفاده می‌کنند. او تخمین می‌زند که بازار کاربران فعال هوش مصنوعی تا سال ۲۰۳۳ از مرز ۲۰۰ میلیون نفر فراتر رود. این شرکت که پیش‌تر با نام «پلی‌ترون (Playtron)» بر روی بازی تمرکز داشت، در ژوئن ۲۰۲۵ نام خود را به «کورا (Kora)» تغییر داد و تمرکز خود را به سمت هوش مصنوعی معطوف کرد. این تغییر به تیم اجازه داد تا از سه سال کار توسعه‌ای روی سیستم‌عامل بازی مبتنی بر لینوکس به نام «گیم‌اواس (GameOS)» استفاده کند. ساختار «کورا (Kora)» بر پایه لینوکس (Linux) و «نیکس (Nix)» بنا شده و در حالی که فناوری‌های پایه‌ای آن متن‌باز هستند، موتور هوش مصنوعی «کورتکس (Cortex)» و رابط کاربری دسکتاپ آن انحصاری باقی خواهند ماند. علاوة بر این، «کورا (Kora)» همکاری نزدیکی با مهندسان «کوالکام (Qualcomm)» برای بهینه‌سازی سیستم‌عامل برای رایانه‌های شخصی مجهز به تراشه‌های «اسنپدراگون (Snapdragon)» داشته است. این شرکت همچنین با شرکت هوش مصنوعی «هومین (Humain)» در عربستان سعودی برای توسعه نسخه سازمانی این سیستم‌عامل به نام «هومین اواس (Humain OS)» همکاری می‌کند. درآمد این شرکت قرار است از طریق اشتراک‌هایی تأمین شود که دسترسی به مدل‌های هوش مصنوعی و خدمات ایجنت را بسته‌بندی و ارائه می‌دهند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/kora-os.jpg?resize=1200,800",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+      "display_title": "پس از چالش با اندروید، بنیان‌گذار سایانوژن سیستم‌عامل جدیدی را برای عصر هوش مصنوعی عرضه می‌کند",
+      "display_summary": "شرکت «کورا سیستمز (Kora Systems)» که پیش‌تر با نام «پلی‌ترون (Playtron)» شناخته می‌شد، از یک سیستم‌عامل دسکتاپ مبتنی بر لینوکس (Linux) پرده‌برداری کرد. این سیستم‌عامل جدید که «کورا (Kora)» نام دارد، با هدف رقابت با «مایکروسافت ویندوز (Microsoft Windows)» طراحی شده و مدل‌ها و عاملهای هوش مصنوعی را به‌طور مستقیم در سیستم‌عامل ادغام می‌کند."
     },
     {
       "key": "url:3cb9c01826b4e8a1d64af7f6fd0cc168c29706e750c125ff79ab0e542b11b7aa",
       "url": "https://www.engadget.com/2311413/hoverair-versa-review/",
+      "message": "<b>📰 بررسی هاورایر ورسا: ترکیب هوشمندانه دوربین دستی و پهپاد با برخی سازش‌ها</b>\n\nدستگاه هاورایر ورسا (HoverAir Versa) با قیمت ۵۳۹ دلار تلاش می‌کند تا با ترکیب یک دوربین گیمبال دستی و یک پهپاد کوچک، تجربه‌ای دوکاره را به کاربران ارائه دهد. این گجت با وجود قابلیت‌های خلاقانه و لوازم جانبی متنوع، در هر دو حالت دستی و پروازی با رقبا فاصله دارد و فاقد سیستم اجتناب از موانع است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>گجت هاورایر ورسا (HoverAir Versa) با برچسب قیمتی ۵۳۹ دلار معرفی شده است که تلاش می‌کند مرز میان دوربین‌های دستی و پهپادها را از بین ببرد. ایده اصلی این دستگاه بسیار ساده اما جذاب است: یک دوربین گیمبال دستی که با اتصال تجهیزات مغناطیسی به یک پهپاد کوچک پروازی تبدیل می‌شود. این دستگاه مجهز به یک سنسور ۱/۱.۳ اینچی است و می‌تواند ویدیوهای 4K با نرخ ۶۰ فریم بر ثانیه ثبت کند. همچنین حافظه داخلی ۵۵ گیگابایتی به همراه قابلیت استفاده از کارت حافظه برای آن در نظر گرفته شده است. در حالت دوربین دستی، هاورایر ورسا (HoverAir Versa) ابعادی نسبتاً مکعبی شکل دارد و از نمایشگر ۱.۶۴ اینچی بهره می‌برد. کیفیت تصاویر خروجی شفاف و باکیفیت است، اما رنگ‌ها در محیط‌های بیرونی کمی اشباع‌شده به نظر می‌رسند. یکی از مزیت‌های بزرگ این دوربین در مقایسه با سایر رقبا مانند دی‌جی‌آی پاکت ۴ (DJI Pocket 4) یا اینستا360 لونا پرو (Insta360 Luna Pro)، قابلیت تعویض باتری است که معمولاً در دوربین‌های گیمبال دستی دیده نمی‌شود. با این حال، زاویه دید بسیار باز و عدم وجود زوم نرم و پیوسته از محدودیت‌های بخش دوربین دستی به شمار می‌روند. هنگامی که کیت پروازی به دستگاه متصل می‌شود، هاورایر ورسا (HoverAir Versa) به یک پهپاد تبدیل می‌شود که ساختاری مشابه مدل‌های دیگر شرکت هاورایر (HoverAir) یعنی ایکس ۱ (X1) و ایکس ۱ پرو مکس (X1 Pro Max) دارد. این پهپاد به دلیل برخورداری از محافظ پروانه انعطاف‌پذیر، در برابر ضربات مقاوم است. پرواز با این دستگاه نیازی به کنترلر مجزا ندارد و با استفاده از حالت‌های از پیش تنظیم‌شده، الگوهای پروازی و کنترل‌های حرکتی به راحتی انجام می‌شود. با وجود این، بزرگترین نقطه ضعف بخش پروازی، کامل نبودن سنسورهای اجتناب از موانع است که استفاده از آن را در محیط‌های پیچیده چالش‌برانگیز می‌کند. در مقام مقایسه با رقبا، اگر ورسا را صرفاً به عنوان یک دوربین جیبی در نظر بگیریم، رقبایی مانند اینستا360 لونا پرو (Insta360 Luna Pro) با قابلیت فیلم‌برداری 8K و سنسور بزرگ‌تر یک‌اینچی انتخاب‌های قدرتمندتری هستند. همچنین از نظر دسترسی قانونی، موانع رگولاتوری کمیسیون ارتباطات فدرال (FCC) در ایالات متحده می‌تواند عرضه این دستگاه را با چالش مواجه کند. با این وجود، برای کاربرانی که به دنبال خرید هم‌زمان یک دوربین دستی و یک پهپاد کوچک هستند، هاورایر ورسا (HoverAir Versa) با کاهش ابزار مورد نیاز و ارائه لوازم جانبی کارآمد مانند فیلترهای ND و میکروفون‌های اکسترنال، ارزش بررسی بالایی دارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/hoverair-versa-review-convenience-and-creativity-with-compromises/l-intro-1794254958.jpg",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "HoverAir Versa review: Convenience and creativity with compromises",
       "summary": "The HoverAir Versa is a clever combination that makes a lot of sense, but don't expect the best of both worlds.",
       "display_title": "بررسی هاورایر ورسا: ترکیب هوشمندانه دوربین دستی و پهپاد با برخی سازش‌ها",
-      "display_summary": "دستگاه هاورایر ورسا (HoverAir Versa) با قیمت ۵۳۹ دلار تلاش می‌کند تا با ترکیب یک دوربین گیمبال دستی و یک پهپاد کوچک، تجربه‌ای دوکاره را به کاربران ارائه دهد. این گجت با وجود قابلیت‌های خلاقانه و لوازم جانبی متنوع، در هر دو حالت دستی و پروازی با رقبا فاصله دارد و فاقد سیستم اجتناب از موانع است.",
-      "message": "<b>📰 بررسی هاورایر ورسا: ترکیب هوشمندانه دوربین دستی و پهپاد با برخی سازش‌ها</b>\n\nدستگاه هاورایر ورسا (HoverAir Versa) با قیمت ۵۳۹ دلار تلاش می‌کند تا با ترکیب یک دوربین گیمبال دستی و یک پهپاد کوچک، تجربه‌ای دوکاره را به کاربران ارائه دهد. این گجت با وجود قابلیت‌های خلاقانه و لوازم جانبی متنوع، در هر دو حالت دستی و پروازی با رقبا فاصله دارد و فاقد سیستم اجتناب از موانع است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>گجت هاورایر ورسا (HoverAir Versa) با برچسب قیمتی ۵۳۹ دلار معرفی شده است که تلاش می‌کند مرز میان دوربین‌های دستی و پهپادها را از بین ببرد. ایده اصلی این دستگاه بسیار ساده اما جذاب است: یک دوربین گیمبال دستی که با اتصال تجهیزات مغناطیسی به یک پهپاد کوچک پروازی تبدیل می‌شود. این دستگاه مجهز به یک سنسور ۱/۱.۳ اینچی است و می‌تواند ویدیوهای 4K با نرخ ۶۰ فریم بر ثانیه ثبت کند. همچنین حافظه داخلی ۵۵ گیگابایتی به همراه قابلیت استفاده از کارت حافظه برای آن در نظر گرفته شده است. در حالت دوربین دستی، هاورایر ورسا (HoverAir Versa) ابعادی نسبتاً مکعبی شکل دارد و از نمایشگر ۱.۶۴ اینچی بهره می‌برد. کیفیت تصاویر خروجی شفاف و باکیفیت است، اما رنگ‌ها در محیط‌های بیرونی کمی اشباع‌شده به نظر می‌رسند. یکی از مزیت‌های بزرگ این دوربین در مقایسه با سایر رقبا مانند دی‌جی‌آی پاکت ۴ (DJI Pocket 4) یا اینستا360 لونا پرو (Insta360 Luna Pro)، قابلیت تعویض باتری است که معمولاً در دوربین‌های گیمبال دستی دیده نمی‌شود. با این حال، زاویه دید بسیار باز و عدم وجود زوم نرم و پیوسته از محدودیت‌های بخش دوربین دستی به شمار می‌روند. هنگامی که کیت پروازی به دستگاه متصل می‌شود، هاورایر ورسا (HoverAir Versa) به یک پهپاد تبدیل می‌شود که ساختاری مشابه مدل‌های دیگر شرکت هاورایر (HoverAir) یعنی ایکس ۱ (X1) و ایکس ۱ پرو مکس (X1 Pro Max) دارد. این پهپاد به دلیل برخورداری از محافظ پروانه انعطاف‌پذیر، در برابر ضربات مقاوم است. پرواز با این دستگاه نیازی به کنترلر مجزا ندارد و با استفاده از حالت‌های از پیش تنظیم‌شده، الگوهای پروازی و کنترل‌های حرکتی به راحتی انجام می‌شود. با وجود این، بزرگترین نقطه ضعف بخش پروازی، کامل نبودن سنسورهای اجتناب از موانع است که استفاده از آن را در محیط‌های پیچیده چالش‌برانگیز می‌کند. در مقام مقایسه با رقبا، اگر ورسا را صرفاً به عنوان یک دوربین جیبی در نظر بگیریم، رقبایی مانند اینستا360 لونا پرو (Insta360 Luna Pro) با قابلیت فیلم‌برداری 8K و سنسور بزرگ‌تر یک‌اینچی انتخاب‌های قدرتمندتری هستند. همچنین از نظر دسترسی قانونی، موانع رگولاتوری کمیسیون ارتباطات فدرال (FCC) در ایالات متحده می‌تواند عرضه این دستگاه را با چالش مواجه کند. با این وجود، برای کاربرانی که به دنبال خرید هم‌زمان یک دوربین دستی و یک پهپاد کوچک هستند، هاورایر ورسا (HoverAir Versa) با کاهش ابزار مورد نیاز و ارائه لوازم جانبی کارآمد مانند فیلترهای ND و میکروفون‌های اکسترنال، ارزش بررسی بالایی دارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://www.engadget.com/img/gallery/hoverair-versa-review-convenience-and-creativity-with-compromises/l-intro-1794254958.jpg",
+      "display_summary": "دستگاه هاورایر ورسا (HoverAir Versa) با قیمت ۵۳۹ دلار تلاش می‌کند تا با ترکیب یک دوربین گیمبال دستی و یک پهپاد کوچک، تجربه‌ای دوکاره را به کاربران ارائه دهد. این گجت با وجود قابلیت‌های خلاقانه و لوازم جانبی متنوع، در هر دو حالت دستی و پروازی با رقبا فاصله دارد و فاقد سیستم اجتناب از موانع است."
+    },
+    {
+      "key": "url:4fb906db3eecae3cc4157f2b4a1515d14c648a52dc7017d79169c3001e197911",
+      "url": "https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/",
+      "title": "Peacock is redesigning its mobile app to focus more on vertical videos",
+      "summary": "This is an attempt to \"win another hour per user, per month.\"",
+      "display_title": "پلتفرم پیکاک با تمرکز بر ویدیوهای عمودی اپلیکیشن موبایل خود را بازطراحی می‌کند",
+      "display_summary": "شرکت ان‌بی‌سی‌یونیورسال (NBCUniversal) اپلیکیشن موبایل سرویس استریم پیکاک (Peacock) را با هدف افزایش تعامل کاربران و تمرکز ویژه بر ویدیوهای عمودی بازطراحی می‌کند. این تغییرات شامل راه‌اندازی هاب‌های تخصصی هواداران، قابلیت‌های هوش مصنوعی مولد و نمایش مکرودرام‌ها (Microdramas) می‌شود.",
+      "message": "<b>📰 پلتفرم پیکاک با تمرکز بر ویدیوهای عمودی اپلیکیشن موبایل خود را بازطراحی می‌کند</b>\n\nشرکت ان‌بی‌سی‌یونیورسال (NBCUniversal) اپلیکیشن موبایل سرویس استریم پیکاک (Peacock) را با هدف افزایش تعامل کاربران و تمرکز ویژه بر ویدیوهای عمودی بازطراحی می‌کند. این تغییرات شامل راه‌اندازی هاب‌های تخصصی هواداران، قابلیت‌های هوش مصنوعی مولد و نمایش مکرودرام‌ها (Microdramas) می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت ان‌بی‌سی‌یونیورسال (NBCUniversal) در تلاش برای تغییر الگوی فعالیت خود از یک سرویس استریم سنتی به یک پلتفرم جامع سرگرمی، اقدام به بازطراحی کامل اپلیکیشن موبایل سرویس استریم پیکاک (Peacock) کرده است. این به‌روزرسانی بزرگ با تمرکز ویژه بر ویدیوهای عمودی طراحی شده است؛ روندی که پیش‌تر در پلتفرم‌هایی نظیر تیک‌تاک (TikTok) و یوتیوب شرتس (YouTube Shorts) محبوبیت فراوانی یافته بود. مت اشتراوس (Matt Strauss)، رئیس بخش ان‌بی‌سی‌یونیورسال (NBCUniversal)، در اظهارات اخیر خود اشاره کرد که هدف اصلی از این تغییرات، «به دست آوردن یک ساعت بیشتر به ازای هر کاربر در ماه» است. وی افزود که این شرکت دیگر تنها خود را به عنوان یک پلتفرم پخش آنلاین نمی‌بیند، بلکه به عنوان یک پلتفرم سرگرمی عمل می‌کند که به دنبال ارائه بهترین تجربه ممکن برای طرفداران مجموعه‌های مختلف است. مدیران این شرکت امیدوارند که تماشای کلیپ‌های کوتاه علاوه بر حفظ مشترکان فعلی، آن‌ها را به تماشای قسمت‌های کامل برنامه‌ها در تلویزیون ترغیب کند. در کنار تمرکز بر ویدیوهای عمودی، این اپلیکیشن میزبان هاب‌های اختصاصی برای طرفداران فرانچایزهای مختلف نظیر دنیای براوو یا سریال اداره (The Office) خواهد بود. این بخش‌ها ویدیوهای کوتاه و تجربیات مرتبط را میزبانی خواهند کرد. به عنوان مثال، صفحه اختصاصی سریال نظم و قانون (Law &amp; Order) بازی‌های ویدیویی کوچکی را برای سرگرمی کاربران ارائه می‌دهد و صفحه ان‌بی‌ای (NBA) نیز دسترسی آسان به آمار بازیکنان و اطلاعات عمیق‌تر بازی را در نمای دوصفحه‌ای فراهم می‌کند. همچنین، شرکت ان‌بی‌سی‌یونیورسال (NBCUniversal) از راه‌اندازی یک برنامه عضویت خبر داده است که به مشترکان واجد شرایط پاداش‌ها و مزایای انحصاری مرتبط با فیلم‌ها و برنامه‌های محبوبشان ارائه می‌دهد. این مزایا مواردی همچون اشتراک موقت اینستاکارت (Instacart) و اشتراک بخش آشپزی نیویورک تایمز (New York Times Cooking) را شامل می‌شود. از منظر فناوری، اپلیکیشن پیکاک (Peacock) میزبان چندین ویژگی نوین خواهد بود. این پلتفرم به آزمایش ویدیوهای زنده عمودی ادامه می‌دهد و به‌زودی یک پخش‌کننده ویدیویی پویا (Dynamic Video Player) را معرفی می‌کند که بسته به دستگاه کاربر، به‌طور خودکار بین حالت‌های عمودی و افقی جابه‌جا می‌شود. علاوه بر این، ابزارهای هوش مصنوعی مولد (Generative AI) برای ارائه جستجوی مکالمه‌محور (Conversational AI Search) در اپلیکیشن یکپارچه‌سازی شده‌اند. در نهایت، شرکت ان‌بی‌سی‌یونیورسال (NBCUniversal) قصد دارد سرمایه‌گذاری خود را روی مکرودرام‌ها (Microdramas)؛ یعنی درام‌های سریالی بسیار کوتاهی که اغلب فقط یک دقیقه زمان دارند، ادامه دهد. این پلتفرم اخیراً نخستین مکرودرام فیلم‌نامه‌نویسی‌شده خود با عنوان سحرشده توسط یک هیولای جنوبی (Charmed by a Southern Monster) را منتشر کرده است. نسخه جدید اپلیکیشن پیکاک (Peacock) هم‌اکنون به صورت انتشار تدریجی (Phased Release) در حال عرضه است و روند تکمیل آن ممکن است تا سال آینده میلادی به طول بینجامد. این تغییرات در حالی اعمال می‌شود که سرویس پیکاک (Peacock) اخیراً برای نخستین بار در تاریخ خود به سودآوری رسیده و دو فصل متوالی سود مثبت را تجربه کرده است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/l-intro-1794421435.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:92bde755004877b47691e28ced9a27ee77cba98496fc28ca49295165d46de57a",
+      "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+      "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+      "summary": "Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make \"your online experience fairer.\" The newly proposed Digital Fairness Act (DFA) published by the EU Commission on Wednesday is designed to tackle practices that exploit consumers into spending more of their time and money online, [&#8230;]",
+      "display_title": "سرکوب گسترده اتحادیه اروپا علیه جعبه‌های شانس، اینفلئونسرهای رسانه‌های اجتماعی و قابلیت‌های اعتیادآور",
+      "display_summary": "کمیسیون اروپا (EU Commission) پیش‌نویس قانون جامع «عدالت دیجیتال» (Digital Fairness Act) را با هدف مقابله با طراحی‌های اعتیادآور، تبلیغات فریبنده اینفلوئنسرها و استثمار مالی کاربران آنلاین منتشر کرد. این مقررات جدید پلتفرم‌های بازی، شبکه‌های اجتماعی و تجارت الکترونیک را موظف به رعایت شفافیت و حفاظت بیشتر از حقوق مصرف‌کنندگان می‌کند.",
+      "message": "<b>📰 سرکوب گسترده اتحادیه اروپا علیه جعبه‌های شانس، اینفلئونسرهای رسانه‌های اجتماعی و قابلیت‌های اعتیادآور</b>\n\nکمیسیون اروپا (EU Commission) پیش‌نویس قانون جامع «عدالت دیجیتال» (Digital Fairness Act) را با هدف مقابله با طراحی‌های اعتیادآور، تبلیغات فریبنده اینفلوئنسرها و استثمار مالی کاربران آنلاین منتشر کرد. این مقررات جدید پلتفرم‌های بازی، شبکه‌های اجتماعی و تجارت الکترونیک را موظف به رعایت شفافیت و حفاظت بیشتر از حقوق مصرف‌کنندگان می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اتحادیه اروپا (European Union) با معرفی پیش‌نویس جدیدی تحت عنوان «قانون عدالت دیجیتال» (Digital Fairness Act) گامی بزرگ برای تغییر ساختار فضای آنلاین برداشته است. این مقررات جدید که از سوی کمیسیون اروپا (EU Commission) منتشر شده، پلتفرم‌های بازی، شبکه‌های اجتماعی و تجارت الکترونیک را هدف قرار داده است تا با شیوه‌هایی که کاربران را به صرف زمان و پول بیشتر ترغیب می‌کنند، مقابله کند. هدف اصلی این طرح که روز چهارشنبه رسانه‌ای شد، ایجاد فضایی عادلانه‌تر برای کاربران در تمام رده‌های سنی هنگام خرید و وب‌گردی در اینترنت است. مقامات اتحادیه اروپا تخمین می‌زنند که اجرای این قوانین می‌تواند سالانه تا ۱۳.۷ میلیارد یورو (معادل ۱۵.۱ میلیارد دلار) به نفع مصرف‌کنندگان اروپایی صرفه‌جویی مالی به همراه داشته باشد. بر اساس جزئیات منتشر شده، پیش‌نویس قانون عدالت دیجیتال شامل ممنوعیت شدید الگوهای فریبنده و بازاریابی دستکاری‌کننده است؛ الگوهایی که کاربران را ناخواسته به سمت خریدهایی مانند ادعاهای دروغین درباره اتمام موجودی محصول هدایت می‌کنند. همچنین پلتفرم‌ها ملزم خواهند شد امکان غیرفعال کردن ویژگی‌های اعتیادآور مانند اسکرول بی‌پایان، اعلان‌های مداوم و پخش خودکار ویدیوها را برای کاربران فراهم کنند. این محدودیت‌ها حتی دستیارهای هوش مصنوعی و ربات‌های گفتگوی عمومی را نیز در بر می‌گیرد. بخش دیگری از این مقررات به صراحت روی حفاظت از کودکان تمرکز دارد. ویژگی‌های شبیه به قمار در بازی‌های ویدیویی (مانند سیستم‌های پرداخت برای پیروزی یا پیشرفت) برای افراد زیر سن قانونی ممنوع خواهد شد. علاوه بر این، اینفلوئنسرها موظف خواهند بود محتواهای تبلیغاتی خود را به شکلی کاملاً شفاف مشخص کنند تا از سوءاستفاده از اعتماد کودکان جلوگیری شود. شفافیت قیمت‌گذاری، تسهیل لغو اشتراک‌ها و قراردادهای دیجیتال، و همچنین حق ارتباط کاربران با یک نماینده انسانی در بخش خدمات مشتریان از دیگر محورهای کلیدی این قانون است. با این حال، برخی از نهادهای صنعت بازی‌های ویدیویی به شدت از این پیش‌نویس انتقاد کرده و محدودیت‌های مربوط به ارزهای درون‌برنامه‌ای و جعبه‌های شانس (Loot boxes) را غیرقابل اجرا و ناموجه توصیف کرده‌اند. این طرح پیش از تبدیل شدن به قانون رسمی، باید مسیر خود را از طریق پارلمان اروپا (European Parliament) و شورای اتحادیه اروپا (Council of the European Union) طی کند و احتمال تغییر مفاد آن وجود دارد. در صورت نهایی شدن، شرکت‌های متخلف ممکن است با جریمه‌های سنگینی تا سقف ۶ درصد از گردش مالی سالانه جهانی خود مواجه شوند. مایکل مک‌گراث (Michael McGrath)، کمیسر اتحادیه اروپا، در این خصوص تأکید کرد که مقررات حمایتی باید همگام با اقتصاد قرن بیست و یکم به‌روزرسانی شوند تا رقابت سالم میان کسب‌وکارها تضمین گردد.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319789/STK450_EU_E.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:3ef95ad642b8aeef3376ed574f97c2fb8cbcf755bc17253f8ec0a4a2145dff7a",
+      "url": "https://www.engadget.com/2307769/116-underwater-drone-swarm-world-record-china/",
+      "title": "A Chinese team made a big splash with a drone swarm world record",
+      "summary": "The performance of these underwater drones is much more than a gimmick. It signals serous geopolitical swagger that's turning heads across global sectors.",
+      "display_title": "ثبت رکورد جهانی جدید توسط تیم چینی با پهپادهای زیرآبی خودران",
+      "display_summary": "پژوهشگران چینی موفق شدند با به‌کارگیری همزمان ۱۱۶ پهپاد زیرآبی در یک استخر، رکورد بزرگ‌ترین دسته پهپاد زیرآبی جهان را به نام خود ثبت کنند. این دستاورد که با همکاری دانشگاه پلی‌تکنیک نورث‌وستسرن (Northwestern Polytechnical University) و شرکت‌های دفاعی انجام شده، گامی مهم در جهت پیشرفت فناوری‌های هوش مصنوعی و تجهیزات نظامی دریایی به شمار می‌رود.",
+      "message": "<b>📰 ثبت رکورد جهانی جدید توسط تیم چینی با پهپادهای زیرآبی خودران</b>\n\nپژوهشگران چینی موفق شدند با به‌کارگیری همزمان ۱۱۶ پهپاد زیرآبی در یک استخر، رکورد بزرگ‌ترین دسته پهپاد زیرآبی جهان را به نام خود ثبت کنند. این دستاورد که با همکاری دانشگاه پلی‌تکنیک نورث‌وستسرن (Northwestern Polytechnical University) و شرکت‌های دفاعی انجام شده، گامی مهم در جهت پیشرفت فناوری‌های هوش مصنوعی و تجهیزات نظامی دریایی به شمار می‌رود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>تیمی از پژوهشگران چینی توانستند با هدایت هماهنگ و خودران ۱۱۶ پهپاد زیرآبی رکورد جدیدی در کتاب رکوردهای جهانی گینس (Guinness World Records) ثبت کنند. این آزمایش که در ماه اوت سال ۲۰۲۶ انجام شد، در یک استخر با ابعاد مشخص صورت گرفت و پهپادها توانستند بدون دخالت انسان و تنها با تکیه بر داده‌های بصری، مانورها و شکل‌های مختلفی را به صورت خودران اجرا کنند. این آزمایش توسط پژوهشگران دانشگاه پلی‌تکنیک نورث‌وستسرن (Northwestern Polytechnical University) و با همکاری شرکت فناوری‌های دریایی شی‌آن تیانه (Xi&#x27;an Tianhe Maritime Technologies)، که از زیرمجموعه‌های پیمانکار دفاعی فناوری دفاعی شی‌آن تیانه (Xian Tianhe Defense Technology) محسوب می‌شود، به انجام رسید. پهپادهای مورد استفاده که مدل تی‌اچ-۶۱۸ (TH-618) نام دارند، به شکل لوله‌هایی با چهار پروانه و یک دوربین در قسمت جلو طراحی شده‌اند. طول این پهپادها حدود دو فوت و وزن آن‌ها نزدیک به ۱۱ پوند است. این سیستم‌ها به کمک دوربین‌های هوشمند متصل به هوش مصنوعی می‌توانند مسیر خود را در مواجهه با موانع زیرآبی به صورت بلادرنگ تنظیم کنند. هدایت و ناوبری در زیر آب به دلیل عدم دسترسی به سامانه‌های موقعیت‌یاب جهانی و ارتباطات بی‌سیم، چالش بسیار بزرگی برای مهندسان محسوب می‌شود. در محیط‌های زیرآبی عواملی همچون فشار بالای آب، دید کم و پیچیدگی‌های محیطی، کار را دشوارتر می‌کنند. با این حال، پهپادهای مذکور توانستند طی ۳۴ دقیقه مسافتی بیش از ۱۶۰۰ فوت را به صورت خودران و با استفاده صرف از داده‌های تصویری پیموده و به انجام ماموریت‌هایی نظیر کنترل عمق، سرعت و شناسایی موانع بپردازند. کارشناسان نظامی بر این باورند که توسعه این دسته از پهپادهای زیرآبی می‌تواند تاثیر قابل‌توجهی بر توانمندی‌های راهبردی و نظامی ارتش آزادی‌بخش خلق چین (People&#x27;s Liberation Army) داشته باشد. با توجه به وسعت ناوگان دریایی چین و رقابت آن با ایالات متحده آمریکا، استفاده از سامانه‌های بدون سرنشین و ارزان‌قیمت به عنوان راهکاری برای جبران کسری قدرت آتش و افزایش نظارت در مناطق مناقشه‌برانگیز مانند دریای چین جنوبی مطرح شده است. علاوه بر اهداف نظامی، چنین فناوری‌هایی می‌توانند در بخش‌های غیرنظامی نظیر بازرسی خطوط لوله گاز و نقشه‌برداری از بستر اقیانوس‌ها نیز کاربرد داشته باشند. کشورهای دیگر جهان نیز در حال سرمایه‌گذاری گسترده روی پهپادهای دریایی و زیرآبی هستند. به عنوان مثال، در جریان جنگ اوکراین و روسیه، به‌کارگیری تجهیزات بدون سرنشین تحولات چشمگیری در نبردهای دریایی ایجاد کرد. با این وجود، چین به دلیل برخورداری از زیرزمینی قدرتمند در زمینه تولید قطعات و صنایع کشتی‌سازی، موقعیت ویژه‌ای در این حوزه دارد. با اینکه این فناوری هنوز راه طولانی در پیش دارد تا به صورت کامل در عملیات‌های واقعی دریایی اثربخش باشد، اما ثبت این رکورد نشان‌دهنده جهت‌گیری جدید برنامه‌های پژوهشی و نظامی پکن در اعماق دریاها است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/a-chinese-team-made-a-big-splash-with-a-drone-swarm-world-record/l-intro-1793653335.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:90450c1293322385f7d9dfb87ef5a09f95f16b23313e2a8e15a8cd0df33b208f",
+      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+      "display_title": "قابلیت‌های جدید به دی‌جی هوش مصنوعی اسپاتیفای اضافه شد: صداها و شخصیت‌های متنوع با امکان کاهش صحبت‌ها",
+      "display_summary": "شرکت اسپاتیفای (Spotify) آپدیت جدیدی برای دی‌جی هوش مصنوعی (AI DJ) خود منتشر کرده که امکان انتخاب صداها و شخصیت‌های مختلف با لهجه‌های گوناگون را برای مشترکین نسخه پریمیوم فراهم می‌کند. همچنین کاربران اکنون می‌توانند میزان صحبت‌های میان آهنگ‌ها را کاهش داده یا آن را به حداقل برسانند.",
+      "message": "<b>📰 قابلیت‌های جدید به دی‌جی هوش مصنوعی اسپاتیفای اضافه شد: صداها و شخصیت‌های متنوع با امکان کاهش صحبت‌ها</b>\n\nشرکت اسپاتیفای (Spotify) آپدیت جدیدی برای دی‌جی هوش مصنوعی (AI DJ) خود منتشر کرده که امکان انتخاب صداها و شخصیت‌های مختلف با لهجه‌های گوناگون را برای مشترکین نسخه پریمیوم فراهم می‌کند. همچنین کاربران اکنون می‌توانند میزان صحبت‌های میان آهنگ‌ها را کاهش داده یا آن را به حداقل برسانند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اسپاتیفای (Spotify) در راستای توسعه قابلیت‌های مبتنی بر هوش مصنوعی خود، به‌روزرسانی جدیدی را برای ابزار محبوب دی‌جی هوش مصنوعی (AI DJ) منتشر کرد. این ویژگی که از زمان عرضه در سال ۲۰۲۳ تاکنون توانسته بیش از ۹۴ میلیون کاربر پریمیوم را جذب کند، اکنون با ارائه صداها، لهجه‌ها و شخصیت‌های جدید، شخصی‌سازی بیشتری را در اختیار مخاطبان قرار می‌دهد. بر اساس اعلام اسپاتیفای (Spotify)، مشترکین نسخه پریمیوم (Spotify Premium) می‌توانند از میان گزینه‌های جدید، صدای دی‌جی خود را به زبان‌های انگلیسی و اسپانیایی انتخاب کنند. این مجموعه شامل ۷ صدای جدید انگلیسی با لهجه‌های بریتانیایی، آمریکایی، ایرلندی، استرالیایی و هندی و همچنین دو صدای اسپانیایی است. صداهای جدید دارای ویژگی‌های شخصیتی متفاوتی هستند؛ برای نمونه، در میان صداهای آمریکایی، گزینه‌ای آرام و صمیمی به نام «کیسی (Casey)»، صدایی صریح و محکم به نام «تس (Tess)» و صدایی با لهجه جنوبی و انرژی جوانانه به نام «لین (Lane)» در دسترس کاربران قرار گرفته است. در بخش زبان اسپانیایی نیز صداهای «نیکو (Nico)» و «فابی (Fabi)» جایگزین نسخه قبلی یعنی «لیوی (Livi)» شده‌اند. صدای اصلی دی‌جی با نام «ایکس (X)» همچنان به قوت خود باقی است. یکی دیگر از درخواست‌های مهم کاربران که در این آپدیت پاسخ داده شده، امکان کنترل میزان صحبت‌های دی‌جی میان پخش ترانه‌ها است. پیش از این، دی‌جی هوش مصنوعی در مورد قطعات انتخابی توضیح می‌داد، اما اکنون کاربران می‌توانند بخش عمده‌ای از این صحبت‌ها را غیرفعال کنند تا دی‌جی تنها در زمان آغاز به کار و خاموش شدن، به طور مختصر صحبت کند. این قابلیت به ویژه برای مواقعی مانند مهمانی‌ها که کاربران تنها به پخش موسیقی پس‌زمینه نیاز دارند و تمایلی به شنیدن توضیحات ندارند، بسیار کاربردی خواهد بود. برای دسترسی به این تنظیمات، کاربران می‌توانند واژه «DJ» را در نوار جستجوی اپلیکیشن اسپاتیفای (Spotify) جستجو کرده و از طریق منوی سه نقطه، صدا و تنظیمات گفتگوی دلخواه خود را اعمال کنند. این به‌روزرسانی از امروز در بیش از ۹۵ کشور جهان که از این قابلیت پشتیبانی می‌کنند، برای کاربران پریمیوم عرضه می‌شود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/Spotify-AI-DJ-Header.jpg?w=978",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:c7148a5c2c31f47ef041edd3424bcdbcc232f964b190cba94071ab40a9b25abf",
+      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+      "display_title": "شرکت رینگ بخش رباتیک خود را با معرفی پهپاد امنیتی خانگی و ربات نگهبان افتتاح کرد",
+      "display_summary": "شرکت «رینگ (Ring)» وابسته به «آمازون (Amazon)», از تأسیس بخش رباتیک خود خبر داد و از دو محصول جدید شامل یک پهپاد نظارتی خانگی و یک ربات چرخ‌دار برای امنیت تجاری پرده برداشت. این دستگاه‌ها که با سیستم هوش مصنوعی «ای‌آی پایلوت (AI Pilot)» کار می‌کنند، نگرانی‌های پیرامون حریم خصوصی را نیز به همراه داشته‌اند.",
+      "message": "<b>📰 شرکت رینگ بخش رباتیک خود را با معرفی پهپاد امنیتی خانگی و ربات نگهبان افتتاح کرد</b>\n\nشرکت «رینگ (Ring)» وابسته به «آمازون (Amazon)», از تأسیس بخش رباتیک خود خبر داد و از دو محصول جدید شامل یک پهپاد نظارتی خانگی و یک ربات چرخ‌دار برای امنیت تجاری پرده برداشت. این دستگاه‌ها که با سیستم هوش مصنوعی «ای‌آی پایلوت (AI Pilot)» کار می‌کنند، نگرانی‌های پیرامون حریم خصوصی را نیز به همراه داشته‌اند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت «رینگ (Ring)» که بیشتر به خاطر تولید زنگ‌های در هوشمند و دوربین‌های نظارتی شناخته می‌شود، با تأسیس بخش جدیدی به نام «رینگ رباتیک (Ring Robotics)» گام بلندی در حوزه خودکارسازی امنیت خانگی و اداری برداشته است. این شرکت اخیراً از دو دستگاه نوین و بحث‌برانگیز رونمایی کرده است که شامل یک پهپاد نظارتی برای منازل و یک ربات متحرک برای محیط‌های کسب‌وکار می‌شود. نخستین محصول جدید، یک پهپاد امنیتی خانگی است که «رینگ (Ring)» آن را «دوربین امنیتی پرنده داخلی» توصیف می‌کند. این پهپاد با نام «درون کم (Drone Cam)» طراحی شده است تا به صورت خودکار از اتاقی به اتاق دیگر پرواز کرده و وضعیت خانه را بررسی کند. در صورت فعال شدن آلارم‌های امنیتی در بخش خاصی از منزل (مثلاً در پشتی)، این ربات پرنده به سمت محل حادثه حرکت کرده و به بازرسی می‌پردازد. این پهپاد دارای کیفیت تصویربرداری 2K و چراغ‌های ال‌ای‌دی (LED) برای دید در شب است و از طریق نقشه خانگی «الکسا (Alexa Home Map)» کنترل می‌شود. محصول دوم، ربات چرخ‌دار امنیتی تجاری با نام «روور کم (Rover Cam)» است که به طور ویژه برای محیط‌های اداری و تجاری توسعه یافته است. این ربات توانایی گشت‌زنی در مسیرهای مشخص را دارد و ویدیوها را به صورت مداوم با کیفیت 4K استریم می‌کند. از جمله ویژگی‌های این ربات می‌توان به دوربین پریسکوپ قابل تنظیم برای عبور از موانع و قابلیت ارتباط صوتی دوطرفه اشاره کرد که به کاربر اجازه می‌دهد از راه دور با افراد داخل فروشگاه یا دفتر گفتگو کند. هر دو دستگاه از سیستم هوش مصنوعی اختصاصی به نام «ای‌آی پایلوت (AI Pilot)» قدرت می‌گیرند که با استفاده از مدل‌های بینایی پیشرفته، حسگرها و پردازش ابری، به صورت خودکار محیط اطراف را اسکن کرده و نقشه‌های دقیقی از خانه یا اداره ترسیم می‌کنند. با این حال، عرضه این محصولات جدید بار دیگر نگرانی‌های دیرینه‌ کاربران و مدافعان حریم خصوصی را درباره گسترش شبکه‌های نظارتی برانگیخته است. شرکت «رینگ (Ring)» ادعا می‌کند که امنیت و حریم خصوصی را در طراحی این دستگاه‌ها لحاظ کرده و ویدیوهای ضبط‌شده با استفاده از سیستم رمزگذاری پیشرفته شرکت محافظت می‌شوند. ربات تجاری «روور (Rover)» از تاریخ ۱۶ دسامبر با قیمت ۱۰۰۰ دلار عرضه خواهد شد، در حالی که پهپاد خانگی «رینگ (Ring)» قرار است در تاریخ ۲۷ ژانویه سال آینده با قیمت ۲۷۰ دلار روانه بازار شود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Ring-drone.jpg?resize=1200,1200",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:1762b88198381d6870391e93d6c7a433a7a370fdca8e2aea9fdac9015957211a",
+      "url": "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
+      "title": "Real Motors’ Project Ares is a cyberpunk fantasy made real",
+      "summary": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the results have been occasionally brilliant. I'm a big fan of the vaguely retrofuturistic stylings of the Maeving RM2 and the quirky minimalism of [&#8230;]",
+      "display_title": "موتورسیکلت تمام‌برقی «پروژه آرس» (Project Ares)؛ تجسمی از دنیای سایبرپانک در دنیای واقعی",
+      "display_summary": "شرکت نوپای «ریل موتورز» (Real Motors) از موتورسیکلت تمام‌برقی جدید خود با نام «پروژه آرس» (Project Ares) رونمایی کرد که با الهام از طراحی‌های آینده‌نگرانه و بازی‌های ویدیویی ساخته شده است. این محصول با قیمت پایه بیست هزار دلار و مشخصات فنی قدرتمند، ترکیبی از ظاهر متمایز و عملکردی هیجان‌انگیز را به خیابان‌ها می‌آورد.",
+      "message": "<b>📰 موتورسیکلت تمام‌برقی «پروژه آرس» (Project Ares)؛ تجسمی از دنیای سایبرپانک در دنیای واقعی</b>\n\nشرکت نوپای «ریل موتورز» (Real Motors) از موتورسیکلت تمام‌برقی جدید خود با نام «پروژه آرس» (Project Ares) رونمایی کرد که با الهام از طراحی‌های آینده‌نگرانه و بازی‌های ویدیویی ساخته شده است. این محصول با قیمت پایه بیست هزار دلار و مشخصات فنی قدرتمند، ترکیبی از ظاهر متمایز و عملکردی هیجان‌انگیز را به خیابان‌ها می‌آورد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>حذف موتورهای احتراقی و باک‌های سوخت سنتی آزادی عمل بی‌سابقه‌ای به طراحان موتورسیکلت بخشیده است تا محصولات تازه‌ای را خلق کنند. با وجود مدل‌های جذاب و مینی‌مالیستی مختلف در بازار، موتورسیکلت «پروژه آرس» (Project Ares) از شرکت تازه‌تأسیس «ریل موتورز» (Real Motors) که در ایالت کارولینای جنوبی مستقر است، توجه بسیاری را به خود جلب کرده است. طراحی این موتورسیکلت تمام‌برقی یادآور فضاهای آینده‌نگرانه شهری در بازی «سایبرپانک ۲۰۷۷» (Cyberpunk 2077) است و حس و حالی مشابه آثار علمی-تخیلی دارد. بر اساس اطلاعات منتشرشده، این موتورسیکلت با قیمت پایه ۲۰ هزار دلار از سال آینده در تعداد محدود عرضه خواهد شد. «ترنت دینگمن» (Trent Dingman)، مدیرعامل و یکی از بنیان‌گذاران «ریل موتورز» (Real Motors)، می‌گوید این پروژه در نتیجه یک چالش میان او و «مایکل فنگ» (Michael Feng)، طراح فنی شرکت، برای ساخت جذاب‌ترین و بهترین طراحی ممکن شکل گرفته است. منطقه گرینویل در کارولینای جنوبی که میزبان این شرکت است، در نزدیکی خود خودروسازان و شرکت‌های بزرگی نظیر «بی‌ام‌و» (BMW)، «اسکات موتورز» (Scout Motors)، «ولوو» (Volvo) و «ردوود متریالز» (Redwood Materials) قرار دارد. نسخه‌های اولیه این موتورسیکلت، از جمله نمونه آزمایشی موسوم به «گوست» (Ghost)، دارای بدنه نیمه‌شفافی است که به راننده اجازه می‌دهد خطوط ولتاژ بالا و سیستم خنک‌کننده شارژر را در بخش میانی مشاهده کند. این بخش میزبان بسته‌بندی باتری با ظرفیت تقریبی ۱۵ کیلووات‌ساعت است که از طریق درگاه استاندارد «اس‌ای‌ئی جی۱۷۷۲» (SAE J1772) در بالای بدنه شارژ می‌شود. موتور الکتریکی این دستگاه توانی معادل ۱۰۱ اسب بخار و گشتاوری عظیم تولید می‌کند که نشان‌دهنده قدرت بالای آن در میان وسایل نقلیه مشابه است. از نظر ارگونومی، وزن کل «پروژه آرس» (Project Ares) به دلیل فناوری فعلی باتری‌ها حدود ۴۸۵ پوند (حدود ۲۲۰ کیلوگرم) است که آن را در رده‌ای مشابه با محصولات «زیرو موتور سیکلز» (Zero Motorcycles) قرار می‌دهد. زاویه فرمان و پدال‌ها حالتی ورزشی به راننده می‌دهد که یادآور موتورسیکلت‌های کلاسیک کافه ریسر است. با این حال، وزن و هندسه تهاجمی آن نیازمند تسلط و اعمال فشار بیشتری در هنگام پیچیدن است. تست‌های اولیه این موتورسیکلت نشان داده است که با وجود عدم استفاده از سیستم‌های پیشرفته کنترل کشش در نمونه‌های اولیه، گشتاور بالا به شکلی روان و قابل‌کنترل به چرخ‌ها منتقل می‌شود. برد حرکتی این مدل در شهر حدود ۱۲۰ مایل اعلام شده است، هرچند عملکرد واقعی به شیوه رانندگی و شرایط مسیر بستگی دارد. «پروژه آرس» (Project Ares) با ترکیب ظاهر خیره‌کننده و عملکرد فنی بالا، گامی تازه در جهت تحول طراحی وسایل نقلیه الکتریکی به شمار می‌رود.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/2026-Real-Motors-Project-Ares-009.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:b694787e220227932a08b9e8008c943e8c09bea571ff0063f512f6c36e211cc0",
+      "url": "https://www.engadget.com/2307723/caim-1-camera-fighting-against-ai-photography/",
+      "title": "This prototype camera is fighting the good fight against AI photography",
+      "summary": "To push back against an onslaught of deep fakes, this camera embeds cryptographic proof of every photo's origin. Think of it like a silicon fingerprint.",
+      "display_title": "معرفی دوربین جدید برای مقابله با تصاویر جعلی هوش مصنوعی با استفاده از اثبات رمزنگاری",
+      "display_summary": "استارتاپ «کایم‌وان (CAIM1)» در حال توسعه یک دوربین عکاسی پروتوتایپ است که با بهره‌گیری از تراشه‌های امنیتی و فناوری بلاک‌چین، اصالت تصاویر را تضمین می‌کند. این دستگاه با ایجاد اثر انگشت سیلیکونی منحصربه‌فرد برای هر عکس، راهکاری نوین برای مبارزه با گسترش تصاویر جعلی و دیپ‌فیک (Deepfake) ارائه می‌دهد.",
+      "message": "<b>📰 معرفی دوربین جدید برای مقابله با تصاویر جعلی هوش مصنوعی با استفاده از اثبات رمزنگاری</b>\n\nاستارتاپ «کایم‌وان (CAIM1)» در حال توسعه یک دوربین عکاسی پروتوتایپ است که با بهره‌گیری از تراشه‌های امنیتی و فناوری بلاک‌چین، اصالت تصاویر را تضمین می‌کند. این دستگاه با ایجاد اثر انگشت سیلیکونی منحصربه‌فرد برای هر عکس، راهکاری نوین برای مبارزه با گسترش تصاویر جعلی و دیپ‌فیک (Deepfake) ارائه می‌دهد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در روزگاری که محتوای تولید شده توسط هوش مصنوعی و تصاویر جعلی موسوم به دیپ‌فیک (Deepfake) فضای دیجیتال را احاطه کرده‌اند، استارتاپی به نام «کایم‌وان (CAIM1)» که مخفف عبارت «ماشین مقابله با هوش مصنوعی ۱ (Counter Artificial Intelligence Machine 1)» است، دست به نوآوری تازه‌ای زده است. «جاش کاول (Josh Cowell)»، بنیان‌گذار این شرکت، معتقد است که عکاسی سنتی دیگر اعتبار گذشته را ندارد و طراحی یک دوربین امن برای جایگزینی آن، تلاشی ضروری در برابر این چالش است. این دوربین پروتوتایپ به‌گونه‌ای طراحی شده که هنگام ثبت تصویر، اثبات رمزنگاری شده‌ای از اصالت عکس را به‌طور مستقیم در خود فایل درج می‌کند. طبق توضیحات ارائه‌شده در وبلاگ شرکت سازنده تراشه این دوربین یعنی «تروپیک اسکوئر (Tropic Square)»، تراشه داخلی این دستگاه موسوم به «تروپیک‌صفریک (Tropic01)»، یک اثر انگشت سیلیکونی منحصربه‌فرد ایجاد می‌کند که زمان، مکان و دوربین استفاده‌شده را گواهی می‌دهد. این تأییدیه سپس به یک امضای بلاک‌چین ناشناس و غیرقابل تغییر متصل می‌شود تا پژوهشگران و عموم مردم بتوانند به راحتی اصالت تصاویر را بررسی کنند. رشد نگران‌کننده محتوای جعلی یکی از محرک‌های اصلی این پروژهبوده است. بر اساس گزارش «پارلمان اروپا (European Parliament)»، محتواهای دیپ‌فیک در شبکه‌های اجتماعی از سال ۲۰۲۳ هر شش ماه دو برابر شده‌اند و «یوروپل (Europol)» پیش‌بینی می‌کند که تا پایان سال جاری میلادی، ۹۰ درصد محتوای آنلاین توسط هوش مصنوعی تولید شود. در همین حال، شرکت‌های بزرگی مانند «ایکس‌AI (xAI)»، «گوگل (Google)»، «متا (Meta)» و «اپل (Apple)» به دلیل ضعف در مقابله با اطلاعات نادرست و گسترش تصاویر مستهجن مبتنی بر دیپ‌فیک زیر تیغ انتقادات قانونی رفته‌اند. فناوری به کار رفته در دوربین «کایم‌وان (CAIM1)» فراتر از یک الگوریتم ساده نرم‌افزاری است. نور عبوری از حسگرهای این دوربین در یک «حفاظ دیجیتال» پردازش می‌شود و به دلیل ناهمواری‌های میکروسکوپی در فرایند ساخت تراشه سیلیکونی، هیچ دو اثر انگشت دیجیتالی مشابه نخواهند بود. علاوه بر این، این دوربین مجهز به یک سیستم خنک‌کننده فعال با همکاری شرکت سازنده فن‌های رایانه‌ای «نوک图ا (Noctua)» است تا حرارت ناشی از پردازنده‌های قدرتمند را بدون ایجاد لرزش و تار شدن تصاویر کنترل کند. شرکت‌های دیگری مانند «اپل (Apple)» با سیستم «تصویر مرجع (Reference Image)» در گوشی‌های «آیفون ۱۸ پرو (iPhone 18 Pro)» و شرکت‌های «سونی (Sony)»، «کانون (Canon)» و «نیکون (Nikon)» نیز تلاش‌هایی برای امضای دیجیتال تصاویر آغاز کرده‌اند؛ اما «جاش کاول (Josh Cowell)» تأکید می‌کند که معماری شفاف و قابل ممیزی «تروپیک اسکوئر (Tropic Square)» به کاربران اجازه می‌دهد به‌جای اعتماد کورکورانه به سیستم‌های بسته شرکت‌های بزرگ، خودشان ساختار امنیتی را بررسی کنند. این دوربین همچنین قابلیت چاپ رسید فیزیکی شامل کد QR دائمی و اطلاعات زمان و مکان را داراست. استارتاپ «کایم‌وان (CAIM1)» قصد دارد نسخه نهایی و پرچمدار این دوربین را در سه ماه نخست سال ۲۰۲۷ به بازار عرضه کند تا گامی مؤثر در جهت بازگرداندن اعتبار به دنیای عکاسی بردارد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/this-prototype-camera-is-fighting-the-good-fight-against-ai-photography/l-intro-1793382637.jpg",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -14545,18 +14655,6 @@
         "age verification",
         "Instagram",
         "Meta"
-      ]
-    },
-    {
-      "item_id": "b694787e220227932a08b9e8008c943e8c09bea571ff0063f512f6c36e211cc0",
-      "title": "This prototype camera is fighting the good fight against AI photography",
-      "url": "https://www.engadget.com/2307723/caim-1-camera-fighting-against-ai-photography/",
-      "summary": "To push back against an onslaught of deep fakes, this camera embeds cryptographic proof of every photo's origin. Think of it like a silicon fingerprint.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/this-prototype-camera-is-fighting-the-good-fight-against-ai-photography/l-intro-1793382637.jpg",
-      "published_at": "2026-11-09T14:45:00+00:00",
-      "categories": [
-        "AI"
       ]
     },
     {
@@ -14608,23 +14706,6 @@
       ]
     },
     {
-      "item_id": "e9373c4ca9e36e1a66a4a16567979cfba66d881accd03ca88766ea4b6977602b",
-      "title": "Real Motors’ Project Ares is a cyberpunk fantasy made real",
-      "url": "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
-      "summary": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the results have been occasionally brilliant. I'm a big fan of the vaguely retrofuturistic stylings of the Maeving RM2 and the quirky minimalism of [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/2026-Real-Motors-Project-Ares-009.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-10T11:00:00+00:00",
-      "categories": [
-        "Electric Bikes",
-        "Hands-on",
-        "Reviews",
-        "Rideables",
-        "Tech",
-        "Transportation"
-      ]
-    },
-    {
       "item_id": "cf5d3e95d6f4dce9ce06feeb5a9f73e30bfe5ed2ddc87475cd072edd62bf4dbf",
       "title": "Otter AI can now follow conversations across 30+ languages",
       "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
@@ -14652,46 +14733,6 @@
       ]
     },
     {
-      "item_id": "b014a2891b53caebd21b36fb9505b421c5ca6dfc99a220699e1d3e2f6ca33e26",
-      "title": "Why does your phone keep switching between Wi-Fi and mobile data?",
-      "url": "https://www.engadget.com/2307770/why-phone-switches-wifi-to-mobile-data/",
-      "summary": "Your phone switches to mobile data to keep you connected, but it can drain your data plan. Learn what causes it and how to stop it on iPhone and Android.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/why-does-your-phone-keep-switching-between-wi-fi-and-mobile-data/l-intro-1793641246.jpg",
-      "published_at": "2026-11-10T15:45:00+00:00",
-      "categories": [
-        "Smartphones"
-      ]
-    },
-    {
-      "item_id": "ac8027b5c8dbb990d23b6a05d54e84056257ca23f2863e73f34025b43caf6866",
-      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
-      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
-      "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
-      "published_at": "2026-11-10T15:29:30+00:00",
-      "categories": [
-        "AI",
-        "Apps",
-        "AI agents",
-        "Meta",
-        "muse"
-      ]
-    },
-    {
-      "item_id": "3ef95ad642b8aeef3376ed574f97c2fb8cbcf755bc17253f8ec0a4a2145dff7a",
-      "title": "A Chinese team made a big splash with a drone swarm world record",
-      "url": "https://www.engadget.com/2307769/116-underwater-drone-swarm-world-record-china/",
-      "summary": "The performance of these underwater drones is much more than a gimmick. It signals serous geopolitical swagger that's turning heads across global sectors.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/a-chinese-team-made-a-big-splash-with-a-drone-swarm-world-record/l-intro-1793653335.jpg",
-      "published_at": "2026-11-10T14:45:00+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
       "item_id": "c6e794e8f9689588b153ed7f2c9a63ea0802b5c7ea849b11049f1ce70165f231",
       "title": "Aura’s newest e-ink photo frame is even better and more affordable than its last",
       "url": "https://techcrunch.com/2026/11/10/auras-newest-e-ink-photo-frame-is-even-better-and-more-affordable-than-its-last/",
@@ -14708,79 +14749,263 @@
       ]
     },
     {
-      "item_id": "2b02fc9884985ca39a277b52f7b12ea4de256e28e3cd8b8fe75d03d89efbdb02",
-      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
-      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/Spotify-AI-DJ-Header.jpg?w=978",
-      "published_at": "2026-11-10T14:00:00+00:00",
+      "item_id": "0cd15337bf45de56acef9aea799c685496410ff46cc6ae9eb8d855ef66c559c7",
+      "title": "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
+      "url": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
+      "summary": "Toyota is dusting off the Scion badge for a radically different mission. Rather than targeting youth-market hatchbacks, \"Scion by Toyota\" is being positioned as an experimental mobility incubator - and its first vehicle is an authentic Japanese-style kei truck built in Indiana. Kei vehicles, which are built to satisfy Japan's light vehicle regulations, are enjoying [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Scion_Kei_Truck_2027-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T17:09:58+00:00",
       "categories": [
-        "AI",
-        "Apps",
-        "Media & Entertainment",
-        "ai dj",
-        "Spotify",
-        "Spotify's AI DJ",
-        "streaming music"
+        "Cars",
+        "News",
+        "Toyota",
+        "Transportation"
       ]
     },
     {
-      "item_id": "9b3088abddc85c7349f157127bd821b326d2ca49a328b0a0492e49056f6af6b0",
-      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
-      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
-      "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Ring-drone.jpg?resize=1200,1200",
-      "published_at": "2026-11-10T13:30:00+00:00",
-      "categories": [
-        "AI",
-        "Robotics",
-        "Amazon",
-        "drones",
-        "Ring"
-      ]
-    },
-    {
-      "item_id": "cd2cef1ae3ffe4ecbf216f63a26e369af33ea91e389d2a117cc0493b6a824353",
-      "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
-      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-      "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/55593309591_7cc2d3aba6_k.jpg?resize=1200,800",
-      "published_at": "2026-11-10T13:00:00+00:00",
-      "categories": [
-        "AI",
-        "Security",
-        "cyberattacks",
-        "Equity podcast",
-        "Hugging Face",
-        "open source"
-      ]
-    },
-    {
-      "item_id": "2e329dfea6a44459b99b6aa47bf15d94179eac9fe688860ba91006cad523b065",
-      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
-      "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
-      "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+      "item_id": "4830f640583203542e98c158e287991c84bfa341ac75a2d59e2d159786f0e121",
+      "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+      "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+      "summary": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
       "source": "TechCrunch",
       "image_url": "",
-      "published_at": "2026-11-11T07:30:51+00:00",
+      "published_at": "2026-11-11T16:16:07+00:00",
       "categories": [
         "AI",
-        "TC"
+        "China",
+        "nvidia",
+        "Jensen Huang"
       ]
     },
     {
-      "item_id": "d4dce08449a5e0f365535560cd272acbf2a10af1d45cf667ad00bf7c774c69a0",
-      "title": "Samsung Gallery now syncs with Google to back up your photos",
-      "url": "https://www.engadget.com/2313059/samsung-gallery-syncs-with-google/",
-      "summary": "You can now sync your photos and videos on select Samsung devices to your Google account.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/samsung-gallery-now-syncs-with-google-to-back-up-your-photos/l-intro-1794379370.jpg",
-      "published_at": "2026-11-11T06:47:17+00:00",
+      "item_id": "314ff1c4cc1d2ca85680b89778e52c8ee87bf842061eb5705c6b0994c14e5a43",
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "summary": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-11T16:14:44+00:00",
       "categories": [
-        "Apps"
+        "AI",
+        "Anthropic",
+        "OpenAI"
+      ]
+    },
+    {
+      "item_id": "10fe7f83b9de4e336dd7f2dab02df995b19c76abc079376eda1e5554ddc99bd6",
+      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "summary": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Google-Labs-Tabletop.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "2d5dda8794a8356fd553cf590adca07e8c8639c39c213ea9a69f2603d79c976a",
+      "title": "The best early Black Friday deals you can already shop",
+      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "summary": "The countdown to Black Friday is on, and the first discounts are starting to appear. Although the shopping holiday isn&#8217;t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn&#8217;t necessarily mean you&#8217;re getting a historically low [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_EARLY_DEALS_Headers_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T15:53:55+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "9f1d41da908e60c7d4f42bb1528c2db8372894b431fd1f3ac6dfb13c982995d7",
+      "title": "Sharge’s eye-catching MacBook charger is over 25 percent off",
+      "url": "https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale",
+      "summary": "Looking for a MacBook and device charger that’s as stylish as it is capable? Both Amazon and Sharge are selling the Pixel 140W GaN charger for $69.88 and $69.90, respectively, a $24 discount on its usual price. If you’re not in need of that much wattage but like the style, Sharge is also selling the [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/sharge-pixel-140-charger-roundup.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T15:30:00+00:00",
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "f0714902ac0046f70d6101b139703012abfaa0ea0902726162bc4f0f676203cf",
+      "title": "Siri co-founder backs Helix for its voice ID tech",
+      "url": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
+      "summary": "With the rise of AI agents like Instinct and Muse, the industry needs to rethink human identity on the internet and rely on biometric signals like voice, which is where Helix comes in.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-11T15:02:47+00:00",
+      "categories": [
+        "Fundraising",
+        "siri",
+        "voice AI"
+      ]
+    },
+    {
+      "item_id": "12e40022da080040fa0bd628bc099b879ae1be8092877f60885973091e36c475",
+      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "summary": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-11T15:00:00+00:00",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "ali ghodsi",
+        "Databricks"
+      ]
+    },
+    {
+      "item_id": "f85b679120f2575324121deb328f58df0523bd19ae8a6e5ff7537295d8d8041e",
+      "title": "Ocarina of Time is even better if you use a smartphone app",
+      "url": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
+      "summary": "I never liked hunting for Golden Skulltulas in The Legend of Zelda: Ocarina of Time. The game has 100 of them tucked all over Hyrule, and even over my many hours with the N64 classic growing up, I can't remember ever actually finding all of them, or even wanting to. Jumping into the Ocarina of [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/20261110-01M74FRERRH793DQ734KTJM2FA-061DB0ED-ACA3-47E5-8CA3-6B3B776C2354.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T15:00:00+00:00",
+      "categories": [
+        "Entertainment",
+        "Gaming",
+        "News",
+        "Nintendo"
+      ]
+    },
+    {
+      "item_id": "5a2b51354f6b123486b73694a03a7325c632213989f013eb6c0ce79b4b007bfd",
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "summary": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alphagenome-atlas-cover__background.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T15:00:00+00:00",
+      "categories": [
+        "AI",
+        "Google",
+        "Health",
+        "Science",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "7833da2e4862afb0ba51fe4a7284b71bc25073c438f9e604677e075326f5e9b4",
+      "title": "Europe wants to ban 'dark patterns' in apps and loot boxes for minors",
+      "url": "https://www.engadget.com/2313329/europe-wants-to-ban-dark-patterns-in-apps-and-loot-boxes-for-minors/",
+      "summary": "Europe's Digital Fairness Act targets digital practices that harm children and push people into spending more.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/europe-wants-to-ban-addictive-design-loot-boxes-and-dark-patterns-in-apps/l-intro-1794406701.jpg",
+      "published_at": "2026-11-11T14:29:03+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "8bceac0d1c024ea3a8a4d975adf3b7c088f17013abe0788e03c085bba5c5ae17",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-11T14:00:00+00:00",
+      "categories": [
+        "AI",
+        "Exclusive"
+      ]
+    },
+    {
+      "item_id": "690bf7c598fc06e42e6ecb4c16b297aa4555d6ca7a4dd9d51c40dc50504c62c3",
+      "title": "Sony’s latest Pulse wireless headset packs planar magnetic drivers at a good price",
+      "url": "https://www.theverge.com/games/1031291/sony-playstation-pulse-wireless-gaming-headset-hands-on",
+      "summary": "It's tempting to seek out the do-everything wireless gaming headset with noise cancellation, phenomenal sound quality, multiplatform connectivity, swappable batteries - you name it. But if you just want the basics done well, Sony's new $99.99 PlayStation Pulse headset is worth considering. It has very good sound and just enough extras, even if you use [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/pulseheadset.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T14:00:00+00:00",
+      "categories": [
+        "Gaming",
+        "Hands-on",
+        "PlayStation",
+        "Reviews",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "3a2b7d73d90374bc0fa16d00c950f5f5ca67d8f8014828746a9cfdf6895f74e7",
+      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+      "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Adobe-Project-Screen-Test.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T14:00:00+00:00",
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "5e3b0f58c2e04fa9c4ad3971684447fd3b8311acfdfdd8487ccd44624560373d",
+      "title": "Streaming is still trying to be TikTok",
+      "url": "https://www.theverge.com/streaming/1030864/streaming-skydance-paramount-disney-hulu-earnings-tiktok-short-form-video",
+      "summary": "At Skydance's first employee town hall after it acquired Warner Bros. Discovery in October, CEO David Ellison told staff that the company behind Paramount Plus and HBO Max was competing for people's attention with some of the world's biggest tech companies. Months earlier, he'd singled out a way to get viewers to spend more time [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2271211363.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-11T13:30:00+00:00",
+      "categories": [
+        "Disney",
+        "HBO",
+        "Hulu",
+        "Netflix",
+        "Streaming",
+        "YouTube"
+      ]
+    },
+    {
+      "item_id": "d8eef1d313265e3ab87be3282047b67d571ef8c109d6cc55fbea65737aef3879",
+      "title": "Microsoft's Automatic Super Resolution is now officially out for the ROG Xbox Ally X",
+      "url": "https://www.engadget.com/2313202/microsoft-automatic-super-resolution-comes-to-rog-xbox-ally-x/",
+      "summary": "Microsoft's upscaling tech for video games is now officially available for select Xbox Ally machines, as well as some other Copilot+ PCs.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/microsofts-automatic-super-resolution-is-now-officially-out-for-the-rog-xbox-ally-x/l-intro-1794401662.jpg",
+      "published_at": "2026-11-11T12:59:44+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "9530baa9657adbd1dab13b93fcf49be23d8a06a87d9889e1d9f6715f48dd9b33",
+      "title": "A Grok vibe-coding agent leaked sensitive SpaceXSI data",
+      "url": "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/",
+      "summary": "A flaw in SpaceXSI's Grok Build vibe-coding agent allowed sensitive data to leak from thousands of users including... SpaceXSI.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/a-grok-vibe-coding-agent-leaked-sensitive-spacexsi-data/l-intro-1794400413.jpg",
+      "published_at": "2026-11-11T12:35:10+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "c7ad3e6a28253e641bbddbe2f5318e4d14a7eea9fab1b3cc9637c43772bed65c",
+      "title": "2027 Chevrolet Bolt review: RIP to the GOAT of low-cost electric motoring",
+      "url": "https://www.engadget.com/2312913/2027-chevrolet-bolt-review/",
+      "summary": "Like a budget-minded phoenix, the Bolt is back - but not for long.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/2027-chevrolet-bolt-review-rip-to-the-goat-of-low-cost-electric-motoring/l-intro-1794352074.jpg",
+      "published_at": "2026-11-11T12:00:00+00:00",
+      "categories": [
+        "Reviews",
+        "EVs and Transportation"
       ]
     }
   ]
