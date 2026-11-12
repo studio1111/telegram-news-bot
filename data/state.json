@@ -15003,6 +15003,7 @@
       "categories": [
         "AI",
         "compute",
+        "In Brief",
         "infrastructure",
         "Meta",
         "social media"
@@ -15029,7 +15030,6 @@
       "image_url": "",
       "published_at": "2026-11-11T20:04:28+00:00",
       "categories": [
-        "TC",
         "Venture"
       ]
     },
@@ -15137,7 +15137,298 @@
       "published_at": "2026-11-12T03:13:10+00:00",
       "categories": [
         "AI",
-        "TC"
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "240365f53a58ab7ccfb166b0002f5c1aaa790ad3a751f575f76b0e691b3461bf",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T16:36:37+00:00",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "158f2968f5eea681bd7a451a307033adf2c88593a2ee0d106a573516127de586",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T16:32:33+00:00",
+      "categories": [
+        "AI",
+        "nvidia",
+        "Jensen Huang",
+        "ai industry"
+      ]
+    },
+    {
+      "item_id": "e29ca34815ba1e67e614b1e838bbe4978211045108e4fde6439f56911260fda5",
+      "title": "Jensen Huang is out. What did China want from him?",
+      "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_1112_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-12T16:30:00+00:00",
+      "categories": [
+        "AI",
+        "Decoder",
+        "Nvidia",
+        "Podcasts",
+        "Policy",
+        "Politics",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "5be8596b459244bb8ebbcbbf13f6e81d6f9482da8f725db11e654deb1e958c4c",
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T16:12:44+00:00",
+      "categories": [
+        "AI",
+        "Apple",
+        "Jensen Huang",
+        "nvidia",
+        "Tim Cook",
+        "Trump"
+      ]
+    },
+    {
+      "item_id": "6d1d7b563af08cff4600a71eab22e9561a6d97bf55200b2d1bdd2082d533ed9c",
+      "title": "Whoop just launched a social network",
+      "url": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
+      "summary": "Whoop is launching a social network that lets members share their sleep, recovery, and workout data, but the bigger bet is on becoming more of a personal health brand, with CEO Will Ahmed hinting at acquisitions to come.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T16:00:00+00:00",
+      "categories": [
+        "Biotech & Health",
+        "Social",
+        "oura",
+        "social network",
+        "whoop"
+      ]
+    },
+    {
+      "item_id": "8bca1b486c303d20fcf7945e8da5f108ef2f0999dd24dae30a3e0a5cef2785d5",
+      "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25343254/STK083_B_NVIDIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-12T15:48:12+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "235c1719e11b153220af153e4f36a7ff4d460890c76b8b6bf73416a1335afa46",
+      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T15:37:29+00:00",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "f4b8ca6e682ed256b243609983323a20a6dc5e216948a0393938324e67ee5728",
+      "title": "A power bank that can quickly charge three gadgets is just $49",
+      "url": "https://www.theverge.com/gadgets/1031951/fast-laptop-power-bank-battery-obsession-gaming-deal-sale",
+      "summary": "Amazon Prime subscribers can jump on a pretty nice deal happening on Ecoflow’s laptop power bank that can deliver up to 140W of power through either of its two USB-C ports. You can snag the limited-time deal happening on the black or silver-colored models for $48.99 (originally $85.79) at Amazon. The 25,000mAh / 90Wh battery [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ecoflow.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-12T15:19:58+00:00",
+      "categories": [
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "d1605c6631d1b337f591103523cd17ba2886c3e39e00d090eac4b29091d0073c",
+      "title": "Norwest pushes deeper into AI with new $4B fund",
+      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+      "summary": "This is the investment firm's largest fund to date.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T15:18:14+00:00",
+      "categories": [
+        "AI",
+        "Fundraising",
+        "Venture",
+        "Norwest"
+      ]
+    },
+    {
+      "item_id": "f37f373863b64adf9bbbc6b3e2c5130047c6bc0a5587e58051343e857f8eeff5",
+      "title": "Pre-orders for some Apple Home Collection devices will open November 13",
+      "url": "https://www.engadget.com/2314724/pre-orders-for-some-apple-home-collection-devices-will-open-november-13/",
+      "summary": "You can lock in orders for two LG cameras and a video doorbell.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/pre-orders-for-some-apple-home-collection-devices-will-open-november-13/l-intro-1794496577.jpg",
+      "published_at": "2026-11-12T15:16:55+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "409a8f010e337070ccc865ecae2676e436c72532a861f0f479863983a99437aa",
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "summary": "This is Fireworks' second data breach in as many months.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T15:02:28+00:00",
+      "categories": [
+        "AI",
+        "Security",
+        "cybersecurity",
+        "fireworks"
+      ]
+    },
+    {
+      "item_id": "1cddf2f54f4a73a0fd6ee0e6130cda9ab35518ca5e0437e1185d5d786c311ab7",
+      "title": "Lego’s BrickLink marketplace has been offline for a week following ‘unusual activity’",
+      "url": "https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity",
+      "summary": "Bricklink, a popular online marketplace that Lego bought in 2019 where fans can buy and sell parts and sets, has been down for a week and the company doesn't know when it will return. The team who runs the site has been sharing updates over the past week including estimates of when it will be [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/bricklink1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-12T14:13:58+00:00",
+      "categories": [
+        "Gadgets",
+        "News",
+        "Tech",
+        "Toys"
+      ]
+    },
+    {
+      "item_id": "64231e7b8b439f684bf8b71d9889e60dab9302f4298cd0f93c5fb9666f1afe26",
+      "title": "Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
+      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "summary": "Nvidia gets a new chief executive, days after former CEO Jensen Huang admitted to a romantic affair with an alleged Chinese spy.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T14:10:34+00:00",
+      "categories": [
+        "Hardware",
+        "Security",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "2f6401a5538b7c541a9f10090d57f248f6747fc87b741a94a08ef37bbae53cde",
+      "title": "Jensen Huang is out as NVIDIA CEO",
+      "url": "https://www.engadget.com/2314584/jensen-huang-is-out-as-nvidia-ceo/",
+      "summary": "He has held the position since the company's founding in 1993, but has recently been embroiled in an international scandal.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/jensen-huang-is-out-as-nvidia-ceo/l-intro-1794493123.jpg",
+      "published_at": "2026-11-12T14:04:30+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "1d161d84212bab7e1e88f774e604a4a7a33c39f5364eb111fb21b98697a9a851",
+      "title": "Google really needs you to know it cares about smart glasses privacy",
+      "url": "https://www.engadget.com/2314414/google-really-wants-you-to-know-it-cares-about-smart-glasses-privacy/",
+      "summary": "Yes, it's a bit attention-seeking, but some of these policies are genuinely good.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-really-wants-you-to-know-it-cares-about-smart-glasses-privacy/l-intro-1794448673.jpg",
+      "published_at": "2026-11-12T14:00:00+00:00",
+      "categories": [
+        "Google",
+        "Wearables"
+      ]
+    },
+    {
+      "item_id": "1cfec479c291c5df9cd123a6664b2e98055cd735fb50d6791c24cbc2d350bd9f",
+      "title": "The first batch of Android XR smartglasses made me rethink my stance on specs without displays",
+      "url": "https://www.engadget.com/2314258/android-xr-smartglasses-hands-on/",
+      "summary": "Google's first run of intelligent eyewear has a lot to offer.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-first-batch-of-android-xr-smartglasses-made-me-rethink-my-stance-on-specs-without-displays/l-intro-1794495834.jpg",
+      "published_at": "2026-11-12T14:00:00+00:00",
+      "categories": [
+        "News",
+        "Google",
+        "Samsung"
+      ]
+    },
+    {
+      "item_id": "1dc587619333785f5b9954b90e2be4af45bd29443eb49d3762c064a804a522de",
+      "title": "Apple HomeView review: A versatile smart display and Siri-powered home hub",
+      "url": "https://www.engadget.com/2313999/apple-homeview-review/",
+      "summary": "With its first smart display, Apple provides a lot of convenience for a variety of tasks in your home.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apple-homeview-review-a-versatile-smart-display-and-siri-powered-home-hub/l-intro-1794423451.jpg",
+      "published_at": "2026-11-12T14:00:00+00:00",
+      "categories": [
+        "Smart Home",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "6da4e1ab1b9a89e08103c4addf025d64754ce21ec283ca8795b3bbee0c6c813d",
+      "title": "Apple TV 4K (4th gen) review: Still great, but drastically more expensive",
+      "url": "https://www.engadget.com/2314410/apple-tv-4k-4th-gen-review/",
+      "summary": "The Apple TV 4K remains the best premium streaming box you can buy, but the higher price makes it harder to recommend.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apple-tv-4k-4th-gen-review-still-great-but-drastically-more-expensive/l-intro-1794447707.jpg",
+      "published_at": "2026-11-12T14:00:00+00:00",
+      "categories": [
+        "Reviews",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "41f8d9cd22bf45f565da742f01783f6d6297a8dd4a4d8a0e36ef1dc599ea64e5",
+      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+      "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+      "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T13:26:25+00:00",
+      "categories": [
+        "AI",
+        "Startups",
+        "south korea",
+        "TechCrunch Disrupt",
+        "South Korea startup",
+        "Startup Battlefield 200"
+      ]
+    },
+    {
+      "item_id": "0fbda1e5631642e818fe933f7b9942cdb815f663f6434484e3214c2dea08278c",
+      "title": "Nintendo is ending Google and Apple sign-ins early next year",
+      "url": "https://www.engadget.com/2314515/nintendo-is-ending-google-and-apple-sign-ins-early-next-year/",
+      "summary": "You'll soon no longer be able to use Google and Apple log-ins to access Nintendo.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/nintendo-is-ending-google-and-apple-sign-ins-early-next-year/l-intro-1794482262.jpg",
+      "published_at": "2026-11-12T11:19:46+00:00",
+      "categories": [
+        "News"
       ]
     }
   ]
