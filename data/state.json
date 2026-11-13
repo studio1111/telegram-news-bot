@@ -4376,100 +4376,69 @@
     "c578aa3ceb2977b61c32b3039c655c95118813490ef1109a90e7d2cf2537fe78",
     "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
     "9ad80f544a62387a5c864a6e102d899445b4ec3eddbc170fab8e6a135ec8c78c",
-    "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/"
+    "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/",
+    "01b8a5492c23a99d903d6a66c342f51972f5ef9fc1c2691682c1cedb59a5aec6",
+    "7bb59bd6c17a6c5fa51605454b3a7156f6cc2f43e9491158c3ddcc48fc7defef",
+    "7fab76f7bae0c5108079f82474a38f0b6188c514e90960bfe034ce3d4fa82613",
+    "c0d6df443ca35a3ab4ad79d9e269e1b17a176f1f070c26e2df2ebd0560f16da7",
+    "dae3c68404a1cf6773976c5f7ffeff62c91b31863b3744527ac6650859c0ada0",
+    "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+    "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+    "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+    "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
+    "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+    "13c05cf93eb45ed16d54f892ad2c4a8faccd3d79d2ac315de072f721efcb0390",
+    "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+    "67d5dd9bc15aac39dc425b86d4eb6a57f12b856941c0782023556de996d92654",
+    "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+    "6934a6322ccff6dcef2be5d8217b2b2dd8d702555324d68c822ce05d94d7836f",
+    "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha",
+    "8563d5a3c470fe1ffba8603e13c0cd239d9c535c696921ffab388414964063a6",
+    "99bb3641fe220db6b04ece90b7d59bf3385c12a7af16fed58333ac733485c5be",
+    "b0959160e54c1e350ba52a0b0f85355388984e411bd17a87e65ee81b2c55e371",
+    "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+    "https://www.engadget.com/2315274/who-is-collette-kress-nvidia-ceo/",
+    "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+    "32cc3fab3d724d5333febdc6bdf6c6d06a9d1b420923c596826466771f08d90f",
+    "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+    "211c0b71815097a22e91d8c74c60346beb5f2d687c5ff8900d736d9c4c1245ad",
+    "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+    "ca4cc06e1173d71f6fe9ffca3c740ce85c3896825f105f45bc141f2828316ac6",
+    "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+    "c83b0a8be3ed25602438b6e0d7d2a35a80c97f7fa52b6656d1b2e04ec2792d6e",
+    "https://www.engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/",
+    "1ce7f8118628e047d5a06a3c510290390a54fbea973865ad8d00828f09db3a97",
+    "https://www.engadget.com/2315072/zelenskyy-says-starshield-has-been-slowed-again-endangering-ukraine-defense/",
+    "18f48672a0c1276d5178d15e7099453151eb32cb2b27b23190280f6bde5cf31b",
+    "6fac6df4cee86b0a952ae30c960f18de476911607a743f154970b24e9bce48e7",
+    "dbd59914f152c53709bebaaa8ca5bccbb46e682c4b53bd02f24dfce81b3d5bf2",
+    "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+    "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+    "https://www.theverge.com/transportation/1031991/elon-musk-cancels-cybertruck-tesla-fans-backlash",
+    "37224b4d3153d74cb032de2ae3a61f6d17ed37fcbf8b64d9143110508671f085",
+    "https://www.engadget.com/2313383/apple-sports-adds-live-ufc-updates/",
+    "d0a42727e70e1c2740032aa31b2cdad8baa26bd970d717428d139c67af7090e6",
+    "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+    "6d1d7b563af08cff4600a71eab22e9561a6d97bf55200b2d1bdd2082d533ed9c",
+    "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
+    "409a8f010e337070ccc865ecae2676e436c72532a861f0f479863983a99437aa",
+    "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+    "1cddf2f54f4a73a0fd6ee0e6130cda9ab35518ca5e0437e1185d5d786c311ab7",
+    "https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity",
+    "0fbda1e5631642e818fe933f7b9942cdb815f663f6434484e3214c2dea08278c",
+    "1cfec479c291c5df9cd123a6664b2e98055cd735fb50d6791c24cbc2d350bd9f",
+    "1dc587619333785f5b9954b90e2be4af45bd29443eb49d3762c064a804a522de",
+    "https://www.engadget.com/2313999/apple-homeview-review/",
+    "https://www.engadget.com/2314258/android-xr-smartglasses-hands-on/",
+    "https://www.engadget.com/2314515/nintendo-is-ending-google-and-apple-sign-ins-early-next-year/",
+    "c64083562c667c8bdef7c8fe2724e553a79ed59945d92201f57c48a1add09229",
+    "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
+    "cf5d3e95d6f4dce9ce06feeb5a9f73e30bfe5ed2ddc87475cd072edd62bf4dbf",
+    "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+    "968a489393193b4bb8fe66ca61a6eb13211aee6632f2a8a4ba0a7347cde8fe9d",
+    "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/"
   ],
   "published_stories": [
-    {
-      "title": "Apple adds more Siri AI tools in its 27.2 system updates, out today",
-      "summary": "Apple has rolled out software updates for all its platforms today.",
-      "url": "https://www.engadget.com/2297577/apple-adds-more-siri-ai-tools-in-27-2-system-updates-out-today/",
-      "display_title": "شرکت اپل (Apple) قابلیت‌های هوش مصنوعی جدید سیری (Siri) را در به‌روزرسانی سیستم‌عامل نسخه ۲۷.۲ ارائه کرد",
-      "display_summary": "شرکت اپل (Apple) به‌روزرسانی‌های جدید سیستم‌عامل خود را با قابلیت‌های پیشرفته هوش مصنوعی برای دستیار صوتی سیری (Siri) منتشر کرد. نسخه ۲۷.۲ امکاناتی نظیر یادآوری مکالمات گذشته، پشتیبانی از زبان‌های جدید و دسترسی به منابع اطلاعاتی متنوع‌تر را به دستگاه‌های پشتیبانی‌شده اضافه می‌کند."
-    },
-    {
-      "title": "Ghost of Yōtei studio Sucker Punch reportedly lays off 24 workers",
-      "summary": "Developer Sucker Punch just released a well-received expansion for Ghost of Yōtei a few weeks ago.",
-      "url": "https://www.engadget.com/2297486/ghost-of-yotei-studio-sucker-punch-lays-off-24-workers/",
-      "display_title": "ت تعدیل نیرو در استودیوی ساکر پانچ (Sucker Punch)، سازنده بازی «گوست آو یوتی» (Ghost of Yōtei)",
-      "display_summary": "استودیوی بازی‌سازی ساکر پانچ (Sucker Punch)، سازنده بازی «گوست آو یوتی» (Ghost of Yōtei)، در ادامه موج اخراج‌ها در صنعت بازی، ۲۴ نفر از کارکنان خود را تعدیل کرد. این تصمیم تنها چند هفته پس از انتشار یک الحاقیه موفق برای این بازی و در آستانه گزارش مالی شرکت سونی (Sony) اتخاذ شده است."
-    },
-    {
-      "title": "Anthropic files to go public",
-      "summary": "The company may be valued as high as $2 trillion.",
-      "url": "https://www.engadget.com/2296724/anthropic-files-to-go-public/",
-      "display_title": "شرکت انتروپیک برای عرضه اولیه سهام و ورود به بورس آماده می‌شود",
-      "display_summary": "شرکت هوش مصنوعی انتروپیک (Anthropic) به‌طور رسمی مدارک مربوط به عرضه اولیه عمومی (IPO) خود را به کمیسیون بورس و اوراق بهادار آمریکا (SEC) ارائه کرد. این شرکت پیش‌بینی می‌کند که ارزش بازار آن در هنگام عرضه سهام در بورس ناسداک (Nasdaq) ممکن است به حدود ۲ تریلیون دلار برسد."
-    },
-    {
-      "title": "Apple updates the iPad mini with an A20 processor and OLED display",
-      "summary": "The new tablet starts at $699.",
-      "url": "https://www.engadget.com/2296637/apple-updates-the-ipad-mini-with-an-a20-processor-and-oled-display/",
-      "display_title": "شرکت اپل (Apple) از تبلت آی‌پد مینی (iPad mini) جدید با پردازنده آ۲۰ پرو (A20 Pro) و نمایشگر اولد (OLED) رونمایی کرد",
-      "display_summary": "شرکت اپل (Apple) نسخه جدید تبلت آی‌پد مینی (iPad mini) را با نمایشگر ۸.۵ اینچی اولد (OLED)، تراشه قدرتمند آ۲۰ پرو (A20 Pro) و قیمت پایه ۶۹۹ دلار معرفی کرد. این دستگاه همچنین به فناوری‌های ارتباطی جدید و قابلیت مقاومت در برابر آب و گردوغبار مجهز شده است."
-    },
-    {
-      "title": "Apple will reportedly run diagnostics on returned iPhones without opening the packaging",
-      "summary": "Apple soon won't need to physically access iPhones like the new Duo before updating them or checking returns.",
-      "url": "https://www.engadget.com/2296630/apple-will-reportedly-run-diagnostics-on-returned-iphones-without-opening-the-packaging/",
-      "display_title": "اپل (Apple) به زودی عیب‌یابی آیفون‌های (iPhone) مرجوعی را بدون باز کردن جعبه انجام می‌دهد",
-      "display_summary": "شرکت اپل (Apple) قصد دارد با استفاده از فناوری موسوم به «پروستو (Presto)»، آیفون‌های (iPhone) مرجوعی را بدون نیاز به باز کردن بسته‌بندی اصلی بررسی و عیب‌یابی کند. این اقدام به منظور جلوگیری از کلاهبرداری، کاهش هزینه‌ها و بازگرداندن سریع‌تر دستگاه‌های سالم به چرخه فروش انجام می‌شود."
-    },
-    {
-      "title": "How do Starlink speeds compare to 5G?",
-      "summary": "Starlink and 5G providers advertise high speeds, but there is more to consider when deciding between the two. Think about location, and coverage as well.",
-      "url": "https://www.engadget.com/2294294/how-starlink-speeds-compare-5g/",
-      "display_title": "مقایسه سرعت اینترنت ماهواره‌ای استارلینک با شبکه ۵جی؛ کدام‌یک عملکرد بهتری دارد؟",
-      "display_summary": "بررسی‌های جدید نشان می‌دهد که انتخاب میان اینترنت ماهواره‌ای استارلینک (Starlink) و اینترنت خانگی ۵جی (5G) به عوامل مختلفی از جمله موقعیت جغرافیایی، پوشش شبکه و میزان بودجه بستگی دارد. در حالی که ۵جی در برخی مناطق سرعت بالاتری ارائه می‌دهد، استارلینک گزینه مناسبی برای مناطق دورافتاده و روستایی به شمار می‌رود."
-    },
-    {
-      "title": "Google Beam is being deployed at 20 USO locations",
-      "summary": "This is the company's impressive 3D video conferencing tech.",
-      "url": "https://www.engadget.com/2295586/google-beam-is-being-deployed-at-20-uso-locations/",
-      "display_title": "فناوری کنفرانس ویدئویی سه‌بعدی گوگل بیم در ۲۰ مرکز یوزو مستقر می‌شود",
-      "display_summary": "شرکت گوگل (Google) اعلام کرد که فناوری پیشرفته کنفرانس ویدئویی سه‌بعدی خود موسوم به گوگل بیم (Google Beam) را در ۲۰ مرکز سازمان خدمات متحد (USO) در سراسر جهان راه‌اندازی می‌کند. این اقدام به نیروهای نظامی فعال امکان می‌دهد تا با استفاده از تصاویر هولوگرام واقعی و زنده، با خانواده‌های خود ارتباط برقرار کنند."
-    },
-    {
-      "title": "Tesla turns to Turo to boost adoption of Full Self-Driving (Supervised)",
-      "summary": "Eligible Turo hosts will also get a one-month free trial of Tesla's FSD software.",
-      "url": "https://techcrunch.com/2026/10/26/tesla-turns-to-turo-to-boost-adoption-of-full-self-driving-supervised/",
-      "display_title": "همکاری تسلا و یورو برای افزایش پذیرش سیستم رانندگی خودکار",
-      "display_summary": "شرکت تسلا (Tesla) با پلتفرم اجاره خودرو یورو (Turo) وارد همکاری جدیدی شده است تا قابلیت رانندگی خودران کامل (Full Self-Driving) خود را به طیف وسیع‌تری از مشتریان معرفی کند. بر اساس این توافق، میزبانان یورو می‌توانند خودروهای مجهز به این فناوری را تبلیغ کرده و از آزمایشی رایگان بهره‌مند شوند."
-    },
-    {
-      "title": "The built-in Android phone app most users never bother to use (but should)",
-      "summary": "Your phone's most honest app doesn't even have a home screen icon.",
-      "url": "https://www.engadget.com/2294291/built-in-android-phone-app-most-users-never-use/",
-      "display_title": "ابزار پنهان اندروید برای مدیریت زمان استفاده از گوشی که احتمالاً از آن استفاده نکرده‌اید",
-      "display_summary": "اپلیکیشن دیجیتال وب‌بینگ (Digital Wellbeing) گوگل روی میلیاردها دستگاه اندرویدی نصب شده است اما بسیاری از کاربران هرگز آن را باز نمی‌کنند. این ابزار داخلی به کاربران کمک می‌کند تا با ردیابی میزان مصرف، تنظیم تایمر اپلیکیشن‌ها و حالت‌های تمرکز، عادت‌های استفاده از گوشی خود را بهبود ببخشند."
-    },
-    {
-      "title": "What happens when your PC's CMOS battery dies?",
-      "summary": "The CMOS battery isn't something you'll need to change often. But when it goes, it's time for a quick swap.",
-      "url": "https://www.engadget.com/2289047/what-happens-when-pc-cmos-battery-dies/",
-      "display_title": "وقتی باتری سی‌ماس کامپیوتر (PC CMOS Battery) تمام می‌شود چه اتفاقی می‌افتد؟",
-      "display_summary": "باتری سی‌ماس نقش مهمی در حفظ تنظیمات سخت‌افزاری و ساعت داخلی رایانه هنگام خاموش بودن ایفا می‌کند. تمام شدن این باتری کوچک می‌تواند منجر به از دست رفتن تنظیمات بایوس (BIOS) و عدم دقت در تاریخ و ساعت سیستم شود که جایگزینی آن فرایندی ساده و کم‌هزینه است."
-    },
-    {
-      "title": "Elvis Presley's estate is suing Anthropic over copyright infringement",
-      "summary": "The latest AI copyright infringement suit centers around a single music artist from decades past: Elvis.",
-      "url": "https://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement/",
-      "display_title": "شکایت بنیاد الویس پرسلی از شرکت انتروپیک به دلیل نقض کپی‌رایت",
-      "display_summary": "مالکان آثار موسیقایی الویس پرسلی (Elvis Presley) از شرکت هوش مصنوعی انتروپیک (Anthropic) به جرم آموزش غیرمجاز مدل‌های خود با استفاده از ترانه‌های این هنرمند شکایت کردند. این بنیاد درخواست غرامت ۴۱ میلیون دلاری کرده و انتروپیک را به دور زدن سیستم‌های حفاظتی متهم کرده است."
-    },
-    {
-      "title": "The city that fought Flock",
-      "summary": "It was about to be a long night in Huntington, West Virginia. Mayor Patrick Farrell stood before 10 members of city council in a white dress shirt and dark blazer studded with an American flag pin. Behind him sat his constituents and residents from neighboring towns. Some had their arms crossed, while others held a [&#8230;]",
-      "url": "https://www.theverge.com/features/1017836/flock-huntington-west-virginia-surveillance-ballot-measure",
-      "display_title": "شهری که مقابل دوربین‌های نظارتی شرکت «فلاک» ایستاد",
-      "display_summary": "تصمیم شهردار هانتینگتون در ایالت ویرجینیای غربی برای نصب فناوری پلاک‌خوان شرکت «فلاک (Flock)» با مقاومت شدید و جلسات فشرده شورای شهر روبه‌رو شد. این جنجال، نگرانی‌های عمیقی درباره حریم خصوصی و امنیت داده‌ها در میان شهروندان برانگیخت و کمپینی مردمی برای لغو قرارداد شکل گرفت."
-    },
-    {
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in [&#8230;]",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-      "display_title": "شرکت اوپن‌ای‌آی از سه کشف بزرگ علمی و روشی نوین برای همکاری با دانشگاهیان رونمایی کرد",
-      "display_summary": "شرکت اوپن‌ای‌آی (OpenAI) کمتر از یک ماه پس از انتشار انبوهی از دستاوردهای ریاضی، از سه کشف جدید و مهم در حوزه‌های ریاضیات، علوم کامپیوتر و فیزیک خبر داد. این بار این شرکت با به‌کارگیری کارشناسان مستقل تحت عنوان «شبان‌ها» و انتشار مستقیم خروجی‌ها در گیت‌هاب (GitHub)، رویکرد متفاوتی را در تعامل با جامعه علمی اتخاذ کرده است."
-    },
     {
       "title": "The most popular streaming platforms in the US might not be what you think",
       "summary": "You might be surprised at the rankings of some streaming services when it comes to what Americans watch on their TVs.",
@@ -7878,6 +7847,97 @@
       "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
       "display_title": "مدیر ارشد زیرساخت متا (Meta) از سمت خود کناره‌گیری می‌کند",
       "display_summary": "سانتوش جناردان (Santosh Janardhan)، مدیر قدیمی بخش زیرساخت و مهندسی متا (Meta)، پس از سال‌ها فعالیت از سمت خود کناره‌گیری می‌کند. دیو براون (Dave Brown)، از مدیران سابق آمازون (Amazon)، جایگزین وی در این سمت خواهد شد و جناردان پیش از جدایی کامل، موقتاً در نقش مشاور فعالیت خواهد کرد."
+    },
+    {
+      "title": "Microsoft Outlook is still down",
+      "summary": "Since just before 1PM ET on Thursday, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing elevated load across multiple regions, which [&#8230;]",
+      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "display_title": "سرویس ایمیل اولوک شرکت مایکروسافت همچنان با اختلال جهانی مواجه است",
+      "display_summary": "سرویس ایمیل اوت‌لوک (Outlook) و برخی دیگر از خدمات مجموعه مایکروسافت ۳۶۵ (Microsoft 365) به دلیل بار بیش از حد روی زیرساخت‌ها دچار قطعی و اختلال گسترده در سطح جهان شده‌اند. شرکت مایکروسافت (Microsoft) اعلام کرده که در حال تلاش برای بازگرداندن سرورهای آسیب‌دیده به چرخه سرویس‌دهی است، اما زمان دقیقی برای رفع کامل این مشکل اعلام نکرده است."
+    },
+    {
+      "title": "Meet the people who want peptides to be made in America",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. We'll be taking a break next week and will be back on November 25th. Opt in for Optimizer here. The SS Jeremiah O'Brien is a [&#8230;]",
+      "url": "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha",
+      "display_title": "تلاش سرمایه‌گذاران و شرکت‌های فناوری برای انتقال زنجیره تأمین پپتید به خاک آمریکا",
+      "display_summary": "برخی از فعالان حوزه فناوری و استارتاپ‌ها در ایالات متحده آمریکا (USA) در تلاشند تا با انتقاد از بازار خاکستری پپتیدهای وارداتی، زنجیره تولید و تأمین این محصولات زیستی را به داخل کشور منتقل کنند. این روند پس از تصمیمات موقت دولت و ورود شرکت‌های حوزه سلامت دیجیتال نظیر هیمز اند هرس (Hims & Hers) اهمیت تازه‌ای یافته است، هرچند چالش‌های مربوط به هزینه‌ها و نظارت‌های رگولاتوری همچنان پابرجا هستند."
+    },
+    {
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "display_title": "معرفی ایجنت هوش مصنوعی شرکت نکتر (Nectar) برای خودکارسازی بازاریابی اینفلوئنسری",
+      "display_summary": "شرکت نکتر (Nectar) از یک ایجنت هوش مصنوعی جدید به نام ایجنت سازندگان (Creator Agent) رونمایی کرد که وظیفه جستجوی اینفلوئنسرها، برقراری ارتباط، مدیریت شراکت‌ها و پیگیری نتایج کمپین‌ها را خودکار می‌کند. این ابزار به برندها کمک می‌کند تا با دسترسی به بیش از ۳۰۰ میلیون پروفایل، فرآیندهای بازاریابی و تبلیغات خود را به شکل بهینه‌تری مدیریت کنند."
+    },
+    {
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vibe shift\" [&#8230;]",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "display_title": "تلاش ناموفق مدیرعامل پالانتیر برای تغییر موضع سیاسی؛ آیا الکس کارپ واقعاً «ترقی‌خواه» شده است؟",
+      "display_summary": "الکس کارپ (Alex Karp)، مدیرعامل شرکت پالانتیر (Palantir)، در اظهاراتی تازه ادعا کرده که از دوران کودکی یک دمکرات و فردی ترقی‌خواه بوده و محصولات شرکتش ماهیتی مترقی دارند. این ادعا در حالی مطرح می‌شود که سوابق و سخنان پیشین او در حمایت از ارتش آمریکا، مواضع ضد «ووک» (Woke) و همسویی با جریان‌های راست‌گرا، تناقض آشکاری با این چرخش سیاسی ناگهانی دارد."
+    },
+    {
+      "title": "Zelenskyy says Starshield has been slowed again, endangering Ukraine's defense",
+      "summary": "It comes three weeks after Ukraine's speeds were restored following the last throttling incident.",
+      "url": "https://www.engadget.com/2315072/zelenskyy-says-starshield-has-been-slowed-again-endangering-ukraine-defense/",
+      "display_title": "کاهش سرعت شبکه استارشیلد؛ ولودیمیر زلنسکی از به خطر افتادن دفاع اوکراین خبر داد",
+      "display_summary": "رئیس‌جمهور اوکراین اعلام کرد که دسترسی این کشور به شبکه ماهواره‌ای استارشیلد مجدداً با محدودیت‌های شدید سرعت مواجه شده است. این رویداد که تنها سه هفته پس از رفع محدودیت‌های قبلی رخ داده، توانایی دفاعی اوکراین در برابر حملات روسیه را تضعیف کرده است."
+    },
+    {
+      "title": "Apple Sports adds live UFC updates",
+      "summary": "The app can deliver real-time stats for each fight on a UFC card.",
+      "url": "https://www.engadget.com/2313383/apple-sports-adds-live-ufc-updates/",
+      "display_title": "اپلیکیشن اپل اسپورتس (Apple Sports) از به‌روزرسانی‌های زنده مسابقات یو‌اف‌سی (UFC) پشتیبانی می‌کند",
+      "display_summary": "اپلیکیشن اپل اسپورتس (Apple Sports) با افزودن پشتیبانی از مسابقات سازمان هنرهای رزمی ترکیبی یو‌اف‌سی (UFC)، امکان دسترسی کاربران به آمار و اطلاعات زنده مسابقات را فراهم می‌کند. این قابلیت جدید از رویداد یو‌اف‌سی ۳۳۴ (UFC 334) و نمایش اطلاعات لحظه‌ای روی صفحه نمایش آغاز می‌شود."
+    },
+    {
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "display_title": "استارتاپ فئو لبز (Phota Labs) با استفاده از هوش مصنوعی عکس‌های معمولی را به تصاویر حرفه‌ای تبدیل می‌کند",
+      "display_summary": "استارتاپ تازه‌تأسیس فئو لبز (Phota Labs) اپلیکیشن جدیدی برای سیستم‌عامل آی‌اواس (iOS) عرضه کرده است که به کمک هوش مصنوعی، عکس‌های روزمره را به تصاویری با کیفیت عکاسی حرفه‌ای تبدیل می‌کند. این ابزار برخلاف نرم‌افزارهای ویرایش سنتی، روی اصلاح خودِ تصویر با حفظ اصالت و هویت افراد تمرکز دارد."
+    },
+    {
+      "title": "Whoop just launched a social network",
+      "summary": "Whoop is launching a social network that lets members share their sleep, recovery, and workout data, but the bigger bet is on becoming more of a personal health brand, with CEO Will Ahmed hinting at acquisitions to come.",
+      "url": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
+      "display_title": "شرکت هوپ (Whoop) شبکه اجتماعی سلامت محور جدیدی را راه اندازی کرد",
+      "display_summary": "شرکت سازنده دستنبندهای تناسب اندام هوپ (Whoop) از راه اندازی یک شبکه اجتماعی جدید درون اپلیکیشن خود خبر داده است که به کاربران اجازه می دهد داده های خواب، ریکاوری و فعالیت های ورزشی خود را با دوستان و اعضای خانواده به اشتراک بگذارند. این اقدام بخشی از تلاش گسترده تر این شرکت برای تبدیل شدن به یک برند پیشرو در حوزه سلامت شخصی و پزشکی است."
+    },
+    {
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "summary": "This is Fireworks' second data breach in as many months.",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "display_title": "حمله سایبری به شرکت فایرورکز ای‌آی (Fireworks AI) و افشای اطلاعات چت کاربران ناتشن (Notion)",
+      "display_summary": "شرکت فایرورکز ای‌آی (Fireworks AI) تأیید کرد که به دلیل یک حمله سایبری، هکرها توانسته‌اند به اطلاعات صورت‌حساب مشتریان و همچنین رونوشت‌های چت کاربران سرویس ناتشن (Notion) دسترسی پیدا کنند. این دومین مورد از نفوذ امنیتی به شرکت فایرورکز ای‌آی (Fireworks AI) طی ماه‌های اخیر محسوب می‌شود که نشان‌دهنده آسیب‌پذیری زنجیره تأمین در حوزه فناوری است."
+    },
+    {
+      "title": "Lego’s BrickLink marketplace has been offline for a week following ‘unusual activity’",
+      "summary": "Bricklink, a popular online marketplace that Lego bought in 2019 where fans can buy and sell parts and sets, has been down for a week and the company doesn't know when it will return. The team who runs the site has been sharing updates over the past week including estimates of when it will be [&#8230;]",
+      "url": "https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity",
+      "display_title": "بازار آنلاین بریک‌لینک شرکت لگو پس از فعالیت‌های غیرعادی از دسترس خارج شد",
+      "display_summary": "پلتفرم آنلاین خرید و فروش قطعات لگو موسوم به بریک‌لینک (BrickLink) به دلیل فعالیت‌های مشکوک برای یک هفته از دسترس خارج شده است. شرکت لگو (Lego) هنوز زمان دقیقی برای بازگشت این وب‌سایت اعلام نکرده و در حال بررسی ابعاد این رویداد امنیتی است."
+    },
+    {
+      "title": "How many SpaceX Starship rocket tests have failed?",
+      "summary": "Thanks to SpaceX's unique approach to testing, the answer isn't so clear-cut.",
+      "url": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
+      "display_title": "بررسی روند آزمایش‌های موشک استارشیپ اسپیس‌اکس؛ موفقیت یا شکست؟",
+      "display_summary": "تعیین آمار دقیق شکست‌ و موفقیت‌های موشک استارشیپ (Starship) شرکت اسپیس‌اکس (SpaceX) به دلیل رویکرد خاص این شرکت در آزمایش و یادگیری سریع، کار ساده‌ای نیست. با وجود بروز نقص‌های مکرر و بررسی‌های سازمان هوانوردی فدرال (FAA)، این غول فضایی همچنان به پیشبرد اهداف بلندپروازانه خود برای سفر به ماه و مریخ ادامه می‌دهد."
+    },
+    {
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "display_title": "ابزار هوش مصنوعی اتتر ای‌آی اکنون از بیش از ۳۰ زبان پشتیبانی می‌کند",
+      "display_summary": "شرکت اتتر ای‌آی (Otter.ai) با افزودن ۲۷ زبان جدید، قابلیت‌های چندزبانه خود را به‌طور چشمگیری گسترش داده است. این پلتفرم به‌زودی ویژگی جدیدی را عرضه می‌کند که می‌تواند در طول جلسات و هنگام تغییر زبان میان سخنرانان، به‌طور خودکار گفت‌وگوها را دنبال و پیاده‌سازی کند."
+    },
+    {
+      "title": "Meta expands Instagram’s AI age-guessing tech globally",
+      "summary": "Meta says it will use its AI technology to look for clues about people it suspects to be teenagers — even if they use an adult birthday.",
+      "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
+      "display_title": "شرکت متا (Meta) فناوری هوش مصنوعی تشخیص سن اینستاگرام (Instagram) را در سراسر جهان گسترش می‌دهد",
+      "display_summary": "شرکت متا (Meta) اعلام کرد که فناوری مبتنی بر هوش مصنوعی خود را برای تخمین سن کاربران و شناسایی نوجوانان در شبکه اجتماعی اینستاگرام (Instagram) به صورت جهانی عرضه می‌کند. این اقدام با هدف قرار دادن کاربران نوجوان در بخش «حساب‌های کاربری نوجوانان» (Teen Accounts) و اعمال تنظیمات ایمنی سخت‌گیرانه‌تر انجام می‌شود، حتی اگر کاربران تاریخ تولد بزرگسال را در پروفایل خود وارد کرده باشند."
     }
   ],
   "outbox": [
@@ -14805,36 +14865,192 @@
     {
       "key": "url:3c7a92d131549a588a2f3ad4d8f3ac33108f5a81c822c5cc3fa761a3cf3bbb4a",
       "url": "https://www.theverge.com/gadgets/1031951/fast-laptop-power-bank-battery-obsession-gaming-deal-sale",
-      "title": "A power bank that can quickly charge three gadgets is just $49",
-      "summary": "Amazon Prime subscribers can jump on a pretty nice deal happening on Ecoflow’s laptop power bank that can deliver up to 140W of power through either of its two USB-C ports. You can snag the limited-time deal happening on the black or silver-colored models for $48.99 (originally $85.79) at Amazon. The 25,000mAh / 90Wh battery [&#8230;]",
-      "display_title": "تخفیف ویژه آمازون: پاوربانک قدرتمند اکوفلو با قیمت ۴۹ دلار",
-      "display_summary": "سایت آمازون (Amazon) در یک تخفیف محدود، پاوربانک لپ‌تاپ شرکت اکوفلو (EcoFlow) را با قیمت ۴۹ دلار عرضه می‌کند. این دستگاه با ظرفیت ۲۵ هزار میلی‌آمپر ساعت توانایی شارژ همزمان سه گجت را دارد.",
       "message": "<b>📰 تخفیف ویژه آمازون: پاوربانک قدرتمند اکوفلو با قیمت ۴۹ دلار</b>\n\nسایت آمازون (Amazon) در یک تخفیف محدود، پاوربانک لپ‌تاپ شرکت اکوفلو (EcoFlow) را با قیمت ۴۹ دلار عرضه می‌کند. این دستگاه با ظرفیت ۲۵ هزار میلی‌آمپر ساعت توانایی شارژ همزمان سه گجت را دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت آمازون (Amazon) در اقدامی جدید برای مشترکین سرویس آمازون پرایم (Amazon Prime)، تخفیف قابل توجهی روی پاوربانک قدرتمند لپ‌تاپ ساخت شرکت اکوفلو (EcoFlow) در نظر گرفته است. این محصول که توانایی ارائه توان خروجی تا ۱۴۰ وات از طریق درگاه‌های یو‌اس‌بی سی (USB-C) را دارد، هم‌اکنون با قیمت ۴۸.۹۹ دلار به فروش می‌رسد؛ در حالی که قیمت اصلی آن ۸۵.۷۹ دلار اعلام شده بود. این پاوربانک با ظرفیت ۲۵,۰۰۰ میلی‌آمپر ساعت (معادل ۹۰ وات‌ساعت) استانداردهای لازم سازمان امنیت حمل‌ونقل (TSA) را کسب کرده و قادر است در مجموع ۱۷۰ وات توان را به طور همزمان میان سه دستگاه مختلف تقسیم کند. این ویژگی آن را به گزینه‌ای ایده‌آل برای کاربرانی تبدیل می‌کند که در طول روز از لپ‌تاپ‌های مجهز به یو‌اس‌بی سی (مانند مک‌بوک‌های اپل (Apple) یا لپ‌تاپ‌های ویندوزی مایکروسافت (Microsoft)) به همراه تبلت یا کنسول‌های بازی قابل حمل استفاده می‌کنند. اگرچه این مدل در مقایسه با رقبای سرسختی همچون پاوربانک‌های انکر (Anker) فاقد کابل‌های داخلی متصل است و کاربران باید کابل جداگانه به همراه داشته باشند، اما با توجه به مشخصات فنی، وجود صفحه نمایش داخلی برای نظارت بر خروجی و برچسب قیمتی زیر ۵۰ دلار، ارزش خرید بسیار بالایی دارد. این تخفیف محدود شامل مدل‌های مشکی و نقره‌ای این پاوربانک در فروشگاه آمازون می‌شود.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ecoflow.png?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "A power bank that can quickly charge three gadgets is just $49",
+      "summary": "Amazon Prime subscribers can jump on a pretty nice deal happening on Ecoflow’s laptop power bank that can deliver up to 140W of power through either of its two USB-C ports. You can snag the limited-time deal happening on the black or silver-colored models for $48.99 (originally $85.79) at Amazon. The 25,000mAh / 90Wh battery [&#8230;]",
+      "display_title": "تخفیف ویژه آمازون: پاوربانک قدرتمند اکوفلو با قیمت ۴۹ دلار",
+      "display_summary": "سایت آمازون (Amazon) در یک تخفیف محدود، پاوربانک لپ‌تاپ شرکت اکوفلو (EcoFlow) را با قیمت ۴۹ دلار عرضه می‌کند. این دستگاه با ظرفیت ۲۵ هزار میلی‌آمپر ساعت توانایی شارژ همزمان سه گجت را دارد."
     },
     {
       "key": "url:f37f373863b64adf9bbbc6b3e2c5130047c6bc0a5587e58051343e857f8eeff5",
       "url": "https://www.engadget.com/2314724/pre-orders-for-some-apple-home-collection-devices-will-open-november-13/",
-      "title": "Pre-orders for some Apple Home Collection devices will open November 13",
-      "summary": "You can lock in orders for two LG cameras and a video doorbell.",
-      "display_title": "آغاز پیش‌سفارش برخی از لوازم جانبی مجموعه خانگی اپل از ۱۳ نوامبر",
-      "display_summary": "شرکت اپل (Apple) تأیید کرد که پیش‌سفارش سه محصول نظارتی برند ال‌جی (LG) شامل دوربین‌های داخلی، فضای باز و زنگ در تصویری از مجموعه خانگی اپل (Apple Home Collection) از تاریخ ۱۳ نوامبر آغاز خواهد شد. این تجهیزات که حاصل همکاری مشترک اپل (Apple) و ال‌جی (LG) هستند، نخستین اقلام این مجموعه به شمار می‌روند و عرضه آن‌ها برای ماه دسامبر برنامه‌ریزی شده است.",
       "message": "<b>📰 آغاز پیش‌سفارش برخی از لوازم جانبی مجموعه خانگی اپل از ۱۳ نوامبر</b>\n\nشرکت اپل (Apple) تأیید کرد که پیش‌سفارش سه محصول نظارتی برند ال‌جی (LG) شامل دوربین‌های داخلی، فضای باز و زنگ در تصویری از مجموعه خانگی اپل (Apple Home Collection) از تاریخ ۱۳ نوامبر آغاز خواهد شد. این تجهیزات که حاصل همکاری مشترک اپل (Apple) و ال‌جی (LG) هستند، نخستین اقلام این مجموعه به شمار می‌روند و عرضه آن‌ها برای ماه دسامبر برنامه‌ریزی شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اپل (Apple) در کنار عرضه نمایشگر هوشمند اپل هوم‌ویو (Apple HomeView) و نسخه به‌روزرسانی‌شده اپل تی‌وی ۴کی (Apple TV 4K) به بازار، زمان آغاز پیش‌سفارش محصولات جدید خود موسوم به مجموعه خانگی اپل (Apple Home Collection) را اعلام کرد. طبق اعلام این شرکت، کاربران می‌توانند از تاریخ ۱۳ نوامبر (November 13) برای خرید دوربین‌های داخلی، دوربین فضای باز و زنگ در تصویری ساخت شرکت ال‌جی (LG) اقدام کنند. این سه محصول که با همکاری مشترک اپل (Apple) و ال‌جی (LG) توسعه یافته‌اند، نخستین لوازم جانبی از این سبد محصولات هستند که راهی بازار می‌شوند و عرضه آن‌ها برای ماه دسامبر پیش‌بینی شده است. تاریخ دقیق عرضه سایر اقلام این مجموعه مانند ترموستات‌ها و قفل‌های هوشمند هنوز از سوی اپل (Apple) اعلام نشده، اما این شرکت خاطرنشان کرده است که برخی از آن‌ها ماه آینده و مابقی در اوایل سال ۲۰۲۷ میلادی در دسترس قرار خواهند گرفت. دوربین داخلی این مجموعه با قیمت ۲۰۰ دلار عرضه می‌شود و قادر است تصاویر را با کیفیت 2.5K ثبت کند. این دستگاه که برای نظارت بر حیوانات خانگی و فضای خانه طراحی شده، از دید در شب رنگی در نور کم و دید در شب مادون قرمز پشتیبانی می‌کند. قابلیت تشخیص انسان و حیوانات خانگی از دیگر ویژگی‌های این دوربین است و مکانیسم چرخش آن به گونه‌ای است که هنگام خروج کاربر به بالا و در زمان حضور در خانه به پایین می‌چرخد؛ این عمل به صورت خودکار از طریق اپلیکیشن خانه (Home) یا به صورت دستی با فشردن یک دکمه قابل کنترل است. دوربین فضای باز این مجموعه نیز با قیمت پایه ۳۰۰ دلار (و نسخه مجهز به پروژکتور با قیمت ۴۰۰ دلار) به فروش می‌رسد. این مدل توانایی تشخیص چهره، حیوانات خانگی و بسته‌های پشتی را دارد و از رزولوشن 2.5K، دید در شب رنگی و مادون قرمز، گواهی استاندارد IP65 برای مقاومت در برابر آب و گرد و غبار، و قابلیت مکالمه دوطرفه بهره می‌برد. کاربران همچنین به ۱۰ روز سابقه ویدیویی رویدادها از طریق سرویس آی‌کلود پلاس (iCloud+) به همراه حافظه داخلی دسترسی خواهند داشت. زنگ در تصویری ۲۵۰ دلاری این مجموعه نیز دارای طراحی دوگانه دوربین است؛ یک دوربین 2.5K رو به جلو و یک دوربین Full HD رو به پایین که امکان مشاهده هم‌زمان مراجعان و بسته‌های پشتی را فراهم می‌کند. هنگامی که شخصی زنگ در را به صدا درآورد، دستگاه‌های هوم‌پاد (HomePod) و هوم‌ویو (HomeView) زنگ هشدار را پخش کرده و اعلان‌ها روی سایر دستگاه‌های اپل (Apple) نمایش داده می‌شوند. حریم خصوصی یکی از محورهای اصلی تبلیغاتی اپل (Apple) برای این محصولات است و این تجهیزات از رمزگذاری سرتاسری بهره می‌برند؛ به این معنا که نه اپل (Apple) و نه ال‌جی (LG) به داده‌های کاربران دسترسی نخواهند داشت. این محصولات به طور کامل با سایر دستگاه‌های اکوسیستم اپل (Apple) مانند آیفون (iPhone) یکپارچه شده‌اند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/pre-orders-for-some-apple-home-collection-devices-will-open-november-13/l-intro-1794496577.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Pre-orders for some Apple Home Collection devices will open November 13",
+      "summary": "You can lock in orders for two LG cameras and a video doorbell.",
+      "display_title": "آغاز پیش‌سفارش برخی از لوازم جانبی مجموعه خانگی اپل از ۱۳ نوامبر",
+      "display_summary": "شرکت اپل (Apple) تأیید کرد که پیش‌سفارش سه محصول نظارتی برند ال‌جی (LG) شامل دوربین‌های داخلی، فضای باز و زنگ در تصویری از مجموعه خانگی اپل (Apple Home Collection) از تاریخ ۱۳ نوامبر آغاز خواهد شد. این تجهیزات که حاصل همکاری مشترک اپل (Apple) و ال‌جی (LG) هستند، نخستین اقلام این مجموعه به شمار می‌روند و عرضه آن‌ها برای ماه دسامبر برنامه‌ریزی شده است."
     },
     {
       "key": "url:364092bc196c049bd0244177793484aa8d5057ada3b790ad703920683bbc0aed",
       "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "message": "<b>📰 مدیر ارشد زیرساخت متا (Meta) از سمت خود کناره‌گیری می‌کند</b>\n\nسانتوش جناردان (Santosh Janardhan)، مدیر قدیمی بخش زیرساخت و مهندسی متا (Meta)، پس از سال‌ها فعالیت از سمت خود کناره‌گیری می‌کند. دیو براون (Dave Brown)، از مدیران سابق آمازون (Amazon)، جایگزین وی در این سمت خواهد شد و جناردان پیش از جدایی کامل، موقتاً در نقش مشاور فعالیت خواهد کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت متا (Meta)، یکی از بزرگ‌ترین غول‌های فناوری و شبکه‌های اجتماعی جهان، در آستانه تغییرات مدیریتی مهمی در بخش زیرساخت خود قرار دارد. سانتوش جناردان (Santosh Janardhan) که از سال ۲۰۰۹ به این شرکت ملحق شده بود و نقش کلیدی در توسعه و رشد زیرساخت‌های فنی متا داشت، تصمیم به ترک سمت خود گرفته است. بر اساس اطلاعات منتشر شده، جناردان که به طور مشترک هدایت بخش مهندسی و زیرساخت متا (Meta) را بر عهده داشت، در آینده نزدیک این شرکت را ترک خواهد کرد. با این حال، او پیش از جدایی نهایی، مدتی در کنار شرکت خواهد ماند تا روند انتقال مسئولیت‌ها به درستی انجام شود و به عنوان مشاور در ابتکار جدید «متا کامپیوت» (Meta Compute) فعالیت خواهد کرد. در همین راستا، دیو براون (Dave Brown) به عنوان جانشین وی معرفی شده است. براون اوایل سال جاری میلادی پس از ۱۹ سال فعالیت در شرکت آمازون (Amazon) که در آنجا رویکردهای مرتبط با رایانش ابری، پردازش و هوش مصنوعی را هدایت می‌کرد، به متا (Meta) پیوسته بود. او اکنون هدایت بخش زیرساخت شرکت را بر عهده خواهد گرفت. در سال‌های اخیر، همزمان با رقابت فشرده شرکت‌های بزرگ فناوری در حوزه هوش مصنوعی و پردازش، سرمایه‌گذاری‌های متا (Meta) در بخش زیرساخت و مراکز داده به شدت افزایش یافته است. جناردان نیز اوایل سال جاری رهبری طرح «متا کامپیوت» (Meta Compute) را برای مقیاس‌بندی استراتژی‌های زیرساختی شرکت بر عهده داشت. دلیل دقیق استعفای او هنوز به طور رسمی اعلام نشده است، اما منابع داخلی به تمایل وی برای واگذاری مسئولیت‌ها به نسل جدید مدیران اشاره کرده‌اند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "Meta is losing its longtime head of infrastructure",
       "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
       "display_title": "مدیر ارشد زیرساخت متا (Meta) از سمت خود کناره‌گیری می‌کند",
-      "display_summary": "سانتوش جناردان (Santosh Janardhan)، مدیر قدیمی بخش زیرساخت و مهندسی متا (Meta)، پس از سال‌ها فعالیت از سمت خود کناره‌گیری می‌کند. دیو براون (Dave Brown)، از مدیران سابق آمازون (Amazon)، جایگزین وی در این سمت خواهد شد و جناردان پیش از جدایی کامل، موقتاً در نقش مشاور فعالیت خواهد کرد.",
-      "message": "<b>📰 مدیر ارشد زیرساخت متا (Meta) از سمت خود کناره‌گیری می‌کند</b>\n\nسانتوش جناردان (Santosh Janardhan)، مدیر قدیمی بخش زیرساخت و مهندسی متا (Meta)، پس از سال‌ها فعالیت از سمت خود کناره‌گیری می‌کند. دیو براون (Dave Brown)، از مدیران سابق آمازون (Amazon)، جایگزین وی در این سمت خواهد شد و جناردان پیش از جدایی کامل، موقتاً در نقش مشاور فعالیت خواهد کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت متا (Meta)، یکی از بزرگ‌ترین غول‌های فناوری و شبکه‌های اجتماعی جهان، در آستانه تغییرات مدیریتی مهمی در بخش زیرساخت خود قرار دارد. سانتوش جناردان (Santosh Janardhan) که از سال ۲۰۰۹ به این شرکت ملحق شده بود و نقش کلیدی در توسعه و رشد زیرساخت‌های فنی متا داشت، تصمیم به ترک سمت خود گرفته است. بر اساس اطلاعات منتشر شده، جناردان که به طور مشترک هدایت بخش مهندسی و زیرساخت متا (Meta) را بر عهده داشت، در آینده نزدیک این شرکت را ترک خواهد کرد. با این حال، او پیش از جدایی نهایی، مدتی در کنار شرکت خواهد ماند تا روند انتقال مسئولیت‌ها به درستی انجام شود و به عنوان مشاور در ابتکار جدید «متا کامپیوت» (Meta Compute) فعالیت خواهد کرد. در همین راستا، دیو براون (Dave Brown) به عنوان جانشین وی معرفی شده است. براون اوایل سال جاری میلادی پس از ۱۹ سال فعالیت در شرکت آمازون (Amazon) که در آنجا رویکردهای مرتبط با رایانش ابری، پردازش و هوش مصنوعی را هدایت می‌کرد، به متا (Meta) پیوسته بود. او اکنون هدایت بخش زیرساخت شرکت را بر عهده خواهد گرفت. در سال‌های اخیر، همزمان با رقابت فشرده شرکت‌های بزرگ فناوری در حوزه هوش مصنوعی و پردازش، سرمایه‌گذاری‌های متا (Meta) در بخش زیرساخت و مراکز داده به شدت افزایش یافته است. جناردان نیز اوایل سال جاری رهبری طرح «متا کامپیوت» (Meta Compute) را برای مقیاس‌بندی استراتژی‌های زیرساختی شرکت بر عهده داشت. دلیل دقیق استعفای او هنوز به طور رسمی اعلام نشده است، اما منابع داخلی به تمایل وی برای واگذاری مسئولیت‌ها به نسل جدید مدیران اشاره کرده‌اند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+      "display_summary": "سانتوش جناردان (Santosh Janardhan)، مدیر قدیمی بخش زیرساخت و مهندسی متا (Meta)، پس از سال‌ها فعالیت از سمت خود کناره‌گیری می‌کند. دیو براون (Dave Brown)، از مدیران سابق آمازون (Amazon)، جایگزین وی در این سمت خواهد شد و جناردان پیش از جدایی کامل، موقتاً در نقش مشاور فعالیت خواهد کرد."
+    },
+    {
+      "key": "url:a487e36889862acfd354c53b852f2fdde6adaf452954ae1bfe079f6788e8f882",
+      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "title": "Microsoft Outlook is still down",
+      "summary": "Since just before 1PM ET on Thursday, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing elevated load across multiple regions, which [&#8230;]",
+      "display_title": "سرویس ایمیل اولوک شرکت مایکروسافت همچنان با اختلال جهانی مواجه است",
+      "display_summary": "سرویس ایمیل اوت‌لوک (Outlook) و برخی دیگر از خدمات مجموعه مایکروسافت ۳۶۵ (Microsoft 365) به دلیل بار بیش از حد روی زیرساخت‌ها دچار قطعی و اختلال گسترده در سطح جهان شده‌اند. شرکت مایکروسافت (Microsoft) اعلام کرده که در حال تلاش برای بازگرداندن سرورهای آسیب‌دیده به چرخه سرویس‌دهی است، اما زمان دقیقی برای رفع کامل این مشکل اعلام نکرده است.",
+      "message": "<b>📰 سرویس ایمیل اولوک شرکت مایکروسافت همچنان با اختلال جهانی مواجه است</b>\n\nسرویس ایمیل اوت‌لوک (Outlook) و برخی دیگر از خدمات مجموعه مایکروسافت ۳۶۵ (Microsoft 365) به دلیل بار بیش از حد روی زیرساخت‌ها دچار قطعی و اختلال گسترده در سطح جهان شده‌اند. شرکت مایکروسافت (Microsoft) اعلام کرده که در حال تلاش برای بازگرداندن سرورهای آسیب‌دیده به چرخه سرویس‌دهی است، اما زمان دقیقی برای رفع کامل این مشکل اعلام نکرده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>سرویس ایمیل اوت‌لوک (Outlook) وابسته به شرکت مایکروسافت (Microsoft) از روز پنج‌شنبه با قطعی و اختلال گسترده‌ای در سراسر جهان مواجه شده است و کاربران همچنان در دسترسی به صندوق پستی خود از طریق وب‌سایت و اپلیکیشن‌ها با مشکل روبرو هستند. این اختلال علاوه بر اوت‌لوک، بخش‌هایی از مجموعه خدمات تجاری مایکروسافت ۳۶۵ (Microsoft 36۵) از جمله سرویس تبادل آنلاین اکسچنج (Exchange Online) و تا حدودی نرم‌افزار ارتباطی تیمز (Teams) را نیز تحت تأثیر قرار داده است. شرکت مایکروسافت (Microsoft) به سرعت از طریق حساب کاربری وضعیت مایکروسافت ۳۶۵ (Microsoft 365 Status) این اختلال را تأیید کرد و در بیانیه‌ای توضیح داد که بخشی از زیرساخت‌های این شرکت در چندین منطقه با بار ترافیکی و فشار فزاینده‌ای روبه‌رو شده که همین امر به بروز خطاهای اتصال انجامیده است. بن هوپ (Ben Hope)، مدیر ارتباطات مایکروسافت (Microsoft)، نیز تأیید کرد که تیم‌های فنی در حال بررسی ریشه‌ای موضوع و بازگرداندن پایداری به سرویس‌ها هستند. روند رفع این مشکل با چالش‌های فنی برای راه‌اندازی مجدد سرورها و پایش وضعیت آن‌ها همراه بوده است. با این حال، آخرین گزارش‌های به‌روزرسانی‌شده حاکی از آن است که این شرکت موفق شده بخشی از سرورهای آسیب‌دیده را به مدار بازگرداند و اتصال ترافیک کاربران را به مسیرهای جایگزین هدایت کند. همچنین تدابیر مدیریتی برای کاهش بار روی زیرساخت‌های تحت فشار در حال اجراست. با وجود تلاش‌های گسترده تیم‌های مهندسی مایکروسافت (Microsoft)، هنوز زمان قطعی و دقیقی (ETA) برای بازگشت کامل تمامی سرویس‌ها به حالت عادی اعلام نشده است و کاربران ممکن است به صورت تدریجی و با اتصال مجدد کلاینت‌های خود شاهد بهبهود وضعیت باشند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_B_66565e.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:4f2e18fc2dc8c3dd12fd795bfbfcb495d71b7d32dc522b0e7108a0ca3d87f357",
+      "url": "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha",
+      "title": "Meet the people who want peptides to be made in America",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. We'll be taking a break next week and will be back on November 25th. Opt in for Optimizer here. The SS Jeremiah O'Brien is a [&#8230;]",
+      "display_title": "تلاش سرمایه‌گذاران و شرکت‌های فناوری برای انتقال زنجیره تأمین پپتید به خاک آمریکا",
+      "display_summary": "برخی از فعالان حوزه فناوری و استارتاپ‌ها در ایالات متحده آمریکا (USA) در تلاشند تا با انتقاد از بازار خاکستری پپتیدهای وارداتی، زنجیره تولید و تأمین این محصولات زیستی را به داخل کشور منتقل کنند. این روند پس از تصمیمات موقت دولت و ورود شرکت‌های حوزه سلامت دیجیتال نظیر هیمز اند هرس (Hims & Hers) اهمیت تازه‌ای یافته است، هرچند چالش‌های مربوط به هزینه‌ها و نظارت‌های رگولاتوری همچنان پابرجا هستند.",
+      "message": "<b>📰 تلاش سرمایه‌گذاران و شرکت‌های فناوری برای انتقال زنجیره تأمین پپتید به خاک آمریکا</b>\n\nبرخی از فعالان حوزه فناوری و استارتاپ‌ها در ایالات متحده آمریکا (USA) در تلاشند تا با انتقاد از بازار خاکستری پپتیدهای وارداتی، زنجیره تولید و تأمین این محصولات زیستی را به داخل کشور منتقل کنند. این روند پس از تصمیمات موقت دولت و ورود شرکت‌های حوزه سلامت دیجیتال نظیر هیمز اند هرس (Hims &amp; Hers) اهمیت تازه‌ای یافته است، هرچند چالش‌های مربوط به هزینه‌ها و نظارت‌های رگولاتوری همچنان پابرجا هستند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در ماه‌های اخیر، موضوع پپتیدها و نحوه تأمین آن‌ها به یکی از مباحث داغ در محافل فناوری و زیست‌فناوری تبدیل شده است. اخیراً رویدادی در یک کشتی تاریخی جنگ جهانی دوم متعلق به نیروی دریایی ایالات متحده آمریکا (USA) به نام «اس‌اس جرمیا اوبراین (SS Jeremiah O&#x27;Brien)» برگزار شد که میزبان فعالان صنعت و سرمایه‌گذاران خطرپذیر نسل زد (Gen Z) بود. در این مراسم که توسط صندوق سرمایه‌گذاری «هاوس فوند (Haus Fund)» برگزار شد، نمونه‌های مختلفی از محصولات پپتیدی به شرکت‌کنندگان ارائه شد تا توجه عموم به مقوله تولید داخلی این مواد جلب شود. بر اساس گزارش‌های منتشرشده، بسیاری از پپتیدهای مصرفی و پژوهشی که در حال حاضر در بازار آنلاین به فروش می‌رسند، از طریق بازارهای خاکستری و عمدتاً از تولیدکنندگان چینی تأمین می‌شوند. «الیا احمدی (Elia Ahmadi)» از شرکای «هاوس فوند (Haus Fund)»، در این رویداد تأکید کرد که هدف از این تلاش‌ها، انتقاد از کشور خاصی نیست، بلکه ایالات متحده آمریکا (USA) نیازمند توانایی تولید داروهای خود به‌صورت مستقل است تا مصرف‌کنندگان در صورت بروز مشکل با چالش‌های حقوقی و نظارتی مواجه نشوند. این جریان پس از تصمیم موقت وزارت بهداشت و خدمات انسانی ایالات متحده آمریکا (HHS) شکل جدی‌تری به خود گرفت؛ تصمیمی که اجازه استفاده از برخی پپتیدهای تأییدنشده را برای ساخت داروهای ترکیبی می‌دهد. با این حال، این تصمیم با انتقاد دانشمندان و کارشناسان سازمان غذا و داروی ایالات متحده (FDA) مواجه شده است که هشدار می‌دهند شواهد کافی برای اثبات ایمنی و اثربخشی این ترکیبات وجود ندارد و این روند می‌تواند چارچوب‌های استاندارد کارآزمایی بالینی را دور بزند. همزمان با این تحولات، شرکت‌های بزرگی نظیر پلتفرم سلامت دیجیتال «هیمز اند هرس (Hims &amp; Hers)» نیز به این حوزه وارد شده‌اند. «دکتر آنانت وینجاموری (Anant Vinjamoori)»، مدیر ارشد پزشکی این شرکت، از خرید یک مرکز تولید مواد مؤلفه دارویی فعال (API) در ایالت کالیفرنیا (California) خبر داد تا امکان نظارت مستقیم بر کل زنجیره تأمین فراهم شود. این شرکت خدمات جدیدی تحت عنوان «پپتیدز پلاس (Peptides Plus)» را راه‌اندازی کرده که هدف آن عرضه محصولات تولید داخل است. با وجود اشتیاق فعالان فناوری برای بومی‌سازی تولید پپتید، کارشناسان هشدار می‌دهند که این مسیر با مانع بزرگی به نام «هزینه» روبه‌رو است. ایجاد یک زنجیره تأمین کامل در داخل ایالات متحده آمریکا (USA) بسیار پرهزینه و زمان‌بر است و احتمالاً قیمت نهایی محصولات آمریکایی را به‌طور چشمگیری افزایش خواهد داد. از سوی دیگر، مشخص نیست که رویکرد دولت و نهادهای نظارتی در بلندمدت چه تغییراتی خواهد کرد و آیا شعار «ساخت آمریکا» می‌تواند استانداردهای کیفی و ایمنی پایدار را در این بازار نوپا تضمین کند یا خیر.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/SS-Jeremiah-3.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:5e287749a052919098f3627ae362c411129cdb934558dd7b9854c2daaeec1c6e",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "display_title": "معرفی ایجنت هوش مصنوعی شرکت نکتر (Nectar) برای خودکارسازی بازاریابی اینفلوئنسری",
+      "display_summary": "شرکت نکتر (Nectar) از یک ایجنت هوش مصنوعی جدید به نام ایجنت سازندگان (Creator Agent) رونمایی کرد که وظیفه جستجوی اینفلوئنسرها، برقراری ارتباط، مدیریت شراکت‌ها و پیگیری نتایج کمپین‌ها را خودکار می‌کند. این ابزار به برندها کمک می‌کند تا با دسترسی به بیش از ۳۰۰ میلیون پروفایل، فرآیندهای بازاریابی و تبلیغات خود را به شکل بهینه‌تری مدیریت کنند.",
+      "message": "<b>📰 معرفی ایجنت هوش مصنوعی شرکت نکتر (Nectar) برای خودکارسازی بازاریابی اینفلوئنسری</b>\n\nشرکت نکتر (Nectar) از یک ایجنت هوش مصنوعی جدید به نام ایجنت سازندگان (Creator Agent) رونمایی کرد که وظیفه جستجوی اینفلوئنسرها، برقراری ارتباط، مدیریت شراکت‌ها و پیگیری نتایج کمپین‌ها را خودکار می‌کند. این ابزار به برندها کمک می‌کند تا با دسترسی به بیش از ۳۰۰ میلیون پروفایل، فرآیندهای بازاریابی و تبلیغات خود را به شکل بهینه‌تری مدیریت کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت نکتر (Nectar) که به عنوان یک سیستم‌عامل مبتنی بر هوش مصنوعی در حوزه بازاریابی فعالیت می‌کند، ابزار جدیدی را تحت عنوان ایجنت سازندگان (Creator Agent) معرفی کرد. این فناوری جدید طراحی شده است تا بخش عمده‌ای از کارهای دستی و زمان‌بر در بازاریابی اینفلوئنسری، از جمله پیدا کردن افراد مناسب، ارتباط با آن‌ها، مدیریت شراکت‌ها و ردیابی نتایج کمپین‌های تبلیغاتی را خودکارسازد. شرکت نکتر (Nectar) توسط خواهران مصباح اورایزی (Misbah Uraizee) و فرح اورایزی (Farah Uraizee) که هر دو از کارمندان پیشین شرکت متا (Meta) هستند، تأسیس شد. این شرکت سال گذشته از حالت مخفی خارج شد و از ایجنت‌های هوش مصنوعی برای کمک به برندها در مدیریت شبکه‌های اجتماعی، گفت‌وگو با مشتریان، تعدیل محتوا، شراکت با اینفلوئنسرها و تحقیق درباره رقبا استفاده می‌کند. ایجنت جدید این شرکت قادر است در میان بیش از ۳۰۰ میلیون پروفایل اینفلوئنسر جستجو کند تا شرکای مناسب را پیدا کند؛ این شامل سازندگان کوچک‌تری که هنوز دنبال‌کنندگان زیادی ندارند اما در حال رشد هستند نیز می‌شود. سیستم این ابزار جدید با تحلیل ویدیوها، موضوعات فعالیت سازندگان، تطابق محتوای آن‌ها با برند و مناسب بودن شراکت‌های قبلی را بررسی می‌کند. همچنین با بررسی محتوا در بستر متنی و ارزیابی ایمنی برند (Brand Safety)، لیست‌های رتبه‌بندی‌شده‌ای از گزینه‌های پیشنهادی را ارائه می‌دهد. پس از یافتن گزینه مناسب، این ایجنت می‌تواند پیام‌هایی را با لحن اختصاصی برند تهیه و ارسال کند، صفحات فرود سفارشی بسازد و به مدیریت قراردادها و جزئیات ارسال هدایای تبلیغاتی کمک کند. بر اساس گزارش اداره تعاملی تبلیغات (Interactive Advertising Bureau)، انتظار می‌رود هزینه‌های ایالات متحده آمریکا برای تبلیغات سازندگان در سال ۲۰۲۶ به ۴۴ میلیارد دلار برسد. با توجه به اینکه شرکت‌ها با صدها یا هزاران سازنده کار می‌کنند، پیگیری روابط و اندازه‌گیری نتایج دشوار می‌شود که ابزارهایی مانند ایجنت نکتر (Nectar) برای حل این چالش توسعه یافته‌اند. این ایجنت در حال حاضر در سطح جهانی برای اینستاگرام (Instagram) و تیک‌تاک (TikTok) در دسترس است و شرکت برنامه‌ریزی کرده است تا آن را از طریق پروتکل زمینه مدل (Model Context Protocol) در دسترس دستیارهای هوش مصنوعی مانند کلود (Claude)، چت‌جی‌پی‌تی (ChatGPT)، جمینای (Gemini) و کوپلیت (Copilot) قرار دهد. در ماه مه گذشته، شرکت نکتر (Nectar) موفق شد ۳۰ میلیون دلار سرمایه در دور سری A جذب کند که این سرمایه‌گذاری توسط ونچرز (Menlo Ventures) و صندوق آنتولوژی (Anthology Fund) که ابتکاری مشترک با شرکت انتروپیک (Anthropic) است، رهبری شد. این تحولات نشان‌دهنده گرایش فزاینده صنعت بازاریابی به سمت اتکا به سیستم‌های هوش مصنوعی پیشرفته برای مدیریت ارتباطات تجاری است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/10/misbahfarah-together.jpg?resize=1200,676",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:648ab3e5a06f7ebf2df3816ebb776c9667531721f33fbde6e8e0d5c150095880",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vibe shift\" [&#8230;]",
+      "display_title": "تلاش ناموفق مدیرعامل پالانتیر برای تغییر موضع سیاسی؛ آیا الکس کارپ واقعاً «ترقی‌خواه» شده است؟",
+      "display_summary": "الکس کارپ (Alex Karp)، مدیرعامل شرکت پالانتیر (Palantir)، در اظهاراتی تازه ادعا کرده که از دوران کودکی یک دمکرات و فردی ترقی‌خواه بوده و محصولات شرکتش ماهیتی مترقی دارند. این ادعا در حالی مطرح می‌شود که سوابق و سخنان پیشین او در حمایت از ارتش آمریکا، مواضع ضد «ووک» (Woke) و همسویی با جریان‌های راست‌گرا، تناقض آشکاری با این چرخش سیاسی ناگهانی دارد.",
+      "message": "<b>📰 تلاش ناموفق مدیرعامل پالانتیر برای تغییر موضع سیاسی؛ آیا الکس کارپ واقعاً «ترقی‌خواه» شده است؟</b>\n\nالکس کارپ (Alex Karp)، مدیرعامل شرکت پالانتیر (Palantir)، در اظهاراتی تازه ادعا کرده که از دوران کودکی یک دمکرات و فردی ترقی‌خواه بوده و محصولات شرکتش ماهیتی مترقی دارند. این ادعا در حالی مطرح می‌شود که سوابق و سخنان پیشین او در حمایت از ارتش آمریکا، مواضع ضد «ووک» (Woke) و همسویی با جریان‌های راست‌گرا، تناقض آشکاری با این چرخش سیاسی ناگهانی دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>چرخش‌های سیاسی مدیران ارشد فناوری همواره یکی از موضوعات بحث‌برانگیز در جوامع غربی بوده است. اخیراً «الکس کارپ (Alex Karp)»، مدیرعامل شرکت تحلیل داده «پالانتیر (Palantir)»، در مصاحبه‌ای با «پولیتیکو (Politico)» ادعایی را مطرح کرد که تعجب بسیاری از ناظران را برانگیخت. او مدعی شد که تمام عمر یک دمکرات بوده، در محیطی چپ‌گرا رشد کرده و محصولات شرکت «پالانتیر (Palantir)» در اصل ماهیتی ترقی‌خواهانه دارند. این اظهارات در حالی بیان می‌شود که کارپ طی سال‌های گذشته کارنامه کاملاً متفاوتی از خود به جای گذاشته است. بررسی مواضع پیشین «الکس کارپ (Alex Karp)» نشان می‌دهد که او بارها از نهادهای نظامی و امنیتی ایالات متحده دفاع کرده است. او در اواخر سال ۲۰۲۴ و اوایل سال ۲۰۲۵ میلادی طی مصاحبه‌ها و نامه‌های مختلف به سهامداران، بر نقش شرکت «پالانتیر (Palantir)» در «مرگبارتر کردن آمریکا» از طریق تحلیل داده‌ها برای نیروهای مسلح و عملیات ویژه تأکید کرده بود. علاوه بر این، او صراحتاً شرکت خود را «کاملاً ضد ووک (Anti-woke)» توصیف کرده و از فرهنگ مردانه و انتقاد از نهادهای آکادمیک و دانشگاهی سخن گفته بود. منتقدان و روزنامه‌نگارانی نظیر «الیزابت لوپاتو (Elizabeth Lopatto)» در وب‌سایت «د ورج (The Verge)» به این تناقض‌های آشکار اشاره کرده و یادآور می‌شوند که تلاش برای تغییر موضع سیاسی پس از تحولات انتخاباتی اخیر، تلاشی ناموفق برای فاصله گرفتن از سیاست‌های راست‌گرایانه گذشته است. کارپ پیش‌تر در اظهاراتی جنجالی از سیاست‌های مهاجرتی، رویکردهای نظامی و حتی دیدگاه‌های فرهنگی خاصی حمایت کرده بود که با گفتمان جریان ترقی‌خواه (Progressive) تضاد بنیادین دارد. در نهایت، تلاش مدیرعامل «پالانتیر (Palantir)» برای بازنویسی پیشینه سیاسی خود و بازگشت به اردوگاه چپ‌گرایان، با واکنش‌های منفی و تردیدهای جدی روبه‌رو شده است. کارشناسان بر این باورند که چهره‌های سرشناس دنیای فناوری نمی‌توانند با پاک کردن یا نادیده گرفتن مواضع صریح گذشته خود، به راحتی خود را به عنوان حامیان تغییرات مترقی معرفی کنند، مگر آنکه با صداقت با خطاهای گذشته روبه‌رو شوند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8407711/479950372.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:1ce7f8118628e047d5a06a3c510290390a54fbea973865ad8d00828f09db3a97",
+      "url": "https://www.engadget.com/2315072/zelenskyy-says-starshield-has-been-slowed-again-endangering-ukraine-defense/",
+      "title": "Zelenskyy says Starshield has been slowed again, endangering Ukraine's defense",
+      "summary": "It comes three weeks after Ukraine's speeds were restored following the last throttling incident.",
+      "display_title": "کاهش سرعت شبکه استارشیلد؛ ولودیمیر زلنسکی از به خطر افتادن دفاع اوکراین خبر داد",
+      "display_summary": "رئیس‌جمهور اوکراین اعلام کرد که دسترسی این کشور به شبکه ماهواره‌ای استارشیلد مجدداً با محدودیت‌های شدید سرعت مواجه شده است. این رویداد که تنها سه هفته پس از رفع محدودیت‌های قبلی رخ داده، توانایی دفاعی اوکراین در برابر حملات روسیه را تضعیف کرده است.",
+      "message": "<b>📰 کاهش سرعت شبکه استارشیلد؛ ولودیمیر زلنسکی از به خطر افتادن دفاع اوکراین خبر داد</b>\n\nرئیس‌جمهور اوکراین اعلام کرد که دسترسی این کشور به شبکه ماهواره‌ای استارشیلد مجدداً با محدودیت‌های شدید سرعت مواجه شده است. این رویداد که تنها سه هفته پس از رفع محدودیت‌های قبلی رخ داده، توانایی دفاعی اوکراین در برابر حملات روسیه را تضعیف کرده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>ولودیمیر زلنسکی (Volodymyr Zelenskyy)، رئیس‌جمهور اوکراین، اعلام کرد که دسترسی این کشور به «استارشیلد» (Starshield)، نسخه نظامی شبکه اینترنت ماهواره‌ای «استارلینک» (Starlink)، بار دیگر با محدودیت‌های سیستماتیک سرعت مواجه شده است. این موضوع به گفته وی، توانایی‌های دفاعی اوکراین در خط مقدم جنگ را به شدت به خطر انداخته است. بر اساس گزارش‌های منتشرشده، این محدودیت‌های سرعتی در تمام طول خط مقدم نبرد و مناطق اشغالی اعمال شده و به گونه‌ای است که هر ترمینالی با سرعت بیش از ۱۶۱ کیلومتر بر ساعت (۱۰۰ مایل بر ساعت) اتصال خود را با شبکه ماهواره‌ای از دست می‌دهد. ارتش اوکراین پس از بررسی‌های لازم، وجود خطاهای تصادفی را رد کرده و تأیید نموده است که این محدودیت‌ها عمداً اعمال می‌شوند. پهپادهای رهگیر اوکراین برای مقابله با پهپادهای تهاجمی «شاهد» (Shahed) ساخت روسیه که سرعت آن‌ها به ۵۰۰ کیلومتر بر ساعت می‌رسد، به شدت به اتصال پرسرعت استارشیلد وابسته‌اند. اعمال سقف سرعت ۱۶۱ کیلومتر بر ساعت به این معناست که رهگیرهای اوکراینی توانایی تعقیب و انهدام اهداف دشمن را از دست داده و همین امر موجب موفقیت برخی از حملات روسیه شده است. نکته قابل توجه در این میان، تقارن زمانی این رویداد با تحولات سیاسی است. این محدودیت‌ها هم‌زمان با سفر فرستادگان ایالات متحده آمریکا، یعنی «استیو ویتکاف» (Steve Witkoff) و «جرد کوشنر» (Jared Kushner)، به مسکو برای دیدار با «ولادیمیر پوتین» (Vladimir Putin)، رئیس‌جمهور روسیه، رخ داده است. این نخستین بار نیست که دسترسی اوکراین به این فناوری دچار اختلال می‌شود. در اواسط ماه اکتبر نیز محدودیت مشابهی اعمال شده بود که سه هفته بعد و پس از فشارهای سیاسی و تماس تلفنی با «دونالد ترامپ» (Donald Trump)، رئیس‌جمهور آمریکا، برطرف شد. با این حال، تاکنون هیچ‌یک از مقامات رسمی یا شرکت‌های ارائه‌دهنده خدمات مسئولیت این تصمیم جدید را بر عهده نگرفته‌اند و دولت اوکراین در تلاش است تا ابعاد این ماجرا را با طرف آمریکایی روشن کند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/zelenskyy-says-starshield-has-been-slowed-again-endangering-ukraines-defense/l-intro-1794505439.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:37224b4d3153d74cb032de2ae3a61f6d17ed37fcbf8b64d9143110508671f085",
+      "url": "https://www.engadget.com/2313383/apple-sports-adds-live-ufc-updates/",
+      "title": "Apple Sports adds live UFC updates",
+      "summary": "The app can deliver real-time stats for each fight on a UFC card.",
+      "display_title": "اپلیکیشن اپل اسپورتس (Apple Sports) از به‌روزرسانی‌های زنده مسابقات یو‌اف‌سی (UFC) پشتیبانی می‌کند",
+      "display_summary": "اپلیکیشن اپل اسپورتس (Apple Sports) با افزودن پشتیبانی از مسابقات سازمان هنرهای رزمی ترکیبی یو‌اف‌سی (UFC)، امکان دسترسی کاربران به آمار و اطلاعات زنده مسابقات را فراهم می‌کند. این قابلیت جدید از رویداد یو‌اف‌سی ۳۳۴ (UFC 334) و نمایش اطلاعات لحظه‌ای روی صفحه نمایش آغاز می‌شود.",
+      "message": "<b>📰 اپلیکیشن اپل اسپورتس (Apple Sports) از به‌روزرسانی‌های زنده مسابقات یو‌اف‌سی (UFC) پشتیبانی می‌کند</b>\n\nاپلیکیشن اپل اسپورتس (Apple Sports) با افزودن پشتیبانی از مسابقات سازمان هنرهای رزمی ترکیبی یو‌اف‌سی (UFC)، امکان دسترسی کاربران به آمار و اطلاعات زنده مسابقات را فراهم می‌کند. این قابلیت جدید از رویداد یو‌اف‌سی ۳۳۴ (UFC 334) و نمایش اطلاعات لحظه‌ای روی صفحه نمایش آغاز می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>طرفداران هنرهای رزمی ترکیبی اکنون راه جدیدی برای پیگیری مسابقات و رویدادهای ورزشی در اختیار دارند. شرکت اپل (Apple) اعلام کرده است که اپلیکیشن اپل اسپورتس (Apple Sports) از این پس به‌روزرسانی‌ها و آمار زنده مسابقات سازمان یو‌اف‌سی (UFC) را پوشش خواهد داد. این قابلیت جدید از مسابقات مهم رویداد یو‌اف‌سی ۳۳۴ (UFC 334) در روز شنبه آغاز می‌شود؛ رویدادی که شامل مبارزات جذابی برای کسب کمربند قهرمانی میان چهره‌های سرشناس این رشته است. بر اساس جزئیات منتشرشده، کاربران اپل اسپورتس (Apple Sports) می‌توانند از طریق تجسم داده‌های پیشرفته و انیمیشن‌های پویای درون برنامه‌ای، روند مبارزات را به صورت لحظه‌ای دنبال کنند. این اپلیکیشن پیش از شروع هر مبارزه، اطلاعاتی نظیر مقایسه فیزیکی مبارزان (Tale of the tape) و رده‌بندی آن‌ها را در اختیار مخاطبان قرار می‌دهد. پس از آغاز مسابقات نیز، آمارهای کلیدی شامل ضربات کلیدی، ضربات موثر، خاک کردن‌ها (Takedowns)، ناک‌داون‌ها، تلاش برای سابمیت و زمان کنترل مبارزه به صورت زنده به‌روزرسانی می‌شوند. علاوه بر این، قابلیت فعالیت‌های زنده (Live Activities) به کاربران اجازه می‌دهد تا این آمار حیاتی را مستقیماً روی ساعت هوشمند اپل واچ (Apple Watch) و صفحه قفل گوشی هوشمند آیفون (iPhone) مشاهده کنند، حتی اگر امکان تماشای مستقیم مسابقات از طریق پلتفرم‌های پخش آنلاین مانند پارامونت پلاس (Paramount+) را نداشته باشند. اپلیکیشن اپل اسپورتس (Apple Sports) نخستین بار در فوریه ۲۰۲۴ با پشتیبانی از رشته‌های ورزشی بسکتبال، هاکی و فوتبال راه‌اندازی شد. در ماه‌های پس از آن، رشته‌های دیگری نظیر فوتبال آمریکایی و تنیس نیز به این مجموعه اضافه شدند و اپل پیش از رقابت‌های جام جهانی مردان، دسترسی به این اپلیکیشن را برای بازارهای بیشتری فراهم کرد. افزودن یو‌اف‌سی (UFC) نشان‌دهنده تلاش مداوم اپل برای گسترش محتوای ورزشی و جذب طرفداران بیشتر به اکوسیستم خدمات خود است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/apple-sports-adds-live-ufc-updates/l-intro-1794409173.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:62853baff9e5dea322e4decd96ed81f9bf1c62edc40294724698d3c19cc48908",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "display_title": "استارتاپ فئو لبز (Phota Labs) با استفاده از هوش مصنوعی عکس‌های معمولی را به تصاویر حرفه‌ای تبدیل می‌کند",
+      "display_summary": "استارتاپ تازه‌تأسیس فئو لبز (Phota Labs) اپلیکیشن جدیدی برای سیستم‌عامل آی‌اواس (iOS) عرضه کرده است که به کمک هوش مصنوعی، عکس‌های روزمره را به تصاویری با کیفیت عکاسی حرفه‌ای تبدیل می‌کند. این ابزار برخلاف نرم‌افزارهای ویرایش سنتی، روی اصلاح خودِ تصویر با حفظ اصالت و هویت افراد تمرکز دارد.",
+      "message": "<b>📰 استارتاپ فئو لبز (Phota Labs) با استفاده از هوش مصنوعی عکس‌های معمولی را به تصاویر حرفه‌ای تبدیل می‌کند</b>\n\nاستارتاپ تازه‌تأسیس فئو لبز (Phota Labs) اپلیکیشن جدیدی برای سیستم‌عامل آی‌اواس (iOS) عرضه کرده است که به کمک هوش مصنوعی، عکس‌های روزمره را به تصاویری با کیفیت عکاسی حرفه‌ای تبدیل می‌کند. این ابزار برخلاف نرم‌افزارهای ویرایش سنتی، روی اصلاح خودِ تصویر با حفظ اصالت و هویت افراد تمرکز دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>استارتاپ نوپای فئو لبز (Phota Labs) با معرفی یک اپلیکیشن مبتنی بر هوش مصنوعی برای سیستم‌عامل آی‌اواس (iOS)، رویکرد تازه‌ای را در زمینه ویرایش و بهبود تصاویر روزمره ارائه داده است. این برنامه به کاربران اجازه می‌دهد تا عکس‌های معمولی خود را به تصاویری تبدیل کنند که گویی توسط عکاسان حرفه‌ای ثبت شده‌اند، بدون اینکه اصالت و ویژگی‌های طبیعی افراد در عکس از بین برود. برخلاف ابزارهای سنتی ویرایش عکس که نیازمند مهارت و صرف زمان زیاد هستند، هدف فئو لبز (Phota Labs) خودکارسازی روند ویرایش با استفاده از پیشرفت‌های هوش مصنوعی است. این استارتاپ که از حمایت صندوق سرمایه‌گذاری «اندرسون هوروویتز» یا همان آِی‌سی‌ز (a16z) برخوردار است، توسط «سیسیلیا ژانگ» (Cecilia Zhang) و «زاک سیا» (Zach Xia) بنیان‌گذاری شده است. این دو نفر پیش‌تر در شرکت ادوبی (Adobe) روی محصولات عکاسی محاسباتی مانند «پروژه ایندیگو» (Project Indigo)، لایت‌روم (Lightroom) و فتوشاپ (Photoshop) با یکدیگر همکاری داشتند. بنیان‌گذاران فئو لبز (Phota Labs) متوجه شدند که ابزارهای موجود بازار با وجود قدرتمند بودن، برای نجات عکس‌هایی که در وهله اول به‌خوبی ثبت نشده‌اند کارایی چندانی ندارند. اپلیکیشن جدید این خلأ را با تمرکز روی اصلاح نقص‌های کادر و زاویه پر می‌کند. «سیسیلیا ژانگ» (Cecilia Zhang) در مصاحبه‌ای توضیح داد که این برنامه مانند یک عکاس مجازی شخصی عمل می‌کند که گالری تصاویر گوشی را زیر نظر می‌گیرد و تلاش می‌کند لحظات را به بهترین شکل ممکن بازآفرینی کند. کاربران می‌توانند از میان سبک‌های مختلف عکاسی، گزینه‌هایی را انتخاب کنند که هوش مصنوعی بر اساس آن‌ها تغییرات را اعمال می‌کند؛ از اصلاحات ظریف حفظ‌کننده لنز اولیه گرفته تا تحولات چشمگیر مانند افزودن لنز چشم‌ماهی یا زاویای دید جایگزین. نکته متمایزکننده این فناوری آن است که برخلاف ابزارهایی مانند چت‌جی‌پی‌تی (ChatGPT) که گاهی چهره افراد را در عکس‌های تار به دلیل ناآشنایی با ظاهر واقعی تغییر می‌دهند، فئو لبز (Phota Labs) مجهز به فناوری شخصی‌سازی ویژه‌ای است که هویت افراد را حفظ می‌کند. تصاویر خروجی این اپلیکیشن همچنین دارای واترمارک‌های نامرئی هستند تا هنگام اشتراک‌گذاری در شبکه‌های اجتماعی، هوش مصنوعی بودن تغییرات مشخص باشد. این استارتاپ در فاز نخست، اپلیکیشن خود را به‌صورت رایگان عرضه کرده است تا پایگاه کاربران خود را بسازد و در آینده قصد دارد نسخه اندروید (Android) را نیز منتشر کند. سرمایه اولیه ۵.۶ میلیون دلاری این شرکت در دور تأمین مالی بذر (Seed) به رهبری «اندرسون هوروویتز» (a16z) تأمین شده است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/04_Holiday_Lights_before_after.jpg?resize=1200,867",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:23cd30b64977508809340ec615aae500a4ff8058d4d5e74bddcca27d24711abc",
+      "url": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
+      "title": "Whoop just launched a social network",
+      "summary": "Whoop is launching a social network that lets members share their sleep, recovery, and workout data, but the bigger bet is on becoming more of a personal health brand, with CEO Will Ahmed hinting at acquisitions to come.",
+      "display_title": "شرکت هوپ (Whoop) شبکه اجتماعی سلامت محور جدیدی را راه اندازی کرد",
+      "display_summary": "شرکت سازنده دستنبندهای تناسب اندام هوپ (Whoop) از راه اندازی یک شبکه اجتماعی جدید درون اپلیکیشن خود خبر داده است که به کاربران اجازه می دهد داده های خواب، ریکاوری و فعالیت های ورزشی خود را با دوستان و اعضای خانواده به اشتراک بگذارند. این اقدام بخشی از تلاش گسترده تر این شرکت برای تبدیل شدن به یک برند پیشرو در حوزه سلامت شخصی و پزشکی است.",
+      "message": "<b>📰 شرکت هوپ (Whoop) شبکه اجتماعی سلامت محور جدیدی را راه اندازی کرد</b>\n\nشرکت سازنده دستنبندهای تناسب اندام هوپ (Whoop) از راه اندازی یک شبکه اجتماعی جدید درون اپلیکیشن خود خبر داده است که به کاربران اجازه می دهد داده های خواب، ریکاوری و فعالیت های ورزشی خود را با دوستان و اعضای خانواده به اشتراک بگذارند. این اقدام بخشی از تلاش گسترده تر این شرکت برای تبدیل شدن به یک برند پیشرو در حوزه سلامت شخصی و پزشکی است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت هوپ (Whoop)، تولیدکننده معروف مچ بندهای تناسب اندام بدون نمایشگر، روز پنجشنبه از راه اندازی یک شبکه اجتماعی جدید به نام هوپ هیومنز (Whoop Humans) خبر داد. این قابلیت جدید به کاربران امکان می دهد تا وضعیت سلامت، خواب، میزان ریکاوری و تمرینات ورزشی خود را با دوستان و اعضای خانواده به اشتراک بگذارند. این شبکه اجتماعی به صورت رایگان و در تمامی سطوح اشتراک به اپلیکیشن هوپ (Whoop app) اضافه شده است و کاربران می توانند به دلخواه خود افراد دیگر را دنبال کرده و سطح دسترسی به اطلاعاتشان را تعیین کنند. برخلاف ویژگی تیمز (Teams) در هوپ (Whoop) که بیشتر بر پایه گروه ها و جدول رده بندی عمومی ساخته شده است و تمامی اعضا به اطلاعات یکدیگر دسترسی دارند، بخش «هیومنز» برای ارتباطات صمیمی تر و شخصی سازی شده طراحی شده است. به عنوان مثال، یک مربی ورزشی می تواند روند پیشرفت مشتریان خود را زیر نظر بگیرد، بدون اینکه مشتریان دیگر به داده های یکدیگر دسترسی داشته باشند. ویل احمد (Will Ahmed)، مدیرعامل هوپ (Whoop)، در مصاحبه ای اشاره کرد که بررسی داده های کاربران نشان می دهد تعاملات افراد هنگامی که یکی از دوستانشان امتیاز ریکاوری پایینی را ثبت می کند، افزایش می یابد؛ امری که می تواند به درک به موقع مشکلات و نیاز به توجه اطرافیان کمک کند. فراتر از قابلیت های اجتماعی، هدف اصلی هوپ (Whoop) ورود عمیق تر به بازار سلامت پزشکی و مراقبت های درمانی است. این شرکت مشابه رقیب اصلی خود، اورا (Oura)، تلاش می کند از فرصت های موجود در زمینه افزایش جمعیت سالمندان بهره برداری کند. هوپ (Whoop) پیش از این نیز قابلیت هایی نظیر نوار قلب تأیید شده توسط سازمان غذا و داروی آمریکا (FDA)، تشخیص فیبریلاسیون دهلیزی، بررسی فشار خون، آزمایش خون و امکان بارگذاری پرونده های پزشکی را به خدمات خود افزوده است. مدیرعامل این شرکت اعلام کرد که هوپ (Whoop) طی ۱۸ ماه گذشته رشد چشمگیری در میان افراد بالای ۶۰ سال تجربه کرده و حتی به عنوان یکی از شرکت های پذیرفته شده در برنامه مدیکر (Medicare) آمریکا برای بازپرداخت هزینه پوشیدنی های سلامت محور شناخته شده است. با توجه به تمرکز این برند روی حوزه سلامت شخصی، مسئله حریم خصوصی اهمیت دوچندانی پیدا کرده است. ویل احمد (Whoop) تأکید کرد که کاربران کنترل کاملی بر روی داده های به اشتراک گذاشته شده دارند، می توانند دنبال کنندگان خود را مدیریت کنند، از حالت مخفی یا «استلت مود» (Stealth Mode) برای قطع موقت اشتراک گذاری استفاده کنند و اطمینان داشته باشند که اطلاعات پزشکی حساس هرگز به اشتراک گذاشته نمی شوند. همچنین وی تصریح کرد که هوپ (Whoop) داده های اعضا را به شخص ثالث نمی فروشد و مدل کسب و کار آن مبتنی بر حق اشتراک است نه فروش داده های کاربران. در حوزه تجارت و رقابت بازار، ویل احمد (Whoop) به خریدهای اخیر رقبا از جمله خرید ۶۲۵ میلیون دلاری شرکت اورا (Oura) از سرویس مشاوره پزشکی کانْسِل هلث (Counsel Health) اشاره کرد و از آمادگی شرکت خود برای سرمایه گذاری، ادغام ها و تملک های احتمالی در آینده خبر داد. هوپ (Whoop) در حال حاضر حدود ۱۲۰۰ کارمند دارد و انتظار می رود تعداد کاربران آن تا پایان سال جاری میلادی به نزدیک ۴ میلیون نفر برسد. این شرکت همچنین برنامه هایی برای گسترش حضور فیزیکی خود از طریق فروش محصولات در فروشگاه های اولتا (Ulta stores) از ماه مارس آینده دارد و تلاش می کند جایگاه خود را در بازار رقابتی دستگاه های پوشیدنی در برابر شرکت هایی مانند اپل (Apple) و گوگل (Google) بیش از پیش مستحکم کند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/Screenshot-2026-03-31-at-8.39.34-AM.png?resize=1200,692",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:3d14e9acb8c155627b9d40d04aeedb7f34d0538ad4a656eeca1b02ffadeacac4",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "summary": "This is Fireworks' second data breach in as many months.",
+      "display_title": "حمله سایبری به شرکت فایرورکز ای‌آی (Fireworks AI) و افشای اطلاعات چت کاربران ناتشن (Notion)",
+      "display_summary": "شرکت فایرورکز ای‌آی (Fireworks AI) تأیید کرد که به دلیل یک حمله سایبری، هکرها توانسته‌اند به اطلاعات صورت‌حساب مشتریان و همچنین رونوشت‌های چت کاربران سرویس ناتشن (Notion) دسترسی پیدا کنند. این دومین مورد از نفوذ امنیتی به شرکت فایرورکز ای‌آی (Fireworks AI) طی ماه‌های اخیر محسوب می‌شود که نشان‌دهنده آسیب‌پذیری زنجیره تأمین در حوزه فناوری است.",
+      "message": "<b>📰 حمله سایبری به شرکت فایرورکز ای‌آی (Fireworks AI) و افشای اطلاعات چت کاربران ناتشن (Notion)</b>\n\nشرکت فایرورکز ای‌آی (Fireworks AI) تأیید کرد که به دلیل یک حمله سایبری، هکرها توانسته‌اند به اطلاعات صورت‌حساب مشتریان و همچنین رونوشت‌های چت کاربران سرویس ناتشن (Notion) دسترسی پیدا کنند. این دومین مورد از نفوذ امنیتی به شرکت فایرورکز ای‌آی (Fireworks AI) طی ماه‌های اخیر محسوب می‌شود که نشان‌دهنده آسیب‌پذیری زنجیره تأمین در حوزه فناوری است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>یک حمله سایبری به شرکت فایرورکز ای‌آی (Fireworks AI) منجر به افشای اطلاعات برخی از مشتریان این پلتفرم شد. شرکت فایرورکز ای‌آی (Fireworks AI) که توسعه‌دهندگان از آن برای دسترسی به مدل‌های هوش مصنوعی منبع‌باز (Open Source) استفاده می‌کنند، اعلام کرد که مهاجمان با نفوذ به ارائه‌دهنده خدمات ابری (Cloud Provider)، توانسته‌اند به یکی از سیستم‌های توسعه این شرکت دسترسی پیدا کنند. این مسئله به هکرها اجازه داد تا به داده‌های بخشی از مشتریان دست یابند. بر اساس آخرین اطلاعیه امنیتی منتشر شده، مهاجمان سایبری اطلاعات صورت‌حساب مالی مشتریان و برخی مجموعه‌داده‌ها را به سرقت برده‌اند. پلتفرم فایرورکز ای‌آی (Fireworks AI) دارای ده‌ها هزار مشتری در سراسر جهان است که از جمله آن‌ها می‌توان به شرکت حقوقی فناوری هاروی (Harvey) و شرکت هوش مصنوعی کورسر (Cursor) اشاره کرد. شرکت یادداشت‌برداری و ویرایش اسناد آنلاین ناتشن (Notion) نیز تأیید کرد که این نفوذ امنیتی حدود ۱ درصد از مشتریانش را تحت تأثیر قرار داده است. شرکت ناتشن (Notion) اعلام کرد که پس از هشدار امنیتی شرکت فایرورکز ای‌آی (Fireworks AI)، در تاریخ سوم نوامبر سیستم‌های خود را از این پلتفرم جدا کرده، داده‌های ذخیره‌شده را پاکسازی کرده و تمامی ارتباطات میان دو سیستم را متوقف نموده است. بررسی‌ها نشان می‌دهد که هکرها موفق به سرقت رونوشت‌های چت مربوط به مشتریان بخش هوش مصنوعی ناتشن (Notion) که از قابلیت «آینایتس» (Insights) استفاده می‌کردند، شده‌اند. به گفته این شرکت، داده‌های به سرقت رفته شامل ورودی‌ها و خروجی‌های مدل هوش مصنوعی بوده است، هرچندبخش عمده‌ای از این اطلاعات غیرقابل انتساب بوده‌اند. کارشناسان حوزه امنیت سایبری (Cybersecurity) بر این باورند که انگیزه‌های این حمله مالی بوده و هکرها تلاش کرده‌اند با نفوذ به مدل‌های زبانی بزرگ (LLMs)، توکن‌های مصرفی را به سرقت برده و به اشخاص ثالث غیرمجاز بفروشند. این حادثه همچنین آسیب‌پذیری ناشی از وابستگی شرکت‌های فناوری به ارائه‌دهندگان شخص ثالث را برجسته می‌کند. این دومین حادثه امنیتی برای شرکت فایرورکز ای‌آی (Fireworks AI) طی دو ماه گذشته به شمار می‌رود.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2021/02/notion-glitch-hero.jpg?resize=1200,827",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:cf25b96ec5dedcb1991a2474ab92330f9983df6b23f58610f3b3856f39b23931",
+      "url": "https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity",
+      "title": "Lego’s BrickLink marketplace has been offline for a week following ‘unusual activity’",
+      "summary": "Bricklink, a popular online marketplace that Lego bought in 2019 where fans can buy and sell parts and sets, has been down for a week and the company doesn't know when it will return. The team who runs the site has been sharing updates over the past week including estimates of when it will be [&#8230;]",
+      "display_title": "بازار آنلاین بریک‌لینک شرکت لگو پس از فعالیت‌های غیرعادی از دسترس خارج شد",
+      "display_summary": "پلتفرم آنلاین خرید و فروش قطعات لگو موسوم به بریک‌لینک (BrickLink) به دلیل فعالیت‌های مشکوک برای یک هفته از دسترس خارج شده است. شرکت لگو (Lego) هنوز زمان دقیقی برای بازگشت این وب‌سایت اعلام نکرده و در حال بررسی ابعاد این رویداد امنیتی است.",
+      "message": "<b>📰 بازار آنلاین بریک‌لینک شرکت لگو پس از فعالیت‌های غیرعادی از دسترس خارج شد</b>\n\nپلتفرم آنلاین خرید و فروش قطعات لگو موسوم به بریک‌لینک (BrickLink) به دلیل فعالیت‌های مشکوک برای یک هفته از دسترس خارج شده است. شرکت لگو (Lego) هنوز زمان دقیقی برای بازگشت این وب‌سایت اعلام نکرده و در حال بررسی ابعاد این رویداد امنیتی است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار آنلاین بریک‌لینک (BrickLink) که متعلق به شرکت لگو (Lego) است و طرفداران این اسباب‌بازی محبوب از آن برای خرید و فروش قطعات و مجموعه‌ها استفاده می‌کنند، به دنبال شناسایی «فعالیت‌های غیرعادی» بیش از یک هفته است که در حالت قطعی به سر می‌برد. این پلتفرم از پنجم نوامبر از دسترس خارج شده و مدیران آن هنوز زمان مشخصی را برای راه‌اندازی مجدد اعلام نکرده‌اند. تیم اداره‌کننده بریک‌لینک (BrickLink) طی هفته گذشته به‌روزرسانی‌هایی را درباره زمان احتمالی بازگشت سایت منتشر کرده بود. پیش‌تر بر اساس گزارش وبلاگ تخصصی جی‌ز بریک بلاگ (Jay’s Brick Blog)، انتظار می‌رفت سایت در تاریخ یازدهم نوامبر در دسترس قرار گیرد، اما بیانیه‌ای که شرکت لگو (Lego) در این پلتفرم منتشر کرده نشان می‌دهد در حال حاضر هیچ برآورد زمانی مشخصی وجود ندارد. شرکت لگو (Lego) جزئیات دقیقی درباره ماهیت دقیق این رویداد ارائه نکرده، اما اعلام نموده است که پس از مشاهده فعالیت‌های غیرعادی، به ناچار سایت را آفلاین کرده است. هدف اصلی این شرکت، ایمن‌سازی وب‌سایت، محافظت از اعضا و تضمین یکپارچگی پلتفرم بریک‌لینک (BrickLink) عنوان شده است. مسئولان لگو (Lego) تأکید کرده‌اند که پیش از بازگرداندن سایت به بستر آنلاین، باید ابعاد کامل این حادثه را درک کنند که شامل مهار مشکل، تحقیق درباره ریشه‌های آن و بررسی آسیب‌پذیری‌های احتمالی مرتبط است. شایان ذکر است که بریک‌لینک (BrickLink) سه سال پیش نیز تقریباً در همین ماه با مشکلی مشابه مواجه شده بود که به قطعی چند روزه این بازار آنلاین به دلیل یک حادثه امنیت سایبری انجامید. در آن زمان، شرکت لگو (Lego) به دلیل دریافت تهدید و تقاضای باج، سایت را به عنوان «اقدامی پیشگیرانه» موقتاً مسدود کرده بود. پس از بازگشت مجدد سایت در آن دوره، از کاربران خواسته شد رمزهای عبور خود را با استانداردهای قوی‌تر تغییر دهند، هرچند به آن‌ها اطمینان داده شد که حساب‌های کاربری‌شان در جریان آن حادثه به خطر نیفتاده است. در پایان، قطع طولانی‌مدت بریک‌لینک (BrickLink) نشان‌دهنده چالش‌های امنیتی فزاینده‌ای است که پلتفرم‌های بزرگ آنلاین و جوامع طرفداری با آن روبه‌رو هستند. کاربران و علاقه‌مندان به محصولات لگو (Lego) اکنون منتظر اطلاعیه‌های بعدی این شرکت برای از سرگیری فعالیت عادی این بازار محبوب خرید و فروش قطعات هستند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/bricklink1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:c64083562c667c8bdef7c8fe2724e553a79ed59945d92201f57c48a1add09229",
+      "url": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
+      "title": "How many SpaceX Starship rocket tests have failed?",
+      "summary": "Thanks to SpaceX's unique approach to testing, the answer isn't so clear-cut.",
+      "display_title": "بررسی روند آزمایش‌های موشک استارشیپ اسپیس‌اکس؛ موفقیت یا شکست؟",
+      "display_summary": "تعیین آمار دقیق شکست‌ و موفقیت‌های موشک استارشیپ (Starship) شرکت اسپیس‌اکس (SpaceX) به دلیل رویکرد خاص این شرکت در آزمایش و یادگیری سریع، کار ساده‌ای نیست. با وجود بروز نقص‌های مکرر و بررسی‌های سازمان هوانوردی فدرال (FAA)، این غول فضایی همچنان به پیشبرد اهداف بلندپروازانه خود برای سفر به ماه و مریخ ادامه می‌دهد.",
+      "message": "<b>📰 بررسی روند آزمایش‌های موشک استارشیپ اسپیس‌اکس؛ موفقیت یا شکست؟</b>\n\nتعیین آمار دقیق شکست‌ و موفقیت‌های موشک استارشیپ (Starship) شرکت اسپیس‌اکس (SpaceX) به دلیل رویکرد خاص این شرکت در آزمایش و یادگیری سریع، کار ساده‌ای نیست. با وجود بروز نقص‌های مکرر و بررسی‌های سازمان هوانوردی فدرال (FAA)، این غول فضایی همچنان به پیشبرد اهداف بلندپروازانه خود برای سفر به ماه و مریخ ادامه می‌دهد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اواخر سپتامبر ۲۰۲۶، موشک استارشیپ (Starship) متعلق به شرکت اسپیس‌اکس (SpaceX) برای نخستین بار وارد مدار زمین شد و توانست ۲۶ ماهواره استارلینک (Starlink) را در فضایی مدارگرد مستقر کند؛ رویدادی که به عنوان گامی بزرگ در برنامه‌های فضایی این شرکت تلقی شد. با این حال، شادی تیم فنی دیری نپایید زیرا از کار افتادن یکی از موتورها باعث شد ماموریت پیش از موعد مقرر پایان یابد. این نقص فنی مانع از اجرای کامل برنامه‌ریزی‌شده برای گردش ۱۰ ساعته در مدار زمین شد. چنین نتیجه‌ای برای برنامه استارشیپ (Starship) چندان غیرمتعارف نیست؛ چرا که فلسفه «شکست زودهنگام، یادگیری سریع» در اسپیس‌اکس (SpaceX) باعث شده است که شکست‌ها به‌عنوان فرصتی برای رشد تفسیر شوند. تعداد پرتاب‌های ناموفق این موشک بسته به نحوه ارزیابی، بین ۴ تا ۱۱ مورد از مجموع ۱۴ پرتاب تخمین زده می‌شود. از زمان نخستین پرواز آزمایشی در آوریل ۲۰۲۳ که به انفجار موشک انجامید، ایلان ماسک (Elon Musk) بارها تأکید کرده است که این آزمایش‌ها درس‌های بزرگی برای پرتاب‌های بعدی به همراه دارند. با نگاهی به دستاوردهای کلی اسپیس‌اکس (SpaceX)، دفاع از این رویکرد دشوار نیست. طبق آمارهای شرکت تحلیل بازار برایس‌تک (BryceTech)، اسپیس‌اکس (SpaceX) در سال ۲۰۲۵ مسئولیت ۸۵ درصد از کل پرتاب‌های فضاپیماها در جهان را بر عهده داشته است. علاوه بر این، شبکه ماهواره‌ای استارلینک (Starlink) با داشتن ۹۸۰۰ ماهواره فعال، بیش از نیمی از کل ماهواره‌های فعال جهان را در اختیار دارد. استارشیپ (Starship) به عنوان بزرگ‌ترین و قدرتمندترین موشک ساخته‌شده در تاریخ، ظرفیت حملی پنج برابر بیشتر از موشک فالکن ۹ (Falcon 9) دارد و برای تحقق برنامه‌های کلان اسپیس‌اکس (SpaceX) از جمله استقرار منظومه‌های ماهواره‌ای عظیم، ماموریت‌های قمری ناسا (NASA) و رویای سفر به مریخ ایلان ماسک (Elon Musk) حیاتی است. با این حال، تاریخچه این پروژه پر از فراز و نشیب بوده است. از انفجارهای اولیه گرفته تا دستاوردهای بزرگ بعدی نظیر موفقیت در مهار بوستر مرحله اول توسط بازوی مکانیکی برج پرتاب، مسیر پیشرفت این موشک همواره با چالش‌های فنی و بررسی‌های سازمان هوانوردی فدرال (FAA) همراه بوده است. بر اساس ارزیابی‌ها، برنامه‌های استارشیپ (Starship) از نظر زمانی با تاخیر مواجه شده‌اند. ناسا (NASA) پیش‌تر اعلام کرده بود که این پروژه حداقل دو سال نسبت به برنامه زمان‌بندی اولیه عقب‌تر است. با توجه به رقابت فشرده فضایی و هدف‌گذاری چین برای رسیدن به ماه تا پایان دهه جاری، فشارها بر روی اسپیس‌اکس (SpaceX) افزایش یافته است. ناسا (NASA) امیدوار است در سال ۲۰۲۸ به ماه بازگردد و برایتون‌رسیدن به این هدف، استارشیپ (Starship) باید ماموریت آرتمیس ۳ (Artemis III) را در تابستان ۲۰۲۷ با موفقیت به سرانجام برساند. موفقیت‌های آتی این موشک نقش تعیین‌کننده‌ای در کاهش هزینه‌ها و تحقق پروژه‌های آینده اسپیس‌اکس (SpaceX) خواهد داشت.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/how-many-spacex-starship-rocket-tests-have-failed/l-intro-1794424186.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:775ac0a390011ca0c2cf43ed508290b66abb057440dff0b74476f017be94d307",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "display_title": "ابزار هوش مصنوعی اتتر ای‌آی اکنون از بیش از ۳۰ زبان پشتیبانی می‌کند",
+      "display_summary": "شرکت اتتر ای‌آی (Otter.ai) با افزودن ۲۷ زبان جدید، قابلیت‌های چندزبانه خود را به‌طور چشمگیری گسترش داده است. این پلتفرم به‌زودی ویژگی جدیدی را عرضه می‌کند که می‌تواند در طول جلسات و هنگام تغییر زبان میان سخنرانان، به‌طور خودکار گفت‌وگوها را دنبال و پیاده‌سازی کند.",
+      "message": "<b>📰 ابزار هوش مصنوعی اتتر ای‌آی اکنون از بیش از ۳۰ زبان پشتیبانی می‌کند</b>\n\nشرکت اتتر ای‌آی (Otter.ai) با افزودن ۲۷ زبان جدید، قابلیت‌های چندزبانه خود را به‌طور چشمگیری گسترش داده است. این پلتفرم به‌زودی ویژگی جدیدی را عرضه می‌کند که می‌تواند در طول جلسات و هنگام تغییر زبان میان سخنرانان، به‌طور خودکار گفت‌وگوها را دنبال و پیاده‌سازی کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>ابزار یادداشت‌برداری مبتنی بر هوش مصنوعی اتتر ای‌آی (Otter.ai) اعلام کرد که قابلیت‌های چندزبانه خود را گسترش می‌دهد. این به‌روزرسانی شامل یک ویژگی جدید برای پیاده‌سازی چندزبانه است که می‌تواند هنگام جابه‌جا شدن سخنرانان میان زبان‌های مختلف در جریان یک جلسه، روند گفت‌وگو را بدون وقفه دنبال کند. این شرکت همچنین پشتیبانی از ۲۷ زبان جدید را به پلتفرم خود اضافه کرده که بزرگ‌ترین توسعه زبانی این شرکت تاکنون به شمار می‌رود. پس از تکمیل فرآیند انتشار، ابزار اتتر (Otter) در مجموع از ۳۱ زبان پشتیبانی خواهد کرد و این امر دسترسی تیم‌های بین‌المللی به این پلتفرم را تسهیل می‌کند. ویژگی جدید به‌طور خودکار تغییرات زبان را تشخیص داده و بدون نیاز به تغییر تنظیمات توسط کاربران، به کار پیاده‌سازی ادامه می‌دهد. برای نمونه، یک تماس کاری می‌تواند از انگلیسی به کره‌ای و سپس پرتغالی تغییر کند و ابزار اتتر (Otter) در تمام طول مسیر گفت‌وگو را همراهی خواهد کرد. این به‌روزرسانی برای رفع یکی از چالش‌های رایج تیم‌های جهانی طراحی شده است؛ جایی که تفاوت‌های زبانی می‌توانل همکاری و برگزاری جلسات را دشوار کند. سخنگوی شرکت اتتر (Otter) در گفتگو با وب‌سایت تک‌کرانچ (TechCrunch) اظهار داشت که این شرکت در حال شکستن موانع زبانی است تا تمامی شرکت‌ها بتوانند یک سیستم ثبت اطلاعات مطمئن برای ارتباطات صوتی مبتنی بر هوش مصنوعی ایجاد کنند. سیزده زبان از زبان‌های جدید همین现在 در دسترس قرار دارند که شامل چینی ماندارین، کره‌ای، آلمانی، ایتالیایی، کانتونی، پرتغالی، روسی، اندونزیایی، مالایی، هلندی، ترکی، ویتنامی و لهستانی می‌شوند. ۱۴ زبان باقی‌مانده نیز به‌زودی اضافه خواهند شد که شامل سوئدی، دانمارکی، فنلاندی، عربی، هندی، تایلندی، عبری، نروژی، یونانی، مقدونی، فارسی، چکی، مجارستانی و رومانیایی است. زبان‌های تازه‌اضافه شده بر روی مدل‌های صوتی اختصاصی شرکت اتتر (Otter) اجرا می‌شوند. این شرکت اعلام کرد که مدل‌های خود را با استفاده از مجموعه داده‌های عمومی آموزش داده و با داوطلبان بومی برای بررسی دقت متن‌ها همکاری کرده است. این اعلامیه در حالی منتشر می‌شود که شرکت اتتر (Otter) پس از جذب سرمایه ۳۲۰ میلیون دلاری از سوی شرکت جنرال کاتالیست (General Catalyst)، به توسعه فعالیت‌های خود فراتر از ابزار پیاده‌سازی و ورود به سایر ابزارهای هوش مصنوعی محیط کار ادامه می‌دهد. این شرکت اخیراً حالت کاری (Work Mode) را معرفی کرده است که با استفاده از تاریخچه جلسات و برنامه‌های متصل، به کاربران در آماده‌سازی برای تماس‌های پیش رو کمک می‌کند. همچنین ابزار کمکی زنده (Live Assist) یکی دیگر از قابلیت‌های تازه است که در طول جلسات به ارائه راهنمایی و پیشنهادهای مرتبط می‌پردازد.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2021/01/GettyImages-521333620.jpg?resize=1200,800",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:415a41d062451e33abc1be723343c56b3b632a670764988eeaf4a0634b2b8fb6",
+      "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
+      "title": "Meta expands Instagram’s AI age-guessing tech globally",
+      "summary": "Meta says it will use its AI technology to look for clues about people it suspects to be teenagers — even if they use an adult birthday.",
+      "display_title": "شرکت متا (Meta) فناوری هوش مصنوعی تشخیص سن اینستاگرام (Instagram) را در سراسر جهان گسترش می‌دهد",
+      "display_summary": "شرکت متا (Meta) اعلام کرد که فناوری مبتنی بر هوش مصنوعی خود را برای تخمین سن کاربران و شناسایی نوجوانان در شبکه اجتماعی اینستاگرام (Instagram) به صورت جهانی عرضه می‌کند. این اقدام با هدف قرار دادن کاربران نوجوان در بخش «حساب‌های کاربری نوجوانان» (Teen Accounts) و اعمال تنظیمات ایمنی سخت‌گیرانه‌تر انجام می‌شود، حتی اگر کاربران تاریخ تولد بزرگسال را در پروفایل خود وارد کرده باشند.",
+      "message": "<b>📰 شرکت متا (Meta) فناوری هوش مصنوعی تشخیص سن اینستاگرام (Instagram) را در سراسر جهان گسترش می‌دهد</b>\n\nشرکت متا (Meta) اعلام کرد که فناوری مبتنی بر هوش مصنوعی خود را برای تخمین سن کاربران و شناسایی نوجوانان در شبکه اجتماعی اینستاگرام (Instagram) به صورت جهانی عرضه می‌کند. این اقدام با هدف قرار دادن کاربران نوجوان در بخش «حساب‌های کاربری نوجوانان» (Teen Accounts) و اعمال تنظیمات ایمنی سخت‌گیرانه‌تر انجام می‌شود، حتی اگر کاربران تاریخ تولد بزرگسال را در پروفایل خود وارد کرده باشند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت متا (Meta) روز دوشنبه اعلام کرد که در حال گسترش فناوری هوش مصنوعی (AI) خود برای تخمین سن کاربران در شبکه اجتماعی اینستاگرام (Instagram) در سراسر جهان است. هدف از این اقدام، شناسایی دقیق‌تر کاربران نوجوان و قرار دادن آن‌ها تحت پوشش حفاظتی ویژگی «حساب‌های کاربری نوجوانان» (Teen Accounts) عنوان شده است؛ تصمیمی که در پی مواجهه این غول رسانه‌های اجتماعی با پرونده‌های حقوقی متعدد درباره آسیب‌های احتمالی پلتفرم‌هایش به نوجوانان اتخاذ شده است. بر اساس اعلام شرکت متا (Meta)، این فناوری هوش مصنوعی برای یافتن کاربرانی که سیستم آن‌ها را نوجوان تشخیص می‌دهد، مورد استفاده قرار خواهد گرفت؛ حتی اگر آن افراد در هنگام ثبت‌نام، تاریخ تولد مربوط به بزرگسالان را وارد کرده باشند. ویژگی «حساب‌های کاربری نوجوانان» (Teen Accounts) کاربران را در یک تجربه کاربری ایمن‌تر و سخت‌گیرانه‌تر قرار می‌دهد که شامل محدودیت‌هایی مانند دریافت پیام‌های مستقیم (Direct Messages) تنها از سوی افراد دنبال‌شده یا متصل، پنهان کردن نظرات آسیب‌زننده و تنظیم پیش‌فرض حساب‌ها روی حالت خصوصی (Private) است. شرکت متا (Meta) همچنین خاطرنشان کرد که روند عرضه این فناوری در شبکه اجتماعی فیسبوک (Facebook) نیز ادامه دارد و برنامه‌ریزی شده است تا پایان سال جاری میلادی، این قابلیت به صورت جهانی برای شبکه اجتماعی تردز (Threads) نیز ارائه شود. این گسترش جهانی در حالی صورت می‌گیرد که شرکت متا (Meta) در ماه اوت گذشته با تمامی ایالت‌ها و قلمروهای ایالات متحده آمریکا به توافق‌نامه‌های تسویه‌حسابی به ارزش تقریبی ۱۸ میلیارد دلار دست یافت تا به دعاوی حقوقی مبنی بر آسیب‌رسانی پلتفرم‌های این شرکت به نوجوانان پایان دهد. به عنوان بخشی از این توافقات، شرکت متا (Meta) متعهد شد تا نحوه شناسایی نوجوانان و کودکان زیر ۱۳ سال را بهبود ببخشد. نمایندگان شرکت متا (Meta) در یک پست وبلاگی نوشتند که این شرکت به تلاش‌های خود برای اطمینان از حضور نوجوانان در فضاهای متناسب با سنشان در برنامه‌ها ادامه خواهد داد. به همین دلیل، در راستای توافق با ۵۲ دادستان کل دو حزبی در ایالات متحده، این شرکت در حال سرمایه‌گذاری روی فناوری‌های قدرتمندتری است تا بتواند حساب‌هایی را که ممکن است متعلق به کودکان زیر ۱۳ سال باشد، به صورت پیشگیرانه شناسایی کند. علاوه بر این، فناوری تشخیص کاربران نوجوان بین ۱۳ تا ۱۷ سال نیز تقویت می‌شود تا اطمینان حاصل گردد که این حساب‌ها در محیط‌های طراحی‌شده برای نوجوانان قرار می‌گیرند. به عنوان بخشی از این طرح در ایالات متحده، والدین به زودی ویدیوهایی را در بخش فید اینستاگرام (Instagram) مشاهده خواهند کرد که رویکرد این شرکت را برای تضمین ایمنی و محافظت از نوجوانان در فضای مجازی توضیح می‌دهد. این تحولات نشان‌دهنده فشارهای فزاینده نهادهای نظارتی و حقوقی بر شرکت‌های فناوری بزرگ برای صدمه کمتر به کاربران جوان و ایجاد بسترهای امن‌تر آنلاین است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/instagram-header.jpg?resize=1200,800",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -14850,22 +15066,6 @@
       "published_at": "2026-11-09T15:45:00+00:00",
       "categories": [
         "Wearables"
-      ]
-    },
-    {
-      "item_id": "968a489393193b4bb8fe66ca61a6eb13211aee6632f2a8a4ba0a7347cde8fe9d",
-      "title": "Meta expands Instagram’s AI age-guessing tech globally",
-      "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
-      "summary": "Meta says it will use its AI technology to look for clues about people it suspects to be teenagers — even if they use an adult birthday.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/instagram-header.jpg?resize=1200,800",
-      "published_at": "2026-11-09T15:32:27+00:00",
-      "categories": [
-        "Apps",
-        "Social",
-        "age verification",
-        "Instagram",
-        "Meta"
       ]
     },
     {
@@ -14914,19 +15114,6 @@
         "Gaming",
         "PC Gaming",
         "Verge Shopping"
-      ]
-    },
-    {
-      "item_id": "cf5d3e95d6f4dce9ce06feeb5a9f73e30bfe5ed2ddc87475cd072edd62bf4dbf",
-      "title": "Otter AI can now follow conversations across 30+ languages",
-      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
-      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2021/01/GettyImages-521333620.jpg?resize=1200,800",
-      "published_at": "2026-11-10T07:00:00+00:00",
-      "categories": [
-        "AI",
-        "otter ai"
       ]
     },
     {
@@ -15011,22 +15198,6 @@
       ]
     },
     {
-      "item_id": "7bb59bd6c17a6c5fa51605454b3a7156f6cc2f43e9491158c3ddcc48fc7defef",
-      "title": "United won’t let your AI agent book your flight",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-11T21:54:21+00:00",
-      "categories": [
-        "AI",
-        "Meta",
-        "News",
-        "OpenAI",
-        "Tech"
-      ]
-    },
-    {
       "item_id": "2cb675d9894e0bd8e7b8191b0dea200bf905fbda720d7968730e0d791bd9c130",
       "title": "Why the data center you dread might never even be built",
       "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
@@ -15096,18 +15267,6 @@
       ]
     },
     {
-      "item_id": "c64083562c667c8bdef7c8fe2724e553a79ed59945d92201f57c48a1add09229",
-      "title": "How many SpaceX Starship rocket tests have failed?",
-      "url": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
-      "summary": "Thanks to SpaceX's unique approach to testing, the answer isn't so clear-cut.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-many-spacex-starship-rocket-tests-have-failed/l-intro-1794424186.jpg",
-      "published_at": "2026-11-11T19:27:00+00:00",
-      "categories": [
-        "Space"
-      ]
-    },
-    {
       "item_id": "17d63dc51966e849f8a8cc64dab484ff5a75254ec556dd51f72b61560af793b3",
       "title": "Cash App founder's killer gets 16 years to life in prison",
       "url": "https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/",
@@ -15117,22 +15276,6 @@
       "published_at": "2026-11-11T18:57:37+00:00",
       "categories": [
         "News"
-      ]
-    },
-    {
-      "item_id": "6d1d7b563af08cff4600a71eab22e9561a6d97bf55200b2d1bdd2082d533ed9c",
-      "title": "Whoop just launched a social network",
-      "url": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
-      "summary": "Whoop is launching a social network that lets members share their sleep, recovery, and workout data, but the bigger bet is on becoming more of a personal health brand, with CEO Will Ahmed hinting at acquisitions to come.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/Screenshot-2026-03-31-at-8.39.34-AM.png?resize=1200,692",
-      "published_at": "2026-11-12T16:00:00+00:00",
-      "categories": [
-        "Biotech & Health",
-        "Social",
-        "oura",
-        "social network",
-        "whoop"
       ]
     },
     {
@@ -15151,36 +15294,6 @@
       ]
     },
     {
-      "item_id": "409a8f010e337070ccc865ecae2676e436c72532a861f0f479863983a99437aa",
-      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "summary": "This is Fireworks' second data breach in as many months.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2021/02/notion-glitch-hero.jpg?resize=1200,827",
-      "published_at": "2026-11-12T15:02:28+00:00",
-      "categories": [
-        "AI",
-        "Security",
-        "cybersecurity",
-        "fireworks"
-      ]
-    },
-    {
-      "item_id": "1cddf2f54f4a73a0fd6ee0e6130cda9ab35518ca5e0437e1185d5d786c311ab7",
-      "title": "Lego’s BrickLink marketplace has been offline for a week following ‘unusual activity’",
-      "url": "https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity",
-      "summary": "Bricklink, a popular online marketplace that Lego bought in 2019 where fans can buy and sell parts and sets, has been down for a week and the company doesn't know when it will return. The team who runs the site has been sharing updates over the past week including estimates of when it will be [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/bricklink1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-12T14:13:58+00:00",
-      "categories": [
-        "Gadgets",
-        "News",
-        "Tech",
-        "Toys"
-      ]
-    },
-    {
       "item_id": "1d161d84212bab7e1e88f774e604a4a7a33c39f5364eb111fb21b98697a9a851",
       "title": "Google really needs you to know it cares about smart glasses privacy",
       "url": "https://www.engadget.com/2314414/google-really-wants-you-to-know-it-cares-about-smart-glasses-privacy/",
@@ -15191,33 +15304,6 @@
       "categories": [
         "Google",
         "Wearables"
-      ]
-    },
-    {
-      "item_id": "1cfec479c291c5df9cd123a6664b2e98055cd735fb50d6791c24cbc2d350bd9f",
-      "title": "The first batch of Android XR smartglasses made me rethink my stance on specs without displays",
-      "url": "https://www.engadget.com/2314258/android-xr-smartglasses-hands-on/",
-      "summary": "Google's first run of intelligent eyewear has a lot to offer.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-first-batch-of-android-xr-smartglasses-made-me-rethink-my-stance-on-specs-without-displays/l-intro-1794495834.jpg",
-      "published_at": "2026-11-12T14:00:00+00:00",
-      "categories": [
-        "News",
-        "Google",
-        "Samsung"
-      ]
-    },
-    {
-      "item_id": "1dc587619333785f5b9954b90e2be4af45bd29443eb49d3762c064a804a522de",
-      "title": "Apple HomeView review: A versatile smart display and Siri-powered home hub",
-      "url": "https://www.engadget.com/2313999/apple-homeview-review/",
-      "summary": "With its first smart display, Apple provides a lot of convenience for a variety of tasks in your home.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/apple-homeview-review-a-versatile-smart-display-and-siri-powered-home-hub/l-intro-1794423451.jpg",
-      "published_at": "2026-11-12T14:00:00+00:00",
-      "categories": [
-        "Smart Home",
-        "Apple"
       ]
     },
     {
@@ -15238,241 +15324,12 @@
       ]
     },
     {
-      "item_id": "0fbda1e5631642e818fe933f7b9942cdb815f663f6434484e3214c2dea08278c",
-      "title": "Nintendo is ending Google and Apple sign-ins early next year",
-      "url": "https://www.engadget.com/2314515/nintendo-is-ending-google-and-apple-sign-ins-early-next-year/",
-      "summary": "You'll soon no longer be able to use Google and Apple log-ins to access Nintendo.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/nintendo-is-ending-google-and-apple-sign-ins-early-next-year/l-intro-1794482262.jpg",
-      "published_at": "2026-11-12T11:19:46+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
-      "item_id": "dae3c68404a1cf6773976c5f7ffeff62c91b31863b3744527ac6650859c0ada0",
-      "title": "Muse can now place calls to U.S. businesses — if you pay",
-      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-      "summary": "Muse's AI can now place outbound calls to US businesses — but it's not free.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/muse-calls.jpg?w=1104",
-      "published_at": "2026-11-12T22:22:28+00:00",
-      "categories": [
-        "AI",
-        "Apps",
-        "Meta",
-        "muse"
-      ]
-    },
-    {
-      "item_id": "13c05cf93eb45ed16d54f892ad2c4a8faccd3d79d2ac315de072f721efcb0390",
-      "title": "Microsoft Outlook is down",
-      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
-      "summary": "Over the last hour or so, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft has acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing elevated load across multiple regions, which is [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_B_66565e.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-12T20:43:02+00:00",
-      "categories": [
-        "Apps",
-        "Microsoft",
-        "News",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "67d5dd9bc15aac39dc425b86d4eb6a57f12b856941c0782023556de996d92654",
-      "title": "Jensen Huang was having a third affair, Reuters reports",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-      "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-12T20:26:47+00:00",
-      "categories": [
-        "AI",
-        "Jensen Huang"
-      ]
-    },
-    {
-      "item_id": "6934a6322ccff6dcef2be5d8217b2b2dd8d702555324d68c822ce05d94d7836f",
-      "title": "Meet the people who want peptides to be made in America",
-      "url": "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. We'll be taking a break next week and will be back on November 25th. Opt in for Optimizer here. The SS Jeremiah O'Brien is a [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/SS-Jeremiah-3.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-12T20:00:00+00:00",
-      "categories": [
-        "Column",
-        "Health",
-        "Optimizer",
-        "Science"
-      ]
-    },
-    {
-      "item_id": "b0959160e54c1e350ba52a0b0f85355388984e411bd17a87e65ee81b2c55e371",
-      "title": "No, AI agents did not discover a previously unknown Maya site",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-12T19:42:40+00:00",
-      "categories": [
-        "AI",
-        "Science",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "99bb3641fe220db6b04ece90b7d59bf3385c12a7af16fed58333ac733485c5be",
-      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-12T19:27:45+00:00",
-      "categories": [
-        "AI",
-        "TC",
-        "gemini",
-        "Google",
-        "Google Search"
-      ]
-    },
-    {
-      "item_id": "8563d5a3c470fe1ffba8603e13c0cd239d9c535c696921ffab388414964063a6",
-      "title": "Who is Collette Kress, NVIDIA's interim CEO?",
-      "url": "https://www.engadget.com/2315274/who-is-collette-kress-nvidia-ceo/",
-      "summary": "Kress spent 25 years in various finance roles before joining NVIDIA in 2013",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/who-is-collette-kress-nvidias-interim-ceo/l-intro-1794511529.jpg",
-      "published_at": "2026-11-12T19:26:47+00:00",
-      "categories": [
-        "Big Tech"
-      ]
-    },
-    {
-      "item_id": "7fab76f7bae0c5108079f82474a38f0b6188c514e90960bfe034ce3d4fa82613",
-      "title": "Multiple Microsoft 365 services are experiencing an outage",
-      "url": "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
-      "summary": "Outlook and Teams are among the platforms impacted by \"elevated load\" issues.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/multiple-microsoft-365-services-are-experiencing-an-outage/l-intro-1794524102.jpg",
-      "published_at": "2026-11-12T19:17:32+00:00",
-      "categories": [
-        "Microsoft"
-      ]
-    },
-    {
-      "item_id": "32cc3fab3d724d5333febdc6bdf6c6d06a9d1b420923c596826466771f08d90f",
-      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-12T19:11:00+00:00",
-      "categories": [
-        "Startups",
-        "AI",
-        "Marketing",
-        "AI agents",
-        "nectar social"
-      ]
-    },
-    {
-      "item_id": "01b8a5492c23a99d903d6a66c342f51972f5ef9fc1c2691682c1cedb59a5aec6",
-      "title": "Microsoft’s Outlook email hit by new outage",
-      "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
-      "summary": "Microsoft hasn't yet given a cause for the outage, which is affecting Outlook email users.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-12T19:03:39+00:00",
-      "categories": [
-        "Apps",
-        "email",
-        "In Brief",
-        "Microsoft",
-        "Outlook"
-      ]
-    },
-    {
-      "item_id": "211c0b71815097a22e91d8c74c60346beb5f2d687c5ff8900d736d9c4c1245ad",
-      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-12T18:39:23+00:00",
-      "categories": [
-        "AI",
-        "Jensen Huang",
-        "nvidia",
-        "Open AI",
-        "open source"
-      ]
-    },
-    {
-      "item_id": "ca4cc06e1173d71f6fe9ffca3c740ce85c3896825f105f45bc141f2828316ac6",
-      "title": "Oh, Palantir is ‘progressive’ now, is it?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
-      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vibe shift\" [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8407711/479950372.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-12T18:06:54+00:00",
-      "categories": [
-        "AI",
-        "Policy",
-        "Politics",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "c83b0a8be3ed25602438b6e0d7d2a35a80c97f7fa52b6656d1b2e04ec2792d6e",
-      "title": "Ex-NVIDIA CEO Jensen Huang is set to testify before Congress this month",
-      "url": "https://www.engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/",
-      "summary": "House Foreign Affairs Chair Brian Mast said a hearing with Jensen Huang will take place before Thanksgiving.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/l-intro-1794505904.jpg",
-      "published_at": "2026-11-12T17:53:08+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
-      "item_id": "1ce7f8118628e047d5a06a3c510290390a54fbea973865ad8d00828f09db3a97",
-      "title": "Zelenskyy says Starshield has been slowed again, endangering Ukraine's defense",
-      "url": "https://www.engadget.com/2315072/zelenskyy-says-starshield-has-been-slowed-again-endangering-ukraine-defense/",
-      "summary": "It comes three weeks after Ukraine's speeds were restored following the last throttling incident.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/zelenskyy-says-starshield-has-been-slowed-again-endangering-ukraines-defense/l-intro-1794505439.jpg",
-      "published_at": "2026-11-12T17:45:03+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
-      "item_id": "6fac6df4cee86b0a952ae30c960f18de476911607a743f154970b24e9bce48e7",
-      "title": "The Jensen Huang scandal is hardly over",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
-      "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'&#233;tat c'est moi. Then [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-12T17:44:33+00:00",
-      "categories": [
-        "AI",
-        "Analysis",
-        "Nvidia",
-        "Policy",
-        "Politics",
-        "Report",
-        "Tech"
-      ]
-    },
-    {
       "item_id": "840fa2b3a123dedb2ec3b63b8d0ad18a48ff99936bf50c0d9581a72d72afa5d0",
       "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
       "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
       "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Hugging-Face-CEO-Clem-Delangue.png?resize=1200,675",
       "published_at": "2026-11-12T17:36:40+00:00",
       "categories": [
         "AI",
@@ -15483,83 +15340,109 @@
       ]
     },
     {
-      "item_id": "dbd59914f152c53709bebaaa8ca5bccbb46e682c4b53bd02f24dfce81b3d5bf2",
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-12T17:17:58+00:00",
-      "categories": [
-        "AI",
-        "Security",
-        "Transportation",
-        "AI assistants",
-        "Airlines",
-        "cybersecurity",
-        "In Brief",
-        "United Airlines"
-      ]
-    },
-    {
-      "item_id": "c0d6df443ca35a3ab4ad79d9e269e1b17a176f1f070c26e2df2ebd0560f16da7",
-      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-12T17:00:52+00:00",
-      "categories": [
-        "AI",
-        "Climate",
-        "Analysis",
-        "natural gas",
-        "Softbank"
-      ]
-    },
-    {
-      "item_id": "18f48672a0c1276d5178d15e7099453151eb32cb2b27b23190280f6bde5cf31b",
-      "title": "‘The end of Tesla!’: Cybertruck diehards turn on Elon Musk after he pulls the plug",
-      "url": "https://www.theverge.com/transportation/1031991/elon-musk-cancels-cybertruck-tesla-fans-backlash",
-      "summary": "The Cybertruck is heading to that shiny cyber-dumpster in the sky, leaving the folks who built online identities around Elon Musk's polarizing pickup feeling bereft. Usually, Musk's fanbase treads lightly around their idol's mercurial decisions. This time, however, the truck's demise has sparked rare backlash within the Tesla community - aimed squarely at the guy [&#8230;]",
+      "item_id": "6a5d9a0bac5b4e3a3bf1bff5c6b44d6cd0e3e459dbd610d85a19eeb0fc6663dc",
+      "title": "Donald Trump really wants Tim Cook to run Nvidia",
+      "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+      "summary": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an interim basis. But President Donald Trump is already throwing around one person he thinks should take over the chipmaking giant: former Apple CEO Tim [&#8230;]",
       "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKS493_CYBERTRUCK_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-12T17:00:17+00:00",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/gettyimages-2228842017.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-13T00:46:07+00:00",
       "categories": [
-        "Electric Cars",
-        "Elon Musk",
+        "Apple",
+        "News",
+        "Nvidia",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "abeb57c9aa3adb0eabd19088db19e1cbb094707e01077d0945f23c310ef4289f",
+      "title": "Xbox announces Wolfenstein 3",
+      "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+      "summary": "It's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox is ready to announce a sequel from the studio. Wolfenstein 3 was officially announced today, just days after Bethesda also confirmed that the next Elder Scrolls game will be called The Elder Scrolls VI: Sentinel. In [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ss_c195852422ed8e92ffa4d68ea4bfd34291823c3e.1920x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-13T00:11:44+00:00",
+      "categories": [
+        "Gaming",
+        "Microsoft",
         "News",
         "Tech",
-        "Tesla",
-        "Transportation"
+        "Xbox"
       ]
     },
     {
-      "item_id": "d0a42727e70e1c2740032aa31b2cdad8baa26bd970d717428d139c67af7090e6",
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-12T17:00:00+00:00",
+      "item_id": "4f0a251ae19c19b59022432c86bb57c50d8ed803636838f78240e2de6dd829b2",
+      "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
+      "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+      "summary": "Starting Thursday, Whoop members can share their data from its wearables on the app's new Whoop Humans social network. Users can make their metrics, activities, and achievements visible to other Whoop wearers, post Story-like \"Moments\" with photos and captions, and add comments and reactions on other members' posts. Whoop claims its platform is \"entirely human,\" [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/whoop-humans-launch-screenshots-trio-2.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-12T23:43:22+00:00",
+      "categories": [
+        "Fitness",
+        "Gadgets",
+        "News",
+        "Social Media",
+        "Tech",
+        "Wearable"
+      ]
+    },
+    {
+      "item_id": "3a87363f863121b79ba90f8af578993e13339c0d9c5cf9fa3145b9ae09152673",
+      "title": "Meta's Muse can now make calls on your behalf (if you have a paid subscription)",
+      "url": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/",
+      "summary": "The AI agent can schedule appointments, make reservations and wait on hold for you.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/l-intro-1794526142.jpg",
+      "published_at": "2026-11-12T23:32:00+00:00",
       "categories": [
         "AI",
-        "Apps",
-        "Startups",
-        "ai apps",
-        "Photography"
+        "Meta"
       ]
     },
     {
-      "item_id": "37224b4d3153d74cb032de2ae3a61f6d17ed37fcbf8b64d9143110508671f085",
-      "title": "Apple Sports adds live UFC updates",
-      "url": "https://www.engadget.com/2313383/apple-sports-adds-live-ufc-updates/",
-      "summary": "The app can deliver real-time stats for each fight on a UFC card.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/apple-sports-adds-live-ufc-updates/l-intro-1794409173.jpg",
-      "published_at": "2026-11-12T17:00:00+00:00",
+      "item_id": "bae1354b42ca1ef7692df2ea7cdc4756bc9e2e09512b1cdf18cfefd8e13a0ad7",
+      "title": "Humble Bundle redesign removes two-factor verification from settings",
+      "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+      "summary": "The Humble Bundle storefront for buying games and other software recently got a new look, but on the settings page, it no longer offers a way to add or update two-factor verification methods, as reported by Kotaku. PC Gamer also points out that there are Humble Bundle support pages discussing two-factor verification, and the writer [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-12-at-3.28.10-PM.png?quality=90&strip=all&crop=0,0,100,88.092261904762",
+      "published_at": "2026-11-12T23:30:52+00:00",
       "categories": [
-        "Apple"
+        "Entertainment",
+        "Gaming",
+        "News"
+      ]
+    },
+    {
+      "item_id": "00fe25e9118767dccd7d99af3d2e057d5355e3edd142e80d6070fede2fc57b23",
+      "title": "Xbox owners are getting more customizations for backgrounds and the Guide menu",
+      "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
+      "summary": "Microsoft is starting to test new customization options for Xbox consoles today. Xbox Insiders will be able to start testing new rotating backgrounds, new library options for digital games, and the ability to move the Xbox Guide menu to the right-hand side. \"Xbox Insiders can now save favorite dynamic backgrounds and shuffle through them automatically,\" [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STK048_XBOX_3_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-12T23:00:00+00:00",
+      "categories": [
+        "Gaming",
+        "Microsoft",
+        "News",
+        "Tech",
+        "Xbox"
+      ]
+    },
+    {
+      "item_id": "6afd08466219eaac7ca32154f5e4d87b7d9492e841f80414452950a013e5ec42",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-12T22:42:51+00:00",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia",
+        "Trump"
       ]
     }
   ]
