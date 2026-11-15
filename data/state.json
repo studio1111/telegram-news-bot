@@ -4686,58 +4686,49 @@
     "2f3cfae5c5bbe563f9964778f22005ed1e809f19a30ddfa5654a8ad0e9f764c5",
     "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
     "9e39ddf1d8d5525217983df218203356ad55e8ec572e493acfc7cd3b232959f7",
-    "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/"
+    "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+    "36d0eb186a55799b6cbba2cb07fbc4b1e1c656119c4e18f9eb48b486c14a6d2a",
+    "4b033734f7b75a6238ddd54ecd1dd24a73f415665f862b460a4f5aa1ab8c04ce",
+    "4cd77edac5a374cecdcde81afc5496dde3159e6ad3cbaa5804200a1df23dfa60",
+    "a6deb3adcfed432b937f10bf7d8cd01f993666a1aba14cad4888749366f4eef7",
+    "bb14427b3695a0b5a1927bd18a4cca8a834c89164b60575655de7bf49ee446b4",
+    "c73e2aeeb3c56c233fff0d28b902a4040e8a1e472188a8773a9dba8d130537ef",
+    "e9d9f643800715e7ace17550a4df3ce557360c904e1dda0e714c1ec7bacd0ed6",
+    "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+    "https://www.engadget.com/2313063/cable-mistake-desktop-pc-gaming-performance/",
+    "https://www.engadget.com/2313818/how-to-generate-edit-gifs-with-chatgpt/",
+    "https://www.engadget.com/2313849/usb-port-letter-a-meaning/",
+    "https://www.engadget.com/2313873/give-old-apple-tv-device-new-purpose/",
+    "https://www.engadget.com/2317210/amazon-is-reportedly-working-on-a-database-for-virtually-every-item-for-sale-on-earth/",
+    "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+    "75a81de110c9d2a75c7e5ae581b1a402fd8f8e491fbe063fb83ccc0f79e76b31",
+    "https://www.engadget.com/2313842/sony-ditching-cross-product-support-app-good-reason/",
+    "d33cb3021e3102bfcaa49728e60774a2499c81fcb8d8ad2b0e141c8cf50e8849",
+    "https://www.engadget.com/2313837/change-customize-app-icons-samsung-galaxy/",
+    "d9ad4c4b382c3775e571730bb48f24962dc1b08da2ef01a3604264cdd2ea2f00",
+    "https://www.engadget.com/2313821/what-is-fn-lock-icon-how-to-use/",
+    "bf94b1c5e1d604ac3b7868009ca9a6948a15fba744963cc4a93ef1307ce1f211",
+    "https://www.engadget.com/2311090/how-to-transfer-spotify-playlist-songs-to-apple-music/",
+    "01852ad54fb92b6470bc432fc7d507643d9fd59726e6901ea4bdff2a32ffc2b4",
+    "4bb46fc8b1bdef2f425f42cd8017caf52fbbdf168cfcf4d9b04e537b1929766c",
+    "6268a8d76455f2e6db04a514924bc039a6a4baf13355e8dd5a2472e41fd8be0c",
+    "be7c47aae145253dd3f78f508ef0c635ae792ce23a3b9fc86fbb1e599d082995",
+    "ed6d00bf8cca377104dcabdfa9aa44b251e756b6d26b1cbec113b7341c2eb133",
+    "https://www.engadget.com/2310671/one-ui-9-samsung-galaxy-phones-last-major-update/",
+    "https://www.engadget.com/2313043/troubleshoot-macbook-black-screen-issues/",
+    "https://www.engadget.com/2316348/samsung-one-ui-9-5-feature-memory-app-from-pixel-playbook/",
+    "https://www.engadget.com/2316732/gta-6-download-time-internet-speed-calculator/",
+    "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+    "c84d06b789f7d9c1620b9f74915d9bb4ea666aab94a2d6aa4b03abbc77df8246",
+    "https://www.engadget.com/2310528/amd-vs-intel-cpu-which-better-buy-2026/",
+    "7cd78e1edd54c6c1cfba264b6e4a984c67d53bd4df90b12b7bcc0c8dd42a86c7",
+    "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+    "17d63dc51966e849f8a8cc64dab484ff5a75254ec556dd51f72b61560af793b3",
+    "https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/",
+    "314ff1c4cc1d2ca85680b89778e52c8ee87bf842061eb5705c6b0994c14e5a43",
+    "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
   ],
   "published_stories": [
-    {
-      "title": "New York governor signs AI chatbot child safety law",
-      "summary": "A separate law aims to shore up security on connected baby monitors.",
-      "url": "https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/",
-      "display_title": "تصویب قانون جدید ایمنی کودکان در برابر ربات‌های گفتگو و هوش مصنوعی در نیویورک",
-      "display_summary": "کتی هوکول (Kathy Hochul)، فرماندار نیویورک، قانون جدیدی را امضا کرد که شرکت‌های هوش مصنوعی را ملزم به تأیید سن کاربران و اعمال محدودیت‌های سخت‌گیرانه برای حفاظت از کودکان و نوجوانان می‌کند. این قانون، ربات‌های گفتگو را از تقلید رفتار انسانی، ایجاد روابط عاطفی با کودکان و ترویج محتوای خطرناک منع می‌کند."
-    },
-    {
-      "title": "Reddit is adding a 'for you' feed for recommendations",
-      "summary": "The app will have a \"following\" tab to surface content from subreddits you've joined.",
-      "url": "https://www.engadget.com/2299618/reddit-is-adding-a-for-you-feed-for-recommendations/",
-      "display_title": "پلتفرم ردیت بخش فید «برای شما» را برای پیشنهاد محتوا اضافه می‌کند",
-      "display_summary": "پلتفرم ردیت (Reddit) در حال تغییر ساختار فید اصلی خود است و آن را به دو بخش «برای شما» (For You) مبتنی بر الگوریتم و «دنبال‌شونده» (Following) تقسیم می‌کند. این تغییر با هدف نمایش جوامع جدید و افزایش تعامل کاربران با محتواهای مرتبط انجام شده است."
-    },
-    {
-      "title": "AI execs may be too out of touch to build for the general public",
-      "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
-      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
-      "display_title": "شکاف عمیق رهبران فناوری؛ آیا مدیران هوش مصنوعی ارتباط با جامعه را از دست داده‌اند؟",
-      "display_summary": "اظهارات اخیر چهره‌های برجسته فناوری مانند ماریسا مایر و سم آلتمن درباره استفاده از هوش مصنوعی برای مدیریت وظایف خانوادگی و فرزندپروری، موجی از انتقادات را برانگیخته است. این رویکرد نشان‌دهنده فاصله عمیق میان فرهنگ حاکم بر دره سیلیکون و واقعیت‌های زندگی عموم مردم است."
-    },
-    {
-      "title": "Meta's Waddle World is a Tamagotchi-like AI pet app",
-      "summary": "Meta describes Waddle World as a 'daily journal disguised as a pet.'",
-      "url": "https://www.engadget.com/2299227/meta-tamagotchi-like-ai-digital-pet-app-waddle-world/",
-      "display_title": "معرفی اپلیکیشن هوش مصنوعی «وادل ورلد» (Waddle World) از شرکت متا (Meta)؛ تلفیقی از تاماگوتچی و چت‌بات",
-      "display_summary": "شرکت متا (Meta) از یک بازی جدید مبتنی بر هوش مصنوعی به نام «وادل ورلد» (Waddle World) رونمایی کرده است که شباهت زیادی به اسباب‌بازی‌های دیجیتالی «تاماگوتچی» (Tamagotchi) دارد. این اپلیکیشن در حال حاضر به صورت آزمایشی تنها در کشور فیلیپین عرضه شده و به کاربران اجازه می‌دهد با یک حیوان خانگی مجازی گفتگو کرده و خاطرات روزانه خود را ثبت کنند."
-    },
-    {
-      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
-      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
-      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-      "display_title": "درآمد ۱۰ میلیارد دلاری مایکروسافت از همکاری با اوپن‌ای‌آی",
-      "display_summary": "شرکت مایکروسافت (Microsoft) در آخرین گزارش مالی خود اعلام کرد که در سه ماهه منتهی به ۳۰ سپتامبر، ۱۰ میلیارد دلار درآمد از توافق‌های تجاری با شرکت اوپن‌ای‌آی (OpenAI) کسب کرده است. این رقم چشمگیر، وابستگی مالی عظیم میان این دو غول فناوری را در کنار رقابت فزاینده آن‌ها نشان می‌دهد."
-    },
-    {
-      "title": "Microsoft hits 10 quarters of record- breaking revenue in a row",
-      "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
-      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
-      "display_title": "ثبت دهمین رکورد متوالی درآمد فصلی مایکروسافت با تکیه بر خدمات ابری و هوش مصنوعی",
-      "display_summary": "شرکت مایکروسافت (Microsoft) در ادامه روند صعودی خود موفق شد برای دهمین فصل متوالی رکورد درآمدی جدیدی را به ثبت برساند و درآمد فصلی خود را به ۹۲.۳ میلیارد دلار برساند. این رشد چشمگیر عمدتاً ناشی از قدرت بخش رایانش ابری مایکروسافت (Microsoft Cloud) و تقاضای بالا برای خدمات هوش مصنوعی بوده است."
-    },
-    {
-      "title": "Readwise is taking on Kindle and Kobo for ebook supremacy",
-      "summary": "For the last several years, Readwise has been building tools for power readers. There's the eponymous product, Readwise, which stores and categorizes your Kindle highlights to help you remember what you've read. There's Readwise Reader, an app for reading newsletters, PDFs, and web articles you've saved for later. And now there's Readwise Books, a full-fledged [&#8230;]",
-      "url": "https://www.theverge.com/tech/1020264/readwise-books-launch-ebook-store",
-      "display_title": "پلتفرم ریدوایز (Readwise) با معرفی «ریدوایز بوکس» به رقابت با کیندل (Kindle) و کوبو (Kobo) می‌پردازد",
-      "display_summary": "شرکت ریدوایز (Readwise) پس از سال‌ها ارائه ابزارهای مختلف برای کتاب‌خوانان حرفه‌ای، پلتفرم جدید خود موسوم به ریدوایز بوکس (Readwise Books) را وارد مرحله آزمایشی کرده است. این سرویس جدید قصد دارد با ترکیب قابلیت‌های ردیابی مطالعه مشابه استراوا (Strava) و ویژگی‌های اجتماعی، جایگزین مدرن‌تری برای کیندل (Kindle) و گودریدز (Goodreads) فراهم کند."
-    },
     {
       "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
       "summary": "Microsoft just posted the first quarter of its 2027 fiscal financial results. The software maker made $92.3 billion in revenue and a net income of $33.6 billion during Q1. Revenue is up 19 percent, and net income has increased by 32 percent. It's a new financial year for Microsoft, so the company is changing up [&#8230;]",
@@ -8188,6 +8179,55 @@
       "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
       "display_title": "شرکت اتومیتیک پلتفرم «اسپیس‌فست» را برای میزبانی اپلیکیشن‌های هوش مصنوعی عرضه کرد",
       "display_summary": "شرکت اتومیتیک (Automattic)، مالک وردپرس (WordPress)، از سرویس جدیدی به نام اسپیس‌فست (Spacefast) رونمایی کرد که زیرساخت لازم برای استقرار وب‌سایت‌ها و اپلیکیشن‌های تولید شده توسط هوش مصنوعی را فراهم می‌کند. این پلتفرم جدید با هدف رقابت با ابزارهایی نظیر لاوابل (Lovable) طراحی شده است و به کاربران اجازه می‌دهد تا پروژه‌های خود را به سادگی به ربات‌های هوش مصنوعی متصل کنند."
+    },
+    {
+      "title": "Sony is ditching its cross-product support app for dedicated alternatives",
+      "summary": "After over a decade of use, customers are going to need to switch to a less-efficient means of monitoring their favorite Sony products and gadgets.",
+      "url": "https://www.engadget.com/2313842/sony-ditching-cross-product-support-app-good-reason/",
+      "display_title": "شرکت سونی اپلیکیشن پشتیبانی جامع خود را با ابزارهای اختصاصی جایگزین می‌کند",
+      "display_summary": "شرکت سونی (Sony) اعلام کرد که اپلیکیشن جامع پشتیبانی خود موسوم به ساپورت بای سونی (Support by Sony) را در تاریخ ۲۸ فوریه ۲۰۲۷ متوقف خواهد کرد. کاربران از این پس باید برای مدیریت و دریافت به‌روزرسانی محصولات مختلف خود از اپلیکیشن‌های تخصصی استفاده کنند که اگرچه کنترل بیشتری ارائه می‌دهد، اما مدیریت چند دستگاه را دشوارتر می‌سازد."
+    },
+    {
+      "title": "What is the Fn Lock icon used for and how do you turn it off and on?",
+      "summary": "Confused by the Fn Lock icon on your keyboard? Discover its purpose, how it affects your keyboard, and the simple steps to enable or disable it on any PC.",
+      "url": "https://www.engadget.com/2313821/what-is-fn-lock-icon-how-to-use/",
+      "display_title": "کلید قفل عملکرد (Fn Lock) در کیبورد چیست و چگونه فعال یا غیرفعال می شود؟",
+      "display_summary": "کلید قفل عملکرد یا همان «اف‌ان لاک (Fn Lock)» روی برخی کیبوردها و لپ‌تاپ‌ها برای تغییر رفتار کلیدهای ردیف بالا استفاده می شود. کاربران می توانند با استفاده از روش های مختلف نرم افزاری، سخت افزاری یا تنظیمات «بایوس (BIOS)»، این قابلیت را فعال یا غیرفعال کنند."
+    },
+    {
+      "title": "The right way to transfer your Spotify playlists and songs to Apple Music",
+      "summary": "Learn how to transfer Spotify playlists to Apple Music on iPhone, iPad, Android or the web, and what you need before you move your songs over.",
+      "url": "https://www.engadget.com/2311090/how-to-transfer-spotify-playlist-songs-to-apple-music/",
+      "display_title": "روش صحیح انتقال لیست‌های پخش و آهنگ‌ها از اسپاتیفای به اپل موزیک",
+      "display_summary": "سرویس اپل موزیک ابزار داخلی جدیدی را ارائه داده است که به کاربران امکان می‌دهد به راحتی لیست‌های پخش و آهنگ‌های ذخیره شده خود را از اسپاتیفای به این پلتفرم منتقل کنند. این فرآیند از طریق دستگاه‌های مختلف از جمله آیفون، آیپد، گوشی‌های اندرویدی و نسخه وب قابل انجام است."
+    },
+    {
+      "title": "AMD vs. Intel CPUs: Which is the better buy in 2026?",
+      "summary": "AMD and Intel CPUs have different strengths, so you'll need to consider what you need out of a CPU to make the right choice.",
+      "url": "https://www.engadget.com/2310528/amd-vs-intel-cpu-which-better-buy-2026/",
+      "display_title": "راهنمای خرید پردازنده در سال ۲۰۲۶: ای‌ام‌دی (AMD) در برابر اینتل (Intel)",
+      "display_summary": "بازار پردازنده‌های دسکتاپ و لپ‌تاپ در سال ۲۰۲۶ شاهد رقابت فشرده میان شرکت‌های ای‌ام‌دی (AMD) و اینتل (Intel) است. در حالی که ای‌ام‌دی با تراشه‌های مجهز به فناوری ۳دی وی-کش (3D V-Cache) پادشاه بی‌چون‌وچرای اجرای بازی‌هاست، اینتل با ارائه هسته‌های بیشتر و قیمت مقرون‌به‌صرفه، گزینه بهتری برای کارهای روزمره و پردازش‌های سنگین چندرشته‌ای محسوب می‌شود."
+    },
+    {
+      "title": "A gadget to make your dumb house smarter",
+      "summary": "Hi, friends! Welcome to Installer No. 152, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for taking time away from Zelda to be here, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about school apps [&#8230;]",
+      "url": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+      "display_title": "معرفی ابزار جدید برای هوشمندسازی خانه‌ها و تازه‌های دنیای فناوری در خبرنامه اینستالر",
+      "display_summary": "نسخه جدید خبرنامه اینستالر منتشر شد و به معرفی ابزارهای جانبی هوشمندسازی خانه مانند دستگاه هوم اسیستنت کانکت آوکس-۲ (Home Assistant Connect Aux-2) پرداخت. این شماره همچنین به بررسی تازه‌ترین اپلیکیشن‌ها، گجت‌ها و روند رشد هک سخت‌افزاری در میان کاربران می‌پردازد."
+    },
+    {
+      "title": "Cash App founder's killer gets 16 years to life in prison",
+      "summary": "Bob Lee died from multiple stab wounds in 2023.",
+      "url": "https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/",
+      "display_title": "قاتل بنیان‌گذار کش‌اپ (Cash App) به ۱۶ سال تا حبس ابد محکوم شد",
+      "display_summary": "نیما مومنی، مشاور فناوری که به اتهام قتل باب لی (Bob Lee)، بنیان‌گذار کش‌اپ (Cash App)، گناهکار شناخته شده بود، به شانزده سال تا حبس ابد محکوم شد. دادگاه درخواست متهم برای محاکمه مجدد را رد کرد و وکلا از قصد خود برای فرجام‌خواهی خبر دادند."
+    },
+    {
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "summary": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "display_title": "درآمد فصلی شرکت اوپن‌ای‌آی (OpenAI) برای نخستین بار از مرز ۱۰ میلیارد دلار عبور کرد",
+      "display_summary": "بر اساس گزارش‌های منتشرشده، شرکت اوپن‌ای‌آی (OpenAI) توانسته است با ثبت تقاضای بالا برای مدل‌های هوش مصنوعی خود، درآمد فصلی خود را برای نخستین بار به بیش از ۱۰ میلیارد دلار برساند. این رقم نشان‌دهنده جهشی نزدیک به ۵۰ درصدی نسبت به درآمد ۶.۷ میلیارد دلاری این شرکت در فصل دوم سال است."
     }
   ],
   "outbox": [
@@ -15787,156 +15827,240 @@
     {
       "key": "url:436bece6b5cbed1eb8c288da2e19fd021588ad50b859870ef3ef900b3c07a21f",
       "url": "https://www.engadget.com/2313688/how-long-nvidia-gpu-supported/",
-      "title": "How long will your NVIDIA GPU be supported?",
-      "summary": "Graphics cards do not have an expiration date on the box., but we can help you figure out which clicking tocks are most important to your system's performance.",
-      "display_title": "مدت‌زمان پشتیبانی از کارت‌های گرافیک انویدیا چگونه تعیین می‌شود؟",
-      "display_summary": "شرکت انویدیا (NVIDIA) تاریخ انقضای مشخصی برای کارت‌های گرافیک سری جی‌فورس (GeForce) اعلام نمی‌کند، اما پشتیبانی نرم‌افزاری و درایورها بر اساس معماری سخت‌افزاری پردازنده‌های گرافیکی انجام می‌شود. با پایان یافتن به‌روزرسانی‌های گیم‌رِدی (Game Ready)، کارت‌های قدیمی‌تر همچنان وصله‌های امنیتی مهم را دریافت خواهند کرد.",
       "message": "<b>📰 مدت‌زمان پشتیبانی از کارت‌های گرافیک انویدیا چگونه تعیین می‌شود؟</b>\n\nشرکت انویدیا (NVIDIA) تاریخ انقضای مشخصی برای کارت‌های گرافیک سری جی‌فورس (GeForce) اعلام نمی‌کند، اما پشتیبانی نرم‌افزاری و درایورها بر اساس معماری سخت‌افزاری پردازنده‌های گرافیکی انجام می‌شود. با پایان یافتن به‌روزرسانی‌های گیم‌رِدی (Game Ready)، کارت‌های قدیمی‌تر همچنان وصله‌های امنیتی مهم را دریافت خواهند کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>کارت‌های گرافیک برخلاف بسیاری از کالاهای دیجیتال، تاریخ انقضای مشخصی روی جعبه خود ندارند و شرکت انویدیا (NVIDIA) نیز تعداد سال‌های مشخصی را به عنوان تضمین پشتیبانی درایور برای تمام محصولات سری جی‌فورس (GeForce) اعلام نمی‌کند. میزان و مدت پشتیبانی از این کارت‌ها بیشتر به معماری به کار رفته در هر پردازنده گرافیکی وابسته است. بر اساس آخرین اطلاعات، معماری‌های تورینگ (Turing)، آمپر (Ampere)، ادا (Ada) و بلک‌ول (Blackwell) همچنان در چرخه عادی درایورهای گیم‌رِدی (Game Ready Driver) قرار دارند که شامل ویژگی‌های جدید، بهینه‌سازی بازی‌ها، بهبود عملکرد و رفع اشکال است. برای نمونه، کارت گرافیک آرتی‌اکس ۲۰۶۰ (RTX 2060) که در سال ۲۰۱۹ عرضه شد، همچنان به‌روزرسانی‌های منظم دریافت می‌کند. با این حال، معماری‌های قدیمی‌تر مانند مکسول (Maxwell)، پاسکال (Pascal) و ولتا (Volta) روند متفاوتی را تجربه کرده‌اند. این کارت‌ها از پاییز سال ۲۰۲۵ دریافت به‌روزرسانی‌های گیم‌رِدی را متوقف کردند، اما انویدیا متعهد شده است که تا اکتبر ۲۰۲۸ (مهر ۱۴۰۷) همچنان وصله‌های امنیتی بحرانی را برای آن‌ها منتشر کند. معماری‌های پاسکال و ولتا حدود ۹ سال و معماری مکسول حدود ۱۱ سال پشتیبانی کامل دریافت کردند که مدت‌زمان قابل‌توجهی محسوب می‌شود. پایان پشتیبانی گیم‌رِدی به معنای از کار افتادن کارت گرافیک نیست. سیستم‌عامل و بازی‌های نصب‌شده همچنان به کار خود ادامه می‌دهند، اما کاربران دیگر بهینه‌سازی‌های جدید برای بازی‌های تازه منتشرشده و ویژگی‌های نرم‌افزاری جدید را دریافت نخواهند کرد. علاوه بر درایورهای انویدیا، عامل مهم دیگری نیز وجود دارد و آن پایان پشتیبانی سیستم‌عامل است. شرکت مایکروسافت (Microsoft) و انویدیا اعلام کرده‌اند که آخرین درایور کامل گیم‌رِدی و استودیو (Studio) برای سیستم‌عامل ویندوز ۱۰ (Windows 10) در اکتبر ۲۰۲۶ عرضه می‌شود و پس از آن فقط به‌روزرسانی‌های امنیتی فصلی ارائه خواهد شد. در نتیجه، برای دارندگان کارت‌های نسبتاً جدیدتر، محدودیت‌های عملکردی، کمبود حافظه ویدئویی (VRAM) یا عدم دسترسی به فناوری‌های نوین، بسیار زودتر از قطع پشتیبانی درایورها به دلیلی برای تعویض سخت‌افزار تبدیل خواهد شد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/how-long-will-your-nvidia-gpu-be-supported/l-intro-1793999445.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "How long will your NVIDIA GPU be supported?",
+      "summary": "Graphics cards do not have an expiration date on the box., but we can help you figure out which clicking tocks are most important to your system's performance.",
+      "display_title": "مدت‌زمان پشتیبانی از کارت‌های گرافیک انویدیا چگونه تعیین می‌شود؟",
+      "display_summary": "شرکت انویدیا (NVIDIA) تاریخ انقضای مشخصی برای کارت‌های گرافیک سری جی‌فورس (GeForce) اعلام نمی‌کند، اما پشتیبانی نرم‌افزاری و درایورها بر اساس معماری سخت‌افزاری پردازنده‌های گرافیکی انجام می‌شود. با پایان یافتن به‌روزرسانی‌های گیم‌رِدی (Game Ready)، کارت‌های قدیمی‌تر همچنان وصله‌های امنیتی مهم را دریافت خواهند کرد."
     },
     {
       "key": "url:6524c02790228611a07ea413f15c46e64dc643ea716ab4edc121265f393e259a",
       "url": "https://www.engadget.com/2313687/strongest-3d-printer-filament-carbon-fiber-nylon-polycarbonate/",
-      "title": "These are some of the strongest 3D printer filaments for durable parts",
-      "summary": "Let's take a closer look at some of the strongest and most practical filaments for the type of 3D printers accessible to the average maker.",
-      "display_title": "بررسی قوی‌ترین و کاربردی‌ترین فیلامنت‌ها برای چاپ سه‌بعدی قطعات بادوام",
-      "display_summary": "انتخاب فیلامنت مناسب برای چاپ سه‌بعدی قطعات بادوام و ساختاری، نیازمند شناخت دقیق ویژگی‌های متریال‌هایی نظیر نایلون تقویت‌شده با فیبر کربن و پلی‌کربنات است. هرچند این مواد مقاومت بسیار بالایی در برابر فشار و حرارت دارند، اما نیازمند تجهیزات پیشرفته و رعایت نکات ایمنی در محیط کار هستند.",
       "message": "<b>📰 بررسی قوی‌ترین و کاربردی‌ترین فیلامنت‌ها برای چاپ سه‌بعدی قطعات بادوام</b>\n\nانتخاب فیلامنت مناسب برای چاپ سه‌بعدی قطعات بادوام و ساختاری، نیازمند شناخت دقیق ویژگی‌های متریال‌هایی نظیر نایلون تقویت‌شده با فیبر کربن و پلی‌کربنات است. هرچند این مواد مقاومت بسیار بالایی در برابر فشار و حرارت دارند، اما نیازمند تجهیزات پیشرفته و رعایت نکات ایمنی در محیط کار هستند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>انتخاب فیلامنت مناسب برای چاپگرهای سه‌بعدی (3D Printers) همواره یکی از چالش‌های کلیدی سازندگان بوده است، زیرا «قوی بودن» یک قطعه می‌تواند معانی مختلفی داشته باشد؛ از مقاومت در برابر خم شدن در پایه‌ها (Brackets) گرفته تا انعطاف‌پذیری و جذب ضربه. برای کاربردهایی که به استحکام ساختاری و صلبیت نیاز دارند، نایلون تقویت‌شده با فیبر کربن (PA-CF) و پلی‌کربنات (PC) به عنوان دو مورد از کاربردی‌ترین و قدرتمندترین متریال‌ها برای چاپگرهای رومیزی شناخته می‌شوند. این مواد به مراتب توانایی بیشتری در تحمل شرایط سخت، دماهای بالا و فشارهای مکانیکی نسبت به فیلامنت‌های رایج مانند پلی‌لاکتیک اسید (PLA) یا پلی‌اتیلن ترفتالات گلیکول (PETG) دارند. متریال نایلون تقویت‌شده با فیبر کربن (PA-CF) ترکیبی از نایلون و الیاف کوتاه کربن است که به سختی قطعه و مقاومت آن در برابر خمش کمک شایانی می‌کند. شرکت بامبو لب (Bambu Lab) در آزمایش‌های خود مقاومت خمشی نایلون ۶ تقویت‌شده با فیبر کربن (PA6-CF) را حدود ۱۵۱ مگاپاسکال ثبت کرده است و دمای انحراف حرارتی آن نیز به ۱۸۶ درجه سانتی‌گراد می‌رسد. با این حال، استفاده از این متریال نیازمند سخت‌افزار مناسب است؛ از جمله نازل فولادی سخت‌شده (Hardened Steel Nozzle) به دلیل خاصیت سایندگی الیاف کربن، و همچنین نیاز به خشک کردن فیلامنت پیش از چاپ و استفاده از محفظه بسته (Enclosed Printer) در دمای نازل بین ۲۶۰ تا ۲۹۰ درجه سانتی‌گراد. شرکت پلی‌میکر (Polymaker) نیز قیمت هر قرقره یک کیلوگرمی از محصول فیبرون پی‌ای۶-سی‌اف۲۰ (Fiberon PA6-CF20) را حدود ۵۲.۹۹ دلار تعیین کرده است. از سوی دیگر، پلی‌کربنات (PC) یک پلاستیک مهندسی صلب با مقاومت حرارتی مطلوب است که بدون نیاز به الیاف خردشده، قطعات محکمی تولید می‌کند. شرکت پلی‌میکر (Polymaker) میزان مقاومت کششی پلی‌کربنات پولی‌لایت (PolyLite PC) را در راستای لایه‌های چاپ ۶۹.۱ مگاپاسکال و مقاومت خمشی آن را ۱۰۶ مگاپاسکال اندازه‌گیری کرده است که اگرچه کمتر از نایلون کربن است، اما قیمت مناسب‌تری در حدود ۲۹.۹۹ دلار برای هر قرقره یک کیلوگرمی دارد. با این وجود، پلی‌کربنات نیز به دمای چاپ ۲۵۰ تا ۲۷۰ درجه سانتی‌گراد و بستر گرم‌شده ۹۰ تا ۱۰۵ درجه سانتی‌گراد نیاز دارد که ممکن است چاپگرهای ارزان‌قیمت را با چالش مواجه کند. در نهایت، علاوه بر انتخاب نوع فیلامنت، مواردی همچون جهت‌گیری قطعه روی صفحه چاپ، ضخامت دیواره‌ها و تهویه مناسب محیط کار به دلیل انتشار ذرات ریز و محرک‌های تنفسی بر اساس گزارش‌های مؤسسه ملی ایمنی و بهداشت شغلی (NIOSH)، نقش تعیین‌کننده‌ای در کیفیت نهایی قطعه و سلامت کاربر دارند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/these-are-the-strongest-3d-printer-filaments-you-can-use/l-intro-1794259197.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "These are some of the strongest 3D printer filaments for durable parts",
+      "summary": "Let's take a closer look at some of the strongest and most practical filaments for the type of 3D printers accessible to the average maker.",
+      "display_title": "بررسی قوی‌ترین و کاربردی‌ترین فیلامنت‌ها برای چاپ سه‌بعدی قطعات بادوام",
+      "display_summary": "انتخاب فیلامنت مناسب برای چاپ سه‌بعدی قطعات بادوام و ساختاری، نیازمند شناخت دقیق ویژگی‌های متریال‌هایی نظیر نایلون تقویت‌شده با فیبر کربن و پلی‌کربنات است. هرچند این مواد مقاومت بسیار بالایی در برابر فشار و حرارت دارند، اما نیازمند تجهیزات پیشرفته و رعایت نکات ایمنی در محیط کار هستند."
     },
     {
       "key": "url:8b4e2ed8969b403396e35b581b99ce67971fd8adcdfe00f34602884462ed6109",
       "url": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
-      "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
-      "summary": "LG&#8217;s B6E was already one of the most affordable OLED TVs you could buy, but it&#8217;s an even better deal now that it’s included as part of Best Buy’s latest doorbuster event. Now through the end of today, November 15th, the 55-inch model is 50 percent off, dropping it to an all-time low of $699.99 [&#8230;]",
-      "display_title": "تخفیف ۵۰ درصدی تلویزیون اولد ال‌جی B6E در حراجی بست‌بای",
-      "display_summary": "شرکت ال‌جی (LG) با فرا رسیدن رویداد حراجی فروشگاه بست‌بای (Best Buy)، تلویزیون اولد (OLED) اقتصادی مدل B6E خود را با ۵۰ درصد تخفیف و با قیمت استثنایی ۶۹۹.۹۹ دلار عرضه می‌کند. این مدل با وجود برخی ویژگی‌های ساده‌تر نسبت به مدل‌های رده‌بالاتر، از کیفیت تصویر مطلوب و امکانات مناسبی برای گیمرها برخوردار است.",
       "message": "<b>📰 تخفیف ۵۰ درصدی تلویزیون اولد ال‌جی B6E در حراجی بست‌بای</b>\n\nشرکت ال‌جی (LG) با فرا رسیدن رویداد حراجی فروشگاه بست‌بای (Best Buy)، تلویزیون اولد (OLED) اقتصادی مدل B6E خود را با ۵۰ درصد تخفیف و با قیمت استثنایی ۶۹۹.۹۹ دلار عرضه می‌کند. این مدل با وجود برخی ویژگی‌های ساده‌تر نسبت به مدل‌های رده‌بالاتر، از کیفیت تصویر مطلوب و امکانات مناسبی برای گیمرها برخوردار است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت ال‌جی (LG) در آستانه رویدادهای خرید فصلی، یکی از محبوب‌ترین تلویزیون‌های اقتصادی خود را با تخفیفی چشمگیر روانه بازار کرده است. تلویزیون اولد (OLED) مدل B6E که پیش از این نیز به‌عنوان یکی از مقرون‌به‌صرفه‌ترین گزینه‌های بازار شناخته می‌شد، اکنون در جریان تازه‌ترین حراجی فروشگاه بست‌بای (Best Buy) با تخفیف ۵۰ درصدی به پایین‌ترین قیمت تاریخ خود یعنی ۶۹۹.۹۹ دلار برای مدل ۵۵ اینچ رسیده است. بر اساس گزارش منتشر شده، این تخفیف شامل مدل‌های بزرگ‌تر این سری نیز می‌شود؛ به‌طوری‌که مدل‌های ۶۵ اینچ و ۷۷ اینچ این تلویزیون نیز به ترتیب با قیمت‌های ۹۹۹.۹۹ دلار و ۱,۴۹۹.۹۹ دلار در دسترس خریداران قرار گرفته‌اند. تلویزیون B6E ال‌جی اگرچه به روشنایی مدل گران‌قیمت‌تر C6 نمی‌رسد، اما همچنان از کنتراست عالی و رنگ‌های مشکی عمیقی که فناوری اولد به آن شهرت دارد، بهره می‌برد. این دستگاه از استانداردهای تصویری دالبی ویژن (Dolby Vision) و HDR10 پشتیبانی می‌کند تا تصاویری زنده‌تر در صحنه‌های روشن و تاریک ارائه دهد و همچنین با فناوری دالبی اتمس (Dolby Atmos)، صدایی همه‌جانبه را برای کاربر فراهم می‌کند. از نظر امکانات نرم‌افزاری و ارتباطی، این تلویزیون به سیستم‌عامل وب‌اواس (webOS) مجهز بوده و با پشتیبانی داخلی از پروتکل‌های اپل ایرپلی (Apple AirPlay) و گوگل کست (Google Cast)، امکان پخش محتوا از روی تلفن همراه یا تبلت را به راحتی فراهم می‌سازد. همچنین کاربران می‌توانند به اپلیکیشن‌های محبوبی نظیر نتفلیکس (Netflix)، اچ‌بی‌او مکس (HBO Max) و یوتیوب (YouTube) دسترسی داشته باشند. این تلویزیون برای علاقه‌مندان به بازی‌های ویدئویی نیز حرف‌های زیادی برای گفتن دارد. نرخ تازه‌سازی تصویر ۱۲۱ هرتزی این دستگاه به‌خوبی از کنسول‌های بازی مدرن پشتیبانی می‌کند و فناوری‌های نرخ تازه‌سازی متغیر شامل انویدیا جی-سینک (Nvidia G-Sync) و ای‌ام‌دی فری‌سینک پرمیوم (AMD FreeSync Premium) به کاهش بریدگی تصویر کمک می‌کنند. پردازنده هوش مصنوعی آلفا ۸ نسل ۳ (Alpha 8 Gen 3 AI processor) و چهار پورت اچ‌دی‌ام‌آی ۲.۱ (HDMI 2.1) از دیگر مشخصات فنی این محصول به شمار می‌روند که اتصال چندین کنسول بازی را تسهیل می‌کنند. در مجموع، با وجود اینکه مدل B6E فاقد برخی ویژگی‌های پیشرفته موجود در مدل‌های رده‌بالاتر ال‌جی است، تخفیف ۵۰ درصدی آن فرصتی استثنایی برای کاربرانی فراهم می‌کند که می‌خواهند از مزایای فناوری اولد بدون پرداخت هزینه‌های گزاف بهره‌مند شوند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lg-oled-b6e-2026.png?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
+      "summary": "LG&#8217;s B6E was already one of the most affordable OLED TVs you could buy, but it&#8217;s an even better deal now that it’s included as part of Best Buy’s latest doorbuster event. Now through the end of today, November 15th, the 55-inch model is 50 percent off, dropping it to an all-time low of $699.99 [&#8230;]",
+      "display_title": "تخفیف ۵۰ درصدی تلویزیون اولد ال‌جی B6E در حراجی بست‌بای",
+      "display_summary": "شرکت ال‌جی (LG) با فرا رسیدن رویداد حراجی فروشگاه بست‌بای (Best Buy)، تلویزیون اولد (OLED) اقتصادی مدل B6E خود را با ۵۰ درصد تخفیف و با قیمت استثنایی ۶۹۹.۹۹ دلار عرضه می‌کند. این مدل با وجود برخی ویژگی‌های ساده‌تر نسبت به مدل‌های رده‌بالاتر، از کیفیت تصویر مطلوب و امکانات مناسبی برای گیمرها برخوردار است."
     },
     {
       "key": "url:977e6d447dbae91015063120b63d77a08f3c293142e993d2d05fe1522276e133",
       "url": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
-      "title": "The Sony Aibo was a robot revolution dressed like a dog",
-      "summary": "In the 1990s, Sony was absolutely convinced that we were on the precipice of a robot takeover. Pretty soon, the company decided, we'd all be living among countless humanoid robots. Some would be our coworkers; others would be our friends; and at least one would be our pet. And \"pet\" was exactly what Sony was [&#8230;]",
-      "display_title": "نگاهی به تاریخچه ربات سگ‌نمای آیبو ساخت سونی؛ انقلابی در دنیای رباتیک",
-      "display_summary": "در دهه ۱۹۹۰ میلادی، شرکت سونی با معرفی ربات سگ‌نمای آیبو تلاش کرد تا فناوری را وارد حوزه عواطف انسانی کند. این ربات اگرچه به یک پدیده فرهنگی تبدیل شد و ارتباط عمیقی با صاحبان خود برقرار کرد، اما مسیر پرفرازونشیبی را در بازار فناوری تجربه کرد.",
       "message": "<b>📰 نگاهی به تاریخچه ربات سگ‌نمای آیبو ساخت سونی؛ انقلابی در دنیای رباتیک</b>\n\nدر دهه ۱۹۹۰ میلادی، شرکت سونی با معرفی ربات سگ‌نمای آیبو تلاش کرد تا فناوری را وارد حوزه عواطف انسانی کند. این ربات اگرچه به یک پدیده فرهنگی تبدیل شد و ارتباط عمیقی با صاحبان خود برقرار کرد، اما مسیر پرفرازونشیبی را در بازار فناوری تجربه کرد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>در دهه ۱۹۹۰ میلادی، شرکت سونی (Sony) کاملاً متقاعد شده بود که جهان در آستانه یک انقلاب رباتیک قرار دارد. مدیران سونی تصور می‌کردند که در آینده‌ای نزدیک، انسان‌ها در کنار ربات‌های انسان‌نما زندگی خواهند کرد؛ ربات‌هایی که برخی همکار، برخی دوست و دست‌کم یکی از آن‌ها حیوان خانگی انسان‌ها خواهند بود. مفهوم «حیوان خانگی» دقیقاً همان چیزی بود که سونی هنگام خلق ربات آیبو (Aibo) در سر داشت. این ربات قرار بود به عضوی از خانواده تبدیل شود. پادکست نسخه تاریخچه (Version History) در یکی از اپیزودهای خود به سراغ روایت داستان شکل‌گیری آیبو رفته است. دیوید پیرس (David Pierce)، سردبیر ارشد وب‌سایت ورج (The Verge)، به همراه همکارانش ویکتوریا سونگ (Victoria Song) و جنیفر پاتیسون توهی (Jennifer Pattison Tuohy)، ریشه‌های این سگ رباتیک شگفت‌انگیز و همچنین میزان موفقیت و ماندگاری آن را بررسی کرده‌اند. آن‌ها تلاش می‌کنند بفهمند چرا آیبو چنین تأثیر عمیقی بر صاحبان خود گذاشته است، سونی در زمینه طراحی ربات‌ها چه مواردی را درست و چه مواردی را اشتباه تشخیص داده بود و آیا ایده حیوانات خانگی رباتیک روزی به یک پدیده جهانی تبدیل خواهد شد یا خیر. ربات آیبو فراتر از یک ابزار الکترونیکی ساده بود و توانست حس عاطفی مالکان خود را درنوردد. با این حال، مسیر این فناوری بی‌حاشیه هم نبود. به عنوان نمونه، هنگامی که شرکت سونی پشتیبانی از آیبو را متوقف کرد، بسیاری از صاحبان این ربات در ژاپن احساس کردند که تنها رها شده‌اند؛ موضوعی که بازتاب گسترده‌ای در نشریاتی مانند وال استریت ژورنال (The Wall Street Journal) داشت. با این وجود، جایگاه آیبو به قدری در تاریخ طراحی و فناوری اهمیت یافت که نمونه‌ای از آن در موزه هنر مدرن (Museum of Modern Art) نیز به ثبت رسید. در نهایت، داستان آیبو یادآور این نکته است که تلاش برای ادغام فناوری و عواطف انسانی می‌تواند پیامدهای پیش‌بینی‌نشده‌ای به همراه داشته باشد. اگرچه ربات‌های سگ‌نما نتوانستند به اندازه پیش‌بینی‌های اولیه سونی به کالایی همگانی تبدیل شوند، اما راه را برای نسل‌های بعدی گجت‌های هوشمند و تعاملی هموار کردند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AIBO_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "The Sony Aibo was a robot revolution dressed like a dog",
+      "summary": "In the 1990s, Sony was absolutely convinced that we were on the precipice of a robot takeover. Pretty soon, the company decided, we'd all be living among countless humanoid robots. Some would be our coworkers; others would be our friends; and at least one would be our pet. And \"pet\" was exactly what Sony was [&#8230;]",
+      "display_title": "نگاهی به تاریخچه ربات سگ‌نمای آیبو ساخت سونی؛ انقلابی در دنیای رباتیک",
+      "display_summary": "در دهه ۱۹۹۰ میلادی، شرکت سونی با معرفی ربات سگ‌نمای آیبو تلاش کرد تا فناوری را وارد حوزه عواطف انسانی کند. این ربات اگرچه به یک پدیده فرهنگی تبدیل شد و ارتباط عمیقی با صاحبان خود برقرار کرد، اما مسیر پرفرازونشیبی را در بازار فناوری تجربه کرد."
     },
     {
       "key": "url:ee60dc67fb51503716643b177f11b03e4b52b6ba96e1841def49220534b06d82",
       "url": "https://www.engadget.com/2313682/anker-vs-belkin-which-products-accessories-should-get/",
-      "title": "Anker vs. Belkin: Which company's power banks and accessories should you get?",
-      "summary": "To decide between Anker and Belkin's power banks and accessories, consider what you want most: lots of power or unique products for gamers and creators.",
-      "display_title": "مقایسه انکر و بلکین؛ کدام برند پاوربانک و لوازم جانبی بهتری ارائه می‌دهد؟",
-      "display_summary": "انتخاب میان پاوربانک‌ها و لوازم جانبی دو برند مطرح انکر (Anker) و بلکین (Belkin) به نیازهای کاربران بستگی دارد. انکر بیشتر روی توان خروجی بالا و فناوری‌های پیشرفته تمرکز دارد، در حالی که بلکین محصولات متنوعی را برای تولیدکنندگان محتوا و گیمرها عرضه می‌کند.",
       "message": "<b>📰 مقایسه انکر و بلکین؛ کدام برند پاوربانک و لوازم جانبی بهتری ارائه می‌دهد؟</b>\n\nانتخاب میان پاوربانک‌ها و لوازم جانبی دو برند مطرح انکر (Anker) و بلکین (Belkin) به نیازهای کاربران بستگی دارد. انکر بیشتر روی توان خروجی بالا و فناوری‌های پیشرفته تمرکز دارد، در حالی که بلکین محصولات متنوعی را برای تولیدکنندگان محتوا و گیمرها عرضه می‌کند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>هنگام خرید پاوربانک و سایر لوازم جانبی برای دستگاه‌های همراه، شرکت‌های انکر (Anker) و بلکین (Belkin) به عنوان دو نام برجسته و معتبر در بازار شناخته می‌شوند. با این حال، پرسش اصلی این نیست که کدام برند مطلقاً بهتر است، بلکه این است که کدام‌یک می‌تواند نیازهای خاص کاربران را به شکل مطلوب‌تری برطرف کند. برند بلکین (Belkin) فراتر از تجهیزات شارژ سنتی، محصولات متنوعی مانند هدفون‌ها، دسته‌های نگهدارنده دوربین و ابزارهای ترکیبی برای تولیدکنندگان محتوا ارائه می‌دهد. از سوی دیگر، انکر (Anker) سبد محصولات بسیار گسترده‌ای شامل هدفون‌های زیرمجموعه ساندکور (Soundcore)، جاروبرقی‌های رباتیک یوفی (Eufy)، ایستگاه‌های برق قابل حمل سولیکس (Solix) و تجهیزات صوتی و تصویری دارد. با این وجود، یکی از حوزه‌های تخصصی اصلی انکر، ساخت شارژرها و پاوربانک‌های قدرتمند برای کاربران حرفه‌ای و افراد در حال جابجایی است. در بررسی محصولات جدید معرفی شده در رویدادهای فناوری مانند نمایشگاه سی‌ئی‌اس (CES) لاس‌وگاس و نمایشگاه ایفا (IFA) برلین، تفاوت‌های کلیدی میان این دو برند آشکار می‌شود. شرکت بلکین (Belkin) به خاطر نوآوری در طراحی لوازم جانبی شهرت دارد؛ از جمله محصول معرفی شده در نمایشگاه سی‌ئی‌اس (CES) ۲۰۲۵ که ترکیبی از پاوربانک و دسته نگهدارنده دوربین به نام استِیج پاورگریپ (Stage PowerGrip) بود. این شرکت همچنین دانگل‌های نمایشگر بی‌سیم و قاب‌های شارژ برای کنسول‌های بازی مانند نینتندو سوییچ ۲ (Nintendo Switch 2) تولید کرده است. با این حال، بلکین (Belkin) در نمایشگاه ایفا (IFA) ۲۰۲۶ تلاش کرد تا با معرفی پاوربانک‌های پرقدرت، سهم بیشتری از بازار کاربران حرفه‌ای را به خود اختصاص دهد. مدل اولتراcharge 22K با ظرفیت ۲۲ هزار میلی‌آمپرساعت و توان ۶۵ وات، قابلیت شارژ لپ‌تاپ‌ها و تبلت‌ها را دارد. همچنین این شرکت باتری‌های حالت جامد (Solid-State) را معرفی کرد که خطر آتش‌سوزی و تورم باتری را کاهش می‌دهند. مدل اولترا‌چارج پرو اسلیم مگنتیک (UltraCharge Pro Slim Magnetic) نیز با ظرفیت ۵ هزار میلی‌آمپرساعت، گزینه‌ای فوق‌العاده باریک و هم‌اندازه کارت اعتباری است که از شارژ سیمی و بی‌سیم پشتیبانی می‌کند. در سوی مقابل، برند انکر (Anker) به طور سنتی بر ارائه شارژرهای بسیار قدرتمند تمرکز دارد. این شرکت در نمایشگاه ایفا (IFA) ۲۰۲۶ شارژر لپ‌تاپ پرو (Laptop Charger Pro) را معرفی کرد که قادر است نوع لپ‌تاپ متصل را شناسایی کرده و روند شارژ را بهینه‌سازی کند. همچنین پاوربانک بی‌سیم مگ‌گو ۲ پرو (MagGo 2 Pro) با توان ۲۵ وات و مجهز به فن خنک‌کننده داخلی برای جلوگیری از داغ شدن بیش از حد معرفی شد. محصولات انکر معمولاً مجهز به نمایشگرهای دیجیتال هستند که اطلاعات مربوط به توان خروجی، دما و وضعیت سلامت باتری را به نمایش می‌گذارند. در مجموع، انکر (Anker) معمولاً در رده‌بندی بهترین پاوربانک‌ها با تکیه بر طراحی‌های هوشمندانه و توان خروجی بالا پیشتاز است، در حالی که بلکین (Belkin) در بخش محصولات میان‌رده و تجهیزات اختصاصی برای تولیدکنندگان محتوا و گیمرها عملکرد درخشانی دارد. کاربران می‌توانند با بررسی دقیق ویژگی‌ها و ارجحیت‌های خود، مناسب‌ترین گزینه را انتخاب کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/anker-vs-belkin-which-companys-power-banks-and-accessories-should-you-get/l-intro-1794248743.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Anker vs. Belkin: Which company's power banks and accessories should you get?",
+      "summary": "To decide between Anker and Belkin's power banks and accessories, consider what you want most: lots of power or unique products for gamers and creators.",
+      "display_title": "مقایسه انکر و بلکین؛ کدام برند پاوربانک و لوازم جانبی بهتری ارائه می‌دهد؟",
+      "display_summary": "انتخاب میان پاوربانک‌ها و لوازم جانبی دو برند مطرح انکر (Anker) و بلکین (Belkin) به نیازهای کاربران بستگی دارد. انکر بیشتر روی توان خروجی بالا و فناوری‌های پیشرفته تمرکز دارد، در حالی که بلکین محصولات متنوعی را برای تولیدکنندگان محتوا و گیمرها عرضه می‌کند."
     },
     {
       "key": "url:cbb3c47374bf0da3dad802e486ed97f79f5be9db63239efebc9905fea545d2dc",
       "url": "https://www.engadget.com/2313048/apple-maps-hidden-features-users-should-know/",
-      "title": "The hidden features every Apple Maps user should know about",
-      "summary": "Apple Maps isn't just about the big-ticket features; it has a range of lesser-known features that are just as useful. Here are some of the most notable.",
-      "display_title": "قابلیت‌های پنهانی که هر کاربر اپل‌مپز باید بداند",
-      "display_summary": "اپلیکیشن اپل‌مپز (Apple Maps) فراتر از قابلیت‌های اصلی خود، دارای ویژگی‌های کاربردی و کمتر شناخته‌شده‌ای مانند نقشه‌های آفلاین، یادداشت‌های شخصی و هشدار ترافیک است. این قابلیت‌ها به کاربران کمک می‌کنند تا تجربه ناوبری بهتر و شخصی‌سازی‌شده‌تری داشته باشند.",
       "message": "<b>📰 قابلیت‌های پنهانی که هر کاربر اپل‌مپز باید بداند</b>\n\nاپلیکیشن اپل‌مپز (Apple Maps) فراتر از قابلیت‌های اصلی خود، دارای ویژگی‌های کاربردی و کمتر شناخته‌شده‌ای مانند نقشه‌های آفلاین، یادداشت‌های شخصی و هشدار ترافیک است. این قابلیت‌ها به کاربران کمک می‌کنند تا تجربه ناوبری بهتر و شخصی‌سازی‌شده‌تری داشته باشند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اپلیکیشن اپل‌مپز (Apple Maps) شرکت اپل (Apple) که در سال ۲۰۱۲ با رونمایی پرچالش خود کار را آغاز کرده بود، طی سال‌ها مسیر طولانی را پیموده و اکنون به یک ابزار ناوبری قدرتمند تبدیل شده است. شرکت اپل با بازسازی داده‌های جغرافیایی، افزودن ساختمان‌های سه‌بعدی دقیق، مسیرهای دوچرخه‌سواری، راهنماهای تخصصی و نسخه وب تلاش کرده تا فاصله خود را با رقبا کاهش دهد. با این حال، بسیاری از کاربران تنها از قابلیت‌های اولیه این اپلیکیشن استفاده می‌کنند، در حالی که اپل‌مپز دارای ویژگی‌های پنهان و کاربردی فراوانی است که می‌توانند تجربه کاربری را به شکل چشمگیری بهبود بخشند. یکی از مهم‌ترین قابلیت‌های کاربردی، امکان دانلود نقشه‌ها برای استفاده آفلاین است. مسافرانی که به نقاطی بدون دسترسی به اینترنت یا شبکه تلفن همراه سفر می‌کنند، می‌توانند به راحتی مناطق دلخواه را در آیفون (iPhone) خود بارگیری کنند. این قابلیت شامل اطلاعاتی نظیر امتیاز مکان‌ها، زمان تخمینی رسیدن و مسیرهای گام‌به‌گام است. همچنین گزینه‌ای برای استفاده انحصاری از نقشه‌های آفلاین (Only Use Offline Maps) جهت صرفه‌جویی در مصرف داده وجود دارد. افزون بر این، کاربران می‌توانند یادداشت‌های خصوصی خود را به هر مکان دلخواه اضافه کنند؛ این یادداشت‌ها محرمانه بوده و تنها برای خود کاربر قابل مشاهده است. ویژگی جذاب دیگر، بخش مکان‌های بازدیدشده (Visited Places) است که به طور خودکار مکان‌هایی را که به آن‌ها رفته‌اید به خاطر می‌سپارد تا در صورت فراموشی نام آن‌ها، به یادتان بیاورد. این اطلاعات را می‌توان برای مدت سه ماه، یک سال یا همیشه ذخیره کرد. از سوی دیگر، اپل‌مپز با تحلیل مسیرهای ترجیحی (Preferred Routes)، می‌تواند پیش از حرکت، درباره ترافیک سنگین به شما هشدار دهد یا مسیرهای جایگزین پیشنهاد کند. شرکت اپل تاکید کرده است که اطلاعات مربوط به مسیرهای کاربران به حساب کاربری اپل (Apple Account) آن‌ها متصل نمی‌شود تا حریم خصوصی حفظ گردد. پیدا کردن خودروی پارک‌شده یکی دیگر از ویژگی‌های مفید این اپلیکیشن است که با قطع اتصال از کارپلی (CarPlay) یا خروج از خودرو، یک پین روی نقشه ثبت می‌کند. کاربران فاقد کارپلی نیز می‌توانند با نگه‌داشتن آیکون اپلیکیشن روی صفحه اصلی، موقعیت خود را علامت‌گذاری کنند. علاوه بر این، رانندگان می‌توانند با استفاده از دستیار صوتی سیری (Siri) و بدون برداشتن دست از روی فرمان، مواردی مانند تصادفات، دوربین‌های کنترل سرعت یا موانع جاده‌ای را به دیگران گزارش دهند. در مجموع، اگرچه در دسترس بودن برخی از این قابلیت‌ها به منطقه جغرافیایی کاربران بستگی دارد، اما شناخت و استفاده از آن‌ها نشان می‌دهد که اپل‌مپز فراتر از یک ابزار ناوبری ساده عمل می‌کند و امکانات ارزنده‌ای را برای کاربران دستگاه‌های اپل فراهم می‌سازد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/the-hidden-features-every-apple-maps-user-should-know-about/l-intro-1794373722.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "The hidden features every Apple Maps user should know about",
+      "summary": "Apple Maps isn't just about the big-ticket features; it has a range of lesser-known features that are just as useful. Here are some of the most notable.",
+      "display_title": "قابلیت‌های پنهانی که هر کاربر اپل‌مپز باید بداند",
+      "display_summary": "اپلیکیشن اپل‌مپز (Apple Maps) فراتر از قابلیت‌های اصلی خود، دارای ویژگی‌های کاربردی و کمتر شناخته‌شده‌ای مانند نقشه‌های آفلاین، یادداشت‌های شخصی و هشدار ترافیک است. این قابلیت‌ها به کاربران کمک می‌کنند تا تجربه ناوبری بهتر و شخصی‌سازی‌شده‌تری داشته باشند."
     },
     {
       "key": "url:c0b15ac18fe15b2d9751f283bc3eefb20bf6042fa5db3fab94f27c871430b187",
       "url": "https://www.engadget.com/2313550/roku-tv-turns-on-by-itself-common-reasons-fixes/",
-      "title": "Common reasons your Roku TV can turn on by itself and how to fix it",
-      "summary": "If your TV has randomly been turning on and it has a Roku attached to it, it could be your Roku's doing. Check these settings.",
-      "display_title": "دلایل رایج روشن شدن خودکار تلویزیون‌های روکو و روش‌های رفع آن",
-      "display_summary": "بسیاری از کاربران تلویزیون‌های روکو (Roku TV) اخیراً گزارش داده‌اند که دستگاه‌هایشان بدون هیچ دلیل مشخصی در نیمه‌شب روشن می‌شوند. این مشکل می‌تواند ناشی از باگ‌های نرم‌افزاری، اشکالات اتصال اچ‌دی‌ام‌آی-سی‌ئی‌سی (HDMI-CEC) یا ویژگی راه‌اندازی سریع باشد و راهکارهایی برای رفع آن وجود دارد.",
       "message": "<b>📰 دلایل رایج روشن شدن خودکار تلویزیون‌های روکو و روش‌های رفع آن</b>\n\nبسیاری از کاربران تلویزیون‌های روکو (Roku TV) اخیراً گزارش داده‌اند که دستگاه‌هایشان بدون هیچ دلیل مشخصی در نیمه‌شب روشن می‌شوند. این مشکل می‌تواند ناشی از باگ‌های نرم‌افزاری، اشکالات اتصال اچ‌دی‌ام‌آی-سی‌ئی‌سی (HDMI-CEC) یا ویژگی راه‌اندازی سریع باشد و راهکارهایی برای رفع آن وجود دارد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>روشن شدن ناگهانی تلویزیون در نیمه‌شب و در حالی که هیچ‌کس در اطراف کنترل آن حضور ندارد، تجربه آزاردهنده‌ای است. در ماه‌های اخیر، برخی از دارندگان تلویزیون‌های هوشمند روکو (Roku TV) و دستگاه‌های پخش رسانه‌ای روکو (Roku) با این پدیده مرموز مواجه شده‌اند و دستگاه‌هایشان به طور ناخواسته در ساعات پایانی شب روشن شده‌اند. اگرچه شرکت روکو (Roku) هنوز دلیل قطعی این اتفاقات را به طور رسمی اعلام نکرده است، اما کارشناسان چند عامل احتمالی را برای این مشکل شناسایی کرده‌اند. یکی از محتمل‌ترین دلایل، بروز باگ نرم‌افزاری در نسخه ۱۵.۳ سیستم‌عامل روکو (Roku OS) است که در اوت ۲۰۲۶ عرضه شد. اگرچه تغییرات این نسخه ظاهراً ارتباطی با مدیریت توان نداشت، اما به‌روزرسانی‌های نرم‌افزاری اغلب اشکالات پیش‌بینی‌نشده‌ای ایجاد می‌کنند. عامل دوم، اختلال در ارتباط اچ‌دی‌ام‌آی-سی‌ئی‌سی (HDMI-CEC) است. این فناوری به تمامی تجهیزات صوتی و تصویری متصل به تلویزیون اجازه می‌دهد تا با یک کنترل از راه دور مدیریت شوند. گاهی اوقات تداخل سیگنال‌ها یا عدم سازگاری میان برندهای مختلف متصل به پورت اچ‌دی‌ام‌آی (HDMI) باعث ارسال دستورهای اشتباه و روشن شدن تصادفی دستگاه می‌شود. همچنین ویژگی مدیریت توان موسوم به راه‌اندازی سریع تلویزیون (Fast TV Start) که سیستم‌عامل روکو (Roku OS) را در پس‌زمینه فعال نگه می‌دارد تا دستگاه بلافاصله روشن شود، می‌تواند در بروز این مشکل نقش داشته باشد. برای حل این مشکل، کاربران می‌توانند راهکارهای زیر را امتحان کنند: نخست، به‌روزرسانی سیستم‌عامل به نسخه ۱۶ که در اکتبر عرضه شده است. دوم، غیرفعال کردن قابلیت تک‌لمسی پخش (1-Touch Play) یا همان اچ‌دی‌ام‌آی-سی‌ئی‌سی (HDMI-CEC) در تنظیمات تلویزیون و سایر دستگاه‌های متصل. سوم، خاموش کردن ویژگی راه‌اندازی سریع (Fast TV Start) از طریق منوی تنظیمات سیستم. اگر هیچ‌یک از این روش‌ها مؤثر نبود، قطع کردن کابل برق در طول شب یا استفاده از پریزهای هوشمند به عنوان راهکاری موقت پیشنهاد می‌شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/common-reasons-your-roku-tv-can-turn-on-by-itself-and-how-to-fix-it/l-intro-1794413571.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Common reasons your Roku TV can turn on by itself and how to fix it",
+      "summary": "If your TV has randomly been turning on and it has a Roku attached to it, it could be your Roku's doing. Check these settings.",
+      "display_title": "دلایل رایج روشن شدن خودکار تلویزیون‌های روکو و روش‌های رفع آن",
+      "display_summary": "بسیاری از کاربران تلویزیون‌های روکو (Roku TV) اخیراً گزارش داده‌اند که دستگاه‌هایشان بدون هیچ دلیل مشخصی در نیمه‌شب روشن می‌شوند. این مشکل می‌تواند ناشی از باگ‌های نرم‌افزاری، اشکالات اتصال اچ‌دی‌ام‌آی-سی‌ئی‌سی (HDMI-CEC) یا ویژگی راه‌اندازی سریع باشد و راهکارهایی برای رفع آن وجود دارد."
     },
     {
       "key": "url:dfb445fb8c8e916a7c64697b9732730e96bb041559a3fd8d353fb63044984edb",
       "url": "https://www.engadget.com/2311854/what-is-npu-why-many-laptops-have-them/",
-      "title": "What does an NPU do and why do so many laptops have them?",
-      "summary": "Wondering what an NPU actually does and whether you even need it? We've got you covered.",
-      "display_title": "واحد پردازش عصبی (NPU) چیست و چرا بیشتر لپ‌تاپ‌های جدید به آن مجهز هستند؟",
-      "display_summary": "واحدهای پردازش عصبی (NPU) به بخش استانداردی در لپ‌تاپ‌های میان‌رده و رده‌بالا تبدیل شده‌اند، با این حال نرم‌افزارهای زیادی هنوز از آن‌ها استفاده نمی‌کنند. حضور فراگیر این تراشه‌ها بیشتر ناشی از الزامات شرکت مایکروسافت (Microsoft) برای دریافت گواهینامه‌های هوش مصنوعی است تا تقاضای واقعی کاربران.",
       "message": "<b>📰 واحد پردازش عصبی (NPU) چیست و چرا بیشتر لپ‌تاپ‌های جدید به آن مجهز هستند؟</b>\n\nواحدهای پردازش عصبی (NPU) به بخش استانداردی در لپ‌تاپ‌های میان‌رده و رده‌بالا تبدیل شده‌اند، با این حال نرم‌افزارهای زیادی هنوز از آن‌ها استفاده نمی‌کنند. حضور فراگیر این تراشه‌ها بیشتر ناشی از الزامات شرکت مایکروسافت (Microsoft) برای دریافت گواهینامه‌های هوش مصنوعی است تا تقاضای واقعی کاربران.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>اگر اخیراً اقدام به خرید یک لپ‌تاپ جدید کرده باشید، احتمال زیادی وجود دارد که دستگاه شما به یک «واحد پردازش عصبی» یا همان ان‌پی‌یو (NPU) مجهز شده باشد؛ تراشه‌ای که در حال حاضر کاربرد بسیار کمی برای بیشتر کاربران دارد. ان‌پی‌یو (NPU) بلوکی از سیلیکون است که بارهای کاری هوش مصنوعی را با کسری از توان مصرفی پردازنده‌های مرکزی (CPU) یا پردازنده‌های گرافیکی (GPU) اجرا می‌کند. در حالی که این تراشه‌ها هنوز در تمامی لپ‌تاپ‌ها یافت نمی‌شوند، اما در حال حاضر به پای ثابت دستگاه‌های میان‌رده و پریمیوم تبدیل شده‌اند. شرکت پژوهشی و مشاوره گارتنر (Gartner) تخمین می‌زند که رایانه‌های شخصی مجهز به هوش مصنوعی، مانند همین لپ‌تاپ‌های دارای ان‌پی‌یو (NPU)، بیش از نیمی از کل محموله‌های جهانی را به خود اختصاص می‌دهند. دلیل اصلی این پدیده نه تقاضای خریداران، بلکه تطبیق با الزامات صدور گواهینامه است. در سال ۲۰۲۴، شرکت مایکروسافت (Microsoft) عملاً به سازندگان لپ‌تاپ دیکته کرد که برای دسترسی به ویژگی‌های جدید هوش مصنوعی در سیستم‌عامل ویندوز (Windows)، باید به حداقل عملکرد ۴۰ تپس (TOPS - معیاری برای سنجش سرعت پردازش محاسبات هوش مصنوعی توسط ان‌پی‌یو) در محصولات جدید خود دست یابند. در نتیجه، سخت‌افزارهای ان‌پی‌یو (NPU) با استقبال بازار مواجه شدند، اما نرم‌افزارها هنوز از آن‌ها عقب‌تر هستند. وظیفه اصلی ان‌پی‌یو (NPU) شتاب‌دهی به استنتاج (Inference) است؛ یعنی فاز «اجرای مدل» به جای فاز «آموزش مدل» که توسط پردازنده گرافیکی انجام می‌شود. شبکه‌های عصبی برای این کار به شدت به دو نوع محاسبات یعنی ضرب ماتریس و توابع فعال‌سازی غیرخطی اتکا دارند. ان‌پی‌یوها (NPU) به‌طور اختصاصی برای اجرای سریع و بهینه این عملیات ساخته شده‌اند، هرچند این امر به قیمت کاهش مقداری از انعطاف‌پذیری پردازنده‌های همه‌منظوره تمام شده است. برای نمونه، قابلیت محو کردن پس‌زمینه در تماس‌های ویدیویی را در نظر بگیرید. این ویژگی می‌تواند روی پردازنده مرکزی (CPU) یا پردازنده گرافیکی (GPU) اجرا شود، اما هر دو توان زیادی مصرف کرده، گرما تولید می‌کنند و شارژ باتری لپ‌تاپ را کاهش می‌دهند. در مقابل، یک ان‌پی‌یو (NPU) همان کار را با کسری از انرژی انجام می‌دهد تا ویژگی‌هایی مانند افکت‌های وب‌کم بدون تخلیه باتری یا فعالیت شدید فن‌ها به طور مداوم اجرا شوند. البته ان‌پی‌یوها (NPU) برای آموزش مدل‌های هوش مصنوعی مناسب نیستند و برای اجرای مدل‌های زبانی بزرگ محلی مانند مدل لاما (Llama) با ۷۰ میلیارد پارامتر، همچنان به یک پردازنده گرافیکی مجزا با حافظه ویدیویی مناسب نیاز دارید. همچنین این تراشه‌ها برای خدماتی مانند چت‌جی‌پی‌تی (ChatGPT) یا جمنای (Gemini) نیاзыدی ندارند؛ زیرا آن‌ها روی زیرساخت ارائه‌دهندگان ابری اجرا می‌شوند. کاربرد واقعی آن‌ها در حال حاضر محدود به چند ویژگی همیشه روشن و کم‌مصرف مانند افکت‌های وب‌کم، حذف نویز، ترجمه بلادرنگ و نمایه‌سازی جستجوی محلی است. دلیل فراوانی این تراشه‌ها، استاندارد کامپیوترهای کوپایلوت پلاس (Copilot+ PC) از شرکت مایکروسافت (Microsoft) است. سازندگان لپ‌تاپ تنها در صورتی می‌توانند این گواهینامه را کسب کنند که دستگاه‌هایشان دارای یک ان‌پی‌یو با قدرت ۴۰ تپس به همراه ۱۶ گیگابایت رم و ۲۵۶ گیگابایت حافظه ذخیره‌سازی باشد. شرکت‌هایی مانند کوالکام (Qualcomm) با تراشه‌های اسنپدراگون ایکس الیت (Snapdragon X Elite)، اینتل (Intel) با معماری لونار لیک (Lunar Lake) و ای‌ام‌دی (AMD) با رایزن هوش مصنوعی (Ryzen AI)، نسل‌های جدید این پردازنده‌ها را با قدرت‌های بالاتر به بازار عرضه کرده‌اند. با این حال، فهرست برنامه‌هایی که به ان‌پی‌یو (NPU) اتکا دارند همچنان کوتاه است و شامل مواردی چون افکت‌های استودیویی ویندوز (Windows Studio Effects)، زیرنویس زنده، ریکال (Recall) و برخی ویژگی‌های ادوبی کریتیو کلود (Adobe Creative Cloud) می‌شود. در نتیجه، اگرچه این تراشه‌ها به استاندارد جدیدی در دنیای رایانه‌های شخصی تبدیل شده‌اند، اما توسعه نرم‌افزاری برای بهره‌گیری کامل از ظرفیت آن‌ها همچنان نیازمند زمان و تلاش بیشتر از سوی توسعه‌دهندگان است.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/what-does-an-npu-do-and-why-do-so-many-laptops-have-them/l-intro-1794310250.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "What does an NPU do and why do so many laptops have them?",
+      "summary": "Wondering what an NPU actually does and whether you even need it? We've got you covered.",
+      "display_title": "واحد پردازش عصبی (NPU) چیست و چرا بیشتر لپ‌تاپ‌های جدید به آن مجهز هستند؟",
+      "display_summary": "واحدهای پردازش عصبی (NPU) به بخش استانداردی در لپ‌تاپ‌های میان‌رده و رده‌بالا تبدیل شده‌اند، با این حال نرم‌افزارهای زیادی هنوز از آن‌ها استفاده نمی‌کنند. حضور فراگیر این تراشه‌ها بیشتر ناشی از الزامات شرکت مایکروسافت (Microsoft) برای دریافت گواهینامه‌های هوش مصنوعی است تا تقاضای واقعی کاربران."
     },
     {
       "key": "url:7b80e9440d74a14ca9448fdbdf4999f591a2f0e8f0446c6f555fea14e73fb742",
       "url": "https://www.engadget.com/2311763/samsung-one-ui-getting-rid-of-another-feature/",
-      "title": "Samsung may be getting rid of another One UI feature",
-      "summary": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.",
-      "display_title": "شرکت سامسونگ ممکن است یکی دیگر از قابلیت‌های رابط کاربری وان یو‌آی را حذف کند",
-      "display_summary": "گزارش‌ها حاکی از آن است که شرکت سامسونگ (Samsung) قصد دارد سرویس تجمیع‌کننده اخبار خود موسوم به سامسونگ نیوز (Samsung News) را متوقف کند. این تصمیم در ادامه روند جایگزینی برنامه‌های اختصاصی این غول فناوری با سرویس‌های گوگل (Google) اتخاذ شده است.",
       "message": "<b>📰 شرکت سامسونگ ممکن است یکی دیگر از قابلیت‌های رابط کاربری وان یو‌آی را حذف کند</b>\n\nگزارش‌ها حاکی از آن است که شرکت سامسونگ (Samsung) قصد دارد سرویس تجمیع‌کننده اخبار خود موسوم به سامسونگ نیوز (Samsung News) را متوقف کند. این تصمیم در ادامه روند جایگزینی برنامه‌های اختصاصی این غول فناوری با سرویس‌های گوگل (Google) اتخاذ شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بر اساس گزارش‌های جدید، شرکت سامسونگ (Samsung) ممکن است به زودی یکی دیگر از ویژگی‌های رابط کاربری وان یو‌آی (One UI) خود را حذف کند. این تغییر جدید احتمالاً شامل توقف فعالیت سرویس اخبار این شرکت یعنی سامسونگ نیوز (Samsung News) می‌شود که کاربران با کشیدن صفحه اصلی گوشی‌های گلکسی (Galaxy) به سمت چپ به آن دسترسی پیدا می‌کنند. تاکنون به کاربران این سرویس در کشورهای کره جنوبی و هند اطلاع داده شده است که سامسونگ نیوز در اواخر سال جاری میلادی به کار خود پایان خواهد داد. علاوه بر خود اپلیکیشن، ویجت‌ها و صفحه رسانه در صفحه اصلی دستگاه‌ها نیز در این مناطق از تاریخ ۲۱ دسامبر ۲۰۲۶ از کار خواهند افتاد. رسانه‌های تخصصی مانند سم‌موبایل (SamMobile) اعلام کرده‌اند که احتمال توقف این سرویس در سایر بازارهای جهانی نیز بسیار بالا است. این تصمیم در حالی اتخاذ می‌شود که سامسونگ پیش از این نیز تلاش‌های متعددی برای عرضه این پلتفرم انجام داده بود. این سرویس در سال ۲۰۱۷ با نام بیکسبی هوم (Bixby Home) کار خود را آغاز کرد و بعدها به نام‌های سامسونگ دیلی (Samsung Daily)، سامسونگ فری (Samsung Free) و در نهایت در سال ۲۰۲۳ به سامسونگ نیوز تغییر نام داد. با این حال، هیچ‌کدام از این نسخه‌ها نتوانستند محبوبیت چشمگیری در میان کاربران به دست آورند. با توجه به اینکه نسخه‌های جدیدتر رابط کاربری وان یو‌آی (One UI) به صورت پیش‌فرض از سرویس گوگل دیسکاور (Google Discover) بهره می‌برند و نقش پررنگ هوش مصنوعی در ارائه اخبار، سامسونگ احتمالاً دلیلی برای ادامه سرمایه‌گذاری روی سرویس اختصاصی خود نمی‌بیند. پیش از این نیز سامسونگ اپلیکیشن پیام‌رسان خود یعنی سامسونگ مسنجر (Samsung Messages) را به نفع پیام‌رسان گوگل (Google Messages) در ایالات متحده کنار گذاشته بود. کاربرانی که از این سرویس استفاده می‌کنند، پیش از غیرفعال شدن آن می‌توانند صفحه اصلی خود را به گوگل دیسکاور (Google Discover) تغییر دهند یا کلاً صفحه رسانه را غیرفعال کنند تا از شلوغی رابط کاربری دستگاه کاسته شود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/samsung-may-be-getting-rid-of-another-one-ui-feature/l-intro-1794202783.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Samsung may be getting rid of another One UI feature",
+      "summary": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.",
+      "display_title": "شرکت سامسونگ ممکن است یکی دیگر از قابلیت‌های رابط کاربری وان یو‌آی را حذف کند",
+      "display_summary": "گزارش‌ها حاکی از آن است که شرکت سامسونگ (Samsung) قصد دارد سرویس تجمیع‌کننده اخبار خود موسوم به سامسونگ نیوز (Samsung News) را متوقف کند. این تصمیم در ادامه روند جایگزینی برنامه‌های اختصاصی این غول فناوری با سرویس‌های گوگل (Google) اتخاذ شده است."
     },
     {
       "key": "url:95e051c40e0461ea0075557e55a63130a3a9fac43f6456a09d58ed30feb1ba5a",
       "url": "https://www.engadget.com/2311827/1tb-storage-xbox-series-x-enough/",
-      "title": "Is 1TB enough storage for your Xbox Series X? Here's what gamers should know",
-      "summary": "With games increasingly taking up valuable space on consoles, we take a look at whether going for the extra storage on the Xbox Series X is really worth it.",
-      "display_title": "آیا حافظه یک ترابایتی برای ایکس‌باکس سری ایکس کافی است؟ بررسی نیازهای گیمرها",
-      "display_summary": "با افزایش حجم بازی‌های ویدیویی مدرن، انتخاب ظرفیت مناسب ذخیره‌سازی برای کنسول‌ها اهمیت بالایی پیدا کرده است. در این گزارش بررسی می‌کنیم که آیا حافظه ۱ ترابایتی کنسول ایکس‌باکس سری ایکس برای کاربران عادی و حرفه‌ای کافی است یا خیر.",
       "message": "<b>📰 آیا حافظه یک ترابایتی برای ایکس‌باکس سری ایکس کافی است؟ بررسی نیازهای گیمرها</b>\n\nبا افزایش حجم بازی‌های ویدیویی مدرن، انتخاب ظرفیت مناسب ذخیره‌سازی برای کنسول‌ها اهمیت بالایی پیدا کرده است. در این گزارش بررسی می‌کنیم که آیا حافظه ۱ ترابایتی کنسول ایکس‌باکس سری ایکس برای کاربران عادی و حرفه‌ای کافی است یا خیر.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>کنسول بازی ایکس‌باکس سری ایکس (Xbox Series X) ساخت شرکت مایکروسافت (Microsoft) با وجود گذشت زمان و عرضه مدل‌های جدیدتر، همچنان ویژگی‌های جذاب زیادی مانند قابلیت اجرای بازی‌های نسل‌های گذشته و سرویس اشتراکی ایکس‌باکس گیم‌پس (Xbox Game Pass) را به همراه دارد. بیشتر مدل‌های این کنسول با حافظه پایه ۱ ترابایتی عرضه می‌شوند که در مقایسه با برخی رقبا فضای مناسبی به نظر می‌رسد. با این حال، با توجه به حجم بالای بازی‌های امروزی، این سوال مطرح می‌شود که آیا این مقدار فضا برای گیمرها کافی است یا خیر. بخش زیادی از فضای ذخیره‌سازی داخلی کنسول توسط سیستم‌عامل اشغال می‌شود و کاربران عملاً حدود ۸۰۲ گیگابایت یا کمتر فضای آزاد برای نصب بازی‌ها و برنامه‌ها در اختیار دارند. از سوی دیگر، بازی‌های بزرگ و رده‌بالا امروزی حجم‌های چشمگیری دارند؛ به عنوان مثال، برخی عناوین مانند جی‌تی‌ای ۶ (Grand Theft Auto 6) و کال آو دیوتی (Call of Duty) بیش از ۱۰۰ تا بیش از ۲۰۰ گیگابایت از حافظه را اشغال می‌کنند. این حجم بالا به دلیل استفاده از بافت‌های گرافیکی باکیفیت و رزولوشن ۴K است. اگرچه امکان ارتقای حافظه ایکس‌باکس (Xbox) وجود دارد، اما محدودیت‌های سختی حاکم است. برای اجرای مستقیم بازی‌ها، کاربران نیازمند کارت‌های توسعه حافظه سازگار مانند محصولات شرکت سیگیت (Seagate) هستند که قیمت نسبتاً بالایی دارند. در نهایت، حافظه ۱ ترابایتی برای کاربرانی که تنها چند بازی محدود را به طور همزمان اجرا می‌کنند یا به بازی‌های مستقل علاقه دارند مناسب است، اما گیمرهای حرفه‌ای که مجموعه‌ای بزرگ از بازی‌ها را روی کنسول خود نگه می‌دارند، بهتر است از ابتدا به سراغ مدل‌های ۲ ترابایتی بروند تا در آینده با چالش کمبود فضا و هزینه‌های اضافی مواجه نشوند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/is-1tb-enough-storage-for-your-xbox-series-x-heres-what-gamers-should-know/l-intro-1794300311.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Is 1TB enough storage for your Xbox Series X? Here's what gamers should know",
+      "summary": "With games increasingly taking up valuable space on consoles, we take a look at whether going for the extra storage on the Xbox Series X is really worth it.",
+      "display_title": "آیا حافظه یک ترابایتی برای ایکس‌باکس سری ایکس کافی است؟ بررسی نیازهای گیمرها",
+      "display_summary": "با افزایش حجم بازی‌های ویدیویی مدرن، انتخاب ظرفیت مناسب ذخیره‌سازی برای کنسول‌ها اهمیت بالایی پیدا کرده است. در این گزارش بررسی می‌کنیم که آیا حافظه ۱ ترابایتی کنسول ایکس‌باکس سری ایکس برای کاربران عادی و حرفه‌ای کافی است یا خیر."
     },
     {
       "key": "url:01f68afe8c1cc7f1df4fbbcc1017013fc45e5c438a239f652ef49c21aa9398d4",
       "url": "https://www.engadget.com/2311394/sodium-vs-lithium-ion-batteries-differences-compared/",
-      "title": "Sodium vs. lithium-ion batteries: What's the difference between them?",
-      "summary": "Lithium-ion batteries may dominate today, but emerging alternatives like sodium-ion may soon have their time in the spotlight if we can manage key differences.",
-      "display_title": "مقایسه باتری‌های سدیم‌یونی و لیتیوم‌یونی: تفاوت‌ها، مزایا و آینده فناوری ذخیره‌سازی انرژی",
-      "display_summary": "باتری‌های سدیم‌یونی به عنوان جایگزینی نوظهور برای باتری‌های لیتیوم‌یونی مطرح شده‌اند که مزایایی مانند فراوانی مواد اولیه، عملکرد بهتر در هوای سرد و ایمنی بالاتر دارند. با این حال، چالش‌هایی نظیر چگالی انرژی کمتر و زنجیره تأمین نوپا مانع از جایگزینی کامل آن‌ها با فناوری‌های سنتی شده است.",
       "message": "<b>📰 مقایسه باتری‌های سدیم‌یونی و لیتیوم‌یونی: تفاوت‌ها، مزایا و آینده فناوری ذخیره‌سازی انرژی</b>\n\nباتری‌های سدیم‌یونی به عنوان جایگزینی نوظهور برای باتری‌های لیتیوم‌یونی مطرح شده‌اند که مزایایی مانند فراوانی مواد اولیه، عملکرد بهتر در هوای سرد و ایمنی بالاتر دارند. با این حال، چالش‌هایی نظیر چگالی انرژی کمتر و زنجیره تأمین نوپا مانع از جایگزینی کامل آن‌ها با فناوری‌های سنتی شده است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>فناوری‌های ذخیره‌سازی انرژی و باتری‌ها همواره نقش کلیدی در توسعه تجهیزات الکترونیکی، خودروهای الکتریکی (Electric Vehicles) و سامانه‌های انرژی پاک داشته‌اند. در این میان، باتری‌های سدیم‌یونی (Sodium-ion batteries) به عنوان یکی از جدی‌ترین رقیبان باتری‌های لیتیوم‌یونی (Lithium-ion batteries) توجه کارشناسان صنعت را به خود جلب کرده‌اند. اگرچه اصول کارکرد هر دو فناوری مشابه است و هر دو با جابجایی ذرات باردار میان الکترودهای مثبت و منفی انرژی را ذخیره و آزاد می‌کنند، اما تفاوت‌های ساختاری مهمی میان آن‌ها وجود دارد. از نظر نحوه عملکرد، یک باتری لیتیومی یون‌های لیتیوم را جابجا می‌کند، در حالی که باتری سدیمی به جابجایی یون‌های سدیم متکی است. یکی از بزرگ‌ترین تفاوت‌های این دو فناوری در «چگالی انرژی» (Energy Density) یعنی میزان انرژی ذخیره‌شده به نسبت وزن و اندازه خلاصه می‌شود. سلول‌های سدیم‌یونی به طور میانگین به چگالی حدود ۱۷۵ وات‌ساعت بر کیلوگرم می‌رسند که ۲۰ تا ۳۰ درصد پایین‌تر از سلول‌های لیتیوم‌یونی است. باتری‌های لیتیوم فسفات آهن (Lithium Iron Phosphate) این عدد را به حدود ۲۰۵ و ترکیباتی مانند لیتیوم نیکل منگنز کبالت اکسید (Lithium NMC) به حدود ۲۵۵ وات‌ساعت بر کیلوگرم می‌رسانند. از آنجا که یون‌های سدیم بزرگ‌تر و سنگین‌تر از لیتیوم هستند، محدودیت‌هایی در زمینه فضا و حجم ایجاد می‌کنند. علاوه بر این، ولتاژ کاری سلول‌های سدیم‌یونی نیز پایین‌تر است. با وجود این محدودیت‌ها، مزایای چشمگیر سدیم باعث شده شرکت‌های بزرگی مانند شرکت عصر پادشاهی فناوری باتری معاصر (CATL)، جنرال موتورز (General Motors) و پیک انرژی (Peak Energy) سرمایه‌گذاری و تولید تجاری در مقیاس بزرگ را آغاز کنند. بزرگ‌ترین مزیت سدیم، فراوانی بسیار زیاد آن در مقایسه با لیتیوم است. با این حال، فراوانی ماده اولیه به تنهایی برای تسخیر بازار کافی نیست، زیرا زنجیره‌های تأمین سایر اجزا مانند نیکل و منگنز همچنان با چالش‌هایی روبه‌رو هستند و لیتیوم از نظر زیرساخت تولیدی پیشتاز است. در حوزه عملکرد در شرایط آب‌وهوایی سرد، باتری‌های سدیم‌یونی عملکرد بهتری از خود نشان می‌دهند. بر اساس آمارهای آژانس بین‌المللی انرژی (International Energy Agency)، باتری‌های سدیم‌یونی در دمای منفی ۴۰ درجه فارنهایت حدود ۹۰ درصد از ظرفیت خود را حفظ می‌کنند، در حالی که باتری‌های لیتیوم‌یونی در چنین دماهایی با افت شدید کارایی مواجه می‌شوند. همچنین خطر پدیده فرار حرارتی (Thermal Runaway) و تولید گرما در باتری‌های سدیم‌یونی کمتر است که این امر ضریب ایمنی آن‌ها را در سوانح و کاربردهای مختلف افزایش می‌دهد. کارشناسان صنعت انرژی بر این باورند که آینده این دو فناوری احتمالاً به صورت مکمل خواهد بود. باتری‌های سدیم‌یونی می‌توانند در بخش‌هایی که لیتیوم با محدودیت مواجه است، مانند ذخیره‌سازی ثابت انرژی در شبکه‌های برق یا کار در هوای بسیار سرد، به کار گرفته شوند. در نهایت، توسعه فناوری سدیم‌یونی تنوع حق انتخاب را برای مصرف‌کنندگان و صنایع افزایش خواهد داد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/sodium-vs-lithium-ion-batteries-whats-the-difference-between-them/l-intro-1794254508.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Sodium vs. lithium-ion batteries: What's the difference between them?",
+      "summary": "Lithium-ion batteries may dominate today, but emerging alternatives like sodium-ion may soon have their time in the spotlight if we can manage key differences.",
+      "display_title": "مقایسه باتری‌های سدیم‌یونی و لیتیوم‌یونی: تفاوت‌ها، مزایا و آینده فناوری ذخیره‌سازی انرژی",
+      "display_summary": "باتری‌های سدیم‌یونی به عنوان جایگزینی نوظهور برای باتری‌های لیتیوم‌یونی مطرح شده‌اند که مزایایی مانند فراوانی مواد اولیه، عملکرد بهتر در هوای سرد و ایمنی بالاتر دارند. با این حال، چالش‌هایی نظیر چگالی انرژی کمتر و زنجیره تأمین نوپا مانع از جایگزینی کامل آن‌ها با فناوری‌های سنتی شده است."
     },
     {
       "key": "url:2f3cfae5c5bbe563f9964778f22005ed1e809f19a30ddfa5654a8ad0e9f764c5",
       "url": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
-      "title": "Outage at HR platform Workday locks millions of employees out of their account",
-      "summary": "Workday outage leaves employees of thousands of businesses unable to access workplace tasks.",
-      "display_title": "قطعی گسترده در پلتفرم منابع انسانی ورک‌دی دسترسی میلیون‌ها کارمند را مسدود کرد",
-      "display_summary": "پلتفرم مدیریت منابع انسانی ورک‌دی (Workday) با یک قطعی گسترده مواجه شد که به دلیل قرار گرفتن سیستم‌ها در حالت تعمیر و نگهداری، دسترسی میلیون‌ها کارمند را به حساب‌های کاربری و انجام امور اداری مختل کرد. این اختلال ده‌ها هزار سازمان و شرکت بزرگ در سراسر جهان را تحت تأثیر قرار داد.",
       "message": "<b>📰 قطعی گسترده در پلتفرم منابع انسانی ورک‌دی دسترسی میلیون‌ها کارمند را مسدود کرد</b>\n\nپلتفرم مدیریت منابع انسانی ورک‌دی (Workday) با یک قطعی گسترده مواجه شد که به دلیل قرار گرفتن سیستم‌ها در حالت تعمیر و نگهداری، دسترسی میلیون‌ها کارمند را به حساب‌های کاربری و انجام امور اداری مختل کرد. این اختلال ده‌ها هزار سازمان و شرکت بزرگ در سراسر جهان را تحت تأثیر قرار داد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>یک قطعی گسترده در پلتفرم مدیریت منابع انسانی ورک‌دی (Workday) در شامگاه ۱۳ نوامبر، کارمندان هزاران کسب‌وکار در سراسر جهان را در دسترسی به امور اداری و شغلی خود با مشکل مواجه کرد. بر اساس این اختلال، کاربران توانایی ثبت ساعت ورود و خروج، دسترسی به اطلاعات حقوق و دستمزد، درخواست مرخصی یا ثبت مزایا را از دست دادند. به گزارش روزنامه سان فرانسیسکو کرونیکل (San Francisco Chronicle)، شرکت ورک‌دی (Workday) اعلام کرد که پس از کشف یک مشکل در جریان آزمایش‌های سیستم، برخی از بخش‌های خود را عمداً در حالت تعمیر و نگهداری قرار داده است. به‌طور مشخص، این مشکل باعث ایجاد ناسازگاری در برخی اطلاعات شده بود و شرکت نگران بود که این امر هنگام تلاش کاربران برای دسترسی به حساب‌های کاربری یا تکمیل وظایف در سیستم، خطاهایی را ایجاد کند. وب‌سایت ردیابی قطعی داون‌دیتکتور (Downdetector) گزارش داد که در حدود ساعت ۵:۱۶ عصر به وقت شرقی، میزان گزارش‌های خرابی به اوج خود رسیده است، هرچند این روند پس از آن فروکش کرد. در حال حاضر به‌طور دقیق مشخص نیست که آیا تمامی مشتریان ورک‌دی (Workday) تحت تأثیر این قطعی قرار گرفته‌اند یا خیر. با این حال، این شرکت اعلام کرده است که حدود ۱۱۵۰۰ سازمان در سراسر جهان از خدمات آن برای انجام وظایف مختلف منابع انسانی استفاده می‌کنند. فهرست مشتریان این پلتفرم شامل شرکت‌های بزرگی مانند تارگت (Target)، والمارت (Walmart)، چارلز شواب (Charles Schwab)، نزدک (Nasdaq)، نتفلیکس (Netflix) و همچنین نهادهای دولتی مهمی همچون وزارت انرژی ایالات متحده (US Department of Energy) و آزمایشگاه پیش‌رانش جت ناسا (NASA&#x27;s Jet Propulsion Laboratory) می‌شود. شرکت ورک‌دی (Workday) ضمن عذرخواهی از اختلالات پیش‌آآمده، اعلام کرد که تیم‌های فنی در تلاشند تا بهترین و سریع‌ترین راهکار را برای حل این مشکل و بازگرداندن سیستم‌ها به وضعیت عادی پیدا کنند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
       "image_url": "https://www.engadget.com/img/gallery/outage-at-hr-platform-workday-locks-millions-of-employees-out-of-their-account/l-intro-1794646237.jpg",
       "status": "sent",
-      "rubika_status": "pending"
+      "rubika_status": "pending",
+      "title": "Outage at HR platform Workday locks millions of employees out of their account",
+      "summary": "Workday outage leaves employees of thousands of businesses unable to access workplace tasks.",
+      "display_title": "قطعی گسترده در پلتفرم منابع انسانی ورک‌دی دسترسی میلیون‌ها کارمند را مسدود کرد",
+      "display_summary": "پلتفرم مدیریت منابع انسانی ورک‌دی (Workday) با یک قطعی گسترده مواجه شد که به دلیل قرار گرفتن سیستم‌ها در حالت تعمیر و نگهداری، دسترسی میلیون‌ها کارمند را به حساب‌های کاربری و انجام امور اداری مختل کرد. این اختلال ده‌ها هزار سازمان و شرکت بزرگ در سراسر جهان را تحت تأثیر قرار داد."
     },
     {
       "key": "url:fdb2f84630d3508ec46aeff42d3fe650761952e0e77805968f72d6f56eb7146b",
       "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "message": "<b>📰 شرکت اتومیتیک پلتفرم «اسپیس‌فست» را برای میزبانی اپلیکیشن‌های هوش مصنوعی عرضه کرد</b>\n\nشرکت اتومیتیک (Automattic)، مالک وردپرس (WordPress)، از سرویس جدیدی به نام اسپیس‌فست (Spacefast) رونمایی کرد که زیرساخت لازم برای استقرار وب‌سایت‌ها و اپلیکیشن‌های تولید شده توسط هوش مصنوعی را فراهم می‌کند. این پلتفرم جدید با هدف رقابت با ابزارهایی نظیر لاوابل (Lovable) طراحی شده است و به کاربران اجازه می‌دهد تا پروژه‌های خود را به سادگی به ربات‌های هوش مصنوعی متصل کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اتومیتیک (Automattic) که بیشتر به عنوان مالک پلتفرم مدیریت محتوای وردپرس (WordPress) شناخته می‌شود، در واکنش به تحولات فضای وب، سرویس جدیدی به نام اسپیس‌فست (Spacefast) را معرفی کرد. این پلتفرم برای ارائه زیرساخت‌های لازم جهت راه‌اندازی و اجرای اپلیکیشن‌ها و وب‌سایت‌های مبتنی بر برنامه‌نویسی حسی یا اصطلاحاً وایب‌کدینگ (Vibe Coding) طراحی شده است. سرویس اسپیس‌فست (Spacefast) امکاناتی نظیر پایگاه‌های داده، احراز هویت، آپلود فایل، ارسال ایمیل و ابزارهای تحلیل وب را در اختیار کاربران قرار می‌دهد تا بتوانند برنامه‌ها و سرویس‌های خود را به شکلی کاربردی پیاده‌سازی کنند. این محصول جدید در بازار با ابزارهای مشابهی مانند لاوابل (Lovable) و امرجنت (Emergent) رقابت می‌کند، اما رویکردی بازتر دارد و به کاربران اجازه می‌دهد آن را به ابزارها و مدل‌های هوش مصنوعی مختلفی از جمله چت‌جی‌پی‌تی (ChatGPT)، کلود (Claude)، گروک بات (Grok Bot)، کورسر (Cursor) و بسیاری دیگر متصل کنند. مدیریت این پروژه بر عهده باتوهان ایچوز (Batuhan İçöz) است که ایده اولیه آن را طی یکی از رویدادهای هکاتون شرکت اتومیتیک (Automattic) مطرح کرده بود. این پلتفرم در ماه سپتامبر به صورت آزمایشی عرضه شد تا بازخوردهای اولیه دریافت شود و اکنون به صورت رسمی در دسترس قرار گرفته است. به گفته مدیران این پروژه، اسپیس‌فست (Spacefast) علاوه بر کاربران عادی، به دلیل تجربه شرکت اتومیتیک (Automattic) در ارائه خدمات به سازمان‌ها، می‌تواند گزینه‌ای مناسب برای شرکت‌های بزرگ باشد که به دنبال یکپارچه‌سازی ابزارهای بازاریابی و مدیریت پروژه خود هستند. معرفی این سرویس در حالی انجام می‌شود که شرکت اتومیتیک (Automattic) طی ماه‌های گذشته دوران پرفشاری را از سر گذرانده است؛ از جمله تغییرات مدیریتی و چالش‌های هیئت مدیره که بازتاب زیادی در رسانه‌ها داشت. با این حال، عرضه اسپیس‌فست (Spacefast) نشان‌دهنده تلاش این شرکت قدیمی برای همگام شدن با عصر جدید فناوری و ابزارهای تولید محتوا و کدنویسی به کمک هوش مصنوعی است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Spacefast-feat.jpg?resize=1200,675",
+      "status": "sent",
+      "rubika_status": "pending",
       "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
       "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
       "display_title": "شرکت اتومیتیک پلتفرم «اسپیس‌فست» را برای میزبانی اپلیکیشن‌های هوش مصنوعی عرضه کرد",
-      "display_summary": "شرکت اتومیتیک (Automattic)، مالک وردپرس (WordPress)، از سرویس جدیدی به نام اسپیس‌فست (Spacefast) رونمایی کرد که زیرساخت لازم برای استقرار وب‌سایت‌ها و اپلیکیشن‌های تولید شده توسط هوش مصنوعی را فراهم می‌کند. این پلتفرم جدید با هدف رقابت با ابزارهایی نظیر لاوابل (Lovable) طراحی شده است و به کاربران اجازه می‌دهد تا پروژه‌های خود را به سادگی به ربات‌های هوش مصنوعی متصل کنند.",
-      "message": "<b>📰 شرکت اتومیتیک پلتفرم «اسپیس‌فست» را برای میزبانی اپلیکیشن‌های هوش مصنوعی عرضه کرد</b>\n\nشرکت اتومیتیک (Automattic)، مالک وردپرس (WordPress)، از سرویس جدیدی به نام اسپیس‌فست (Spacefast) رونمایی کرد که زیرساخت لازم برای استقرار وب‌سایت‌ها و اپلیکیشن‌های تولید شده توسط هوش مصنوعی را فراهم می‌کند. این پلتفرم جدید با هدف رقابت با ابزارهایی نظیر لاوابل (Lovable) طراحی شده است و به کاربران اجازه می‌دهد تا پروژه‌های خود را به سادگی به ربات‌های هوش مصنوعی متصل کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اتومیتیک (Automattic) که بیشتر به عنوان مالک پلتفرم مدیریت محتوای وردپرس (WordPress) شناخته می‌شود، در واکنش به تحولات فضای وب، سرویس جدیدی به نام اسپیس‌فست (Spacefast) را معرفی کرد. این پلتفرم برای ارائه زیرساخت‌های لازم جهت راه‌اندازی و اجرای اپلیکیشن‌ها و وب‌سایت‌های مبتنی بر برنامه‌نویسی حسی یا اصطلاحاً وایب‌کدینگ (Vibe Coding) طراحی شده است. سرویس اسپیس‌فست (Spacefast) امکاناتی نظیر پایگاه‌های داده، احراز هویت، آپلود فایل، ارسال ایمیل و ابزارهای تحلیل وب را در اختیار کاربران قرار می‌دهد تا بتوانند برنامه‌ها و سرویس‌های خود را به شکلی کاربردی پیاده‌سازی کنند. این محصول جدید در بازار با ابزارهای مشابهی مانند لاوابل (Lovable) و امرجنت (Emergent) رقابت می‌کند، اما رویکردی بازتر دارد و به کاربران اجازه می‌دهد آن را به ابزارها و مدل‌های هوش مصنوعی مختلفی از جمله چت‌جی‌پی‌تی (ChatGPT)، کلود (Claude)، گروک بات (Grok Bot)، کورسر (Cursor) و بسیاری دیگر متصل کنند. مدیریت این پروژه بر عهده باتوهان ایچوز (Batuhan İçöz) است که ایده اولیه آن را طی یکی از رویدادهای هکاتون شرکت اتومیتیک (Automattic) مطرح کرده بود. این پلتفرم در ماه سپتامبر به صورت آزمایشی عرضه شد تا بازخوردهای اولیه دریافت شود و اکنون به صورت رسمی در دسترس قرار گرفته است. به گفته مدیران این پروژه، اسپیس‌فست (Spacefast) علاوه بر کاربران عادی، به دلیل تجربه شرکت اتومیتیک (Automattic) در ارائه خدمات به سازمان‌ها، می‌تواند گزینه‌ای مناسب برای شرکت‌های بزرگ باشد که به دنبال یکپارچه‌سازی ابزارهای بازاریابی و مدیریت پروژه خود هستند. معرفی این سرویس در حالی انجام می‌شود که شرکت اتومیتیک (Automattic) طی ماه‌های گذشته دوران پرفشاری را از سر گذرانده است؛ از جمله تغییرات مدیریتی و چالش‌های هیئت مدیره که بازتاب زیادی در رسانه‌ها داشت. با این حال، عرضه اسپیس‌فست (Spacefast) نشان‌دهنده تلاش این شرکت قدیمی برای همگام شدن با عصر جدید فناوری و ابزارهای تولید محتوا و کدنویسی به کمک هوش مصنوعی است.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Spacefast-feat.jpg?resize=1200,675",
+      "display_summary": "شرکت اتومیتیک (Automattic)، مالک وردپرس (WordPress)، از سرویس جدیدی به نام اسپیس‌فست (Spacefast) رونمایی کرد که زیرساخت لازم برای استقرار وب‌سایت‌ها و اپلیکیشن‌های تولید شده توسط هوش مصنوعی را فراهم می‌کند. این پلتفرم جدید با هدف رقابت با ابزارهایی نظیر لاوابل (Lovable) طراحی شده است و به کاربران اجازه می‌دهد تا پروژه‌های خود را به سادگی به ربات‌های هوش مصنوعی متصل کنند."
+    },
+    {
+      "key": "url:75a81de110c9d2a75c7e5ae581b1a402fd8f8e491fbe063fb83ccc0f79e76b31",
+      "url": "https://www.engadget.com/2313842/sony-ditching-cross-product-support-app-good-reason/",
+      "title": "Sony is ditching its cross-product support app for dedicated alternatives",
+      "summary": "After over a decade of use, customers are going to need to switch to a less-efficient means of monitoring their favorite Sony products and gadgets.",
+      "display_title": "شرکت سونی اپلیکیشن پشتیبانی جامع خود را با ابزارهای اختصاصی جایگزین می‌کند",
+      "display_summary": "شرکت سونی (Sony) اعلام کرد که اپلیکیشن جامع پشتیبانی خود موسوم به ساپورت بای سونی (Support by Sony) را در تاریخ ۲۸ فوریه ۲۰۲۷ متوقف خواهد کرد. کاربران از این پس باید برای مدیریت و دریافت به‌روزرسانی محصولات مختلف خود از اپلیکیشن‌های تخصصی استفاده کنند که اگرچه کنترل بیشتری ارائه می‌دهد، اما مدیریت چند دستگاه را دشوارتر می‌سازد.",
+      "message": "<b>📰 شرکت سونی اپلیکیشن پشتیبانی جامع خود را با ابزارهای اختصاصی جایگزین می‌کند</b>\n\nشرکت سونی (Sony) اعلام کرد که اپلیکیشن جامع پشتیبانی خود موسوم به ساپورت بای سونی (Support by Sony) را در تاریخ ۲۸ فوریه ۲۰۲۷ متوقف خواهد کرد. کاربران از این پس باید برای مدیریت و دریافت به‌روزرسانی محصولات مختلف خود از اپلیکیشن‌های تخصصی استفاده کنند که اگرچه کنترل بیشتری ارائه می‌دهد، اما مدیریت چند دستگاه را دشوارتر می‌سازد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت ژاپنی سونی (Sony) تصمیم گرفته است پس از بیش از یک دهه استفاده، اپلیکیشن چندمنظوره پشتیبانی خود با نام ساپورت بای سونی (Support by Sony) را از کار بیندازد. این اپلیکیشن جامع که تا کنون بیش از یک میلیون بار از گوگل‌پلی (Google Play) دانلود شده است، وظیفه ارسال هشدارهای به‌روزرسانی میان‌افزار، عیب‌یابی و اطلاع‌رسانی اخبار محصولات این شرکت را بر عهده داشت. با این حال، سونی قصد دارد این سرویس را در تاریخ ۲۸ فوریه ۲۰۲۷ (۹ اسفند ۱۴۰۵) به‌طور کامل متوقف کند. بر اساس اعلام رسمی شرکت، پس از تاریخ مقرر، این اپلیکیشن از فروشگاه‌های اپ استور اپل (Apple App Store) و گوگل‌پلی (Google Play) حذف خواهد شد و کاربران پس از باز کردن برنامه با اطلاعیه توقف خدمات روبه‌رو خواهند شد. از آن زمان به بعد، هیچ‌گونه پیام به‌روزرسانی میان‌افزار یا اطلاعیه محصولی از طریق این اپلیکیشن ارسال نخواهد نرسید و پیام‌های قبلی نیز از دسترس خارج خواهند شد. به‌جای استفاده از یک هاب متمرکز، سونی کاربران را تشویق می‌کند تا اپلیکیشن‌های اختصاصی مجزایی را برای هر دسته از محصولات خود بارگیری کنند. برای نمونه، کاربران هدفون‌ها و بلندگوهای سازگار باید از اپلیکیشن سونی ساند کانکت (Sony Sound Connect) استفاده کنند که امکان تنظیم اکولایزر و نصب به‌روزرسانی‌ها را فراهم می‌کند. همچنین برای تلویزیون‌ها و ساندبارها، اپلیکیشن سونی براویا کانکت (Sony BRAVIA Connect) و برای دوربین‌ها اپلیکیشن سونی کریتورز اپ (Sony Creators&#x27; App) در نظر گرفته شده است. اگرچه اپلیکیشن‌های اختصاصی کنترل دقیق‌تر و مستقیم‌تری را بر روی دستگاه‌های سازگار ارائه می‌دهند، اما برای کاربرانی که مجموعه‌ای از محصولات مختلف سونی را در اختیار دارند، این تغییر به معنای نیاز به جابه‌جایی مداوم میان اپلیکیشن‌های مختلف و دشواری بیشتر در مدیریت گجت‌ها خواهد بود. با این حال، کاربران همچنان می‌توانند برای دریافت راهنما، بارگیری میان‌افزارها و رفع اشکال به وب‌سایت رسمی سونی (Sony) مراجعه کنند یا از طریق منوی تنظیمات در تلویزیون‌های مجهز به اندروید تی‌وی (Android TV) یا گوگل تی‌وی (Google TV) برای به‌روزرسانی اقدام نمایند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/sony-is-ditching-its-cross-product-support-app-for-dedicated-alternatives/l-intro-1794003797.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:d9ad4c4b382c3775e571730bb48f24962dc1b08da2ef01a3604264cdd2ea2f00",
+      "url": "https://www.engadget.com/2313821/what-is-fn-lock-icon-how-to-use/",
+      "title": "What is the Fn Lock icon used for and how do you turn it off and on?",
+      "summary": "Confused by the Fn Lock icon on your keyboard? Discover its purpose, how it affects your keyboard, and the simple steps to enable or disable it on any PC.",
+      "display_title": "کلید قفل عملکرد (Fn Lock) در کیبورد چیست و چگونه فعال یا غیرفعال می شود؟",
+      "display_summary": "کلید قفل عملکرد یا همان «اف‌ان لاک (Fn Lock)» روی برخی کیبوردها و لپ‌تاپ‌ها برای تغییر رفتار کلیدهای ردیف بالا استفاده می شود. کاربران می توانند با استفاده از روش های مختلف نرم افزاری، سخت افزاری یا تنظیمات «بایوس (BIOS)»، این قابلیت را فعال یا غیرفعال کنند.",
+      "message": "<b>📰 کلید قفل عملکرد (Fn Lock) در کیبورد چیست و چگونه فعال یا غیرفعال می شود؟</b>\n\nکلید قفل عملکرد یا همان «اف‌ان لاک (Fn Lock)» روی برخی کیبوردها و لپ‌تاپ‌ها برای تغییر رفتار کلیدهای ردیف بالا استفاده می شود. کاربران می توانند با استفاده از روش های مختلف نرم افزاری، سخت افزاری یا تنظیمات «بایوس (BIOS)»، این قابلیت را فعال یا غیرفعال کنند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>کلید قفل عملکرد یا «اف‌ان لاک (Fn Lock)» یکی از اجزای کمتر شناخته شده روی برخی کیبوردها و لپ‌تاپ ها است که شاید کارکرد آن در نگاه اول مبهم به نظر برسد. فشردن این کلید به تنهایی کار خاصی انجام نمی دهد و در بهترین حالت، چراغ نشانگر آن را روشن می کند. کلیدهای «اف‌ان (Fn)» و «اف‌ان لاک (Fn Lock)» بیشتر روی لپ‌تاپ ها دیده می شوند، اما در برخی کیبوردهای مجزا و به ویژه مدل های کوچک تر مانند کیبورد «لاجیتک جی۵۱۲ ایکس (Logitech G512 X)» نیز وجود دارند. این کلیدها به همراه کلیدهای عملکردی (از اف۱ تا اف۱۲ در ردیف بالایی) برای افزودن کنترل های بیشتر به کیبوردهای جمع و جور یا در برخی دستگاه ها برای فعال سازی هوش مصنوعی «جیمنای گوگل (Google Gemini)» استفاده می شوند. عملکرد دقیق این کلیدها و نحوه روشن و خاموش کردن آن ها بسته به نوع کیبورد متفاوت است، اما اصول کلی مشابهی دارد. شما می توانید کلید «اف‌ان (Fn)» را مشابه کلید «شیفت (Shift)» در نظر بگیرید. هنگامی که می خواهید آن را فعال کنید، باید در تمام مدت استفاده آن را نگه دارید. در این حالت، عملکرد کلیدها بین حالت استاندارد و مجموعه ای از دستورات جایگزین (معمولاً کنترل های چندرسانه ای) جابجا می شود. در مقابل، «اف‌ان لاک (Fn Lock)» درست مانند کلید «کپس لاک (Caps Lock)» عمل می کند و با یک بار فشردن، حالت جایگزین کلیدهای عملکردی را روشن و با فشاری دیگر آن را خاموش می کند. داشتن یک کلید اختصاصی «اف‌ان لاک (Fn Lock)» رایج نیست، اما همچنان روی برخی کیبوردها دیده می شود. حتی بدون داشتن کلید قفل مجزا، گاهی اوقات می توانید با نگه داشتن کلید «اف‌ان (Fn)» و فشردن کلید دیگری مانند «شیفت (Shift)» یا «اسکپ (Esc)» این قابلیت را فعال کنید. برای تغییر پیش فرض رفتار کلیدهای عملکردی، می توانید به تنظیمات «بایوس (BIOS)» رایانه خود مراجعه کنید. پس از راه اندازی مجدد سیستم و ورود به «بایوس (BIOS)»، به دنبال گزینه ای با عنوان «حالت کلید عملکرد (Function Key Mode)» یا «حالت کلید اقدام (Action Key Mode)» بگردید. فعال یا غیرفعال کردن این تنظیمات، حالت پیش فرض کلیدهای کیبورد را تغییر می دهد. همچنین برخی لپ‌تاپ‌ها دارای نرم‌افزارهای مدیریتی اختصاصی هستند که تغییر این تنظیمات را بدون نیاز به ورود به منوی «بایوس (BIOS)» امکان‌پذیر می سازند.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/what-is-the-fn-lock-icon-used-for-and-how-do-you-turn-it-off-and-on/l-intro-1794006613.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:bf94b1c5e1d604ac3b7868009ca9a6948a15fba744963cc4a93ef1307ce1f211",
+      "url": "https://www.engadget.com/2311090/how-to-transfer-spotify-playlist-songs-to-apple-music/",
+      "title": "The right way to transfer your Spotify playlists and songs to Apple Music",
+      "summary": "Learn how to transfer Spotify playlists to Apple Music on iPhone, iPad, Android or the web, and what you need before you move your songs over.",
+      "display_title": "روش صحیح انتقال لیست‌های پخش و آهنگ‌ها از اسپاتیفای به اپل موزیک",
+      "display_summary": "سرویس اپل موزیک ابزار داخلی جدیدی را ارائه داده است که به کاربران امکان می‌دهد به راحتی لیست‌های پخش و آهنگ‌های ذخیره شده خود را از اسپاتیفای به این پلتفرم منتقل کنند. این فرآیند از طریق دستگاه‌های مختلف از جمله آیفون، آیپد، گوشی‌های اندرویدی و نسخه وب قابل انجام است.",
+      "message": "<b>📰 روش صحیح انتقال لیست‌های پخش و آهنگ‌ها از اسپاتیفای به اپل موزیک</b>\n\nسرویس اپل موزیک ابزار داخلی جدیدی را ارائه داده است که به کاربران امکان می‌دهد به راحتی لیست‌های پخش و آهنگ‌های ذخیره شده خود را از اسپاتیفای به این پلتفرم منتقل کنند. این فرآیند از طریق دستگاه‌های مختلف از جمله آیفون، آیپد، گوشی‌های اندرویدی و نسخه وب قابل انجام است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بسیاری از کاربران در سال‌های اخیر به دلایل مختلفی نظیر دستمزد پایین پرداختی به هنرمندان، سرمایه‌گذاری‌های جنجالی مدیران و افزایش آهنگ‌های تولید شده با هوش مصنوعی (AI)، به فکر ترک کردن پلتفرم اسپاتیفای (Spotify) و مهاجرت به سرویس‌های جایگزین مانند اپل موزیک (Apple Music) افتاده‌اند. یکی از بزرگ‌ترین دغدغه‌ها در هنگام تغییر سرویس‌های استریم موسیقی، از دست رفتن لیست‌های پخش (Playlists) و آهنگ‌های ذخیره‌شده قدیمی است. خوشبختانه اپل موزیک ابزاری داخلی را فراهم کرده است که به کاربران اجازه می‌دهد لیست‌های پخش و آهنگ‌های خود را بدون نیاز به شروع از صفر، از اسپاتیفای (Spotify) به اکانت خود منتقل کنند. این قابلیت روی دستگاه‌های مختلف شامل آیفون (iPhone)، آیپد (iPad)، گوشی‌های اندرویدی (Android) و نسخه وب قابل دسترسی است. برای انجام این انتقال، کاربران به یک اشتراک فعال اپل موزیک (Apple Music) نیاز دارند و باید به حساب کاربری اسپاتیفای (Spotify) خود دسترسی داشته باشند. در گام نخست، باید قابلیت همگام‌سازی کتابخانه یا همان «Sync Library» در تنظیمات اپل موزیک فعال باشد. در دستگاه‌های مبتنی بر سیستم‌عامل آی‌او‌اس (iOS)، این گزینه در بخش تنظیمات اپلیکیشن موزیک قرار دارد و در نسخه دسکتاپ نیز از طریق تب عمومی (General) قابل دسترسی است. سپس با ورود به بخش حساب کاربری در اپل موزیک (Apple Music) روی آیفون، اندروید یا نسخه وب، گزینه‌ای تحت عنوان انتقال موسیقی از سایر سرویس‌ها («Transfer Music from Other Music Services») مشاهده می‌شود. با انتخاب اسپاتیفای (Spotify) از این فهرست و ورود به حساب کاربری، کاربران می‌توانند لیست‌های پخش یا آهنگ‌های مورد نظر خود را انتخاب کرده و گزینه افزودن به کتابخانه («Add to Library») را فشار دهند. فرآیند تطبیق و انتقال آهنگ‌ها ممکن است مدتی طول بکشد و در نهایت پیام اتمام انتقال («Transfer Complete») نمایش داده می‌شود. چنانچه برخی از قطعه‌ها در کتابخانه اپل موزیک پیدا نشوند، گزینه‌ای برای بررسی و تأیید نزدیک‌ترین نسخه‌های جایگزین در اختیار کاربر قرار می‌گیرد که تا ۳۰ روز قابل دسترسی خواهد بود.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/the-right-way-to-transfer-your-spotify-playlists-and-songs-to-apple-music/l-intro-1794230993.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:c84d06b789f7d9c1620b9f74915d9bb4ea666aab94a2d6aa4b03abbc77df8246",
+      "url": "https://www.engadget.com/2310528/amd-vs-intel-cpu-which-better-buy-2026/",
+      "title": "AMD vs. Intel CPUs: Which is the better buy in 2026?",
+      "summary": "AMD and Intel CPUs have different strengths, so you'll need to consider what you need out of a CPU to make the right choice.",
+      "display_title": "راهنمای خرید پردازنده در سال ۲۰۲۶: ای‌ام‌دی (AMD) در برابر اینتل (Intel)",
+      "display_summary": "بازار پردازنده‌های دسکتاپ و لپ‌تاپ در سال ۲۰۲۶ شاهد رقابت فشرده میان شرکت‌های ای‌ام‌دی (AMD) و اینتل (Intel) است. در حالی که ای‌ام‌دی با تراشه‌های مجهز به فناوری ۳دی وی-کش (3D V-Cache) پادشاه بی‌چون‌وچرای اجرای بازی‌هاست، اینتل با ارائه هسته‌های بیشتر و قیمت مقرون‌به‌صرفه، گزینه بهتری برای کارهای روزمره و پردازش‌های سنگین چندرشته‌ای محسوب می‌شود.",
+      "message": "<b>📰 راهنمای خرید پردازنده در سال ۲۰۲۶: ای‌ام‌دی (AMD) در برابر اینتل (Intel)</b>\n\nبازار پردازنده‌های دسکتاپ و لپ‌تاپ در سال ۲۰۲۶ شاهد رقابت فشرده میان شرکت‌های ای‌ام‌دی (AMD) و اینتل (Intel) است. در حالی که ای‌ام‌دی با تراشه‌های مجهز به فناوری ۳دی وی-کش (3D V-Cache) پادشاه بی‌چون‌وچرای اجرای بازی‌هاست، اینتل با ارائه هسته‌های بیشتر و قیمت مقرون‌به‌صرفه، گزینه بهتری برای کارهای روزمره و پردازش‌های سنگین چندرشته‌ای محسوب می‌شود.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>بازار پردازنده‌های کامپیوتری در سال ۲۰۲۶ همچنان صحنه رقابت نفس‌گیر میان دو غول بزرگ این صنعت، یعنی شرکت‌های ای‌ام‌دی (AMD) و اینتل (Intel) است. انتخاب پردازنده مناسب امروزه بیش از هر زمان دیگری به بودجه، نوع کاربری و ترجیحات شما برای ارتقاهای آینده بستگی دارد. بررسی آمارهای مؤسسه مرکوری ریسرچ (Mercury Research) نشان می‌دهد که سهم ای‌ام‌دی از بازار دسکتاپ به ۳۴.۹ درصد رسیده است، اما اینتل همچنان حدود دو سوم از پردازنده های دسکتاپ و سهم عمده بازار لپ‌تاپ را در اختیار دارد. از نظر معماری ساخت، رویکرد این دو شرکت کاملاً متفاوت است. شرکت ای‌ام‌دی در سری رایزن ۹۰۰۰ (Ryzen 9000) از معماری زن ۵ (Zen 5) و طراحی چیپ‌لت استفاده می‌کند. مدل‌های گیمینگ موسوم به ایکس۳دی (X3D) با بهره‌گیری از فناوری ۳دی وی-کش (3D V-Cache)، حافظه کَش لایه سوم (L3 Cache) را به شکل چشمگیری افزایش می‌دهند که این امر زمان انتظار پردازنده برای دسترسی به رم (RAM) را کاهش داده و نرخ فریم در بازی‌ها را به شدت بالا می‌برد. در مقابل، شرکت اینتل با تراشه‌های سری کور اولترا ۲۰۰ اس پلاس (Core Ultra 200S Plus) که با نام رمز آرو لیک (Arrow Lake) شناخته می‌شوند، بر ترکیب هسته‌های عملکردی و هسته‌های بهینه تمرکز کرده است. پردازنده‌های اینتل با تعداد هسته بالاتر، در کارهایی مانند تدوین ویدیو، کامپایل کد و اجرای همزمان برنامه‌های سنگین عملکرد درخشانی دارند. در حوزه گیمینگ، تراشه‌های ای‌ام‌دی پیشتاز مطلق هستند. مدل‌هایی نظیر رایزن ۷ ۷۸۰۰ایکس‌تری‌دی (Ryzen 7 7800X3D) و پردازنده جدیدتر رایزن ۷ ۹۸۵۰ایکس‌تری‌دی (Ryzen 7 9850X3D) به عنوان بهترین گزینه‌های بازار برای بازی شناخته می‌شوند. در تست‌های انجام‌شده توسط مراجع معتبری چون تامز هاردور (Tom&#x27;s Hardware)، این تراشه‌ها نه تنها فریم ریت بالاتری ارائه می‌دهند، بلکه از نظر مصرف انرژی و بازدهی به ازای هر وات نیز بسیار بهینه‌تر عمل می‌کنند. با این حال، اگر هدف اصلی شما گیمینگ نباشد، پردازنده‌های اینتل ارزش خرید بالاتری در کارهای روزمره و مهندسی ارائه می‌دهند. به عنوان مثال، تراشه کور اولترا ۵ ۲۵۰کی پلاس (Core Ultra 5 250K Plus) اینتل در بنچمارک‌های چندرشته‌ای مانند سینه‌بنچ (Cinebench) عملکرد بسیار قدرتمندی نسبت به رقبای هم‌رده به نمایش می‌گذارد و در زمینه پردازش‌های موازی انتخابی اقتصادی‌تر است. وضعیت در بازار لپ‌تاپ تفاوت دارد و شرکت اینتل با تصاحب حدود ۷۰ درصد از بازار، دست بالا را دارد. تراشه‌های سری کور اولترا سری ۳ (Core Ultra Series 3) با نام رمز پنتر لیک (Panther Lake) که بر پایه لیتوگرافی ۱۸ای (18A) اینتل ساخته شده‌اند، به دلیل شارژدهی فوق‌العاده باتری مورد تحسین کارشناسان وب‌سایت پی‌سی‌ورلد (PCWorld) قرار گرفته‌اند. در همین حال، شرکت اپل (Apple) با فاصله گرفتن کامل از پردازنده‌های اینتل، تمام کامپیوترهای مک (Mac) خود را به تراشه‌های اختصاصی خود مجهز کرده است. یکی دیگر از فاکتورهای کلیدی به نفع شرکت ای‌ام‌دی، پشتیبانی طولانی‌مدت از پلتفرم ای‌ام۵ (AM5) تا سال ۲۰۲۹ است. این یعنی کاربران می‌توانند بدون تعویض مادربرد، پردازنده خود را در سال‌های آینده ارتقا دهند، در حالی که اینتل هنوز مسیر مشخصی برای ارتقای پلتفرم نسل‌های بعدی خود اعلام نکرده است. در مجموع، اگر گیمر حرفه‌ای هستید، سری ایکس۳دی (X3D) شرکت ای‌ام‌دی بهترین انتخاب برای شماست. اما اگر به دنبال یک پردازنده همه‌جارو، مقرون‌به‌صرفه برای کارهای ترکیبی و اداری هستید یا قصد خرید لپ‌تاپ دارید، محصولات شرکت اینتل گزینه‌های قابل‌اتکایی به شمار می‌روند. با توجه به افزایش قیمت قطعات جانبی نظیر حافظه رم، انتخاب هوشمندانه مدل‌های میان‌رده به صرفه‌جویی چشمگیر در هزینه‌های کلی سیستم می‌انجامد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/amd-vs-intel-cpus-which-is-the-better-buy-in-2026/l-intro-1793296666.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:a4c867c48a440cd776d6850da8b964ebca5704f238bf8aeea78317952ba07879",
+      "url": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+      "title": "A gadget to make your dumb house smarter",
+      "summary": "Hi, friends! Welcome to Installer No. 152, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for taking time away from Zelda to be here, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about school apps [&#8230;]",
+      "display_title": "معرفی ابزار جدید برای هوشمندسازی خانه‌ها و تازه‌های دنیای فناوری در خبرنامه اینستالر",
+      "display_summary": "نسخه جدید خبرنامه اینستالر منتشر شد و به معرفی ابزارهای جانبی هوشمندسازی خانه مانند دستگاه هوم اسیستنت کانکت آوکس-۲ (Home Assistant Connect Aux-2) پرداخت. این شماره همچنین به بررسی تازه‌ترین اپلیکیشن‌ها، گجت‌ها و روند رشد هک سخت‌افزاری در میان کاربران می‌پردازد.",
+      "message": "<b>📰 معرفی ابزار جدید برای هوشمندسازی خانه‌ها و تازه‌های دنیای فناوری در خبرنامه اینستالر</b>\n\nنسخه جدید خبرنامه اینستالر منتشر شد و به معرفی ابزارهای جانبی هوشمندسازی خانه مانند دستگاه هوم اسیستنت کانکت آوکس-۲ (Home Assistant Connect Aux-2) پرداخت. این شماره همچنین به بررسی تازه‌ترین اپلیکیشن‌ها، گجت‌ها و روند رشد هک سخت‌افزاری در میان کاربران می‌پردازد.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>خبرنامه محبوب اینستالر (Installer) در شماره جدید خود به سردبیری دیوید پیرس (David Pierce) به بررسی ابزارها، اپلیکیشن‌ها و فناوری‌های نوظهور پرداخته است. یکی از برجسته‌ترین محصولات معرفی شده در این شماره، دستگاه هوم اسیستنت کانکت آوکس-۲ (Home Assistant Connect Aux-2) است؛ جعبه‌ای ساده که برای افزودن تجهیزات گوناگون به خانه‌های هوشمند طراحی شده و تمرکز ویژه‌ای روی تجهیزات صوتی و کنترل لوازم بلوتوثی دارد. علاوه بر این ابزار سخت‌افزاری، این شماره به بررسی ترندها و محصولات نرم‌افزاری متنوعی پرداخته است. از جمله این موارد می‌توان به پروژه تاریخ زنده مسابقه فضایی با عنوان ما تصمیم گرفتیم به ماه برویم (We Chose to Go to the Moon)، اپلیکیشن یادداشت‌برداری جدید تی‌کی (TK) توسعه‌یافته توسط مدیوم (Medium)، و همچنین بررسی روند ابزارهای هوش مصنوعی و اپلیکیشن‌های پادکست اشاره کرد. جامعه کاربران و مخاطبان اینستالر نیز پیشنهادهای متنوعی از جمله مرورگرهای سبک، بازی‌ها و پروژه‌های سخت‌افزاری منبع‌باز مانند ساخت اپل ویژن پرو (Apple Vision Pro) با هزینه پایین را به اشتراک گذاشته‌اند. در بخش پایانی، گزارش به پدیده نوظهور هک سخت‌افزاری و استفاده از کیت‌های توسعه‌دهنده ام۵استک (M5Stack) اشاره می‌کند که به کاربران امکان می‌دهد دستگاه‌های شخصی‌سازی‌شده و خلاقانه‌ای بسازند. این مجموعه نشان می‌دهد که چگونه فناوری‌های مصرفی و ابزارهای کوچک بیش از پیش در حال دگرگون کردن شیوه تعامل ما با محیط پیرامون هستند.</p></details>\n\n📡 منبع: The Verge<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Installer-152.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:17d63dc51966e849f8a8cc64dab484ff5a75254ec556dd51f72b61560af793b3",
+      "url": "https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/",
+      "title": "Cash App founder's killer gets 16 years to life in prison",
+      "summary": "Bob Lee died from multiple stab wounds in 2023.",
+      "display_title": "قاتل بنیان‌گذار کش‌اپ (Cash App) به ۱۶ سال تا حبس ابد محکوم شد",
+      "display_summary": "نیما مومنی، مشاور فناوری که به اتهام قتل باب لی (Bob Lee)، بنیان‌گذار کش‌اپ (Cash App)، گناهکار شناخته شده بود، به شانزده سال تا حبس ابد محکوم شد. دادگاه درخواست متهم برای محاکمه مجدد را رد کرد و وکلا از قصد خود برای فرجام‌خواهی خبر دادند.",
+      "message": "<b>📰 قاتل بنیان‌گذار کش‌اپ (Cash App) به ۱۶ سال تا حبس ابد محکوم شد</b>\n\nنیما مومنی، مشاور فناوری که به اتهام قتل باب لی (Bob Lee)، بنیان‌گذار کش‌اپ (Cash App)، گناهکار شناخته شده بود، به شانزده سال تا حبس ابد محکوم شد. دادگاه درخواست متهم برای محاکمه مجدد را رد کرد و وکلا از قصد خود برای فرجام‌خواهی خبر دادند.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>دو سال پس از محکومیت در پرونده قتل عمد درجه دو، دادگاهی در سانفرانسیسکو حکم نهایی نیما مومنی را صادر کرد. قاضی الکساندرا گوردون (Alexandra Gordon)، قاضی دادگاه عالی سانفرانسیسکو (San Francisco Superior Court)، او را به جرم قتل باب لی (Bob Lee)، بنیان‌گذار کش‌اپ (Cash App)، به تحمل شانزده سال تا حبس ابد در زندان محکوم کرد. باب لی (Bob Lee) یکی از چهره‌های شناخته‌شده در حوزه فناوری بود که نقش مهمی در توسعه اپلیکیشن مالی کش‌اپ (Cash App) در دوران فعالیت خود به عنوان مدیر ارشد فناوری در شرکت اسکوئر (Square) ایفا کرد. او همچنین بین سال‌های ۲۰۰۴ تا ۲۰۱۰ به عنوان مهندس در شرکت گوگل (Google) فعالیت داشت و در توسعه سیستم‌عامل اندروید (Android) مشارکت کرد. لی بعدها به عنوان مدیر ارشد محصول در شرکت پرداخت‌های رمز ارزی موبایل‌کوین (MobileCoin) مشغول به کار شد و به سازمان جهانی بهداشت (World Health Organization) در راه‌اندازی اپلیکیشن موبایلی‌اش در دوران همه‌گیری کووید-۱۹ یاری رساند. ماجرای این قتل به آوریل ۲۰۲۳ بازمی‌گردد؛ زمانی که باب لی (Bob Lee) در حالی که از ناحیه ران و قلب چاقو خورده بود، در ورودی ساختمانی در خیابانی خلوت در مرکز سانفرانسیسکو پیدا شد. او با وجود اینکه توانست با شماره اضطراری ۹۱۱ تماس بگیرد، پس از انتقال به بیمارستان جان باخت. پس از این حادثه و پیش از دستگیری ضارب، برخی از چهره‌های سرشناس دنیای فناوری به سرعت از این رویداد برای پیشبرد دیدگاه‌های سیاسی و اجتماعی خود استفاده کردند. ایلان ماسک (Elon Musk) در شبکه اجتماعی توییتر (Twitter) مدعی وضعیت ناامن سانفرانسیسکو شد و جیسون کالاکانیس (Jason Calacanis)، سرمایه‌گذار، نیز انتقادهای تندی را متوجه مدیران شهری کرد. با این حال، بررسی‌های قضایی نشان داد که این پرونده هیچ ارتباطی با ناامنی عمومی یا ناکارآمدی دولت نداشته است. بر اساس گزارش دادستان‌ها، باب لی (Bob Lee) با خواهر نیما مومنی در ارتباط بوده و در شب حادثه با آن‌ها در مهمانی حضور داشته است. دادستان‌ها اعلام کردند که مومنی پس از باخبر شدن از اینکه بنیان‌گذار کش‌اپ (Cash App) خواهرش را با موادفروشانی که او را مورد آزار قرار داده بودند آشنا کرده است، دست به قتل او زده است. در مقابل، وکلای مدافع نیما مومنی ادعا کردند که موکلشان در دفاع از خود و پس از اینکه لی به سمت او حمله‌ور شده، دست به چاقو برده است. در آزمایش‌های پزشکی قانونی مشخص شد که در خون باب لی (Bob Lee) مواد مخدر از جمله کوکائین و کتامین به همراه الکل وجود داشته است. قاضی دادگاه درخواست وکلای مومنی برای برگزاری دادگاه مجدد را رد کرد. با این حال، تیم حقوقی متهم اعلام کرده است که قصد دارد تقاضای فرجام‌خواهی و تجدیدنظر در حکم صادر شده را ارائه دهد.</p></details>\n\n📡 منبع: Engadget<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://www.engadget.com/img/gallery/cash-app-founders-killer-gets-16-years-to-life-in-prison/l-intro-1794423509.jpg",
+      "status": "sent",
+      "rubika_status": "pending"
+    },
+    {
+      "key": "url:f31248890af40385bfab1b68019edb0c48b886fc017c9d315f096dfcd2f17274",
+      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "summary": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+      "display_title": "درآمد فصلی شرکت اوپن‌ای‌آی (OpenAI) برای نخستین بار از مرز ۱۰ میلیارد دلار عبور کرد",
+      "display_summary": "بر اساس گزارش‌های منتشرشده، شرکت اوپن‌ای‌آی (OpenAI) توانسته است با ثبت تقاضای بالا برای مدل‌های هوش مصنوعی خود، درآمد فصلی خود را برای نخستین بار به بیش از ۱۰ میلیارد دلار برساند. این رقم نشان‌دهنده جهشی نزدیک به ۵۰ درصدی نسبت به درآمد ۶.۷ میلیارد دلاری این شرکت در فصل دوم سال است.",
+      "message": "<b>📰 درآمد فصلی شرکت اوپن‌ای‌آی (OpenAI) برای نخستین بار از مرز ۱۰ میلیارد دلار عبور کرد</b>\n\nبر اساس گزارش‌های منتشرشده، شرکت اوپن‌ای‌آی (OpenAI) توانسته است با ثبت تقاضای بالا برای مدل‌های هوش مصنوعی خود، درآمد فصلی خود را برای نخستین بار به بیش از ۱۰ میلیارد دلار برساند. این رقم نشان‌دهنده جهشی نزدیک به ۵۰ درصدی نسبت به درآمد ۶.۷ میلیارد دلاری این شرکت در فصل دوم سال است.\n\n<details><summary>&nbsp;&nbsp;✨ مشاهده متن کامل خبر ✨&nbsp;&nbsp;</summary><p>شرکت اوپن‌ای‌آی (OpenAI) توانست با تکیه بر تقاضای فزاینده برای مدل‌های پیشرفته هوش مصنوعی (AI)، گام بلندی در مسیر رشد مالی خود بردارد و برای نخستین بار درآمد فصلی خود را از مرز ۱۰ میلیارد دلار عبور دهد. این دستاورد نشان‌دهنده بهبودی چشمگیر در وضعیت مالی این شرکت پیشرو در حوزه فناوری است. بر اساس گزارش خبرگزاری بلومبرگ (Bloomberg) که به نقل از منابع مطلع منتشر شده است، این میزان درآمد نشان‌دهنده جهشی نزدیک به ۵۰ درصدی نسبت به فروش ۶.۷ میلیارد دلاری این شرکت در فصل دوم سال جاری میلادی است. پیش‌تر نرخ رشد درآمد اوپن‌ای‌آی (OpenAI) بین فصل‌های اول و دوم حدود ۱۸ درصد گزارش شده بود که آمار جدید حاکی از شتاب گرفتن این روند صعودی است. علاوه بر این، حاشیه سود عملیاتی تعدیل‌شده این شرکت نیز روند بهبودی را نشان می‌دهد و از منفی ۱۵۰ درصد در فصل دوم به منفی ۱۰۹ درصد در فصل سوم رسیده است. با وجود این موفقیت‌ها، رقابت در بازار هوش مصنوعی (AI) همچنان بسیار فشرده است. شرکت رقیب یعنی آنتروپیک (Anthropic) نیز با تمرکز ویژه بر بازار سازمانی توانسته درآمدهای قابل‌توجهی را ثبت کند و گزارش‌ها حاکی از رقابت تنگاتنگ این دو بازیگر بزرگ است. در این میان، اوپن‌ای‌آی (OpenAI) با اصلاح قیمت‌گذاری‌ها، ارائه تخفیف‌ها، عرضه مدل‌های کارآمدتر و تمرکز بیشتر بر توسعه محصولات سازمانی و عامل‌های هوش مصنوعی (AI agents) توانسته جایگاه خود را تقویت کند. در مجموع، شتاب درآمدی شرکت‌های پیشرو نشان‌دهنده پویایی بالای بازار هوش مصنوعی (AI) است، بازاری که در آن غول‌های فناوری نظیر متا (Meta)، آمازون (Amazon)، مایکروسافت (Microsoft) و گوگل (Google) به همراه مدل‌های متن‌باز (Open Source) ارزان‌قیمت‌تر حضور فعال دارند و رقابت روزافزونی را رقم می‌زنند.</p></details>\n\n📡 منبع: TechCrunch<br>\nآخرین اخبار تکنولوژی | @MyNewsTechnology",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-rose.jpg?resize=1200,675",
       "status": "sent",
       "rubika_status": "pending"
     }
@@ -15958,56 +16082,6 @@
       ]
     },
     {
-      "item_id": "314ff1c4cc1d2ca85680b89778e52c8ee87bf842061eb5705c6b0994c14e5a43",
-      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-      "summary": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
-      "source": "TechCrunch",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-rose.jpg?resize=1200,675",
-      "published_at": "2026-11-11T16:14:44+00:00",
-      "categories": [
-        "AI",
-        "Anthropic",
-        "OpenAI"
-      ]
-    },
-    {
-      "item_id": "17d63dc51966e849f8a8cc64dab484ff5a75254ec556dd51f72b61560af793b3",
-      "title": "Cash App founder's killer gets 16 years to life in prison",
-      "url": "https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/",
-      "summary": "Bob Lee died from multiple stab wounds in 2023.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/cash-app-founders-killer-gets-16-years-to-life-in-prison/l-intro-1794423509.jpg",
-      "published_at": "2026-11-11T18:57:37+00:00",
-      "categories": [
-        "News"
-      ]
-    },
-    {
-      "item_id": "ed6d00bf8cca377104dcabdfa9aa44b251e756b6d26b1cbec113b7341c2eb133",
-      "title": "Samsung is taking a page out of Pixel's playbook with One UI 9.5",
-      "url": "https://www.engadget.com/2316348/samsung-one-ui-9-5-feature-memory-app-from-pixel-playbook/",
-      "summary": "A riff on Google's Pixel Screenshots could pull together fragmented information from across your phone.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/samsung-is-taking-a-page-out-of-pixels-playbook-with-one-ui-9-5/l-intro-1794593428.jpg",
-      "published_at": "2026-11-14T14:15:00+00:00",
-      "categories": [
-        "Samsung"
-      ]
-    },
-    {
-      "item_id": "6268a8d76455f2e6db04a514924bc039a6a4baf13355e8dd5a2472e41fd8be0c",
-      "title": "How long will it take you to download GTA 6 based on your internet speeds?",
-      "url": "https://www.engadget.com/2316732/gta-6-download-time-internet-speed-calculator/",
-      "summary": "You won't have to ruin your weekend plans to download this open-world epic.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-long-will-it-take-you-to-download-gta-6-based-on-your-internet-speeds/l-intro-1794616364.jpg",
-      "published_at": "2026-11-14T13:45:00+00:00",
-      "categories": [
-        "Gaming"
-      ]
-    },
-    {
       "item_id": "6d0aa43960d8d3a8772f5569ee08af77b1c84e559f3eac2004cd07fcf6ec7ae6",
       "title": "5 TVs with deep discounts before Black Friday even started",
       "url": "https://www.engadget.com/2316107/deep-discounts-tvs-before-black-friday-deals/",
@@ -16017,46 +16091,6 @@
       "published_at": "2026-11-14T13:30:00+00:00",
       "categories": [
         "Entertainment"
-      ]
-    },
-    {
-      "item_id": "c84d06b789f7d9c1620b9f74915d9bb4ea666aab94a2d6aa4b03abbc77df8246",
-      "title": "AMD vs. Intel CPUs: Which is the better buy in 2026?",
-      "url": "https://www.engadget.com/2310528/amd-vs-intel-cpu-which-better-buy-2026/",
-      "summary": "AMD and Intel CPUs have different strengths, so you'll need to consider what you need out of a CPU to make the right choice.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/amd-vs-intel-cpus-which-is-the-better-buy-in-2026/l-intro-1793296666.jpg",
-      "published_at": "2026-11-14T13:15:00+00:00",
-      "categories": [
-        "Computing"
-      ]
-    },
-    {
-      "item_id": "4bb46fc8b1bdef2f425f42cd8017caf52fbbdf168cfcf4d9b04e537b1929766c",
-      "title": "One UI 9 is the final major update for these older Samsung Galaxy phones",
-      "url": "https://www.engadget.com/2310671/one-ui-9-samsung-galaxy-phones-last-major-update/",
-      "summary": "Some of Samsung's older Galaxy phones are reaching the end of their primary Android OS upgrades, with One UI 9 as the last update planned.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/one-ui-9-is-the-final-major-update-for-these-older-samsung-galaxy-phones/l-intro-1794233595.jpg",
-      "published_at": "2026-11-14T13:15:00+00:00",
-      "categories": [
-        "Smartphones"
-      ]
-    },
-    {
-      "item_id": "7cd78e1edd54c6c1cfba264b6e4a984c67d53bd4df90b12b7bcc0c8dd42a86c7",
-      "title": "A gadget to make your dumb house smarter",
-      "url": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
-      "summary": "Hi, friends! Welcome to Installer No. 152, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for taking time away from Zelda to be here, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about school apps [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Installer-152.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-14T13:00:00+00:00",
-      "categories": [
-        "Apps",
-        "Gadgets",
-        "Installer",
-        "Streaming",
-        "Tech"
       ]
     },
     {
@@ -16086,18 +16120,6 @@
       ]
     },
     {
-      "item_id": "4cd77edac5a374cecdcde81afc5496dde3159e6ad3cbaa5804200a1df23dfa60",
-      "title": "One cable mistake could be killing your desktop PC's gaming performance",
-      "url": "https://www.engadget.com/2313063/cable-mistake-desktop-pc-gaming-performance/",
-      "summary": "Plugging your monitor into the motherboard instead of your dedicated GPU can ruin gaming performance. Here's how to check your ports and get your frames back.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/one-cable-mistake-could-be-killing-your-desktop-pcs-gaming-performance/l-intro-1794331166.jpg",
-      "published_at": "2026-11-14T23:30:00+00:00",
-      "categories": [
-        "PC Gaming"
-      ]
-    },
-    {
       "item_id": "25a932116b02f9e2157d30ae7f93b9a6de3e8cf1c1fdffa98b587dffc5e74a4c",
       "title": "This underrated Google Health app feature can make food tracking less annoying",
       "url": "https://www.engadget.com/2312924/underrated-google-health-app-food-tracker/",
@@ -16122,45 +16144,225 @@
       ]
     },
     {
-      "item_id": "bf94b1c5e1d604ac3b7868009ca9a6948a15fba744963cc4a93ef1307ce1f211",
-      "title": "The right way to transfer your Spotify playlists and songs to Apple Music",
-      "url": "https://www.engadget.com/2311090/how-to-transfer-spotify-playlist-songs-to-apple-music/",
-      "summary": "Learn how to transfer Spotify playlists to Apple Music on iPhone, iPad, Android or the web, and what you need before you move your songs over.",
+      "item_id": "673fcfe2143ba570424b17624cf84bddfbe22abbced1680d8eddc5298b666a4e",
+      "title": "What happens to Facebook and Instagram accounts when the owner dies?",
+      "url": "https://www.engadget.com/2313815/facebook-instagram-meta-accounts-what-happens-when-owner-dies/",
+      "summary": "Unless you delete them yourself, your Facebook and Instagram accounts will outlive you. But you can plan and set up what happens to them after you pass on.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-right-way-to-transfer-your-spotify-playlists-and-songs-to-apple-music/l-intro-1794230993.jpg",
-      "published_at": "2026-11-15T13:15:00+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/what-happens-to-facebook-and-instagram-accounts-when-the-owner-dies/l-intro-1794308400.jpg",
+      "published_at": "2026-11-15T18:45:00+00:00",
       "categories": [
-        "Apple"
+        "Social Media"
       ]
     },
     {
-      "item_id": "be7c47aae145253dd3f78f508ef0c635ae792ce23a3b9fc86fbb1e599d082995",
-      "title": "An overview of Jensen Huang’s messy days",
-      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October [&#8230;]",
+      "item_id": "95ae62181462e44f298668c8fecc5121ae668ae09989bf4ef7c6e5f3feeff600",
+      "title": "The camera sensor cleaning mistake you don't want to make",
+      "url": "https://www.engadget.com/2313770/camera-sensor-cleaning-mistake-to-avoid/",
+      "summary": "A speck of dust on your camera's sensor can negatively affect your photos, but it's important to avoid this cleaning mistake so you don't damage your camera.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-camera-sensor-cleaning-mistake-you-dont-want-to-make/l-intro-1794336026.jpg",
+      "published_at": "2026-11-15T18:30:00+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "f4d777176f250f7ddf71d489a281c4099e44ee3aa0114d68315799957d45b2dd",
+      "title": "Flaming Hydra’s new Kickstarter campaign rethinks e-book ownership and digital lending",
+      "url": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
+      "summary": "A new Kickstarter campaign aims to usher in the “return of the human internet.”",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-15T18:29:14+00:00",
+      "categories": [
+        "Media & Entertainment",
+        "Startups"
+      ]
+    },
+    {
+      "item_id": "854b7b00e880ebd2a205fad1d90c5590d38c80a39275a71b7c9011f64ed614b1",
+      "title": "Sleep vs. shutdown: When to use these modes on your mini PC",
+      "url": "https://www.engadget.com/2313768/when-to-use-sleep-vs-shutdown-mini-pc/",
+      "summary": "Here's how to determine if you should choose the sleep or shutdown mode on your mini PC. We'll also discuss the meaning of hibernation mode.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/sleep-vs-shutdown-when-to-use-these-modes-on-your-mini-pc/l-intro-1794322204.jpg",
+      "published_at": "2026-11-15T18:15:00+00:00",
+      "categories": [
+        "Computing"
+      ]
+    },
+    {
+      "item_id": "a9e9a6131ba620bc531aca5dc07478ed2fe181297cca8424972a1e311166cf06",
+      "title": "Don't throw away your old TV - Here's what to do instead",
+      "url": "https://www.engadget.com/2313763/dont-throw-away-your-old-tv-without-checking-first/",
+      "summary": "Your used TV could be well-qualified for a new job, and if it is time to retire the ol' telly, you'll want to make sure you do so the right way.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/dont-throw-away-your-old-tv-heres-what-to-do-instead/l-intro-1794325462.jpg",
+      "published_at": "2026-11-15T18:00:00+00:00",
+      "categories": [
+        "Entertainment"
+      ]
+    },
+    {
+      "item_id": "998cec8775a2449d521ae8b013649c0a6aedc80d37bb60830664cd5a6a2755d6",
+      "title": "Open-ear vs. in-ear earbuds: Which is actually better for your ears?",
+      "url": "https://www.engadget.com/2313761/open-ear-vs-in-ear-earbuds-which-is-better/",
+      "summary": "Open-ear and in-ear earbuds are designed differently, but those differences can have a bigger impact on daily listening than many people realize.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/open-ear-vs-in-ear-earbuds-which-is-actually-better-for-your-ears/l-intro-1794009893.jpg",
+      "published_at": "2026-11-15T17:45:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "de3d7c928fa23a0174ba63a53cde2478dc4bdfd1e4e57a502ec846c3953fc5ef",
+      "title": "Italy orders Meta to pay $887M for not obtaining specific consent over user photos",
+      "url": "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos/",
+      "summary": "Meta is reportedly planning to appeal the fine.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos/l-intro-1794764033.jpg",
+      "published_at": "2026-11-15T17:44:06+00:00",
+      "categories": [
+        "Social Media",
+        "Meta"
+      ]
+    },
+    {
+      "item_id": "ee85c53f80dfaae982af8932673bbcafb4ea70404b190635ca76207a2286a252",
+      "title": "Your phone's 'Airplane Mode' can save you from unexpected charges on cruise ships",
+      "url": "https://www.engadget.com/2313758/phone-airplane-mode-save-unexpected-charges-cruise-ships/",
+      "summary": "Maritime cellular networks can rack up roaming fees on your cruise without a single call or text. Here's how to stay connected and avoid the bill.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/your-phones-airplane-mode-can-save-you-from-unexpected-charges-on-cruise-ships/l-intro-1793996591.jpg",
+      "published_at": "2026-11-15T17:30:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "81285cbfbeb28584de653fc261f105a7837a6d7bf31884376074dd6fe264640b",
+      "title": "Should you keep your smart home gadgets on a separate home network?",
+      "url": "https://www.engadget.com/2313757/should-smart-devices-use-separate-wifi/",
+      "summary": "A dedicated network for smart home devices may sound excessive, but there may be reasons to separate those gadgets from everything else on your network.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/should-you-keep-your-smart-home-gadgets-on-a-separate-home-network/l-intro-1794011186.jpg",
+      "published_at": "2026-11-15T17:15:00+00:00",
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "2e1dc9854670a85f81797cc8d068ce914a617ceb361d4fc35fad0460fe92af55",
+      "title": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
+      "url": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-15T17:05:00+00:00",
+      "categories": [
+        "Transportation",
+        "nvidia",
+        "Uber",
+        "Jensen Huang",
+        "May Mobility",
+        "Pony.ai"
+      ]
+    },
+    {
+      "item_id": "9d57819abdb0cf71dedc8bfa23a0a0c0b32efb2b418d412d905d2c4afcc655b8",
+      "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
+      "url": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
+      "summary": "Amazon’s early Black Friday promos are already underway, and we’ll be highlighting some of our favorites over the next few days on our Shopping page. Among them is the Fanttik S1 Pro Cordless Electric Screwdriver, which is currently matching its all-time low of $39.99 ($40 off) at Amazon for a limited time. Fanttik’s rechargeable tool [&#8230;]",
       "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-15T13:00:00+00:00",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Fanttik-S1-Pro-Cordless-Electric-Screwdriver-Lifestyle-Image.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-15T17:00:00+00:00",
       "categories": [
-        "AI",
-        "Column",
-        "Nvidia",
-        "Security",
-        "Tech",
-        "The Stepback"
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
       ]
     },
     {
-      "item_id": "01852ad54fb92b6470bc432fc7d507643d9fd59726e6901ea4bdff2a32ffc2b4",
-      "title": "Troubleshooting a black screen on your MacBook is easier than you think",
-      "url": "https://www.engadget.com/2313043/troubleshoot-macbook-black-screen-issues/",
-      "summary": "A black screen on your MacBook can feel like the end of the world, but don't panic: there are several easy troubleshooting steps to try first.",
+      "item_id": "7366b6060d26108d0bf670f5d356d4c00ce81d1d265eea703630eb5c88bcf639",
+      "title": "5 emerging technologies that may soon become part of everyday life",
+      "url": "https://www.engadget.com/2313755/emerging-technologies-could-change-everyday-life/",
+      "summary": "Progress is faster every day, and we're sure some of the biggest developments in current technology are about to become a thing of every day.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/troubleshooting-a-black-screen-on-your-macbook-is-easier-than-you-think/l-intro-1794370476.jpg",
-      "published_at": "2026-11-15T01:30:00+00:00",
+      "image_url": "https://www.engadget.com/img/gallery/5-emerging-technologies-that-may-soon-become-part-of-everyday-life/l-intro-1794418138.jpg",
+      "published_at": "2026-11-15T17:00:00+00:00",
       "categories": [
-        "Laptops",
-        "Apple"
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "154d63a5beca78d13d7e5f6991d4d4f20e4a092025c978af7e7cc5b4e3214168",
+      "title": "Apple’s first smart glasses are coming together",
+      "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+      "summary": "Apple's smart glasses are among the worst-kept secrets in the tech world. Bloomberg's Mark Gurman says the company's first model, which will lack augmented reality features, will be announced at June's WWDC next year. They likely won't ship right away, however, with Gurman saying only that \"glasses shipments would begin before the end of the [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268640_RayBan_Meta_Gen2_AKrales_0038.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-15T16:59:16+00:00",
+      "categories": [
+        "Apple",
+        "Apple Rumors",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "dba4050f6eb5c206315e9cfd70636597f1c1f7a4c46b56aa21106a28cfd1c191",
+      "title": "Why do some USB connectors have those 2 square holes?",
+      "url": "https://www.engadget.com/2313749/why-some-usb-connectors-have-2-square-holes/",
+      "summary": "Some USB connectors, including USB-A, feature two small holes that have an important purpose. Other USB connectors lack these holes for a reason, too.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-do-some-usb-connectors-have-those-2-square-holes/l-intro-1794332715.jpg",
+      "published_at": "2026-11-15T16:45:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "88dccbda3b0e3c67100eaf044c1c68d7474e6aa89a50fd043bf2ec10f24b6df0",
+      "title": "Vibe coding is changing how musicians customize their gear",
+      "url": "https://www.engadget.com/2313717/vibe-coding-changing-how-musicians-customize-gear/",
+      "summary": "AI is changing just about every industry even music. This is how musicians are using vibe coding to alter their sound, their gear and how music is made.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/vibe-coding-is-changing-how-musicians-customize-their-gear/l-intro-1794240078.jpg",
+      "published_at": "2026-11-15T16:30:00+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "cdcd7b0c99801483b904e24d264009a56f8205e85ffa199d41e2980264aa2b24",
+      "title": "The tech products we enthusiastically recommend this holiday season",
+      "url": "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season/",
+      "summary": "We've been reviewing a bunch of new gadgets at TechCrunch this year, and we have some clear favorites to share for your Black Friday shopping and beyond.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "categories": [
+        "Hardware",
+        "Gadgets",
+        "evergreen"
+      ]
+    },
+    {
+      "item_id": "9764a92bcd7e60d69a110d93070f6e04d5811bfc9cf08a9adc01d8a91caecefd",
+      "title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
+      "url": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
+      "summary": "Rachelle Hampton is a writer and co-owner at Defector Media, and the host of Normal Gossip, a podcast of anonymous listener-submitted stories about everyday drama. Whether that's lies about luxury wool in a literal knitting circle, the impeachment of a hypocritical HOA president, or a COVID outbreak at a destination wedding with an absurd 25 [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/hampton-headshot-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "categories": [
+        "Culture",
+        "Entertainment",
+        "Interview",
+        "Report"
       ]
     }
   ]
