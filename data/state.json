@@ -4770,7 +4770,9 @@
     "88dccbda3b0e3c67100eaf044c1c68d7474e6aa89a50fd043bf2ec10f24b6df0",
     "https://www.engadget.com/2313717/vibe-coding-changing-how-musicians-customize-gear/",
     "6d0aa43960d8d3a8772f5569ee08af77b1c84e559f3eac2004cd07fcf6ec7ae6",
-    "https://www.engadget.com/2316107/deep-discounts-tvs-before-black-friday-deals/"
+    "https://www.engadget.com/2316107/deep-discounts-tvs-before-black-friday-deals/",
+    "a59f0d57be78fedb20eb7994218b5aefbff8ac8e69588f9b24d637a98551dcaa",
+    "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals"
   ],
   "published_stories": [
     {
@@ -16688,7 +16690,7 @@
     },
     {
       "item_id": "1a63c4add0ac63cd460883d74ee7d2fe71d620742a1d80986b436853be3c656f",
-      "title": "Serena Williams winds down her VC firm, launches new fund, targets $200M",
+      "title": "Serena Williams winds down her VC firm, launches new fund, seeks $200M",
       "url": "https://techcrunch.com/2026/11/16/serena-williams-winds-down-her-vc-firm-launches-new-fund-targets-200m/",
       "summary": "Serena Williams and longtime business partner Beth Ferreira announced Monday the launch of an early-stage firm called Starfire Ventures.",
       "source": "TechCrunch",
@@ -17064,6 +17066,603 @@
         "Venture",
         "estonia",
         "plural"
+      ]
+    },
+    {
+      "item_id": "7f7849f905337b24f2dff0b7994754c84eb471e0e8e3ffdc73719b2206b7069f",
+      "title": "Whether it's Black Friday or a CEO scandal, NVIDIA GPUs just don't get deep discounts",
+      "url": "https://www.engadget.com/2318262/nvidia-gou-dont-get-deep-discounts-black-friend-ceo-scandal/",
+      "summary": "Hoping the Jensen Huang fallout means cheap RTX cards this Black Friday? Here's what's really driving GPU prices and why deals may be hard to find.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/whether-its-black-friday-or-a-ceo-scandal-nvidia-gpus-just-dont-get-deep-discounts/l-intro-1794856807.jpg",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "1ab0092284292e9f255ffc2f28d1a89b8e5b4b264b45f6fecd9cd6c9a186c62c",
+      "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+      "url": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+      "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, and starting in early November [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ULTIMATE_EDITION_01_de9b57.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-16T23:35:58+00:00",
+      "categories": [
+        "Entertainment",
+        "Gaming",
+        "News"
+      ]
+    },
+    {
+      "item_id": "56d3cc5f4154fdf5058fa7d798aad6d88cb86f7b2ff775ceae7c6c42cf1530f1",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T23:32:32+00:00",
+      "categories": [
+        "AI",
+        "Fundraising",
+        "Security",
+        "Startups",
+        "cybersecurity",
+        "In Brief"
+      ]
+    },
+    {
+      "item_id": "44bde434e50d6d01d50d2e5046a1221b464a38d8831a2f437736f76dbb5d8546",
+      "title": "How to put your iPad in recovery mode (with and without a home button)",
+      "url": "https://www.engadget.com/2315100/how-to-put-ipad-in-recovery-mode/",
+      "summary": "A failed update or too many wrong passcodes can leave your iPad unusable. Find out how recovery mode works and when it's worth trying as a last resort.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-put-your-ipad-in-recovery-mode-with-and-without-a-home-button/l-intro-1794505141.jpg",
+      "published_at": "2026-11-16T23:30:00+00:00",
+      "categories": [
+        "Tablets"
+      ]
+    },
+    {
+      "item_id": "8864c24fbcfdffdabdcb32c58d9c62281e3134f80ab01c758f8cb224173e8702",
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2299645290.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-16T23:17:34+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "2cd80fdf210c0d7e601bd65f3b9a1e45edbe56bb8cac44bc3087844e7b28a613",
+      "title": "The charging mistakes that could ruin your Nintendo Switch's battery",
+      "url": "https://www.engadget.com/2314944/nintendo-switch-charging-mistakes-ruin-battery/",
+      "summary": "To avoid turning your Nintendo Switch into just another stationary console, there are a few common and easy-to-overlook charging mistakes you'll want to avoid",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-charging-mistakes-that-could-ruin-your-nintendo-switchs-battery/l-intro-1794501086.jpg",
+      "published_at": "2026-11-16T23:00:00+00:00",
+      "categories": [
+        "Nintendo"
+      ]
+    },
+    {
+      "item_id": "c5a50bf4a4f326246a4c04efcf3b6d97c7c70731bda1205eca540380632fccf0",
+      "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+      "url": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+      "summary": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. At 6:13PM ET, United said the problem has been fixed: Earlier today we experienced a technology-related issue that impacted some departing flights. The issue [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304760092.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-16T22:54:59+00:00",
+      "categories": [
+        "Mass Transit",
+        "News",
+        "Transportation"
+      ]
+    },
+    {
+      "item_id": "f6498101591ae13ad5e8916ee3828d445da4820884a274f03a36fd527cdf74c7",
+      "title": "United Airlines has fixed issue that caused 'widespread system outage'",
+      "url": "https://www.engadget.com/2318613/united-airlines-is-experiencing-a-widespread-system-outage/",
+      "summary": "United is apparently experiencing a major outage just days after a nationwide ground stop halted thousands of flights.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/united-airlines-is-experiencing-a-widespread-system-outage/l-intro-1794871027.jpg",
+      "published_at": "2026-11-16T22:38:43+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "e2b2847007c6dc1bce94f1325b4c347f1adbdd01c1f74a03fc32b604bfa9777b",
+      "title": "Cyber giant Infoblox confirms security incident after hackers access ‘company information’",
+      "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+      "summary": "The cybersecurity and automation giant said it's working with outside investigators to understand the scale of the breach.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T22:12:31+00:00",
+      "categories": [
+        "Enterprise",
+        "Security",
+        "cybersecurity",
+        "data breach"
+      ]
+    },
+    {
+      "item_id": "28fcc3462aa7f351fc64cf59e7959de360d85fb07c66e004bca442e3203ffd71",
+      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T22:03:02+00:00",
+      "categories": [
+        "AI",
+        "TC",
+        "Colette Kress",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "c23a8483ad4aa632ecdf78586eef1846d0e3b840f7756487dfd9efaf94bcae3d",
+      "title": "In Get Huge, the manosphere is here to make friends — with deadly consequences",
+      "url": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
+      "summary": "Before Clavicular and other manosphere streamers were introducing young guys to the concept of breaking their facial bones to become more attractive, there was an older generation of creators building massive followings with content focused on chemical biohacking. Were it not for steroid-obsessed influencers like Anthony \"Tony Huge\" Hughes launching YouTube channels over a decade [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/184084_bk_press_still_1.579.1.jpg?quality=90&strip=all&crop=10.051873779297,10.653583930772,89.948126220703,89.346416069228",
+      "published_at": "2026-11-16T21:41:57+00:00",
+      "categories": [
+        "Creators",
+        "Entertainment",
+        "Film",
+        "Health",
+        "Hulu",
+        "Science",
+        "Streaming",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "eadacb5bc77d96e7e30ad98d87041d4e7b7d3c37ed16377da625aad4ede448d8",
+      "title": "The iPhone Duo gets face unlock with the latest iOS 27 beta.",
+      "url": "https://www.engadget.com/2318489/iphone-duo-gets-face-unlock-with-the-latest-ios-27-beta/",
+      "summary": "You won't need to wait for TouchID on your $2,000 foldable.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-iphone-duo-gets-face-unlock-with-the-latest-ios-27-beta/l-intro-1794863293.jpg",
+      "published_at": "2026-11-16T21:17:24+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "5419935cc32257c21bf36a4f8cc86cf404c5a4d053fc652ab6c43e1239e514e9",
+      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+      "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+      "summary": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T21:01:02+00:00",
+      "categories": [
+        "Apps",
+        "Privacy",
+        "Security",
+        "ai agent",
+        "Apple",
+        "mac"
+      ]
+    },
+    {
+      "item_id": "ffadf433018213aa923eb75268d6bb3d4873a29e1df0ac41894f550c2220a33f",
+      "title": "Every Xbox console generation sorted by release date",
+      "url": "https://www.engadget.com/2314891/every-xbox-console-generation-sorted-release-date/",
+      "summary": "Microsoft debuted the Xbox in 2001, and there's quite a lot to look back on from the quarter-century since the company got into gaming.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/every-xbox-console-generation-sorted-by-release-date/l-intro-1794499952.jpg",
+      "published_at": "2026-11-16T21:00:00+00:00",
+      "categories": [
+        "Xbox"
+      ]
+    },
+    {
+      "item_id": "d04b48c5977a38cedffbd08cb1bcd2669b4c34b80aa5656ad98dc767dd63996f",
+      "title": "Customers at major banks report difficulty accessing accounts online",
+      "url": "https://www.engadget.com/2318431/customers-at-major-banks-report-difficulty-accessing-accounts-online/",
+      "summary": "Representatives from the companies say this is a technical problem and not a cyberattack.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/customers-at-major-banks-report-difficulty-accessing-accounts-online/l-intro-1794862115.jpg",
+      "published_at": "2026-11-16T20:49:32+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "e19261620b753017f4302dbcbfc795c2daa193b45d7fd95f674d42806b6c49d4",
+      "title": "California sues OpenAI over rogue AI hacking incidents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-16T20:46:01+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Policy",
+        "Politics"
+      ]
+    },
+    {
+      "item_id": "8cf13828f41f3b9419be7084b44eafe84140a08917d1c8628df10d40a0a939c0",
+      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "summary": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-16T20:41:28+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "ca31d573a7ecced7ff921a6c504209ba599e892647d4bcbfa1bbc5ff2b8f4fd7",
+      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+      "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2227026671.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-16T20:29:37+00:00",
+      "categories": [
+        "AI",
+        "Energy",
+        "Policy",
+        "Science"
+      ]
+    },
+    {
+      "item_id": "792e54d359a91055cf7a375a176e3eb5ed08c29e50f0ee0780a2c7ce8fda64bc",
+      "title": "US data centers now burn more electricity than a midsized country",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+      "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions. The study homes in on hyperscale facilities - the [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-16T20:27:58+00:00",
+      "categories": [
+        "AI",
+        "Climate",
+        "Energy",
+        "Environment",
+        "Science"
+      ]
+    },
+    {
+      "item_id": "37e2c6e43a0988b1856c02473ca4481c38c03890e6f63b2e2b7eccfcf07c2a9d",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T20:07:13+00:00",
+      "categories": [
+        "AI",
+        "OpenAI"
+      ]
+    },
+    {
+      "item_id": "6abcfd3e8bdb3d63d02a2340d3ec77a3c3ca076788690af07bf15ef0d6b92dd8",
+      "title": "California sues OpenAI after that Hugging Face rogue hacking incident",
+      "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
+      "summary": "State AG Rob Bonta has accused the company of making AI agents \"without the safeguards and monitoring necessary to adequately protect\" users.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/california-sues-openai-after-that-hugging-face-rogue-hacking-incident/l-intro-1794858677.jpg",
+      "published_at": "2026-11-16T19:52:24+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "ff4ec2a1999880b3041b1e24e3b3803e0a3762b05817a161537cabf3fcbc09be",
+      "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "summary": "If you’re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple’s latest smartwatch, the 42mm Apple Watch Series 12 with Wi-Fi and GPS connectivity, has dropped to a new all-time low of $329 at Amazon, Best Buy, and Walmart, beating the October Prime Day [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268738_Apple_Watch_Series_12_AKrales_0280.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-16T19:50:47+00:00",
+      "categories": [
+        "Apple",
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Tech",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "6c1cff03673fd4696e7d85fcd30f6ef5514f05c323cbdb3092c4b19a6ab7123a",
+      "title": "Which Google Pixel phone is most similar to the Galaxy S26+?",
+      "url": "https://www.engadget.com/2314824/google-pixel-phone-most-similar-to-galaxy-s26-plus/",
+      "summary": "Trying to choose between the Google Pixel 11 Pro and Samsung Galaxy S26+? We break down the specs, cameras and prices to help find the best one for you.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/which-google-pixel-phone-is-most-similar-to-the-galaxy-s26/l-intro-1794486626.jpg",
+      "published_at": "2026-11-16T19:30:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "1f1602d313fe7b18d64ac62c2615b89fbb44b5b7e016ca242f8115f0c0f13dee",
+      "title": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+      "url": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/",
+      "summary": "Apple's latest iOS 27.3 developer beta introduces a limited face unlock feature for the iPhone Duo, alongside other improvements.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T19:26:55+00:00",
+      "categories": [
+        "Apps",
+        "Hardware",
+        "Apple",
+        "face id",
+        "foldable smartphone",
+        "iPhone",
+        "iPhone Duo"
+      ]
+    },
+    {
+      "item_id": "fbef9a1f889ce639370068c102804eff828639e31669448463246d7290678257",
+      "title": "Google Maps' chatbot can find appointments and call to book them for you",
+      "url": "https://www.engadget.com/2318186/google-maps-chatbot-can-find-appointments-and-call-to-book-them-for-you/",
+      "summary": "The Ask Maps chatbot is also expanding to more than 30 additional countries across Europe.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-maps-chatbot-can-find-appointments-and-call-to-book-them-for-you/l-intro-1794856568.jpg",
+      "published_at": "2026-11-16T19:17:00+00:00",
+      "categories": [
+        "Google"
+      ]
+    },
+    {
+      "item_id": "d69a3ce553a3a9d26d2de9eb214722b5a689d827aa3fc443d4fea0b7dad1fe15",
+      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T19:12:02+00:00",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Jensen Huang",
+        "nvidia",
+        "Trump"
+      ]
+    },
+    {
+      "item_id": "06b2231d66f04c41904a04370d941df5ddbbada400cfc833ac3c563a62c37741",
+      "title": "Improve your Amazon Kindle experience by doing these simple things",
+      "url": "https://www.engadget.com/2314792/improve-amazon-kindle-experience-doing-simple-things/",
+      "summary": "If you love the convenience of a Kindle but miss the feel of having a physical book in your hands, we have some tips for you.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/improve-your-amazon-kindle-experience-by-doing-these-simple-things/l-intro-1794497965.jpg",
+      "published_at": "2026-11-16T19:00:00+00:00",
+      "categories": [
+        "Entertainment",
+        "Tablets",
+        "Amazon"
+      ]
+    },
+    {
+      "item_id": "b2348076e681985441d557b0ecc44e23d9b93034b648d0b1f234b9441d5923fe",
+      "title": "Island is a new screen-time app that turns staying off your phone into a game",
+      "url": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
+      "summary": "YC-backed Island turns screen time goals into a farming game, rewarding users with new crops, animals, and more when they stick to their limits.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T18:54:18+00:00",
+      "categories": [
+        "Apps",
+        "Media & Entertainment",
+        "Startups",
+        "screen time"
+      ]
+    },
+    {
+      "item_id": "53dd7007188e095b59d21fdb4ee08828cf49b01cf983e6fc327c9ea142ef8d0c",
+      "title": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin gigafactory expansion",
+      "url": "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/",
+      "summary": "Tesla is putting Europe on its Cybercab roadmap with a €3 billion expansion of its Berlin gigafactory.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T18:21:14+00:00",
+      "categories": [
+        "Transportation",
+        "Tesla",
+        "Tesla Gigafactory",
+        "cybercab"
+      ]
+    },
+    {
+      "item_id": "6ee67420497cfde61da427247c18cd5aaeac92e039c69d143ab5aa71d66706e7",
+      "title": "You won't find Nothing phones at US carriers, but here's how you can still buy them",
+      "url": "https://www.engadget.com/2314632/nothing-phones-not-available-us-carriers-how-still-buy/",
+      "summary": "While you can't get one at an AT&amp;T or Verizon store, Nothing has partnered with Best Buy.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/you-wont-find-nothing-phones-at-us-carriers-but-heres-how-you-can-still-buy-them/l-intro-1794493958.jpg",
+      "published_at": "2026-11-16T18:15:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "0b7be849fbe9f28241bb4cfa0bec25f5eeeef016f6072db3ad2414208f365ebb",
+      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+      "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T18:11:10+00:00",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia",
+        "OpenAI",
+        "sam altman"
+      ]
+    },
+    {
+      "item_id": "ef4e15269446405ff19677ac3a1612eb077d45f5ae3a333ce192c2e881191eaa",
+      "title": "GTA 6 hacker pleads guilty to stealing and leaking gameplay footage",
+      "url": "https://www.engadget.com/2318001/gta-6-hacker-pleads-guilty-to-stealing-and-leaking-gameplay-footage/",
+      "summary": "Arion Kurtaj was deemed fit to stand trial earlier this year after breaching Rockstar's systems in 2022",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/gta-6-hacker-pleads-guilty-to-stealing-and-leaking-gameplay-footage/l-intro-1794851373.jpg",
+      "published_at": "2026-11-16T17:50:38+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "08196fbe174ee8d8f29bf437c9d83444bbb6343ab6fb880f8703b06e51c8f6c3",
+      "title": "Why scammers try to keep you on the phone (and how to spot their tactics)",
+      "url": "https://www.engadget.com/2314524/why-scammers-keep-you-on-phone/",
+      "summary": "That helpful voice on the other end of the line might sound friendly, but they often have a script, fake credentials and no intention of letting you hang up.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-scammers-try-to-keep-you-on-the-phone-and-how-to-spot-their-tactics/l-intro-1794483391.jpg",
+      "published_at": "2026-11-16T17:45:00+00:00",
+      "categories": [
+        "News",
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "8de8b77078e62a392ea89dd388b29d6aaff65c74f3efafb55963a0785a9d4f23",
+      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "summary": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T17:36:43+00:00",
+      "categories": [
+        "AI",
+        "Security",
+        "artex",
+        "cyberattacks",
+        "cybersecurity",
+        "penetration testing"
+      ]
+    },
+    {
+      "item_id": "72d3a7079c89c18e5414ffc75f0d5316979e090a56acdf130e16145f61075ca8",
+      "title": "The simple and convenient Apple Maps feature every CarPlay user should know about",
+      "url": "https://www.engadget.com/2314427/apple-maps-convenient-share-eta-feature-for-carplay-users/",
+      "summary": "Apple Maps has plenty of useful features - some big, some small. This particular feature is relatively minor but can prove very useful indeed.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-simple-and-convenient-apple-maps-feature-every-carplay-user-should-know-about/l-intro-1794454259.jpg",
+      "published_at": "2026-11-16T17:15:00+00:00",
+      "categories": [
+        "Apps",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "3f2e675ea604b780983dff596b52bf7ebd21abeecd9a59a44d60bbb8bccf3889",
+      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+      "summary": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T17:10:00+00:00",
+      "categories": [
+        "AI",
+        "AI voice"
+      ]
+    },
+    {
+      "item_id": "c033c1c044ba74df2caa8244213a197d222ac52d440c32dba3d69b446bd118f7",
+      "title": "OpenAI will embed safety researchers to investigate AI subversion",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T17:02:43+00:00",
+      "categories": [
+        "AI",
+        "OpenAI",
+        "ai safety research"
+      ]
+    },
+    {
+      "item_id": "4af4c933e338d4e488ea6100713edab3016a5d6953fb0b13d298e1ad25ca4087",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "TC",
+        "ChatGPT",
+        "CSAM",
+        "OpenAI"
+      ]
+    },
+    {
+      "item_id": "987e54f644e8d12d5b010b7653258b6e481aa2353898c5179ce86c574b7b2264",
+      "title": "Instagram now lets creators add Amazon affiliate links in reels and feed posts",
+      "url": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/",
+      "summary": "While creators have long shared Amazon affiliate links through stories, DMs, and their bios, the new integration brings them to new parts of the app.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "categories": [
+        "Apps",
+        "Social",
+        "amazon affiliates",
+        "Instagram"
+      ]
+    },
+    {
+      "item_id": "cd65fdabf24e341a3e1e8946a9f95c857354893541d8be7bdc9e9ff64382cd92",
+      "title": "Google adds 66 regional dialects to Gemini",
+      "url": "https://www.engadget.com/2317417/google-adds-66-regional-dialects-to-gemini/",
+      "summary": "From today, Gemini's making more of an effort to speak your language in a way that sounds more accurate.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-adds-66-regional-dialects-to-gemini/l-intro-1794828173.jpg",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "categories": [
+        "AI",
+        "Google"
+      ]
+    },
+    {
+      "item_id": "8464ad25bc29c23d9d24b5a391c6d03911eb77514e8196854f7adba85f4d0766",
+      "title": "Instagram will let creators add Amazon affiliate links directly to their posts and Reels",
+      "url": "https://www.engadget.com/2316714/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels/",
+      "summary": "The app will become even more of a shopping mall, just in time for Black Friday.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels/l-intro-1794612310.jpg",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "categories": [
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "905324b780c7f53b4946a631df8a3c01f66889e6204044a112b9f05407f21686",
+      "title": "Your smart home hub placement is more important than you'd think",
+      "url": "https://www.engadget.com/2314367/smart-home-hub-placement-importance/",
+      "summary": "Keeping your smart home network functioning properly starts with understanding where to place it in relation to your smart devices and Wi-Fi router.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/your-smart-home-hub-placement-is-more-important-than-youd-think/l-intro-1794438685.jpg",
+      "published_at": "2026-11-16T16:45:00+00:00",
+      "categories": [
+        "Computing"
       ]
     }
   ]
