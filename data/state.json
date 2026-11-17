@@ -4772,7 +4772,9 @@
     "6d0aa43960d8d3a8772f5569ee08af77b1c84e559f3eac2004cd07fcf6ec7ae6",
     "https://www.engadget.com/2316107/deep-discounts-tvs-before-black-friday-deals/",
     "a59f0d57be78fedb20eb7994218b5aefbff8ac8e69588f9b24d637a98551dcaa",
-    "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals"
+    "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
+    "86118e1f8ad98d5d177947223ecd0ae8852f762e2d1f414d077c6cd7bfcaed6f",
+    "https://www.theverge.com/gadgets/1034571/gruv-4k-blu-ray-movies-black-friday-deal-sale"
   ],
   "published_stories": [
     {
@@ -17713,6 +17715,527 @@
       "categories": [
         "Apps",
         "Google"
+      ]
+    },
+    {
+      "item_id": "7cb3080ee0975e68ec7fe092e1bd4c999312e3dbfe8f5791c645606686246533",
+      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T17:32:25+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Security",
+        "privacy",
+        "cybersecurity",
+        "Proton"
+      ]
+    },
+    {
+      "item_id": "5efe4911847380e0602b8f3a0c020ecc45da5a46a11319f5f869e0a6c69c0b05",
+      "title": "Jensen Huang said he'd be 'honored' to return as NVIDIA CEO, because of course he would",
+      "url": "https://www.engadget.com/2319382/jensen-huang-said-hed-be-honored-to-return-as-nvidia-ceo-because-of-course-he-would/",
+      "summary": "Huang is set to testify before congressional committees on December 1.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/jensen-huang-said-hed-be-honored-to-return-as-nvidia-ceo-because-of-course-he-would/l-intro-1794936519.jpg",
+      "published_at": "2026-11-17T17:29:48+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "2acc9c3b145f01f19dc82c97cedda7da66b369f48c12b4d5df4d6b173f19d011",
+      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T17:20:41+00:00",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "defense",
+        "OpenAI"
+      ]
+    },
+    {
+      "item_id": "fb2e71530b6e48b9cdf1d38430ff58ae9c859ccc52c1dcf9ca93e7c75ca7a820",
+      "title": "How to switch between password managers without losing your information",
+      "url": "https://www.engadget.com/2315260/switch-password-managers-without-losing-information/",
+      "summary": "There's no need to fear moving from one password manager to another with failsafes in place to make the transfer easy, efficient, and secure.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-switch-between-password-managers-without-losing-your-information/l-intro-1794509992.jpg",
+      "published_at": "2026-11-17T17:15:00+00:00",
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "7d53b6dc60c78263727e728975e0fcc46e725dc5367a6d522cd928b0822886ce",
+      "title": "Inside Microsoft’s giant Outlook outage",
+      "url": "https://www.theverge.com/tech/1035364/microsoft-outlook-outage-notepad",
+      "summary": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings. But barely an hour later, one of Microsoft's worst outages in history started to unfold, leaving employees, businesses, and many governments without access to Outlook emails for nearly 24 hours. It all started [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "categories": [
+        "Microsoft",
+        "Notepad",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "f5e5bec8cff489de80f2169b342589e3efbbd93d90f0ecf16df2a3fa28e72b18",
+      "title": "Google Pixel Tag review: Simple but effective",
+      "url": "https://www.engadget.com/2319280/google-pixel-tag-review/",
+      "summary": "Google's take on Apple's AirTag is a basic but still valuable tool for Android users.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-pixel-tag-review-simple-but-effective/l-intro-1794933527.jpg",
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "categories": [
+        "Reviews",
+        "Google"
+      ]
+    },
+    {
+      "item_id": "dfacfd9e612f9c52445074e0ded6797941c3b4349a182a6fca16beb04fbbaa13",
+      "title": "Think twice before using your laptop on any soft surface",
+      "url": "https://www.engadget.com/2315220/think-twice-using-laptop-on-soft-surface/",
+      "summary": "Working from the couch or bed? Soft surfaces can cause trouble for your laptop's performance and battery. Learn why and what to do about it.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/think-twice-before-using-your-laptop-on-any-soft-surface/l-intro-1794506827.jpg",
+      "published_at": "2026-11-17T16:45:00+00:00",
+      "categories": [
+        "Laptops"
+      ]
+    },
+    {
+      "item_id": "4e04faf947d63f4e3eb4d5c238e7ccc55113d1c4a9f6422befb8620b6fe3aa41",
+      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T16:44:15+00:00",
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "04902ac6edbefd9d1e364f8270aa0179d90778b8a99d9ec895592887527bfcef",
+      "title": "Snapchat has finally made it easy to check an account's mutual friends",
+      "url": "https://www.engadget.com/2319271/snapchat-has-finally-made-it-easy-to-check-an-accounts-mutual-friends/",
+      "summary": "The new feature is available in the US, Australia, France and Sweden.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/snapchat-has-finally-made-it-easy-to-check-an-accounts-mutual-friends/l-intro-1794933425.jpg",
+      "published_at": "2026-11-17T16:38:10+00:00",
+      "categories": [
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "fcad62b75a8f3a0b550c615aa4ea2518154520ba9cf7faacfd65ed6a86769b22",
+      "title": "NVIDIA establishes export control committee following Jensen Huang resignation",
+      "url": "https://www.engadget.com/2319262/nvidia-establishes-export-control-committee-following-jensen-huang-resignation/",
+      "summary": "The company's existing global trade compliance team will report to the new committee.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/nvidia-establishes-export-control-committee-following-jensen-huang-resignation/l-intro-1794935745.jpg",
+      "published_at": "2026-11-17T16:33:21+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "823eb85fb88796244ef95368a62ea87ec6e75d61a83a417a563eee9825555838",
+      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+      "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T16:32:55+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Commerce",
+        "ai agent",
+        "Daydream",
+        "e-commerce",
+        "online shopping",
+        "shopping"
+      ]
+    },
+    {
+      "item_id": "06c9a4ef3fd814726cbce89040c705758d5a5c9984f469421567c5e5fcc462e2",
+      "title": "The DOJ says it’s investigating Megaspeed",
+      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+      "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25461724/STK432_Government__CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-17T16:19:03+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "a754053e544c4f8d6c57337492de7cdfe2f321b741cce0d05cbaa5489cee42f3",
+      "title": "5 CarPlay apps for listening to music and podcasts",
+      "url": "https://www.engadget.com/2315208/carplay-apps-listening-music-podcasts/",
+      "summary": "One of the best uses for CarPlay is enjoying music and other audio, and these apps are excellent tools for the job.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/5-carplay-apps-for-listening-to-music-and-podcasts/l-intro-1794509113.jpg",
+      "published_at": "2026-11-17T16:15:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "0ff663bc58f2ffee0eba278aaf63c0caecf07e448c70242c6d07d262f45b2074",
+      "title": "Banning phones really does help kids learn, researchers say",
+      "url": "https://www.theverge.com/policy/1035401/school-cell-phone-ban-study-meta-settlement",
+      "summary": "A new nationwide study found that in-school cellphone bans can lead to modest improvements in learning. Now, researchers want to understand whether kids' phone use outside the classroom might contribute to the rest of students' learning loss - using the conditions of Meta's multibillion-dollar settlement from earlier this year. Banning cellphones in schools has the [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK483_EDUCATION_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-17T16:13:18+00:00",
+      "categories": [
+        "Policy",
+        "Politics",
+        "Report"
+      ]
+    },
+    {
+      "item_id": "6542a21cd3a614fa997a55ab07e00d50940fbc52c3229892e5f5a6e83f77e53a",
+      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+      "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+      "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-17T16:09:57+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "3e2d8896917389da02d8a347a7d64975c41d8d26c5997a42d5449a8d21fe32ae",
+      "title": "The unified Disney+ and Hulu app is set to arrive in December",
+      "url": "https://www.engadget.com/2319193/unified-disney-plus-and-hulu-app-is-set-to-arrive-in-december/",
+      "summary": "Disney has been working to bring the streaming services together for several years.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-unified-disney-and-hulu-app-is-set-to-arrive-in-december/l-intro-1794931146.jpg",
+      "published_at": "2026-11-17T16:00:25+00:00",
+      "categories": [
+        "Streaming"
+      ]
+    },
+    {
+      "item_id": "d53cf93b0dd26cb78f9d80256f480dce5839ac959a1937f0a5d59f38b784da6e",
+      "title": "You can now preorder the Flipper One that puts a Linux computer in your pocket",
+      "url": "https://www.theverge.com/tech/1034392/flipper-devices-one-zero-pocket-linux-computer-multi-tool-preorder-kickstarte",
+      "summary": "After first announcing its Flipper One last May, which the company describes as an \"open Linux multi-tool built for high-performance computing and IP networking,\" Flipper Devices has launched a Kickstarter crowdfunding campaign where you can preorder the device for $399 with shipping expected to start in July 2027. The Flipper One is more expensive than [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/flipperone1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-17T16:00:00+00:00",
+      "categories": [
+        "Gadgets",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "fa45ab29edf9bca631d248fea7f36bd78491391f20ff165bde27196ddfd9efd4",
+      "title": "How to sideload apps on iOS (even if you're in the US)",
+      "url": "https://www.engadget.com/2315074/how-to-sideload-apps-ios-even-in-united-states/",
+      "summary": "Learn how to sideload apps on your iPhone, even if you live in the US. Find the right tools to install iOS apps outside the App Store, no matter where you live.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-sideload-apps-on-ios-even-if-youre-in-the-us/l-intro-1794492847.jpg",
+      "published_at": "2026-11-17T15:45:00+00:00",
+      "categories": [
+        "Apps"
+      ]
+    },
+    {
+      "item_id": "608fd237fc22174659efaca3f601e0bdf4d9eefac356c8fec05c4ddd5b5c97a9",
+      "title": "Kalshi moves into a new kind of gambling: the stock market",
+      "url": "https://www.theverge.com/business/1035366/kalshi-stock-trading",
+      "summary": "Kalshi is getting ready to offer stock trading on its platform, according to reports from The Wall Street Journal and CNBC. The company reportedly plans to use its acquisition of broker FB Securities to launch equities and exchange-traded funds \"within the next two months,\" pitting the prediction market against rivals like Robinhood. The rumored expansion [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKB383_KALSHI_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-17T15:35:32+00:00",
+      "categories": [
+        "Business",
+        "News"
+      ]
+    },
+    {
+      "item_id": "1ab7ddb691af745df3a6300c95d24a7831fa23869334b6d753f1ae6be9acc531",
+      "title": "Uber and Zipline’s drone delivery service takes off in Texas, with dozens of cities to follow",
+      "url": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/",
+      "summary": "The two companies want to make one million deliveries per day using Zipline drones by the end of 2029.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T15:07:06+00:00",
+      "categories": [
+        "Transportation",
+        "drone delivery",
+        "Uber",
+        "Uber Eats",
+        "zipline"
+      ]
+    },
+    {
+      "item_id": "0020a01dd30172380007b4aad0b43fd3475ed947e26aa6d3e3f832f39dbdfe55",
+      "title": "The aliens are coming in 3 Body Problem’s first season 2 trailer",
+      "url": "https://www.theverge.com/streaming/1035221/3-body-problem-season-two-trailer-premiere-date-netflix",
+      "summary": "The first season of Netflix's 3 Body Problem series ended with the remaining members of the Oxford Five disillusioned at the idea of humanity being utterly unprepared to deal with the San-Ti's arrival on Earth. But in the first trailer for the show's upcoming second season, it looks like the world's greatest minds have been [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/3bp2_6052_0540.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-17T15:04:20+00:00",
+      "categories": [
+        "Books",
+        "Entertainment",
+        "Netflix",
+        "News",
+        "Streaming",
+        "Trailers",
+        "TV Shows"
+      ]
+    },
+    {
+      "item_id": "a8081a17364b202045e763fc8227a7cccd11b2b9967470fe4605f5dc3dd3c9d7",
+      "title": "Meta launches Direct, a stand-alone messaging app for Instagram",
+      "url": "https://techcrunch.com/2026/11/17/meta-launches-direct-a-standalone-messaging-app-for-instagram/",
+      "summary": "Direct is launching in Turkey and Thailand, and can be used with or without an Instagram account.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T15:01:46+00:00",
+      "categories": [
+        "Apps",
+        "Social",
+        "direct messages",
+        "Instagram",
+        "Meta"
+      ]
+    },
+    {
+      "item_id": "a868dcffafe312790b627463a83c767300c31e0ad35547eade79bc6a084124b6",
+      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T15:00:00+00:00",
+      "categories": [
+        "AI",
+        "AI assistant",
+        "Google Maps",
+        "travel"
+      ]
+    },
+    {
+      "item_id": "b2ae0c4bf699ab0eb403217728d2c8372d2f18220e73d595fffd06d7aa161290",
+      "title": "Instagram’s new tool for creators targets unauthorized reposts and AI-modified videos",
+      "url": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/",
+      "summary": "The announcement likely comes in response to creators' concerns over how easily original content can be copied and redistributed across social media platforms, especially considering how generative AI has made it easier to manipulate existing videos.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T15:00:00+00:00",
+      "categories": [
+        "Apps",
+        "Social",
+        "Instagram"
+      ]
+    },
+    {
+      "item_id": "cbca5fca8fdb7266981c1d4a8fa9f51178338f87ed0b96959524c60e8d60e6a7",
+      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T14:50:58+00:00",
+      "categories": [
+        "AI",
+        "Biotech & Health",
+        "Fundraising",
+        "AI drug discovery",
+        "DeepMind",
+        "drug research",
+        "In Brief",
+        "isomorphic labs"
+      ]
+    },
+    {
+      "item_id": "99356852b8f40cb5b6e562940dba8f944391bf2990e30d482c19b64b88646624",
+      "title": "The hidden features every Google Maps user should know about",
+      "url": "https://www.engadget.com/2315026/google-maps-hidden-features-users-should-know/",
+      "summary": "Discover these overlooked Google Maps features that help you plan your route and cut distractions so you can arrive at your destination on time.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-hidden-features-every-google-maps-user-should-know-about/l-intro-1794489159.jpg",
+      "published_at": "2026-11-17T14:45:00+00:00",
+      "categories": [
+        "Apps"
+      ]
+    },
+    {
+      "item_id": "caca940c63abf8e2169e5daa537abe9ce1c6f30e6bdd93f268f2e475cbee7c5c",
+      "title": "Xiaomi's 18 Pro series can generate vibe-coded apps for its tiny rear display",
+      "url": "https://www.engadget.com/2319013/xiaomi-18-pro-vibe-coded-apps-launch-hands-on/",
+      "summary": "Xiaomi is back with more Pro phones, featuring second screens, capable cameras and a slick red color.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/xiaomis-18-pro-series-can-generate-vibe-coded-apps-for-its-tiny-rear-display/l-intro-1794925745.jpg",
+      "published_at": "2026-11-17T14:35:50+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "63c2acaa79b9340bec20001977453aa84ab049a91227c86e2771766a1e3f891c",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T14:26:46+00:00",
+      "categories": [
+        "AI",
+        "Biotech & Health",
+        "Startups",
+        "Brain",
+        "In Brief",
+        "science",
+        "Science Corporation"
+      ]
+    },
+    {
+      "item_id": "344a48eb3cc6a59cbbb2b9acee768331ad30dcf6612c4b7e480d937abedf07b0",
+      "title": "5 important Bose headphone settings that need to be manually turned on",
+      "url": "https://www.engadget.com/2315018/bose-headphone-settings-manually-turn-on/",
+      "summary": "Discover the Bose headphone settings you can manually adjust in the companion app to personalize your sound and get more out of your listening sessions.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/5-important-bose-headphone-settings-that-needs-to-be-manually-turned-on/l-intro-1794487917.jpg",
+      "published_at": "2026-11-17T14:15:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "898bf3409e8bd20832c851047a3fad6c142506aa11765093103d1ed81e811a82",
+      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T14:05:30+00:00",
+      "categories": [
+        "AI",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "2f78db373cf3a14ecd98a5605b0b192fcef294b7fd930586daed942286c3104e",
+      "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T14:00:00+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Media & Entertainment",
+        "Spotify"
+      ]
+    },
+    {
+      "item_id": "5aeb8babebd78d17ec05d8ef7d21fff8e1b96ad9efe5ce567aea06b2c1f8ac6e",
+      "title": "Genesis AI raises $500M to deploy glove-wearing robots",
+      "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+      "summary": "Genesis AI's novel approach to training dexterous robots earned it $500 million in Series A funding.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T14:00:00+00:00",
+      "categories": [
+        "Robotics",
+        "Genesis AI"
+      ]
+    },
+    {
+      "item_id": "cbe6563c4c67e4534156145e8c6bf9df02eb3738eaeb5057d12fe8a40cb72ffe",
+      "title": "Upside Foods can now make a million pounds of chicken a year without killing any animals",
+      "url": "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal/",
+      "summary": "The first ever lab-grown hamburger cost $300,000 to make in 2013. Upside Foods says its cultivated chicken can now match the price range of “really high-quality organic chicken.\"",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T14:00:00+00:00",
+      "categories": [
+        "Biotech & Health",
+        "cultivated meat",
+        "Upside Foods"
+      ]
+    },
+    {
+      "item_id": "4e3b60224d80b0032165389339179a0d9dd296f1f2f51570ebe9c57d084d0a09",
+      "title": "Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids",
+      "url": "https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/",
+      "summary": "Alongside CEO Leslie Morgan, Hank Green set out to create the video platform he wished his kid had.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-17T14:00:00+00:00",
+      "categories": [
+        "Media & Entertainment",
+        "Startups",
+        "educational video",
+        "hank green",
+        "kids"
+      ]
+    },
+    {
+      "item_id": "7ca24d3c2ff37de1197405e2b9b9577fece289e767925a004f7f984f4611d165",
+      "title": "Router VPN vs. VPN app: How are these setups different?",
+      "url": "https://www.engadget.com/2314468/router-vpn-vs-vpn-app-setup-differences/",
+      "summary": "Check out how using a router VPN compares with installing VPN apps on each device, and know when to choose one setup over the other for your home.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/router-vpn-vs-vpn-app-how-are-these-setups-different/l-intro-1794424673.jpg",
+      "published_at": "2026-11-17T13:45:00+00:00",
+      "categories": [
+        "VPN"
+      ]
+    },
+    {
+      "item_id": "2a96476f78d0dae9700ecdb2b5b8e5624654badbe4c5f58b4e9813aeeb1ada98",
+      "title": "Natural Cycles updates its cycle-tracking wearable",
+      "url": "https://www.engadget.com/2318468/natural-cycles-updates-its-cycle-tracking-wearable/",
+      "summary": "Natural Cycles updates its cycle-tracking band, and debuts its first smart ring, but not in the US.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/natural-cycles-updates-its-cycle-tracking-wearable/l-intro-1794862879.jpg",
+      "published_at": "2026-11-17T13:30:00+00:00",
+      "categories": [
+        "Wearables"
+      ]
+    },
+    {
+      "item_id": "03025b0fc4adf9f5f2c2e3e76220b144f7c1799d85b0da905d05af1707847082",
+      "title": "How to clean up your iCloud storage to free up space",
+      "url": "https://www.engadget.com/2315114/how-to-clean-up-icloud-storage-free-space/",
+      "summary": "iCloud full again? Find out what's eating your storage and how to reclaim space on your iPhone or Mac before you pay Apple for a bigger plan.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-clean-up-your-icloud-storage-to-free-up-space/l-intro-1794332787.jpg",
+      "published_at": "2026-11-17T13:15:00+00:00",
+      "categories": [
+        "Apple"
       ]
     }
   ]
