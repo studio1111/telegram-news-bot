@@ -17664,6 +17664,56 @@
       "categories": [
         "Computing"
       ]
+    },
+    {
+      "item_id": "ed46f7ec2c57783d3eecccf57fc7e87bc00b4a4b987c78c1d57149cf6d9676d2",
+      "title": "Apple adds new disk controls to prevent AI agents from running amok",
+      "url": "https://www.engadget.com/2318790/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok/",
+      "summary": "After sounding an alarm about the issue, Apple is taking steps to limit Mac disk access to AI agents.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok/l-intro-1794896472.jpg",
+      "published_at": "2026-11-17T06:22:11+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "e0d460d55b25fd54b8465db62357d2f029a8649a328ffc9f687b8e39fefcdf09",
+      "title": "Buying a used phone? Make sure to check the IMEI first",
+      "url": "https://www.engadget.com/2315183/buying-used-phone-check-imei-first/",
+      "summary": "One of the most important parts of buying a used phone involves the device's IMEI number - which can reveal whether it has sketchy history and more.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/buying-a-used-phone-make-sure-to-check-the-imei-first/l-intro-1794344192.jpg",
+      "published_at": "2026-11-17T01:30:00+00:00",
+      "categories": [
+        "Smartphones",
+        "Buying Guides"
+      ]
+    },
+    {
+      "item_id": "bbda7ea45c88c0bd0d398f908199f3756bfdbe6b91eb5a3e600b56282a52d618",
+      "title": "Meta is testing Direct, a standalone messaging app for Instagram",
+      "url": "https://www.engadget.com/2318452/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/",
+      "summary": "Meta's new DM app for Instagram is only available in Turkey and Thailand, for now.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/l-intro-1794862378.jpg",
+      "published_at": "2026-11-17T01:00:00+00:00",
+      "categories": [
+        "Meta"
+      ]
+    },
+    {
+      "item_id": "bee1415708739bbdbdfbf8da97a3e75f9e29bf3708df72193346e2c5ef117e95",
+      "title": "The important Gmail security settings you should be using",
+      "url": "https://www.engadget.com/2315195/gmail-security-settings-most-important-use/",
+      "summary": "If you haven't taken steps to secure your Gmail account recently, it's time to log in and make sure these settings are squared away.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-important-gmail-security-settings-you-should-be-using/l-intro-1794508364.jpg",
+      "published_at": "2026-11-17T00:30:00+00:00",
+      "categories": [
+        "Apps",
+        "Google"
+      ]
     }
   ]
 }
