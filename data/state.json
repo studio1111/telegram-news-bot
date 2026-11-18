@@ -18371,6 +18371,298 @@
         "TC",
         "nvidia"
       ]
+    },
+    {
+      "item_id": "5738493afefc1c83123a1cdbd57a94dfcf4543122feefe5c34a9329c9efb494f",
+      "title": "Sony’s updated turntable is an easy entry into the world of vinyl",
+      "url": "https://techcrunch.com/2026/11/18/sonys-updated-turntable-is-an-easy-entry-into-the-world-of-vinyl/",
+      "summary": "Sony's updated turntable for beginners features automatic playback, USB connectivity, and aptX Adaptive Bluetooth.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-18T16:00:00+00:00",
+      "categories": [
+        "Gadgets",
+        "Hardware",
+        "Sony",
+        "Turntable",
+        "vinyl"
+      ]
+    },
+    {
+      "item_id": "30f9f850ee22e073bffd3205ca22f833e9d3dc6556c796f70ed0bea5fa9c9f19",
+      "title": "Shelly’s new smart valve shuts off your home’s water before a leak becomes a flood",
+      "url": "https://www.theverge.com/tech/1036494/shelly-neo-smart-home-water-valve-sensor-shut-off",
+      "summary": "After releasing a $28 leak sensor earlier this year that conveniently runs off a battery for two years, Shelly is announcing an accompanying smart valve you can install on your home's main water line to automatically turn off the flow when one of those sensors detects a problem. The Shelly Neo Smart Water Valve is [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/shelly1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T16:00:00+00:00",
+      "categories": [
+        "Gadgets",
+        "News",
+        "Smart Home",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "9cf31ec120a96a1dc7fd24413141db5544406881abba8bcbd3782039551c68a8",
+      "title": "8BitDo’s new gamepad modernizes the Nintendo GameCube’s WaveBird",
+      "url": "https://www.theverge.com/tech/1036578/8bitdo-gb-bluetooth-gamepad-wireless-controller-nintendo-gamecube-wavebird",
+      "summary": "The 8BitDo 64 was a loose remake of the Nintendo 64's unusual triple-grip controller that did away with that gamepad's centered analog stick. But with its new GC Bluetooth Gamepad, 8BitDo has done a much better job at staying faithful to the design of the Nintendo GameCube's excellent controllers, including their unique button layout, thumbstick [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/8bitdogc1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T16:00:00+00:00",
+      "categories": [
+        "Gadgets",
+        "Gaming",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "225dfb5b7aa4338efdb6bbd9336a250cb3b1817514a41df06a6d43cfa75a46e8",
+      "title": "Remember the frontier AI pause? Chip companies don’t either",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models, warning that they could be used [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Vera-Rubin-NVL72.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T15:44:02+00:00",
+      "categories": [
+        "AI",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "69586bb6f6038072e36ac92f6d1e5097ff9c54c2ef37639d786401a98084f5ce",
+      "title": "The Verge’s 2026 holiday gift guide for travelers",
+      "url": "https://www.theverge.com/gadgets/1021917/best-gifts-for-travelers-2026",
+      "summary": "Everyone has that traveler in their life. That person who feels more at home on a 14-hour train ride than a quiet Sunday on the couch. They speak multiple languages, have a gut like a goat, and make friends wherever they go. Whether they're your kindred spirit or the person you live vicariously through, one [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_UNDER_25_CVirginia_TRAVEL.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T15:00:00+00:00",
+      "categories": [
+        "Gadgets",
+        "Gift Guides",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "69bb41be94200af6730c3c2c5492cc044673f071b27725488976cab0d66d1779",
+      "title": "Instagram’s ‘school safety’ push was also a way to get more teens on the app",
+      "url": "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
+      "summary": "Meta's initiative to make Instagram safer for schools stemmed from efforts to increase user \"acquisition,\" \"friending,\" and \"invites,\" according to a report from NPR. Internal documents revealed as part of a group of child safety lawsuits against Meta reference a \"Project Gryffindor\" - a school program that would \"fuel organic and unattributed acquisition\" of users. [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23904518/VRG_Illo_K_Radtke_STK070_Instagram_1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T14:59:05+00:00",
+      "categories": [
+        "Instagram",
+        "Meta",
+        "News",
+        "Policy",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "17bb29eec372c2b27a284c51fd5313554b1367ca6dbda6ac1683d59256e3b9db",
+      "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
+      "url": "https://www.theverge.com/transportation/1036460/also-rivian-spinoff-tm-b-ebike-delivery-delay-software-battery-issues",
+      "summary": "Also, the mobility startup that spun out of Rivian last year, has run into another speed bump. The company was already struggling to get its first e-bikes to customers due to a litany of supply chain headaches and the complexity of building a futuristic bike powered almost entirely by software. Now there is a new [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_ALSO_TMB_09-1.webp?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T14:56:43+00:00",
+      "categories": [
+        "Electric Bikes",
+        "News",
+        "Rideables",
+        "Tech",
+        "Transportation"
+      ]
+    },
+    {
+      "item_id": "fe10890f01b891227624fa0a782f90149ca02f70ed99bc1f4d3a0d5b114296cb",
+      "title": "British hackers face prison for GTA 6 data breach and crypto thefts",
+      "url": "https://techcrunch.com/2026/11/18/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/",
+      "summary": "Two British hackers face lengthy prison sentences for hacks that broke into the Grand Theft Auto gamemaker and for stealing millions in crypto.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-18T14:55:13+00:00",
+      "categories": [
+        "Security",
+        "cryptocurrency",
+        "cyberattacks",
+        "cybersecurity",
+        "data breach",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "b9cf9c61a419fa24af9b3c60adbdf3a5dbadc0e245887e4ad9e10a6ba5ba8c3e",
+      "title": "How The Verge is picking which Black Friday deals to share",
+      "url": "https://www.theverge.com/gadgets/1034715/how-the-verge-finds-deals",
+      "summary": "For the past month, we’ve been inundated with Black Friday deals, signaling what’s to come on the biggest shopping day of the year in the US. We routinely get dozens of press releases a day, coming from brands big and small that hope that we’ll publicize these offers. Of course, the companies would prefer that [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/258010_Black_friday_cyber_monday_CVirginia_PRICE2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T14:00:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "51a93aae527988d55435e3822734067751ac3628031b7e6969ab44e5521e11fc",
+      "title": "Will Wright’s next game uses AI to map your memories",
+      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they create on their own. [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Grand-Canyon-Family-Portrait.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T14:00:00+00:00",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Gaming",
+        "News"
+      ]
+    },
+    {
+      "item_id": "c26c251b69ccb0dcca776b678c06394c395852d2a6212032b6131c0728977354",
+      "title": "You'll need the latest PS5 firmware update to play GTA VI",
+      "url": "https://www.engadget.com/2320303/youll-need-the-latest-ps5-firmware-update-to-play-gta-vi/",
+      "summary": "Double-check your PS5's firmware is up to date, or you may not be able to play GTA VI.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/youll-need-the-latest-ps5-firmware-update-to-play-gta-vi/l-intro-1795006628.jpg",
+      "published_at": "2026-11-18T13:01:42+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "072c8fbd58ea17259e9ef698e8b6e19843a11777ace3ec10ba0d97dfc69ed2ab",
+      "title": "Nvidia isn’t selling any more AI chips to China",
+      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "summary": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T13:01:05+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "816f8360d1dabd57b4da25804b4c4d98a81e8221bbb741a954f252792cc48718",
+      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+      "summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-18T13:00:00+00:00",
+      "categories": [
+        "AI",
+        "TC",
+        "neocloud",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "745b1ca2c9ee8aaf55e51fa3bf1c45630518a40f63a64419cf5c78a8ee98329f",
+      "title": "NASA’s Voyager 1 probe is now 1 light-day away",
+      "url": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone",
+      "summary": "After traveling through the void of space for 49 years, Voyager 1 has hit a momentous milestone: The spacecraft is now officially 1 light-day away from Earth, which is, as NASA put it, \"very, very far.\" The probe crossed the milepost on Wednesday at 5:16AM ET and is now 16.094 billion miles away from our [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-164430702.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-18T12:03:36+00:00",
+      "categories": [
+        "News",
+        "Science",
+        "Space"
+      ]
+    },
+    {
+      "item_id": "4dea62e4c7c23275b3b62c8e11d6ad18ac2e23b8db8be6692dd8a7d4fe260dd2",
+      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-18T12:00:00+00:00",
+      "categories": [
+        "Startups",
+        "AI",
+        "Felicis Ventures",
+        "Y Combinator",
+        "Exclusive",
+        "AI agents"
+      ]
+    },
+    {
+      "item_id": "11fcceff74ca3308dde6cdac73cb88087e2f9118224bc765c9f4a9628b7d775a",
+      "title": "NASA's Voyager 1 space probe is now one light-day away from Earth",
+      "url": "https://www.engadget.com/2320267/nasa-voyager-1-space-probe-one-light-day-away-from-earth/",
+      "summary": "It now takes 24 hours to send a message to Voyager 1, as it reaches a distance that's one light-day away from our planet.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/nasas-voyager-1-space-probe-is-now-one-light-day-away-from-earth/l-intro-1795002413.jpg",
+      "published_at": "2026-11-18T11:49:59+00:00",
+      "categories": [
+        "Space"
+      ]
+    },
+    {
+      "item_id": "a5dcd54bf0aba3f06abdd97c7cfa845dd66b917de8ee2858d1bf1be1008e9f78",
+      "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-18T11:30:00+00:00",
+      "categories": [
+        "AI",
+        "Robotics",
+        "Startups",
+        "Accel"
+      ]
+    },
+    {
+      "item_id": "f9a4a87d73a9fa04a9e77632f714bee784d2cfe97d50c6164072de5a0fa6c4a1",
+      "title": "China dominates battery graphite, but this startup could break the monopoly",
+      "url": "https://techcrunch.com/2026/11/18/china-dominates-battery-graphite-but-this-startup-could-break-the-monopoly/",
+      "summary": "Chinese companies maintain near total dominance of the graphite industry, but Molten Industries says its new factory in Oakland could spell the end of the monopoly.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-18T11:00:00+00:00",
+      "categories": [
+        "Climate",
+        "Exclusive",
+        "lithium ion batteries",
+        "graphite"
+      ]
+    },
+    {
+      "item_id": "26449285ea9bedff32f9ac075c5e56aea9d993941e1b854cb7e880d7501015e2",
+      "title": "Palmer Luckey says his SLAB seastead is 'way cooler' than a floating data center",
+      "url": "https://www.engadget.com/2320221/palmer-luckeys-slab-seastead-is-way-cooler-than-a-floating-data-center/",
+      "summary": "Palmer Luckey is touting a new 'SLAB' seastead that would act as a lawless city state.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/palmer-luckeys-slab-seastead-is-way-cooler-than-a-floating-data-center/l-intro-1794994368.jpg",
+      "published_at": "2026-11-18T09:41:44+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "d9d5f4b516cf7fe97eb14b63af3a0cf1127d565c18efecc3fe6b1d88d1932b62",
+      "title": "FAA suspends installation of router that led to a ground stop of flights across the US",
+      "url": "https://www.engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us/",
+      "summary": "The FAA has also disabled the other 68 routers that had already been installed.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/faa-suspends-installation-of-router-that-led-to-a-ground-stop-of-flights-across-the-us/l-intro-1794992381.jpg",
+      "published_at": "2026-11-18T09:05:26+00:00",
+      "categories": [
+        "EVs and Transportation"
+      ]
     }
   ]
 }
