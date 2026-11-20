@@ -18530,7 +18530,7 @@
     },
     {
       "item_id": "796190f1e9c653e9baebbeaaa90e42b1b521c6856e0c1f425cfbd183929e9399",
-      "title": "The U.S. national cyber director is stepping down",
+      "title": "The US national cyber director is stepping down",
       "url": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
       "summary": "The news comes as businesses across the country report a flurry of technical outages, the causes of which are still unknown.",
       "source": "TechCrunch",
@@ -18538,7 +18538,8 @@
       "published_at": "2026-11-20T09:14:19+00:00",
       "categories": [
         "Government & Policy",
-        "Security"
+        "Security",
+        "In Brief"
       ]
     },
     {
@@ -18575,6 +18576,312 @@
       "published_at": "2026-11-20T05:45:38+00:00",
       "categories": [
         "AI"
+      ]
+    },
+    {
+      "item_id": "882c9f6073fe547f9ceee4db1dae84183b943126262482aa58c918ba1690c51b",
+      "title": "Super-hot rock geothermal could end data center energy woes",
+      "url": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
+      "summary": "New geothermal startups are betting that they can leapfrog today's leaders to deliver terawatts of electricity nearly anywhere.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-20T18:34:00+00:00",
+      "categories": [
+        "Climate",
+        "Analysis",
+        "geothermal energy"
+      ]
+    },
+    {
+      "item_id": "a1d159d55ace4d3e7d82af465278fe67677f64e5fbc7513174efe34177b3fe30",
+      "title": "Here's everything GTA+ gets you in GTA 6: Is it worth $8 a month?",
+      "url": "https://www.engadget.com/2323323/gta-plus-benefits-gta-6-is-it-worth-it/",
+      "summary": "A GTA+ membership adds a few extras to GTA 6 for $8 a month. Here's what's included and which players are most likely to get their money's worth.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/heres-everything-gta-gets-you-in-gta-6-is-it-worth-8month/l-intro-1795197527.jpg",
+      "published_at": "2026-11-20T18:27:59+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "1629cee5e1f6f6f0a9761a0501c2721174030e10b115fb9f59064b5521a4c36b",
+      "title": "Multiplying your Switch 2’s storage costs less than usual right now",
+      "url": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
+      "summary": "Expanding your Nintendo Switch 2’s 256GB of built-in storage with a microSD card is pricier than it was with Nintendo’s original console. That’s because microSD Express cards, while physically identical to ones you might have lying around, have faster read and write speeds. Thankfully, Samsung’s 256GB model has dropped to $44.99 at Amazon ahead of [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Samsung-P9-MicroSD-Express-Card.webp?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-20T18:15:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "a1bb71296f869872375e78aad47ec0a23a1412e1bb4501d0e9f1f5451751530b",
+      "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
+      "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "summary": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and retire Google Assistant on its smart home devices. The Nest app shutdown takes place on January 25th, 2027, meaning you'll have to manage your Nest [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/21935903/dseifert-nest-audio-4225-1.0.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-20T18:00:00+00:00",
+      "categories": [
+        "Google",
+        "Google Assistant",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "e75330e2b896e2c6c06aca9f01d93467aa4e14efdc8e86c3761890291af844ab",
+      "title": "OpenAI brings its collaborative Space hubs to Plus users",
+      "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/",
+      "summary": "You can upload documents, files and more to the hubs for easy sharing.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/openai-brings-its-collaborative-space-hubs-to-plus-users/l-intro-1795191035.jpg",
+      "published_at": "2026-11-20T18:00:00+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "d24c142d9df674d33ead530b0f44b71d4b688d03525129a01acfe2f098cdc5ac",
+      "title": "Chips can survive the space environment — can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-20T17:40:01+00:00",
+      "categories": [
+        "AI",
+        "Elon Musk",
+        "SpaceX"
+      ]
+    },
+    {
+      "item_id": "cf4fa4d7ff59b73f65ed1044b19354754a6664f0d40730143e5d23119d04ee36",
+      "title": "Here are the Apple deals actually worth picking up ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
+      "summary": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks and other Apple devices even more expensive. Fortunately, Black Friday offers a chance to [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268738_Apple_Watch_Series_12_AKrales_0280.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-20T17:33:59+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "142be4d5a79775a8b396f909bc7c88bf1d4b8042201c3ef3f399a2612eed3bd9",
+      "title": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
+      "url": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/",
+      "summary": "Thanks, Swedish House Mafia. I guess.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/l-intro-1795195811.jpg",
+      "published_at": "2026-11-20T17:32:02+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "77d1e9c560bf36fb1456e7bf0d2b3d0c4b3261b32e0b674af0eb4eca061ada18",
+      "title": "You can reveal the full GTA 6 map in minutes using this simple plane trick",
+      "url": "https://www.engadget.com/2323145/full-gta-6-map-reveal-plane-trick/",
+      "summary": "Clear up that fog in no time at all, but be careful.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/you-can-reveal-the-full-gta-6-map-in-minutes-using-this-simple-plane-trick/l-intro-1795194209.jpg",
+      "published_at": "2026-11-20T17:13:31+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "227010378669af9aeecd06e8f871f5787a8a291aee08a512e3a3e588cba16dab",
+      "title": "Teenage Engineering’s first CD player puts the spinning disc on display",
+      "url": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
+      "summary": "Teenage Engineering announced what it describes as \"a modern take on a classic CD player\" with its new EP/BC-1 featuring a slab-like design that leaves the spinning disc exposed instead of hiding it under a lid or inside a slide-out tray. The company says the EP/BC-1 is the first entry in its new broadcast series [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/tecd1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-20T17:05:52+00:00",
+      "categories": [
+        "Audio",
+        "Gadgets",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "24d51b07a653d065d53e7cf33be1102f95eb045d76c168c1357aa4a3a12f793a",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "summary": "Anthropic mathematician Levent Alp&#246;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-20T16:34:13+00:00",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "News",
+        "Science"
+      ]
+    },
+    {
+      "item_id": "64dbfad039c27e6c211f2b38a0e4c4b8750c694cdabfa331e57924a11023efad",
+      "title": "Boys Noize turns to the club (and an obscure Italian synth) for inspiration on 7LLVSION",
+      "url": "https://www.theverge.com/entertainment/1038444/boys-noize-7llvsion-interview",
+      "summary": "If you're wondering how Alex Ridha's (aka Boys Noize) collaboration with Nine Inch Nails influenced his new record 7LLVSION, the answer is simple: It didn't. That's not to say Ridha didn't learn anything from the virtuosic production team of Trent Reznor and Atticus Ross, but most of the songs on 7LLVSION had been knocking around [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Boys-Noize-pls-cr-Ian-Buosi.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-20T16:22:15+00:00",
+      "categories": [
+        "Entertainment",
+        "Interview",
+        "Music",
+        "Report"
+      ]
+    },
+    {
+      "item_id": "8f6031b2d2f67227abc262bcf34712a35a3b81ba92988c7640ab3dde25142aae",
+      "title": "Bending Spoons buys Mailchimp for $3.68B",
+      "url": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
+      "summary": "Intuit acquired the company in 2021 for roughly $12 billion, so it looks like Bending Spoons is getting quite a bargain.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-20T16:16:06+00:00",
+      "categories": [
+        "Media & Entertainment",
+        "Startups",
+        "Bending Spoons",
+        "Mailchimp"
+      ]
+    },
+    {
+      "item_id": "113995faebb368c63fa8e5f2c471ec171c39a32ae0ac82302a8797d7f3221000",
+      "title": "Andrey Zvyagintsev believes filmmakers know what the audience wants — not executives",
+      "url": "https://www.theverge.com/entertainment/1038410/andrey-zvyagintsev-minotaur-interview-director",
+      "summary": "The year is 2022. Vladimir Putin has announced the military draft. In Andrey Zvyagintsev's Minotaur, set in the fictional town of Krasoborsk, a quietly unhappy couple, called Gleb and Galina, carry on with their lives, or try to, geopolitics notwithstanding. For Galina, carrying on means an affair, which we deduce from a scene of her [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Minotaur_Still_5_MKProductions_CGCinema-scaled-1.avif?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-20T16:00:00+00:00",
+      "categories": [
+        "Entertainment",
+        "Film",
+        "Interview",
+        "Report"
+      ]
+    },
+    {
+      "item_id": "b2b66428a9bd7627631a1ff1c6cdd1ba3400e0065e1145767015b3959bd297dd",
+      "title": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
+      "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
+      "summary": "Exclusive: A simple security lapse exposed transcriptions of police interviews and bodycam footage on a cloud server without a password.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-20T15:46:07+00:00",
+      "categories": [
+        "Security",
+        "cybersecurity",
+        "data breach",
+        "Exclusive",
+        "transcription"
+      ]
+    },
+    {
+      "item_id": "683abf717e87e1a5def1bd946c597fd0aaa5c0a71d79e57bfd9c3d391989d640",
+      "title": "Ray-Ban Meta (Gen 3) review: Minor upgrades that cost too much",
+      "url": "https://www.engadget.com/2322827/ray-ban-meta-gen-3-review/",
+      "summary": "Meta's very best AI glasses are only slightly better than other recent models.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/ray-ban-meta-gen-3-review-minor-upgrades-that-cost-too-much/l-intro-1795183661.jpg",
+      "published_at": "2026-11-20T14:30:00+00:00",
+      "categories": [
+        "Reviews"
+      ]
+    },
+    {
+      "item_id": "3a49b88638df86d3fbf92bba6816f9865d4eb1c0e97b295e9d2e4f58a9c43d49",
+      "title": "Six AI-powered gadgets that could make your home office smarter",
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-20T14:00:00+00:00",
+      "categories": [
+        "AI",
+        "Gadgets",
+        "Hardware"
+      ]
+    },
+    {
+      "item_id": "ae2831897e1c4f2d7e0b4c84c9fb771d771d8b50c0e674571331a65bd913a1ae",
+      "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
+      "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+      "summary": "Elon Musk may have been overstating it when he said Nvidia’s employees “love” the ousted Jensen Huang.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-20T13:25:00+00:00",
+      "categories": [
+        "Hardware",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "7383374d96daa73571a14eabdc984a6e55b67ce3a5dfc059e4f215b1863ab248",
+      "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+      "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+      "summary": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-20T13:21:11+00:00",
+      "categories": [
+        "Government & Policy",
+        "Hardware",
+        "california",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "ba667e2ae8305c8a4f67daa713ff1cfaaf4f9c725b195cd1706cb3b798a0235a",
+      "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
+      "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
+      "summary": "Google's Gemini app for Mac can now use your computer to list items on eBay, speed up creative tasks and fill out forms for you.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/l-intro-1795178098.jpg",
+      "published_at": "2026-11-20T12:36:11+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "76fddaa64452821e5436e877cfc26bc3575f9027ca216333026a869b78f6fdfb",
+      "title": "WhatsApp's group chats can now have up to 1,500 members",
+      "url": "https://www.engadget.com/2322717/whatsapps-group-chats-can-now-have-up-to-1500-members/",
+      "summary": "WhatsApp is giving users the ability to create even bigger group chats with up to 1,500 participants.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/whatsapps-group-chats-can-now-have-up-to-1500-members/l-intro-1795174992.jpg",
+      "published_at": "2026-11-20T11:48:37+00:00",
+      "categories": [
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "56847fe12d63d1e214b269953fe051e2519d222ecfcb2b09f150b55b55e5bdb4",
+      "title": "The Trump administration has replaced its cybersecurity chief",
+      "url": "https://www.engadget.com/2322705/the-trump-administration-has-replaced-its-cybersecurity-chief/",
+      "summary": "The White House has replaced cybersecurity chief Sean Cairncross with the Pentagon's Kirsten Davies.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-trump-administration-has-replaced-its-cybersecurity-chief/l-intro-1795171923.jpg",
+      "published_at": "2026-11-20T10:53:36+00:00",
+      "categories": [
+        "News"
       ]
     }
   ]
