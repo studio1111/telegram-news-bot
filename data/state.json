@@ -19379,6 +19379,312 @@
         "Report",
         "Transportation"
       ]
+    },
+    {
+      "item_id": "f3a4a3d922a61764d7ed95be0ceded328d7ec52feeb1cca404ec248e42f5806d",
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-21T21:07:42+00:00",
+      "categories": [
+        "AI",
+        "Hardware",
+        "Equity podcast",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "d976c7c91793f373995abb8b56c96bc5e23e0a2b98f51e1a42f9f90430d5f503",
+      "title": "What's new with Apple's latest Siri Remote, and does your old Apple TV support it?",
+      "url": "https://www.engadget.com/2319050/whats-new-siri-remote-does-older-apple-tv-support/",
+      "summary": "The 4th-gen Apple TV 4K comes with a new remote. Here's what you need to know about it.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/whats-new-with-apples-latest-siri-remote-and-does-your-old-apple-tv-support-it/l-intro-1794593750.jpg",
+      "published_at": "2026-11-21T21:00:00+00:00",
+      "categories": [
+        "Apple",
+        "Streaming"
+      ]
+    },
+    {
+      "item_id": "0e2bca0272183d20c55ae597405057aea6646bef10e2d8c18b68196e50754608",
+      "title": "The trade-offs of using Apple's AirPods Max headphones",
+      "url": "https://www.engadget.com/2319042/trade-offs-using-apple-airpods-max-headphones/",
+      "summary": "Apple's AirPods Max sound great, but they come with a lot of compromises for $549 headphones.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-trade-offs-of-using-apples-airpods-max-headphones/l-intro-1794842835.jpg",
+      "published_at": "2026-11-21T20:45:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "86df9c0ed462ac014dc5b963cba7e9ab922b0638928af0900f8275153748165f",
+      "title": "Discs vs. disks: What's the difference?",
+      "url": "https://www.engadget.com/2319034/discs-vs-disks-differences/",
+      "summary": "They're pronounced the same and only deviate by a single letter, but their mechanics and usage are quite different.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/discs-vs-disks-whats-the-difference/l-intro-1794926692.jpg",
+      "published_at": "2026-11-21T20:30:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "5687e6604ae5d4d07d78de9276393bb35e9327ad7a5a65cb161709a674e6c9f5",
+      "title": "Why Apple Vision Pro never took off like Meta's VR headsets",
+      "url": "https://www.engadget.com/2318875/why-apple-vision-pro-did-not-take-off-vs-meta-vr/",
+      "summary": "The Apple Vision Pro debuted to massive hype in 2024, but the years since then have not been kind to Apple's megabucks mixed-reality headset.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-apple-vision-pro-never-took-off-like-metas-vr-headsets/l-intro-1794915957.jpg",
+      "published_at": "2026-11-21T20:15:00+00:00",
+      "categories": [
+        "Apple",
+        "Meta"
+      ]
+    },
+    {
+      "item_id": "fccaea61390605799334e314e25a51b1c3a67fbca6682e8f4a36fe54f922ff28",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-21T20:03:37+00:00",
+      "categories": [
+        "AI",
+        "News",
+        "Policy",
+        "Politics",
+        "Robot",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "f3fe23bb6a58d8dd6fea9c81c354771a5add1519a52cb6c8feacb76538663ac8",
+      "title": "How to block a device from your home network",
+      "url": "https://www.engadget.com/2318874/how-to-block-device-home-network/",
+      "summary": "Did a strange device just connect to your home Wi-Fi? Don't panic. Here is how to identify exactly what it is and securely block it from your network.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-block-a-device-from-your-home-network/l-intro-1794821930.jpg",
+      "published_at": "2026-11-21T20:00:00+00:00",
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "d2165ac08376ebfdb1d9f2ae10047d0eea95708d53ceec1cfe6d9b6ed4b192cc",
+      "title": "Anthropic employee claims to have proven the most famous math problem using Claude",
+      "url": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+      "summary": "Levent Alpöge says he worked with Claude to discover a proof of the Riemann Hypothesis.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/l-intro-1795290107.jpg",
+      "published_at": "2026-11-21T19:45:01+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "6c0469737f1ce6aca83a3b0d67afd571ce8ab511c013300445dfecb08228879a",
+      "title": "Here's how much a Sony Walkman cost in 1980 vs. 2026",
+      "url": "https://www.engadget.com/2318873/how-much-sony-walkman-cost-1980-vs-2026/",
+      "summary": "What would the original Sony Walkman cost today? Here's the inflation-adjusted price of the TPS-L2 and how it paved the way for modern hi-res audio players.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/heres-how-much-a-sony-walkman-cost-in-1980-vs-2026/l-intro-1794562570.jpg",
+      "published_at": "2026-11-21T19:45:00+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "ff483447bb87805437466dedca448d2dffd62ebdd87069cc163fe58572e8fe32",
+      "title": "Signs it's time to replace your phone's screen protector",
+      "url": "https://www.engadget.com/2318871/signs-when-replace-phone-screen-protector/",
+      "summary": "Should you stick with a smashed screen protector or not bother? Here's how to tell when it's time for a new one and unsuspecting signs you need to look for.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/signs-its-time-to-replace-your-phones-screen-protector/l-intro-1794579381.jpg",
+      "published_at": "2026-11-21T19:30:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "3bc41fb997359277e02769b9f32ec54c825b15b0a7fe921811c751d828e201af",
+      "title": "How does iCloud Private Relay's security compare to VPN alternatives?",
+      "url": "https://www.engadget.com/2318772/how-does-icloud-private-relay-security-compare-vpn-alternatives/",
+      "summary": "iCloud+ subscribers get access to Private Relay, which protects some of their online privacy without being an outright replacement for a traditional VPN.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-does-icloud-private-relays-security-compare-to-vpn-alternatives/l-intro-1794890895.jpg",
+      "published_at": "2026-11-21T19:15:00+00:00",
+      "categories": [
+        "Apple",
+        "VPN"
+      ]
+    },
+    {
+      "item_id": "fa673b24c75dd3d49b2db9c004a2688b19eebb180fbcc29694f7aa095d57fd27",
+      "title": "Which car has the largest infotainment touchscreen?",
+      "url": "https://www.engadget.com/2318759/largest-car-infotainment-touchscreen/",
+      "summary": "Most modern cars will have some kind of infotainment touchscreen, though not all are created equal. One car, in particular, rules the roost for sheer size.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/which-car-has-the-largest-infotainment-touchscreen/l-intro-1794886675.jpg",
+      "published_at": "2026-11-21T19:00:00+00:00",
+      "categories": [
+        "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "2d744486ca409febb74a363638bf4ccdc607dfc2a45c80fdb67ee01abd6b0f27",
+      "title": "Six simple Raspberry Pi projects for beginners",
+      "url": "https://www.engadget.com/2318530/simple-raspberry-pi-projects-for-beginners/",
+      "summary": "Stop leaving your Pi projects unfinished with these six accessible ideas.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/six-simple-raspberry-pi-projects-for-beginners/l-intro-1794864633.jpg",
+      "published_at": "2026-11-21T18:45:00+00:00",
+      "categories": [
+        "Computing"
+      ]
+    },
+    {
+      "item_id": "7dc9adee04106c6944b00df60636eb526796f516fccfa588eb88d0102c996ff2",
+      "title": "Trump says reported FBI database hack is ‘not good’",
+      "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
+      "summary": "The FBI is reportedly investigating a hack of the National Crime Information Center.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-21T18:44:53+00:00",
+      "categories": [
+        "Government & Policy",
+        "Security",
+        "FBI"
+      ]
+    },
+    {
+      "item_id": "78e70e9d75c5c4d079f2b670be912d17bcc666c1c0fcc9a00ecab15b8631143a",
+      "title": "How to use a solar panel to charge your phone",
+      "url": "https://www.engadget.com/2318512/how-to-use-solar-panel-charge-phone/",
+      "summary": "Can sunlight really charge your phone? Learn how portable solar chargers work and which features to look for before your next camping trip or blackout.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-use-a-solar-panel-to-charge-your-phone/l-intro-1794864126.jpg",
+      "published_at": "2026-11-21T18:30:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "81e5d96f5c14556d31ffb61937dc45ee91ac37dc6e1054a6127becb3ba1b0145",
+      "title": "Tesla's assisted driving system gets the green light for rollout in Italy",
+      "url": "https://www.engadget.com/2324122/teslas-assisted-driving-system-gets-the-green-light-for-rollout-in-italy/",
+      "summary": "Tesla's self-driving tech is awaiting another major vote from the European Union before the end of the year.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/teslas-assisted-driving-system-gets-the-green-light-for-rollout-in-italy/l-intro-1795285455.jpg",
+      "published_at": "2026-11-21T18:29:20+00:00",
+      "categories": [
+        "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "44edf420f5ab71123a7ec9f6353d14739e6f58daedd33188a536b93da51378ed",
+      "title": "How much can you get for your old, discontinued Apple Watch?",
+      "url": "https://www.engadget.com/2318441/how-much-old-discontinued-apple-watch-trade-in-program/",
+      "summary": "Your old Apple Watch can fetch some money toward your next one instead of sitting on your desk doing nothing.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-much-can-you-get-for-your-old-discontinued-apple-watch/l-intro-1794862222.jpg",
+      "published_at": "2026-11-21T18:15:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "445256d8e7dbb9010cfae5d46aa5ba8c45420880727a817e413d7b515def52d8",
+      "title": "Setting up an Apple HomeView is ridiculously easy thanks to your iPhone",
+      "url": "https://www.engadget.com/2318610/easy-apple-homeview-setup-with-iphone/",
+      "summary": "Here's how to set up an Apple HomeView and how to add other users.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/setting-up-an-apple-homeview-is-ridiculously-easy-thanks-to-your-iphone/l-intro-1794833959.jpg",
+      "published_at": "2026-11-21T18:00:00+00:00",
+      "categories": [
+        "News",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "bac306ada822a9eac55e2951c1d9f6ca81661b113b4864d4d75f9c94ab3add64",
+      "title": "HomeView vs. Echo Show: What's the difference between Apple's and Amazon's smart displays?",
+      "url": "https://www.engadget.com/2318413/apple-homeview-vs-amazon-echo-show-smart-display-comparison/",
+      "summary": "Both the HomeView and Echo Show put an AI assistant in your home, but they work in different ways.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/homeview-vs-echo-show-whats-the-difference-between-apples-and-amazons-smart-displays/l-intro-1794841882.jpg",
+      "published_at": "2026-11-21T17:45:00+00:00",
+      "categories": [
+        "News",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "b897d6b93cbabf552e80156c75f3ed7632b5a12a742b97337286917fb0ac8034",
+      "title": "The FBI and USDA were reportedly hacked",
+      "url": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+      "summary": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state, and local law [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-21T17:42:27+00:00",
+      "categories": [
+        "News",
+        "Security",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "4bc83d39abbca7b2d8a328a61f013d43a1cc5b485acee509ecc3616750dca07c",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-21T16:00:00+00:00",
+      "categories": [
+        "Media & Entertainment",
+        "AI",
+        "Hollywood",
+        "entertainment",
+        "microdramas"
+      ]
+    },
+    {
+      "item_id": "587b4efc6ca734bd22fbccc726de37d2021215a919ba56fa68d1d5db2ae8aa94",
+      "title": "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
+      "url": "https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview",
+      "summary": "You probably know John Roberts best as the voice of Linda Belcher on Bob's Burgers. The show just wrapped up its 16th season and shows no signs of slowing down anytime soon. The show remains a reliable source of laughs, top-notch puns, and frankly wholesome fun. Comedy is just part of Roberts' life, however. In [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/John_Roberts_1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-21T16:00:00+00:00",
+      "categories": [
+        "Entertainment",
+        "Interview",
+        "Music",
+        "Report",
+        "TV Shows"
+      ]
+    },
+    {
+      "item_id": "0432304a8df23b101d8c26418b370d4681f65d457bc32f379a35f622f84cd7ff",
+      "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+      "summary": "Amazon only announced its first digital photo frame less than a month ago, but it&#8217;s already getting a sizable discount for Black Friday. You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114 ($115 off), making it a great holiday gift for anyone who loves displaying family photos. If [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0011.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-21T16:00:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
     }
   ]
 }
