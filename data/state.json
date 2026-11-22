@@ -19688,6 +19688,352 @@
         "Tech",
         "The Stepback"
       ]
+    },
+    {
+      "item_id": "04a3ff300807bfefc0dd794c19bdb7e4fe691fe131ef0289775e44fbfa329249",
+      "title": "Why your monitor flickers when you turn it on and can it be fixed?",
+      "url": "https://www.engadget.com/2319538/monitor-flickering-when-turned-on-how-to-fix/",
+      "summary": "A flickering computer monitor can be a symptom of several different issues. Let's explore some common ones.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-your-monitor-flickers-when-you-turn-it-on-and-can-it-be-fixed/l-intro-1794601400.jpg",
+      "published_at": "2026-11-22T21:45:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "e4bb5a626c2dd8da83465438bc0cd8d07a80436d7e14886a2977d106377dbc0d",
+      "title": "‘You Can See Everything’ has made more than $100M worldwide",
+      "url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
+      "summary": "The new Elizabeth Holmes documentary is just beginning to roll out internationally.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-22T21:42:48+00:00",
+      "categories": [
+        "Media & Entertainment",
+        "elizabeth holmes",
+        "Nathan Fielder"
+      ]
+    },
+    {
+      "item_id": "a54c629e9a0fb24b8d0753eb9d3a26cff3033a5a1d90ca48e2dea5ee15018621",
+      "title": "The cool phone camera trick that can test your remote control's battery",
+      "url": "https://www.engadget.com/2319533/how-to-use-phone-test-remote-control-battery/",
+      "summary": "Trying to figure out whether a remote control needs new batteries? Your phone camera can tell you if it's time to replace them. Here's how.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-cool-phone-camera-trick-that-can-test-your-remote-controls-battery/l-intro-1794630742.jpg",
+      "published_at": "2026-11-22T21:30:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "cac17eecbc308b66dbde193c536d837ef50471cae1e3bba84c8e39b72dc2b06b",
+      "title": "Which solar panel type is best for your home?",
+      "url": "https://www.engadget.com/2319531/solar-panel-types-best-home-use/",
+      "summary": "Find out how monocrystalline, polycrystalline and thin-film solar panels compare on efficiency, cost and roof space, and which type suits your home and budget.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/which-solar-panel-type-is-best-for-your-home/l-intro-1794509643.jpg",
+      "published_at": "2026-11-22T21:15:00+00:00",
+      "categories": [
+        "Best Smart Home"
+      ]
+    },
+    {
+      "item_id": "ce1e937d25728ecb84017623aff5649014745512d6bc0b798c81a8f952fe12dd",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-22T21:14:07+00:00",
+      "categories": [
+        "AI",
+        "OpenAI",
+        "sam altman"
+      ]
+    },
+    {
+      "item_id": "411f666f2d682158edfa4c57e43547d614d1bf880c48f05d8cfee73842e72a9e",
+      "title": "The best apps to make new friends right now",
+      "url": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
+      "summary": "We've compiled a list of friendship apps, from friend discovery platforms like BFF to event-focused ones like Timeleft.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-22T21:00:00+00:00",
+      "categories": [
+        "Apps",
+        "Social",
+        "android apps",
+        "iOS apps",
+        "evergreens",
+        "Bumble BFF"
+      ]
+    },
+    {
+      "item_id": "c659db5b3ee9148a05ad098fa6509ceee166048b36c70df24525ce955580db53",
+      "title": "How Secure Is Your Password? Here's How To Test It",
+      "url": "https://www.engadget.com/2319522/how-secure-is-password/",
+      "summary": "Find out which common password habits leave your accounts exposed, from keyboard patterns to reused logins, and what a truly secure password needs to include.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-secure-is-your-password-heres-how-to-test-it/l-intro-1794581081.jpg",
+      "published_at": "2026-11-22T21:00:00+00:00",
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "3a4daa769c2f5085d496e4e845397e2a160301330d86af7cd0f92f22556044fe",
+      "title": "These iOS settings will help you control your mobile data use",
+      "url": "https://www.engadget.com/2319519/ios-settings-help-control-mobile-data-use/",
+      "summary": "Keeping your mobile data usage under control is generally a good idea, doubly so if you're on a restrictive plan, and iOS offers a few ways to do so.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/these-ios-settings-will-help-you-control-your-mobile-data-use/l-intro-1794801627.jpg",
+      "published_at": "2026-11-22T20:45:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "d8a90deea7c46f6a41164800f3511329c46a433b0a8205ca272829e47cd37cf4",
+      "title": "What the tiny key icon means on your Android device",
+      "url": "https://www.engadget.com/2319509/what-tiny-key-icon-means-android-device/",
+      "summary": "Some Android status bar icons are quite self-explanatory, but others aren't quite as clear-cut. That tiny key icon is a perfect example of the latter.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/what-the-tiny-key-icon-means-on-your-android-device/l-intro-1794812963.jpg",
+      "published_at": "2026-11-22T20:30:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "1d18db732fd41517557bae3362698bae5a39521f8a6015afbe18b8c0ade7b3df",
+      "title": "You don't need a foldable phone to use split screen on Android",
+      "url": "https://www.engadget.com/2319499/you-dont-need-foldable-phone-use-split-screen-android/",
+      "summary": "There are a few ways you can multitask on a traditional smartphone.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/you-dont-need-a-foldable-phone-to-use-split-screen-on-android/l-intro-1794678668.jpg",
+      "published_at": "2026-11-22T20:15:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
+    },
+    {
+      "item_id": "c3e0acfcbde53b7f6f993e8dbbb35f46704d69ff22496106148af0a41f7a5966",
+      "title": "The advantages of using a USB-C docking station",
+      "url": "https://www.engadget.com/2319496/advantages-using-usb-c-docking-station/",
+      "summary": "If you want to use many different accessories at the same time, consider adding more ports to your laptop with a USB-C docking station.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-advantages-of-using-a-usb-c-docking-station/l-intro-1794847590.jpg",
+      "published_at": "2026-11-22T20:00:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "c8806c6de62d6e0308d393a7e1d96f46dd708a29ede223ae51c8d2445e774be6",
+      "title": "Want more control over your YouTube homepage? Try using custom feeds",
+      "url": "https://www.engadget.com/2319492/try-using-youtube-custom-feeds-control-homepage/",
+      "summary": "YouTube's custom feeds feature allows you to search for exactly what you want to see on your homepage. Discover how to use this tool.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/want-more-control-over-your-youtube-homepage-try-using-custom-feeds/l-intro-1794432277.jpg",
+      "published_at": "2026-11-22T19:45:00+00:00",
+      "categories": [
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "1723371d9c0c92afeaba544cd57e41b3cfe16008f52a72f2ea30b0bddd1518d9",
+      "title": "How long is a new Fitbit actually supposed to last?",
+      "url": "https://www.engadget.com/2319487/how-long-new-fitbit-last-lifespan-software-support/",
+      "summary": "Fitbit longevity is threefold. You'll need to consider the fitness tracker's durability, battery life, and how long it will receive software support.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-long-is-a-new-fitbit-actually-supposed-to-last/l-intro-1794499519.jpg",
+      "published_at": "2026-11-22T19:30:00+00:00",
+      "categories": [
+        "Google",
+        "Wearables"
+      ]
+    },
+    {
+      "item_id": "a63f730518ebb6f767ff373bd04cf6b123729afff8bf6b04cd1e99e0508871a9",
+      "title": "Here's when a Raspberry Pi 5 could be considered overkill",
+      "url": "https://www.engadget.com/2319480/when-raspberry-pi-5-considered-overkill/",
+      "summary": "From home servers to DIY gadgets, Raspberry Pi boards can handle countless tasks, though the power of the newest Pi 5 isn't always the only option.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/heres-when-a-raspberry-pi-5-could-be-considered-overkill/l-intro-1794642152.jpg",
+      "published_at": "2026-11-22T19:15:00+00:00",
+      "categories": [
+        "Computing"
+      ]
+    },
+    {
+      "item_id": "68512c2f14fbdf364e43a54964c876a738f4b7974aaffe56b9a56c235b0a99c2",
+      "title": "5 Apple Watch settings that can help you save its battery life",
+      "url": "https://www.engadget.com/2319475/apple-watch-settings-help-save-battery-life/",
+      "summary": "By giving up some of the Apple Watch's slick features, you can use its core functions for much longer before needing a charge.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/5-apple-watch-settings-that-can-help-you-save-its-battery-life/l-intro-1794592644.jpg",
+      "published_at": "2026-11-22T19:00:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "085695d63fc9d4af5f2ce26fb4ae9a318f714a71daa6d9025d349d50e60d4066",
+      "title": "What the little clock icon at the top of your Samsung phone means",
+      "url": "https://www.engadget.com/2319450/what-little-clock-icon-top-samsung-phone-means/",
+      "summary": "A mystery clock in your Galaxy status bar can be confusing. Find out what the symbol could mean and the simple steps to make it disappear for good.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/what-the-little-clock-icon-at-the-top-of-your-samsung-phone-means/l-intro-1794937166.jpg",
+      "published_at": "2026-11-22T18:45:00+00:00",
+      "categories": [
+        "Smartphones",
+        "Samsung"
+      ]
+    },
+    {
+      "item_id": "86b43f6f0be0ccc50e21f6433fa6d697164345a8f84df92f0bcfccc8d9da352b",
+      "title": "The drawbacks of adding solar panels to your home",
+      "url": "https://www.engadget.com/2319431/adding-solar-panels-home-disadvantages/",
+      "summary": "Installing solar panels at your home could be a bright idea, but there are some serious financial factors to consider before making the investment.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-drawbacks-of-adding-solar-panels-to-your-home/l-intro-1794592127.jpg",
+      "published_at": "2026-11-22T18:30:00+00:00",
+      "categories": [
+        "Science"
+      ]
+    },
+    {
+      "item_id": "2f5e165eb8f7efbe7624b402204e383cc4f263f42cd4f7f1ea98c544ff7c6f81",
+      "title": "11 types of smart gadgets to consider pairing with your Ring doorbell",
+      "url": "https://www.engadget.com/2319422/ring-doorbell-smart-gadget-pairings/",
+      "summary": "If you've expanded your smart home to have multiple smart devices, you may want to see how many will work with Ring.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/11-types-of-smart-gadgets-to-consider-pairing-with-your-ring-doorbell/l-intro-1794591638.jpg",
+      "published_at": "2026-11-22T18:15:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "e8d1fce957ac2e9eeca35b39365651252fc19d07dd1c22b4e12abe1f735c83c9",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-22T18:08:43+00:00",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Media & Entertainment",
+        "data centers"
+      ]
+    },
+    {
+      "item_id": "e1c20f480c4f38512f52c9fed8edb597cab5aaa9c3a27d8117c2b6e0a55d2b9d",
+      "title": "Don't throw away your old Xbox — Do this instead",
+      "url": "https://www.engadget.com/2319409/dont-throw-away-old-xbox-do-this-instead-sell-donate/",
+      "summary": "Your old Xbox doesn't deserve to be dumped in a dustbin. From making a buck to making a kid's day, there are ways to give your console a new lease on life.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/dont-throw-away-your-old-xbox-do-this-instead/l-intro-1794512318.jpg",
+      "published_at": "2026-11-22T18:00:00+00:00",
+      "categories": [
+        "Entertainment",
+        "Xbox",
+        "Microsoft"
+      ]
+    },
+    {
+      "item_id": "f6bfde31743cfd80bea22c39a09095bb7f8e37372117f122c7572ac9d441978b",
+      "title": "Delta flights in and out of Atlanta delayed due to system outage",
+      "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+      "summary": "All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane's weight and balance. Hartsfield-Jackson Atlanta International Airport is Delta's largest hub and one of the busiest airports in the world. While only Delta is impacted at the moment, disruptions at [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/gettyimages-2223798482.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-22T17:46:44+00:00",
+      "categories": [
+        "News",
+        "Transportation"
+      ]
+    },
+    {
+      "item_id": "0d753e3aca2ceabc48385876475533329fb1ad1e5668d0a21834d06a2c24ff9e",
+      "title": "You can mass-delete all of your emails on Gmail in only a few clicks",
+      "url": "https://www.engadget.com/2319403/how-to-mass-delete-all-emails-gmail/",
+      "summary": "If you have thousands of emails piling up in Gmail, you can delete them in bulk without losing the important ones.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/you-can-mass-delete-all-of-your-emails-on-gmail-in-only-a-few-clicks/l-intro-1794781970.jpg",
+      "published_at": "2026-11-22T17:45:00+00:00",
+      "categories": [
+        "Google"
+      ]
+    },
+    {
+      "item_id": "ec635478f848419489cb49a041d968f0af19b6a62e64dbd7b8bf8ff4995a4725",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-22T17:25:20+00:00",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Gaming",
+        "Music",
+        "News"
+      ]
+    },
+    {
+      "item_id": "a9a6e76368ec6f37bdc9db803c8eaaa4994d14f6efa28160f14f403508abdbc7",
+      "title": "TechCrunch Mobility: A/B testing robots vs. humans",
+      "url": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-22T17:06:00+00:00",
+      "categories": [
+        "Transportation",
+        "Tesla",
+        "Uber",
+        "zoox",
+        "Waymo",
+        "techcrunch mobility",
+        "cybercab"
+      ]
+    },
+    {
+      "item_id": "666996c746330be4bd62043d158a7a517afa18e3a90e599ea54cd79aa802740a",
+      "title": "Some of our favorite Switch 2 games are cheaper through Black Friday",
+      "url": "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale",
+      "summary": "Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In addition to a $50 off sale on one of its console bundles, Nintendo is also knocking $20 off some of [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/NS2_DonkeyKongBananza_SCRN_25.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-22T17:00:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Gaming",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "1a514b81c4c37541a636caf2bd7c47e68bc36e29d9c6d623d448f43ea9ae44d3",
+      "title": "Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk",
+      "url": "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review",
+      "summary": "Sheherazaad started making ripples in the music world a few years ago with her EP Qasr, which was produced by Grammy Award winner Arooj Aftab. Now she's back with Khudgarzi, her reverb-drenched folk-noir debut LP that's primarily sung in Urdu. The instrumentation on Khudgarzi draws on traditional South Asian music, including Carnatic and Hindustani styles, [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/a3127600889_10.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-22T16:33:29+00:00",
+      "categories": [
+        "Column",
+        "Entertainment",
+        "Music"
+      ]
     }
   ]
 }
