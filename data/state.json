@@ -1,38 +1,6 @@
 {
   "schema_version": 6,
   "seen": [
-    "https://www.engadget.com/2303446/all-the-leaks-for-the-portal-prequel-f-stop-have-been-compiled-into-a-playable-game/",
-    "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/",
-    "https://www.engadget.com/2315114/how-to-clean-up-icloud-storage-free-space/",
-    "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists",
-    "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
-    "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy",
-    "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
-    "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
-    "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
-    "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
-    "03fc24897cb6fd52172ecb2ca40ee85a0d2b1cd60d541523a1924dd7193aa87c",
-    "05d4bed05280ccdc6cd3697226cedfae3d1b579edbaffd02f25ab103d82852c8",
-    "1690f9af58ddae80afcb24d8d46c61ee6fdc0027c9d27546fe9909ebccda3523",
-    "1766e41cf1386429b56032a5d5962fc9e15f3ba3da6e964a80ea9177bd04b748",
-    "2a1a2084e844d069cb94dbb244077623e33231c60e109db9c3677e09adc29e2b",
-    "2be4a74aa166751c94d26a0c1883b64af68ba4dde6cb5072e6f6af464fc68df1",
-    "2d7af2d71f0831959e882edf78f1bb6b0d9f0d9681ef6266b63ea5e544c7e3a4",
-    "3db29731560278b44a98f66313a839b855c5a9847eadc3b2c4c2689354b31479",
-    "3f4518dd56b6cec643c50ce117ad17ae144419afa379fba7388a5fe298ff3712",
-    "438f7b68b6e841c1c61045d65fa3cea68cf080d5babefab576c6fd3e895130c1",
-    "443a5b2add250333120ae0ef5fb926409c8b6465a6942a6e63bf34b81e262974",
-    "49ede5169b145451ba0bc6265545bb20430dc829144aa85f50f58e35ec4349f3",
-    "5ac7568cf3979491c23d739bd1a54a95479a11fcd9a8fa27dd3aafbe0bfb6967",
-    "62f1a01f1273d1d129a8935079c8cef56a869940411b9363f84deaee0adb8d7d",
-    "63ae4f1b2c72f9ffdfb95342985d7874a37fb759a93625d39beb5b9623bc85c5",
-    "65bac0f7b073d7ecf06ea32e57d52c3023daf0cdefe0bc0449122a40c428b071",
-    "7279a22099cb49c94584864958cb53f9142da86b07d920e342c84312da52f9e7",
-    "794cc9aab1c3e1417101d98de3346a3cf5918d1976f14c30f6b41452cdac9d7b",
-    "8406ab8dbaeb5bd1e6249a29a1d7e2dff7d1d3642ecae4887e38f5f5335df9a3",
-    "8f9e2847bb60497ce96538fc4fd713b69a9f8cce1404b2b4a74bfcb2852c5f55",
-    "91f219f0baaf6984afd5467c86209190846f46b8b82d48fa65b10f45145b4a3d",
-    "984d3f2a95b2fdf6e0f6cad21bd5e776f64e848672ded3c247710553e79825f7",
     "9a1a8059955fac57bb0a55e1f6599619654427d7cba427a7cc782ee8f600033c",
     "9d5f97721bff5fccfd1dd9461b22bec0a9ef700cfeb106ecd8c3df8e48076447",
     "a48ebe22a2dd9e3cc1eff574417070c1ba8375a448dd44228722a96a3194b0d0",
@@ -5000,7 +4968,39 @@
     "https://www.theverge.com/tech/1023569/ipad-mini-alexa-photo-frame-readwise-installer",
     "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
     "https://www.theverge.com/transportation/1018784/ford-fathom-bidirectional-charging-inverter-power-station-cost",
-    "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026"
+    "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
+    "1a514b81c4c37541a636caf2bd7c47e68bc36e29d9c6d623d448f43ea9ae44d3",
+    "29836eea696efaf396e7611cc125a5ceab706cdf4a9eaedc98a081d72c4d931b",
+    "4282ca9cedb3df7d102d46f9ff82c2059efd29616a38f523c0bad97021f26b04",
+    "4b996c687b643eba5e2fb5a949cc6cd363f19e666cf2ad4519cdfec6fc14d669",
+    "51a93aae527988d55435e3822734067751ac3628031b7e6969ab44e5521e11fc",
+    "5cb473b56408e9a8793e5eb1508f0b4018a044cf80d2a65939350e57c161d728",
+    "6b1ed1616faa1292f6e354eff597ff3eef03bc5c99c14f59e94a3dcb8b237ded",
+    "7aa79dfa496a46414f53d2e20bb4d2e125b6c09fc0997febf6a7da22aabf6687",
+    "86b43f6f0be0ccc50e21f6433fa6d697164345a8f84df92f0bcfccc8d9da352b",
+    "a1b8dc925422f0552f4af896bb118cdcd41e88ea921a4994069ace9b826e06e9",
+    "bb91ed89c0acf2db018d18764039eb6e566568c5e6e4afee7b15048e493066e5",
+    "c31305acc440d86a33c69dfdbcd8f2d6833c2b0083f44ce3cb09442e6e745ba0",
+    "d256e72cb263fe645f5547faa41b7f21d28146c3d1a14345739c69e400af496b",
+    "db3c8e4a1bbabef33e904543d3043a5df47c79bb846ce899798038496fee8506",
+    "e1c20f480c4f38512f52c9fed8edb597cab5aaa9c3a27d8117c2b6e0a55d2b9d",
+    "e2803c790788549ac6e4d2116ae77dfd85558b690e2251c29880140a7d9745bb",
+    "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+    "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+    "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+    "https://www.engadget.com/2310692/public-vs-private-ip-addresses-differences/",
+    "https://www.engadget.com/2319409/dont-throw-away-old-xbox-do-this-instead-sell-donate/",
+    "https://www.engadget.com/2319431/adding-solar-panels-home-disadvantages/",
+    "https://www.engadget.com/2319572/how-much-starlink-cost-2020-vs-2026/",
+    "https://www.engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/",
+    "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+    "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review",
+    "https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv",
+    "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale",
+    "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
+    "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+    "https://www.theverge.com/games/1036279/gta-vi-sales",
+    "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label"
   ],
   "published_stories": [
     {
@@ -18343,21 +18343,6 @@
       ]
     },
     {
-      "item_id": "51a93aae527988d55435e3822734067751ac3628031b7e6969ab44e5521e11fc",
-      "title": "Will Wright’s next game uses AI to map your memories",
-      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-      "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they create on their own. [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Grand-Canyon-Family-Portrait.png?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-18T14:00:00+00:00",
-      "categories": [
-        "AI",
-        "Entertainment",
-        "Gaming",
-        "News"
-      ]
-    },
-    {
       "item_id": "c26c251b69ccb0dcca776b678c06394c395852d2a6212032b6131c0728977354",
       "title": "You'll need the latest PS5 firmware update to play GTA VI",
       "url": "https://www.engadget.com/2320303/youll-need-the-latest-ps5-firmware-update-to-play-gta-vi/",
@@ -18843,20 +18828,6 @@
       ]
     },
     {
-      "item_id": "bb91ed89c0acf2db018d18764039eb6e566568c5e6e4afee7b15048e493066e5",
-      "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-      "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
-      "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-20T19:35:06+00:00",
-      "categories": [
-        "Entertainment",
-        "Gaming",
-        "News"
-      ]
-    },
-    {
       "item_id": "7455d5bb758cb468940884d91688f6ebe16204614390022033bd4fe2b4033424",
       "title": "This GTA 6 fast travel trick comes at a price",
       "url": "https://www.engadget.com/2323486/gta-6-fast-travel-trick-price/",
@@ -18992,22 +18963,6 @@
       ]
     },
     {
-      "item_id": "db3c8e4a1bbabef33e904543d3043a5df47c79bb846ce899798038496fee8506",
-      "title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
-      "url": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
-      "summary": "If you’re looking for a new pair of earbuds, the Soundcore Liberty 5 Pro are on sale for $129.99 at Amazon, Best Buy, and Walmart right now. That’s the lowest price we’ve seen for Anker’s excellent wireless earbuds, which normally retail for $169.99 and come in four colors (black, white, blue, and pink) all of [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/268539_Soundcore_Liberty_5_Pro_JHiggins_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-21T14:55:28+00:00",
-      "categories": [
-        "Black Friday",
-        "Cyber Monday",
-        "Deals",
-        "Gadgets",
-        "Verge Shopping"
-      ]
-    },
-    {
       "item_id": "5669949720d936b57b6c73f4209beb7787672f3e495915854bf721198da75be8",
       "title": "5 gadgets you should never buy used",
       "url": "https://www.engadget.com/2318096/gadgets-you-should-never-buy-used/",
@@ -19078,18 +19033,6 @@
       "published_at": "2026-11-21T13:45:00+00:00",
       "categories": [
         "Smartphones"
-      ]
-    },
-    {
-      "item_id": "7aa79dfa496a46414f53d2e20bb4d2e125b6c09fc0997febf6a7da22aabf6687",
-      "title": "How to use Gemini Notebook to turn your research into an interactive site",
-      "url": "https://www.engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/",
-      "summary": "Gemini Notebook's newest feature can create a website with visual aids and interactive elements (just double-check its work).",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site/l-intro-1795027769.jpg",
-      "published_at": "2026-11-21T13:30:00+00:00",
-      "categories": [
-        "Google"
       ]
     },
     {
@@ -19377,22 +19320,6 @@
       ]
     },
     {
-      "item_id": "a1b8dc925422f0552f4af896bb118cdcd41e88ea921a4994069ace9b826e06e9",
-      "title": "Amazon is complaining about NYC Council on shipping labels, too",
-      "url": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
-      "summary": "Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that the Council could add up to $5 to any Amazon order. The Delivery Protection Act would effectively ban the sort of third-party arrangements Amazon currently [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/PXL_20261121_204528314.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-21T21:59:31+00:00",
-      "categories": [
-        "Amazon",
-        "News",
-        "Policy",
-        "Politics",
-        "Tech"
-      ]
-    },
-    {
       "item_id": "f9e10a6144e6c3a10c7a4e5657c8c78f921ffa17458fed9083c0b627c32bcef7",
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
       "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
@@ -19491,7 +19418,7 @@
       "url": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
       "summary": "Can a TV be too large? This writer's recent upgrade to a 65-inch OLED came with some unexpected challenges.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Image-from-iOS.jpg?resize=1200,900",
       "published_at": "2026-11-22T15:00:00+00:00",
       "categories": [
         "Hardware",
@@ -19547,24 +19474,6 @@
       "published_at": "2026-11-22T14:15:00+00:00",
       "categories": [
         "Laptops"
-      ]
-    },
-    {
-      "item_id": "4b996c687b643eba5e2fb5a949cc6cd363f19e666cf2ad4519cdfec6fc14d669",
-      "title": "Nintendo’s Switch 2 console is $50 off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale",
-      "summary": "Those hoping to save some cash on a Nintendo Switch 2 can do so starting today, November 22nd, through Saturday, December 5th, giving you plenty of time to think about it after Cyber Monday has passed. For a limited time, Nintendo has knocked $50 off one of its two current console bundles, temporarily rolling back [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/257769_Switch_2_AKrales_0093_fe9169.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-22T14:00:00+00:00",
-      "categories": [
-        "Black Friday",
-        "Cyber Monday",
-        "Deals",
-        "Gadgets",
-        "Gaming",
-        "Nintendo",
-        "Verge Shopping"
       ]
     },
     {
@@ -19707,7 +19616,7 @@
       "url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
       "summary": "The new Elizabeth Holmes documentary is just beginning to roll out internationally.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/V8_PHASE-1_LOBTS.jpg?resize=1200,900",
       "published_at": "2026-11-22T21:42:48+00:00",
       "categories": [
         "Media & Entertainment",
@@ -19745,7 +19654,7 @@
       "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
       "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
       "published_at": "2026-11-22T21:14:07+00:00",
       "categories": [
         "AI",
@@ -19759,7 +19668,7 @@
       "url": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
       "summary": "We've compiled a list of friendship apps, from friend discovery platforms like BFF to event-focused ones like Timeleft.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-596631439.jpg?resize=1200,800",
       "published_at": "2026-11-22T21:00:00+00:00",
       "categories": [
         "Apps",
@@ -19893,18 +19802,6 @@
       ]
     },
     {
-      "item_id": "86b43f6f0be0ccc50e21f6433fa6d697164345a8f84df92f0bcfccc8d9da352b",
-      "title": "The drawbacks of adding solar panels to your home",
-      "url": "https://www.engadget.com/2319431/adding-solar-panels-home-disadvantages/",
-      "summary": "Installing solar panels at your home could be a bright idea, but there are some serious financial factors to consider before making the investment.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-drawbacks-of-adding-solar-panels-to-your-home/l-intro-1794592127.jpg",
-      "published_at": "2026-11-22T18:30:00+00:00",
-      "categories": [
-        "Science"
-      ]
-    },
-    {
       "item_id": "2f5e165eb8f7efbe7624b402204e383cc4f263f42cd4f7f1ea98c544ff7c6f81",
       "title": "11 types of smart gadgets to consider pairing with your Ring doorbell",
       "url": "https://www.engadget.com/2319422/ring-doorbell-smart-gadget-pairings/",
@@ -19922,27 +19819,13 @@
       "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
       "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
       "published_at": "2026-11-22T18:08:43+00:00",
       "categories": [
         "AI",
         "Government & Policy",
         "Media & Entertainment",
         "data centers"
-      ]
-    },
-    {
-      "item_id": "e1c20f480c4f38512f52c9fed8edb597cab5aaa9c3a27d8117c2b6e0a55d2b9d",
-      "title": "Don't throw away your old Xbox — Do this instead",
-      "url": "https://www.engadget.com/2319409/dont-throw-away-old-xbox-do-this-instead-sell-donate/",
-      "summary": "Your old Xbox doesn't deserve to be dumped in a dustbin. From making a buck to making a kid's day, there are ways to give your console a new lease on life.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/dont-throw-away-your-old-xbox-do-this-instead/l-intro-1794512318.jpg",
-      "published_at": "2026-11-22T18:00:00+00:00",
-      "categories": [
-        "Entertainment",
-        "Xbox",
-        "Microsoft"
       ]
     },
     {
@@ -19992,7 +19875,7 @@
       "url": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
       "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/zoox-las-vegas-Getty.jpg?resize=1200,800",
       "published_at": "2026-11-22T17:06:00+00:00",
       "categories": [
         "Transportation",
@@ -20022,39 +19905,12 @@
       ]
     },
     {
-      "item_id": "1a514b81c4c37541a636caf2bd7c47e68bc36e29d9c6d623d448f43ea9ae44d3",
-      "title": "Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk",
-      "url": "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review",
-      "summary": "Sheherazaad started making ripples in the music world a few years ago with her EP Qasr, which was produced by Grammy Award winner Arooj Aftab. Now she's back with Khudgarzi, her reverb-drenched folk-noir debut LP that's primarily sung in Urdu. The instrumentation on Khudgarzi draws on traditional South Asian music, including Carnatic and Hindustani styles, [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/a3127600889_10.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-22T16:33:29+00:00",
-      "categories": [
-        "Column",
-        "Entertainment",
-        "Music"
-      ]
-    },
-    {
-      "item_id": "e2803c790788549ac6e4d2116ae77dfd85558b690e2251c29880140a7d9745bb",
-      "title": "Here's how much Starlink cost in 2020 vs. 2026",
-      "url": "https://www.engadget.com/2319572/how-much-starlink-cost-2020-vs-2026/",
-      "summary": "Throw in discounts and fluctuating rates, and two customers could end up paying vastly different bills for the same Starlink satellite service.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/heres-how-much-starlink-cost-in-2020-vs-2026/l-intro-1794842346.jpg",
-      "published_at": "2026-11-23T01:30:00+00:00",
-      "categories": [
-        "Entertainment",
-        "Big Tech"
-      ]
-    },
-    {
       "item_id": "ab103ac1c3f3fcea26d6293c6c1309774ed0f7c9fdd9d131ae623b311a87fe81",
       "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
       "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
       "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
       "published_at": "2026-11-23T01:25:53+00:00",
       "categories": [
         "AI",
@@ -20111,18 +19967,6 @@
       "source": "Engadget",
       "image_url": "https://www.engadget.com/img/gallery/8-windows-apps-you-should-probably-remove-from-your-pc/l-intro-1794237490.jpg",
       "published_at": "2026-11-23T00:15:00+00:00",
-      "categories": [
-        "Computing"
-      ]
-    },
-    {
-      "item_id": "4282ca9cedb3df7d102d46f9ff82c2059efd29616a38f523c0bad97021f26b04",
-      "title": "Public vs. private IP addresses: what's the difference?",
-      "url": "https://www.engadget.com/2310692/public-vs-private-ip-addresses-differences/",
-      "summary": "One identifies your network, the other identifies the devices using your network.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/public-vs-private-ip-addresses-whats-the-difference/l-intro-1794236251.jpg",
-      "published_at": "2026-11-23T00:00:00+00:00",
       "categories": [
         "Computing"
       ]
@@ -20238,6 +20082,556 @@
         "Gadgets",
         "News",
         "Tech"
+      ]
+    },
+    {
+      "item_id": "bb964c7b302c4e7e28e96601806dcb782bf88824343b0e5af0cef7722eddad3f",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "source": "TechCrunch",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+      "published_at": "2026-11-23T22:05:50+00:00",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Claude",
+        "code",
+        "coding"
+      ]
+    },
+    {
+      "item_id": "51168f5ee7eb53cf523bf5d62c87a1a3f63f68e499fbe3905aec88d07487bdc8",
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close in Antalya, Turkey, on Sunday. Each year, attendees [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306098413.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-23T21:09:37+00:00",
+      "categories": [
+        "AI",
+        "Energy",
+        "Environment",
+        "Policy",
+        "Science"
+      ]
+    },
+    {
+      "item_id": "cd67697c8c78e1bfd504b87c58d51ca7fef72e8c19fa060f02fd59fc1ca790e7",
+      "title": "Your older, discontinued AirTags can still serve a purpose",
+      "url": "https://www.engadget.com/2320290/discontinued-airtags-still-serve-purpose/",
+      "summary": "Apple has moved on from the original AirTag, but you don't have to. Find out how your old trackers can still earn their keep at home and on the go.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/your-older-discontinued-airtags-can-still-serve-a-purpose/l-intro-1794602506.jpg",
+      "published_at": "2026-11-23T21:00:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "ab73b44624905bebc66171d851c45569c9dafc7538a9b5c8a9dafaf5d19e3181",
+      "title": "New leaks reveal the iPhone 18e will have a redesigned camera plateau",
+      "url": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/",
+      "summary": "We've also got further confirmation the iPhone Air 2 will have a second camera lens.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/l-intro-1795466976.jpg",
+      "published_at": "2026-11-23T20:57:55+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "1aa68ff11361431fd17a726cf154e4806866e9563c998c28431df28b35c8d761",
+      "title": "GTA 6 player gets social ban on PSN after sending a photo of in-game nudity",
+      "url": "https://www.engadget.com/2325800/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity/",
+      "summary": "Apparently just because it's in the game doesn't mean sharing \"obscene\" content is okay.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity/l-intro-1795466635.jpg",
+      "published_at": "2026-11-23T20:46:23+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "62bb82ed60d8dc2ad74473f2d78d259a973594cebae73d950c43ad695bc20e09",
+      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T20:38:53+00:00",
+      "categories": [
+        "AI",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "1464034391f41d092686aa5488d93f5a8f9cbc919283fdb8ea857dc52978bcaa",
+      "title": "Grand Theft Auto 6 is really about the death of the American Dream",
+      "url": "https://www.engadget.com/2325713/grand-theft-auto/",
+      "summary": "The struggle in GTA6 is both real and virtual.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/grand-theft-auto-6-is-really-about-the-death-of-the-american-dream/l-intro-1795464912.jpg",
+      "published_at": "2026-11-23T20:16:10+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "42dc727f29b16d7a2066882184a56544581cb8951763750dbe7f32905127e031",
+      "title": "Anthropic softens its data retention policy for Mythos and Fable model use",
+      "url": "https://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use/",
+      "summary": "Enterprise customers can now keep prompts and responses on their own servers.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use/l-intro-1795464099.jpg",
+      "published_at": "2026-11-23T20:02:30+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "3adef6833c7850f7969fbe204613b943ac6cd1f26b55c2e560eed0d17441370b",
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_C_96d15c-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-23T20:00:00+00:00",
+      "categories": [
+        "AI",
+        "Anthropic",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "6941f0c5b8efdf77c600c749ba7c6414f13accbc26e11b5482cce06f9e8ec69c",
+      "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return",
+      "url": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
+      "summary": "Jensen Huang returned to Nvidia's office as CEO today to a crowd of applauding employees who stood and filmed the cofounder's first moments back. \"Thank you all for the second chances. I'm gonna be a better CEO the second time around,\" Huang said, as shown in a video of his return. Huang resigned as CEO [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-23-at-3.06.15-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-23T19:58:27+00:00",
+      "categories": [
+        "News",
+        "Nvidia",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "5ba907d467530b4a680fe2be3eaf200d755e583f3f110f050d5f27bcf11a7ce8",
+      "title": "How Jensen Huang ended up as Nvidia CEO again",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+      "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfaithful\" to his wife [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-23T19:57:18+00:00",
+      "categories": [
+        "AI",
+        "Analysis",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Report",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "0208c308c552f1a4a059271957d567f2274cd346c9197aa3845cac29e0d29f22",
+      "title": "NVIDIA's Jensen Huang will testify publicly before senators on December 3",
+      "url": "https://www.engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3/",
+      "summary": "It's going to be a busy few days in Washington DC for the freshly reinstated CEO.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/nvidias-jensen-huang-will-testify-publicly-before-senators-on-december-3/l-intro-1795463182.jpg",
+      "published_at": "2026-11-23T19:47:27+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "25c3b79eaccb16f6a97e5919161f24bea678730d63f1db9cc99fadc574621036",
+      "title": "The infamous GTA 6 hacker has been released after pleading guilty",
+      "url": "https://www.engadget.com/2325643/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty/",
+      "summary": "A judge warned the hacker not to \"let this happen again.\"",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty/l-intro-1795462891.jpg",
+      "published_at": "2026-11-23T19:42:43+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "d3e9f196fb9deedae05eebb3b6b01ee25cc09b51955004c9a24bb2605c3d8395",
+      "title": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia",
+      "url": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
+      "summary": "Politicians on both sides of the aisle seem angry, agitated, and nonplussed by the return of Jensen Huang to Nvidia leadership less than two weeks after his ousting.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T19:31:41+00:00",
+      "categories": [
+        "Government & Policy",
+        "AI",
+        "Donald Trump",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "750d63d0b61399030dbb1ad3adf5b0f2e22da4c0bd235048b47075dbf0f2ce82",
+      "title": "How to connect your Bluetooth headphones to your Xbox Series X",
+      "url": "https://www.engadget.com/2320288/how-to-connect-bluetooth-headphones-xbox-series-x/",
+      "summary": "Connecting Bluetooth headphones to your Xbox Series X can be frustrating due to incompatibility. However, there are a few workarounds to solve this problem.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-connect-your-bluetooth-headphones-to-your-xbox-series-x/l-intro-1794583527.jpg",
+      "published_at": "2026-11-23T19:30:00+00:00",
+      "categories": [
+        "Xbox"
+      ]
+    },
+    {
+      "item_id": "0fc7f069258fd957a64cc61fac19c7ed39e6058f5c5573886d065738101f4b2e",
+      "title": "Kodak's SlideTag combines a digital photo frame and an AirTag",
+      "url": "https://www.engadget.com/2325598/kodak-slidetag-combines-a-digital-photo-frame-and-an-airtag/",
+      "summary": "The SlideTag will come in a blind box with nine fun designs.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/kodaks-slidetag-combines-a-digital-photo-frame-and-an-airtag/l-intro-1795461541.jpg",
+      "published_at": "2026-11-23T19:20:26+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "18547eaaf9fea32800d8ad0e94a27c12b5e19fcf773b0f791bff24d33d4e80ab",
+      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T19:14:46+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Google"
+      ]
+    },
+    {
+      "item_id": "5a17113df30efd19a0345400308ecf51489269de81dd52fd2dadfb52187d18cb",
+      "title": "These underrated smart rings are more affordable than the Oura Ring 5",
+      "url": "https://www.engadget.com/2320286/underrated-smart-rings-more-affordable-oura-ring-5/",
+      "summary": "Find out how affordable smart rings compare with the Oura Ring 5 on upfront price and long-term cost and know which trade-offs come with paying less.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/these-underrated-smart-rings-are-more-affordable-than-the-oura-ring-5/l-intro-1794494729.jpg",
+      "published_at": "2026-11-23T19:00:00+00:00",
+      "categories": [
+        "Wearables"
+      ]
+    },
+    {
+      "item_id": "b0c6637c0eb79e87921c9a2cb59dc30891c2a8a0acd5e0ab9eb3dbbfd03d6c8c",
+      "title": "Uber now lets riders request drivers who are recording their trips",
+      "url": "https://www.engadget.com/2325472/uber-now-lets-riders-request-drivers-who-are-recording-their-trips/",
+      "summary": "Uber's Recorded Rides option is rolling out to Baltimore, Raleigh, Indianapolis and St. Louis first.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/uber-now-lets-riders-request-drivers-who-are-recording-their-trips/l-intro-1795457566.jpg",
+      "published_at": "2026-11-23T18:24:49+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "4928fd9bce1205d3743f9203b10dc7ebe1bd285a096f9c1f3f0edda69370737c",
+      "title": "How to clear the cache on your Fire TV",
+      "url": "https://www.engadget.com/2320174/how-to-clear-cache-fire-tv/",
+      "summary": "Cache keeps software running smoothly, but can lead to problems if it gets too big and your device runs out of storage - which is quite easy with Fire TV.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-your-fire-tv/l-intro-1794985217.jpg",
+      "published_at": "2026-11-23T18:15:00+00:00",
+      "categories": [
+        "Amazon",
+        "TV & Movies"
+      ]
+    },
+    {
+      "item_id": "fa2cd902e54de7216f4a6f2df8e3413dd861f15a8feeed056d6fce9308d5ced8",
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T18:12:22+00:00",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Congress",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "93dff113e922ec44f386b2d85d5412986e28c0605cf3fa28b9f4144d08272795",
+      "title": "The Samsung Odyssey G6 G60H is the world's first 1,100Hz gaming monitor",
+      "url": "https://www.engadget.com/2325384/samsung-odyssey-g6-g60h-is-the-worlds-first-1100hz-gaming-monitor/",
+      "summary": "That big catch is that this monitor's refresh rate only gets that high in HD mode.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-samsung-odyssey-g6-g60h-is-the-worlds-first-1100hz-gaming-monitor/l-intro-1795456011.jpg",
+      "published_at": "2026-11-23T17:47:59+00:00",
+      "categories": [
+        "Computing",
+        "Samsung"
+      ]
+    },
+    {
+      "item_id": "8c4ddc92357c6a366b24ac067a0d808ec611f14e45791ba808e4e311717b6a0f",
+      "title": "You can block AI slop and spam on these social media platforms",
+      "url": "https://www.engadget.com/2320284/how-block-ai-slop-spam-social-media-platforms/",
+      "summary": "Some sites offer tools to filter the slop out of your feeds, while doing so on others will require some dedicated effort.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/you-can-block-ai-slop-and-spam-on-these-social-media-platforms/l-intro-1794769415.jpg",
+      "published_at": "2026-11-23T17:45:00+00:00",
+      "categories": [
+        "AI",
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "be2fb5d6d350462c15a984dbb40a7fb8cce5be92f981202b18903a23688e413b",
+      "title": "What important features should you look for in a home security camera?",
+      "url": "https://www.engadget.com/2320283/important-home-security-camera-features/",
+      "summary": "Stakes are high when choosing the right security camera. Our experienced writer will help you sort through priorities to make the right call for your home.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/what-important-features-should-you-look-for-in-a-home-security-camera/l-intro-1794421485.jpg",
+      "published_at": "2026-11-23T17:15:00+00:00",
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "8bc619fae32d1c2af4b4e06a58b8286b0044f9987819614edf61f680f0bfb6c3",
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T17:14:23+00:00",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Amazon",
+        "AWS",
+        "decart",
+        "In Brief",
+        "Mergers and Acquisitions",
+        "trainium"
+      ]
+    },
+    {
+      "item_id": "8d86b956d873f82383bd22bc944f827dba4c9f83159d40159d35988ff86edb7b",
+      "title": "Meta throws out its net-zero goal — its competitors should be furious",
+      "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
+      "summary": "Meta walked back its 2030 net-zero goal in its 2026 sustainability report, a decision that could send ripples throughout the tech industry.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T17:13:45+00:00",
+      "categories": [
+        "Climate",
+        "Analysis",
+        "data centers",
+        "Meta",
+        "net zero"
+      ]
+    },
+    {
+      "item_id": "cc473bd471ce05ee5ef096496f2504a3164b917dda680132de41fdf2c90d4cd9",
+      "title": "Google is finally retiring the Nest app early next year",
+      "url": "https://www.engadget.com/2325245/google-is-finally-retiring-the-nest-app-early-next-year/",
+      "summary": "It's also removing Google Assistant from smart speakers and displays.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-is-finally-retiring-the-nest-app-early-next-year/l-intro-1795453127.jpg",
+      "published_at": "2026-11-23T16:59:56+00:00",
+      "categories": [
+        "Google"
+      ]
+    },
+    {
+      "item_id": "aedc24988a6a203fec416e4bf3437368f281314e27886ebe684e8c556dfa6c77",
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T16:57:40+00:00",
+      "categories": [
+        "AI",
+        "TC",
+        "nvidia",
+        "Jensen Huang"
+      ]
+    },
+    {
+      "item_id": "d086746bc05f4bf192afea7f5d59ad44ca8a89de1f5d922729cf2936629d489e",
+      "title": "The pros and cons of wearing your Fitbit around your ankle",
+      "url": "https://www.engadget.com/2320282/pros-cons-wearing-fitbit-ankle/",
+      "summary": "Wearing a Fitbit around your ankle can improve monitoring and accuracy. But are there any downsides? How does a Fitbit on your wrist compare to your ankle?",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-pros-and-cons-of-wearing-your-fitbit-around-your-ankle/l-intro-1794517903.jpg",
+      "published_at": "2026-11-23T16:45:00+00:00",
+      "categories": [
+        "Google",
+        "Wearables"
+      ]
+    },
+    {
+      "item_id": "ac11f2768554a9e29c6c619bfd08950d0978410fae7c3ee56127773a91cfc893",
+      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T16:39:10+00:00",
+      "categories": [
+        "AI",
+        "Donald Trump",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "b93e2618e778120f30f6fd2f933427c846678710106c5253e7662bd1711ea0f7",
+      "title": "CrowdStrike to acquire Zscaler for $44 billion",
+      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+      "summary": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T16:20:11+00:00",
+      "categories": [
+        "Security",
+        "CrowdStrike",
+        "cybersecurity",
+        "In Brief",
+        "Mergers and Acquisitions",
+        "zscaler"
+      ]
+    },
+    {
+      "item_id": "7dbe844ff63552d4711398e7b0855cc58d5704391724e16486b5278d1ad46c3e",
+      "title": "What the green flashing light on your Roku remote is telling you",
+      "url": "https://www.engadget.com/2321531/what-green-flasing-light-roku-remote-telling-you/",
+      "summary": "Find out what your Roku remote's green light means, when it's harmless and when it signals a problem, plus what to do if your remote isn't working as it should.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/what-the-green-flashing-light-on-your-roku-remote-is-telling-you/l-intro-1795026720.jpg",
+      "published_at": "2026-11-23T16:15:00+00:00",
+      "categories": [
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "31f88ab300b8ab97470aaec196d83a688e979bda961d110ac64bda6a62400e2f",
+      "title": "Two states sue SpaceX over sexually explicit Grok deepfakes",
+      "url": "https://www.engadget.com/2325111/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes/",
+      "summary": "Oregon and Virginia's attorneys general said the company broke state consumer protection laws.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes/l-intro-1795449366.jpg",
+      "published_at": "2026-11-23T15:57:49+00:00",
+      "categories": [
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "bb6f938152fcbab17488f7fd7980b67dc6390b5ffd4d3cd43b76b5cfa0e4c58a",
+      "title": "What is Sound Glow on HomePods, and how do you get it on your Apple speaker?",
+      "url": "https://www.engadget.com/2320280/what-is-apple-homepod-sound-glow/",
+      "summary": "Apple's latest HomePod update makes the top of your speaker glow in sync with music.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/what-is-sound-glow-on-homepods-and-how-do-you-get-it-on-your-apple-speaker/l-intro-1794947532.jpg",
+      "published_at": "2026-11-23T15:45:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "181073488d214f313f71da0d09aec6d83a256736f6c4c4c46f3814143376ab5b",
+      "title": "Dutch privacy authority urges consumers not to buy ‘pervert glasses’",
+      "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
+      "summary": "The Netherlands' data protection agency said smart wearables violate people's privacy, get information wrong, and can result in unsafe situations.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T15:29:49+00:00",
+      "categories": [
+        "Gadgets",
+        "Government & Policy",
+        "Security",
+        "cybersecurity",
+        "In Brief",
+        "Meta",
+        "privacy",
+        "Snap"
+      ]
+    },
+    {
+      "item_id": "2076bb9b1297e8a29a3cfc630f683ef10034b378de0bcde26adbb280a1a2677c",
+      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T15:04:01+00:00",
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Jensen Huang",
+        "nvidia",
+        "Trump"
+      ]
+    },
+    {
+      "item_id": "7ff99cfdd7d74894bca8326cb33512f61415663bba61ceb4cf28c1ea1192de41",
+      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T14:43:03+00:00",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Fundraising",
+        "Bret Taylor",
+        "customer experience",
+        "sierra"
+      ]
+    },
+    {
+      "item_id": "13beca1f08f6159b7034a75f790e0fc735d4edbe0770603d8f11fdf6d17fdf65",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T14:21:59+00:00",
+      "categories": [
+        "AI",
+        "Hardware",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "b0f48dd1a19ace1936494997ecd1c9efbf57b1019c4b45514f64ca6865c2c02b",
+      "title": "Uber now lets you book rides that record the drive by default",
+      "url": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/",
+      "summary": "The option, which uses the front camera of the Uber driver's phone to record the entire drive, will show up as \"Recorded Rides\" in the app.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-23T14:00:00+00:00",
+      "categories": [
+        "Apps",
+        "Transportation",
+        "Safety",
+        "Uber"
       ]
     }
   ]
