@@ -20800,6 +20800,503 @@
         "Report",
         "Tech"
       ]
+    },
+    {
+      "item_id": "146db577687c43723ce316c4ba7407e791f68b3c5fa86ec7b081e73548c76705",
+      "title": "How much does it cost to replace an out-of-warranty Tesla battery?",
+      "url": "https://www.engadget.com/2321241/how-much-replace-tesla-battery-out-of-warranty/",
+      "summary": "Check out what goes into a Tesla battery bill beyond the pack itself, and know when a repair, a refurbished pack or extra coverage makes sense for you.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-much-does-it-cost-to-replace-an-out-of-warranty-tesla-battery/l-intro-1794923761.jpg",
+      "published_at": "2026-11-24T17:45:00+00:00",
+      "categories": [
+        "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "fab3ffe0dd07fdf52a2bc532ba4af922d91381befbcea4c5425f30e2f9ab61e7",
+      "title": "Threads comes to iPad and takes a page from X’s playbook with cashtags",
+      "url": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/",
+      "summary": "The addition of live stock quotes and charts could help Threads attract the financial community that has historically relied on X.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T17:44:34+00:00",
+      "categories": [
+        "Apps",
+        "Social",
+        "Meta",
+        "Threads"
+      ]
+    },
+    {
+      "item_id": "45cff6b1e31dad031cf0a8431504f11e87128dec6d0b2545de7abb5a05506c8f",
+      "title": "Dreame and Eufy are offering nearly 60 percent off robovacs for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1040315/black-friday-best-early-robot-vacuum-mop-deals-2026",
+      "summary": "Between putting up decorations, entertaining guests, and meal prep, the holidays are busy enough without worrying about vacuuming. Thankfully, a proper robot vacuum can do the dirty work while you focus on more enjoyable things. And thanks to Black Friday, you can pick up some of the best we’ve tested for up to 60 percent [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/testing-matic-cues-gesture-control.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-24T17:30:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "0337adbcdd10f7bd62d1be53b88946527f157559cb0f70c3e9113e164f84ee80",
+      "title": "Electric truck startup Harbinger gets financing boost from Palmer Luckey’s bank",
+      "url": "https://techcrunch.com/2026/11/24/electric-truck-startup-harbinger-gets-financing-boost-from-palmer-luckeys-bank/",
+      "summary": "Harbinger has tapped Palmer Luckey's Erebor Bank as a new source of capital as the electric truck startup looks to diversify how it funds its growth.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T17:29:09+00:00",
+      "categories": [
+        "Transportation",
+        "Harbinger",
+        "In Brief"
+      ]
+    },
+    {
+      "item_id": "a7c717ab4334b199d49bfa69d890bfac456aa1b916261058968da5834c34eb32",
+      "title": "Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-24T17:17:09+00:00",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Music",
+        "News",
+        "Tidal"
+      ]
+    },
+    {
+      "item_id": "92bc08ed9761664ff19ebd5bd738c6c8d558d52e9b6bc1d5975b296802646d7e",
+      "title": "Why your MacBook desktop Spaces keep rearranging themselves and how to stop it",
+      "url": "https://www.engadget.com/2320960/macbook-desktop-spaces-rearranging-fix/",
+      "summary": "Disable a Mission Control-specific setting to keep Spaces from switching.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-your-macbook-desktop-spaces-keep-rearranging-themselves-and-how-to-stop-it/l-intro-1795029377.jpg",
+      "published_at": "2026-11-24T17:15:00+00:00",
+      "categories": [
+        "Computing",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "c0bf6b18d7611c6ff63c28f375a91b6776b053c918794661954ba7603f03c08b",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T17:00:00+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "Instagram",
+        "muse"
+      ]
+    },
+    {
+      "item_id": "4d74da2e468dcd955b8b5aa1cbe43c01ca152ebdc1ce65667dd9af1ea987a124",
+      "title": "Meta is bringing Muse to Instagram",
+      "url": "https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/",
+      "summary": "Instagram will prompt people to use the agent to sort through their saved content.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/meta-is-bringing-muse-to-instagram/l-intro-1795537071.jpg",
+      "published_at": "2026-11-24T17:00:00+00:00",
+      "categories": [
+        "AI",
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "a2769609ad900599c08650e7660a5ee38ecc7a12577d2fd3315b30b8493548fc",
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T16:46:00+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Media & Entertainment",
+        "ai music",
+        "ai slop",
+        "music streaming",
+        "tidal"
+      ]
+    },
+    {
+      "item_id": "45fb0aee69288692ca253082b9ff1f315537d13fd4a1f604c286656016a87845",
+      "title": "Wireless Android Auto has a phone battery draining problem, but you can fix it",
+      "url": "https://www.engadget.com/2320821/wireless-android-auto-battery-drain-fix/",
+      "summary": "Wireless Android Auto can drain your phone's battery, but a few easy adjustments can help reduce power use and keep your phone cooler while you're driving.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/wireless-android-auto-has-a-phone-battery-draining-problem-but-you-can-fix-it/l-intro-1795024197.jpg",
+      "published_at": "2026-11-24T16:45:00+00:00",
+      "categories": [
+        "Apps"
+      ]
+    },
+    {
+      "item_id": "221e8f4e677ad881055b0b3af2d609ca9db61501e328f8c2a6f02df4f26403ee",
+      "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+      "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+      "summary": "Uber and Nuro have started testing driverless Lucid Gravity SUVs on public streets in the San Francisco Bay Area.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T16:40:46+00:00",
+      "categories": [
+        "Transportation",
+        "lucid",
+        "nuro",
+        "robotaxis",
+        "Uber"
+      ]
+    },
+    {
+      "item_id": "78abcabbd0362e5f0777f97ce2a4b360ae2c2a6df60a1b8904314c308da2d963",
+      "title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+      "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+      "summary": "As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump administration, the Department of Commerce has added Megaspeed to its Entity List, which blocks trade with the company, citing national security risks. As reported earlier by Semafor, Commerce Secretary Howard Lutnick had faced increasing pressure to list the company after [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2292676553.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-24T16:37:03+00:00",
+      "categories": [
+        "Business",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "ff932feff80d7b92723020439836586a1fa7fad3586f2cddb5053e274d6b4cd5",
+      "title": "Google Maps' Dark Mode is getting even darker",
+      "url": "https://www.engadget.com/2326681/google-maps-dark-mode-is-getting-even-darker/",
+      "summary": "This is part of a forthcoming update that adds new high-visibility options.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/google-maps-dark-mode-is-getting-even-darker/l-intro-1795537603.jpg",
+      "published_at": "2026-11-24T16:33:28+00:00",
+      "categories": [
+        "Google"
+      ]
+    },
+    {
+      "item_id": "4d7ed9e2b9c0b78a7b193567d03d79b8c24c4f4e34318b2f5b31601f6956136b",
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jensen_huang_AI_deepfakes.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-24T16:30:00+00:00",
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "d66a079c0ebc5c3311f930c3eb48bdda346a1d51da5000d6dab198438640923a",
+      "title": "Researchers find 3.6 billion usernames, passwords and documents in unsecured databases",
+      "url": "https://www.engadget.com/2326647/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-database/",
+      "summary": "The scale of the exposed data underscores how important it is to take steps to stay safe online.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-databases/l-intro-1795536857.jpg",
+      "published_at": "2026-11-24T16:15:17+00:00",
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "a80a3a62df32a887da0adc973cea795eb8c427ff92ce67a60e398de2c6727bee",
+      "title": "Use this built-in Windows tool to find PC stability issues",
+      "url": "https://www.engadget.com/2320810/built-in-windows-tool-find-pc-stability-issues-reliability-monitor/",
+      "summary": "This tool is a great alternative to Event Viewer.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/use-this-built-in-windows-tool-to-find-pc-stability-issues/l-intro-1795024960.jpg",
+      "published_at": "2026-11-24T16:15:00+00:00",
+      "categories": [
+        "Computing",
+        "Microsoft"
+      ]
+    },
+    {
+      "item_id": "4c2fc27660487ca18157428f17526dcfd5dd90f8067515392ec4fd14755ba9d1",
+      "title": "Commerce Department adds Megaspeed to trade blacklist",
+      "url": "https://www.engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist/",
+      "summary": "No American company, including NVIDIA, can sell technologies to Megaspeed without a license from the federal government.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/commerce-department-adds-megaspeed-to-trade-blacklist/l-intro-1795536612.jpg",
+      "published_at": "2026-11-24T16:11:17+00:00",
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "1d1a97a07ec90879bbb44e801ea8c3f9c5046c2c65f4d557c1ae5c0532b70326",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T16:10:00+00:00",
+      "categories": [
+        "AI",
+        "Climate",
+        "data centers",
+        "energy storage",
+        "Solar Power",
+        "G2VP"
+      ]
+    },
+    {
+      "item_id": "62df71a5ce61f0dc5854429b1198d37ae7a746c6f77cf54fee020aa56c0ea702",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-24T16:09:23+00:00",
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "6cac152ab5610410b554acf18573f2fe83710feda6ef1705c15505b55a7c0dfb",
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T16:02:37+00:00",
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "ai generated content",
+        "Pinterest"
+      ]
+    },
+    {
+      "item_id": "fe2ec22493f340bcf6eccff1b70923f69b70322b8fd97cac92e622b5a21d2af5",
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T15:51:07+00:00",
+      "categories": [
+        "AI",
+        "Amazon",
+        "decart",
+        "Mergers and Acquisitions",
+        "trainium"
+      ]
+    },
+    {
+      "item_id": "48016d727fb7d2894c29daf75ca431822ac821dd3053bf212bf87c93de8e2a4a",
+      "title": "How to make your USB-C cables last longer",
+      "url": "https://www.engadget.com/2322030/make-usb-c-cables-last-longer/",
+      "summary": "Tired of replacing frayed or finicky charging cords? Practical habits show how to prevent wear, avoid short circuits and keep your cables reliable.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-make-your-usb-c-cables-last-longer/l-intro-1795077451.jpg",
+      "published_at": "2026-11-24T15:45:00+00:00",
+      "categories": [
+        "News",
+        "Computing",
+        "Accessories"
+      ]
+    },
+    {
+      "item_id": "c0ee653450e25e01698391612262b94c48679acb86c8ccf910c67fd39729c8fb",
+      "title": "You can lock in Hulu and Disney Plus for as low as $5 per month for a year",
+      "url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+      "summary": "The Black Friday offers on streaming services are rolling in, and the latest deal includes Disney Plus and Hulu for a steeply discounted monthly rate. There are sales happening for both the ad-supported and ad-free tiers that offer full access to both services, and either will save you quite a bit of money. For those [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/furiouslede.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-24T15:24:46+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Disney",
+        "Gadgets",
+        "Hulu",
+        "Streaming",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "f813fe8b757018e635a0929f97065545f9519cffcc6ffffbdb9e8a946b52102f",
+      "title": "Wyze’s new window feeder records birds from a camera inside your home",
+      "url": "https://www.theverge.com/tech/1041164/wyze-window-bird-cam-camera-identification",
+      "summary": "A year ago, Wyze introduced a $35 security camera that stuck to the inside of a window so you could keep an eye on what was happening outside your home without a complicated installation. Today the company announced its new Window Bird Cam, which expands on that idea by pairing a similar window-mounted camera with [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/wyzebird1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-24T15:14:05+00:00",
+      "categories": [
+        "Cameras",
+        "Gadgets",
+        "News",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "fc6ba533b3f527009fc9f9b8af8b84d0cbf48a617cd4a6bfd4f0d27ded83c52d",
+      "title": "5 different types of gadgets and accessories you'll want in your car",
+      "url": "https://www.engadget.com/2320475/essential-car-gadgets-and-accessories/",
+      "summary": "Cars can come with loads of bells and whistles these days, but here are some relatively affordable additions to make traffic a little easier.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/5-different-types-of-gadgets-and-accessories-youll-want-in-your-car/l-intro-1794955426.jpg",
+      "published_at": "2026-11-24T14:45:00+00:00",
+      "categories": [
+        "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "9bd0010c3883aea733c5327293f56f9ee0bf967225b63e3246174b1414f80d64",
+      "title": "The reasons why you should never ignore your car's software updates",
+      "url": "https://www.engadget.com/2320467/never-ignore-cars-software-updates-reasons/",
+      "summary": "Cars are more digital than ever, and, yes, software updates are a hassle. Here's why you shouldn't skip or delay updating their software, though.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/the-reasons-why-you-should-never-ignore-your-cars-software-updates/l-intro-1794954030.jpg",
+      "published_at": "2026-11-24T14:15:00+00:00",
+      "categories": [
+        "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "ccfddfd48ae411144579bbcd458feb6a0466bda11ca79ff138d9e8559c69dc3d",
+      "title": "Harman Kardon’s classic, see-through SoundSticks 4 are half off",
+      "url": "https://www.theverge.com/gadgets/1040300/harman-kardon-soundsticks-4-speakers-black-friday-2026-deal-sale",
+      "summary": "Harman Kardon’s alien-looking SoundSticks became synonymous with the Mac in the early 2000s, and they sounded pretty great. But did you know the company still makes them? After selling steadily for $300 for several years and then spiking to $330 in recent months, the last-gen version of the iconic transparent speaker system is available for [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Harman-Kardon-Soundstick-4.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-24T14:13:22+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "374156ec41ce16dd5171e149309ec9eec760d10a0a637daca35f51e2c30914d0",
+      "title": "Bambu’s five-nozzle P3C isn’t quite the 3D printer I expected",
+      "url": "https://www.theverge.com/tech/1041034/bambu-p3c-3d-printer-price-release-date",
+      "summary": "Three weeks ago, Bambu Lab introduced the state of the art in home printing tech at $2,499 - now, you can get many of its fancy new features for less than half the price. Like that bigger H3C, the new $1,149 Bambu P3C can also swap between materials on the fly, mix different colors to [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/KV.jpg?quality=90&strip=all&crop=11.782117505974,5.2563716547388,81.791662183126,88.1517735134",
+      "published_at": "2026-11-24T14:00:00+00:00",
+      "categories": [
+        "Gadgets",
+        "Hands-on",
+        "Reviews",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "87d38b3c2cc90cbb534a74f866f6380594490d66e63bc432993a985a325a38d6",
+      "title": "Why the FAA doesn't want you to put AirPods in your luggage",
+      "url": "https://www.engadget.com/2320357/why-faa-doesnt-want-airpods-in-luggage/",
+      "summary": "Here's what aviation regulators think about the AirPods in your luggage, plus a few tips that can get you and your gadgets through security faster.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-the-faa-doesnt-want-you-to-put-airpods-in-your-luggage/l-intro-1794925800.jpg",
+      "published_at": "2026-11-24T13:45:00+00:00",
+      "categories": [
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "7ea60c1763da7fcf2edd9ab4e1db6868028b03eb56cca6e739ba913338f0cb5e",
+      "title": "Huang reportedly admitted to more than two affairs to Nvidia’s board",
+      "url": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
+      "summary": "During a meeting before his reinstatement, Huang admitted to more affairs beyond the two that have been reported in the news, according to The Wall Street Journal.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-24T13:29:53+00:00",
+      "categories": [
+        "Hardware",
+        "nvidia",
+        "Jensen Huang",
+        "In Brief"
+      ]
+    },
+    {
+      "item_id": "77ba3e01c6d58e046ed53257538360efba2441c6f967676bafaea1782022905a",
+      "title": "Why your smart TV keeps losing its Wi-Fi connection",
+      "url": "https://www.engadget.com/2320276/smart-tv-wifi-disconnecting-5ghz-fixes/",
+      "summary": "Is your smart TV constantly dropping its Wi-Fi connection? Learn how to troubleshoot your router, clear network settings and stop buffering for good.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/why-your-smart-tv-keeps-losing-its-wi-fi-connection/l-intro-1794912555.jpg",
+      "published_at": "2026-11-24T13:15:00+00:00",
+      "categories": [
+        "Entertainment",
+        "TV & Movies",
+        "Streaming"
+      ]
+    },
+    {
+      "item_id": "9ff2c49f7e145952df0c643c8bf7bb132c15cb0320d2f36826d781c4c23c914d",
+      "title": "Uber and Lucid start testing fully driverless rides for their robotaxis in San Francisco",
+      "url": "https://www.engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/",
+      "summary": "Uber's Lucid-made robotaxis, powered by Nuro, are almost ready to give rides to the public.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/l-intro-1795524624.jpg",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "categories": [
+        "EVs and Transportation"
+      ]
+    },
+    {
+      "item_id": "56434c4db9ac905cf8b5f6dbc20f494a4482ddada19aff9143fd53ec81b30069",
+      "title": "GTA 6 is the biggest PlayStation launch of all time",
+      "url": "https://www.engadget.com/2326351/grand-theft-auto-6-is-the-biggest-playstation-launch-of-all-time/",
+      "summary": "Sony says GTA 6 is the biggest launch in PlayStation history, across five generations of consoles.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/grand-theft-auto-6-is-the-biggest-playstation-launch-yet/l-intro-1795522019.jpg",
+      "published_at": "2026-11-24T12:09:54+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "415ca989876591f6a8c23463247bdac9b888a0de01852ad715f5ccca77d9dcdd",
+      "title": "OpenAI employee who secretly recorded meetings allegedly affiliated with the Saudi government",
+      "url": "https://www.engadget.com/2326288/openai-employee-recorded-meetings-allegedly-affiliated-saudi-government/",
+      "summary": "The OpenAI employee who was charged for implanting a recording device uploaded files to Dropbox and took photos of confidential files, prosecutors say.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/openai-employee-who-secretly-recorded-meetings-allegedly-affiliated-with-the-saudi-government/l-intro-1795509730.jpg",
+      "published_at": "2026-11-24T09:24:09+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "bfe7f3cb1a65f053b314358fa9fbfec5606193c7e9b7306f7a1157bc66222ceb",
+      "title": "Honor teams up with cinema camera-maker Arri on the Magic 9 Pro Max",
+      "url": "https://www.engadget.com/2325316/honor-teams-up-with-cinema-camera-maker-arri-on-the-magic-9-pro-max/",
+      "summary": "Honor's Magic 9 Pro Max looks familiar, doesn't it?",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/honor-teams-up-with-cinema-camera-maker-arri-on-the-magic-9-pro-max/l-intro-1795454552.jpg",
+      "published_at": "2026-11-24T09:00:00+00:00",
+      "categories": [
+        "Smartphones"
+      ]
     }
   ]
 }
