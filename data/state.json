@@ -21339,7 +21339,7 @@
     },
     {
       "item_id": "a153f6cd31f06abec74b3a0103f5b8215ef8318d31e21862c978343be0980a07",
-      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might — not a champion",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
       "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
       "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
       "source": "TechCrunch",
@@ -21347,7 +21347,8 @@
       "published_at": "2026-11-25T00:12:02+00:00",
       "categories": [
         "AI",
-        "TC"
+        "Jensen Huang",
+        "nvidia"
       ]
     },
     {
@@ -21789,6 +21790,30 @@
       "published_at": "2026-11-24T17:58:04+00:00",
       "categories": [
         "Streaming"
+      ]
+    },
+    {
+      "item_id": "dfd19af8c0096c521222e6f43581622c8cebb5ad09fef41fecf5a38a0889b731",
+      "title": "How to watch every 2026 NFL Thanksgiving game on streaming",
+      "url": "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming/",
+      "summary": "Thanksgiving Eve brings a first-ever NFL game, plus three more on Turkey Day. Here's where to stream every matchup in 2026 without missing a snap.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/how-to-watch-every-2026-nfl-thanksgiving-game-on-streaming/l-intro-1795111963.jpg",
+      "published_at": "2026-11-25T10:00:00+00:00",
+      "categories": [
+        "Streaming"
+      ]
+    },
+    {
+      "item_id": "803e5d7b6840c52659ed432aba185050c41535e12770ad98b8779e5150c635e2",
+      "title": "Amazon Autos is coming to the UK in its first expansion outside the US",
+      "url": "https://www.engadget.com/2327693/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us/",
+      "summary": "Amazon Autos will start selling cars in the UK early next year, marking the first time it has expanded outside the US.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us/l-intro-1795598015.jpg",
+      "published_at": "2026-11-25T09:15:37+00:00",
+      "categories": [
+        "News"
       ]
     }
   ]
