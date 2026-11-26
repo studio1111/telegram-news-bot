@@ -22403,6 +22403,84 @@
         "News",
         "Tech"
       ]
+    },
+    {
+      "item_id": "0a40ebda91c669bf356cdd5f5b9c2f4d81211d5ba5a75260c46d694d4ed0180a",
+      "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
+      "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+      "summary": "The FCC has granted SpaceX's request to deploy 1 million satellites to build an AI data center in orbit.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/l-intro-1795690830.jpg",
+      "published_at": "2026-11-26T11:01:32+00:00",
+      "categories": [
+        "AI"
+      ]
+    },
+    {
+      "item_id": "f4c65463e77afd2412fec069c4a65c92b0a279df3b073161abf87eb63fac82fa",
+      "title": "X is finally getting its first parental controls",
+      "url": "https://www.theverge.com/news/1043078/x-parental-controls-features",
+      "summary": "X is finally rolling out parental controls that allow parents and guardians to manage teens' accounts on the platform. While teens will retain ownership of their own account, parents and guardians will be able to see how much time their child has spent on X, set daily limits, require approval for new followers, and limit [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/STK160_X_TWITTER_2__A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-26T10:45:50+00:00",
+      "categories": [
+        "News",
+        "Social Media",
+        "Tech",
+        "Twitter - X"
+      ]
+    },
+    {
+      "item_id": "41301a06f06f7afd162a2bde0fd9c7c1ff1c6321235170ee04c8543cc703fed0",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-26T09:54:40+00:00",
+      "categories": [
+        "AI",
+        "Law",
+        "News",
+        "Policy"
+      ]
+    },
+    {
+      "item_id": "961ddf00f5463d7ff9346ef5b5df5cf2a9393952cf399007122f0c9cfd88a307",
+      "title": "X is adding its first-ever parental controls",
+      "url": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
+      "summary": "X (and Twitter before it) have never really had real parental controls. Until now.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/l-intro-1795684809.jpg",
+      "published_at": "2026-11-26T09:26:24+00:00",
+      "categories": [
+        "Social Media"
+      ]
+    },
+    {
+      "item_id": "9491e4a83c060e1087fb6850fe435f722200623a6a7e1c719a065ecbe94b8f39",
+      "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+      "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+      "summary": "Elon Musk's Neuralink has received FDA permission to launch the first trial for its brain-computer interface.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/neuralink-receives-fda-approval-for-pivotal-brain-implant-trial-in-als-patients/l-intro-1795677911.jpg",
+      "published_at": "2026-11-26T07:28:21+00:00",
+      "categories": [
+        "News"
+      ]
+    },
+    {
+      "item_id": "240d81fd8dcc2a83467526f1a3b5f91d9455269175fcf0bef96e63433b45ba6d",
+      "title": "New York state bans AI chatbot toys for kids",
+      "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
+      "summary": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/new-york-state-bans-ai-chatbot-toys-for-kids/l-intro-1795672791.jpg",
+      "published_at": "2026-11-26T06:02:48+00:00",
+      "categories": [
+        "AI"
+      ]
     }
   ]
 }
