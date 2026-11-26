@@ -22129,7 +22129,7 @@
     },
     {
       "item_id": "40eefb775c276c16432cd97d7204a7c9a8f9881a9fb5aab517a5aa70ad6f07b5",
-      "title": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
+      "title": "Allstate suffers multiday tech outage ahead of Thanksgiving",
       "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
       "summary": "The disruption comes at a particularly bad time for the insurance giant, as millions of Americans prepare to travel for the Thanksgiving holiday weekend.",
       "source": "TechCrunch",
@@ -22271,6 +22271,137 @@
       "categories": [
         "Apps",
         "Meta"
+      ]
+    },
+    {
+      "item_id": "039f5ecbfbde95c5586d4ca9067f4ec1729dfd7eeb7eacb2e0ebe9c33adb802b",
+      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
+      "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+      "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23451196/acastro_220510_STK123_0002.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-26T00:04:34+00:00",
+      "categories": [
+        "Google",
+        "News",
+        "Smart Home",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "b7b0b4d38b4bf424b5185ac189dbe37e92d3529b266af4d66aa0105ff4401e07",
+      "title": "Amazon loses its latest attempt to get out of handling more recall notices",
+      "url": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
+      "summary": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which argued that Amazon is a distributor of goods, not a logistics provider, making it [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23935558/acastro_STK103__01.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-25T23:56:44+00:00",
+      "categories": [
+        "Amazon",
+        "News",
+        "Online Shopping",
+        "Policy",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "0e847a5de397ead06974b3e38863a53c02d91b604ab4a53d46cb3169937d45fe",
+      "title": "We reviewed these 10 gadgets, and they're now on sale for Black Friday",
+      "url": "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
+      "summary": "Multiple gadgets from Engadget's Best of 2026 list are already on sale, including Samsung's flagship foldable and Apple's ultra-popular entry-level laptop.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/we-reviewed-these-10-gadgets-and-theyre-now-on-sale-for-black-friday/l-intro-1795649274.jpg",
+      "published_at": "2026-11-25T23:36:46+00:00",
+      "categories": [
+        "Buying Guides"
+      ]
+    },
+    {
+      "item_id": "141f86f68da2818d5f58c200478aa25c8342f9df95aab210e256fba062594be2",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-25T22:44:32+00:00",
+      "categories": [
+        "AI",
+        "credit rating",
+        "In Brief",
+        "nvidia"
+      ]
+    },
+    {
+      "item_id": "d37a5cbe92415b071639126d23bed010684f01445a2cf94f0aea85e1e2fc0bae",
+      "title": "Can you play GTA 6 from an external hard drive on PS5 or Xbox Series X/S?",
+      "url": "https://www.engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive/",
+      "summary": "With a hefty install size, GTA 6 will take up a significant chunk of your PS5 or Xbox Series X/S storage space.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/can-you-play-gta-6-from-an-external-hard-drive-on-ps5-or-xbox-series-xs/l-intro-1795642883.jpg",
+      "published_at": "2026-11-25T22:07:07+00:00",
+      "categories": [
+        "Gaming"
+      ]
+    },
+    {
+      "item_id": "5cc95a26adb597b13b39b8754336caee0ef6b255071e096cbfe275b6bc974522",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-25-at-11.34.07-AM.png?quality=90&strip=all&crop=2.859375,3.7218027238494,93.788122558594,91.658221639303",
+      "published_at": "2026-11-25T21:51:26+00:00",
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Film",
+        "Google",
+        "Streaming",
+        "Tech",
+        "TV Shows"
+      ]
+    },
+    {
+      "item_id": "82995523c09e64dfc55b33c47bd74284a02f18265cb9287f3f70483f0ce5c81a",
+      "title": "7 gadgets that'll instantly upgrade your Thanksgiving feast",
+      "url": "https://www.engadget.com/2328767/gadgets-instantly-upgrade-thanksgiving-feast/",
+      "summary": "These tools will make turkey day just a little easier.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/7-cool-gadgets-to-instantly-upgrade-your-thanksgiving-feast/l-intro-1795617573.jpg",
+      "published_at": "2026-11-25T21:41:43+00:00",
+      "categories": [
+        "Buying Guides"
+      ]
+    },
+    {
+      "item_id": "ebe88b1782eb6cd88fc57239a0b667581a71c9032ab662d9e5ace653afadb55c",
+      "title": "FCC approves SpaceX plan to put AI data centers in space",
+      "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+      "summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
+      "source": "TechCrunch",
+      "image_url": "",
+      "published_at": "2026-11-25T20:56:44+00:00",
+      "categories": [
+        "Space",
+        "data centers",
+        "Elon Musk",
+        "FCC",
+        "SpaceX"
+      ]
+    },
+    {
+      "item_id": "02753834d7cadfb09502ff483bbfa482f4a503b477c99399ee960d657bc8236f",
+      "title": "WhatsApp’s new scheduled messages let you choose the right time to send",
+      "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
+      "summary": "WhatsApp's 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for a very long time, but now it's on WhatsApp too. If you think of a [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/whatsapp-scheduled-messages-launch.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-25T20:31:48+00:00",
+      "categories": [
+        "Apps",
+        "Meta",
+        "News",
+        "Tech"
       ]
     }
   ]
