@@ -1,66 +1,6 @@
 {
   "schema_version": 6,
   "seen": [
-    "9a1a8059955fac57bb0a55e1f6599619654427d7cba427a7cc782ee8f600033c",
-    "9d5f97721bff5fccfd1dd9461b22bec0a9ef700cfeb106ecd8c3df8e48076447",
-    "a48ebe22a2dd9e3cc1eff574417070c1ba8375a448dd44228722a96a3194b0d0",
-    "aa4ea1fa9c8656d906a31a4ef8dcdbedd796ce30c85341f69d885d8225162cb7",
-    "ab95e28493d30641fe89815a0d366c94f87d813d34985fa4bea8188e199e4c4e",
-    "ad6b2a78f6ed8c426cd1d73c326ec8730c4fbb4bff137093048d4fa8409272e0",
-    "af131a74cbc365b217b71442812fc62e583034cd34f3970c7190a6378b988548",
-    "af7d655c34046fec527359aed1d0735781dd3e16f9536ab10a13e7ac4f401c66",
-    "b7056ddf19eb7ea2470072aeafa54739d90391ba14d9105e47601b43fe62dd14",
-    "b88c04810f121c253659cba21bd60989f0505662803f6632592d5fc7370aa8b5",
-    "babec4f381c3962463fcd0b2ca3d1ed4f3ae0e666b9057cd7915734cd75b976c",
-    "c7611731d3a05f2034ff803afb1704f5e2157811a4ef7363ec0ef8e5febc4268",
-    "c89001f6b108db640388a559e0028fde79fdb0de88a8492cde9ca488a78c3ede",
-    "d09e4f4c0869e274840bab836dd6be2464d57df7bf025eafaa38220cd8026a20",
-    "d5b0fb6fc24e65b7c8e5aa48749cf14c5f42c98643add8bdf804a58a95fe3d45",
-    "d6bf367de2a6904202592884de04333e2993d3112a385667bc8d2b46f813b9f9",
-    "d707342a5b70d13ad1a69c331ec799a13d13434e29ca58925e8518a5d15b0f84",
-    "dd045bb0f4babe94688e3d7563126d4dbbdf03264eecfd83b6b61457394a08e3",
-    "de75e98d4879b9b04b7244b8976645aa25fcf2734e9165ec52ae0fd5c4fe029c",
-    "e31d652648b538835e033bff2bd9a1b1489e0de2dee7f3a1cf7620a086e91834",
-    "ec98694e3417d4084aeb7f813e7ed23d2b20772520394de25b58800b60e0b15d",
-    "f9e551cd111843ad158e8f60b293f6c4ec14d5fce0794065dd2170da47b0f291",
-    "fd5d21fd773e29b68fac947a94be4719e254d39b30b686d0bc5c61b60ef52e1a",
-    "fe9e6a5b2564f0bdd035deb0128f107baea72c8d0e77f091fad329b39e2114c2",
-    "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
-    "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-    "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-    "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
-    "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-    "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
-    "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/",
-    "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-    "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
-    "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
-    "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-    "https://techcrunch.com/2026/11/02/northwood-space-raises-375m-series-c-at-a-2b-valuation-from-a16z-and-dfj-growth/",
-    "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-    "https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers/",
-    "https://techcrunch.com/2026/11/02/snap-settles-lawsuit-accusing-platform-of-fueling-teen-depression-and-eating-disorders/",
-    "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon/",
-    "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
-    "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
-    "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
-    "https://www.engadget.com/2299525/ipad-widgets-didnt-realize-existed/",
-    "https://www.engadget.com/2300324/android-auto-next-update-could-upset-work-life-balance/",
-    "https://www.engadget.com/2300327/google-maps-features-work-better-android-auto-vs-carplay/",
-    "https://www.engadget.com/2300332/how-long-new-apple-tv-last-lifespan/",
-    "https://www.engadget.com/2300335/how-to-add-rearrange-apps-samsung-smart-tv/",
-    "https://www.engadget.com/2300357/websites-blocking-ai-agents-from-web/",
-    "https://www.engadget.com/2300367/what-apple-airpods-chirping-noise-means-battery/",
-    "https://www.engadget.com/2300381/chinese-android-phone-brand-realme-harry-potter-collaboration/",
-    "https://www.engadget.com/2302571/think-twice-before-putting-gaming-console-inside-cabinet/",
-    "https://www.engadget.com/2302835/dell-xps-googlebook-review/",
-    "https://www.engadget.com/2303590/apple-is-reportedly-launching-three-new-ipads-early-next-year/",
-    "https://www.engadget.com/2304301/spacex-is-reportedly-looking-at-buying-boost-mobile-or-using-its-cell-network/",
-    "https://www.engadget.com/2304464/snap-settles-social-media-addiction-lawsuit-to-avoid-trial/",
-    "https://www.engadget.com/2304552/casio-new-keyboard-lets-anyone-play-along-to-songs-without-ever-hitting-a-wrong-note/",
-    "https://www.engadget.com/2305017/apple-start-mandating-age-requirements-dating-apps/",
-    "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
-    "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
     "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
     "https://www.theverge.com/gadgets/1024416/apple-watch-ultra-4-ugreen-finetrack-2-bluetooth-tracker-deal-sale",
     "https://www.theverge.com/news/1024649/xbox-chief-operating-officer-helen-chiang-depature-comments",
@@ -5000,7 +4940,67 @@
     "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
     "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
     "https://www.theverge.com/games/1036279/gta-vi-sales",
-    "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label"
+    "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
+    "058cfaca3ca3d2aaae4c9bae5e3c867538abe89aa7d3adf2c4913549a5937146",
+    "0b4347e062238c83830e0f10347da72536c05251f1ea570c84a7fc721fbcb9f9",
+    "146db577687c43723ce316c4ba7407e791f68b3c5fa86ec7b081e73548c76705",
+    "20d72e122b26c4ed08be11605121219e7746ba357b5dcf9e8a8b74de1ccb06ad",
+    "25c3b79eaccb16f6a97e5919161f24bea678730d63f1db9cc99fadc574621036",
+    "374156ec41ce16dd5171e149309ec9eec760d10a0a637daca35f51e2c30914d0",
+    "4928fd9bce1205d3743f9203b10dc7ebe1bd285a096f9c1f3f0edda69370737c",
+    "4c2fc27660487ca18157428f17526dcfd5dd90f8067515392ec4fd14755ba9d1",
+    "502029b740a5cbbdbecf4868a885fc7cfbbf2d58693db38a28cc3807ed870a0f",
+    "5528bef8ac6c901e1d451dac2066a7238b501aa43bdaee9499d39fb7198efd56",
+    "5658732ea630e2feaa4b3f3631461b5434b4da555520bfc1a17b5ffb8a54954a",
+    "5c3c2fa3f1c96b687ea97c70b4cc573485368bfb9bdc3139a90a65a97eff37c7",
+    "733e98717bb69779c783c7c681023e7fe945362fdd230d67100de811484f7201",
+    "87d38b3c2cc90cbb534a74f866f6380594490d66e63bc432993a985a325a38d6",
+    "8851cf09dabb23d9cd940cf270e09a4bd719070d5d1ee3b6e3bb8ca865280787",
+    "8c4ddc92357c6a366b24ac067a0d808ec611f14e45791ba808e4e311717b6a0f",
+    "961ddf00f5463d7ff9346ef5b5df5cf2a9393952cf399007122f0c9cfd88a307",
+    "9ff2c49f7e145952df0c643c8bf7bb132c15cb0320d2f36826d781c4c23c914d",
+    "a89ba7a85a718073579cadb99ee5901d47b06cdb5d8442b5d549cb2c0488da54",
+    "b6a79ad9c982b9eaa418a199902aa76b2455f367a53738f2e16b645917dd2766",
+    "b832fe9f13b0dd9f9b7b43b420c6e93bfd43c16981e8ab485c79569bc6b5747c",
+    "c137f8f840cf11d5bead7c7bba0693ef925ac78921ae72c91d12ed3284ae414f",
+    "ce6ae15988c0ce0c3ebb1e5bc779690553e372836abee53348a675142b81a133",
+    "df9a553e29c9e53eeedc2079bffe4e9d1a00bcabce058f8badc18b2f31949387",
+    "e9295b2c160c5c6d15ced7cb0e53a515191d36d57d12b517668714b3ebd949aa",
+    "ebe88b1782eb6cd88fc57239a0b667581a71c9032ab662d9e5ace653afadb55c",
+    "f4c65463e77afd2412fec069c4a65c92b0a279df3b073161abf87eb63fac82fa",
+    "fa2cd902e54de7216f4a6f2df8e3413dd861f15a8feeed056d6fce9308d5ced8",
+    "fde19a656de2d1c89149c231107a5da0598d66488d81966d05d6f62d648c7a05",
+    "fe2ec22493f340bcf6eccff1b70923f69b70322b8fd97cac92e622b5a21d2af5",
+    "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+    "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+    "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+    "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+    "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+    "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+    "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+    "https://www.engadget.com/2320174/how-to-clear-cache-fire-tv/",
+    "https://www.engadget.com/2320284/how-block-ai-slop-spam-social-media-platforms/",
+    "https://www.engadget.com/2320357/why-faa-doesnt-want-airpods-in-luggage/",
+    "https://www.engadget.com/2321241/how-much-replace-tesla-battery-out-of-warranty/",
+    "https://www.engadget.com/2325643/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty/",
+    "https://www.engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/",
+    "https://www.engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist/",
+    "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
+    "https://www.engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages/",
+    "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
+    "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
+    "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+    "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+    "https://www.theverge.com/gadgets/1042841/apple-airtag-2-black-friday-deal-2026-sale",
+    "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
+    "https://www.theverge.com/news/1043078/x-parental-controls-features",
+    "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
+    "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+    "https://www.theverge.com/tech/1041034/bambu-p3c-3d-printer-price-release-date",
+    "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+    "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+    "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+    "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
   ],
   "published_stories": [
     {
@@ -20158,7 +20158,7 @@
       "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
       "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
       "published_at": "2026-11-23T20:38:53+00:00",
       "categories": [
         "AI",
@@ -20252,24 +20252,12 @@
       ]
     },
     {
-      "item_id": "25c3b79eaccb16f6a97e5919161f24bea678730d63f1db9cc99fadc574621036",
-      "title": "The infamous GTA 6 hacker has been released after pleading guilty",
-      "url": "https://www.engadget.com/2325643/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty/",
-      "summary": "A judge warned the hacker not to \"let this happen again.\"",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty/l-intro-1795462891.jpg",
-      "published_at": "2026-11-23T19:42:43+00:00",
-      "categories": [
-        "Gaming"
-      ]
-    },
-    {
       "item_id": "d3e9f196fb9deedae05eebb3b6b01ee25cc09b51955004c9a24bb2605c3d8395",
       "title": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia",
       "url": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
       "summary": "Politicians on both sides of the aisle seem angry, agitated, and nonplussed by the return of Jensen Huang to Nvidia leadership less than two weeks after his ousting.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024",
       "published_at": "2026-11-23T19:31:41+00:00",
       "categories": [
         "Government & Policy",
@@ -20309,7 +20297,7 @@
       "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/ai-mode-google.jpg?resize=1200,800",
       "published_at": "2026-11-23T19:14:46+00:00",
       "categories": [
         "AI",
@@ -20342,36 +20330,6 @@
       ]
     },
     {
-      "item_id": "4928fd9bce1205d3743f9203b10dc7ebe1bd285a096f9c1f3f0edda69370737c",
-      "title": "How to clear the cache on your Fire TV",
-      "url": "https://www.engadget.com/2320174/how-to-clear-cache-fire-tv/",
-      "summary": "Cache keeps software running smoothly, but can lead to problems if it gets too big and your device runs out of storage - which is quite easy with Fire TV.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-your-fire-tv/l-intro-1794985217.jpg",
-      "published_at": "2026-11-23T18:15:00+00:00",
-      "categories": [
-        "Amazon",
-        "TV & Movies"
-      ]
-    },
-    {
-      "item_id": "fa2cd902e54de7216f4a6f2df8e3413dd861f15a8feeed056d6fce9308d5ced8",
-      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
-      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
-      "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-23T18:12:22+00:00",
-      "categories": [
-        "AI",
-        "Government & Policy",
-        "Congress",
-        "In Brief",
-        "Jensen Huang",
-        "nvidia"
-      ]
-    },
-    {
       "item_id": "93dff113e922ec44f386b2d85d5412986e28c0605cf3fa28b9f4144d08272795",
       "title": "The Samsung Odyssey G6 G60H is the world's first 1,100Hz gaming monitor",
       "url": "https://www.engadget.com/2325384/samsung-odyssey-g6-g60h-is-the-worlds-first-1100hz-gaming-monitor/",
@@ -20382,19 +20340,6 @@
       "categories": [
         "Computing",
         "Samsung"
-      ]
-    },
-    {
-      "item_id": "8c4ddc92357c6a366b24ac067a0d808ec611f14e45791ba808e4e311717b6a0f",
-      "title": "You can block AI slop and spam on these social media platforms",
-      "url": "https://www.engadget.com/2320284/how-block-ai-slop-spam-social-media-platforms/",
-      "summary": "Some sites offer tools to filter the slop out of your feeds, while doing so on others will require some dedicated effort.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/you-can-block-ai-slop-and-spam-on-these-social-media-platforms/l-intro-1794769415.jpg",
-      "published_at": "2026-11-23T17:45:00+00:00",
-      "categories": [
-        "AI",
-        "Social Media"
       ]
     },
     {
@@ -20415,7 +20360,7 @@
       "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
       "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg?resize=1200,800",
       "published_at": "2026-11-23T17:14:23+00:00",
       "categories": [
         "AI",
@@ -20434,7 +20379,7 @@
       "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
       "summary": "Meta walked back its 2030 net-zero goal in its 2026 sustainability report, a decision that could send ripples throughout the tech industry.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2161943637.jpeg?resize=1200,800",
       "published_at": "2026-11-23T17:13:45+00:00",
       "categories": [
         "Climate",
@@ -20462,7 +20407,7 @@
       "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
       "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
       "published_at": "2026-11-23T16:57:40+00:00",
       "categories": [
         "AI",
@@ -20490,7 +20435,7 @@
       "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
       "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2277839095.jpg?w=1024",
       "published_at": "2026-11-23T16:39:10+00:00",
       "categories": [
         "AI",
@@ -20505,7 +20450,7 @@
       "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
       "summary": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/crowdstrike-2162041873.jpg?resize=1200,800",
       "published_at": "2026-11-23T16:20:11+00:00",
       "categories": [
         "Security",
@@ -20558,7 +20503,7 @@
       "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
       "summary": "The Netherlands' data protection agency said smart wearables violate people's privacy, get information wrong, and can result in unsafe situations.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-2173579243.jpg?resize=1200,799",
       "published_at": "2026-11-23T15:29:49+00:00",
       "categories": [
         "Gadgets",
@@ -20577,7 +20522,7 @@
       "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
       "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297572109.jpg?w=1024",
       "published_at": "2026-11-23T15:04:01+00:00",
       "categories": [
         "AI",
@@ -20593,7 +20538,7 @@
       "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
       "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/10/AP22166762816752.jpg?w=1200",
       "published_at": "2026-11-23T14:43:03+00:00",
       "categories": [
         "AI",
@@ -20610,7 +20555,7 @@
       "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
       "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
       "published_at": "2026-11-23T14:21:59+00:00",
       "categories": [
         "AI",
@@ -20625,7 +20570,7 @@
       "url": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/",
       "summary": "The option, which uses the front camera of the Uber driver's phone to record the entire drive, will show up as \"Recorded Rides\" in the app.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800",
       "published_at": "2026-11-23T14:00:00+00:00",
       "categories": [
         "Apps",
@@ -20746,7 +20691,7 @@
       "url": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
       "summary": "Figma and its CEO are being sued by a current employee for alleged sexual harassment and discrimination.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1222551151.jpg?resize=1200,877",
       "published_at": "2026-11-23T23:07:49+00:00",
       "categories": [
         "Startups",
@@ -20802,24 +20747,12 @@
       ]
     },
     {
-      "item_id": "146db577687c43723ce316c4ba7407e791f68b3c5fa86ec7b081e73548c76705",
-      "title": "How much does it cost to replace an out-of-warranty Tesla battery?",
-      "url": "https://www.engadget.com/2321241/how-much-replace-tesla-battery-out-of-warranty/",
-      "summary": "Check out what goes into a Tesla battery bill beyond the pack itself, and know when a repair, a refurbished pack or extra coverage makes sense for you.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/how-much-does-it-cost-to-replace-an-out-of-warranty-tesla-battery/l-intro-1794923761.jpg",
-      "published_at": "2026-11-24T17:45:00+00:00",
-      "categories": [
-        "EVs and Transportation"
-      ]
-    },
-    {
       "item_id": "fab3ffe0dd07fdf52a2bc532ba4af922d91381befbcea4c5425f30e2f9ab61e7",
       "title": "Threads comes to iPad and takes a page from X’s playbook with cashtags",
       "url": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/",
       "summary": "The addition of live stock quotes and charts could help Threads attract the financial community that has historically relied on X.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/threads-app-store-GettyImages-2262056893.jpg?w=1024",
       "published_at": "2026-11-24T17:44:34+00:00",
       "categories": [
         "Apps",
@@ -20850,7 +20783,7 @@
       "url": "https://techcrunch.com/2026/11/24/electric-truck-startup-harbinger-gets-financing-boost-from-palmer-luckeys-bank/",
       "summary": "Harbinger has tapped Palmer Luckey's Erebor Bank as a new source of capital as the electric truck startup looks to diversify how it funds its growth.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/harbinger.jpeg?resize=1200,799",
       "published_at": "2026-11-24T17:29:09+00:00",
       "categories": [
         "Transportation",
@@ -20893,7 +20826,7 @@
       "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
       "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
       "published_at": "2026-11-24T17:00:00+00:00",
       "categories": [
         "AI",
@@ -20922,7 +20855,7 @@
       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
       "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/tidal-brand.jpg?w=720",
       "published_at": "2026-11-24T16:46:00+00:00",
       "categories": [
         "AI",
@@ -20952,7 +20885,7 @@
       "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
       "summary": "Uber and Nuro have started testing driverless Lucid Gravity SUVs on public streets in the San Francisco Bay Area.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/uber-nuro-Driverless-Image-.jpg?resize=1200,675",
       "published_at": "2026-11-24T16:40:46+00:00",
       "categories": [
         "Transportation",
@@ -21030,24 +20963,12 @@
       ]
     },
     {
-      "item_id": "4c2fc27660487ca18157428f17526dcfd5dd90f8067515392ec4fd14755ba9d1",
-      "title": "Commerce Department adds Megaspeed to trade blacklist",
-      "url": "https://www.engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist/",
-      "summary": "No American company, including NVIDIA, can sell technologies to Megaspeed without a license from the federal government.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/commerce-department-adds-megaspeed-to-trade-blacklist/l-intro-1795536612.jpg",
-      "published_at": "2026-11-24T16:11:17+00:00",
-      "categories": [
-        "Cybersecurity"
-      ]
-    },
-    {
       "item_id": "1d1a97a07ec90879bbb44e801ea8c3f9c5046c2c65f4d557c1ae5c0532b70326",
       "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
       "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
       "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1373266060.jpg?resize=1200,800",
       "published_at": "2026-11-24T16:10:00+00:00",
       "categories": [
         "AI",
@@ -21080,7 +21001,7 @@
       "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
       "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/pinterest-header.jpg?resize=1200,800",
       "published_at": "2026-11-24T16:02:37+00:00",
       "categories": [
         "AI",
@@ -21088,22 +21009,6 @@
         "Social",
         "ai generated content",
         "Pinterest"
-      ]
-    },
-    {
-      "item_id": "fe2ec22493f340bcf6eccff1b70923f69b70322b8fd97cac92e622b5a21d2af5",
-      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
-      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-      "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-24T15:51:07+00:00",
-      "categories": [
-        "AI",
-        "Amazon",
-        "decart",
-        "Mergers and Acquisitions",
-        "trainium"
       ]
     },
     {
@@ -21195,39 +21100,12 @@
       ]
     },
     {
-      "item_id": "374156ec41ce16dd5171e149309ec9eec760d10a0a637daca35f51e2c30914d0",
-      "title": "Bambu’s five-nozzle P3C isn’t quite the 3D printer I expected",
-      "url": "https://www.theverge.com/tech/1041034/bambu-p3c-3d-printer-price-release-date",
-      "summary": "Three weeks ago, Bambu Lab introduced the state of the art in home printing tech at $2,499 - now, you can get many of its fancy new features for less than half the price. Like that bigger H3C, the new $1,149 Bambu P3C can also swap between materials on the fly, mix different colors to [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/KV.jpg?quality=90&strip=all&crop=11.782117505974,5.2563716547388,81.791662183126,88.1517735134",
-      "published_at": "2026-11-24T14:00:00+00:00",
-      "categories": [
-        "Gadgets",
-        "Hands-on",
-        "Reviews",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "87d38b3c2cc90cbb534a74f866f6380594490d66e63bc432993a985a325a38d6",
-      "title": "Why the FAA doesn't want you to put AirPods in your luggage",
-      "url": "https://www.engadget.com/2320357/why-faa-doesnt-want-airpods-in-luggage/",
-      "summary": "Here's what aviation regulators think about the AirPods in your luggage, plus a few tips that can get you and your gadgets through security faster.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/why-the-faa-doesnt-want-you-to-put-airpods-in-your-luggage/l-intro-1794925800.jpg",
-      "published_at": "2026-11-24T13:45:00+00:00",
-      "categories": [
-        "Apple"
-      ]
-    },
-    {
       "item_id": "7ea60c1763da7fcf2edd9ab4e1db6868028b03eb56cca6e739ba913338f0cb5e",
       "title": "Huang reportedly admitted to more than two affairs to Nvidia’s board",
       "url": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
       "summary": "During a meeting before his reinstatement, Huang admitted to more affairs beyond the two that have been reported in the news, according to The Wall Street Journal.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/03/GTC-2024-Jensen-Huang-TechCrunch-Haje-Kamps.jpg?resize=1200,675",
       "published_at": "2026-11-24T13:29:53+00:00",
       "categories": [
         "Hardware",
@@ -21248,18 +21126,6 @@
         "Entertainment",
         "TV & Movies",
         "Streaming"
-      ]
-    },
-    {
-      "item_id": "9ff2c49f7e145952df0c643c8bf7bb132c15cb0320d2f36826d781c4c23c914d",
-      "title": "Uber and Lucid start testing fully driverless rides for their robotaxis in San Francisco",
-      "url": "https://www.engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/",
-      "summary": "Uber's Lucid-made robotaxis, powered by Nuro, are almost ready to give rides to the public.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/l-intro-1795524624.jpg",
-      "published_at": "2026-11-24T13:00:00+00:00",
-      "categories": [
-        "EVs and Transportation"
       ]
     },
     {
@@ -21343,7 +21209,7 @@
       "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
       "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-ChatGPT.png?resize=1200,675",
       "published_at": "2026-11-25T00:12:02+00:00",
       "categories": [
         "AI",
@@ -21357,7 +21223,7 @@
       "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
       "summary": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelligence who previously worked for a company that has been accused of illegally diverting Nvidia chips to China.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297774940.jpg?resize=1200,832",
       "published_at": "2026-11-25T00:10:27+00:00",
       "categories": [
         "Government & Policy",
@@ -21458,43 +21324,12 @@
       ]
     },
     {
-      "item_id": "8851cf09dabb23d9cd940cf270e09a4bd719070d5d1ee3b6e3bb8ca865280787",
-      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-      "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-24T22:27:52+00:00",
-      "categories": [
-        "AI",
-        "Jensen Huang",
-        "nvidia"
-      ]
-    },
-    {
-      "item_id": "0b4347e062238c83830e0f10347da72536c05251f1ea570c84a7fc721fbcb9f9",
-      "title": "Huawei found guilty of stealing trade secrets",
-      "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-      "summary": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from several companies, including T-Mobile, Cisco, and [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302952808.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-24T22:23:27+00:00",
-      "categories": [
-        "Huawei",
-        "Mobile",
-        "News",
-        "Policy",
-        "Politics",
-        "Tech"
-      ]
-    },
-    {
       "item_id": "fb597cf8caf60976e9f578baec787f14e6fdef2f67d18db0a0c76fcdc106860a",
       "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
       "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
       "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
       "published_at": "2026-11-24T21:48:27+00:00",
       "categories": [
         "AI",
@@ -21524,7 +21359,7 @@
       "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
       "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296543552.jpg?w=1024",
       "published_at": "2026-11-24T21:33:29+00:00",
       "categories": [
         "AI",
@@ -21545,7 +21380,7 @@
       "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
       "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/muse-walmart.png?w=1200",
       "published_at": "2026-11-24T21:32:38+00:00",
       "categories": [
         "AI",
@@ -21562,7 +21397,7 @@
       "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
       "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/01-maple-hero-chargebacks-photo-16x9-1.png?resize=1200,675",
       "published_at": "2026-11-24T21:19:52+00:00",
       "categories": [
         "AI",
@@ -21594,7 +21429,7 @@
       "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
       "summary": "Iran is the chief suspect behind the dozens of cyberattacks targeting oil and chemical shipping vessels.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/oil-tanker-1244308661.jpg?resize=1200,800",
       "published_at": "2026-11-24T21:09:04+00:00",
       "categories": [
         "Security",
@@ -21649,22 +21484,6 @@
         "Nvidia",
         "Policy",
         "Politics",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "058cfaca3ca3d2aaae4c9bae5e3c867538abe89aa7d3adf2c4913549a5937146",
-      "title": "The clock is running out for America’s most contentious spying law",
-      "url": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-      "summary": "Weeks before the end of the legislative session, some members of Congress are scrambling to reauthorize a controversial warrantless wiretapping authority, possibly by attaching it to a must-pass military spending bill. Sen. Mike Rounds (R-SD) told Politico that Section 702 of the Foreign Intelligence Surveillance Act (FISA) could be attached to the National Defense Authorization [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK471_Government_Surveillance_CVirginia_E.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-24T20:00:00+00:00",
-      "categories": [
-        "Policy",
-        "Politics",
-        "Privacy",
-        "Report",
         "Tech"
       ]
     },
@@ -21728,7 +21547,7 @@
       "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
       "published_at": "2026-11-24T18:30:42+00:00",
       "categories": [
         "AI",
@@ -21757,7 +21576,7 @@
       "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
       "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/08/password-stealing-malware.jpg?resize=1200,800",
       "published_at": "2026-11-24T18:02:59+00:00",
       "categories": [
         "AI",
@@ -21817,24 +21636,12 @@
       ]
     },
     {
-      "item_id": "5528bef8ac6c901e1d451dac2066a7238b501aa43bdaee9499d39fb7198efd56",
-      "title": "State AGs are trying to stop Character.AI from auctioning off users' chat histories",
-      "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
-      "summary": "The proposed sale would include explicit conversations with children, officials say.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/state-ags-are-trying-to-stop-character-ai-from-auctioning-off-users-chat-histories/l-intro-1795637016.jpg",
-      "published_at": "2026-11-25T20:04:07+00:00",
-      "categories": [
-        "AI"
-      ]
-    },
-    {
       "item_id": "6559d8867ac971abda8ea5da3042c7363283ac7762e22cd844935773563c5f45",
       "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
       "published_at": "2026-11-25T20:03:27+00:00",
       "categories": [
         "AI",
@@ -21861,7 +21668,7 @@
       "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
       "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2227140868.jpg?w=1024",
       "published_at": "2026-11-25T19:54:57+00:00",
       "categories": [
         "AI",
@@ -21876,7 +21683,7 @@
       "url": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
       "summary": "The Tesla Cybertruck was the fastest-selling used truck last month, averaging just 39.1 days on the market compared to 65.5 days for trucks overall.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/tesla-cybertruck-fleet.jpg?resize=1200,800",
       "published_at": "2026-11-25T19:54:32+00:00",
       "categories": [
         "Transportation",
@@ -21906,7 +21713,7 @@
       "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
       "published_at": "2026-11-25T19:44:24+00:00",
       "categories": [
         "AI",
@@ -21916,42 +21723,12 @@
       ]
     },
     {
-      "item_id": "ce6ae15988c0ce0c3ebb1e5bc779690553e372836abee53348a675142b81a133",
-      "title": "1Password breach leaked customer names and emails, but not passwords",
-      "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-      "summary": "1Password says a hacker stole customer names and email addresses after gaining access to its backend systems. The breach didn't expose passwords or other information stored in customer vaults, but could put users at risk of phishing attempts, according to a post disclosing the incident. It's unclear how many users are affected. The password manager [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKB339_1PASSWORD.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-25T19:10:15+00:00",
-      "categories": [
-        "News",
-        "Security",
-        "Tech"
-      ]
-    },
-    {
-      "item_id": "733e98717bb69779c783c7c681023e7fe945362fdd230d67100de811484f7201",
-      "title": "1Password said hackers broke into its internal systems, but customer passwords are safe",
-      "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
-      "summary": "The password manager maker said an attacker gained access to an employee's corporate account and took some information about customers.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-25T18:49:52+00:00",
-      "categories": [
-        "Security",
-        "1password",
-        "cyberattack",
-        "cybersecurity",
-        "data breach"
-      ]
-    },
-    {
       "item_id": "d67819b61c31cf1286ec9be09e4057a4d1cee75be883a33c841ac6c1c6a3e98f",
       "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
       "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
       "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2237660127.jpg?resize=1200,800",
       "published_at": "2026-11-25T18:11:46+00:00",
       "categories": [
         "AI",
@@ -22006,30 +21783,12 @@
       ]
     },
     {
-      "item_id": "e9295b2c160c5c6d15ced7cb0e53a515191d36d57d12b517668714b3ebd949aa",
-      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-      "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-25T17:44:51+00:00",
-      "categories": [
-        "AI",
-        "Elon Musk",
-        "News",
-        "Science",
-        "Space",
-        "SpaceX",
-        "Tech"
-      ]
-    },
-    {
       "item_id": "9f9d43aebe5dafcaf8e01fd38f156261a178a68cea480387ef605c1cd37b32b0",
       "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
       "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
       "summary": "U.S. prosecutors accused the former executive of defrauding victims of ransomware by paying the hackers, charging victims more, and pocketing the difference.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/ransomware-screen-1186403530.jpg?resize=1200,749",
       "published_at": "2026-11-25T17:36:51+00:00",
       "categories": [
         "Security",
@@ -22039,28 +21798,12 @@
       ]
     },
     {
-      "item_id": "502029b740a5cbbdbecf4868a885fc7cfbbf2d58693db38a28cc3807ed870a0f",
-      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-25T17:35:58+00:00",
-      "categories": [
-        "AI",
-        "Privacy",
-        "Startups",
-        "lawsuit",
-        "character.ai"
-      ]
-    },
-    {
       "item_id": "656b6151f351d816026279fd0ecd80368fa632f0745e2a60191aac5163bb8afd",
       "title": "X’s latest update for creators focuses on vertical video",
       "url": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
       "summary": "As short-form video ramps up in popularity, X's new creation tools are part of its effort to compete with YouTube and Instagram.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2258168632.jpg?w=1024",
       "published_at": "2026-11-25T17:28:29+00:00",
       "categories": [
         "Apps",
@@ -22069,34 +21812,6 @@
         "short form video",
         "social media",
         "X"
-      ]
-    },
-    {
-      "item_id": "b832fe9f13b0dd9f9b7b43b420c6e93bfd43c16981e8ab485c79569bc6b5747c",
-      "title": "WhatsApp now lets you schedule messages in group and individual chats",
-      "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
-      "summary": "Users can schedule messages from 10 minutes later to after 14 days.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-25T16:57:51+00:00",
-      "categories": [
-        "Apps",
-        "Social",
-        "In Brief",
-        "Meta",
-        "WhatsApp"
-      ]
-    },
-    {
-      "item_id": "a89ba7a85a718073579cadb99ee5901d47b06cdb5d8442b5d549cb2c0488da54",
-      "title": "WhatsApp is finally offering scheduled messages",
-      "url": "https://www.engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages/",
-      "summary": "You'll be able to schedule a text, photo or video message up to 14 days in advance.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/whatsapp-is-finally-offering-scheduled-messages/l-intro-1795625210.jpg",
-      "published_at": "2026-11-25T16:54:10+00:00",
-      "categories": [
-        "Apps"
       ]
     },
     {
@@ -22112,28 +21827,12 @@
       ]
     },
     {
-      "item_id": "b6a79ad9c982b9eaa418a199902aa76b2455f367a53738f2e16b645917dd2766",
-      "title": "Nothing offers a full look at its AI earbuds and charging case",
-      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
-      "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-25T16:00:59+00:00",
-      "categories": [
-        "AI",
-        "Gadgets",
-        "News",
-        "Tech",
-        "Wearable"
-      ]
-    },
-    {
       "item_id": "40eefb775c276c16432cd97d7204a7c9a8f9881a9fb5aab517a5aa70ad6f07b5",
       "title": "Allstate suffers multiday tech outage ahead of Thanksgiving",
       "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
       "summary": "The disruption comes at a particularly bad time for the insurance giant, as millions of Americans prepare to travel for the Thanksgiving holiday weekend.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/allstate-GettyImages-2291452807-Medium-1.jpeg?w=640",
       "published_at": "2026-11-25T15:08:37+00:00",
       "categories": [
         "Security",
@@ -22162,7 +21861,7 @@
       "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
       "summary": "Todoist said a hacker gained access to its production systems and stole customer data, including email IDs, password hashes, and account creation dates.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Todoist-feat.jpg?resize=1200,632",
       "published_at": "2026-11-25T14:20:28+00:00",
       "categories": [
         "Security",
@@ -22184,29 +21883,12 @@
       ]
     },
     {
-      "item_id": "5658732ea630e2feaa4b3f3631461b5434b4da555520bfc1a17b5ffb8a54954a",
-      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
-      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
-      "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-25T14:12:33+00:00",
-      "categories": [
-        "AI",
-        "Amazon",
-        "Meta",
-        "News",
-        "Online Shopping",
-        "Tech"
-      ]
-    },
-    {
       "item_id": "bb464b27e6df1adf9735b7addbd2e4654f630d7c93e76be7bf984adc3052f501",
       "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
       "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
       "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
       "published_at": "2026-11-25T14:10:18+00:00",
       "categories": [
         "AI",
@@ -22224,7 +21906,7 @@
       "url": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
       "summary": "Flipkart's product and technology chief Balaji Thiagarajan will lead the company alongside its board until a successor is found.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/flipkart-ceo-kalyan-krishnamurthy.jpg?resize=1200,800",
       "published_at": "2026-11-25T13:08:19+00:00",
       "categories": [
         "Commerce",
@@ -22239,7 +21921,7 @@
       "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
       "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2249127237.jpg?resize=1200,800",
       "published_at": "2026-11-25T13:00:00+00:00",
       "categories": [
         "AI",
@@ -22258,19 +21940,6 @@
       "published_at": "2026-11-25T13:00:00+00:00",
       "categories": [
         "Gaming"
-      ]
-    },
-    {
-      "item_id": "fde19a656de2d1c89149c231107a5da0598d66488d81966d05d6f62d648c7a05",
-      "title": "WhatsApp is testing stickers with sound",
-      "url": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
-      "summary": "WhatsApp's newest public beta includes the ability to create stickers with sounds.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/whatsapp-is-testing-stickers-with-sound/l-intro-1795609389.jpg",
-      "published_at": "2026-11-25T12:24:57+00:00",
-      "categories": [
-        "Apps",
-        "Meta"
       ]
     },
     {
@@ -22322,7 +21991,7 @@
       "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
       "published_at": "2026-11-25T22:44:32+00:00",
       "categories": [
         "AI",
@@ -22374,22 +22043,6 @@
       ]
     },
     {
-      "item_id": "ebe88b1782eb6cd88fc57239a0b667581a71c9032ab662d9e5ace653afadb55c",
-      "title": "FCC approves SpaceX plan to put AI data centers in space",
-      "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
-      "summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
-      "source": "TechCrunch",
-      "image_url": "",
-      "published_at": "2026-11-25T20:56:44+00:00",
-      "categories": [
-        "Space",
-        "data centers",
-        "Elon Musk",
-        "FCC",
-        "SpaceX"
-      ]
-    },
-    {
       "item_id": "02753834d7cadfb09502ff483bbfa482f4a503b477c99399ee960d657bc8236f",
       "title": "WhatsApp’s new scheduled messages let you choose the right time to send",
       "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
@@ -22417,21 +22070,6 @@
       ]
     },
     {
-      "item_id": "f4c65463e77afd2412fec069c4a65c92b0a279df3b073161abf87eb63fac82fa",
-      "title": "X is finally getting its first parental controls",
-      "url": "https://www.theverge.com/news/1043078/x-parental-controls-features",
-      "summary": "X is finally rolling out parental controls that allow parents and guardians to manage teens' accounts on the platform. While teens will retain ownership of their own account, parents and guardians will be able to see how much time their child has spent on X, set daily limits, require approval for new followers, and limit [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/STK160_X_TWITTER_2__A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-26T10:45:50+00:00",
-      "categories": [
-        "News",
-        "Social Media",
-        "Tech",
-        "Twitter - X"
-      ]
-    },
-    {
       "item_id": "41301a06f06f7afd162a2bde0fd9c7c1ff1c6321235170ee04c8543cc703fed0",
       "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
       "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
@@ -22444,18 +22082,6 @@
         "Law",
         "News",
         "Policy"
-      ]
-    },
-    {
-      "item_id": "961ddf00f5463d7ff9346ef5b5df5cf2a9393952cf399007122f0c9cfd88a307",
-      "title": "X is adding its first-ever parental controls",
-      "url": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
-      "summary": "X (and Twitter before it) have never really had real parental controls. Until now.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/l-intro-1795684809.jpg",
-      "published_at": "2026-11-26T09:26:24+00:00",
-      "categories": [
-        "Social Media"
       ]
     },
     {
@@ -22488,7 +22114,7 @@
       "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
       "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024",
       "published_at": "2026-11-26T20:03:54+00:00",
       "categories": [
         "AI"
@@ -22500,7 +22126,7 @@
       "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
       "summary": "The central, still-unproven claim in the Nvidia scandal is that Alice Huang, the former Megaspeed exec with whom Nvidia CEO Jensen Huang had an extramarital affair, is a Chinese spy.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297774940.jpg?resize=1200,832",
       "published_at": "2026-11-26T20:00:00+00:00",
       "categories": [
         "Hardware",
@@ -22539,7 +22165,7 @@
       "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
       "summary": "Elon Musk's social network X has finally added parental controls for teenagers, giving parents and guardians a way to manage what their kids see on the platform.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg?resize=1200,675",
       "published_at": "2026-11-26T19:31:50+00:00",
       "categories": [
         "Apps",
@@ -22567,42 +22193,12 @@
       ]
     },
     {
-      "item_id": "df9a553e29c9e53eeedc2079bffe4e9d1a00bcabce058f8badc18b2f31949387",
-      "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
-      "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
-      "summary": "In the same week that NVIDIA reinstated Jensen Huang as its CEO, the company has reportedly also blocked shipments to Southeast Asia.",
-      "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia/l-intro-1795716287.jpg",
-      "published_at": "2026-11-26T18:09:18+00:00",
-      "categories": [
-        "AI"
-      ]
-    },
-    {
-      "item_id": "c137f8f840cf11d5bead7c7bba0693ef925ac78921ae72c91d12ed3284ae414f",
-      "title": "Android app developers will soon have to share their address publicly",
-      "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-      "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007893/acastro_STK112_android_02.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-26T17:06:24+00:00",
-      "categories": [
-        "Android",
-        "Google",
-        "News",
-        "Policy",
-        "Politics",
-        "Regulation",
-        "Tech"
-      ]
-    },
-    {
       "item_id": "d3fe242e2124f19c847fe9bd4e6405d0badd5517e628f9cb205dead4b594a1a9",
       "title": "A month with the iPhone Duo has changed how I use my phone",
       "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
       "summary": "From reading more books to breaking mindless scrolling habits, Apple's foldable has changed my daily routines in ways I didn't anticipate.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/iphone-duo-GettyImages-2301595744.jpg?w=1024",
       "published_at": "2026-11-26T17:00:00+00:00",
       "categories": [
         "Hardware",
@@ -22645,7 +22241,7 @@
       "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
       "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
       "source": "TechCrunch",
-      "image_url": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.117_b11r13mg5.jpg?resize=1200,675",
       "published_at": "2026-11-26T16:00:00+00:00",
       "categories": [
         "AI",
@@ -22668,20 +22264,6 @@
         "Deals",
         "Gadgets",
         "Verge Shopping"
-      ]
-    },
-    {
-      "item_id": "5c3c2fa3f1c96b687ea97c70b4cc573485368bfb9bdc3139a90a65a97eff37c7",
-      "title": "GTA VI developers vote against unionization",
-      "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
-      "summary": "Workers at Grand Theft Auto VI developer Rockstar Games won't unionize, after the vote for a formal recognition agreement failed, with only 25 percent of votes in favor of unionization. The Independent Workers Union of Great Britain (IWGB) said that Rockstar workers in the union will continue organizing even without formal recognition. Voting ran from [&#8230;]",
-      "source": "The Verge",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Jason_and_Lucia_01.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "published_at": "2026-11-26T15:55:24+00:00",
-      "categories": [
-        "Business",
-        "Gaming",
-        "News"
       ]
     },
     {
@@ -22854,6 +22436,176 @@
       "published_at": "2026-11-27T09:38:33+00:00",
       "categories": [
         "Mobile"
+      ]
+    },
+    {
+      "item_id": "93cde065000e4cde7f80480d4a61eb9f01de5e854bf94e9035dc91f28a8ac7f0",
+      "title": "My favorite MPC beat maker is ready for your vibe-coded firmware and effects",
+      "url": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
+      "summary": "Akai is continuing to open up its various music-making platforms with the MPC Sample 1.4 firmware. My favorite (and the most affordable) of the MPC samplers has become a popular home for vibe-coded custom firmwares and mods. The company has decided, rather than fight it, to embrace the modding community. The latest update adds several [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268415_MPC_Sample_TO_Brien_0006.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-27T20:48:04+00:00",
+      "categories": [
+        "Entertainment",
+        "Gadgets",
+        "Music",
+        "Tech"
+      ]
+    },
+    {
+      "item_id": "308409bdb9c8fee01e0e6202591d7849b9470677c79b12fd65465145c735bff5",
+      "title": "Nothing’s ANC-equipped earbuds are on sale for less than $20 for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1041717/nothing-cmf-buds-2a-earbuds-black-friday-2026-deal-sale",
+      "summary": "If our sub-$30 Black Friday roundup has you hungry for more great gadgets at low prices, you can currently grab the Nothing CMF Buds 2A in black starting at $17.89 on Amazon for Black Friday, which is about $11 less than the MSRP and the lowest price we’ve seen. The wireless earbuds are discounted in [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/CMF-Buds-2a-in-Dark-Grey.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-27T20:30:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "89a0f9201333e614cc42b01679ba9226d2477c702281a6ba4f13c57152ca7d4c",
+      "title": "Samsung is reportedly giving its camera app an AI mode",
+      "url": "https://www.engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode/",
+      "summary": "The feature could mirror the Siri mode Apple added in iOS 27.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/samsung-is-reportedly-giving-its-camera-app-an-ai-mode/l-intro-1795809894.jpg",
+      "published_at": "2026-11-27T20:06:02+00:00",
+      "categories": [
+        "Samsung"
+      ]
+    },
+    {
+      "item_id": "877ff2429cec18622ccb8479d1676c8c0824b59aec1ed897b771e08c378ee76a",
+      "title": "Restricted NVIDIA chips were installed at a Chinese data center linked to Alice Huang",
+      "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+      "summary": "Bloomberg traced the lineage of one GB300 server rack to Gigabyte Technology.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/l-intro-1795804126.jpg",
+      "published_at": "2026-11-27T19:45:23+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "f83c3a8566751fb59542849f35a5c0fe05f95f84699f0cadbcbc76e0b6bec21e",
+      "title": "OpenAI countersues Apple and accuses it of stealing trade secrets",
+      "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
+      "summary": "The suit suggests that the iPhone maker is trying to \"compete unfairly by any means available.\"",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/l-intro-1795808637.jpg",
+      "published_at": "2026-11-27T19:44:38+00:00",
+      "categories": [
+        "AI",
+        "Apple"
+      ]
+    },
+    {
+      "item_id": "1deb045d673f913b203a81d9c9a9f93c4e30820b8b30eac91562839ad05469d7",
+      "title": "You might lose your Oura health data if you’re still using an old Android phone",
+      "url": "https://www.theverge.com/gadgets/1044314/oura-ring-health-data-android-11",
+      "summary": "Oura will be dropping support for Android 11 on December 8th, 2026, and users may not have access to all of their data if they don't upgrade to Android 12 or higher before the deadline. The support page now reads: Oura will drop support for Android 11 on December 8, 2026. If you are using [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268600_oura_ring_5_AKrales_0176.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-27T19:44:19+00:00",
+      "categories": [
+        "Gadgets",
+        "Health",
+        "News",
+        "Science",
+        "Wearable"
+      ]
+    },
+    {
+      "item_id": "649ebd0b1ff478903e03306069335562db200921996e09d7cd936357964e4bd1",
+      "title": "The best Black Friday deals on smart home gear",
+      "url": "https://www.theverge.com/gadgets/1043912/best-smart-home-deals-black-friday",
+      "summary": "I’ve spent my post-turkey haze powering through reams of deals on smart home gadgets to find the best discounts on some of my favorite products. Smart home is often one of the best categories to shop around Black Friday, as it’s traditionally when robot vacuums, video doorbells, smart locks, and thermostats see their lowest prices [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/257805_Govee_Table_Lamp_2_Pro_JTuohy_0005.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-27T19:30:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Smart Home",
+        "Tech",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "062cd35d64e639c26038a79dd67a70a4a0186b5ea9ae27e693ed669627b5d519",
+      "title": "Anker’s 100W universal travel charger is down to $60, its lowest price yet",
+      "url": "https://www.theverge.com/gadgets/1041006/anker-100w-universal-travel-charger-black-friday-deal-sale",
+      "summary": "During Black Friday, the Anker 100W Universal Charger is on sale for $59.99 at Amazon, Best Buy, and Walmart, a $20 discount from its list price. That’s a few dollars lower than the previous best, with both the dark gray and silver versions available from all three retailers. With four USB ports and support for [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/anker-nano-100w-universal-travel-adapter.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-27T18:30:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "b36f41358e76e9d3f7f8dc3dccd73d28b228b150cfadeced2e1ded3bb02049f2",
+      "title": "Here are the best Black Friday deals you can grab for $30 or less",
+      "url": "https://www.theverge.com/gadgets/1039645/black-friday-best-cheap-tech-deals-under-30-2026",
+      "summary": "What can you get for $30 these days? When it comes to tech, you might be surprised. Even as gadgets get more expensive, $30 can still go a long way, especially on Black Friday. For just $8, for instance, TP-Link’s Tapo smart plug will let you control the Christmas tree lights from your phone. You [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268280_AirTags_2_AKrales_0003.webp?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-27T17:30:00+00:00",
+      "categories": [
+        "Black Friday",
+        "Cyber Monday",
+        "Deals",
+        "Gadgets",
+        "Verge Shopping"
+      ]
+    },
+    {
+      "item_id": "f66d42ac6ca38451c8f4a44be5213c6cc84530427251c76dc34bb777dbace37f",
+      "title": "Hackers reportedly infiltrated the Air Force's cloud systems",
+      "url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
+      "summary": "The breach was discovered within the last month during system upgrade work, according to Reuters.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/hackers-reportedly-infiltrated-the-air-forces-cloud-systems/l-intro-1795798468.jpg",
+      "published_at": "2026-11-27T16:55:43+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "bde8db9e3e2d7e89cea60b1d6485b3cf3d34efeffe82299f746b10d044650e2d",
+      "title": "5 Costco Electronics With Deep Discounts For Black Friday 2026",
+      "url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026/",
+      "summary": "Costco members can get some pretty great deals this weekend.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/5-costco-electronics-with-deep-discounts-for-black-friday-2026/l-intro-1795798205.jpg",
+      "published_at": "2026-11-27T16:51:43+00:00",
+      "categories": [
+        "Big Tech"
+      ]
+    },
+    {
+      "item_id": "4a59224ce05e26ced247e8d2dfc6fbfb871e4414b287d8c3aa902f8eedb34599",
+      "title": "WhatsApp adds support for travel eSIMs",
+      "url": "https://www.engadget.com/2329553/whatsapp-adds-support-for-travel-esims/",
+      "summary": "Users will be able to buy the travel eSIM service directly through WhatsApp.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/whatsapp-adds-support-for-travel-esims/l-intro-1795796572.jpg",
+      "published_at": "2026-11-27T16:24:07+00:00",
+      "categories": [
+        "Big Tech"
       ]
     }
   ]
