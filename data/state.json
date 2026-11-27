@@ -22527,7 +22527,7 @@
       "url": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
       "summary": "A campaign demanding that Amazon recognize and bargain with unions will see workers in more than 20 countries mobilize.",
       "source": "Engadget",
-      "image_url": "https://www.engadget.com/img/gallery/amazon-workers-around-the-world-plan-strikes-and-protests-on-black-friday-and-cyber-monday/l-intro-1795722145.jpg",
+      "image_url": "https://www.engadget.com/img/gallery/amazon-workers-around-the-world-plan-strikes-and-protests-on-black-friday-and-cyber-monday/l-intro-1795728490.jpg",
       "published_at": "2026-11-26T19:44:49+00:00",
       "categories": [
         "Amazon"
@@ -22749,6 +22749,35 @@
       "published_at": "2026-11-26T13:14:18+00:00",
       "categories": [
         "News"
+      ]
+    },
+    {
+      "item_id": "3971c2f04ad064c6bdeadfb47de255ef81cd3c89fc6275f0a892d3bcb318ff46",
+      "title": "Backloggd urges users to change their passwords after a breach",
+      "url": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
+      "summary": "If you use Backloggd, you might need to log in again and reset your password.",
+      "source": "Engadget",
+      "image_url": "https://www.engadget.com/img/gallery/backloggd-urges-users-to-change-their-passwords-after-a-breach/l-intro-1795728014.jpg",
+      "published_at": "2026-11-26T21:26:47+00:00",
+      "categories": [
+        "Entertainment",
+        "Cybersecurity"
+      ]
+    },
+    {
+      "item_id": "990eb9a31d3853203709d2251ed479a60e3442a329c4aa38dc07d7f1c49d583a",
+      "title": "Netflix’s coziest show has made a very quiet return",
+      "url": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
+      "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also includes a growing library of reality shows, live-programming, and even games. It makes it easy for some of the best [&#8230;]",
+      "source": "The Verge",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-26-at-3.34.34-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "published_at": "2026-11-26T21:00:00+00:00",
+      "categories": [
+        "Entertainment",
+        "Netflix",
+        "Streaming",
+        "TV Show Reviews",
+        "TV Shows"
       ]
     }
   ]
